@@ -27,6 +27,7 @@
 * [AuthorityId](../classes/_type_authorityid_.authorityid.md)
 * [AvailabilityVote](../classes/_type_attestedcandidate_.availabilityvote.md)
 * [Balance](../classes/_type_balance_.balance.md)
+* [BalanceLock](../classes/_type_balancelock_.balancelock.md)
 * [BalanceOf](../classes/_type_balance_.balanceof.md)
 * [BalanceUpload](../classes/_type_attestedcandidate_.balanceupload.md)
 * [BftAtReport](../classes/_type_misbehaviorreport_.bftatreport.md)
@@ -63,6 +64,7 @@
 * [EventMetadata](../classes/_metadata_v0_events_.eventmetadata.md)
 * [EventRecord](../classes/_type_eventrecord_.eventrecord.md)
 * [ExplicitCandidateSignature](../classes/_type_attestedcandidate_.explicitcandidatesignature.md)
+* [Exposure](../classes/_type_exposure_.exposure.md)
 * [Extrinsic](../classes/_type_extrinsic_.extrinsic.md)
 * [ExtrinsicEra](../classes/_type_extrinsicera_.extrinsicera.md)
 * [ExtrinsicSignature](../classes/_type_extrinsicsignature_.extrinsicsignature.md)
@@ -90,6 +92,7 @@
 * [I8](../classes/_primitive_i8_.i8.md)
 * [IHash](_types_.ihash.md)
 * [ImplicitCandidateSignature](../classes/_type_attestedcandidate_.implicitcandidatesignature.md)
+* [IndividualExposure](../classes/_type_individualexposure_.individualexposure.md)
 * [InherentOfflineReport](../classes/_type_inherentofflinereport_.inherentofflinereport.md)
 * [Int](../classes/_codec_int_.int.md)
 * [Invalid](../classes/_rpc_extrinsicstatus_.invalid.md)
@@ -98,6 +101,7 @@
 * [KeyValue](../classes/_type_keyvalue_.keyvalue.md)
 * [KeyValueOption](../classes/_type_keyvalue_.keyvalueoption.md)
 * [LocKPeriods](../classes/_type_lockperiods_.lockperiods.md)
+* [LockIdentifier](../classes/_type_lockidentifier_.lockidentifier.md)
 * [MagicNumber](../classes/_metadata_magicnumber_.magicnumber.md)
 * [MapType](../classes/_metadata_v1_storage_.maptype.md)
 * [MapType](../classes/_metadata_v0_modules_.maptype.md)
@@ -147,6 +151,7 @@
 * [Ready](../classes/_rpc_extrinsicstatus_.ready.md)
 * [ReferendumIndex](../classes/_type_referendumindex_.referendumindex.md)
 * [ReferendumInfo](../classes/_type_referenduminfo_.referenduminfo.md)
+* [RewardDestination](../classes/_type_rewarddestination_.rewarddestination.md)
 * [RhdJustification](../classes/_type_justification_.rhdjustification.md)
 * [RuntimeModuleMetadata](../classes/_metadata_v0_modules_.runtimemodulemetadata.md)
 * [RuntimeVersion](../classes/_rpc_runtimeversion_.runtimeversion.md)
@@ -160,6 +165,7 @@
 * [SignaturePayload](../classes/_type_signaturepayload_.signaturepayload.md)
 * [SignedBlock](../classes/_rpc_signedblock_.signedblock.md)
 * [Sr25519Signature](../classes/_type_signature_.sr25519signature.md)
+* [StakingLedger](../classes/_type_stakingledger_.stakingledger.md)
 * [StorageChangeSet](../classes/_rpc_storagechangeset_.storagechangeset.md)
 * [StorageData](../classes/_primitive_storagedata_.storagedata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v0_modules_.storagefunctionmetadata.md)
@@ -182,6 +188,7 @@
 * [U8aFixed](../classes/_codec_u8afixed_.u8afixed.md)
 * [UInt](../classes/_codec_uint_.uint.md)
 * [USize](../classes/_primitive_usize_.usize.md)
+* [UnlockChunk](../classes/_type_unlockchunk_.unlockchunk.md)
 * [Usurped](../classes/_rpc_extrinsicstatus_.usurped.md)
 * [ValidatorPrefs](../classes/_type_validatorprefs_.validatorprefs.md)
 * [ValidityAttestation](../classes/_type_attestedcandidate_.validityattestation.md)
@@ -191,6 +198,7 @@
 * [Vote](../classes/_type_vote_.vote.md)
 * [VoteIndex](../classes/_type_voteindex_.voteindex.md)
 * [VoteThreshold](../classes/_type_votethreshold_.votethreshold.md)
+* [WithdrawReasons](../classes/_type_withdrawreasons_.withdrawreasons.md)
 
 # Properties
 
@@ -200,7 +208,7 @@
 
 **● encodedLength**: *`number`*
 
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/5f065b5/packages/types/src/types.ts#L39)*
+*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/7f8a7f4/packages/types/src/types.ts#L39)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -211,7 +219,7 @@ ___
 
 **● isEmpty**: *`boolean`*
 
-*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/5f065b5/packages/types/src/types.ts#L44)*
+*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/7f8a7f4/packages/types/src/types.ts#L44)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -225,7 +233,7 @@ ___
 
 ▸ **eq**(other?: *`any`*): `boolean`
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/5f065b5/packages/types/src/types.ts#L49)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/7f8a7f4/packages/types/src/types.ts#L49)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -244,7 +252,7 @@ ___
 
 ▸ **toHex**(): `string`
 
-*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/5f065b5/packages/types/src/types.ts#L54)*
+*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/7f8a7f4/packages/types/src/types.ts#L54)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -257,7 +265,7 @@ ___
 
 ▸ **toJSON**(): `any`
 
-*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/5f065b5/packages/types/src/types.ts#L59)*
+*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/7f8a7f4/packages/types/src/types.ts#L59)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -270,7 +278,7 @@ ___
 
 ▸ **toString**(): `string`
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/5f065b5/packages/types/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/7f8a7f4/packages/types/src/types.ts#L64)*
 
 *__description__*: Returns the string representation of the value
 
@@ -283,7 +291,7 @@ ___
 
 ▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
 
-*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/5f065b5/packages/types/src/types.ts#L70)*
+*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/7f8a7f4/packages/types/src/types.ts#L70)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 
