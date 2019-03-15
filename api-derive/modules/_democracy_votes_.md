@@ -8,7 +8,7 @@
 
 ▸ **votes**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [democracy/votes.ts:12](https://github.com/polkadot-js/api/blob/7f2546e/packages/api-derive/src/democracy/votes.ts#L12)*
+*Defined in [democracy/votes.ts:12](https://github.com/polkadot-js/api/blob/3e43bc5/packages/api-derive/src/democracy/votes.ts#L12)*
 
 **Parameters:**
 

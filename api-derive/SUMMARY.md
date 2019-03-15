@@ -24,5 +24,4 @@
 * [&quot;session/sessionProgress&quot;](modules/_session_sessionprogress_.md)
 * [&quot;staking/intentionsBalances&quot;](modules/_staking_intentionsbalances_.md)
 * [&quot;types&quot;](modules/_types_.md)
-* [&quot;util/cache&quot;](modules/_util_cache_.md)
 * [&quot;util/drr&quot;](modules/_util_drr_.md)
