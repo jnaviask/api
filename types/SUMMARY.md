@@ -189,6 +189,8 @@
   * [AccountIdOf](classes/_type_accountid_.accountidof.md)
 * [&quot;type/AccountIndex&quot;](modules/_type_accountindex_.md)
   * [AccountIndex](classes/_type_accountindex_.accountindex.md)
+* [&quot;type/AccountInfo&quot;](modules/_type_accountinfo_.md)
+  * [AccountInfo](classes/_type_accountinfo_.accountinfo.md)
 * [&quot;type/Address&quot;](modules/_type_address_.md)
   * [Address](classes/_type_address_.address.md)
 * [&quot;type/Amount&quot;](modules/_type_amount_.md)

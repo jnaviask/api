@@ -17,6 +17,7 @@
 * [AccountId](../classes/_type_accountid_.accountid.md)
 * [AccountIdOf](../classes/_type_accountid_.accountidof.md)
 * [AccountIndex](../classes/_type_accountindex_.accountindex.md)
+* [AccountInfo](../classes/_type_accountinfo_.accountinfo.md)
 * [Address](../classes/_type_address_.address.md)
 * [Amount](../classes/_type_amount_.amount.md)
 * [ApiId](../classes/_rpc_runtimeversion_.apiid.md)
@@ -104,9 +105,9 @@
 * [LocKPeriods](../classes/_type_lockperiods_.lockperiods.md)
 * [LockIdentifier](../classes/_type_lockidentifier_.lockidentifier.md)
 * [MagicNumber](../classes/_metadata_magicnumber_.magicnumber.md)
-* [MapType](../classes/_metadata_v2_storage_.maptype.md)
-* [MapType](../classes/_metadata_v0_modules_.maptype.md)
 * [MapType](../classes/_metadata_v1_storage_.maptype.md)
+* [MapType](../classes/_metadata_v0_modules_.maptype.md)
+* [MapType](../classes/_metadata_v2_storage_.maptype.md)
 * [Metadata](../classes/_metadata_metadata_.metadata.md)
 * [MetadataCall](../classes/_metadata_v1_calls_.metadatacall.md)
 * [MetadataCallArg](../classes/_metadata_v1_calls_.metadatacallarg.md)
@@ -150,8 +151,8 @@
 * [Perbill](../classes/_type_perbill_.perbill.md)
 * [Permill](../classes/_type_permill_.permill.md)
 * [Phase](../classes/_type_eventrecord_.phase.md)
-* [PlainType](../classes/_metadata_v1_storage_.plaintype.md)
 * [PlainType](../classes/_metadata_v2_storage_.plaintype.md)
+* [PlainType](../classes/_metadata_v1_storage_.plaintype.md)
 * [PrefabWasmModule](../classes/_type_prefabwasmmodule_.prefabwasmmodule.md)
 * [PropIndex](../classes/_type_propindex_.propindex.md)
 * [Proposal](../classes/_type_proposal_.proposal.md)
@@ -216,7 +217,7 @@
 
 **● encodedLength**: *`number`*
 
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/143cd2f/packages/types/src/types.ts#L39)*
+*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/26d01aa/packages/types/src/types.ts#L39)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -227,7 +228,7 @@ ___
 
 **● isEmpty**: *`boolean`*
 
-*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/143cd2f/packages/types/src/types.ts#L44)*
+*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/26d01aa/packages/types/src/types.ts#L44)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -241,7 +242,7 @@ ___
 
 ▸ **eq**(other?: *`any`*): `boolean`
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/143cd2f/packages/types/src/types.ts#L49)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/26d01aa/packages/types/src/types.ts#L49)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -260,7 +261,7 @@ ___
 
 ▸ **toHex**(): `string`
 
-*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/143cd2f/packages/types/src/types.ts#L54)*
+*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/26d01aa/packages/types/src/types.ts#L54)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -273,7 +274,7 @@ ___
 
 ▸ **toJSON**(): `any`
 
-*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/143cd2f/packages/types/src/types.ts#L59)*
+*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/26d01aa/packages/types/src/types.ts#L59)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -286,7 +287,7 @@ ___
 
 ▸ **toString**(): `string`
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/143cd2f/packages/types/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/26d01aa/packages/types/src/types.ts#L64)*
 
 *__description__*: Returns the string representation of the value
 
@@ -299,7 +300,7 @@ ___
 
 ▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
 
-*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/143cd2f/packages/types/src/types.ts#L70)*
+*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/26d01aa/packages/types/src/types.ts#L70)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 
