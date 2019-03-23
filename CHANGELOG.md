@@ -1,7 +1,11 @@
+# 0.50.1
+
+- Lastest util-crypto (usage of WASM with JS fallbacks if not available)
+- Update util & keyring
+
 # 0.49.1
 
-- Fix large message signing on non-known nodes (default is now hashing, enough time between upgrades)
-- Lastest util-crypto, including usage of WASM
+- Fix large message signing on non-known nodes (default is now hashing, there has been enough time between upgrades)
 
 # 0.48.1
 
