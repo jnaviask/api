@@ -18,9 +18,9 @@
 
 ↳  [Enum](_codec_enum_.enum.md)
 
-↳  [Address](_type_address_.address.md)
-
 ↳  [Set](_codec_set_.set.md)
+
+↳  [Address](_type_address_.address.md)
 
 # Constructors
 
@@ -30,7 +30,7 @@
 
 ⊕ **new Base**(value?: *`any`*): [Base](_codec_base_.base.md)
 
-*Defined in [codec/Base.ts:10](https://github.com/polkadot-js/api/blob/e5952e4/packages/types/src/codec/Base.ts#L10)*
+*Defined in [codec/Base.ts:10](https://github.com/polkadot-js/api/blob/6ea665d/packages/types/src/codec/Base.ts#L10)*
 
 **Parameters:**
 
