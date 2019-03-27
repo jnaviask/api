@@ -265,6 +265,8 @@
 * [&quot;type/Justification&quot;](modules/_type_justification_.md)
   * [Justification](classes/_type_justification_.justification.md)
   * [RhdJustification](classes/_type_justification_.rhdjustification.md)
+* [&quot;type/Key&quot;](modules/_type_key_.md)
+  * [Key](classes/_type_key_.key.md)
 * [&quot;type/KeyValue&quot;](modules/_type_keyvalue_.md)
   * [KeyValue](classes/_type_keyvalue_.keyvalue.md)
   * [KeyValueOption](classes/_type_keyvalue_.keyvalueoption.md)

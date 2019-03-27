@@ -20,7 +20,7 @@
 
 ▸ **getUniqTypes**(throwError: *`boolean`*): `Array`<`string`>
 
-*Defined in [Metadata/types.ts:6](https://github.com/polkadot-js/api/blob/c827bdb/packages/types/src/Metadata/types.ts#L6)*
+*Defined in [Metadata/types.ts:6](https://github.com/polkadot-js/api/blob/45e5243/packages/types/src/Metadata/types.ts#L6)*
 
 **Parameters:**
 
