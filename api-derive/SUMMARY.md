@@ -22,6 +22,7 @@
 * [&quot;session/eraLength&quot;](modules/_session_eralength_.md)
 * [&quot;session/eraProgress&quot;](modules/_session_eraprogress_.md)
 * [&quot;session/sessionProgress&quot;](modules/_session_sessionprogress_.md)
+* [&quot;staking/controllers&quot;](modules/_staking_controllers_.md)
 * [&quot;staking/intentionsBalances&quot;](modules/_staking_intentionsbalances_.md)
 * [&quot;types&quot;](modules/_types_.md)
 * [&quot;util/drr&quot;](modules/_util_drr_.md)
