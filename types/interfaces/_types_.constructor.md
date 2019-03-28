@@ -14,7 +14,7 @@
 
 ⊕ **new Constructor**(...value: *`Array`<`any`>*): `T`
 
-*Defined in [types.ts:75](https://github.com/polkadot-js/api/blob/6ea665d/packages/types/src/types.ts#L75)*
+*Defined in [types.ts:75](https://github.com/polkadot-js/api/blob/fa6d38f/packages/types/src/types.ts#L75)*
 
 **Parameters:**
 
