@@ -9,7 +9,7 @@
 * [&quot;balances/votingBalances&quot;](modules/_balances_votingbalances_.md)
 * [&quot;balances/votingBalancesNominatorsFor&quot;](modules/_balances_votingbalancesnominatorsfor_.md)
 * [&quot;chain/bestNumber&quot;](modules/_chain_bestnumber_.md)
-* [&quot;chain/bestNumberFinalised&quot;](modules/_chain_bestnumberfinalised_.md)
+* [&quot;chain/bestNumberFinalized&quot;](modules/_chain_bestnumberfinalized_.md)
 * [&quot;chain/bestNumberLag&quot;](modules/_chain_bestnumberlag_.md)
 * [&quot;chain/getHeader&quot;](modules/_chain_getheader_.md)
 * [&quot;chain/subscribeNewHead&quot;](modules/_chain_subscribenewhead_.md)
