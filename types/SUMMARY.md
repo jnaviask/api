@@ -1,3 +1,7 @@
+* [&quot;ContractAbi&quot;](modules/_contractabi_.md)
+  * [ContractAbi](classes/_contractabi_.contractabi.md)
+  * [Contract](interfaces/_contractabi_.contract.md)
+  * [ContractABIFn](interfaces/_contractabi_.contractabifn.md)
 * [&quot;Metadata/MagicNumber&quot;](modules/_metadata_magicnumber_.md)
   * [MagicNumber](classes/_metadata_magicnumber_.magicnumber.md)
 * [&quot;Metadata/Metadata&quot;](modules/_metadata_metadata_.md)
