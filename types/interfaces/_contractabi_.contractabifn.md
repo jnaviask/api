@@ -7,7 +7,7 @@
 # Callable
 ▸ **__call**(...args: *`Array`<[CodecArg](../modules/_types_.md#codecarg)>*): `Uint8Array`
 
-*Defined in [ContractAbi.ts:34](https://github.com/polkadot-js/api/blob/8e6c5f6/packages/types/src/ContractAbi.ts#L34)*
+*Defined in [ContractAbi.ts:34](https://github.com/polkadot-js/api/blob/f20727b/packages/types/src/ContractAbi.ts#L34)*
 
 **Parameters:**
 
@@ -25,7 +25,7 @@
 
 **● args**: *[ContractABIArgs](../modules/_contractabi_.md#contractabiargs)*
 
-*Defined in [ContractAbi.ts:36](https://github.com/polkadot-js/api/blob/8e6c5f6/packages/types/src/ContractAbi.ts#L36)*
+*Defined in [ContractAbi.ts:36](https://github.com/polkadot-js/api/blob/f20727b/packages/types/src/ContractAbi.ts#L36)*
 
 ___
 <a id="isconstant"></a>
@@ -34,7 +34,7 @@ ___
 
 **● isConstant**: *`boolean`*
 
-*Defined in [ContractAbi.ts:37](https://github.com/polkadot-js/api/blob/8e6c5f6/packages/types/src/ContractAbi.ts#L37)*
+*Defined in [ContractAbi.ts:37](https://github.com/polkadot-js/api/blob/f20727b/packages/types/src/ContractAbi.ts#L37)*
 
 ___
 <a id="type"></a>
@@ -43,7 +43,7 @@ ___
 
 **● type**: *`string` \| `null`*
 
-*Defined in [ContractAbi.ts:38](https://github.com/polkadot-js/api/blob/8e6c5f6/packages/types/src/ContractAbi.ts#L38)*
+*Defined in [ContractAbi.ts:38](https://github.com/polkadot-js/api/blob/f20727b/packages/types/src/ContractAbi.ts#L38)*
 
 ___
 
