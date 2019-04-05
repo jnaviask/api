@@ -344,6 +344,8 @@
 * [&quot;type/StoredPendingChange&quot;](modules/_type_storedpendingchange_.md)
   * [NextAuthority](classes/_type_storedpendingchange_.nextauthority.md)
   * [StoredPendingChange](classes/_type_storedpendingchange_.storedpendingchange.md)
+* [&quot;type/TreasuryProposal&quot;](modules/_type_treasuryproposal_.md)
+  * [TreasuryProposal](classes/_type_treasuryproposal_.treasuryproposal.md)
 * [&quot;type/UnlockChunk&quot;](modules/_type_unlockchunk_.md)
   * [UnlockChunk](classes/_type_unlockchunk_.unlockchunk.md)
 * [&quot;type/ValidatorPrefs&quot;](modules/_type_validatorprefs_.md)

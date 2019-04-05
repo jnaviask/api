@@ -24,7 +24,7 @@
 
 *Overrides [Set](_codec_set_.set.md).[constructor](_codec_set_.set.md#constructor)*
 
-*Defined in [type/WithdrawReasons.ts:12](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/type/WithdrawReasons.ts#L12)*
+*Defined in [type/WithdrawReasons.ts:12](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/type/WithdrawReasons.ts#L12)*
 
 **Parameters:**
 
@@ -46,7 +46,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[encodedLength](_codec_set_.set.md#encodedlength)*
 
-*Defined in [codec/Set.ts:73](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L73)*
+*Defined in [codec/Set.ts:73](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L73)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -61,7 +61,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[isEmpty](_codec_set_.set.md#isempty)*
 
-*Defined in [codec/Set.ts:80](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L80)*
+*Defined in [codec/Set.ts:80](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L80)*
 
 *__description__*: true is the Set contains no values
 
@@ -74,7 +74,7 @@ ___
 
 **get isReserve**(): `boolean`
 
-*Defined in [type/WithdrawReasons.ts:24](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/type/WithdrawReasons.ts#L24)*
+*Defined in [type/WithdrawReasons.ts:24](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/type/WithdrawReasons.ts#L24)*
 
 *__description__*: In order to reserve some funds for a later return or repatriation
 
@@ -87,7 +87,7 @@ ___
 
 **get isTransactionPayment**(): `boolean`
 
-*Defined in [type/WithdrawReasons.ts:31](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/type/WithdrawReasons.ts#L31)*
+*Defined in [type/WithdrawReasons.ts:31](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/type/WithdrawReasons.ts#L31)*
 
 *__description__*: In order to pay for (system) transaction costs
 
@@ -100,7 +100,7 @@ ___
 
 **get isTransfer**(): `boolean`
 
-*Defined in [type/WithdrawReasons.ts:38](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/type/WithdrawReasons.ts#L38)*
+*Defined in [type/WithdrawReasons.ts:38](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/type/WithdrawReasons.ts#L38)*
 
 *__description__*: In order to transfer ownership
 
@@ -115,7 +115,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[valueEncoded](_codec_set_.set.md#valueencoded)*
 
-*Defined in [codec/Set.ts:94](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L94)*
+*Defined in [codec/Set.ts:94](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L94)*
 
 *__description__*: The encoded value for the set members
 
@@ -130,7 +130,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[values](_codec_set_.set.md#values)*
 
-*Defined in [codec/Set.ts:87](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L87)*
+*Defined in [codec/Set.ts:87](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L87)*
 
 *__description__*: The actual set values as a Array
 
@@ -150,7 +150,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[eq](_codec_set_.set.md#eq)*
 
-*Defined in [codec/Set.ts:101](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L101)*
+*Defined in [codec/Set.ts:101](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L101)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -173,7 +173,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[toHex](_codec_set_.set.md#tohex)*
 
-*Defined in [codec/Set.ts:117](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L117)*
+*Defined in [codec/Set.ts:117](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L117)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -190,7 +190,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[toJSON](_codec_set_.set.md#tojson)*
 
-*Defined in [codec/Set.ts:124](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L124)*
+*Defined in [codec/Set.ts:124](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L124)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -207,7 +207,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[toString](_codec_set_.set.md#tostring)*
 
-*Defined in [codec/Set.ts:131](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L131)*
+*Defined in [codec/Set.ts:131](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L131)*
 
 *__description__*: Returns the string representation of the value
 
@@ -224,7 +224,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[toU8a](_codec_set_.set.md#tou8a)*
 
-*Defined in [codec/Set.ts:139](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L139)*
+*Defined in [codec/Set.ts:139](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L139)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 
@@ -245,7 +245,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[decodeSet](_codec_set_.set.md#decodeset)*
 
-*Defined in [codec/Set.ts:33](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L33)*
+*Defined in [codec/Set.ts:33](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L33)*
 
 **Parameters:**
 
@@ -265,7 +265,7 @@ ___
 
 *Inherited from [Set](_codec_set_.set.md).[encodeSet](_codec_set_.set.md#encodeset)*
 
-*Defined in [codec/Set.ts:64](https://github.com/polkadot-js/api/blob/13d3f68/packages/types/src/codec/Set.ts#L64)*
+*Defined in [codec/Set.ts:64](https://github.com/polkadot-js/api/blob/3392436/packages/types/src/codec/Set.ts#L64)*
 
 **Parameters:**
 
