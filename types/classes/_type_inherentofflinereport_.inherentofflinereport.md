@@ -27,7 +27,7 @@
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[constructor](_codec_tuple_.tuple.md#constructor)*
 
-*Defined in [codec/Tuple.ts:22](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L22)*
+*Defined in [codec/Tuple.ts:22](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/Tuple.ts#L22)*
 
 **Parameters:**
 
@@ -37,22 +37,6 @@
 | value | `any` |
 
 **Returns:** [InherentOfflineReport](_type_inherentofflinereport_.inherentofflinereport.md)
-
-___
-
-# Properties
-
-<a id="length"></a>
-
-##  length
-
-**● length**: *`number`*
-
-*Inherited from Array.length*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1209*
-
-Gets or sets the length of the array. This is a number one higher than the highest element defined in an array.
 
 ___
 
@@ -66,7 +50,7 @@ ___
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[Types](_codec_tuple_.tuple.md#types)*
 
-*Defined in [codec/Tuple.ts:75](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L75)*
+*Defined in [codec/Tuple.ts:68](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/Tuple.ts#L68)*
 
 *__description__*: The types definition of the tuple
 
@@ -81,7 +65,9 @@ ___
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[encodedLength](_codec_tuple_.tuple.md#encodedlength)*
 
-*Defined in [codec/Tuple.ts:59](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L59)*
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[encodedLength](_codec_abstractarray_.abstractarray.md#encodedlength)*
+
+*Defined in [codec/Tuple.ts:59](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/Tuple.ts#L59)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -94,13 +80,30 @@ ___
 
 **get isEmpty**(): `boolean`
 
-*Inherited from [Tuple](_codec_tuple_.tuple.md).[isEmpty](_codec_tuple_.tuple.md#isempty)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[isEmpty](_codec_abstractarray_.abstractarray.md#isempty)*
 
-*Defined in [codec/Tuple.ts:68](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L68)*
+*Defined in [codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/AbstractArray.ts#L22)*
 
 *__description__*: Checks if the value is an empty value
 
 **Returns:** `boolean`
+
+___
+<a id="length"></a>
+
+##  length
+
+**get length**(): `number`
+
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[length](_codec_abstractarray_.abstractarray.md#length)*
+
+*Overrides Array.length*
+
+*Defined in [codec/AbstractArray.ts:38](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/AbstractArray.ts#L38)*
+
+*__description__*: The length of the value
+
+**Returns:** `number`
 
 ___
 
@@ -219,9 +222,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
 
-*Inherited from [Tuple](_codec_tuple_.tuple.md).[eq](_codec_tuple_.tuple.md#eq)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[eq](_codec_abstractarray_.abstractarray.md#eq)*
 
-*Defined in [codec/Tuple.ts:84](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L84)*
+*Defined in [codec/AbstractArray.ts:46](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/AbstractArray.ts#L46)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -285,11 +288,11 @@ ___
 
 ▸ **filter**(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<[Codec](../interfaces/_types_.codec.md)>
 
-*Inherited from [Tuple](_codec_tuple_.tuple.md).[filter](_codec_tuple_.tuple.md#filter)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[filter](_codec_abstractarray_.abstractarray.md#filter)*
 
 *Overrides Array.filter*
 
-*Defined in [codec/Tuple.ts:140](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L140)*
+*Defined in [codec/AbstractArray.ts:111](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/AbstractArray.ts#L111)*
 
 *__description__*: Filters the array with the callback
 
@@ -705,11 +708,11 @@ ___
 
 ▸ **map**<`U`>(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<`U`>
 
-*Inherited from [Tuple](_codec_tuple_.tuple.md).[map](_codec_tuple_.tuple.md#map)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[map](_codec_abstractarray_.abstractarray.md#map)*
 
 *Overrides Array.map*
 
-*Defined in [codec/Tuple.ts:149](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L149)*
+*Defined in [codec/AbstractArray.ts:120](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/AbstractArray.ts#L120)*
 
 *__description__*: Maps the array with the callback
 
@@ -1015,9 +1018,9 @@ ___
 
 ▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
 
-*Inherited from [Tuple](_codec_tuple_.tuple.md).[toArray](_codec_tuple_.tuple.md#toarray)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toArray](_codec_abstractarray_.abstractarray.md#toarray)*
 
-*Defined in [codec/Tuple.ts:91](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L91)*
+*Defined in [codec/AbstractArray.ts:53](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/AbstractArray.ts#L53)*
 
 *__description__*: Converts the Object to an standard JavaScript Array
 
@@ -1032,9 +1035,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toHex](../interfaces/_types_.codec.md#tohex)*
 
-*Inherited from [Tuple](_codec_tuple_.tuple.md).[toHex](_codec_tuple_.tuple.md#tohex)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toHex](_codec_abstractarray_.abstractarray.md#tohex)*
 
-*Defined in [codec/Tuple.ts:98](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L98)*
+*Defined in [codec/AbstractArray.ts:60](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/AbstractArray.ts#L60)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -1049,9 +1052,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
 
-*Inherited from [Tuple](_codec_tuple_.tuple.md).[toJSON](_codec_tuple_.tuple.md#tojson)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toJSON](_codec_abstractarray_.abstractarray.md#tojson)*
 
-*Defined in [codec/Tuple.ts:105](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L105)*
+*Defined in [codec/AbstractArray.ts:67](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/AbstractArray.ts#L67)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -1083,9 +1086,9 @@ ___
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[toString](_codec_tuple_.tuple.md#tostring)*
 
-*Overrides Array.toString*
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toString](_codec_abstractarray_.abstractarray.md#tostring)*
 
-*Defined in [codec/Tuple.ts:114](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L114)*
+*Defined in [codec/Tuple.ts:77](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/Tuple.ts#L77)*
 
 *__description__*: Returns the string representation of the value
 
@@ -1102,7 +1105,9 @@ ___
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[toU8a](_codec_tuple_.tuple.md#tou8a)*
 
-*Defined in [codec/Tuple.ts:123](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L123)*
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toU8a](_codec_abstractarray_.abstractarray.md#tou8a)*
+
+*Defined in [codec/Tuple.ts:86](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/Tuple.ts#L86)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 
@@ -1159,7 +1164,7 @@ ___
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[with](_codec_tuple_.tuple.md#with)*
 
-*Defined in [codec/Tuple.ts:48](https://github.com/polkadot-js/api/blob/825408d/packages/types/src/codec/Tuple.ts#L48)*
+*Defined in [codec/Tuple.ts:48](https://github.com/polkadot-js/api/blob/b37aebe/packages/types/src/codec/Tuple.ts#L48)*
 
 **Parameters:**
 

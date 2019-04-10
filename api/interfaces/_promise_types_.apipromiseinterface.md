@@ -24,7 +24,7 @@
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[constructor](../classes/_base_.apibase.md#constructor)*
 
-*Defined in [Base.ts:83](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L83)*
+*Defined in [Base.ts:83](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L83)*
 
 *__description__*: Create an instance of the class
 
@@ -59,7 +59,7 @@ ___
 
 **● isReady**: *`Promise`<[ApiPromiseInterface](_promise_types_.apipromiseinterface.md)>*
 
-*Defined in [promise/types.ts:16](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/promise/types.ts#L16)*
+*Defined in [promise/types.ts:16](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/promise/types.ts#L16)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[derive](../classes/_base_.apibase.md#derive)*
 
-*Defined in [Base.ts:198](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L198)*
+*Defined in [Base.ts:198](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L198)*
 
 *__description__*: Derived results that are injected into the API, allowing for combinations of various query results.
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[genesisHash](../classes/_base_.apibase.md#genesishash)*
 
-*Defined in [Base.ts:134](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L134)*
+*Defined in [Base.ts:134](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L134)*
 
 *__description__*: Contains the genesis Hash of the attached chain. Apart from being useful to determine the actual chain, it can also be used to sign immortal transactions.
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[hasSubscriptions](../classes/_base_.apibase.md#hassubscriptions)*
 
-*Defined in [Base.ts:143](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L143)*
+*Defined in [Base.ts:143](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L143)*
 
 *__description__*: `true` when subscriptions are supported
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[libraryInfo](../classes/_base_.apibase.md#libraryinfo)*
 
-*Defined in [Base.ts:150](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L150)*
+*Defined in [Base.ts:150](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L150)*
 
 *__description__*: The library information name & version (from package.json)
 
@@ -141,7 +141,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[query](../classes/_base_.apibase.md#query)*
 
-*Defined in [Base.ts:218](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L218)*
+*Defined in [Base.ts:218](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L218)*
 
 *__description__*: Contains all the chain state modules and their subsequent methods in the API. These are attached dynamically from the runtime metadata.
 
@@ -166,7 +166,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[rpc](../classes/_base_.apibase.md#rpc)*
 
-*Defined in [Base.ts:238](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L238)*
+*Defined in [Base.ts:238](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L238)*
 
 *__description__*: Contains all the raw rpc sections and their subsequent methods in the API as defined by the jsonrpc interface definitions. Unlike the dynamic `api.query` and `api.tx` sections, these methods are fixed (although extensible with node upgrades) and not determined by the runtime.
 
@@ -191,7 +191,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[runtimeMetadata](../classes/_base_.apibase.md#runtimemetadata)*
 
-*Defined in [Base.ts:157](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L157)*
+*Defined in [Base.ts:157](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L157)*
 
 *__description__*: Yields the current attached runtime metadata. Generally this is only used to construct extrinsics & storage, but is useful for current runtime inspection.
 
@@ -206,7 +206,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[runtimeVersion](../classes/_base_.apibase.md#runtimeversion)*
 
-*Defined in [Base.ts:166](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L166)*
+*Defined in [Base.ts:166](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L166)*
 
 *__description__*: Contains the version information for the current runtime.
 
@@ -221,7 +221,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[tx](../classes/_base_.apibase.md#tx)*
 
-*Defined in [Base.ts:256](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L256)*
+*Defined in [Base.ts:256](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L256)*
 
 *__description__*: Contains all the extrinsic modules and their subsequent methods in the API. It allows for the construction of transactions and the submission thereof. These are attached dynamically from the runtime metadata.
 
@@ -246,7 +246,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[type](../classes/_base_.apibase.md#type)*
 
-*Defined in [Base.ts:175](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L175)*
+*Defined in [Base.ts:175](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L175)*
 
 *__description__*: The type of this API instance, either 'rxjs' or 'promise'
 
@@ -264,7 +264,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[disconnect](../classes/_base_.apibase.md#disconnect)*
 
-*Defined in [Base.ts:265](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L265)*
+*Defined in [Base.ts:265](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L265)*
 
 *__description__*: Disconnect from the underlying provider, halting all comms
 
@@ -279,7 +279,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[on](../classes/_base_.apibase.md#on)*
 
-*Defined in [Base.ts:288](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L288)*
+*Defined in [Base.ts:288](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L288)*
 
 *__description__*: Attach an eventemitter handler to listen to a specific event
 
@@ -313,7 +313,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[once](../classes/_base_.apibase.md#once)*
 
-*Defined in [Base.ts:313](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L313)*
+*Defined in [Base.ts:313](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L313)*
 
 *__description__*: Attach an one-time eventemitter handler to listen to a specific event
 
@@ -347,7 +347,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[registerTypes](../classes/_base_.apibase.md#registertypes)*
 
-*Defined in [Base.ts:322](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L322)*
+*Defined in [Base.ts:322](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L322)*
 
 *__description__*: Register additional user-defined of chain-specific types in the type registry
 
@@ -368,7 +368,7 @@ ___
 
 *Inherited from [ApiBase](../classes/_base_.apibase.md).[setSigner](../classes/_base_.apibase.md#setsigner)*
 
-*Defined in [Base.ts:182](https://github.com/polkadot-js/api/blob/825408d/packages/api/src/Base.ts#L182)*
+*Defined in [Base.ts:182](https://github.com/polkadot-js/api/blob/b37aebe/packages/api/src/Base.ts#L182)*
 
 *__description__*: Set an external signer which will be used to sign extrinsic when account passed in is not KeyringPair
 
