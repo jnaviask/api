@@ -294,7 +294,7 @@
 * [&quot;type/LockIdentifier&quot;](modules/_type_lockidentifier_.md)
   * [LockIdentifier](classes/_type_lockidentifier_.lockidentifier.md)
 * [&quot;type/LockPeriods&quot;](modules/_type_lockperiods_.md)
-  * [LocKPeriods](classes/_type_lockperiods_.lockperiods.md)
+  * [LockPeriods](classes/_type_lockperiods_.lockperiods.md)
 * [&quot;type/MisbehaviorReport&quot;](modules/_type_misbehaviorreport_.md)
   * [BftAtReport](classes/_type_misbehaviorreport_.bftatreport.md)
   * [BftDoubleCommit](classes/_type_misbehaviorreport_.bftdoublecommit.md)

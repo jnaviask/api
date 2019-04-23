@@ -2,7 +2,7 @@
 
 *__name__*: UInt
 
-*__description__*: A generic unsigned integer codec. For Substrate all numbers are LE encoded, this handles the encoding and decoding of those numbers. Upon construction the bitLength is provided and any additional use keeps the number to this length. This extends `BN`, so all methods available on a normal `BN` object is available here.
+*__description__*: A generic unsigned integer codec. For Substrate all numbers are Little Endian encoded, this handles the encoding and decoding of those numbers. Upon construction the bitLength is provided and any additional use keeps the number to this length. This extends `BN`, so all methods available on a normal `BN` object is available here.
 
 # Hierarchy
 
@@ -36,7 +36,7 @@
 
 *Overrides AbstractInt.__constructor*
 
-*Defined in [codec/UInt.ts:21](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/codec/UInt.ts#L21)*
+*Defined in [codec/UInt.ts:21](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/codec/UInt.ts#L21)*
 
 **Parameters:**
 
@@ -62,7 +62,7 @@ ___
 
 *Overrides AbstractInt.toHex*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/codec/UInt.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -79,7 +79,7 @@ ___
 
 *Overrides AbstractInt.toU8a*
 
-*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/codec/UInt.ts#L48)*
+*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/codec/UInt.ts#L48)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 

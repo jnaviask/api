@@ -108,8 +108,8 @@
 * [KeyValueOption](../classes/_type_keyvalue_.keyvalueoption.md)
 * [Linkage](../classes/_codec_linkage_.linkage.md)
 * [LinkageResult](../classes/_codec_linkage_.linkageresult.md)
-* [LocKPeriods](../classes/_type_lockperiods_.lockperiods.md)
 * [LockIdentifier](../classes/_type_lockidentifier_.lockidentifier.md)
+* [LockPeriods](../classes/_type_lockperiods_.lockperiods.md)
 * [MagicNumber](../classes/_metadata_magicnumber_.magicnumber.md)
 * [MapType](../classes/_metadata_v2_storage_.maptype.md)
 * [MapType](../classes/_metadata_v1_storage_.maptype.md)
@@ -229,7 +229,7 @@
 
 **● encodedLength**: *`number`*
 
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/types.ts#L39)*
+*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/types.ts#L39)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -240,7 +240,7 @@ ___
 
 **● isEmpty**: *`boolean`*
 
-*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/types.ts#L44)*
+*Defined in [types.ts:44](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/types.ts#L44)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -254,7 +254,7 @@ ___
 
 ▸ **eq**(other?: *`any`*): `boolean`
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/types.ts#L49)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/types.ts#L49)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -273,7 +273,7 @@ ___
 
 ▸ **toHex**(): `string`
 
-*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/types.ts#L54)*
+*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/types.ts#L54)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -286,7 +286,7 @@ ___
 
 ▸ **toJSON**(): `any`
 
-*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/types.ts#L59)*
+*Defined in [types.ts:59](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/types.ts#L59)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -299,7 +299,7 @@ ___
 
 ▸ **toString**(): `string`
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/types.ts#L64)*
 
 *__description__*: Returns the string representation of the value
 
@@ -312,7 +312,7 @@ ___
 
 ▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
 
-*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/4aa1783/packages/types/src/types.ts#L70)*
+*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/c085d01/packages/types/src/types.ts#L70)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 
