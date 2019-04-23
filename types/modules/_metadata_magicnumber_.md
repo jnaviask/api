@@ -21,7 +21,7 @@
 
 **● MAGIC_ERROR**: *`-61746`* =  -61746
 
-*Defined in [Metadata/MagicNumber.ts:10](https://github.com/polkadot-js/api/blob/cfe9d18/packages/types/src/Metadata/MagicNumber.ts#L10)*
+*Defined in [Metadata/MagicNumber.ts:10](https://github.com/polkadot-js/api/blob/94e4626/packages/types/src/Metadata/MagicNumber.ts#L10)*
 
 ___
 <a id="magic_number"></a>
@@ -30,7 +30,7 @@ ___
 
 **● MAGIC_NUMBER**: *[U32](../classes/_primitive_u32_.u32.md)* =  new U32(0x6174656d)
 
-*Defined in [Metadata/MagicNumber.ts:9](https://github.com/polkadot-js/api/blob/cfe9d18/packages/types/src/Metadata/MagicNumber.ts#L9)*
+*Defined in [Metadata/MagicNumber.ts:9](https://github.com/polkadot-js/api/blob/94e4626/packages/types/src/Metadata/MagicNumber.ts#L9)*
 
 ___
 
