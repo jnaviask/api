@@ -12,7 +12,7 @@
 
 **● isUnhashed**: *`undefined` \| `false` \| `true`*
 
-*Defined in [fromMetadata/v0/createFunction.ts:12](https://github.com/polkadot-js/api/blob/4dd320f/packages/type-storage/src/fromMetadata/v0/createFunction.ts#L12)*
+*Defined in [fromMetadata/v0/createFunction.ts:12](https://github.com/polkadot-js/api/blob/9319cf1/packages/type-storage/src/fromMetadata/v0/createFunction.ts#L12)*
 
 ___
 <a id="key"></a>
@@ -21,7 +21,7 @@ ___
 
 **● key**: *`undefined` \| `string`*
 
-*Defined in [fromMetadata/v0/createFunction.ts:13](https://github.com/polkadot-js/api/blob/4dd320f/packages/type-storage/src/fromMetadata/v0/createFunction.ts#L13)*
+*Defined in [fromMetadata/v0/createFunction.ts:13](https://github.com/polkadot-js/api/blob/9319cf1/packages/type-storage/src/fromMetadata/v0/createFunction.ts#L13)*
 
 ___
 
