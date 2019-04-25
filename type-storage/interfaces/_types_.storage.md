@@ -15,9 +15,11 @@
 
 **● substrate**: *`object`*
 
-*Defined in [types.ts:17](https://github.com/polkadot-js/api/blob/94e4626/packages/type-storage/src/types.ts#L17)*
+*Defined in [types.ts:13](https://github.com/polkadot-js/api/blob/4dd320f/packages/type-storage/src/types.ts#L13)*
 
 #### Type declaration
+
+[key: `string`]: `StorageFunction`
 
 ___
 

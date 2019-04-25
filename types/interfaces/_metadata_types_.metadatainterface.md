@@ -11,6 +11,7 @@
 * [MetadataV1](../classes/_metadata_v1_metadata_.metadatav1.md)
 * [MetadataV2](../classes/_metadata_v2_metadata_.metadatav2.md)
 * [MetadataV3](../classes/_metadata_v3_metadata_.metadatav3.md)
+* [MetadataV4](../classes/_metadata_v4_metadata_.metadatav4.md)
 * [MetadataVersioned](../classes/_metadata_metadataversioned_.metadataversioned.md)
 
 # Methods
@@ -21,7 +22,7 @@
 
 ▸ **getUniqTypes**(throwError: *`boolean`*): `Array`<`string`>
 
-*Defined in [Metadata/types.ts:6](https://github.com/polkadot-js/api/blob/94e4626/packages/types/src/Metadata/types.ts#L6)*
+*Defined in [Metadata/types.ts:6](https://github.com/polkadot-js/api/blob/4dd320f/packages/types/src/Metadata/types.ts#L6)*
 
 **Parameters:**
 
