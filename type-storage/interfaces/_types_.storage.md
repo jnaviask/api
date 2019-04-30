@@ -15,7 +15,7 @@
 
 **● substrate**: *`object`*
 
-*Defined in [types.ts:13](https://github.com/polkadot-js/api/blob/5445314/packages/type-storage/src/types.ts#L13)*
+*Defined in [types.ts:13](https://github.com/polkadot-js/api/blob/45fa3dc/packages/type-storage/src/types.ts#L13)*
 
 #### Type declaration
 
