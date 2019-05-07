@@ -20,7 +20,7 @@
 
 *Overrides [Enum](_codec_enum_.enum.md).[constructor](_codec_enum_.enum.md#constructor)*
 
-*Defined in [Metadata/v4/Storage.ts:26](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/Metadata/v4/Storage.ts#L26)*
+*Defined in [Metadata/v4/Storage.ts:26](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/Metadata/v4/Storage.ts#L26)*
 
 **Parameters:**
 
@@ -42,7 +42,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[encodedLength](_codec_enum_.enum.md#encodedlength)*
 
-*Defined in [codec/Enum.ts:64](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/codec/Enum.ts#L64)*
+*Defined in [codec/Enum.ts:64](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/codec/Enum.ts#L64)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -57,7 +57,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[index](_codec_enum_.enum.md#index)*
 
-*Defined in [codec/Enum.ts:71](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/codec/Enum.ts#L71)*
+*Defined in [codec/Enum.ts:71](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/codec/Enum.ts#L71)*
 
 *__description__*: Returns the index for this value (equivalent to toNumber)
 
@@ -70,7 +70,7 @@ ___
 
 **get isBlake2128**(): `boolean`
 
-*Defined in [Metadata/v4/Storage.ts:34](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/Metadata/v4/Storage.ts#L34)*
+*Defined in [Metadata/v4/Storage.ts:34](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/Metadata/v4/Storage.ts#L34)*
 
 *__description__*: Is the enum Blake2\_128
 
@@ -83,7 +83,7 @@ ___
 
 **get isBlake2256**(): `boolean`
 
-*Defined in [Metadata/v4/Storage.ts:41](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/Metadata/v4/Storage.ts#L41)*
+*Defined in [Metadata/v4/Storage.ts:41](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/Metadata/v4/Storage.ts#L41)*
 
 *__description__*: Is the enum Blake2\_256
 
@@ -98,7 +98,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[isEmpty](_codec_enum_.enum.md#isempty)*
 
-*Defined in [codec/Enum.ts:78](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/codec/Enum.ts#L78)*
+*Defined in [codec/Enum.ts:78](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/codec/Enum.ts#L78)*
 
 *__description__*: Checks if the value is an empty value (always false)
 
@@ -111,7 +111,7 @@ ___
 
 **get isTwox128**(): `boolean`
 
-*Defined in [Metadata/v4/Storage.ts:48](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/Metadata/v4/Storage.ts#L48)*
+*Defined in [Metadata/v4/Storage.ts:48](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/Metadata/v4/Storage.ts#L48)*
 
 *__description__*: Is the enum Twox128
 
@@ -124,7 +124,7 @@ ___
 
 **get isTwox128Concat**(): `boolean`
 
-*Defined in [Metadata/v4/Storage.ts:62](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/Metadata/v4/Storage.ts#L62)*
+*Defined in [Metadata/v4/Storage.ts:62](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/Metadata/v4/Storage.ts#L62)*
 
 *__description__*: Is the enum isTwox128Concat
 
@@ -137,7 +137,7 @@ ___
 
 **get isTwox256**(): `boolean`
 
-*Defined in [Metadata/v4/Storage.ts:55](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/Metadata/v4/Storage.ts#L55)*
+*Defined in [Metadata/v4/Storage.ts:55](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/Metadata/v4/Storage.ts#L55)*
 
 *__description__*: Is the enum Twox256
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[eq](_codec_enum_.enum.md#eq)*
 
-*Defined in [codec/Enum.ts:85](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/codec/Enum.ts#L85)*
+*Defined in [codec/Enum.ts:85](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/codec/Enum.ts#L85)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -180,7 +180,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[toHex](_codec_enum_.enum.md#tohex)*
 
-*Defined in [codec/Enum.ts:98](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/codec/Enum.ts#L98)*
+*Defined in [codec/Enum.ts:98](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/codec/Enum.ts#L98)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -197,7 +197,7 @@ ___
 
 *Overrides [Enum](_codec_enum_.enum.md).[toJSON](_codec_enum_.enum.md#tojson)*
 
-*Defined in [Metadata/v4/Storage.ts:66](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/Metadata/v4/Storage.ts#L66)*
+*Defined in [Metadata/v4/Storage.ts:66](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/Metadata/v4/Storage.ts#L66)*
 
 **Returns:** `any`
 
@@ -210,7 +210,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[toNumber](_codec_enum_.enum.md#tonumber)*
 
-*Defined in [codec/Enum.ts:112](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/codec/Enum.ts#L112)*
+*Defined in [codec/Enum.ts:112](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/codec/Enum.ts#L112)*
 
 *__description__*: Returns the number representation for the value
 
@@ -227,7 +227,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[toString](_codec_enum_.enum.md#tostring)*
 
-*Defined in [codec/Enum.ts:119](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/codec/Enum.ts#L119)*
+*Defined in [codec/Enum.ts:119](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/codec/Enum.ts#L119)*
 
 *__description__*: Returns the string representation of the value
 
@@ -244,7 +244,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[toU8a](_codec_enum_.enum.md#tou8a)*
 
-*Defined in [codec/Enum.ts:127](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/codec/Enum.ts#L127)*
+*Defined in [codec/Enum.ts:127](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/codec/Enum.ts#L127)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 
@@ -265,7 +265,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[decodeEnum](_codec_enum_.enum.md#decodeenum)*
 
-*Defined in [codec/Enum.ts:47](https://github.com/polkadot-js/api/blob/76a9d73/packages/types/src/codec/Enum.ts#L47)*
+*Defined in [codec/Enum.ts:47](https://github.com/polkadot-js/api/blob/4b5ce14/packages/types/src/codec/Enum.ts#L47)*
 
 **Parameters:**
 
