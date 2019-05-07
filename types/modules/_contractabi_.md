@@ -35,7 +35,7 @@
 
 **Ƭ ContractABI**: *`object`*
 
-*Defined in [ContractAbi.ts:28](https://github.com/polkadot-js/api/blob/0ab3916/packages/types/src/ContractAbi.ts#L28)*
+*Defined in [ContractAbi.ts:28](https://github.com/polkadot-js/api/blob/6396c8d/packages/types/src/ContractAbi.ts#L28)*
 
 #### Type declaration
 
@@ -46,7 +46,7 @@ ___
 
 **Ƭ ContractABIArgs**: *`Array`<`object`>*
 
-*Defined in [ContractAbi.ts:12](https://github.com/polkadot-js/api/blob/0ab3916/packages/types/src/ContractAbi.ts#L12)*
+*Defined in [ContractAbi.ts:12](https://github.com/polkadot-js/api/blob/6396c8d/packages/types/src/ContractAbi.ts#L12)*
 
 ___
 <a id="contractabimethod"></a>
@@ -55,7 +55,7 @@ ___
 
 **Ƭ ContractABIMethod**: *[ContractABIMethodBase](_contractabi_.md#contractabimethodbase) & `object`*
 
-*Defined in [ContractAbi.ts:21](https://github.com/polkadot-js/api/blob/0ab3916/packages/types/src/ContractAbi.ts#L21)*
+*Defined in [ContractAbi.ts:21](https://github.com/polkadot-js/api/blob/6396c8d/packages/types/src/ContractAbi.ts#L21)*
 
 ___
 <a id="contractabimethodbase"></a>
@@ -64,7 +64,7 @@ ___
 
 **Ƭ ContractABIMethodBase**: *`object`*
 
-*Defined in [ContractAbi.ts:17](https://github.com/polkadot-js/api/blob/0ab3916/packages/types/src/ContractAbi.ts#L17)*
+*Defined in [ContractAbi.ts:17](https://github.com/polkadot-js/api/blob/6396c8d/packages/types/src/ContractAbi.ts#L17)*
 
 #### Type declaration
 
@@ -78,7 +78,7 @@ ___
 
 ▸ **validateAbi**(abi: *[ContractABI](_contractabi_.md#contractabi-1)*): `void`
 
-*Defined in [ContractAbi.ts:79](https://github.com/polkadot-js/api/blob/0ab3916/packages/types/src/ContractAbi.ts#L79)*
+*Defined in [ContractAbi.ts:79](https://github.com/polkadot-js/api/blob/6396c8d/packages/types/src/ContractAbi.ts#L79)*
 
 **Parameters:**
 
@@ -95,7 +95,7 @@ ___
 
 ▸ **validateArgs**(name: *`string`*, args: *[ContractABIArgs](_contractabi_.md#contractabiargs)*): `void`
 
-*Defined in [ContractAbi.ts:49](https://github.com/polkadot-js/api/blob/0ab3916/packages/types/src/ContractAbi.ts#L49)*
+*Defined in [ContractAbi.ts:49](https://github.com/polkadot-js/api/blob/6396c8d/packages/types/src/ContractAbi.ts#L49)*
 
 **Parameters:**
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **validateDeploy**(__namedParameters: *`object`*): `void`
 
-*Defined in [ContractAbi.ts:60](https://github.com/polkadot-js/api/blob/0ab3916/packages/types/src/ContractAbi.ts#L60)*
+*Defined in [ContractAbi.ts:60](https://github.com/polkadot-js/api/blob/6396c8d/packages/types/src/ContractAbi.ts#L60)*
 
 **Parameters:**
 
@@ -130,7 +130,7 @@ ___
 
 ▸ **validateMethods**(__namedParameters: *`object`*): `void`
 
-*Defined in [ContractAbi.ts:68](https://github.com/polkadot-js/api/blob/0ab3916/packages/types/src/ContractAbi.ts#L68)*
+*Defined in [ContractAbi.ts:68](https://github.com/polkadot-js/api/blob/6396c8d/packages/types/src/ContractAbi.ts#L68)*
 
 **Parameters:**
 
