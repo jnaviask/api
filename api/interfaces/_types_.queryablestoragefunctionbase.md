@@ -14,7 +14,7 @@
 
 ▸ **__call**(arg?: *`any`*): `Uint8Array`
 
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/2839954/packages/api/src/types.ts#L50)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/3e755b9/packages/api/src/types.ts#L50)*
 
 **Parameters:**
 
@@ -24,7 +24,7 @@
 
 **Returns:** `CodecResult`
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:13](https://github.com/polkadot-js/api/blob/2839954/packages/types/src/primitive/StorageKey.ts#L13)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:13](https://github.com/polkadot-js/api/blob/3e755b9/packages/types/src/primitive/StorageKey.ts#L13)*
 
 **Parameters:**
 
@@ -42,7 +42,7 @@
 
 **● at**: *`function`*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/2839954/packages/api/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/3e755b9/packages/api/src/types.ts#L52)*
 
 #### Type declaration
 ▸(hash: *`Hash` \| `Uint8Array` \| `string`*, arg?: *`CodecArg`*): `CodecResult`
@@ -63,7 +63,7 @@ ___
 
 **● hash**: *`function`*
 
-*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/2839954/packages/api/src/types.ts#L53)*
+*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/3e755b9/packages/api/src/types.ts#L53)*
 
 #### Type declaration
 ▸(arg?: *`CodecArg`*): [HashResult](../modules/_types_.md#hashresult)<`CodecResult`, `SubscriptionResult`>
@@ -85,7 +85,7 @@ ___
 
 *Inherited from StorageFunction.headKey*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:19](https://github.com/polkadot-js/api/blob/2839954/packages/types/src/primitive/StorageKey.ts#L19)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:19](https://github.com/polkadot-js/api/blob/3e755b9/packages/types/src/primitive/StorageKey.ts#L19)*
 
 ___
 <a id="key"></a>
@@ -94,7 +94,7 @@ ___
 
 **● key**: *`function`*
 
-*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/2839954/packages/api/src/types.ts#L54)*
+*Defined in [types.ts:54](https://github.com/polkadot-js/api/blob/3e755b9/packages/api/src/types.ts#L54)*
 
 #### Type declaration
 ▸(arg?: *`CodecArg`*): `string`
@@ -116,7 +116,7 @@ ___
 
 *Inherited from StorageFunction.meta*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:15](https://github.com/polkadot-js/api/blob/2839954/packages/types/src/primitive/StorageKey.ts#L15)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:15](https://github.com/polkadot-js/api/blob/3e755b9/packages/types/src/primitive/StorageKey.ts#L15)*
 
 ___
 <a id="method"></a>
@@ -127,7 +127,7 @@ ___
 
 *Inherited from StorageFunction.method*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:16](https://github.com/polkadot-js/api/blob/2839954/packages/types/src/primitive/StorageKey.ts#L16)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:16](https://github.com/polkadot-js/api/blob/3e755b9/packages/types/src/primitive/StorageKey.ts#L16)*
 
 ___
 <a id="multi"></a>
@@ -136,7 +136,7 @@ ___
 
 **● multi**: *`function`*
 
-*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/2839954/packages/api/src/types.ts#L55)*
+*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/3e755b9/packages/api/src/types.ts#L55)*
 
 #### Type declaration
 ▸(args: *`Array`<`CodecArg`>*, callback?: *`CodecCallback`*): `SubscriptionResult`
@@ -159,7 +159,7 @@ ___
 
 *Inherited from StorageFunction.section*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:17](https://github.com/polkadot-js/api/blob/2839954/packages/types/src/primitive/StorageKey.ts#L17)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:17](https://github.com/polkadot-js/api/blob/3e755b9/packages/types/src/primitive/StorageKey.ts#L17)*
 
 ___
 <a id="size"></a>
@@ -168,7 +168,7 @@ ___
 
 **● size**: *`function`*
 
-*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/2839954/packages/api/src/types.ts#L56)*
+*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/3e755b9/packages/api/src/types.ts#L56)*
 
 #### Type declaration
 ▸(arg?: *`CodecArg`*): [U64Result](../modules/_types_.md#u64result)<`CodecResult`, `SubscriptionResult`>
@@ -190,7 +190,7 @@ ___
 
 *Inherited from StorageFunction.toJSON*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:18](https://github.com/polkadot-js/api/blob/2839954/packages/types/src/primitive/StorageKey.ts#L18)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/StorageKey.ts:18](https://github.com/polkadot-js/api/blob/3e755b9/packages/types/src/primitive/StorageKey.ts#L18)*
 
 #### Type declaration
 ▸(): `any`
