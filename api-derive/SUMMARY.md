@@ -13,6 +13,7 @@
 * [&quot;chain/bestNumberLag&quot;](modules/_chain_bestnumberlag_.md)
 * [&quot;chain/getHeader&quot;](modules/_chain_getheader_.md)
 * [&quot;chain/subscribeNewHead&quot;](modules/_chain_subscribenewhead_.md)
+* [&quot;contract/fees&quot;](modules/_contract_fees_.md)
 * [&quot;democracy/referendumInfo&quot;](modules/_democracy_referenduminfo_.md)
   * [ReferendumInfoExtended](classes/_democracy_referenduminfo_.referenduminfoextended.md)
 * [&quot;democracy/referendumInfos&quot;](modules/_democracy_referenduminfos_.md)
