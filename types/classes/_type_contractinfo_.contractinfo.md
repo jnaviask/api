@@ -24,7 +24,7 @@
 
 *Overrides [EnumType](_codec_enumtype_.enumtype.md).[constructor](_codec_enumtype_.enumtype.md#constructor)*
 
-*Defined in [type/ContractInfo.ts:65](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/type/ContractInfo.ts#L65)*
+*Defined in [type/ContractInfo.ts:65](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/type/ContractInfo.ts#L65)*
 
 **Parameters:**
 
@@ -44,7 +44,7 @@ ___
 
 **get asAlive**(): [Alive](_type_contractinfo_.alive.md)
 
-*Defined in [type/ContractInfo.ts:76](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/type/ContractInfo.ts#L76)*
+*Defined in [type/ContractInfo.ts:76](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/type/ContractInfo.ts#L76)*
 
 *__description__*: Returns the item as an [Alive](_type_contractinfo_.alive.md)
 
@@ -57,7 +57,7 @@ ___
 
 **get asTombstone**(): [Tombstone](_type_contractinfo_.tombstone.md)
 
-*Defined in [type/ContractInfo.ts:85](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/type/ContractInfo.ts#L85)*
+*Defined in [type/ContractInfo.ts:85](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/type/ContractInfo.ts#L85)*
 
 *__description__*: Returns the item as an [Tombstone](_type_contractinfo_.tombstone.md)
 
@@ -72,7 +72,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[encodedLength](_codec_enumtype_.enumtype.md#encodedlength)*
 
-*Defined in [codec/EnumType.ts:126](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L126)*
+*Defined in [codec/EnumType.ts:126](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L126)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -87,7 +87,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[index](_codec_enumtype_.enumtype.md#index)*
 
-*Defined in [codec/EnumType.ts:133](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L133)*
+*Defined in [codec/EnumType.ts:133](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L133)*
 
 *__description__*: The index of the metadata value
 
@@ -100,7 +100,7 @@ ___
 
 **get isAlive**(): `boolean`
 
-*Defined in [type/ContractInfo.ts:94](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/type/ContractInfo.ts#L94)*
+*Defined in [type/ContractInfo.ts:94](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/type/ContractInfo.ts#L94)*
 
 *__description__*: value is an [Alive](_type_contractinfo_.alive.md)
 
@@ -115,7 +115,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[isEmpty](_codec_enumtype_.enumtype.md#isempty)*
 
-*Defined in [codec/EnumType.ts:140](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L140)*
+*Defined in [codec/EnumType.ts:140](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L140)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -130,7 +130,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[isNone](_codec_enumtype_.enumtype.md#isnone)*
 
-*Defined in [codec/EnumType.ts:147](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L147)*
+*Defined in [codec/EnumType.ts:147](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L147)*
 
 *__description__*: Checks if the Enum points to a [Null](_primitive_null_.null.md) type
 
@@ -145,7 +145,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[isNull](_codec_enumtype_.enumtype.md#isnull)*
 
-*Defined in [codec/EnumType.ts:154](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L154)*
+*Defined in [codec/EnumType.ts:154](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L154)*
 
 *__description__*: Checks if the Enum points to a [Null](_primitive_null_.null.md) type (deprecated, use isNone)
 
@@ -158,7 +158,7 @@ ___
 
 **get isTombstone**(): `boolean`
 
-*Defined in [type/ContractInfo.ts:101](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/type/ContractInfo.ts#L101)*
+*Defined in [type/ContractInfo.ts:101](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/type/ContractInfo.ts#L101)*
 
 *__description__*: value is an [Tombstone](_type_contractinfo_.tombstone.md)
 
@@ -173,7 +173,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[type](_codec_enumtype_.enumtype.md#type)*
 
-*Defined in [codec/EnumType.ts:161](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L161)*
+*Defined in [codec/EnumType.ts:161](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L161)*
 
 *__description__*: The name of the type this enum value represents
 
@@ -188,7 +188,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[value](_codec_enumtype_.enumtype.md#value)*
 
-*Defined in [codec/EnumType.ts:168](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L168)*
+*Defined in [codec/EnumType.ts:168](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L168)*
 
 *__description__*: The value of the enum
 
@@ -208,7 +208,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[eq](_codec_enumtype_.enumtype.md#eq)*
 
-*Defined in [codec/EnumType.ts:175](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L175)*
+*Defined in [codec/EnumType.ts:175](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L175)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -231,7 +231,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[toHex](_codec_enumtype_.enumtype.md#tohex)*
 
-*Defined in [codec/EnumType.ts:188](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L188)*
+*Defined in [codec/EnumType.ts:188](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L188)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -248,7 +248,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[toJSON](_codec_enumtype_.enumtype.md#tojson)*
 
-*Defined in [codec/EnumType.ts:195](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L195)*
+*Defined in [codec/EnumType.ts:195](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L195)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -263,7 +263,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[toNumber](_codec_enumtype_.enumtype.md#tonumber)*
 
-*Defined in [codec/EnumType.ts:204](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L204)*
+*Defined in [codec/EnumType.ts:204](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L204)*
 
 *__description__*: Returns the number representation for the value
 
@@ -280,7 +280,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[toString](_codec_enumtype_.enumtype.md#tostring)*
 
-*Defined in [codec/EnumType.ts:211](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L211)*
+*Defined in [codec/EnumType.ts:211](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L211)*
 
 *__description__*: Returns the string representation of the value
 
@@ -297,7 +297,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[toU8a](_codec_enumtype_.enumtype.md#tou8a)*
 
-*Defined in [codec/EnumType.ts:221](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L221)*
+*Defined in [codec/EnumType.ts:221](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L221)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 
@@ -318,7 +318,7 @@ ___
 
 *Inherited from [EnumType](_codec_enumtype_.enumtype.md).[with](_codec_enumtype_.enumtype.md#with)*
 
-*Defined in [codec/EnumType.ts:113](https://github.com/polkadot-js/api/blob/516e116/packages/types/src/codec/EnumType.ts#L113)*
+*Defined in [codec/EnumType.ts:113](https://github.com/polkadot-js/api/blob/865e480/packages/types/src/codec/EnumType.ts#L113)*
 
 **Type parameters:**
 
