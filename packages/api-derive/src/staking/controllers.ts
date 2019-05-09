@@ -9,23 +9,18 @@ import { AccountId, Option } from '@polkadot/types';
 
 import { drr } from '../util/drr';
 
-function allBonds (api: ApiInterface$Rx, stashIds: Array<AccountId>) {
-  return combineLatest(
-    api.query.staking.bonded.multi(stashIds) as Observable<Option<AccountId>>
-  );
-}
-
 /**
  * @description From the list of stash accounts, retrieve the list of controllers
  */
 export function controllers (api: ApiInterface$Rx) {
+  console.log('custom derive')
   return (): Observable<[Array<AccountId>, Array<Option<AccountId>>]> =>
     (api.query.staking.validators() as any as Observable<[Array<AccountId>, any]>)
       .pipe(
         switchMap(([stashIds]) =>
           combineLatest([
             of(stashIds),
-            allBonds(api, stashIds)
+            api.query.staking.bonded.multi(stashIds) as Observable<Option<AccountId>>
           ])
         ),
         drr()

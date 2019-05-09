@@ -1,4 +1,4 @@
-# 0.78.1
+# 0.79.0-beta.0
 
 - Fix linked-maps (not working since 0.77.1)
 - Convert Usize to U32 (as found in WASM environments)

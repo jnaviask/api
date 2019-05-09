@@ -6,7 +6,8 @@
     "yarn": "^1.10.1"
   },
   "workspaces": [
-    "packages/*"
+    "ui",
+    "packages/**"
   ],
   "resolutions": {
     "babel-core": "^7.0.0-bridge.0",
@@ -20,7 +21,8 @@
     "lint": "tslint --project . && tsc --noEmit --pretty",
     "clean": "polkadot-dev-clean-build",
     "postinstall": "polkadot-dev-yarn-only",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "start-ui": "webpack-dev-server --mode development --open"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -28,6 +30,15 @@
     "@babel/runtime": "^7.4.4",
     "@polkadot/dev": "^0.30.0-beta.4",
     "@polkadot/ts": "^0.1.56",
-    "gh-pages": "^2.0.1"
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "gh-pages": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.1.10"
   }
 }
