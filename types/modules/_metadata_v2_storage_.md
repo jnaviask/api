@@ -22,7 +22,7 @@
 
 **Ƭ StorageFunctionMetadataValue**: *`object`*
 
-*Defined in [Metadata/v2/Storage.ts:111](https://github.com/polkadot-js/api/blob/b8fabfe/packages/types/src/Metadata/v2/Storage.ts#L111)*
+*Defined in [Metadata/v2/Storage.ts:111](https://github.com/polkadot-js/api/blob/a037cab/packages/types/src/Metadata/v2/Storage.ts#L111)*
 
 #### Type declaration
 
