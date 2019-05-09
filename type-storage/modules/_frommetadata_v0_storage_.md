@@ -8,7 +8,7 @@
 
 **storage**: *`object`*
 
-*Defined in [fromMetadata/v0/storage.ts:8](https://github.com/polkadot-js/api/blob/c2ccf35/packages/type-storage/src/fromMetadata/v0/storage.ts#L8)*
+*Defined in [fromMetadata/v0/storage.ts:8](https://github.com/polkadot-js/api/blob/edbae32/packages/type-storage/src/fromMetadata/v0/storage.ts#L8)*
 
 <a id="storage.substrate"></a>
 
@@ -16,7 +16,7 @@
 
 **● substrate**: *[&quot;fromMetadata/v0/substrate&quot;](_frommetadata_v0_substrate_.md)*
 
-*Defined in [fromMetadata/v0/storage.ts:9](https://github.com/polkadot-js/api/blob/c2ccf35/packages/type-storage/src/fromMetadata/v0/storage.ts#L9)*
+*Defined in [fromMetadata/v0/storage.ts:9](https://github.com/polkadot-js/api/blob/edbae32/packages/type-storage/src/fromMetadata/v0/storage.ts#L9)*
 
 ___
 
