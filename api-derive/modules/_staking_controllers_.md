@@ -8,7 +8,7 @@
 
 ▸ **controllers**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [staking/controllers.ts:21](https://github.com/polkadot-js/api/blob/a037cab/packages/api-derive/src/staking/controllers.ts#L21)*
+*Defined in [staking/controllers.ts:21](https://github.com/polkadot-js/api/blob/168b12d/packages/api-derive/src/staking/controllers.ts#L21)*
 
 *__description__*: From the list of stash accounts, retrieve the list of controllers
 

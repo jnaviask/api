@@ -8,7 +8,7 @@
 
 ▸ **fees**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [balances/fees.ts:13](https://github.com/polkadot-js/api/blob/a037cab/packages/api-derive/src/balances/fees.ts#L13)*
+*Defined in [balances/fees.ts:13](https://github.com/polkadot-js/api/blob/168b12d/packages/api-derive/src/balances/fees.ts#L13)*
 
 **Parameters:**
 
