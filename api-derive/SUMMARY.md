@@ -2,6 +2,7 @@
 * [&quot;accounts/idToIndex&quot;](modules/_accounts_idtoindex_.md)
 * [&quot;accounts/indexToId&quot;](modules/_accounts_indextoid_.md)
 * [&quot;accounts/indexes&quot;](modules/_accounts_indexes_.md)
+* [&quot;balances/all&quot;](modules/_balances_all_.md)
 * [&quot;balances/fees&quot;](modules/_balances_fees_.md)
 * [&quot;balances/validatingBalance&quot;](modules/_balances_validatingbalance_.md)
 * [&quot;balances/validatingBalances&quot;](modules/_balances_validatingbalances_.md)
