@@ -101,6 +101,7 @@ export default abstract class ApiBase<CodecResult, SubscriptionResult> implement
    * ```
    */
   constructor (provider: ApiOptions | ProviderInterface = {}, type: ApiType) {
+    console.log('Local API Contructor');
     const options = isObject(provider) && isFunction((provider as ProviderInterface).send)
       ? { provider } as ApiOptions
       : provider as ApiOptions;

@@ -10,13 +10,12 @@ module.exports = {
   devServer: {
     port: 5000
   },
-  context: path.resolve(__dirname, 'ui'),
+  context: path.resolve(__dirname, ''),
   module: {
     rules: [
       {
-        test: /\.(js|ts)$/,
-        exclude: /node_modules/,
-        loader: 'babel-loader'
+        test: /\.(js|tsx|ts)$/,
+        loader: ['babel-loader', 'ts-loader']
       },
       {
         test: /\.(css)$/,
@@ -45,6 +44,9 @@ module.exports = {
       }
     })
   ],
+  resolve: {
+    extensions: [ '.tsx', '.ts', '.js' ]
+  },
   performance: {
     hints: false
   }

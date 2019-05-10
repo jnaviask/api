@@ -1,12 +1,11 @@
 {
-  "version": "0.79.0-beta.0",
+  "version": "0.79.0-beta.1",
   "private": true,
   "engines": {
     "node": ">=10.13.0",
     "yarn": "^1.10.1"
   },
   "workspaces": [
-    "ui",
     "packages/**"
   ],
   "resolutions": {
@@ -22,7 +21,7 @@
     "clean": "polkadot-dev-clean-build",
     "postinstall": "polkadot-dev-yarn-only",
     "test": "jest --coverage",
-    "start-ui": "webpack-dev-server --mode development --open"
+    "start:ui": "cd packages/ui && webpack-dev-server --mode development --open"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",

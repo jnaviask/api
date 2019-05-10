@@ -10,7 +10,6 @@ import { ApiPromise } from '@polkadot/api';
 const provider = new WsProvider('wss://substrate-rpc.parity.io/');
 
 (async function main () {
-  const wrapper = createWrapper('simple-connect', 'Test derive methods?');
 
   try {
     // Create our API with a connection to the node
