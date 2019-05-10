@@ -10,11 +10,11 @@ module.exports = {
   devServer: {
     port: 5000
   },
-  context: path.resolve(__dirname, ''),
   module: {
     rules: [
       {
         test: /\.(js|tsx|ts)$/,
+        exclude: /node_modules/,
         loader: ['babel-loader', 'ts-loader']
       },
       {
