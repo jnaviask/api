@@ -11,7 +11,7 @@
   type: 'u32'
 })
 
-*Defined in [fromMetadata/v0/substrate.ts:43](https://github.com/polkadot-js/api/blob/168b12d/packages/type-storage/src/fromMetadata/v0/substrate.ts#L43)*
+*Defined in [fromMetadata/v0/substrate.ts:43](https://github.com/polkadot-js/api/blob/4378ed4/packages/type-storage/src/fromMetadata/v0/substrate.ts#L43)*
 
 ___
 <a id="authorityprefix"></a>
@@ -23,7 +23,7 @@ ___
   type: 'u32'
 })
 
-*Defined in [fromMetadata/v0/substrate.ts:48](https://github.com/polkadot-js/api/blob/168b12d/packages/type-storage/src/fromMetadata/v0/substrate.ts#L48)*
+*Defined in [fromMetadata/v0/substrate.ts:48](https://github.com/polkadot-js/api/blob/4378ed4/packages/type-storage/src/fromMetadata/v0/substrate.ts#L48)*
 
 ___
 <a id="changestrieconfig"></a>
@@ -35,7 +35,7 @@ ___
   type: 'u32'
 })
 
-*Defined in [fromMetadata/v0/substrate.ts:58](https://github.com/polkadot-js/api/blob/168b12d/packages/type-storage/src/fromMetadata/v0/substrate.ts#L58)*
+*Defined in [fromMetadata/v0/substrate.ts:58](https://github.com/polkadot-js/api/blob/4378ed4/packages/type-storage/src/fromMetadata/v0/substrate.ts#L58)*
 
 ___
 <a id="code"></a>
@@ -47,7 +47,7 @@ ___
   type: 'Bytes'
 })
 
-*Defined in [fromMetadata/v0/substrate.ts:33](https://github.com/polkadot-js/api/blob/168b12d/packages/type-storage/src/fromMetadata/v0/substrate.ts#L33)*
+*Defined in [fromMetadata/v0/substrate.ts:33](https://github.com/polkadot-js/api/blob/4378ed4/packages/type-storage/src/fromMetadata/v0/substrate.ts#L33)*
 
 ___
 <a id="extrinsicindex"></a>
@@ -59,7 +59,7 @@ ___
   type: 'u32'
 })
 
-*Defined in [fromMetadata/v0/substrate.ts:53](https://github.com/polkadot-js/api/blob/168b12d/packages/type-storage/src/fromMetadata/v0/substrate.ts#L53)*
+*Defined in [fromMetadata/v0/substrate.ts:53](https://github.com/polkadot-js/api/blob/4378ed4/packages/type-storage/src/fromMetadata/v0/substrate.ts#L53)*
 
 ___
 <a id="heappages"></a>
@@ -71,7 +71,7 @@ ___
   type: 'u64'
 })
 
-*Defined in [fromMetadata/v0/substrate.ts:38](https://github.com/polkadot-js/api/blob/168b12d/packages/type-storage/src/fromMetadata/v0/substrate.ts#L38)*
+*Defined in [fromMetadata/v0/substrate.ts:38](https://github.com/polkadot-js/api/blob/4378ed4/packages/type-storage/src/fromMetadata/v0/substrate.ts#L38)*
 
 ___
 
