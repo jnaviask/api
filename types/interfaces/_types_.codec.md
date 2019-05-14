@@ -67,6 +67,7 @@
 * [EnumType](../classes/_codec_enumtype_.enumtype.md)
 * [Event](../classes/_type_event_.event.md)
 * [EventData](../classes/_type_event_.eventdata.md)
+* [EventIndex](../classes/_type_eventindex_.eventindex.md)
 * [EventIndex](../classes/_type_event_.eventindex.md)
 * [EventMetadata](../classes/_metadata_v0_events_.eventmetadata.md)
 * [EventRecord](../classes/_type_eventrecord_.eventrecord.md)
@@ -181,16 +182,16 @@
 * [StakingLedger](../classes/_type_stakingledger_.stakingledger.md)
 * [StorageChangeSet](../classes/_rpc_storagechangeset_.storagechangeset.md)
 * [StorageData](../classes/_primitive_storagedata_.storagedata.md)
+* [StorageFunctionMetadata](../classes/_metadata_v4_storage_.storagefunctionmetadata.md)
+* [StorageFunctionMetadata](../classes/_metadata_v2_storage_.storagefunctionmetadata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v0_storage_.storagefunctionmetadata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v3_storage_.storagefunctionmetadata.md)
-* [StorageFunctionMetadata](../classes/_metadata_v2_storage_.storagefunctionmetadata.md)
-* [StorageFunctionMetadata](../classes/_metadata_v4_storage_.storagefunctionmetadata.md)
 * [StorageFunctionModifier](../classes/_metadata_v0_storage_.storagefunctionmodifier.md)
-* [StorageFunctionType](../classes/_metadata_v3_storage_.storagefunctiontype.md)
-* [StorageFunctionType](../classes/_metadata_v2_storage_.storagefunctiontype.md)
 * [StorageFunctionType](../classes/_metadata_v0_storage_.storagefunctiontype.md)
+* [StorageFunctionType](../classes/_metadata_v2_storage_.storagefunctiontype.md)
 * [StorageFunctionType](../classes/_metadata_v4_storage_.storagefunctiontype.md)
-* [StorageHasher](../classes/_metadata_v4_storage_.storagehasher.md)
+* [StorageFunctionType](../classes/_metadata_v3_storage_.storagefunctiontype.md)
+* [StorageHasher](../classes/_primitive_storagehasher_.storagehasher.md)
 * [StorageKey](../classes/_primitive_storagekey_.storagekey.md)
 * [StorageMetadata](../classes/_metadata_v0_storage_.storagemetadata.md)
 * [StoredPendingChange](../classes/_type_storedpendingchange_.storedpendingchange.md)
@@ -233,7 +234,7 @@
 
 **● encodedLength**: *`number`*
 
-*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/7fb1944/packages/types/src/types.ts#L40)*
+*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/8502396/packages/types/src/types.ts#L40)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -244,7 +245,7 @@ ___
 
 **● isEmpty**: *`boolean`*
 
-*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/7fb1944/packages/types/src/types.ts#L45)*
+*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/8502396/packages/types/src/types.ts#L45)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -258,7 +259,7 @@ ___
 
 ▸ **eq**(other?: *`any`*): `boolean`
 
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/7fb1944/packages/types/src/types.ts#L50)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/8502396/packages/types/src/types.ts#L50)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -277,7 +278,7 @@ ___
 
 ▸ **toHex**(): `string`
 
-*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/7fb1944/packages/types/src/types.ts#L55)*
+*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/8502396/packages/types/src/types.ts#L55)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -290,7 +291,7 @@ ___
 
 ▸ **toJSON**(): `any`
 
-*Defined in [types.ts:60](https://github.com/polkadot-js/api/blob/7fb1944/packages/types/src/types.ts#L60)*
+*Defined in [types.ts:60](https://github.com/polkadot-js/api/blob/8502396/packages/types/src/types.ts#L60)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -303,7 +304,7 @@ ___
 
 ▸ **toString**(): `string`
 
-*Defined in [types.ts:65](https://github.com/polkadot-js/api/blob/7fb1944/packages/types/src/types.ts#L65)*
+*Defined in [types.ts:65](https://github.com/polkadot-js/api/blob/8502396/packages/types/src/types.ts#L65)*
 
 *__description__*: Returns the string representation of the value
 
@@ -316,7 +317,7 @@ ___
 
 ▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
 
-*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/7fb1944/packages/types/src/types.ts#L71)*
+*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/8502396/packages/types/src/types.ts#L71)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 

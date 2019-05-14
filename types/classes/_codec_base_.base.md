@@ -14,9 +14,9 @@
 
 ↳  [EnumType](_codec_enumtype_.enumtype.md)
 
-↳  [Option](_codec_option_.option.md)
-
 ↳  [Enum](_codec_enum_.enum.md)
+
+↳  [Option](_codec_option_.option.md)
 
 ↳  [Set](_codec_set_.set.md)
 
@@ -30,7 +30,7 @@
 
 ⊕ **new Base**(value?: *`any`*): [Base](_codec_base_.base.md)
 
-*Defined in [codec/Base.ts:10](https://github.com/polkadot-js/api/blob/7fb1944/packages/types/src/codec/Base.ts#L10)*
+*Defined in [codec/Base.ts:10](https://github.com/polkadot-js/api/blob/8502396/packages/types/src/codec/Base.ts#L10)*
 
 **Parameters:**
 

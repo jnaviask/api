@@ -8,7 +8,6 @@
 * [MapType](../classes/_metadata_v4_storage_.maptype.md)
 * [StorageFunctionMetadata](../classes/_metadata_v4_storage_.storagefunctionmetadata.md)
 * [StorageFunctionType](../classes/_metadata_v4_storage_.storagefunctiontype.md)
-* [StorageHasher](../classes/_metadata_v4_storage_.storagehasher.md)
 
 ### Type aliases
 
@@ -24,7 +23,7 @@
 
 **Ƭ StorageFunctionMetadataValue**: *`object`*
 
-*Defined in [Metadata/v4/Storage.ts:237](https://github.com/polkadot-js/api/blob/7fb1944/packages/types/src/Metadata/v4/Storage.ts#L237)*
+*Defined in [Metadata/v4/Storage.ts:188](https://github.com/polkadot-js/api/blob/8502396/packages/types/src/Metadata/v4/Storage.ts#L188)*
 
 #### Type declaration
 
