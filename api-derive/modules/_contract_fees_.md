@@ -8,9 +8,9 @@
 
 ▸ **fees**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [contract/fees.ts:27](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api-derive/src/contract/fees.ts#L27)*
+*Defined in [contract/fees.ts:17](https://github.com/polkadot-js/api/blob/3557657/packages/api-derive/src/contract/fees.ts#L17)*
 
-Get the balances for all intentions and their nominators
+Retrieves all the contract fees
 
 **Parameters:**
 

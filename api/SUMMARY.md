@@ -28,6 +28,8 @@
   * [QueryableModuleStorage](interfaces/_types_.queryablemodulestorage.md)
   * [QueryableStorage](interfaces/_types_.queryablestorage.md)
   * [QueryableStorageFunctionBase](interfaces/_types_.queryablestoragefunctionbase.md)
+  * [QueryableStorageMultiBase](interfaces/_types_.queryablestoragemultibase.md)
+  * [QueryableStorageMultiPromise](interfaces/_types_.queryablestoragemultipromise.md)
   * [Signer](interfaces/_types_.signer.md)
   * [SubmittableExtrinsicFunction](interfaces/_types_.submittableextrinsicfunction.md)
   * [SubmittableExtrinsics](interfaces/_types_.submittableextrinsics.md)

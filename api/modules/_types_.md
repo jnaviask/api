@@ -16,6 +16,8 @@
 * [QueryableModuleStorage](../interfaces/_types_.queryablemodulestorage.md)
 * [QueryableStorage](../interfaces/_types_.queryablestorage.md)
 * [QueryableStorageFunctionBase](../interfaces/_types_.queryablestoragefunctionbase.md)
+* [QueryableStorageMultiBase](../interfaces/_types_.queryablestoragemultibase.md)
+* [QueryableStorageMultiPromise](../interfaces/_types_.queryablestoragemultipromise.md)
 * [Signer](../interfaces/_types_.signer.md)
 * [SubmittableExtrinsicFunction](../interfaces/_types_.submittableextrinsicfunction.md)
 * [SubmittableExtrinsics](../interfaces/_types_.submittableextrinsics.md)
@@ -31,6 +33,9 @@
 * [OnCallDefinition](_types_.md#oncalldefinition)
 * [OnCallFunction](_types_.md#oncallfunction)
 * [QueryableStorageFunction](_types_.md#queryablestoragefunction)
+* [QueryableStorageMulti](_types_.md#queryablestoragemulti)
+* [QueryableStorageMultiArg](_types_.md#queryablestoragemultiarg)
+* [QueryableStorageMultiArgs](_types_.md#queryablestoragemultiargs)
 * [U64Result](_types_.md#u64result)
 
 ---
@@ -43,7 +48,7 @@
 
 **Ƭ ApiInterface$Events**: *`RpcRxInterface$Events` \| "ready"*
 
-*Defined in [types.ts:159](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/types.ts#L159)*
+*Defined in [types.ts:179](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L179)*
 
 ___
 <a id="apiinterface_rx"></a>
@@ -52,7 +57,7 @@ ___
 
 **Ƭ ApiInterface$Rx**: *[ApiInterface$Decorated](../interfaces/_types_.apiinterface_decorated.md)<[RxResult](_rx_types_.md#rxresult), [RxResult](_rx_types_.md#rxresult)>*
 
-*Defined in [types.ts:157](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/types.ts#L157)*
+*Defined in [types.ts:177](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L177)*
 
 ___
 <a id="apitype"></a>
@@ -61,7 +66,7 @@ ___
 
 **Ƭ ApiType**: *"promise" \| "rxjs"*
 
-*Defined in [types.ts:161](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/types.ts#L161)*
+*Defined in [types.ts:181](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L181)*
 
 ___
 <a id="derivemethod"></a>
@@ -70,7 +75,7 @@ ___
 
 **Ƭ DeriveMethod**: *`DeriveMethod<CodecResult, SubscriptionResult>`*
 
-*Defined in [types.ts:100](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/types.ts#L100)*
+*Defined in [types.ts:119](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L119)*
 
 ___
 <a id="hashresult"></a>
@@ -79,7 +84,7 @@ ___
 
 **Ƭ HashResult**: *`HashResult<CodecResult, SubscriptionResult>`*
 
-*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/types.ts#L40)*
+*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L40)*
 
 ___
 <a id="oncalldefinition"></a>
@@ -88,7 +93,7 @@ ___
 
 **Ƭ OnCallDefinition**: *`function`*
 
-*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/types.ts#L18)*
+*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L18)*
 
 #### Type declaration
 ▸(method: *[OnCallFunction](_types_.md#oncallfunction)<[RxResult](_rx_types_.md#rxresult), [RxResult](_rx_types_.md#rxresult)>*, params?: *`Array`<`CodecArg`>*, callback?: *`CodecCallback`*, needsCallback?: *`undefined` \| `false` \| `true`*): `CodecResult` \| `SubscriptionResult`
@@ -111,7 +116,7 @@ ___
 
 **Ƭ OnCallFunction**: *`function`*
 
-*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/types.ts#L20)*
+*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L20)*
 
 #### Type declaration
 ▸(...params: *`Array`<`CodecArg`>*): `CodecResult` \| `SubscriptionResult`
@@ -131,7 +136,34 @@ ___
 
 **Ƭ QueryableStorageFunction**: *`QueryableStorageFunction<CodecResult, SubscriptionResult>`*
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L64)*
+
+___
+<a id="queryablestoragemulti"></a>
+
+##  QueryableStorageMulti
+
+**Ƭ QueryableStorageMulti**: *`QueryableStorageMulti<CodecResult, SubscriptionResult>`*
+
+*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L87)*
+
+___
+<a id="queryablestoragemultiarg"></a>
+
+##  QueryableStorageMultiArg
+
+**Ƭ QueryableStorageMultiArg**: *[QueryableStorageFunction](_types_.md#queryablestoragefunction)<`CodecResult`, `SubscriptionResult`> \| [[QueryableStorageFunction](_types_.md#queryablestoragefunction)<`CodecResult`, `SubscriptionResult`>, `Array`]*
+
+*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L73)*
+
+___
+<a id="queryablestoragemultiargs"></a>
+
+##  QueryableStorageMultiArgs
+
+**Ƭ QueryableStorageMultiArgs**: *`Array`<[QueryableStorageMultiArg](_types_.md#queryablestoragemultiarg)<`CodecResult`, `SubscriptionResult`>>*
+
+*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L77)*
 
 ___
 <a id="u64result"></a>
@@ -140,7 +172,7 @@ ___
 
 **Ƭ U64Result**: *`U64Result<CodecResult, SubscriptionResult>`*
 
-*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/types.ts#L45)*
+*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/3557657/packages/api/src/types.ts#L45)*
 
 ___
 
