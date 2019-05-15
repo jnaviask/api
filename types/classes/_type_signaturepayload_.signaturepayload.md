@@ -31,7 +31,7 @@
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/SignaturePayload.ts:36](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/type/SignaturePayload.ts#L36)*
+*Defined in [type/SignaturePayload.ts:36](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/type/SignaturePayload.ts#L36)*
 
 **Parameters:**
 
@@ -78,7 +78,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:172](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L172)*
+*Defined in [codec/Struct.ts:172](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L172)*
 
 *__description__*: Returns the Type description to sthe structure
 
@@ -91,7 +91,7 @@ ___
 
 **get blockHash**(): [Hash](_type_hash_.hash.md)
 
-*Defined in [type/SignaturePayload.ts:57](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/type/SignaturePayload.ts#L57)*
+*Defined in [type/SignaturePayload.ts:57](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/type/SignaturePayload.ts#L57)*
 
 *__description__*: The block [Hash](_type_hash_.hash.md) the signature applies to (mortal/immortal)
 
@@ -106,7 +106,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L179)*
+*Defined in [codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L179)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -119,7 +119,7 @@ ___
 
 **get era**(): [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
 
-*Defined in [type/SignaturePayload.ts:71](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/type/SignaturePayload.ts#L71)*
+*Defined in [type/SignaturePayload.ts:71](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/type/SignaturePayload.ts#L71)*
 
 *__description__*: The [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
 
@@ -134,7 +134,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:157](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L157)*
+*Defined in [codec/Struct.ts:157](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L157)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -147,7 +147,7 @@ ___
 
 **get isSigned**(): `boolean`
 
-*Defined in [type/SignaturePayload.ts:50](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/type/SignaturePayload.ts#L50)*
+*Defined in [type/SignaturePayload.ts:50](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/type/SignaturePayload.ts#L50)*
 
 *__description__*: `true` if the payload refers to a valid signature
 
@@ -160,7 +160,7 @@ ___
 
 **get method**(): [Method](_primitive_method_.method.md)
 
-*Defined in [type/SignaturePayload.ts:64](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/type/SignaturePayload.ts#L64)*
+*Defined in [type/SignaturePayload.ts:64](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/type/SignaturePayload.ts#L64)*
 
 *__description__*: The [Method](_primitive_method_.method.md) contained in the payload
 
@@ -173,7 +173,7 @@ ___
 
 **get nonce**(): [Nonce](_type_nonce_.nonce.md)
 
-*Defined in [type/SignaturePayload.ts:78](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/type/SignaturePayload.ts#L78)*
+*Defined in [type/SignaturePayload.ts:78](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/type/SignaturePayload.ts#L78)*
 
 *__description__*: The [Nonce](_type_nonce_.nonce.md)
 
@@ -186,7 +186,7 @@ ___
 
 **get signature**(): `Uint8Array`
 
-*Defined in [type/SignaturePayload.ts:85](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/type/SignaturePayload.ts#L85)*
+*Defined in [type/SignaturePayload.ts:85](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/type/SignaturePayload.ts#L85)*
 
 *__description__*: The raw signature as a `Uint8Array`
 
@@ -268,7 +268,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:188](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L188)*
+*Defined in [codec/Struct.ts:188](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L188)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -311,7 +311,7 @@ ___
 
 *Overrides Map.get*
 
-*Defined in [codec/Struct.ts:196](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L196)*
+*Defined in [codec/Struct.ts:196](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L196)*
 
 *__description__*: Returns a specific names entry in the structure
 
@@ -332,7 +332,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:203](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L203)*
+*Defined in [codec/Struct.ts:203](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L203)*
 
 *__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -405,7 +405,7 @@ ___
 
 ▸ **sign**(signerPair: *`KeyringPair`*, version?: *[RuntimeVersion](_rpc_runtimeversion_.runtimeversion.md)*): `Uint8Array`
 
-*Defined in [type/SignaturePayload.ts:96](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/type/SignaturePayload.ts#L96)*
+*Defined in [type/SignaturePayload.ts:96](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/type/SignaturePayload.ts#L96)*
 
 *__description__*: Sign the payload with the keypair
 
@@ -427,7 +427,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:210](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L210)*
+*Defined in [codec/Struct.ts:210](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L210)*
 
 *__description__*: Converts the Object to an standard JavaScript Array
 
@@ -444,7 +444,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:217](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L217)*
+*Defined in [codec/Struct.ts:217](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L217)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -461,7 +461,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:224](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L224)*
+*Defined in [codec/Struct.ts:224](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L224)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -478,7 +478,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L238)*
+*Defined in [codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L238)*
 
 *__description__*: Returns the string representation of the value
 
@@ -495,7 +495,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:246](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L246)*
+*Defined in [codec/Struct.ts:246](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L246)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 
@@ -531,7 +531,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
 
-*Defined in [codec/Struct.ts:132](https://github.com/polkadot-js/api/blob/63222cf/packages/types/src/codec/Struct.ts#L132)*
+*Defined in [codec/Struct.ts:132](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Struct.ts#L132)*
 
 **Type parameters:**
 
