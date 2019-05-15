@@ -8,9 +8,11 @@
 
 ▸ **getHeader**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [chain/getHeader.ts:25](https://github.com/polkadot-js/api/blob/3557657/packages/api-derive/src/chain/getHeader.ts#L25)*
+*Defined in [chain/getHeader.ts:27](https://github.com/polkadot-js/api/blob/c30d3a8/packages/api-derive/src/chain/getHeader.ts#L27)*
 
-*__description__*: Get the a specific block header and extend it with the author
+*__name__*: bestNumberFinalized
+
+*__description__*: Get a specific block header and extend it with the author
 
 *__example__*:   
 
@@ -27,6 +29,7 @@ console.log(`block #${blockNumber} was authored by ${author}`);
 | api | `ApiInterface$Rx` |
 
 **Returns:** `(Anonymous function)`
+An array containing the block header and the block author
 
 ___
 

@@ -8,7 +8,7 @@
 
 **Ƭ AccountIdAndIndex**: *[`undefined` \| `AccountId`, `undefined` \| `AccountIndex`]*
 
-*Defined in [accounts/idAndIndex.ts:16](https://github.com/polkadot-js/api/blob/3557657/packages/api-derive/src/accounts/idAndIndex.ts#L16)*
+*Defined in [accounts/idAndIndex.ts:16](https://github.com/polkadot-js/api/blob/c30d3a8/packages/api-derive/src/accounts/idAndIndex.ts#L16)*
 
 ___
 
@@ -20,7 +20,19 @@ ___
 
 ▸ **idAndIndex**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [accounts/idAndIndex.ts:18](https://github.com/polkadot-js/api/blob/3557657/packages/api-derive/src/accounts/idAndIndex.ts#L18)*
+*Defined in [accounts/idAndIndex.ts:31](https://github.com/polkadot-js/api/blob/c30d3a8/packages/api-derive/src/accounts/idAndIndex.ts#L31)*
+
+*__name__*: idAndIndex
+
+*__description__*: An array containing the \[\[AccountId\]\] and \[\[AccountIndex\]\] as optional values.
+
+*__example__*:   
+
+```javascript
+api.derive.accounts.idAndIndex('F7Hs', ([id, ix]) => {
+  console.log(`AccountId #${id} with corresponding AccountIndex ${ix}`);
+});
+```
 
 **Parameters:**
 

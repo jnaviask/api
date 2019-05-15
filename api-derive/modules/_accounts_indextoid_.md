@@ -8,7 +8,17 @@
 
 ▸ **indexToId**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [accounts/indexToId.ts:13](https://github.com/polkadot-js/api/blob/3557657/packages/api-derive/src/accounts/indexToId.ts#L13)*
+*Defined in [accounts/indexToId.ts:26](https://github.com/polkadot-js/api/blob/c30d3a8/packages/api-derive/src/accounts/indexToId.ts#L26)*
+
+*__name__*: indexToId
+
+*__example__*:   
+
+```javascript
+api.derive.accounts.indexToId('F7Hs', (accountId) => {
+  console.log(`The AccountId of F7Hs is ${accountId}`);
+});
+```
 
 **Parameters:**
 
@@ -17,6 +27,7 @@
 | api | `ApiInterface$Rx` |
 
 **Returns:** `(Anonymous function)`
+Returns the corresponding AccountId.
 
 ___
 

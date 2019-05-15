@@ -8,7 +8,18 @@
 
 ▸ **idToIndex**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [accounts/idToIndex.ts:13](https://github.com/polkadot-js/api/blob/3557657/packages/api-derive/src/accounts/idToIndex.ts#L13)*
+*Defined in [accounts/idToIndex.ts:27](https://github.com/polkadot-js/api/blob/c30d3a8/packages/api-derive/src/accounts/idToIndex.ts#L27)*
+
+*__name__*: idToIndex
+
+*__example__*:   
+
+```javascript
+const ALICE = '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY';
+api.derive.accounts.idToIndex(ALICE, (accountIndex) => {
+  console.log(`The AccountIndex of ${ALICE} is ${accountIndex}`);
+});
+```
 
 **Parameters:**
 
@@ -17,6 +28,7 @@
 | api | `ApiInterface$Rx` |
 
 **Returns:** `(Anonymous function)`
+Returns the corresponding AccountIndex.
 
 ___
 

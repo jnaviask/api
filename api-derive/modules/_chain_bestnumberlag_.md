@@ -8,7 +8,9 @@
 
 ▸ **bestNumberLag**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [chain/bestNumberLag.ts:25](https://github.com/polkadot-js/api/blob/3557657/packages/api-derive/src/chain/bestNumberLag.ts#L25)*
+*Defined in [chain/bestNumberLag.ts:27](https://github.com/polkadot-js/api/blob/c30d3a8/packages/api-derive/src/chain/bestNumberLag.ts#L27)*
+
+*__name__*: bestNumberLag
 
 *__description__*: Calculates the lag between finalized head and best head
 
@@ -27,6 +29,7 @@ api.derive.chain.bestNumberLag((lag) => {
 | api | `ApiInterface$Rx` |
 
 **Returns:** `(Anonymous function)`
+A number of blocks
 
 ___
 

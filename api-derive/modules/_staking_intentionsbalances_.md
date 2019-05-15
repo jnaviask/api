@@ -8,7 +8,7 @@
 
 ▸ **intentionsBalances**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [staking/intentionsBalances.ts:17](https://github.com/polkadot-js/api/blob/3557657/packages/api-derive/src/staking/intentionsBalances.ts#L17)*
+*Defined in [staking/intentionsBalances.ts:17](https://github.com/polkadot-js/api/blob/c30d3a8/packages/api-derive/src/staking/intentionsBalances.ts#L17)*
 
 Get the balances for all intentions and their nominators
 

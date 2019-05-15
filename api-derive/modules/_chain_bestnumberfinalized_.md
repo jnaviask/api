@@ -8,9 +8,13 @@
 
 ▸ **bestNumberFinalized**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [chain/bestNumberFinalized.ts:23](https://github.com/polkadot-js/api/blob/3557657/packages/api-derive/src/chain/bestNumberFinalized.ts#L23)*
+*Defined in [chain/bestNumberFinalized.ts:25](https://github.com/polkadot-js/api/blob/c30d3a8/packages/api-derive/src/chain/bestNumberFinalized.ts#L25)*
 
-*__description__*: Get the latest finalized block number. example  
+*__name__*: bestNumberFinalized
+
+*__description__*: Get the latest finalized block number.
+
+*__example__*:   
 
 ```javascript
 api.derive.chain.bestNumberFinalized((blockNumber) => {
@@ -25,6 +29,7 @@ api.derive.chain.bestNumberFinalized((blockNumber) => {
 | api | `ApiInterface$Rx` |
 
 **Returns:** `(Anonymous function)`
+A BlockNumber
 
 ___
 

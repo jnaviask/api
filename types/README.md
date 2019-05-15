@@ -10,9 +10,7 @@ Codec types
 
 These are the base types of the codec. They are typically not used directly, but rather inherited from to create specific types. They are the building blocks for declaring custom types:
 
-Type
-
-Description
+**Types**
 
 [AbstractArray](classes/_codec_abstractarray_.abstractarray.md)
 
@@ -79,9 +77,7 @@ Primitive types
 
 These primitive types are available:
 
-Type
-
-Description
+**Types**
 
 [Bool](classes/_primitive_bool_.bool.md)
 
@@ -192,9 +188,7 @@ Substrate types
 
 These custom types implement specific types that are found as part of the Substrate core. They're all extensions of one of the codec types:
 
-Type
-
-Description
+**Types**
 
 [AccountId](classes/_type_accountid_.accountid.md)
 
@@ -497,9 +491,7 @@ RPC types
 
 These types are not used in the runtime, but are rather used in RPC results:
 
-Type
-
-Description
+**Types**
 
 [ChainProperties](classes/_rpc_chainproperties_.chainproperties.md)
 
@@ -544,4 +536,15 @@ A [Block](classes/_type_block_.block.md) that has been signed and contains a [Ju
 [StorageChangeSet](classes/_rpc_storagechangeset_.storagechangeset.md)
 
 A set of storage changes. It contains the [Block](classes/_type_block_.block.md) hash and a list of the actual changes
+
+Derive types
+------------
+
+These types are are specific for the Polkadot-JS API, so you won't find a representation of them in the SCALE codec or the Substrate core. They are used in the [api-derive](https://www.npmjs.com/package/@polkadot/api-derive) methods.
+
+**Types**
+
+[HeaderExtended](classes/_type_header_.headerextended.md)
+
+A [Block](classes/_type_block_.block.md) header with an additional `author` field that indicates the block author\]
 
