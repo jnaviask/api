@@ -4,6 +4,7 @@
 
 ### Classes
 
+* [DoubleMapType](../classes/_metadata_v0_storage_.doublemaptype.md)
 * [MapType](../classes/_metadata_v0_storage_.maptype.md)
 * [PlainType](../classes/_metadata_v0_storage_.plaintype.md)
 * [StorageFunctionMetadata](../classes/_metadata_v0_storage_.storagefunctionmetadata.md)
@@ -25,7 +26,7 @@
 
 **Ƭ StorageFunctionMetadataValue**: *`object`*
 
-*Defined in [Metadata/v0/Storage.ts:130](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/Metadata/v0/Storage.ts#L130)*
+*Defined in [Metadata/v0/Storage.ts:152](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/Metadata/v0/Storage.ts#L152)*
 
 #### Type declaration
 

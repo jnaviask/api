@@ -24,7 +24,7 @@
 
 ▸ **createSubmittableExtrinsic**<`CodecResult`,`SubscriptionResult`>(type: *[ApiType](_types_.md#apitype)*, api: *[ApiInterface$Rx](_types_.md#apiinterface_rx)*, onCall: *[OnCallDefinition](_types_.md#oncalldefinition)<`CodecResult`, `SubscriptionResult`>*, extrinsic: *`Method`*, trackingCb?: *`undefined` \| `function`*): [SubmittableExtrinsic](../interfaces/_submittableextrinsic_.submittableextrinsic.md)<`CodecResult`, `SubscriptionResult`>
 
-*Defined in [SubmittableExtrinsic.ts:72](https://github.com/polkadot-js/api/blob/db78aeb/packages/api/src/SubmittableExtrinsic.ts#L72)*
+*Defined in [SubmittableExtrinsic.ts:72](https://github.com/polkadot-js/api/blob/7b04ea0/packages/api/src/SubmittableExtrinsic.ts#L72)*
 
 **Type parameters:**
 

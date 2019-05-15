@@ -4,6 +4,7 @@
   * [SubmittableResult](classes/_submittableextrinsic_.submittableresult.md)
   * [SubmittableExtrinsic](interfaces/_submittableextrinsic_.submittableextrinsic.md)
 * [&quot;checkTypes.manual&quot;](modules/_checktypes_manual_.md)
+* [&quot;nodeCompat&quot;](modules/_nodecompat_.md)
 * [&quot;promise/Api&quot;](modules/_promise_api_.md)
   * [ApiPromise](classes/_promise_api_.apipromise.md)
 * [&quot;promise/Combinator&quot;](modules/_promise_combinator_.md)

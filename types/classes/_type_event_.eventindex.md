@@ -2,11 +2,11 @@
 
 *__name__*: EventIndex
 
-*__description__*: This follows the same approach as in [Method](_primitive_method_.method.md), we have the `[sectionIndex, methodIndex]` pairing that indicates the actual event fired
+*__description__*: The Substrate EventIndex representation as a [U32](_primitive_u32_.u32.md).
 
 # Hierarchy
 
-↳  [U8aFixed](_codec_u8afixed_.u8afixed.md)
+↳  [U32](_primitive_u32_.u32.md)
 
 **↳ EventIndex**
 
@@ -14,94 +14,27 @@
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Indexable
-
-\[index: `number`\]:&nbsp;`number`
 # Constructors
 
 <a id="constructor"></a>
 
 ##  constructor
 
-⊕ **new EventIndex**(value?: *`any`*): [EventIndex](_type_event_.eventindex.md)
+⊕ **new EventIndex**(value?: *[AnyNumber](../modules/_types_.md#anynumber)*): [EventIndex](_type_event_.eventindex.md)
 
-*Overrides [U8aFixed](_codec_u8afixed_.u8afixed.md).[constructor](_codec_u8afixed_.u8afixed.md#constructor)*
+*Inherited from [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
-*Defined in [type/Event.ts:74](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/type/Event.ts#L74)*
+*Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
+
+*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/primitive/U32.ts#L14)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| `Optional` value | `any` |
+| `Optional` value | [AnyNumber](../modules/_types_.md#anynumber) |
 
 **Returns:** [EventIndex](_type_event_.eventindex.md)
-
-___
-
-# Properties
-
-<a id="bytes_per_element"></a>
-
-##  BYTES_PER_ELEMENT
-
-**● BYTES_PER_ELEMENT**: *`number`*
-
-*Inherited from Uint8Array.BYTES_PER_ELEMENT*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1962*
-
-The size in bytes of each element in the array.
-
-___
-<a id="___tostringtag"></a>
-
-##  __@toStringTag
-
-**● __@toStringTag**: *"UInt8Array"*
-
-*Inherited from Uint8Array.[Symbol.toStringTag]*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:276*
-
-___
-<a id="buffer"></a>
-
-##  buffer
-
-**● buffer**: *`ArrayBufferLike`*
-
-*Inherited from Uint8Array.buffer*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1967*
-
-The ArrayBuffer instance referenced by the array.
-
-___
-<a id="bytelength"></a>
-
-##  byteLength
-
-**● byteLength**: *`number`*
-
-*Inherited from Uint8Array.byteLength*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1972*
-
-The length in bytes of the array.
-
-___
-<a id="byteoffset"></a>
-
-##  byteOffset
-
-**● byteOffset**: *`number`*
-
-*Inherited from Uint8Array.byteOffset*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1977*
-
-The offset in bytes of the array.
 
 ___
 
@@ -113,9 +46,9 @@ ___
 
 **get encodedLength**(): `number`
 
-*Inherited from [U8a](_codec_u8a_.u8a.md).[encodedLength](_codec_u8a_.u8a.md#encodedlength)*
+*Inherited from AbstractInt.encodedLength*
 
-*Defined in [codec/U8a.ts:36](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8a.ts#L36)*
+*Defined in [codec/AbstractInt.ts:64](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/AbstractInt.ts#L64)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -128,99 +61,309 @@ ___
 
 **get isEmpty**(): `boolean`
 
-*Inherited from [U8a](_codec_u8a_.u8a.md).[isEmpty](_codec_u8a_.u8a.md#isempty)*
+*Inherited from AbstractInt.isEmpty*
 
-*Defined in [codec/U8a.ts:43](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8a.ts#L43)*
+*Defined in [codec/AbstractInt.ts:71](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/AbstractInt.ts#L71)*
 
-*__description__*: Returns true if the type wraps an empty/default all-0 value
+*__description__*: Checks if the value is a zero value (align elsewhere)
 
 **Returns:** `boolean`
-
-___
-<a id="length"></a>
-
-##  length
-
-**get length**(): `number`
-
-*Inherited from [U8a](_codec_u8a_.u8a.md).[length](_codec_u8a_.u8a.md#length)*
-
-*Overrides Uint8Array.length*
-
-*Defined in [codec/U8a.ts:50](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8a.ts#L50)*
-
-*__description__*: The length of the value
-
-**Returns:** `number`
 
 ___
 
 # Methods
 
-<a id="___iterator"></a>
+<a id="abs"></a>
 
-##  __@iterator
+##  abs
 
-▸ **__@iterator**(): `IterableIterator`<`number`>
+▸ **abs**(): `BN`
 
-*Inherited from Uint8Array.[Symbol.iterator]*
+*Inherited from BN.abs*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:267*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:230*
 
-**Returns:** `IterableIterator`<`number`>
+*__description__*: absolute value
+
+**Returns:** `BN`
+
+___
+<a id="add"></a>
+
+##  add
+
+▸ **add**(b: *`BN`*): `BN`
+
+*Inherited from BN.add*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:240*
+
+*__description__*: addition
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="addn"></a>
+
+##  addn
+
+▸ **addn**(b: *`number`*): `BN`
+
+*Inherited from BN.addn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:250*
+
+*__description__*: addition
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="and"></a>
+
+##  and
+
+▸ **and**(b: *`BN`*): `BN`
+
+*Inherited from BN.and*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:371*
+
+*__description__*: and
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="andln"></a>
+
+##  andln
+
+▸ **andln**(b: *`number`*): `BN`
+
+*Inherited from BN.andln*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:391*
+
+*__description__*: and (NOTE: `andln` is going to be replaced with `andn` in future)
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="bincn"></a>
+
+##  bincn
+
+▸ **bincn**(b: *`number`*): `BN`
+
+*Inherited from BN.bincn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:475*
+
+*__description__*: add `1 << b` to the number
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
 
 ___
 <a id="bitlength"></a>
 
 ##  bitLength
 
-▸ **bitLength**(): `number`
+▸ **bitLength**(): [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)
 
-*Inherited from [U8aFixed](_codec_u8afixed_.u8afixed.md).[bitLength](_codec_u8afixed_.u8afixed.md#bitlength)*
+*Inherited from AbstractInt.bitLength*
 
-*Defined in [codec/U8aFixed.ts:52](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8aFixed.ts#L52)*
+*Overrides BN.bitLength*
+
+*Defined in [codec/AbstractInt.ts:78](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/AbstractInt.ts#L78)*
 
 *__description__*: Returns the number of bits in the value
+
+**Returns:** [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)
+
+___
+<a id="bytelength"></a>
+
+##  byteLength
+
+▸ **byteLength**(): `number`
+
+*Inherited from BN.byteLength*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:120*
+
+*__description__*: return number of bytes occupied
 
 **Returns:** `number`
 
 ___
-<a id="copywithin"></a>
+<a id="clone"></a>
 
-##  copyWithin
+##  clone
 
-▸ **copyWithin**(target: *`number`*, start: *`number`*, end?: *`undefined` \| `number`*): `this`
+▸ **clone**(): `BN`
 
-*Inherited from Uint8Array.copyWithin*
+*Inherited from BN.clone*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1988*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:65*
 
-Returns the this object after copying a section of the array identified by start and end to the same array starting at position target
+*__description__*: clone number
+
+**Returns:** `BN`
+
+___
+<a id="cmp"></a>
+
+##  cmp
+
+▸ **cmp**(b: *`BN`*): `-1` \| `0` \| `1`
+
+*Inherited from BN.cmp*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:145*
+
+*__description__*: compare numbers and return `-1 (a < b)`, `0 (a == b)`, or `1 (a > b)` depending on the comparison result
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| target | `number` |  If target is negative, it is treated as length+target where length is the length of the array. |
-| start | `number` |  If start is negative, it is treated as length+start. If end is negative, it is treated as length+end. |
-| `Optional` end | `undefined` \| `number` |  If not specified, length of the this object is used as its default value. |
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
 
-**Returns:** `this`
+**Returns:** `-1` \| `0` \| `1`
 
 ___
-<a id="entries"></a>
+<a id="cmpn"></a>
 
-##  entries
+##  cmpn
 
-▸ **entries**(): `IterableIterator`<[`number`, `number`]>
+▸ **cmpn**(b: *`number`*): `-1` \| `0` \| `1`
 
-*Inherited from Uint8Array.entries*
+*Inherited from BN.cmpn*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:271*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:155*
 
-Returns an array of key, value pairs for every entry in the array
+*__description__*: compare numbers and return `-1 (a < b)`, `0 (a == b)`, or `1 (a > b)` depending on the comparison result
 
-**Returns:** `IterableIterator`<[`number`, `number`]>
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `-1` \| `0` \| `1`
+
+___
+<a id="div"></a>
+
+##  div
+
+▸ **div**(b: *`BN`*): `BN`
+
+*Inherited from BN.div*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:315*
+
+*__description__*: divide
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="divround"></a>
+
+##  divRound
+
+▸ **divRound**(b: *`BN`*): `BN`
+
+*Inherited from BN.divRound*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:346*
+
+*__description__*: rounded division
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="divn"></a>
+
+##  divn
+
+▸ **divn**(b: *`number`*): `BN`
+
+*Inherited from BN.divn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:320*
+
+*__description__*: divide
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="egcd"></a>
+
+##  egcd
+
+▸ **egcd**(b: *`BN`*): `object`
+
+*Inherited from BN.egcd*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:495*
+
+*__description__*: Extended GCD results `({ a: ..., b: ..., gcd: ... })`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `object`
 
 ___
 <a id="eq"></a>
@@ -231,9 +374,11 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
 
-*Inherited from [U8a](_codec_u8a_.u8a.md).[eq](_codec_u8a_.u8a.md#eq)*
+*Inherited from AbstractInt.eq*
 
-*Defined in [codec/U8a.ts:58](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8a.ts#L58)*
+*Overrides BN.eq*
+
+*Defined in [codec/AbstractInt.ts:85](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/AbstractInt.ts#L85)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -246,499 +391,1184 @@ ___
 **Returns:** `boolean`
 
 ___
-<a id="every"></a>
+<a id="eqn"></a>
 
-##  every
+##  eqn
 
-▸ **every**(callbackfn: *`function`*, thisArg?: *`any`*): `boolean`
+▸ **eqn**(b: *`number`*): `boolean`
 
-*Inherited from Uint8Array.every*
+*Inherited from BN.eqn*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1998*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:205*
 
-Determines whether all the members of an array satisfy the specified test.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  A function that accepts up to three arguments. The every method calls the callbackfn function for each element in array1 until the callbackfn returns false, or until the end of the array. |
-| `Optional` thisArg | `any` |  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value. |
-
-**Returns:** `boolean`
-
-___
-<a id="fill"></a>
-
-##  fill
-
-▸ **fill**(value: *`number`*, start?: *`undefined` \| `number`*, end?: *`undefined` \| `number`*): `this`
-
-*Inherited from Uint8Array.fill*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2008*
-
-Returns the this object after filling the section identified by start and end with value
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| value | `number` |  value to fill array section with |
-| `Optional` start | `undefined` \| `number` |  index to start filling the array at. If start is negative, it is treated as length+start where length is the length of the array. |
-| `Optional` end | `undefined` \| `number` |  index to stop filling the array at. If end is negative, it is treated as length+end. |
-
-**Returns:** `this`
-
-___
-<a id="filter"></a>
-
-##  filter
-
-▸ **filter**(callbackfn: *`function`*, thisArg?: *`any`*): `Uint8Array`
-
-*Inherited from Uint8Array.filter*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2017*
-
-Returns the elements of an array that meet the condition specified in a callback function.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array. |
-| `Optional` thisArg | `any` |  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value. |
-
-**Returns:** `Uint8Array`
-
-___
-<a id="find"></a>
-
-##  find
-
-▸ **find**(predicate: *`function`*, thisArg?: *`any`*): `number` \| `undefined`
-
-*Inherited from Uint8Array.find*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2028*
-
-Returns the value of the first element in the array where predicate is true, and undefined otherwise.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| predicate | `function` |  find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, find immediately returns that element value. Otherwise, find returns undefined. |
-| `Optional` thisArg | `any` |  If provided, it will be used as the this value for each invocation of predicate. If it is not provided, undefined is used instead. |
-
-**Returns:** `number` \| `undefined`
-
-___
-<a id="findindex"></a>
-
-##  findIndex
-
-▸ **findIndex**(predicate: *`function`*, thisArg?: *`any`*): `number`
-
-*Inherited from Uint8Array.findIndex*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2039*
-
-Returns the index of the first element in the array where predicate is true, and -1 otherwise.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| predicate | `function` |  find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, findIndex immediately returns that element index. Otherwise, findIndex returns -1. |
-| `Optional` thisArg | `any` |  If provided, it will be used as the this value for each invocation of predicate. If it is not provided, undefined is used instead. |
-
-**Returns:** `number`
-
-___
-<a id="foreach"></a>
-
-##  forEach
-
-▸ **forEach**(callbackfn: *`function`*, thisArg?: *`any`*): `void`
-
-*Inherited from Uint8Array.forEach*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2048*
-
-Performs the specified action for each element in an array.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array. |
-| `Optional` thisArg | `any` |  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value. |
-
-**Returns:** `void`
-
-___
-<a id="includes"></a>
-
-##  includes
-
-▸ **includes**(searchElement: *`number`*, fromIndex?: *`undefined` \| `number`*): `boolean`
-
-*Inherited from Uint8Array.includes*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2016.array.include.d.ts:54*
-
-Determines whether an array includes a certain element, returning true or false as appropriate.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| searchElement | `number` |  The element to search for. |
-| `Optional` fromIndex | `undefined` \| `number` |  The position in this array at which to begin searching for searchElement. |
-
-**Returns:** `boolean`
-
-___
-<a id="indexof"></a>
-
-##  indexOf
-
-▸ **indexOf**(searchElement: *`number`*, fromIndex?: *`undefined` \| `number`*): `number`
-
-*Inherited from Uint8Array.indexOf*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2056*
-
-Returns the index of the first occurrence of a value in an array.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| searchElement | `number` |  The value to locate in the array. |
-| `Optional` fromIndex | `undefined` \| `number` |  The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0. |
-
-**Returns:** `number`
-
-___
-<a id="join"></a>
-
-##  join
-
-▸ **join**(separator?: *`undefined` \| `string`*): `string`
-
-*Inherited from Uint8Array.join*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2063*
-
-Adds all the elements of an array separated by the specified separator string.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` separator | `undefined` \| `string` |  A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma. |
-
-**Returns:** `string`
-
-___
-<a id="keys"></a>
-
-##  keys
-
-▸ **keys**(): `IterableIterator`<`number`>
-
-*Inherited from Uint8Array.keys*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:275*
-
-Returns an list of keys in the array
-
-**Returns:** `IterableIterator`<`number`>
-
-___
-<a id="lastindexof"></a>
-
-##  lastIndexOf
-
-▸ **lastIndexOf**(searchElement: *`number`*, fromIndex?: *`undefined` \| `number`*): `number`
-
-*Inherited from Uint8Array.lastIndexOf*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2071*
-
-Returns the index of the last occurrence of a value in an array.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| searchElement | `number` |  The value to locate in the array. |
-| `Optional` fromIndex | `undefined` \| `number` |  The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0. |
-
-**Returns:** `number`
-
-___
-<a id="map"></a>
-
-##  map
-
-▸ **map**(callbackfn: *`function`*, thisArg?: *`any`*): `Uint8Array`
-
-*Inherited from Uint8Array.map*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2086*
-
-Calls a defined callback function on each element of an array, and returns an array that contains the results.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array. |
-| `Optional` thisArg | `any` |  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value. |
-
-**Returns:** `Uint8Array`
-
-___
-<a id="reduce"></a>
-
-##  reduce
-
-▸ **reduce**(callbackfn: *`function`*): `number`
-
-▸ **reduce**(callbackfn: *`function`*, initialValue: *`number`*): `number`
-
-▸ **reduce**<`U`>(callbackfn: *`function`*, initialValue: *`U`*): `U`
-
-*Inherited from Uint8Array.reduce*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2098*
-
-Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array. |
-
-**Returns:** `number`
-
-*Inherited from Uint8Array.reduce*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2099*
+*__description__*: a equals b
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| callbackfn | `function` |
-| initialValue | `number` |
+| b | `number` |
 
-**Returns:** `number`
-
-*Inherited from Uint8Array.reduce*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2111*
-
-Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
-
-**Type parameters:**
-
-#### U 
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array. |
-| initialValue | `U` |  If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value. |
-
-**Returns:** `U`
+**Returns:** `boolean`
 
 ___
-<a id="reduceright"></a>
+<a id="fromtwos"></a>
 
-##  reduceRight
+##  fromTwos
 
-▸ **reduceRight**(callbackfn: *`function`*): `number`
+▸ **fromTwos**(width: *`number`*): `BN`
 
-▸ **reduceRight**(callbackfn: *`function`*, initialValue: *`number`*): `number`
+*Inherited from BN.fromTwos*
 
-▸ **reduceRight**<`U`>(callbackfn: *`function`*, initialValue: *`U`*): `U`
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:215*
 
-*Inherited from Uint8Array.reduceRight*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2123*
-
-Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array. |
-
-**Returns:** `number`
-
-*Inherited from Uint8Array.reduceRight*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2124*
+*__description__*: convert from two's complement representation, where width is the bit width
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| callbackfn | `function` |
-| initialValue | `number` |
+| width | `number` |
 
-**Returns:** `number`
-
-*Inherited from Uint8Array.reduceRight*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2136*
-
-Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
-
-**Type parameters:**
-
-#### U 
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array. |
-| initialValue | `U` |  If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value. |
-
-**Returns:** `U`
+**Returns:** `BN`
 
 ___
-<a id="reverse"></a>
+<a id="gcd"></a>
 
-##  reverse
+##  gcd
 
-▸ **reverse**(): `Uint8Array`
+▸ **gcd**(b: *`BN`*): `BN`
 
-*Inherited from Uint8Array.reverse*
+*Inherited from BN.gcd*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2141*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:490*
 
-Reverses the elements in an Array.
-
-**Returns:** `Uint8Array`
-
-___
-<a id="set"></a>
-
-##  set
-
-▸ **set**(array: *`ArrayLike`<`number`>*, offset?: *`undefined` \| `number`*): `void`
-
-*Inherited from Uint8Array.set*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2148*
-
-Sets a value or an array of values.
+*__description__*: GCD
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| array | `ArrayLike`<`number`> |  A typed or untyped array of values to set. |
-| `Optional` offset | `undefined` \| `number` |  The index in the current array at which the values are to be written. |
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
 
-**Returns:** `void`
+**Returns:** `BN`
 
 ___
-<a id="slice"></a>
+<a id="gt"></a>
 
-##  slice
+##  gt
 
-▸ **slice**(start?: *`undefined` \| `number`*, end?: *`undefined` \| `number`*): `Uint8Array`
+▸ **gt**(b: *`BN`*): `boolean`
 
-*Inherited from Uint8Array.slice*
+*Inherited from BN.gt*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2155*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:180*
 
-Returns a section of an array.
+*__description__*: a greater than b
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` start | `undefined` \| `number` |  The beginning of the specified portion of the array. |
-| `Optional` end | `undefined` \| `number` |  The end of the specified portion of the array. |
-
-**Returns:** `Uint8Array`
-
-___
-<a id="some"></a>
-
-##  some
-
-▸ **some**(callbackfn: *`function`*, thisArg?: *`any`*): `boolean`
-
-*Inherited from Uint8Array.some*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2165*
-
-Determines whether the specified callback function returns true for any element of an array.
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  A function that accepts up to three arguments. The some method calls the callbackfn function for each element in array1 until the callbackfn returns true, or until the end of the array. |
-| `Optional` thisArg | `any` |  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value. |
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
 
 **Returns:** `boolean`
 
 ___
-<a id="sort"></a>
+<a id="gte"></a>
 
-##  sort
+##  gte
 
-▸ **sort**(compareFn?: *`undefined` \| `function`*): `this`
+▸ **gte**(b: *`BN`*): `boolean`
 
-*Inherited from Uint8Array.sort*
+*Inherited from BN.gte*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2172*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:190*
 
-Sorts an array.
+*__description__*: a greater than or equals b
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` compareFn | `undefined` \| `function` |  The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order. |
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
 
-**Returns:** `this`
+**Returns:** `boolean`
 
 ___
-<a id="subarray"></a>
+<a id="gten"></a>
 
-##  subarray
+##  gten
 
-▸ **subarray**(begin: *`number`*, end?: *`undefined` \| `number`*): `Uint8Array`
+▸ **gten**(b: *`number`*): `boolean`
 
-*Inherited from [U8a](_codec_u8a_.u8a.md).[subarray](_codec_u8a_.u8a.md#subarray)*
+*Inherited from BN.gten*
 
-*Overrides Uint8Array.subarray*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:195*
 
-*Defined in [codec/U8a.ts:73](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8a.ts#L73)*
-
-*__description__*: Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
+*__description__*: a greater than or equals b
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| begin | `number` |  The position to start at |
-| `Optional` end | `undefined` \| `number` |  The position to end at |
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
 
-**Returns:** `Uint8Array`
+**Returns:** `boolean`
+
+___
+<a id="gtn"></a>
+
+##  gtn
+
+▸ **gtn**(b: *`number`*): `boolean`
+
+*Inherited from BN.gtn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:185*
+
+*__description__*: a greater than b
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `boolean`
+
+___
+<a id="iabs"></a>
+
+##  iabs
+
+▸ **iabs**(): `BN`
+
+*Inherited from BN.iabs*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:235*
+
+*__description__*: absolute value
+
+**Returns:** `BN`
+
+___
+<a id="iadd"></a>
+
+##  iadd
+
+▸ **iadd**(b: *`BN`*): `BN`
+
+*Inherited from BN.iadd*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:245*
+
+*__description__*: addition
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="iaddn"></a>
+
+##  iaddn
+
+▸ **iaddn**(b: *`number`*): `BN`
+
+*Inherited from BN.iaddn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:255*
+
+*__description__*: addition
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="iand"></a>
+
+##  iand
+
+▸ **iand**(b: *`BN`*): `BN`
+
+*Inherited from BN.iand*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:376*
+
+*__description__*: and
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="idivn"></a>
+
+##  idivn
+
+▸ **idivn**(b: *`number`*): `BN`
+
+*Inherited from BN.idivn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:325*
+
+*__description__*: divide
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="imaskn"></a>
+
+##  imaskn
+
+▸ **imaskn**(b: *`number`*): `BN`
+
+*Inherited from BN.imaskn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:471*
+
+*__description__*: clear bits with indexes higher or equal to `b`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="imul"></a>
+
+##  imul
+
+▸ **imul**(b: *`BN`*): `BN`
+
+*Inherited from BN.imul*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:285*
+
+*__description__*: multiply
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="imuln"></a>
+
+##  imuln
+
+▸ **imuln**(b: *`number`*): `BN`
+
+*Inherited from BN.imuln*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:295*
+
+*__description__*: multiply
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="ineg"></a>
+
+##  ineg
+
+▸ **ineg**(): `BN`
+
+*Inherited from BN.ineg*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:225*
+
+*__description__*: negate sign
+
+**Returns:** `BN`
+
+___
+<a id="inotn"></a>
+
+##  inotn
+
+▸ **inotn**(w: *`number`*): `BN`
+
+*Inherited from BN.inotn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:485*
+
+*__description__*: not (for the width specified by `w`)
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| w | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="invm"></a>
+
+##  invm
+
+▸ **invm**(b: *`BN`*): `BN`
+
+*Inherited from BN.invm*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:500*
+
+*__description__*: inverse `a` modulo `b`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="ior"></a>
+
+##  ior
+
+▸ **ior**(b: *`BN`*): `BN`
+
+*Inherited from BN.ior*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:356*
+
+*__description__*: or
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="iseven"></a>
+
+##  isEven
+
+▸ **isEven**(): `boolean`
+
+*Inherited from BN.isEven*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:130*
+
+*__description__*: check if value is even
+
+**Returns:** `boolean`
+
+___
+<a id="isneg"></a>
+
+##  isNeg
+
+▸ **isNeg**(): `boolean`
+
+*Inherited from BN.isNeg*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:125*
+
+*__description__*: true if the number is negative
+
+**Returns:** `boolean`
+
+___
+<a id="isodd"></a>
+
+##  isOdd
+
+▸ **isOdd**(): `boolean`
+
+*Inherited from BN.isOdd*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:135*
+
+*__description__*: check if value is odd
+
+**Returns:** `boolean`
+
+___
+<a id="iszero"></a>
+
+##  isZero
+
+▸ **isZero**(): `boolean`
+
+*Inherited from BN.isZero*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:140*
+
+*__description__*: check if value is zero
+
+**Returns:** `boolean`
+
+___
+<a id="ishln"></a>
+
+##  ishln
+
+▸ **ishln**(b: *`number`*): `BN`
+
+*Inherited from BN.ishln*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:426*
+
+*__description__*: shift left
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="ishrn"></a>
+
+##  ishrn
+
+▸ **ishrn**(b: *`number`*): `BN`
+
+*Inherited from BN.ishrn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:446*
+
+*__description__*: shift right (unimplemented [https://github.com/indutny/bn.js/blob/master/lib/bn.js#L2086](https://github.com/indutny/bn.js/blob/master/lib/bn.js#L2086))
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="isqr"></a>
+
+##  isqr
+
+▸ **isqr**(): `BN`
+
+*Inherited from BN.isqr*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:305*
+
+*__description__*: square
+
+**Returns:** `BN`
+
+___
+<a id="isub"></a>
+
+##  isub
+
+▸ **isub**(b: *`BN`*): `BN`
+
+*Inherited from BN.isub*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:265*
+
+*__description__*: subtraction
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="isubn"></a>
+
+##  isubn
+
+▸ **isubn**(b: *`number`*): `BN`
+
+*Inherited from BN.isubn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:275*
+
+*__description__*: subtraction
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="iuand"></a>
+
+##  iuand
+
+▸ **iuand**(b: *`BN`*): `BN`
+
+*Inherited from BN.iuand*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:386*
+
+*__description__*: and
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="iuor"></a>
+
+##  iuor
+
+▸ **iuor**(b: *`BN`*): `BN`
+
+*Inherited from BN.iuor*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:366*
+
+*__description__*: or
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="iushln"></a>
+
+##  iushln
+
+▸ **iushln**(b: *`number`*): `BN`
+
+*Inherited from BN.iushln*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:436*
+
+*__description__*: shift left
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="iushrn"></a>
+
+##  iushrn
+
+▸ **iushrn**(b: *`number`*): `BN`
+
+*Inherited from BN.iushrn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:456*
+
+*__description__*: shift right
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="iuxor"></a>
+
+##  iuxor
+
+▸ **iuxor**(b: *`BN`*): `BN`
+
+*Inherited from BN.iuxor*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:411*
+
+*__description__*: xor
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="ixor"></a>
+
+##  ixor
+
+▸ **ixor**(b: *`BN`*): `BN`
+
+*Inherited from BN.ixor*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:401*
+
+*__description__*: xor
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="lt"></a>
+
+##  lt
+
+▸ **lt**(b: *`BN`*): `boolean`
+
+*Inherited from BN.lt*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:160*
+
+*__description__*: a less than b
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `boolean`
+
+___
+<a id="lte"></a>
+
+##  lte
+
+▸ **lte**(b: *`BN`*): `boolean`
+
+*Inherited from BN.lte*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:170*
+
+*__description__*: a less than or equals b
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `boolean`
+
+___
+<a id="lten"></a>
+
+##  lten
+
+▸ **lten**(b: *`number`*): `boolean`
+
+*Inherited from BN.lten*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:175*
+
+*__description__*: a less than or equals b
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `boolean`
+
+___
+<a id="ltn"></a>
+
+##  ltn
+
+▸ **ltn**(b: *`number`*): `boolean`
+
+*Inherited from BN.ltn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:165*
+
+*__description__*: a less than b
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `boolean`
+
+___
+<a id="maskn"></a>
+
+##  maskn
+
+▸ **maskn**(b: *`number`*): `BN`
+
+*Inherited from BN.maskn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:466*
+
+*__description__*: clear bits with indexes higher or equal to `b`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="mod"></a>
+
+##  mod
+
+▸ **mod**(b: *`BN`*): `BN`
+
+*Inherited from BN.mod*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:330*
+
+*__description__*: reduct
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="modn"></a>
+
+##  modn
+
+▸ **modn**(b: *`number`*): `number`
+
+*Inherited from BN.modn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:341*
+
+*__see__*: API consistency [https://github.com/indutny/bn.js/pull/130](https://github.com/indutny/bn.js/pull/130)
+
+*__description__*: reduct
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `number`
+
+___
+<a id="mul"></a>
+
+##  mul
+
+▸ **mul**(b: *`BN`*): `BN`
+
+*Inherited from BN.mul*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:280*
+
+*__description__*: multiply
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="muln"></a>
+
+##  muln
+
+▸ **muln**(b: *`number`*): `BN`
+
+*Inherited from BN.muln*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:290*
+
+*__description__*: multiply
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="neg"></a>
+
+##  neg
+
+▸ **neg**(): `BN`
+
+*Inherited from BN.neg*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:220*
+
+*__description__*: negate sign
+
+**Returns:** `BN`
+
+___
+<a id="notn"></a>
+
+##  notn
+
+▸ **notn**(w: *`number`*): `BN`
+
+*Inherited from BN.notn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:480*
+
+*__description__*: not (for the width specified by `w`)
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| w | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="or"></a>
+
+##  or
+
+▸ **or**(b: *`BN`*): `BN`
+
+*Inherited from BN.or*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:351*
+
+*__description__*: or
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="pow"></a>
+
+##  pow
+
+▸ **pow**(b: *`BN`*): `BN`
+
+*Inherited from BN.pow*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:310*
+
+*__description__*: raise `a` to the power of `b`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="setn"></a>
+
+##  setn
+
+▸ **setn**(b: *`number`*): `BN`
+
+*Inherited from BN.setn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:416*
+
+*__description__*: set specified bit to 1
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="shln"></a>
+
+##  shln
+
+▸ **shln**(b: *`number`*): `BN`
+
+*Inherited from BN.shln*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:421*
+
+*__description__*: shift left
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="shrn"></a>
+
+##  shrn
+
+▸ **shrn**(b: *`number`*): `BN`
+
+*Inherited from BN.shrn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:441*
+
+*__description__*: shift right
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="sqr"></a>
+
+##  sqr
+
+▸ **sqr**(): `BN`
+
+*Inherited from BN.sqr*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:300*
+
+*__description__*: square
+
+**Returns:** `BN`
+
+___
+<a id="sub"></a>
+
+##  sub
+
+▸ **sub**(b: *`BN`*): `BN`
+
+*Inherited from BN.sub*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:260*
+
+*__description__*: subtraction
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="subn"></a>
+
+##  subn
+
+▸ **subn**(b: *`number`*): `BN`
+
+*Inherited from BN.subn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:270*
+
+*__description__*: subtraction
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="testn"></a>
+
+##  testn
+
+▸ **testn**(b: *`number`*): `boolean`
+
+*Inherited from BN.testn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:461*
+
+*__description__*: test if specified bit is set
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `boolean`
+
+___
+<a id="toarray"></a>
+
+##  toArray
+
+▸ **toArray**(endian?: *`Endianness`*, length?: *`undefined` \| `number`*): `number`[]
+
+*Inherited from BN.toArray*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:85*
+
+*__description__*: convert to byte Array, and optionally zero pad to length, throwing if already exceeding
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| `Optional` endian | `Endianness` |
+| `Optional` length | `undefined` \| `number` |
+
+**Returns:** `number`[]
+
+___
+<a id="toarraylike"></a>
+
+##  toArrayLike
+
+▸ **toArrayLike**(ArrayType: *`object`*, endian?: *`Endianness`*, length?: *`undefined` \| `number`*): `Buffer`
+
+▸ **toArrayLike**(ArrayType: *`any`[]*, endian?: *`Endianness`*, length?: *`undefined` \| `number`*): `any`[]
+
+*Inherited from BN.toArrayLike*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:90*
+
+*__description__*: convert to an instance of `type`, which must behave like an Array
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| ArrayType | `object` |
+| `Optional` endian | `Endianness` |
+| `Optional` length | `undefined` \| `number` |
+
+**Returns:** `Buffer`
+
+*Inherited from BN.toArrayLike*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:96*
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| ArrayType | `any`[] |
+| `Optional` endian | `Endianness` |
+| `Optional` length | `undefined` \| `number` |
+
+**Returns:** `any`[]
+
+___
+<a id="tobn"></a>
+
+##  toBn
+
+▸ **toBn**(): `BN`
+
+*Inherited from AbstractInt.toBn*
+
+*Defined in [codec/AbstractInt.ts:98](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/AbstractInt.ts#L98)*
+
+*__description__*: Returns the BN representation of the number. (Compatibility)
+
+**Returns:** `BN`
+
+___
+<a id="tobuffer"></a>
+
+##  toBuffer
+
+▸ **toBuffer**(endian?: *`Endianness`*, length?: *`undefined` \| `number`*): `Buffer`
+
+*Inherited from BN.toBuffer*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:105*
+
+*__description__*: convert to Node.js Buffer (if available). For compatibility with browserify and similar tools, use this instead: a.toArrayLike(Buffer, endian, length)
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| `Optional` endian | `Endianness` |
+| `Optional` length | `undefined` \| `number` |
+
+**Returns:** `Buffer`
 
 ___
 <a id="tohex"></a>
@@ -749,9 +1579,11 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toHex](../interfaces/_types_.codec.md#tohex)*
 
-*Inherited from [U8a](_codec_u8a_.u8a.md).[toHex](_codec_u8a_.u8a.md#tohex)*
+*Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
 
-*Defined in [codec/U8a.ts:80](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8a.ts#L80)*
+*Overrides AbstractInt.toHex*
+
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/UInt.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -766,47 +1598,95 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
 
-*Inherited from [U8a](_codec_u8a_.u8a.md).[toJSON](_codec_u8a_.u8a.md#tojson)*
+*Inherited from AbstractInt.toJSON*
 
-*Defined in [codec/U8a.ts:87](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8a.ts#L87)*
+*Overrides BN.toJSON*
+
+*Defined in [codec/AbstractInt.ts:110](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/AbstractInt.ts#L110)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
 **Returns:** `any`
 
 ___
-<a id="tolocalestring"></a>
+<a id="tonumber"></a>
 
-##  toLocaleString
+##  toNumber
 
-▸ **toLocaleString**(): `string`
+▸ **toNumber**(): `number`
 
-*Inherited from Uint8Array.toLocaleString*
+*Inherited from BN.toNumber*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2185*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:75*
 
-Converts a number to a string by using the current locale.
+*__description__*: convert to Javascript Number (limited to 53 bits)
 
-**Returns:** `string`
+**Returns:** `number`
+
+___
+<a id="tored"></a>
+
+##  toRed
+
+▸ **toRed**(reductionContext: *`ReductionContext`*): `RedBN`
+
+*Inherited from BN.toRed*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:505*
+
+*__description__*: Convert number to red
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| reductionContext | `ReductionContext` |
+
+**Returns:** `RedBN`
 
 ___
 <a id="tostring"></a>
 
 ##  toString
 
-▸ **toString**(): `string`
+▸ **toString**(base?: *`undefined` \| `number`*): `string`
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Inherited from AbstractInt.toString*
 
-*Inherited from [U8a](_codec_u8a_.u8a.md).[toString](_codec_u8a_.u8a.md#tostring)*
+*Overrides BN.toString*
 
-*Overrides Uint8Array.toString*
-
-*Defined in [codec/U8a.ts:94](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8a.ts#L94)*
+*Defined in [codec/AbstractInt.ts:121](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/AbstractInt.ts#L121)*
 
 *__description__*: Returns the string representation of the value
 
+**Parameters:**
+
+| Name | Type | Description |
+| ------ | ------ | ------ |
+| `Optional` base | `undefined` \| `number` |  The base to use for the conversion |
+
 **Returns:** `string`
+
+___
+<a id="totwos"></a>
+
+##  toTwos
+
+▸ **toTwos**(width: *`number`*): `BN`
+
+*Inherited from BN.toTwos*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:210*
+
+*__description__*: convert to two's complement representation, where width is bit width
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| width | `number` |
+
+**Returns:** `BN`
 
 ___
 <a id="tou8a"></a>
@@ -817,9 +1697,11 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
 
-*Inherited from [U8a](_codec_u8a_.u8a.md).[toU8a](_codec_u8a_.u8a.md#tou8a)*
+*Inherited from [UInt](_codec_uint_.uint.md).[toU8a](_codec_uint_.uint.md#tou8a)*
 
-*Defined in [codec/U8a.ts:102](https://github.com/polkadot-js/api/blob/db78aeb/packages/types/src/codec/U8a.ts#L102)*
+*Overrides AbstractInt.toU8a*
+
+*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/UInt.ts#L48)*
 
 *__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
 
@@ -832,19 +1714,315 @@ ___
 **Returns:** `Uint8Array`
 
 ___
-<a id="values"></a>
+<a id="uand"></a>
 
-##  values
+##  uand
 
-▸ **values**(): `IterableIterator`<`number`>
+▸ **uand**(b: *`BN`*): `BN`
 
-*Inherited from Uint8Array.values*
+*Inherited from BN.uand*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:279*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:381*
 
-Returns an list of values in the array
+*__description__*: and
 
-**Returns:** `IterableIterator`<`number`>
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="ucmp"></a>
+
+##  ucmp
+
+▸ **ucmp**(b: *`BN`*): `-1` \| `0` \| `1`
+
+*Inherited from BN.ucmp*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:150*
+
+*__description__*: compare numbers and return `-1 (a < b)`, `0 (a == b)`, or `1 (a > b)` depending on the comparison result
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `-1` \| `0` \| `1`
+
+___
+<a id="umod"></a>
+
+##  umod
+
+▸ **umod**(b: *`BN`*): `BN`
+
+*Inherited from BN.umod*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:335*
+
+*__description__*: reduct
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="uor"></a>
+
+##  uor
+
+▸ **uor**(b: *`BN`*): `BN`
+
+*Inherited from BN.uor*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:361*
+
+*__description__*: or
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="ushln"></a>
+
+##  ushln
+
+▸ **ushln**(b: *`number`*): `BN`
+
+*Inherited from BN.ushln*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:431*
+
+*__description__*: shift left
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="ushrn"></a>
+
+##  ushrn
+
+▸ **ushrn**(b: *`number`*): `BN`
+
+*Inherited from BN.ushrn*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:451*
+
+*__description__*: shift right
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `number` |
+
+**Returns:** `BN`
+
+___
+<a id="uxor"></a>
+
+##  uxor
+
+▸ **uxor**(b: *`BN`*): `BN`
+
+*Inherited from BN.uxor*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:406*
+
+*__description__*: xor
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="xor"></a>
+
+##  xor
+
+▸ **xor**(b: *`BN`*): `BN`
+
+*Inherited from BN.xor*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:396*
+
+*__description__*: xor
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="zerobits"></a>
+
+##  zeroBits
+
+▸ **zeroBits**(): `number`
+
+*Inherited from BN.zeroBits*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:115*
+
+*__description__*: return number of less-significant consequent zero bits (example: 1010000 has 4 zero bits)
+
+**Returns:** `number`
+
+___
+<a id="decodeabstracint"></a>
+
+## `<Static>` decodeAbstracInt
+
+▸ **decodeAbstracInt**(value: *[AnyNumber](../modules/_types_.md#anynumber)*, bitLength: *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*, isNegative: *`boolean`*): `string`
+
+*Inherited from AbstractInt.decodeAbstracInt*
+
+*Defined in [codec/AbstractInt.ts:39](https://github.com/polkadot-js/api/blob/7b04ea0/packages/types/src/codec/AbstractInt.ts#L39)*
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| value | [AnyNumber](../modules/_types_.md#anynumber) |
+| bitLength | [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength) |
+| isNegative | `boolean` |
+
+**Returns:** `string`
+
+___
+<a id="isbn"></a>
+
+## `<Static>` isBN
+
+▸ **isBN**(b: *`any`*): `boolean`
+
+*Inherited from BN.isBN*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:50*
+
+*__description__*: returns true if the supplied object is a BN.js instance
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| b | `any` |
+
+**Returns:** `boolean`
+
+___
+<a id="max"></a>
+
+## `<Static>` max
+
+▸ **max**(left: *`BN`*, right: *`BN`*): `BN`
+
+*Inherited from BN.max*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:55*
+
+*__description__*: returns the maximum of 2 BN instances.
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| left | `BN` |
+| right | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="min"></a>
+
+## `<Static>` min
+
+▸ **min**(left: *`BN`*, right: *`BN`*): `BN`
+
+*Inherited from BN.min*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:60*
+
+*__description__*: returns the minimum of 2 BN instances.
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| left | `BN` |
+| right | `BN` |
+
+**Returns:** `BN`
+
+___
+<a id="mont"></a>
+
+## `<Static>` mont
+
+▸ **mont**(num: *`BN`*): `ReductionContext`
+
+*Inherited from BN.mont*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:45*
+
+*__description__*: create a reduction context with the Montgomery trick.
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| num | `BN` |
+
+**Returns:** `ReductionContext`
+
+___
+<a id="red"></a>
+
+## `<Static>` red
+
+▸ **red**(reductionContext: *`BN` \| `IPrimeName`*): `ReductionContext`
+
+*Inherited from BN.red*
+
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/bn.js/index.d.ts:40*
+
+*__description__*: create a reduction context
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| reductionContext | `BN` \| `IPrimeName` |
+
+**Returns:** `ReductionContext`
 
 ___
 
