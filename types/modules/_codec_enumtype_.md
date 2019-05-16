@@ -4,7 +4,7 @@
 
 ### Classes
 
-* [EnumType](../classes/_codec_enumtype_.enumtype.md)
+* [Enum](../classes/_codec_enumtype_.enum.md)
 
 ---
 

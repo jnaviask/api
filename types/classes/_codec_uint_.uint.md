@@ -36,7 +36,7 @@
 
 *Overrides AbstractInt.__constructor*
 
-*Defined in [codec/UInt.ts:21](https://github.com/polkadot-js/api/blob/2b538f5/packages/types/src/codec/UInt.ts#L21)*
+*Defined in [codec/UInt.ts:21](https://github.com/polkadot-js/api/blob/8c70cbf/packages/types/src/codec/UInt.ts#L21)*
 
 **Parameters:**
 
@@ -62,9 +62,26 @@ ___
 
 *Overrides AbstractInt.toHex*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/2b538f5/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/8c70cbf/packages/types/src/codec/UInt.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
+
+**Returns:** `string`
+
+___
+<a id="torawtype"></a>
+
+##  toRawType
+
+▸ **toRawType**(): `string`
+
+*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+
+*Overrides AbstractInt.toRawType*
+
+*Defined in [codec/UInt.ts:47](https://github.com/polkadot-js/api/blob/8c70cbf/packages/types/src/codec/UInt.ts#L47)*
+
+*__description__*: Returns the base runtime type name for this instance
 
 **Returns:** `string`
 
@@ -79,9 +96,9 @@ ___
 
 *Overrides AbstractInt.toU8a*
 
-*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/2b538f5/packages/types/src/codec/UInt.ts#L48)*
+*Defined in [codec/UInt.ts:55](https://github.com/polkadot-js/api/blob/8c70cbf/packages/types/src/codec/UInt.ts#L55)*
 
-*__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
+*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 

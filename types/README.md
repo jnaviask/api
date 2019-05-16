@@ -24,13 +24,9 @@ A type extends the Base class, when it holds a value
 
 A compact length-encoding codec wrapper. Mostly used by other types to add length-prefixed encoding
 
-[Enum](classes/_codec_enum_.enum.md)
+[Enum](classes/_codec_enumtype_.enum.md)
 
 A codec wrapper for an enum. Enums are encoded as a single byte, where the byte is a zero-indexed value
-
-[EnumType](classes/_codec_enumtype_.enumtype.md)
-
-Implements an enum, which wraps a different type based on the value
 
 [Int](classes/_codec_int_.int.md)
 
@@ -340,7 +336,7 @@ A number of lock periods
 
 [MisbehaviorKind](classes/_type_misbehaviorreport_.misbehaviorkind.md)
 
-An [EnumType](classes/_codec_enumtype_.enumtype.md) containing a Bft misbehaviour
+An \[\[EnumType\]\] containing a Bft misbehaviour
 
 [MisbehaviorReport](classes/_type_misbehaviorreport_.misbehaviorreport.md)
 
@@ -487,7 +483,7 @@ A [Header](classes/_rpc_header_.header.md) Digest
 
 [DigestItem](classes/_rpc_digest_.digestitem.md)
 
-A [EnumType](classes/_codec_enumtype_.enumtype.md) the specifies the specific item in the logs of a [Digest](classes/_rpc_digest_.digest.md)
+A \[\[EnumType\]\] the specifies the specific item in the logs of a [Digest](classes/_rpc_digest_.digest.md)
 
 [ExtrinsicStatus](classes/_rpc_extrinsicstatus_.extrinsicstatus.md)
 
