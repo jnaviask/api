@@ -21,7 +21,7 @@
 
 ▸ **constructInfo**(index: *`BN` \| `number`*, optionInfo?: *`Option`<`ReferendumInfo`>*): `Option`<[ReferendumInfoExtended](../classes/_democracy_referenduminfo_.referenduminfoextended.md)>
 
-*Defined in [democracy/referendumInfo.ts:48](https://github.com/polkadot-js/api/blob/8c70cbf/packages/api-derive/src/democracy/referendumInfo.ts#L48)*
+*Defined in [democracy/referendumInfo.ts:48](https://github.com/polkadot-js/api/blob/07ba80b/packages/api-derive/src/democracy/referendumInfo.ts#L48)*
 
 **Parameters:**
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **referendumInfo**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [democracy/referendumInfo.ts:61](https://github.com/polkadot-js/api/blob/8c70cbf/packages/api-derive/src/democracy/referendumInfo.ts#L61)*
+*Defined in [democracy/referendumInfo.ts:61](https://github.com/polkadot-js/api/blob/07ba80b/packages/api-derive/src/democracy/referendumInfo.ts#L61)*
 
 **Parameters:**
 

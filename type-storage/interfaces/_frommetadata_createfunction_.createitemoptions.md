@@ -12,7 +12,7 @@
 
 **● key**: *`undefined` \| `string`*
 
-*Defined in [fromMetadata/createFunction.ts:13](https://github.com/polkadot-js/api/blob/8c70cbf/packages/type-storage/src/fromMetadata/createFunction.ts#L13)*
+*Defined in [fromMetadata/createFunction.ts:13](https://github.com/polkadot-js/api/blob/07ba80b/packages/type-storage/src/fromMetadata/createFunction.ts#L13)*
 
 ___
 <a id="skiphashing"></a>
@@ -21,7 +21,7 @@ ___
 
 **● skipHashing**: *`undefined` \| `false` \| `true`*
 
-*Defined in [fromMetadata/createFunction.ts:14](https://github.com/polkadot-js/api/blob/8c70cbf/packages/type-storage/src/fromMetadata/createFunction.ts#L14)*
+*Defined in [fromMetadata/createFunction.ts:14](https://github.com/polkadot-js/api/blob/07ba80b/packages/type-storage/src/fromMetadata/createFunction.ts#L14)*
 
 ___
 

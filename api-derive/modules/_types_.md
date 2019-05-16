@@ -8,7 +8,7 @@
 
 **Ƭ DerivedBalances**: *`object`*
 
-*Defined in [types.ts:8](https://github.com/polkadot-js/api/blob/8c70cbf/packages/api-derive/src/types.ts#L8)*
+*Defined in [types.ts:8](https://github.com/polkadot-js/api/blob/07ba80b/packages/api-derive/src/types.ts#L8)*
 
 #### Type declaration
 
@@ -19,7 +19,7 @@ ___
 
 **Ƭ DerivedBalancesMap**: *`object`*
 
-*Defined in [types.ts:26](https://github.com/polkadot-js/api/blob/8c70cbf/packages/api-derive/src/types.ts#L26)*
+*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/07ba80b/packages/api-derive/src/types.ts#L18)*
 
 #### Type declaration
 
@@ -32,7 +32,7 @@ ___
 
 **Ƭ DerivedContractFees**: *`object`*
 
-*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/8c70cbf/packages/api-derive/src/types.ts#L36)*
+*Defined in [types.ts:22](https://github.com/polkadot-js/api/blob/07ba80b/packages/api-derive/src/types.ts#L22)*
 
 #### Type declaration
 
@@ -43,7 +43,7 @@ ___
 
 **Ƭ DerivedFees**: *`object`*
 
-*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/8c70cbf/packages/api-derive/src/types.ts#L18)*
+*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/07ba80b/packages/api-derive/src/types.ts#L35)*
 
 #### Type declaration
 
@@ -54,7 +54,7 @@ ___
 
 **Ƭ DerivedReferendumVote**: *`object`*
 
-*Defined in [types.ts:30](https://github.com/polkadot-js/api/blob/8c70cbf/packages/api-derive/src/types.ts#L30)*
+*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/07ba80b/packages/api-derive/src/types.ts#L43)*
 
 #### Type declaration
 
@@ -65,7 +65,18 @@ ___
 
 **Ƭ DerivedSessionInfo**: *`object`*
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/8c70cbf/packages/api-derive/src/types.ts#L49)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/07ba80b/packages/api-derive/src/types.ts#L49)*
+
+#### Type declaration
+
+___
+<a id="derivedstaking"></a>
+
+##  DerivedStaking
+
+**Ƭ DerivedStaking**: *`object`*
+
+*Defined in [types.ts:60](https://github.com/polkadot-js/api/blob/07ba80b/packages/api-derive/src/types.ts#L60)*
 
 #### Type declaration
 
