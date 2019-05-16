@@ -183,7 +183,7 @@ A representation of a storage key (typically hashed) in the system
 
 This is a string wrapper, along with the length.
 
-\[\[Type\]\]
+[Type](classes/_codec_struct_.struct.md#type)
 
 This is a extended version of String, specifically to handle types
 
