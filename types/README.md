@@ -40,7 +40,7 @@ A generic signed integer codec
 
 An Option is an optional field. The first byte indicates that there is is value to follow
 
-[Set](classes/_codec_set_.set.md)
+[Set](classes/_codec_set_.codecset.md#set)
 
 An Set is an array of string values, represented an an encoded type by a bitwise representation of the values
 
@@ -79,6 +79,22 @@ These primitive types are available:
 
 **Types**
 
+[AccountId](classes/_primitive_accountid_.accountid.md)
+
+A wrapper around an AccountId/PublicKey representation
+
+[AccountIndex](classes/_primitive_accountindex_.accountindex.md)
+
+A wrapper around an AccountIndex, which is a shortened, variable-length encoding for an Account
+
+[AccountInfo](classes/_primitive_accountinfo_.accountinfo.md)
+
+An Account information structure for contracts
+
+[Address](classes/_primitive_address_.address.md)
+
+A wrapper around an AccountId and/or AccountIndex that is encoded with a prefix
+
 [Bool](classes/_primitive_bool_.bool.md)
 
 Representation for a boolean value in the system
@@ -91,6 +107,14 @@ A Bytes wrapper for `Vec<u8>`
 
 A raw data structure. It is an encoding of a U8a without any length encoding
 
+[Event](classes/_primitive_event_.event.md)
+
+Wrapper for the actual data that forms part of an [Event](classes/_primitive_event_.event.md)
+
+[EventRecord](classes/_primitive_eventrecord_.eventrecord.md)
+
+A record for an [Event](classes/_primitive_event_.event.md) (as specified by [Metadata](classes/_metadata_metadata_.metadata.md)) with the specific [Phase](classes/_primitive_eventrecord_.phase.md) of application
+
 [H160](classes/_primitive_h160_.h160.md)
 
 Hash containing 160 bits (20 bytes), typically used in blocks, extrinsics and as a sane default
@@ -102,6 +126,10 @@ Hash containing 256 bits (32 bytes), typically used in blocks, extrinsics and as
 [H512](classes/_primitive_h512_.h512.md)
 
 Hash containing 512 bits (64 bytes), typically used for signatures
+
+[Hash](classes/_primitive_hash_.hash.md)
+
+The default hash that is used accross the system. It is just a thin wrapper around [H256](classes/_primitive_h256_.h256.md)
 
 [I8](classes/_primitive_i8_.i8.md)
 
@@ -138,6 +166,10 @@ A wrapper around seconds/timestamps. Internally the representation only has seco
 [Null](classes/_primitive_null_.null.md)
 
 Implements a type that does not contain anything (apart from `null`)
+
+[Origin](classes/_primitive_origin_.origin.md)
+
+Where Origin occurs, it should be ignored as an internal-only value
 
 [StorageData](classes/_primitive_storagedata_.storagedata.md)
 
@@ -190,22 +222,6 @@ These custom types implement specific types that are found as part of the Substr
 
 **Types**
 
-[AccountId](classes/_type_accountid_.accountid.md)
-
-A wrapper around an AccountId/PublicKey representation
-
-[AccountIndex](classes/_type_accountindex_.accountindex.md)
-
-A wrapper around an AccountIndex, which is a shortened, variable-length encoding for an Account
-
-[AccountInfo](classes/_type_accountinfo_.accountinfo.md)
-
-An Account information structure for contracts
-
-[Address](classes/_type_address_.address.md)
-
-A wrapper around an AccountId and/or AccountIndex that is encoded with a prefix
-
 [Amount](classes/_type_amount_.amount.md)
 
 The Substrate Amount representation as a [Balance](classes/_type_balance_.balance.md)
@@ -222,7 +238,7 @@ An attested candidate
 
 Wrapper for a AuthorityId. Same as an normal AccountId
 
-[AuthoritiesChange](classes/_type_digest_.authoritieschange.md)
+[AuthoritiesChange](classes/_rpc_digest_.authoritieschange.md)
 
 Log for Authories changed
 
@@ -254,10 +270,6 @@ Represents a Bft Hash and Signature pairing, typically used in reporting network
 
 A report for out-of-turn proposals
 
-[Block](classes/_type_block_.block.md)
-
-A block encoded with header and extrinsics
-
 [BlockNumber](classes/_type_blocknumber_.blocknumber.md)
 
 A representation of a Substrate BlockNumber, implemented as a [U64](classes/_primitive_u64_.u64.md)
@@ -266,25 +278,9 @@ A representation of a Substrate BlockNumber, implemented as a [U64](classes/_pri
 
 The default contract code hash that is used accross the system
 
-[Consensus](classes/_type_digest_.consensus.md)
+[Consensus](classes/_rpc_digest_.consensus.md)
 
 Log item indicating consensus
-
-[Digest](classes/_type_digest_.digest.md)
-
-A [Header](classes/_type_header_.header.md) Digest
-
-[DigestItem](classes/_type_digest_.digestitem.md)
-
-A [EnumType](classes/_codec_enumtype_.enumtype.md) the specifies the specific item in the logs of a [Digest](classes/_type_digest_.digest.md)
-
-[Event](classes/_type_event_.event.md)
-
-Wrapper for the actual data that forms part of an [Event](classes/_type_event_.event.md)
-
-[EventRecord](classes/_type_eventrecord_.eventrecord.md)
-
-A record for an [Event](classes/_type_event_.event.md) (as specified by [Metadata](classes/_metadata_metadata_.metadata.md)) with the specific [Phase](classes/_type_eventrecord_.phase.md) of application
 
 [Exposure](classes/_type_exposure_.exposure.md)
 
@@ -309,18 +305,6 @@ A container for the [Signature](classes/_type_signature_.signature.md) associate
 [Gas](classes/_type_gas_.gas.md)
 
 A gas number type for Substrate, extending [U64](classes/_primitive_u64_.u64.md)
-
-[Hash](classes/_type_hash_.hash.md)
-
-The default hash that is used accross the system. It is just a thin wrapper around [H256](classes/_primitive_h256_.h256.md)
-
-[Header](classes/_type_header_.header.md)
-
-A [Block](classes/_type_block_.block.md) header
-
-[HeaderExtended](classes/_type_header_.headerextended.md)
-
-A [Block](classes/_type_block_.block.md) header with an additional `author` field that indicates the block author\]
 
 [IndividualExposure](classes/_type_individualexposure_.individualexposure.md)
 
@@ -364,7 +348,7 @@ A Misbehaviour report of \[\[MisbehavioirKind\]\] against a specific [AuthorityI
 
 [NewAccountOutcome](classes/_type_newaccountoutcome_.newaccountoutcome.md)
 
-Enum to track the outcome for creation of an [AccountId](classes/_type_accountid_.accountid.md)
+Enum to track the outcome for creation of an [AccountId](classes/_primitive_accountid_.accountid.md)
 
 [NextAuthority](classes/_type_storedpendingchange_.nextauthority.md)
 
@@ -377,10 +361,6 @@ The Nonce or number of transactions sent by a specific account
 [NonceCompact](classes/_type_noncecompact_.noncecompact.md)
 
 The Compact or number of transactions sent by a specific account
-
-[Origin](classes/_type_origin_.origin.md)
-
-Where Origin occurs, it should be ignored as an internal-only value
 
 [ParaId](classes/_type_paraid_.paraid.md)
 
@@ -426,13 +406,13 @@ A destination account for payment
 
 Definition of the cost schedule and other parameterizations for wasm vm
 
-[Seal](classes/_type_digest_.seal.md)
+[Seal](classes/_rpc_digest_.seal.md)
 
 Log item indicating a sealing event
 
 [SeedOf](classes/_type_seedof_.seedof.md)
 
-The Substrate SeedOf representation as a [Hash](classes/_type_hash_.hash.md)
+The Substrate SeedOf representation as a [Hash](classes/_primitive_hash_.hash.md)
 
 [SessionKey](classes/_type_sessionkey_.sessionkey.md)
 
@@ -493,13 +473,33 @@ These types are not used in the runtime, but are rather used in RPC results:
 
 **Types**
 
+[Block](classes/_rpc_block_.block.md)
+
+A block encoded with header and extrinsics
+
 [ChainProperties](classes/_rpc_chainproperties_.chainproperties.md)
 
 Wraps the properties retrieved from the chain via the `system.properties` RPC call
 
+[Digest](classes/_rpc_digest_.digest.md)
+
+A [Header](classes/_rpc_header_.header.md) Digest
+
+[DigestItem](classes/_rpc_digest_.digestitem.md)
+
+A [EnumType](classes/_codec_enumtype_.enumtype.md) the specifies the specific item in the logs of a [Digest](classes/_rpc_digest_.digest.md)
+
 [ExtrinsicStatus](classes/_rpc_extrinsicstatus_.extrinsicstatus.md)
 
 An EnumType that indicates the status of the Extrinsic as been submitted
+
+[Header](classes/_rpc_header_.header.md)
+
+A [Block](classes/_rpc_block_.block.md) header
+
+[HeaderExtended](classes/_rpc_header_.headerextended.md)
+
+A [Block](classes/_rpc_block_.block.md) header with an additional `author` field that indicates the block author\]
 
 [Health](classes/_rpc_health_.health.md)
 
@@ -531,11 +531,11 @@ A [Tuple](classes/_codec_tuple_.tuple.md) that conatins the [ApiId](classes/_rpc
 
 [SignedBlock](classes/_rpc_signedblock_.signedblock.md)
 
-A [Block](classes/_type_block_.block.md) that has been signed and contains a [Justification](classes/_type_justification_.justification.md)
+A [Block](classes/_rpc_block_.block.md) that has been signed and contains a [Justification](classes/_type_justification_.justification.md)
 
 [StorageChangeSet](classes/_rpc_storagechangeset_.storagechangeset.md)
 
-A set of storage changes. It contains the [Block](classes/_type_block_.block.md) hash and a list of the actual changes
+A set of storage changes. It contains the [Block](classes/_rpc_block_.block.md) hash and a list of the actual changes
 
 Derive types
 ------------
@@ -544,7 +544,7 @@ These types are are specific for the Polkadot-JS API, so you won't find a repres
 
 **Types**
 
-[HeaderExtended](classes/_type_header_.headerextended.md)
+[HeaderExtended](classes/_rpc_header_.headerextended.md)
 
-A [Block](classes/_type_block_.block.md) header with an additional `author` field that indicates the block author\]
+A [Block](classes/_rpc_block_.block.md) header with an additional `author` field that indicates the block author\]
 

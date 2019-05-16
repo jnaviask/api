@@ -4,7 +4,7 @@
 
 ### Classes
 
-* [Set](../classes/_codec_set_.set.md)
+* [CodecSet](../classes/_codec_set_.codecset.md)
 
 ---
 

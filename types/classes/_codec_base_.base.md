@@ -18,9 +18,7 @@
 
 ↳  [Option](_codec_option_.option.md)
 
-↳  [Set](_codec_set_.set.md)
-
-↳  [Address](_type_address_.address.md)
+↳  [Address](_primitive_address_.address.md)
 
 # Constructors
 
@@ -30,7 +28,7 @@
 
 ⊕ **new Base**(value?: *`any`*): [Base](_codec_base_.base.md)
 
-*Defined in [codec/Base.ts:10](https://github.com/polkadot-js/api/blob/3ec4bc3/packages/types/src/codec/Base.ts#L10)*
+*Defined in [codec/Base.ts:10](https://github.com/polkadot-js/api/blob/5a857a3/packages/types/src/codec/Base.ts#L10)*
 
 **Parameters:**
 

@@ -23,6 +23,7 @@
 * [&quot;democracy/votes&quot;](modules/_democracy_votes_.md)
 * [&quot;session/eraLength&quot;](modules/_session_eralength_.md)
 * [&quot;session/eraProgress&quot;](modules/_session_eraprogress_.md)
+* [&quot;session/info&quot;](modules/_session_info_.md)
 * [&quot;session/sessionProgress&quot;](modules/_session_sessionprogress_.md)
 * [&quot;staking/controllers&quot;](modules/_staking_controllers_.md)
 * [&quot;staking/intentionsBalances&quot;](modules/_staking_intentionsbalances_.md)
