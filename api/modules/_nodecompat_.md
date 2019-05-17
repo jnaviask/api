@@ -8,7 +8,7 @@
 
 ▸ **injectNodeCompat**(__namedParameters: *`object`*): `void`
 
-*Defined in [nodeCompat.ts:32](https://github.com/polkadot-js/api/blob/f8f05ba/packages/api/src/nodeCompat.ts#L32)*
+*Defined in [nodeCompat.ts:32](https://github.com/polkadot-js/api/blob/ed5c886/packages/api/src/nodeCompat.ts#L32)*
 
 **Parameters:**
 
