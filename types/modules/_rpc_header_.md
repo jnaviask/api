@@ -5,7 +5,6 @@
 ### Classes
 
 * [Header](../classes/_rpc_header_.header.md)
-* [HeaderExtended](../classes/_rpc_header_.headerextended.md)
 
 ### Type aliases
 
@@ -21,7 +20,7 @@
 
 **Ƭ HeaderValue**: *`object`*
 
-*Defined in [rpc/Header.ts:17](https://github.com/polkadot-js/api/blob/6b6f04d/packages/types/src/rpc/Header.ts#L17)*
+*Defined in [rpc/Header.ts:15](https://github.com/polkadot-js/api/blob/36d7a85/packages/types/src/rpc/Header.ts#L15)*
 
 #### Type declaration
 

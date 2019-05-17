@@ -493,10 +493,6 @@ An EnumType that indicates the status of the Extrinsic as been submitted
 
 A [Block](classes/_rpc_block_.block.md) header
 
-[HeaderExtended](classes/_rpc_header_.headerextended.md)
-
-A [Block](classes/_rpc_block_.block.md) header with an additional `author` field that indicates the block author\]
-
 [Health](classes/_rpc_health_.health.md)
 
 A system health indicator, reported back over RPC
@@ -536,11 +532,11 @@ A set of storage changes. It contains the [Block](classes/_rpc_block_.block.md) 
 Derive types
 ------------
 
-These types are are specific for the Polkadot-JS API, so you won't find a representation of them in the SCALE codec or the Substrate core. They are used in the [api-derive](https://www.npmjs.com/package/@polkadot/api-derive) methods.
+These types are are specific for the Polkadot-JS derive API, so you won't find a representation of them in the SCALE codec or the Substrate core. They are used in the [api-derive](https://www.npmjs.com/package/@polkadot/api-derive) methods.
 
 **Types**
 
-[HeaderExtended](classes/_rpc_header_.headerextended.md)
+\[\[HeaderExtended\]\]
 
-A [Block](classes/_rpc_block_.block.md) header with an additional `author` field that indicates the block author\]
+A [Header](classes/_rpc_header_.header.md) header with an additional `author` field that indicates the block author\]
 

@@ -230,7 +230,6 @@
   * [Usurped](classes/_rpc_extrinsicstatus_.usurped.md)
 * [&quot;rpc/Header&quot;](modules/_rpc_header_.md)
   * [Header](classes/_rpc_header_.header.md)
-  * [HeaderExtended](classes/_rpc_header_.headerextended.md)
 * [&quot;rpc/Health&quot;](modules/_rpc_health_.md)
   * [Health](classes/_rpc_health_.health.md)
 * [&quot;rpc/Json&quot;](modules/_rpc_json_.md)
