@@ -7,7 +7,7 @@
 # Callable
 ▸ **__call**(arg?: *`any`*): `Uint8Array`
 
-*Defined in [primitive/StorageKey.ts:12](https://github.com/polkadot-js/api/blob/1e8e0b2/packages/types/src/primitive/StorageKey.ts#L12)*
+*Defined in [primitive/StorageKey.ts:12](https://github.com/polkadot-js/api/blob/9f258ff/packages/types/src/primitive/StorageKey.ts#L12)*
 
 **Parameters:**
 
@@ -25,7 +25,7 @@
 
 **● headKey**: *[Uint8Array](../classes/_codec_u8a_.u8a.md#uint8array)*
 
-*Defined in [primitive/StorageKey.ts:14](https://github.com/polkadot-js/api/blob/1e8e0b2/packages/types/src/primitive/StorageKey.ts#L14)*
+*Defined in [primitive/StorageKey.ts:14](https://github.com/polkadot-js/api/blob/9f258ff/packages/types/src/primitive/StorageKey.ts#L14)*
 
 ___
 <a id="meta"></a>
@@ -34,7 +34,7 @@ ___
 
 **● meta**: *`MetaV4`*
 
-*Defined in [primitive/StorageKey.ts:15](https://github.com/polkadot-js/api/blob/1e8e0b2/packages/types/src/primitive/StorageKey.ts#L15)*
+*Defined in [primitive/StorageKey.ts:15](https://github.com/polkadot-js/api/blob/9f258ff/packages/types/src/primitive/StorageKey.ts#L15)*
 
 ___
 <a id="method"></a>
@@ -43,7 +43,7 @@ ___
 
 **● method**: *`string`*
 
-*Defined in [primitive/StorageKey.ts:16](https://github.com/polkadot-js/api/blob/1e8e0b2/packages/types/src/primitive/StorageKey.ts#L16)*
+*Defined in [primitive/StorageKey.ts:16](https://github.com/polkadot-js/api/blob/9f258ff/packages/types/src/primitive/StorageKey.ts#L16)*
 
 ___
 <a id="section"></a>
@@ -52,7 +52,7 @@ ___
 
 **● section**: *`string`*
 
-*Defined in [primitive/StorageKey.ts:17](https://github.com/polkadot-js/api/blob/1e8e0b2/packages/types/src/primitive/StorageKey.ts#L17)*
+*Defined in [primitive/StorageKey.ts:17](https://github.com/polkadot-js/api/blob/9f258ff/packages/types/src/primitive/StorageKey.ts#L17)*
 
 ___
 <a id="tojson"></a>
@@ -61,7 +61,7 @@ ___
 
 **● toJSON**: *`function`*
 
-*Defined in [primitive/StorageKey.ts:18](https://github.com/polkadot-js/api/blob/1e8e0b2/packages/types/src/primitive/StorageKey.ts#L18)*
+*Defined in [primitive/StorageKey.ts:18](https://github.com/polkadot-js/api/blob/9f258ff/packages/types/src/primitive/StorageKey.ts#L18)*
 
 #### Type declaration
 ▸(): `any`
