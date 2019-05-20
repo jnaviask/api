@@ -8,7 +8,7 @@
 
 ▸ **getHasher**(hasher?: *`StorageHasher`*): `HasherFunction`
 
-*Defined in [fromMetadata/getHasher.ts:12](https://github.com/polkadot-js/api/blob/9f258ff/packages/type-storage/src/fromMetadata/getHasher.ts#L12)*
+*Defined in [fromMetadata/getHasher.ts:12](https://github.com/polkadot-js/api/blob/767891d/packages/type-storage/src/fromMetadata/getHasher.ts#L12)*
 
 **Parameters:**
 
