@@ -7,12 +7,12 @@ import { AccountId, Balance, BlockNumber, Exposure, StakingLedger, ValidatorPref
 
 export type DerivedBalances = {
   accountId: AccountId,
+  availableBalance: Balance,
   freeBalance: Balance,
   lockedBalance: Balance,
-  availableBalance: Balance,
   reservedBalance: Balance,
-  votingBalance: Balance,
-  vestedBalance: Balance
+  vestedBalance: Balance,
+  votingBalance: Balance
 };
 
 export type DerivedBalancesMap = {

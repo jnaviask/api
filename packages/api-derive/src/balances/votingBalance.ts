@@ -29,16 +29,16 @@ export function votingBalance (api: ApiInterface$Rx) {
       map(([accountId = EMPTY_ACCOUNT, freeBalance = new Balance(0), reservedBalance = new Balance(0)]) => {
         return {
           accountId,
+          availableBalance: new Balance(0),
           freeBalance,
+          lockedBalance: new Balance(0),
           nominatedBalance: new Balance(0),
           reservedBalance,
           stakingBalance: new Balance(0),
+          vestedBalance: new Balance(0),
           votingBalance: new Balance(
             freeBalance.add(reservedBalance)
           ),
-          availableBalance: new Balance(0),
-          lockedBalance: new Balance(0),
-          vestedBalance: new Balance(0)
         };
       }),
       drr()

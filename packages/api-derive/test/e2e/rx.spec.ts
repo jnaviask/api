@@ -7,6 +7,7 @@ import BN from 'bn.js';
 import ApiRx from '@polkadot/api/rx/Api';
 import { ApiInterface$Rx } from '@polkadot/api/types';
 import { AccountId, AccountIndex, Balance, BlockNumber } from '@polkadot/types';
+import { DerivedBalances } from './../../types';
 import { WsProvider } from '@polkadot/rpc-provider';
 
 const WS_LOCAL = 'ws://127.0.0.1:9944/';
@@ -16,7 +17,7 @@ const WS_LOCAL = 'ws://127.0.0.1:9944/';
 const ID = '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY';
 const IX = 'F7Hs';
 
-describe.skip('derive e2e', () => {
+describe('derive e2e', () => {
   let api: ApiInterface$Rx;
 
   beforeAll(() => {
@@ -111,17 +112,21 @@ describe.skip('derive e2e', () => {
     // these only work on localhost, not the poc-3 URL
   // (and it is assuming it sent at least 1 tx)
   describe('derive.balances', () => {
+    const balancesTests = {
+      accountId: expect.any(AccountId),
+      availableBalance: expect.any(Balance),
+      freeBalance: expect.any(Balance),
+      lockedBalance: expect.any(Balance),
+      reservedBalance: expect.any(Balance),
+      vestedBalance: expect.any(Balance),
+      votingBalance: expect.any(Balance)
+    };
+
     describe('all', () => {
       it('It returns an object with all relevant balance information of an account', async (done) => {
         api.derive.balances.all(ID).subscribe((balances) => {
           expect(balances).toEqual(expect.objectContaining({
-            accountId: expect.any(AccountId),
-            availableBalance: expect.any(Balance),
-            freeBalance: expect.any(Balance),
-            lockedBalance: expect.any(Balance),
-            reservedBalance: expect.any(Balance),
-            vestedBalance: expect.any(Balance),
-            votingBalance: expect.any(Balance)
+            ...balancesTests
           }));
           done();
         });
@@ -129,7 +134,7 @@ describe.skip('derive e2e', () => {
     });
 
     describe('fees', () => {
-      it('fees: It returns an object with all relevant fees of type BN', async (done) => {
+      it('It returns an object with all relevant fees of type BN', async (done) => {
         api.derive.balances.fees().subscribe((fees) => {
           expect(fees).toEqual(expect.objectContaining({
             creationFee: expect.any(BN),
@@ -142,6 +147,33 @@ describe.skip('derive e2e', () => {
         });
       });
     });
+
+    // describe('votingBalance', () => {
+    //   it('It returns an object with the derived balances of an account', async (done) => {
+    //     api.derive.balances.votingBalance().subscribe((votingBalance) => {
+    //       expect(votingBalance).toEqual(expect.objectContaining({
+    //         ...balancesTests,
+    //         nominatedBalance: expect.any(Balance),
+    //         stakingBalance: expect.any(Balance)
+    //       }));
+    //       done();
+    //     });
+    //   });
+    // });
+
+    // describe('validatingBalance', () => {
+    //   it('It returns an object with the derived balances of an account', async (done) => {
+    //     api.derive.balances.validatingBalance().subscribe((validatingBalance) => {
+    //       expect(validatingBalance).toEqual(expect.objectContaining({
+    //         ...balancesTests,
+    //         nominators: expect.any(BN),
+    //         nominatedBalance: expect.any(Balance),
+    //         stakingBalance: expect.any(Balance)
+    //       }));
+    //       done();
+    //     });
+    //   });
+    // });
   });
 
   describe('derive.chain', () => {

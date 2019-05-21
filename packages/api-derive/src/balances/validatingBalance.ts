@@ -28,8 +28,8 @@ export function validatingBalance (api: ApiInterface$Rx) {
 
         return {
           ...balance,
-          nominators,
           nominatedBalance: new Balance(nominatedBalance),
+          nominators,
           stakingBalance: new Balance(
             nominatedBalance.add(balance.votingBalance)
           )
