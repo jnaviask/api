@@ -8,7 +8,7 @@
 
 ▸ **bestNumberLag**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [chain/bestNumberLag.ts:27](https://github.com/polkadot-js/api/blob/767891d/packages/api-derive/src/chain/bestNumberLag.ts#L27)*
+*Defined in [chain/bestNumberLag.ts:27](https://github.com/polkadot-js/api/blob/833b49d/packages/api-derive/src/chain/bestNumberLag.ts#L27)*
 
 *__name__*: bestNumberLag
 
