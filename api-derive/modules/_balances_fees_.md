@@ -8,7 +8,7 @@
 
 ▸ **fees**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [balances/fees.ts:26](https://github.com/polkadot-js/api/blob/833b49d/packages/api-derive/src/balances/fees.ts#L26)*
+*Defined in [balances/fees.ts:26](https://github.com/polkadot-js/api/blob/ce6738c/packages/api-derive/src/balances/fees.ts#L26)*
 
 *__name__*: fees
 
@@ -27,8 +27,7 @@ api.derive.balances.fees(([creationFee, transferFee]) => {
 | api | `ApiInterface$Rx` |
 
 **Returns:** `(Anonymous function)`
-An object containing the combined results of the storage queries for
-all relevant fees as declared in the substrate chain spec.
+An object containing the combined results of the storage queries for all relevant fees as declared in the substrate chain spec.
 
 ___
 

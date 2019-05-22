@@ -27,7 +27,7 @@
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/ContractInfo.ts:19](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/type/ContractInfo.ts#L19)*
+*Defined in [type/ContractInfo.ts:19](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/type/ContractInfo.ts#L19)*
 
 **Parameters:**
 
@@ -36,31 +36,6 @@
 | `Optional` value | `any` |
 
 **Returns:** [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md)
-
-___
-
-# Properties
-
-<a id="___tostringtag"></a>
-
-##  __@toStringTag
-
-**● __@toStringTag**: *`string`*
-
-*Inherited from Map.[Symbol.toStringTag]*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130*
-
-___
-<a id="size"></a>
-
-##  size
-
-**● size**: *`number`*
-
-*Inherited from Map.size*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:28*
 
 ___
 
@@ -74,7 +49,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:172](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L172)*
+*Defined in [codec/Struct.ts:172](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L172)*
 
 *__description__*: Returns the Type description to sthe structure
 
@@ -87,7 +62,7 @@ ___
 
 **get codeHash**(): [CodeHash](_type_codehash_.codehash.md)
 
-*Defined in [type/ContractInfo.ts:30](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/type/ContractInfo.ts#L30)*
+*Defined in [type/ContractInfo.ts:30](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/type/ContractInfo.ts#L30)*
 
 **Returns:** [CodeHash](_type_codehash_.codehash.md)
 
@@ -98,7 +73,7 @@ ___
 
 **get deductBlock**(): [BlockNumber](_type_blocknumber_.blocknumber.md)
 
-*Defined in [type/ContractInfo.ts:34](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/type/ContractInfo.ts#L34)*
+*Defined in [type/ContractInfo.ts:34](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/type/ContractInfo.ts#L34)*
 
 **Returns:** [BlockNumber](_type_blocknumber_.blocknumber.md)
 
@@ -111,7 +86,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L179)*
+*Defined in [codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L179)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -126,7 +101,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:157](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L157)*
+*Defined in [codec/Struct.ts:157](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L157)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -139,7 +114,7 @@ ___
 
 **get rentAllowance**(): [Balance](_type_balance_.balance.md)
 
-*Defined in [type/ContractInfo.ts:38](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/type/ContractInfo.ts#L38)*
+*Defined in [type/ContractInfo.ts:38](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/type/ContractInfo.ts#L38)*
 
 **Returns:** [Balance](_type_balance_.balance.md)
 
@@ -150,7 +125,7 @@ ___
 
 **get storageSize**(): [U64](_primitive_u64_.u64.md)
 
-*Defined in [type/ContractInfo.ts:42](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/type/ContractInfo.ts#L42)*
+*Defined in [type/ContractInfo.ts:42](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/type/ContractInfo.ts#L42)*
 
 **Returns:** [U64](_primitive_u64_.u64.md)
 
@@ -161,7 +136,7 @@ ___
 
 **get trieId**(): [TrieId](_type_contractinfo_.trieid.md)
 
-*Defined in [type/ContractInfo.ts:46](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/type/ContractInfo.ts#L46)*
+*Defined in [type/ContractInfo.ts:46](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/type/ContractInfo.ts#L46)*
 
 **Returns:** [TrieId](_type_contractinfo_.trieid.md)
 
@@ -169,68 +144,6 @@ ___
 
 # Methods
 
-<a id="___iterator"></a>
-
-##  __@iterator
-
-▸ **__@iterator**(): `IterableIterator`<[`keyof S`, [Codec](../interfaces/_types_.codec.md)]>
-
-*Inherited from Map.[Symbol.iterator]*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:113*
-
-Returns an iterable of entries in the map.
-
-**Returns:** `IterableIterator`<[`keyof S`, [Codec](../interfaces/_types_.codec.md)]>
-
-___
-<a id="clear"></a>
-
-##  clear
-
-▸ **clear**(): `void`
-
-*Inherited from Map.clear*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:22*
-
-**Returns:** `void`
-
-___
-<a id="delete"></a>
-
-##  delete
-
-▸ **delete**(key: *`keyof S`*): `boolean`
-
-*Inherited from Map.delete*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:23*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| key | `keyof S` |
-
-**Returns:** `boolean`
-
-___
-<a id="entries"></a>
-
-##  entries
-
-▸ **entries**(): `IterableIterator`<[`keyof S`, [Codec](../interfaces/_types_.codec.md)]>
-
-*Inherited from Map.entries*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:118*
-
-Returns an iterable of key, value pairs for every entry in the map.
-
-**Returns:** `IterableIterator`<[`keyof S`, [Codec](../interfaces/_types_.codec.md)]>
-
-___
 <a id="eq"></a>
 
 ##  eq
@@ -241,7 +154,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:188](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L188)*
+*Defined in [codec/Struct.ts:188](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L188)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -254,26 +167,6 @@ ___
 **Returns:** `boolean`
 
 ___
-<a id="foreach"></a>
-
-##  forEach
-
-▸ **forEach**(callbackfn: *`function`*, thisArg?: *`any`*): `void`
-
-*Inherited from Map.forEach*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:24*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| callbackfn | `function` |
-| `Optional` thisArg | `any` |
-
-**Returns:** `void`
-
-___
 <a id="get"></a>
 
 ##  get
@@ -284,7 +177,7 @@ ___
 
 *Overrides Map.get*
 
-*Defined in [codec/Struct.ts:196](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L196)*
+*Defined in [codec/Struct.ts:196](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L196)*
 
 *__description__*: Returns a specific names entry in the structure
 
@@ -305,7 +198,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:203](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L203)*
+*Defined in [codec/Struct.ts:203](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L203)*
 
 *__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -318,60 +211,6 @@ ___
 **Returns:** [Codec](../interfaces/_types_.codec.md)
 
 ___
-<a id="has"></a>
-
-##  has
-
-▸ **has**(key: *`keyof S`*): `boolean`
-
-*Inherited from Map.has*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:26*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| key | `keyof S` |
-
-**Returns:** `boolean`
-
-___
-<a id="keys"></a>
-
-##  keys
-
-▸ **keys**(): `IterableIterator`<`keyof S`>
-
-*Inherited from Map.keys*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:123*
-
-Returns an iterable of keys in the map
-
-**Returns:** `IterableIterator`<`keyof S`>
-
-___
-<a id="set"></a>
-
-##  set
-
-▸ **set**(key: *`keyof S`*, value: *[Codec](../interfaces/_types_.codec.md)*): `this`
-
-*Inherited from Map.set*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:27*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| key | `keyof S` |
-| value | [Codec](../interfaces/_types_.codec.md) |
-
-**Returns:** `this`
-
-___
 <a id="toarray"></a>
 
 ##  toArray
@@ -380,7 +219,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:210](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L210)*
+*Defined in [codec/Struct.ts:210](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L210)*
 
 *__description__*: Converts the Object to an standard JavaScript Array
 
@@ -395,7 +234,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:217](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L217)*
+*Defined in [codec/Struct.ts:217](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L217)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -412,7 +251,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:224](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L224)*
+*Defined in [codec/Struct.ts:224](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L224)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -429,7 +268,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L238)*
+*Defined in [codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L238)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -446,7 +285,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L249)*
+*Defined in [codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L249)*
 
 *__description__*: Returns the string representation of the value
 
@@ -463,7 +302,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:257](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L257)*
+*Defined in [codec/Struct.ts:257](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L257)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -476,21 +315,6 @@ ___
 **Returns:** `Uint8Array`
 
 ___
-<a id="values"></a>
-
-##  values
-
-▸ **values**(): `IterableIterator`<[Codec](../interfaces/_types_.codec.md)>
-
-*Inherited from Map.values*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:128*
-
-Returns an iterable of values in the map
-
-**Returns:** `IterableIterator`<[Codec](../interfaces/_types_.codec.md)>
-
-___
 <a id="with"></a>
 
 ## `<Static>` with
@@ -499,7 +323,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
 
-*Defined in [codec/Struct.ts:132](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/codec/Struct.ts#L132)*
+*Defined in [codec/Struct.ts:132](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/codec/Struct.ts#L132)*
 
 **Type parameters:**
 

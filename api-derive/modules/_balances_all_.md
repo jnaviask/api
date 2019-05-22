@@ -8,7 +8,7 @@
 
 ▸ **all**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [balances/all.ts:66](https://github.com/polkadot-js/api/blob/833b49d/packages/api-derive/src/balances/all.ts#L66)*
+*Defined in [balances/all.ts:66](https://github.com/polkadot-js/api/blob/ce6738c/packages/api-derive/src/balances/all.ts#L66)*
 
 *__name__*: all
 
@@ -29,8 +29,7 @@ api.derive.balances.all(ALICE, ([accountId, lockedBalance]) => {
 | api | `ApiInterface$Rx` |
 
 **Returns:** `(Anonymous function)`
-An object containing the combined results of the storage queries for
-all relevant fees as declared in the substrate chain spec.
+An object containing the combined results of the storage queries for all relevant fees as declared in the substrate chain spec.
 
 ___
 

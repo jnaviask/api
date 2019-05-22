@@ -24,7 +24,7 @@
 
 *Inherited from [Json](_rpc_json_.json.md).[constructor](_rpc_json_.json.md#constructor)*
 
-*Defined in [rpc/Json.ts:16](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/Json.ts#L16)*
+*Defined in [rpc/Json.ts:16](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/Json.ts#L16)*
 
 **Parameters:**
 
@@ -33,31 +33,6 @@
 | `Optional` value | `object` \| `null` |
 
 **Returns:** [ChainProperties](_rpc_chainproperties_.chainproperties.md)
-
-___
-
-# Properties
-
-<a id="___tostringtag"></a>
-
-##  __@toStringTag
-
-**● __@toStringTag**: *`string`*
-
-*Inherited from Map.[Symbol.toStringTag]*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130*
-
-___
-<a id="size"></a>
-
-##  size
-
-**● size**: *`number`*
-
-*Inherited from Map.size*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:28*
 
 ___
 
@@ -71,7 +46,7 @@ ___
 
 *Inherited from [Json](_rpc_json_.json.md).[encodedLength](_rpc_json_.json.md#encodedlength)*
 
-*Defined in [rpc/Json.ts:28](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/Json.ts#L28)*
+*Defined in [rpc/Json.ts:28](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/Json.ts#L28)*
 
 *__description__*: Always 0, never encodes as a Uint8Array
 
@@ -86,7 +61,7 @@ ___
 
 *Inherited from [Json](_rpc_json_.json.md).[isEmpty](_rpc_json_.json.md#isempty)*
 
-*Defined in [rpc/Json.ts:35](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/Json.ts#L35)*
+*Defined in [rpc/Json.ts:35](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/Json.ts#L35)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -99,7 +74,7 @@ ___
 
 **get tokenDecimals**(): `number` \| `undefined`
 
-*Defined in [rpc/ChainProperties.ts:16](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/ChainProperties.ts#L16)*
+*Defined in [rpc/ChainProperties.ts:16](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/ChainProperties.ts#L16)*
 
 *__description__*: The token decimals, if defined (de-facto standard only)
 
@@ -112,7 +87,7 @@ ___
 
 **get tokenSymbol**(): `string` \| `undefined`
 
-*Defined in [rpc/ChainProperties.ts:23](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/ChainProperties.ts#L23)*
+*Defined in [rpc/ChainProperties.ts:23](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/ChainProperties.ts#L23)*
 
 *__description__*: The token system, if defined (de-facto standard only)
 
@@ -122,68 +97,6 @@ ___
 
 # Methods
 
-<a id="___iterator"></a>
-
-##  __@iterator
-
-▸ **__@iterator**(): `IterableIterator`<[`string`, `any`]>
-
-*Inherited from Map.[Symbol.iterator]*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:113*
-
-Returns an iterable of entries in the map.
-
-**Returns:** `IterableIterator`<[`string`, `any`]>
-
-___
-<a id="clear"></a>
-
-##  clear
-
-▸ **clear**(): `void`
-
-*Inherited from Map.clear*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:22*
-
-**Returns:** `void`
-
-___
-<a id="delete"></a>
-
-##  delete
-
-▸ **delete**(key: *`string`*): `boolean`
-
-*Inherited from Map.delete*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:23*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-
-**Returns:** `boolean`
-
-___
-<a id="entries"></a>
-
-##  entries
-
-▸ **entries**(): `IterableIterator`<[`string`, `any`]>
-
-*Inherited from Map.entries*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:118*
-
-Returns an iterable of key, value pairs for every entry in the map.
-
-**Returns:** `IterableIterator`<[`string`, `any`]>
-
-___
 <a id="eq"></a>
 
 ##  eq
@@ -194,7 +107,7 @@ ___
 
 *Inherited from [Json](_rpc_json_.json.md).[eq](_rpc_json_.json.md#eq)*
 
-*Defined in [rpc/Json.ts:42](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/Json.ts#L42)*
+*Defined in [rpc/Json.ts:42](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/Json.ts#L42)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -207,99 +120,6 @@ ___
 **Returns:** `boolean`
 
 ___
-<a id="foreach"></a>
-
-##  forEach
-
-▸ **forEach**(callbackfn: *`function`*, thisArg?: *`any`*): `void`
-
-*Inherited from Map.forEach*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:24*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| callbackfn | `function` |
-| `Optional` thisArg | `any` |
-
-**Returns:** `void`
-
-___
-<a id="get"></a>
-
-##  get
-
-▸ **get**(key: *`string`*): `any` \| `undefined`
-
-*Inherited from Map.get*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:25*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-
-**Returns:** `any` \| `undefined`
-
-___
-<a id="has"></a>
-
-##  has
-
-▸ **has**(key: *`string`*): `boolean`
-
-*Inherited from Map.has*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:26*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-
-**Returns:** `boolean`
-
-___
-<a id="keys"></a>
-
-##  keys
-
-▸ **keys**(): `IterableIterator`<`string`>
-
-*Inherited from Map.keys*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:123*
-
-Returns an iterable of keys in the map
-
-**Returns:** `IterableIterator`<`string`>
-
-___
-<a id="set"></a>
-
-##  set
-
-▸ **set**(key: *`string`*, value: *`any`*): `this`
-
-*Inherited from Map.set*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:27*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-| value | `any` |
-
-**Returns:** `this`
-
-___
 <a id="tohex"></a>
 
 ##  toHex
@@ -308,7 +128,7 @@ ___
 
 *Inherited from [Json](_rpc_json_.json.md).[toHex](_rpc_json_.json.md#tohex)*
 
-*Defined in [rpc/Json.ts:49](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/Json.ts#L49)*
+*Defined in [rpc/Json.ts:49](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/Json.ts#L49)*
 
 *__description__*: Unimplemented, will throw
 
@@ -325,7 +145,7 @@ ___
 
 *Inherited from [Json](_rpc_json_.json.md).[toJSON](_rpc_json_.json.md#tojson)*
 
-*Defined in [rpc/Json.ts:56](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/Json.ts#L56)*
+*Defined in [rpc/Json.ts:56](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/Json.ts#L56)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -342,7 +162,7 @@ ___
 
 *Inherited from [Json](_rpc_json_.json.md).[toRawType](_rpc_json_.json.md#torawtype)*
 
-*Defined in [rpc/Json.ts:67](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/Json.ts#L67)*
+*Defined in [rpc/Json.ts:67](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/Json.ts#L67)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -359,7 +179,7 @@ ___
 
 *Inherited from [Json](_rpc_json_.json.md).[toString](_rpc_json_.json.md#tostring)*
 
-*Defined in [rpc/Json.ts:74](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/Json.ts#L74)*
+*Defined in [rpc/Json.ts:74](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/Json.ts#L74)*
 
 *__description__*: Returns the string representation of the value
 
@@ -376,7 +196,7 @@ ___
 
 *Inherited from [Json](_rpc_json_.json.md).[toU8a](_rpc_json_.json.md#tou8a)*
 
-*Defined in [rpc/Json.ts:81](https://github.com/polkadot-js/api/blob/833b49d/packages/types/src/rpc/Json.ts#L81)*
+*Defined in [rpc/Json.ts:81](https://github.com/polkadot-js/api/blob/ce6738c/packages/types/src/rpc/Json.ts#L81)*
 
 *__description__*: Unimplemented, will throw
 
@@ -387,21 +207,6 @@ ___
 | `Optional` isBare | `undefined` \| `false` \| `true` |
 
 **Returns:** `Uint8Array`
-
-___
-<a id="values"></a>
-
-##  values
-
-▸ **values**(): `IterableIterator`<`any`>
-
-*Inherited from Map.values*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:128*
-
-Returns an iterable of values in the map
-
-**Returns:** `IterableIterator`<`any`>
 
 ___
 
