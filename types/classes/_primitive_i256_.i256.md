@@ -24,7 +24,7 @@
 
 *Overrides [Int](_codec_int_.int.md).[constructor](_codec_int_.int.md#constructor)*
 
-*Defined in [primitive/I256.ts:14](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/primitive/I256.ts#L14)*
+*Defined in [primitive/I256.ts:14](https://github.com/polkadot-js/api/blob/fc8653e/packages/types/src/primitive/I256.ts#L14)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ ___
 
 *Overrides AbstractInt.toHex*
 
-*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Int.ts#L36)*
+*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/fc8653e/packages/types/src/codec/Int.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -73,7 +73,7 @@ ___
 
 *Overrides AbstractInt.toRawType*
 
-*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Int.ts#L47)*
+*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/fc8653e/packages/types/src/codec/Int.ts#L47)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -92,7 +92,7 @@ ___
 
 *Overrides AbstractInt.toU8a*
 
-*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Int.ts#L55)*
+*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/fc8653e/packages/types/src/codec/Int.ts#L55)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
