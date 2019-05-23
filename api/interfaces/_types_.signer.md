@@ -12,7 +12,7 @@
 
 **● update**: *`undefined` \| `function`*
 
-*Defined in [types.ts:205](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/api/src/types.ts#L205)*
+*Defined in [types.ts:205](https://github.com/polkadot-js/api/blob/0f3a745/packages/api/src/types.ts#L205)*
 
 *__description__*: Receives an update for the extrinsic signed by a `signer.sign`
 
@@ -26,7 +26,7 @@ ___
 
 ▸ **sign**(extrinsic: *`IExtrinsic`*, address: *`string`*, options: *[SignerOptions](../modules/_types_.md#signeroptions)*): `Promise`<`number`>
 
-*Defined in [types.ts:200](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/api/src/types.ts#L200)*
+*Defined in [types.ts:200](https://github.com/polkadot-js/api/blob/0f3a745/packages/api/src/types.ts#L200)*
 
 *__description__*: Signs an extrinsic, returning an id (>0) that can be used to retrieve updates
 

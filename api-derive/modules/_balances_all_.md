@@ -8,7 +8,7 @@
 
 ▸ **all**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [balances/all.ts:66](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/api-derive/src/balances/all.ts#L66)*
+*Defined in [balances/all.ts:66](https://github.com/polkadot-js/api/blob/0f3a745/packages/api-derive/src/balances/all.ts#L66)*
 
 *__name__*: all
 

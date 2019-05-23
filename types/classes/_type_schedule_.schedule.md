@@ -29,7 +29,7 @@
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/Schedule.ts:14](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L14)*
+*Defined in [type/Schedule.ts:14](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L14)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:172](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L172)*
+*Defined in [codec/Struct.ts:172](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L172)*
 
 *__description__*: Returns the Type description to sthe structure
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L179)*
+*Defined in [codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L179)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -79,7 +79,7 @@ ___
 
 **get growMemCost**(): [Gas](_type_gas_.gas.md)
 
-*Defined in [type/Schedule.ts:32](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L32)*
+*Defined in [type/Schedule.ts:32](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L32)*
 
 *__description__*: Gas cost of a growing memory by single page.
 
@@ -94,7 +94,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:157](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L157)*
+*Defined in [codec/Struct.ts:157](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L157)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -107,7 +107,7 @@ ___
 
 **get maxMemoryPages**(): [U32](_primitive_u32_.u32.md)
 
-*Defined in [type/Schedule.ts:39](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L39)*
+*Defined in [type/Schedule.ts:39](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L39)*
 
 *__description__*: What is the maximal memory pages amount is allowed to have for a contract.
 
@@ -120,7 +120,7 @@ ___
 
 **get maxStackHeight**(): [U32](_primitive_u32_.u32.md)
 
-*Defined in [type/Schedule.ts:46](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L46)*
+*Defined in [type/Schedule.ts:46](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L46)*
 
 *__description__*: How tall the stack is allowed to grow
 
@@ -133,7 +133,7 @@ ___
 
 **get putCodePerByteCost**(): [Gas](_type_gas_.gas.md)
 
-*Defined in [type/Schedule.ts:53](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L53)*
+*Defined in [type/Schedule.ts:53](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L53)*
 
 *__description__*: Cost of putting a byte of code into the storage.
 
@@ -146,7 +146,7 @@ ___
 
 **get regularOpCost**(): [Gas](_type_gas_.gas.md)
 
-*Defined in [type/Schedule.ts:60](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L60)*
+*Defined in [type/Schedule.ts:60](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L60)*
 
 *__description__*: Gas cost of a regular operation.
 
@@ -159,7 +159,7 @@ ___
 
 **get returnDataPerByteCost**(): [Gas](_type_gas_.gas.md)
 
-*Defined in [type/Schedule.ts:67](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L67)*
+*Defined in [type/Schedule.ts:67](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L67)*
 
 *__description__*: Gas cost per one byte returned.
 
@@ -172,7 +172,7 @@ ___
 
 **get sandboxDataReadCost**(): [Gas](_type_gas_.gas.md)
 
-*Defined in [type/Schedule.ts:74](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L74)*
+*Defined in [type/Schedule.ts:74](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L74)*
 
 *__description__*: Gas cost per one byte read from the sandbox memory.
 
@@ -185,7 +185,7 @@ ___
 
 **get sandboxDataWriteCost**(): [Gas](_type_gas_.gas.md)
 
-*Defined in [type/Schedule.ts:81](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L81)*
+*Defined in [type/Schedule.ts:81](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L81)*
 
 *__description__*: Gas cost per one byte written to the sandbox memory.
 
@@ -198,7 +198,7 @@ ___
 
 **get version**(): [U32](_primitive_u32_.u32.md)
 
-*Defined in [type/Schedule.ts:88](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/type/Schedule.ts#L88)*
+*Defined in [type/Schedule.ts:88](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/type/Schedule.ts#L88)*
 
 *__description__*: Version of the schedule.
 
@@ -218,7 +218,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:188](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L188)*
+*Defined in [codec/Struct.ts:188](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L188)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -241,7 +241,7 @@ ___
 
 *Overrides Map.get*
 
-*Defined in [codec/Struct.ts:196](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L196)*
+*Defined in [codec/Struct.ts:196](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L196)*
 
 *__description__*: Returns a specific names entry in the structure
 
@@ -262,7 +262,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:203](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L203)*
+*Defined in [codec/Struct.ts:203](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L203)*
 
 *__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -283,7 +283,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:210](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L210)*
+*Defined in [codec/Struct.ts:210](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L210)*
 
 *__description__*: Converts the Object to an standard JavaScript Array
 
@@ -298,7 +298,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:217](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L217)*
+*Defined in [codec/Struct.ts:217](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L217)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -315,7 +315,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:224](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L224)*
+*Defined in [codec/Struct.ts:224](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L224)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -332,7 +332,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L238)*
+*Defined in [codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L238)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -349,7 +349,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L249)*
+*Defined in [codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L249)*
 
 *__description__*: Returns the string representation of the value
 
@@ -366,7 +366,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:257](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L257)*
+*Defined in [codec/Struct.ts:257](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L257)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -387,7 +387,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
 
-*Defined in [codec/Struct.ts:132](https://github.com/polkadot-js/api/blob/bdd1ca4/packages/types/src/codec/Struct.ts#L132)*
+*Defined in [codec/Struct.ts:132](https://github.com/polkadot-js/api/blob/0f3a745/packages/types/src/codec/Struct.ts#L132)*
 
 **Type parameters:**
 
