@@ -44,6 +44,10 @@ An Set is an array of string values, represented an an encoded type by a bitwise
 
 A Struct defines an Object with key-value pairs - where the values are Codec values.
 
+[StructAny](classes/_codec_structany_.structany.md)
+
+Wraps the a JSON structure retrieve via RPC. It extends the standard JS Map
+
 [Tuple](classes/_codec_tuple_.tuple.md)
 
 A Tuple defines an anonymous fixed-length array, where each element has its own type
@@ -496,10 +500,6 @@ A [Block](classes/_rpc_block_.block.md) header
 [Health](classes/_rpc_health_.health.md)
 
 A system health indicator, reported back over RPC
-
-[Json](classes/_rpc_json_.json.md)
-
-Wraps the a JSON structure retrieve via RPC. It extends the standard JS Map
 
 [NetworkState](classes/_rpc_networkstate_.networkstate.md)
 

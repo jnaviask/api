@@ -6,7 +6,7 @@
 
 # Hierarchy
 
-↳  [Json](_rpc_json_.json.md)
+↳  [StructAny](_codec_structany_.structany.md)
 
 **↳ NetworkState**
 
@@ -22,9 +22,9 @@
 
 ⊕ **new NetworkState**(value?: *`object` \| `null`*): [NetworkState](_rpc_networkstate_.networkstate.md)
 
-*Inherited from [Json](_rpc_json_.json.md).[constructor](_rpc_json_.json.md#constructor)*
+*Inherited from [StructAny](_codec_structany_.structany.md).[constructor](_codec_structany_.structany.md#constructor)*
 
-*Defined in [rpc/Json.ts:16](https://github.com/polkadot-js/api/blob/054cf1f/packages/types/src/rpc/Json.ts#L16)*
+*Defined in [codec/StructAny.ts:19](https://github.com/polkadot-js/api/blob/acaca67/packages/types/src/codec/StructAny.ts#L19)*
 
 **Parameters:**
 
@@ -44,9 +44,9 @@ ___
 
 **get encodedLength**(): `number`
 
-*Inherited from [Json](_rpc_json_.json.md).[encodedLength](_rpc_json_.json.md#encodedlength)*
+*Inherited from [StructAny](_codec_structany_.structany.md).[encodedLength](_codec_structany_.structany.md#encodedlength)*
 
-*Defined in [rpc/Json.ts:28](https://github.com/polkadot-js/api/blob/054cf1f/packages/types/src/rpc/Json.ts#L28)*
+*Defined in [codec/StructAny.ts:46](https://github.com/polkadot-js/api/blob/acaca67/packages/types/src/codec/StructAny.ts#L46)*
 
 *__description__*: Always 0, never encodes as a Uint8Array
 
@@ -59,9 +59,9 @@ ___
 
 **get isEmpty**(): `boolean`
 
-*Inherited from [Json](_rpc_json_.json.md).[isEmpty](_rpc_json_.json.md#isempty)*
+*Inherited from [StructAny](_codec_structany_.structany.md).[isEmpty](_codec_structany_.structany.md#isempty)*
 
-*Defined in [rpc/Json.ts:35](https://github.com/polkadot-js/api/blob/054cf1f/packages/types/src/rpc/Json.ts#L35)*
+*Defined in [codec/StructAny.ts:53](https://github.com/polkadot-js/api/blob/acaca67/packages/types/src/codec/StructAny.ts#L53)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -79,9 +79,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
 
-*Inherited from [Json](_rpc_json_.json.md).[eq](_rpc_json_.json.md#eq)*
+*Inherited from [StructAny](_codec_structany_.structany.md).[eq](_codec_structany_.structany.md#eq)*
 
-*Defined in [rpc/Json.ts:42](https://github.com/polkadot-js/api/blob/054cf1f/packages/types/src/rpc/Json.ts#L42)*
+*Defined in [codec/StructAny.ts:60](https://github.com/polkadot-js/api/blob/acaca67/packages/types/src/codec/StructAny.ts#L60)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -100,9 +100,9 @@ ___
 
 ▸ **toHex**(): `string`
 
-*Inherited from [Json](_rpc_json_.json.md).[toHex](_rpc_json_.json.md#tohex)*
+*Inherited from [StructAny](_codec_structany_.structany.md).[toHex](_codec_structany_.structany.md#tohex)*
 
-*Defined in [rpc/Json.ts:49](https://github.com/polkadot-js/api/blob/054cf1f/packages/types/src/rpc/Json.ts#L49)*
+*Defined in [codec/StructAny.ts:67](https://github.com/polkadot-js/api/blob/acaca67/packages/types/src/codec/StructAny.ts#L67)*
 
 *__description__*: Unimplemented, will throw
 
@@ -117,9 +117,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
 
-*Inherited from [Json](_rpc_json_.json.md).[toJSON](_rpc_json_.json.md#tojson)*
+*Inherited from [StructAny](_codec_structany_.structany.md).[toJSON](_codec_structany_.structany.md#tojson)*
 
-*Defined in [rpc/Json.ts:56](https://github.com/polkadot-js/api/blob/054cf1f/packages/types/src/rpc/Json.ts#L56)*
+*Defined in [codec/StructAny.ts:74](https://github.com/polkadot-js/api/blob/acaca67/packages/types/src/codec/StructAny.ts#L74)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -134,9 +134,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
 
-*Inherited from [Json](_rpc_json_.json.md).[toRawType](_rpc_json_.json.md#torawtype)*
+*Inherited from [StructAny](_codec_structany_.structany.md).[toRawType](_codec_structany_.structany.md#torawtype)*
 
-*Defined in [rpc/Json.ts:67](https://github.com/polkadot-js/api/blob/054cf1f/packages/types/src/rpc/Json.ts#L67)*
+*Defined in [codec/StructAny.ts:85](https://github.com/polkadot-js/api/blob/acaca67/packages/types/src/codec/StructAny.ts#L85)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -151,9 +151,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
 
-*Inherited from [Json](_rpc_json_.json.md).[toString](_rpc_json_.json.md#tostring)*
+*Inherited from [StructAny](_codec_structany_.structany.md).[toString](_codec_structany_.structany.md#tostring)*
 
-*Defined in [rpc/Json.ts:74](https://github.com/polkadot-js/api/blob/054cf1f/packages/types/src/rpc/Json.ts#L74)*
+*Defined in [codec/StructAny.ts:92](https://github.com/polkadot-js/api/blob/acaca67/packages/types/src/codec/StructAny.ts#L92)*
 
 *__description__*: Returns the string representation of the value
 
@@ -168,9 +168,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
 
-*Inherited from [Json](_rpc_json_.json.md).[toU8a](_rpc_json_.json.md#tou8a)*
+*Inherited from [StructAny](_codec_structany_.structany.md).[toU8a](_codec_structany_.structany.md#tou8a)*
 
-*Defined in [rpc/Json.ts:81](https://github.com/polkadot-js/api/blob/054cf1f/packages/types/src/rpc/Json.ts#L81)*
+*Defined in [codec/StructAny.ts:99](https://github.com/polkadot-js/api/blob/acaca67/packages/types/src/codec/StructAny.ts#L99)*
 
 *__description__*: Unimplemented, will throw
 
