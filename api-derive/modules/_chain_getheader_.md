@@ -8,7 +8,7 @@
 
 ▸ **getHeader**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [chain/getHeader.ts:28](https://github.com/polkadot-js/api/blob/2d94ac7/packages/api-derive/src/chain/getHeader.ts#L28)*
+*Defined in [chain/getHeader.ts:28](https://github.com/polkadot-js/api/blob/c01ade8/packages/api-derive/src/chain/getHeader.ts#L28)*
 
 *__name__*: bestNumberFinalized
 

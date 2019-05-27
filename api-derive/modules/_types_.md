@@ -25,7 +25,7 @@
 
 **Ƭ DerivedBalancesMap**: *`object`*
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/2d94ac7/packages/api-derive/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/c01ade8/packages/api-derive/src/types.ts#L19)*
 
 #### Type declaration
 

@@ -2,6 +2,7 @@
 * [&quot;http/polyfill&quot;](modules/_http_polyfill_.md)
 * [&quot;http/types&quot;](modules/_http_types_.md)
 * [&quot;mock/types&quot;](modules/_mock_types_.md)
+  * [Global](interfaces/_mock_types_.global.md)
 * [&quot;types&quot;](modules/_types_.md)
   * [ProviderInterface](interfaces/_types_.providerinterface.md)
 * [&quot;ws/Provider&quot;](modules/_ws_provider_.md)

@@ -1,14 +1,41 @@
 
 
+# Index
+
+### Interfaces
+
+* [Global](../interfaces/_mock_types_.global.md)
+
+### Type aliases
+
+* [Mock](_mock_types_.md#mock)
+* [MockState$Db](_mock_types_.md#mockstate_db)
+* [MockState$Requests](_mock_types_.md#mockstate_requests)
+* [MockState$Subscription$Callback](_mock_types_.md#mockstate_subscription_callback)
+* [MockState$Subscriptions](_mock_types_.md#mockstate_subscriptions)
+
+---
+
 # Type aliases
 
+<a id="mock"></a>
+
+##  Mock
+
+**Ƭ Mock**: *`object`*
+
+*Defined in [mock/types.ts:13](https://github.com/polkadot-js/api/blob/c01ade8/packages/rpc-provider/src/mock/types.ts#L13)*
+
+#### Type declaration
+
+___
 <a id="mockstate_db"></a>
 
 ##  MockState$Db
 
 **Ƭ MockState$Db**: *`object`*
 
-*Defined in [mock/types.ts:16](https://github.com/polkadot-js/api/blob/2d94ac7/packages/rpc-provider/src/mock/types.ts#L16)*
+*Defined in [mock/types.ts:31](https://github.com/polkadot-js/api/blob/c01ade8/packages/rpc-provider/src/mock/types.ts#L31)*
 
 #### Type declaration
 
@@ -21,7 +48,7 @@ ___
 
 **Ƭ MockState$Requests**: *`object`*
 
-*Defined in [mock/types.ts:20](https://github.com/polkadot-js/api/blob/2d94ac7/packages/rpc-provider/src/mock/types.ts#L20)*
+*Defined in [mock/types.ts:35](https://github.com/polkadot-js/api/blob/c01ade8/packages/rpc-provider/src/mock/types.ts#L35)*
 
 #### Type declaration
 
@@ -45,7 +72,7 @@ ___
 
 **Ƭ MockState$Subscription$Callback**: *`function`*
 
-*Defined in [mock/types.ts:5](https://github.com/polkadot-js/api/blob/2d94ac7/packages/rpc-provider/src/mock/types.ts#L5)*
+*Defined in [mock/types.ts:20](https://github.com/polkadot-js/api/blob/c01ade8/packages/rpc-provider/src/mock/types.ts#L20)*
 
 #### Type declaration
 ▸(error: *`Error` \| `null`*, value: *`any`*): `void`
@@ -66,7 +93,7 @@ ___
 
 **Ƭ MockState$Subscriptions**: *`object`*
 
-*Defined in [mock/types.ts:7](https://github.com/polkadot-js/api/blob/2d94ac7/packages/rpc-provider/src/mock/types.ts#L7)*
+*Defined in [mock/types.ts:22](https://github.com/polkadot-js/api/blob/c01ade8/packages/rpc-provider/src/mock/types.ts#L22)*
 
 #### Type declaration
 
