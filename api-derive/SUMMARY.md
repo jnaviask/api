@@ -4,7 +4,6 @@
 * [&quot;accounts/indexes&quot;](modules/_accounts_indexes_.md)
 * [&quot;balances/all&quot;](modules/_balances_all_.md)
 * [&quot;balances/fees&quot;](modules/_balances_fees_.md)
-* [&quot;balances/votingBalance&quot;](modules/_balances_votingbalance_.md)
 * [&quot;balances/votingBalances&quot;](modules/_balances_votingbalances_.md)
 * [&quot;balances/votingBalancesNominatorsFor&quot;](modules/_balances_votingbalancesnominatorsfor_.md)
 * [&quot;chain/bestNumber&quot;](modules/_chain_bestnumber_.md)
