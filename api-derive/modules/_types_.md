@@ -14,6 +14,7 @@
 ### Type aliases
 
 * [DerivedBalancesMap](_types_.md#derivedbalancesmap)
+* [DerivedUnlocking](_types_.md#derivedunlocking)
 
 ---
 
@@ -25,11 +26,20 @@
 
 **Ƭ DerivedBalancesMap**: *`object`*
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/a7f1606/packages/api-derive/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/7155848/packages/api-derive/src/types.ts#L19)*
 
 #### Type declaration
 
 [index: `string`]: [DerivedBalances](../interfaces/_types_.derivedbalances.md)
+
+___
+<a id="derivedunlocking"></a>
+
+##  DerivedUnlocking
+
+**Ƭ DerivedUnlocking**: *`Array`<`object`>*
+
+*Defined in [types.ts:74](https://github.com/polkadot-js/api/blob/7155848/packages/api-derive/src/types.ts#L74)*
 
 ___
 
