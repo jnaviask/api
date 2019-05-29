@@ -8,7 +8,7 @@
 
 ▸ **bestNumberFinalized**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [chain/bestNumberFinalized.ts:25](https://github.com/polkadot-js/api/blob/bb38db5/packages/api-derive/src/chain/bestNumberFinalized.ts#L25)*
+*Defined in [chain/bestNumberFinalized.ts:25](https://github.com/polkadot-js/api/blob/a7f1606/packages/api-derive/src/chain/bestNumberFinalized.ts#L25)*
 
 *__name__*: bestNumberFinalized
 

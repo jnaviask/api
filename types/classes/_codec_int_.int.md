@@ -36,7 +36,7 @@
 
 *Overrides AbstractInt.__constructor*
 
-*Defined in [codec/Int.ts:21](https://github.com/polkadot-js/api/blob/bb38db5/packages/types/src/codec/Int.ts#L21)*
+*Defined in [codec/Int.ts:21](https://github.com/polkadot-js/api/blob/a7f1606/packages/types/src/codec/Int.ts#L21)*
 
 **Parameters:**
 
@@ -60,7 +60,7 @@ ___
 
 *Overrides AbstractInt.toHex*
 
-*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/bb38db5/packages/types/src/codec/Int.ts#L36)*
+*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/a7f1606/packages/types/src/codec/Int.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -83,7 +83,7 @@ ___
 
 *Overrides AbstractInt.toRawType*
 
-*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/bb38db5/packages/types/src/codec/Int.ts#L47)*
+*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/a7f1606/packages/types/src/codec/Int.ts#L47)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -100,7 +100,7 @@ ___
 
 *Overrides AbstractInt.toU8a*
 
-*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/bb38db5/packages/types/src/codec/Int.ts#L55)*
+*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/a7f1606/packages/types/src/codec/Int.ts#L55)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 

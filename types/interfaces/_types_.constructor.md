@@ -14,7 +14,7 @@
 
 ⊕ **new Constructor**(...value: *`Array`<`any`>*): `T`
 
-*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/bb38db5/packages/types/src/types.ts#L83)*
+*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/a7f1606/packages/types/src/types.ts#L83)*
 
 **Parameters:**
 
@@ -34,7 +34,7 @@ ___
 
 **● Fallback**: *[Constructor](_types_.constructor.md)<`T`>*
 
-*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/bb38db5/packages/types/src/types.ts#L83)*
+*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/a7f1606/packages/types/src/types.ts#L83)*
 
 ___
 
