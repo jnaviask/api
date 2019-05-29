@@ -24,7 +24,7 @@
 
 *Overrides [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
-*Defined in [primitive/AccountIndex.ts:29](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/primitive/AccountIndex.ts#L29)*
+*Defined in [primitive/AccountIndex.ts:29](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/primitive/AccountIndex.ts#L29)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ ___
 
 *Overrides AbstractInt.eq*
 
-*Defined in [primitive/AccountIndex.ts:88](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/primitive/AccountIndex.ts#L88)*
+*Defined in [primitive/AccountIndex.ts:88](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/primitive/AccountIndex.ts#L88)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -71,7 +71,7 @@ ___
 
 *Overrides AbstractInt.toHex*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/codec/UInt.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -94,7 +94,7 @@ ___
 
 *Overrides AbstractInt.toJSON*
 
-*Defined in [primitive/AccountIndex.ts:101](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/primitive/AccountIndex.ts#L101)*
+*Defined in [primitive/AccountIndex.ts:101](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/primitive/AccountIndex.ts#L101)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -111,7 +111,7 @@ ___
 
 *Overrides [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Defined in [primitive/AccountIndex.ts:117](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/primitive/AccountIndex.ts#L117)*
+*Defined in [primitive/AccountIndex.ts:117](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/primitive/AccountIndex.ts#L117)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -128,7 +128,7 @@ ___
 
 *Overrides AbstractInt.toString*
 
-*Defined in [primitive/AccountIndex.ts:108](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/primitive/AccountIndex.ts#L108)*
+*Defined in [primitive/AccountIndex.ts:108](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/primitive/AccountIndex.ts#L108)*
 
 *__description__*: Returns the string representation of the value
 
@@ -147,7 +147,7 @@ ___
 
 *Overrides AbstractInt.toU8a*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/codec/UInt.ts#L56)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **calcLength**(_value: *`BN` \| `number`*): `number`
 
-*Defined in [primitive/AccountIndex.ts:48](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/primitive/AccountIndex.ts#L48)*
+*Defined in [primitive/AccountIndex.ts:48](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/primitive/AccountIndex.ts#L48)*
 
 **Parameters:**
 
@@ -183,7 +183,7 @@ ___
 
 ▸ **decodeAccountIndex**(value: *[AnyNumber](../modules/_types_.md#anynumber)*): `BN` \| `Uint8Array` \| `number` \| `string`
 
-*Defined in [primitive/AccountIndex.ts:36](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/primitive/AccountIndex.ts#L36)*
+*Defined in [primitive/AccountIndex.ts:36](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/primitive/AccountIndex.ts#L36)*
 
 **Parameters:**
 
@@ -200,7 +200,7 @@ ___
 
 ▸ **readLength**(input: *`Uint8Array`*): [`number`, `number`]
 
-*Defined in [primitive/AccountIndex.ts:62](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/primitive/AccountIndex.ts#L62)*
+*Defined in [primitive/AccountIndex.ts:62](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/primitive/AccountIndex.ts#L62)*
 
 **Parameters:**
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **writeLength**(input: *`Uint8Array`*): `Uint8Array`
 
-*Defined in [primitive/AccountIndex.ts:76](https://github.com/polkadot-js/api/blob/7e1d4cd/packages/types/src/primitive/AccountIndex.ts#L76)*
+*Defined in [primitive/AccountIndex.ts:76](https://github.com/polkadot-js/api/blob/f9e8aed/packages/types/src/primitive/AccountIndex.ts#L76)*
 
 **Parameters:**
 
