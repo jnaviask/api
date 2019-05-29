@@ -282,6 +282,14 @@ The default contract code hash that is used accross the system
 
 Log item indicating consensus
 
+[ContractInfo](classes/_type_contractinfo_.contractinfo.md)
+
+The contract information for a given contract
+
+[ContractStorageKey](classes/_type_contractstoragekey_.contractstoragekey.md)
+
+A representation of a storage key for contracts
+
 [Exposure](classes/_type_exposure_.exposure.md)
 
 A snapshot of the stake backing a single validator in the system

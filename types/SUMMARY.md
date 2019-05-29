@@ -286,6 +286,8 @@
   * [Tombstone](classes/_type_contractinfo_.tombstone.md)
   * [TombstoneContractInfo](classes/_type_contractinfo_.tombstonecontractinfo.md)
   * [TrieId](classes/_type_contractinfo_.trieid.md)
+* [&quot;type/ContractStorageKey&quot;](modules/_type_contractstoragekey_.md)
+  * [ContractStorageKey](classes/_type_contractstoragekey_.contractstoragekey.md)
 * [&quot;type/Exposure&quot;](modules/_type_exposure_.md)
   * [Exposure](classes/_type_exposure_.exposure.md)
 * [&quot;type/Extrinsic&quot;](modules/_type_extrinsic_.md)

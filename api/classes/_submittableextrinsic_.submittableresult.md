@@ -25,7 +25,7 @@
 
 *Overrides Struct.__constructor*
 
-*Defined in [SubmittableExtrinsic.ts:28](https://github.com/polkadot-js/api/blob/7155848/packages/api/src/SubmittableExtrinsic.ts#L28)*
+*Defined in [SubmittableExtrinsic.ts:28](https://github.com/polkadot-js/api/blob/543fdc0/packages/api/src/SubmittableExtrinsic.ts#L28)*
 
 **Parameters:**
 
@@ -72,7 +72,7 @@ ___
 
 *Inherited from Struct.Type*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:172](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L172)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:172](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L172)*
 
 *__description__*: Returns the Type description to sthe structure
 
@@ -87,7 +87,7 @@ ___
 
 *Inherited from Struct.encodedLength*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L179)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L179)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -100,7 +100,7 @@ ___
 
 **get events**(): `Array`<`EventRecord`>
 
-*Defined in [SubmittableExtrinsic.ts:39](https://github.com/polkadot-js/api/blob/7155848/packages/api/src/SubmittableExtrinsic.ts#L39)*
+*Defined in [SubmittableExtrinsic.ts:39](https://github.com/polkadot-js/api/blob/543fdc0/packages/api/src/SubmittableExtrinsic.ts#L39)*
 
 *__description__*: the contained events
 
@@ -115,7 +115,7 @@ ___
 
 *Inherited from Struct.isEmpty*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:157](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L157)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:157](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L157)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -128,7 +128,7 @@ ___
 
 **get status**(): `ExtrinsicStatus`
 
-*Defined in [SubmittableExtrinsic.ts:46](https://github.com/polkadot-js/api/blob/7155848/packages/api/src/SubmittableExtrinsic.ts#L46)*
+*Defined in [SubmittableExtrinsic.ts:46](https://github.com/polkadot-js/api/blob/543fdc0/packages/api/src/SubmittableExtrinsic.ts#L46)*
 
 *__description__*: the status
 
@@ -208,7 +208,7 @@ ___
 
 *Inherited from Struct.eq*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:188](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L188)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:188](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L188)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -227,7 +227,7 @@ ___
 
 ▸ **findRecord**(section: *`string`*, method: *`string`*): `EventRecord` \| `undefined`
 
-*Defined in [SubmittableExtrinsic.ts:53](https://github.com/polkadot-js/api/blob/7155848/packages/api/src/SubmittableExtrinsic.ts#L53)*
+*Defined in [SubmittableExtrinsic.ts:53](https://github.com/polkadot-js/api/blob/543fdc0/packages/api/src/SubmittableExtrinsic.ts#L53)*
 
 *__description__*: Finds an EventRecord for the specified method & section
 
@@ -271,7 +271,7 @@ ___
 
 *Overrides Map.get*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:196](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L196)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:196](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L196)*
 
 *__description__*: Returns a specific names entry in the structure
 
@@ -292,7 +292,7 @@ ___
 
 *Inherited from Struct.getAtIndex*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:203](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L203)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:203](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L203)*
 
 *__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -367,7 +367,7 @@ ___
 
 *Inherited from Struct.toArray*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:210](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L210)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:210](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L210)*
 
 *__description__*: Converts the Object to an standard JavaScript Array
 
@@ -382,7 +382,7 @@ ___
 
 *Inherited from Struct.toHex*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:217](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L217)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:217](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L217)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -397,7 +397,7 @@ ___
 
 *Inherited from Struct.toJSON*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:224](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L224)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:224](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L224)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -412,7 +412,7 @@ ___
 
 *Inherited from Struct.toRawType*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L238)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L238)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -427,7 +427,7 @@ ___
 
 *Inherited from Struct.toString*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L249)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L249)*
 
 *__description__*: Returns the string representation of the value
 
@@ -442,7 +442,7 @@ ___
 
 *Inherited from Struct.toU8a*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:257](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L257)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:257](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L257)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -478,7 +478,7 @@ ___
 
 *Inherited from Struct.with*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:132](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/Struct.ts#L132)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:132](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/Struct.ts#L132)*
 
 **Type parameters:**
 

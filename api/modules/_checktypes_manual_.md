@@ -8,7 +8,7 @@
 
 ▸ **test**(): `Promise`<`void`>
 
-*Defined in [checkTypes.manual.ts:15](https://github.com/polkadot-js/api/blob/7155848/packages/api/src/checkTypes.manual.ts#L15)*
+*Defined in [checkTypes.manual.ts:15](https://github.com/polkadot-js/api/blob/543fdc0/packages/api/src/checkTypes.manual.ts#L15)*
 
 **Returns:** `Promise`<`void`>
 

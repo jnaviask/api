@@ -24,7 +24,7 @@
 
 *Overrides [Enum](_codec_enumtype_.enum.md).[constructor](_codec_enumtype_.enum.md#constructor)*
 
-*Defined in [rpc/ExtrinsicStatus.ts:74](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L74)*
+*Defined in [rpc/ExtrinsicStatus.ts:74](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L74)*
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ ___
 
 **get asBroadcast**(): [Broadcast](_rpc_extrinsicstatus_.broadcast.md)
 
-*Defined in [rpc/ExtrinsicStatus.ts:90](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L90)*
+*Defined in [rpc/ExtrinsicStatus.ts:90](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L90)*
 
 *__description__*: Returns the item as a [Broadcast](_rpc_extrinsicstatus_.broadcast.md)
 
@@ -58,7 +58,7 @@ ___
 
 **get asDropped**(): [Dropped](_rpc_extrinsicstatus_.dropped.md)
 
-*Defined in [rpc/ExtrinsicStatus.ts:99](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L99)*
+*Defined in [rpc/ExtrinsicStatus.ts:99](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L99)*
 
 *__description__*: Returns the item as a [Dropped](_rpc_extrinsicstatus_.dropped.md)
 
@@ -71,7 +71,7 @@ ___
 
 **get asFinalized**(): [Finalized](_rpc_extrinsicstatus_.finalized.md)
 
-*Defined in [rpc/ExtrinsicStatus.ts:108](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L108)*
+*Defined in [rpc/ExtrinsicStatus.ts:108](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L108)*
 
 *__description__*: Returns the item as a [Finalized](_rpc_extrinsicstatus_.finalized.md)
 
@@ -84,7 +84,7 @@ ___
 
 **get asFuture**(): [Future](_rpc_extrinsicstatus_.future.md)
 
-*Defined in [rpc/ExtrinsicStatus.ts:117](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L117)*
+*Defined in [rpc/ExtrinsicStatus.ts:117](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L117)*
 
 *__description__*: Returns the item as a [Future](_rpc_extrinsicstatus_.future.md)
 
@@ -97,7 +97,7 @@ ___
 
 **get asInvalid**(): [Invalid](_rpc_extrinsicstatus_.invalid.md)
 
-*Defined in [rpc/ExtrinsicStatus.ts:126](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L126)*
+*Defined in [rpc/ExtrinsicStatus.ts:126](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L126)*
 
 *__description__*: Returns the item as a [Invalid](_rpc_extrinsicstatus_.invalid.md)
 
@@ -110,7 +110,7 @@ ___
 
 **get asReady**(): [Ready](_rpc_extrinsicstatus_.ready.md)
 
-*Defined in [rpc/ExtrinsicStatus.ts:135](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L135)*
+*Defined in [rpc/ExtrinsicStatus.ts:135](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L135)*
 
 *__description__*: Returns the item as a [Ready](_rpc_extrinsicstatus_.ready.md)
 
@@ -123,7 +123,7 @@ ___
 
 **get asUsurped**(): [Usurped](_rpc_extrinsicstatus_.usurped.md)
 
-*Defined in [rpc/ExtrinsicStatus.ts:144](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L144)*
+*Defined in [rpc/ExtrinsicStatus.ts:144](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L144)*
 
 *__description__*: Returns the item as a [Usurped](_rpc_extrinsicstatus_.usurped.md)
 
@@ -138,7 +138,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[encodedLength](_codec_enumtype_.enum.md#encodedlength)*
 
-*Defined in [codec/EnumType.ts:137](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L137)*
+*Defined in [codec/EnumType.ts:137](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L137)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -153,7 +153,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[index](_codec_enumtype_.enum.md#index)*
 
-*Defined in [codec/EnumType.ts:144](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L144)*
+*Defined in [codec/EnumType.ts:144](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L144)*
 
 *__description__*: The index of the metadata value
 
@@ -166,7 +166,7 @@ ___
 
 **get isBroadcast**(): `boolean`
 
-*Defined in [rpc/ExtrinsicStatus.ts:153](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L153)*
+*Defined in [rpc/ExtrinsicStatus.ts:153](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L153)*
 
 *__description__*: Returns true if the status is boadcast
 
@@ -179,7 +179,7 @@ ___
 
 **get isDropped**(): `boolean`
 
-*Defined in [rpc/ExtrinsicStatus.ts:160](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L160)*
+*Defined in [rpc/ExtrinsicStatus.ts:160](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L160)*
 
 *__description__*: Returns true if the status is dropped
 
@@ -194,7 +194,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[isEmpty](_codec_enumtype_.enum.md#isempty)*
 
-*Defined in [codec/EnumType.ts:151](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L151)*
+*Defined in [codec/EnumType.ts:151](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L151)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -207,7 +207,7 @@ ___
 
 **get isFinalized**(): `boolean`
 
-*Defined in [rpc/ExtrinsicStatus.ts:167](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L167)*
+*Defined in [rpc/ExtrinsicStatus.ts:167](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L167)*
 
 *__description__*: Returns true if the status is finalized
 
@@ -220,7 +220,7 @@ ___
 
 **get isFuture**(): `boolean`
 
-*Defined in [rpc/ExtrinsicStatus.ts:174](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L174)*
+*Defined in [rpc/ExtrinsicStatus.ts:174](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L174)*
 
 *__description__*: Returns true if the status is future
 
@@ -233,7 +233,7 @@ ___
 
 **get isInvalid**(): `boolean`
 
-*Defined in [rpc/ExtrinsicStatus.ts:181](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L181)*
+*Defined in [rpc/ExtrinsicStatus.ts:181](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L181)*
 
 *__description__*: Returns true if the status is invalid
 
@@ -248,7 +248,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[isNone](_codec_enumtype_.enum.md#isnone)*
 
-*Defined in [codec/EnumType.ts:158](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L158)*
+*Defined in [codec/EnumType.ts:158](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L158)*
 
 *__description__*: Checks if the Enum points to a [Null](_primitive_null_.null.md) type
 
@@ -263,7 +263,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[isNull](_codec_enumtype_.enum.md#isnull)*
 
-*Defined in [codec/EnumType.ts:165](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L165)*
+*Defined in [codec/EnumType.ts:165](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L165)*
 
 *__description__*: Checks if the Enum points to a [Null](_primitive_null_.null.md) type (deprecated, use isNone)
 
@@ -276,7 +276,7 @@ ___
 
 **get isReady**(): `boolean`
 
-*Defined in [rpc/ExtrinsicStatus.ts:188](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L188)*
+*Defined in [rpc/ExtrinsicStatus.ts:188](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L188)*
 
 *__description__*: Returns true if the status is eady
 
@@ -289,7 +289,7 @@ ___
 
 **get isUsurped**(): `boolean`
 
-*Defined in [rpc/ExtrinsicStatus.ts:195](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/rpc/ExtrinsicStatus.ts#L195)*
+*Defined in [rpc/ExtrinsicStatus.ts:195](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/rpc/ExtrinsicStatus.ts#L195)*
 
 *__description__*: Returns true if the status is usurped
 
@@ -304,7 +304,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[type](_codec_enumtype_.enum.md#type)*
 
-*Defined in [codec/EnumType.ts:172](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L172)*
+*Defined in [codec/EnumType.ts:172](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L172)*
 
 *__description__*: The name of the type this enum value represents
 
@@ -319,7 +319,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[value](_codec_enumtype_.enum.md#value)*
 
-*Defined in [codec/EnumType.ts:179](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L179)*
+*Defined in [codec/EnumType.ts:179](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L179)*
 
 *__description__*: The value of the enum
 
@@ -339,7 +339,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[eq](_codec_enumtype_.enum.md#eq)*
 
-*Defined in [codec/EnumType.ts:186](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L186)*
+*Defined in [codec/EnumType.ts:186](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L186)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -360,7 +360,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toHex](_codec_enumtype_.enum.md#tohex)*
 
-*Defined in [codec/EnumType.ts:201](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L201)*
+*Defined in [codec/EnumType.ts:201](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L201)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -377,7 +377,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toJSON](_codec_enumtype_.enum.md#tojson)*
 
-*Defined in [codec/EnumType.ts:208](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L208)*
+*Defined in [codec/EnumType.ts:208](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L208)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -392,7 +392,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toNumber](_codec_enumtype_.enum.md#tonumber)*
 
-*Defined in [codec/EnumType.ts:217](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L217)*
+*Defined in [codec/EnumType.ts:217](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L217)*
 
 *__description__*: Returns the number representation for the value
 
@@ -409,7 +409,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toRawType](_codec_enumtype_.enum.md#torawtype)*
 
-*Defined in [codec/EnumType.ts:224](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L224)*
+*Defined in [codec/EnumType.ts:224](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L224)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -426,7 +426,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toString](_codec_enumtype_.enum.md#tostring)*
 
-*Defined in [codec/EnumType.ts:242](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L242)*
+*Defined in [codec/EnumType.ts:242](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L242)*
 
 *__description__*: Returns the string representation of the value
 
@@ -443,7 +443,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toU8a](_codec_enumtype_.enum.md#tou8a)*
 
-*Defined in [codec/EnumType.ts:252](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L252)*
+*Defined in [codec/EnumType.ts:252](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L252)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -464,7 +464,7 @@ ___
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[with](_codec_enumtype_.enum.md#with)*
 
-*Defined in [codec/EnumType.ts:126](https://github.com/polkadot-js/api/blob/7155848/packages/types/src/codec/EnumType.ts#L126)*
+*Defined in [codec/EnumType.ts:126](https://github.com/polkadot-js/api/blob/543fdc0/packages/types/src/codec/EnumType.ts#L126)*
 
 **Parameters:**
 
