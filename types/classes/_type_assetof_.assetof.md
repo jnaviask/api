@@ -26,7 +26,7 @@
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/primitive/U128.ts#L14)*
+*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/35a59ec/packages/types/src/primitive/U128.ts#L14)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ ___
 
 *Overrides AbstractInt.toHex*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/35a59ec/packages/types/src/codec/UInt.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -75,7 +75,7 @@ ___
 
 *Overrides [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Defined in [type/Balance.ts:16](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/type/Balance.ts#L16)*
+*Defined in [type/Balance.ts:16](https://github.com/polkadot-js/api/blob/35a59ec/packages/types/src/type/Balance.ts#L16)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -94,7 +94,7 @@ ___
 
 *Overrides AbstractInt.toU8a*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/35a59ec/packages/types/src/codec/UInt.ts#L56)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
