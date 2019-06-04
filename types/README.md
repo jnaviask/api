@@ -434,6 +434,10 @@ The default signature that is used accross the system
 
 A signing payload for an [Extrinsic](classes/_type_extrinsic_.extrinsic.md). For the final encoding, it is variable length based on the contents included
 
+[SignaturePayloadRaw](classes/_type_signaturepayload_.signaturepayloadraw.md)
+
+A version of the [SignaturePayload](classes/_type_signaturepayload_.signaturepayload.md) where it doesn't rely on [Method](classes/_primitive_method_.method.md) with metadata, rather it treats the values as a raw byte stream
+
 [StakingLedger](classes/_type_stakingledger_.stakingledger.md)
 
 The ledger of a (bonded) stash

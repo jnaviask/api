@@ -364,6 +364,7 @@
   * [Sr25519Signature](classes/_type_signature_.sr25519signature.md)
 * [&quot;type/SignaturePayload&quot;](modules/_type_signaturepayload_.md)
   * [SignaturePayload](classes/_type_signaturepayload_.signaturepayload.md)
+  * [SignaturePayloadRaw](classes/_type_signaturepayload_.signaturepayloadraw.md)
 * [&quot;type/StakingLedger&quot;](modules/_type_stakingledger_.md)
   * [StakingLedger](classes/_type_stakingledger_.stakingledger.md)
 * [&quot;type/StoredPendingChange&quot;](modules/_type_storedpendingchange_.md)
