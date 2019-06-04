@@ -8,7 +8,7 @@
 
 **Ƭ HasherFunction**: *`function`*
 
-*Defined in [fromMetadata/getHasher.ts:11](https://github.com/polkadot-js/api/blob/35a59ec/packages/type-storage/src/fromMetadata/getHasher.ts#L11)*
+*Defined in [fromMetadata/getHasher.ts:11](https://github.com/polkadot-js/api/blob/ca8da1f/packages/type-storage/src/fromMetadata/getHasher.ts#L11)*
 
 #### Type declaration
 ▸(data: *`HasherInput`*): `Uint8Array`
@@ -31,7 +31,7 @@ ___
 
 ▸ **getHasher**(hasherInput?: *`StorageHasher` \| `Text`*): [HasherFunction](_frommetadata_gethasher_.md#hasherfunction)
 
-*Defined in [fromMetadata/getHasher.ts:30](https://github.com/polkadot-js/api/blob/35a59ec/packages/type-storage/src/fromMetadata/getHasher.ts#L30)*
+*Defined in [fromMetadata/getHasher.ts:30](https://github.com/polkadot-js/api/blob/ca8da1f/packages/type-storage/src/fromMetadata/getHasher.ts#L30)*
 
 **Parameters:**
 
