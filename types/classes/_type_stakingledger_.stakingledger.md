@@ -29,7 +29,7 @@
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/StakingLedger.ts:18](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/type/StakingLedger.ts#L18)*
+*Defined in [type/StakingLedger.ts:18](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/type/StakingLedger.ts#L18)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:172](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L172)*
+*Defined in [codec/Struct.ts:165](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L165)*
 
 *__description__*: Returns the Type description to sthe structure
 
@@ -64,7 +64,7 @@ ___
 
 **get active**(): [Balance](_type_balance_.balance.md)
 
-*Defined in [type/StakingLedger.ts:31](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/type/StakingLedger.ts#L31)*
+*Defined in [type/StakingLedger.ts:31](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/type/StakingLedger.ts#L31)*
 
 *__description__*: The total amount of the stash's balance that will be at stake in any forthcoming rounds
 
@@ -79,7 +79,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:179](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L179)*
+*Defined in [codec/Struct.ts:178](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L178)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -94,7 +94,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:157](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L157)*
+*Defined in [codec/Struct.ts:150](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L150)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -107,7 +107,7 @@ ___
 
 **get stash**(): [AccountId](_primitive_accountid_.accountid.md)
 
-*Defined in [type/StakingLedger.ts:38](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/type/StakingLedger.ts#L38)*
+*Defined in [type/StakingLedger.ts:38](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/type/StakingLedger.ts#L38)*
 
 *__description__*: The stash account whose balance is actually locked and at stake
 
@@ -120,7 +120,7 @@ ___
 
 **get total**(): [Balance](_type_balance_.balance.md)
 
-*Defined in [type/StakingLedger.ts:45](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/type/StakingLedger.ts#L45)*
+*Defined in [type/StakingLedger.ts:45](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/type/StakingLedger.ts#L45)*
 
 *__description__*: The total amount of the stash's balance that we are currently accounting for. It's just `active` plus all the `unlocking` balances
 
@@ -133,7 +133,7 @@ ___
 
 **get unlocking**(): [Vector](_codec_vector_.vector.md)<[UnlockChunk](_type_unlockchunk_.unlockchunk.md)>
 
-*Defined in [type/StakingLedger.ts:52](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/type/StakingLedger.ts#L52)*
+*Defined in [type/StakingLedger.ts:52](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/type/StakingLedger.ts#L52)*
 
 *__description__*: Any balance that is becoming free, which may eventually be transferred out of the stash (assuming it doesn't get slashed first)
 
@@ -153,7 +153,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:188](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L188)*
+*Defined in [codec/Struct.ts:187](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L187)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -176,7 +176,7 @@ ___
 
 *Overrides Map.get*
 
-*Defined in [codec/Struct.ts:196](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L196)*
+*Defined in [codec/Struct.ts:195](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L195)*
 
 *__description__*: Returns a specific names entry in the structure
 
@@ -197,7 +197,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:203](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L203)*
+*Defined in [codec/Struct.ts:202](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L202)*
 
 *__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -218,7 +218,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:210](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L210)*
+*Defined in [codec/Struct.ts:209](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L209)*
 
 *__description__*: Converts the Object to an standard JavaScript Array
 
@@ -233,7 +233,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:217](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L217)*
+*Defined in [codec/Struct.ts:216](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L216)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -250,7 +250,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:224](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L224)*
+*Defined in [codec/Struct.ts:223](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L223)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -267,7 +267,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L238)*
+*Defined in [codec/Struct.ts:237](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L237)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -284,7 +284,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L249)*
+*Defined in [codec/Struct.ts:250](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L250)*
 
 *__description__*: Returns the string representation of the value
 
@@ -301,7 +301,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:257](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L257)*
+*Defined in [codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L258)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -322,7 +322,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
 
-*Defined in [codec/Struct.ts:132](https://github.com/polkadot-js/api/blob/b37eb31/packages/types/src/codec/Struct.ts#L132)*
+*Defined in [codec/Struct.ts:125](https://github.com/polkadot-js/api/blob/447b7c4/packages/types/src/codec/Struct.ts#L125)*
 
 **Type parameters:**
 
