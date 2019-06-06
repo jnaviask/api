@@ -26,7 +26,7 @@
 
 **Ƭ DerivedBalancesMap**: *`object`*
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/ca8da1f/packages/api-derive/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/3227ce2/packages/api-derive/src/types.ts#L19)*
 
 #### Type declaration
 
@@ -39,7 +39,7 @@ ___
 
 **Ƭ DerivedUnlocking**: *`Array`<`object`>*
 
-*Defined in [types.ts:74](https://github.com/polkadot-js/api/blob/ca8da1f/packages/api-derive/src/types.ts#L74)*
+*Defined in [types.ts:74](https://github.com/polkadot-js/api/blob/3227ce2/packages/api-derive/src/types.ts#L74)*
 
 ___
 

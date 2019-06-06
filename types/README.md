@@ -278,6 +278,10 @@ A representation of a Substrate BlockNumber, implemented as a [U64](classes/_pri
 
 The default contract code hash that is used accross the system
 
+[Conviction](classes/_type_conviction_.conviction.md)
+
+A value denoting the strength of conviction of a vote.
+
 [Consensus](classes/_rpc_digest_.consensus.md)
 
 Log item indicating consensus
@@ -345,6 +349,10 @@ The Substrate LockIdentifier for staking
 [LockPeriods](classes/_type_lockperiods_.lockperiods.md)
 
 A number of lock periods
+
+[MemberCount](classes/_type_membercount_.membercount.md)
+
+A number of council members
 
 [MisbehaviorKind](classes/_type_misbehaviorreport_.misbehaviorkind.md)
 
@@ -465,6 +473,10 @@ Struct to encode the vesting schedule of an individual account
 [Vote](classes/_type_vote_.vote.md)
 
 A number of lock periods, plus a vote, one way or the other
+
+[Votes](classes/_type_votes_.votes.md)
+
+Info for keeping track of a council motion being voted on.
 
 [VoteIndex](classes/_type_voteindex_.voteindex.md)
 
