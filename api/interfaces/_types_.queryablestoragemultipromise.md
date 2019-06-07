@@ -10,7 +10,7 @@
 # Callable
 ▸ **__call**(calls: *[QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)<`CodecResult`, `SubscriptionResult`>*, callback: *`CodecCallback`*): `SubscriptionResult`
 
-*Defined in [types.ts:85](https://github.com/polkadot-js/api/blob/c366ede/packages/api/src/types.ts#L85)*
+*Defined in [types.ts:85](https://github.com/polkadot-js/api/blob/5f43da0/packages/api/src/types.ts#L85)*
 
 **Parameters:**
 
