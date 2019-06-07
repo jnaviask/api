@@ -24,7 +24,7 @@
 
 *Overrides [I8](_primitive_i8_.i8.md).[constructor](_primitive_i8_.i8.md#constructor)*
 
-*Defined in [type/Vote.ts:14](https://github.com/polkadot-js/api/blob/3227ce2/packages/types/src/type/Vote.ts#L14)*
+*Defined in [type/Vote.ts:14](https://github.com/polkadot-js/api/blob/c366ede/packages/types/src/type/Vote.ts#L14)*
 
 **Parameters:**
 
@@ -44,7 +44,7 @@ ___
 
 **get isAye**(): `boolean`
 
-*Defined in [type/Vote.ts:32](https://github.com/polkadot-js/api/blob/3227ce2/packages/types/src/type/Vote.ts#L32)*
+*Defined in [type/Vote.ts:32](https://github.com/polkadot-js/api/blob/c366ede/packages/types/src/type/Vote.ts#L32)*
 
 *__description__*: true is the wrapped value is a positive vote
 
@@ -57,7 +57,7 @@ ___
 
 **get isNay**(): `boolean`
 
-*Defined in [type/Vote.ts:39](https://github.com/polkadot-js/api/blob/3227ce2/packages/types/src/type/Vote.ts#L39)*
+*Defined in [type/Vote.ts:39](https://github.com/polkadot-js/api/blob/c366ede/packages/types/src/type/Vote.ts#L39)*
 
 *__description__*: true is the wrapped value is a negative vote
 
@@ -77,7 +77,7 @@ ___
 
 *Overrides AbstractInt.toHex*
 
-*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/3227ce2/packages/types/src/codec/Int.ts#L36)*
+*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/c366ede/packages/types/src/codec/Int.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -102,7 +102,7 @@ ___
 
 *Overrides AbstractInt.toRawType*
 
-*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/3227ce2/packages/types/src/codec/Int.ts#L47)*
+*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/c366ede/packages/types/src/codec/Int.ts#L47)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -121,7 +121,7 @@ ___
 
 *Overrides AbstractInt.toU8a*
 
-*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/3227ce2/packages/types/src/codec/Int.ts#L55)*
+*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/c366ede/packages/types/src/codec/Int.ts#L55)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
