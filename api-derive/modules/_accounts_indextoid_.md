@@ -8,7 +8,7 @@
 
 ▸ **indexToId**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [accounts/indexToId.ts:26](https://github.com/polkadot-js/api/blob/a2b038e/packages/api-derive/src/accounts/indexToId.ts#L26)*
+*Defined in [accounts/indexToId.ts:26](https://github.com/polkadot-js/api/blob/98fd991/packages/api-derive/src/accounts/indexToId.ts#L26)*
 
 *__name__*: indexToId
 
