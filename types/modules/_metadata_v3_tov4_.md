@@ -8,7 +8,7 @@
 
 ▸ **toV4**(metadataV3: *[MetadataV3](../classes/_metadata_v3_metadata_.metadatav3.md)*): [MetadataV4](../classes/_metadata_v4_metadata_.metadatav4.md)
 
-*Defined in [Metadata/v3/toV4.ts:51](https://github.com/polkadot-js/api/blob/6ee5799/packages/types/src/Metadata/v3/toV4.ts#L51)*
+*Defined in [Metadata/v3/toV4.ts:51](https://github.com/polkadot-js/api/blob/6771f99/packages/types/src/Metadata/v3/toV4.ts#L51)*
 
 Convert from MetadataV3 to MetadataV4 See [https://github.com/paritytech/substrate/pull/2268](https://github.com/paritytech/substrate/pull/2268) for details
 

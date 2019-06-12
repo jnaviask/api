@@ -226,6 +226,10 @@ These custom types implement specific types that are found as part of the Substr
 
 The Substrate Amount representation as a [Balance](classes/_type_balance_.balance.md)
 
+[ApprovalFlag](classes/_type_approvalflag_.approvalflag.md)
+
+Approval flag, implemented as a [U32](classes/_primitive_u32_.u32.md)
+
 [AssetOf](classes/_type_assetof_.assetof.md)
 
 The Substrate AssetOf representation as a [Balance](classes/_type_balance_.balance.md)
@@ -434,6 +438,10 @@ The Substrate SeedOf representation as a [Hash](classes/_primitive_hash_.hash.md
 
 Wrapper for a SessionKey. Same as an normal [AuthorityId](classes/_type_authorityid_.authorityid.md), i.e. a wrapper around publicKey
 
+[SetIndex](classes/_type_setindex_.setindex.md)
+
+Set index, implemented as a [U32](classes/_primitive_u32_.u32.md)
+
 [Signature](classes/_type_signature_.signature.md)
 
 The default signature that is used accross the system
@@ -481,6 +489,10 @@ Info for keeping track of a council motion being voted on.
 [VoteIndex](classes/_type_voteindex_.voteindex.md)
 
 Voting index, implemented as a [U32](classes/_primitive_u32_.u32.md)
+
+[VoterInfo](classes/_type_voterinfo_.voterinfo.md)
+
+The activity status of a voter.
 
 [VoteThreshold](classes/_type_votethreshold_.votethreshold.md)
 
