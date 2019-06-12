@@ -16,7 +16,7 @@
 
 *Inherited from Global.Array*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1017*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1033*
 
 ___
 <a id="arraybuffer"></a>
@@ -27,7 +27,7 @@ ___
 
 *Inherited from Global.ArrayBuffer*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1018*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1034*
 
 ___
 <a id="boolean"></a>
@@ -38,7 +38,7 @@ ___
 
 *Inherited from Global.Boolean*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1019*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1035*
 
 ___
 <a id="buffer"></a>
@@ -49,7 +49,7 @@ ___
 
 *Inherited from Global.Buffer*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1020*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1036*
 
 #### Type declaration
 
@@ -62,7 +62,7 @@ ___
 
 *Inherited from Global.DataView*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1021*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1037*
 
 ___
 <a id="date"></a>
@@ -73,7 +73,7 @@ ___
 
 *Inherited from Global.Date*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1022*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1038*
 
 ___
 <a id="error"></a>
@@ -84,7 +84,7 @@ ___
 
 *Inherited from Global.Error*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1023*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1039*
 
 ___
 <a id="evalerror"></a>
@@ -95,7 +95,7 @@ ___
 
 *Inherited from Global.EvalError*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1024*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1040*
 
 ___
 <a id="float32array"></a>
@@ -106,7 +106,7 @@ ___
 
 *Inherited from Global.Float32Array*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1025*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1041*
 
 ___
 <a id="float64array"></a>
@@ -117,7 +117,7 @@ ___
 
 *Inherited from Global.Float64Array*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1026*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1042*
 
 ___
 <a id="function"></a>
@@ -128,7 +128,7 @@ ___
 
 *Inherited from Global.Function*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1027*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1043*
 
 ___
 <a id="global"></a>
@@ -139,7 +139,7 @@ ___
 
 *Inherited from Global.GLOBAL*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1028*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1044*
 
 ___
 <a id="infinity"></a>
@@ -150,7 +150,7 @@ ___
 
 *Inherited from Global.Infinity*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1029*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1045*
 
 ___
 <a id="int16array"></a>
@@ -161,7 +161,7 @@ ___
 
 *Inherited from Global.Int16Array*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1030*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1046*
 
 ___
 <a id="int32array"></a>
@@ -172,7 +172,7 @@ ___
 
 *Inherited from Global.Int32Array*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1031*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1047*
 
 ___
 <a id="int8array"></a>
@@ -183,7 +183,7 @@ ___
 
 *Inherited from Global.Int8Array*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1032*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1048*
 
 ___
 <a id="intl"></a>
@@ -194,7 +194,7 @@ ___
 
 *Inherited from Global.Intl*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1033*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1049*
 
 ___
 <a id="json"></a>
@@ -205,7 +205,7 @@ ___
 
 *Inherited from Global.JSON*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1034*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1050*
 
 ___
 <a id="map"></a>
@@ -216,7 +216,7 @@ ___
 
 *Inherited from Global.Map*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1035*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1051*
 
 ___
 <a id="math"></a>
@@ -227,7 +227,7 @@ ___
 
 *Inherited from Global.Math*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1036*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1052*
 
 ___
 <a id="nan"></a>
@@ -238,7 +238,7 @@ ___
 
 *Inherited from Global.NaN*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1037*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1053*
 
 ___
 <a id="number"></a>
@@ -249,7 +249,7 @@ ___
 
 *Inherited from Global.Number*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1038*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1054*
 
 ___
 <a id="object"></a>
@@ -260,7 +260,7 @@ ___
 
 *Inherited from Global.Object*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1039*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1055*
 
 ___
 <a id="promise"></a>
@@ -271,7 +271,7 @@ ___
 
 *Inherited from Global.Promise*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1040*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1056*
 
 ___
 <a id="rangeerror"></a>
@@ -282,7 +282,7 @@ ___
 
 *Inherited from Global.RangeError*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1041*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1057*
 
 ___
 <a id="referenceerror"></a>
@@ -293,7 +293,7 @@ ___
 
 *Inherited from Global.ReferenceError*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1042*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1058*
 
 ___
 <a id="regexp"></a>
@@ -304,7 +304,7 @@ ___
 
 *Inherited from Global.RegExp*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1043*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1059*
 
 ___
 <a id="set"></a>
@@ -315,7 +315,7 @@ ___
 
 *Inherited from Global.Set*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1044*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1060*
 
 ___
 <a id="string"></a>
@@ -326,7 +326,7 @@ ___
 
 *Inherited from Global.String*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1045*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1061*
 
 ___
 <a id="symbol"></a>
@@ -337,7 +337,7 @@ ___
 
 *Inherited from Global.Symbol*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1046*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1062*
 
 ___
 <a id="syntaxerror"></a>
@@ -348,7 +348,7 @@ ___
 
 *Inherited from Global.SyntaxError*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1047*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1063*
 
 ___
 <a id="typeerror"></a>
@@ -359,7 +359,7 @@ ___
 
 *Inherited from Global.TypeError*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1048*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1064*
 
 ___
 <a id="urierror"></a>
@@ -370,7 +370,7 @@ ___
 
 *Inherited from Global.URIError*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1049*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1065*
 
 ___
 <a id="uint16array"></a>
@@ -381,7 +381,7 @@ ___
 
 *Inherited from Global.Uint16Array*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1050*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1066*
 
 ___
 <a id="uint32array"></a>
@@ -392,7 +392,7 @@ ___
 
 *Inherited from Global.Uint32Array*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1051*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1067*
 
 ___
 <a id="uint8array"></a>
@@ -403,7 +403,7 @@ ___
 
 *Inherited from Global.Uint8Array*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1052*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1068*
 
 ___
 <a id="uint8clampedarray"></a>
@@ -414,7 +414,7 @@ ___
 
 *Inherited from Global.Uint8ClampedArray*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1053*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1069*
 
 ___
 <a id="weakmap"></a>
@@ -425,7 +425,7 @@ ___
 
 *Inherited from Global.WeakMap*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1054*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1070*
 
 ___
 <a id="weakset"></a>
@@ -436,7 +436,7 @@ ___
 
 *Inherited from Global.WeakSet*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1055*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1071*
 
 ___
 <a id="websocket"></a>
@@ -445,7 +445,7 @@ ___
 
 **● WebSocket**: *`Constructor`<`WebSocket`>*
 
-*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/2768306/packages/rpc-provider/src/mock/types.ts#L9)*
+*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/ea6ce4e/packages/rpc-provider/src/mock/types.ts#L9)*
 
 ___
 <a id="clearimmediate"></a>
@@ -456,7 +456,7 @@ ___
 
 *Inherited from Global.clearImmediate*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1056*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1072*
 
 #### Type declaration
 ▸(immediateId: *`Immediate`*): `void`
@@ -478,7 +478,7 @@ ___
 
 *Inherited from Global.clearInterval*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1057*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1073*
 
 #### Type declaration
 ▸(intervalId: *`Timeout`*): `void`
@@ -500,7 +500,7 @@ ___
 
 *Inherited from Global.clearTimeout*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1058*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1074*
 
 #### Type declaration
 ▸(timeoutId: *`Timeout`*): `void`
@@ -522,7 +522,7 @@ ___
 
 *Inherited from Global.console*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1059*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1075*
 
 ___
 <a id="decodeuri"></a>
@@ -533,7 +533,7 @@ ___
 
 *Inherited from Global.decodeURI*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1060*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1076*
 
 ___
 <a id="decodeuricomponent"></a>
@@ -544,7 +544,7 @@ ___
 
 *Inherited from Global.decodeURIComponent*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1061*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1077*
 
 ___
 <a id="encodeuri"></a>
@@ -555,7 +555,7 @@ ___
 
 *Inherited from Global.encodeURI*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1062*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1078*
 
 ___
 <a id="encodeuricomponent"></a>
@@ -566,7 +566,7 @@ ___
 
 *Inherited from Global.encodeURIComponent*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1063*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1079*
 
 ___
 <a id="escape"></a>
@@ -577,7 +577,7 @@ ___
 
 *Inherited from Global.escape*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1064*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1080*
 
 #### Type declaration
 ▸(str: *`string`*): `string`
@@ -599,7 +599,7 @@ ___
 
 *Inherited from Global.eval*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1065*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1081*
 
 ___
 <a id="fetch"></a>
@@ -608,7 +608,7 @@ ___
 
 **● fetch**: *`GlobalFetch`*
 
-*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/2768306/packages/rpc-provider/src/mock/types.ts#L10)*
+*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/ea6ce4e/packages/rpc-provider/src/mock/types.ts#L10)*
 
 ___
 <a id="gc"></a>
@@ -619,7 +619,7 @@ ___
 
 *Inherited from Global.gc*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1079*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1095*
 
 #### Type declaration
 ▸(): `void`
@@ -635,7 +635,7 @@ ___
 
 *Inherited from Global.global*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1066*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1082*
 
 ___
 <a id="isfinite"></a>
@@ -646,7 +646,7 @@ ___
 
 *Inherited from Global.isFinite*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1067*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1083*
 
 ___
 <a id="isnan"></a>
@@ -657,7 +657,7 @@ ___
 
 *Inherited from Global.isNaN*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1068*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1084*
 
 ___
 <a id="parsefloat"></a>
@@ -668,7 +668,7 @@ ___
 
 *Inherited from Global.parseFloat*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1069*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1085*
 
 ___
 <a id="parseint"></a>
@@ -679,7 +679,7 @@ ___
 
 *Inherited from Global.parseInt*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1070*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1086*
 
 ___
 <a id="process"></a>
@@ -690,7 +690,7 @@ ___
 
 *Inherited from Global.process*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1071*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1087*
 
 ___
 <a id="queuemicrotask"></a>
@@ -701,7 +701,7 @@ ___
 
 *Inherited from Global.queueMicrotask*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1076*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1092*
 
 ___
 <a id="root"></a>
@@ -712,7 +712,7 @@ ___
 
 *Inherited from Global.root*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1072*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1088*
 
 ___
 <a id="setimmediate"></a>
@@ -723,7 +723,7 @@ ___
 
 *Inherited from Global.setImmediate*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1073*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1089*
 
 #### Type declaration
 ▸(callback: *`function`*, ...args: *`any`[]*): `Immediate`
@@ -746,7 +746,7 @@ ___
 
 *Inherited from Global.setInterval*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1074*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1090*
 
 #### Type declaration
 ▸(callback: *`function`*, ms: *`number`*, ...args: *`any`[]*): `Timeout`
@@ -770,7 +770,7 @@ ___
 
 *Inherited from Global.setTimeout*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1075*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1091*
 
 #### Type declaration
 ▸(callback: *`function`*, ms: *`number`*, ...args: *`any`[]*): `Timeout`
@@ -794,7 +794,7 @@ ___
 
 *Inherited from Global.undefined*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1077*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1093*
 
 ___
 <a id="unescape"></a>
@@ -805,7 +805,7 @@ ___
 
 *Inherited from Global.unescape*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1078*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1094*
 
 #### Type declaration
 ▸(str: *`string`*): `string`
@@ -827,7 +827,7 @@ ___
 
 *Inherited from Global.v8debug*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1080*
+*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1096*
 
 ___
 
