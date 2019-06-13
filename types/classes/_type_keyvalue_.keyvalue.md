@@ -2,16 +2,11 @@
 
 *__name__*: KeyValue
 
-*__description__*: KeyValue structure. Since most of the keys and resultant values in Subtrate are hashed and/or encoded, this does not wrap [Text](_primitive_text_.text.md), but rather a [Bytes](_primitive_bytes_.bytes.md) for the keys and values. (Not to be confused with the KeyValue in [Metadata](_metadata_metadata_.metadata.md), that is actually for Maps, whereas this is a representation of actaul storage values)
+*__description__*: KeyValue structure. Since most of the keys and resultant values in Subtrate are hashed and/or encoded, this does not wrap [Text](_primitive_text_.text.md), but rather a [Bytes](_primitive_bytes_.bytes.md) for the keys and values. (Not to be confused with the KeyValue in [Metadata](_metadata_metadata_.metadata.md), that is actually for Maps, whereas this is a representation of actual storage values)
 
-# Type parameters
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
 # Hierarchy
 
-↳  [Struct](_codec_struct_.struct.md)
+↳  [Tuple](_codec_tuple_.tuple.md)
 
 **↳ KeyValue**
 
@@ -19,6 +14,9 @@
 
 * [Codec](../interfaces/_types_.codec.md)
 
+# Indexable
+
+\[n: `number`\]:&nbsp;[Codec](../interfaces/_types_.codec.md)
 # Constructors
 
 <a id="constructor"></a>
@@ -27,9 +25,9 @@
 
 ⊕ **new KeyValue**(value?: *`KeyValueValue` \| `Uint8Array`*): [KeyValue](_type_keyvalue_.keyvalue.md)
 
-*Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
+*Overrides [Tuple](_codec_tuple_.tuple.md).[constructor](_codec_tuple_.tuple.md#constructor)*
 
-*Defined in [type/KeyValue.ts:26](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/type/KeyValue.ts#L26)*
+*Defined in [type/KeyValue.ts:22](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/type/KeyValue.ts#L22)*
 
 **Parameters:**
 
@@ -43,19 +41,19 @@ ___
 
 # Accessors
 
-<a id="type"></a>
+<a id="types"></a>
 
-##  Type
+##  Types
 
-**get Type**(): `E`
+**get Types**(): `Array`<`string`>
 
-*Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
+*Inherited from [Tuple](_codec_tuple_.tuple.md).[Types](_codec_tuple_.tuple.md#types)*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Tuple.ts:72](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/Tuple.ts#L72)*
 
-*__description__*: Returns the Type description to sthe structure
+*__description__*: The types definition of the tuple
 
-**Returns:** `E`
+**Returns:** `Array`<`string`>
 
 ___
 <a id="encodedlength"></a>
@@ -64,9 +62,11 @@ ___
 
 **get encodedLength**(): `number`
 
-*Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
+*Inherited from [Tuple](_codec_tuple_.tuple.md).[encodedLength](_codec_tuple_.tuple.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L176)*
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[encodedLength](_codec_abstractarray_.abstractarray.md#encodedlength)*
+
+*Defined in [codec/Tuple.ts:63](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/Tuple.ts#L63)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -79,9 +79,9 @@ ___
 
 **get isEmpty**(): `boolean`
 
-*Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[isEmpty](_codec_abstractarray_.abstractarray.md#isempty)*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/AbstractArray.ts#L22)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -94,11 +94,28 @@ ___
 
 **get key**(): [StorageKey](_primitive_storagekey_.storagekey.md)
 
-*Defined in [type/KeyValue.ts:37](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/type/KeyValue.ts#L37)*
+*Defined in [type/KeyValue.ts:33](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/type/KeyValue.ts#L33)*
 
 *__description__*: The [StorageKey](_primitive_storagekey_.storagekey.md)
 
 **Returns:** [StorageKey](_primitive_storagekey_.storagekey.md)
+
+___
+<a id="length"></a>
+
+##  length
+
+**get length**(): `number`
+
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[length](_codec_abstractarray_.abstractarray.md#length)*
+
+*Overrides Array.length*
+
+*Defined in [codec/AbstractArray.ts:38](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/AbstractArray.ts#L38)*
+
+*__description__*: The length of the value
+
+**Returns:** `number`
 
 ___
 <a id="value"></a>
@@ -107,7 +124,7 @@ ___
 
 **get value**(): [StorageData](_primitive_storagedata_.storagedata.md)
 
-*Defined in [type/KeyValue.ts:44](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/type/KeyValue.ts#L44)*
+*Defined in [type/KeyValue.ts:40](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/type/KeyValue.ts#L40)*
 
 *__description__*: The [StorageData](_primitive_storagedata_.storagedata.md)
 
@@ -125,9 +142,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[eq](_codec_abstractarray_.abstractarray.md#eq)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/AbstractArray.ts:46](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/AbstractArray.ts#L46)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -140,48 +157,55 @@ ___
 **Returns:** `boolean`
 
 ___
-<a id="get"></a>
+<a id="filter"></a>
 
-##  get
+##  filter
 
-▸ **get**(name: *`keyof S`*): [Codec](../interfaces/_types_.codec.md) \| `undefined`
+▸ **filter**(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<[Codec](../interfaces/_types_.codec.md)>
 
-*Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[filter](_codec_abstractarray_.abstractarray.md#filter)*
 
-*Overrides Map.get*
+*Overrides Array.filter*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/AbstractArray.ts:116](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/AbstractArray.ts#L116)*
 
-*__description__*: Returns a specific names entry in the structure
+*__description__*: Filters the array with the callback
 
 **Parameters:**
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+| callbackfn | `function` |  The filter function |
+| `Optional` thisArg | `any` |  The \`this\` object to apply the result to |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md) \| `undefined`
+**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
 
 ___
-<a id="getatindex"></a>
+<a id="map"></a>
 
-##  getAtIndex
+##  map
 
-▸ **getAtIndex**(index: *`number`*): [Codec](../interfaces/_types_.codec.md)
+▸ **map**<`U`>(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<`U`>
 
-*Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[map](_codec_abstractarray_.abstractarray.md#map)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L200)*
+*Overrides Array.map*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
+*Defined in [codec/AbstractArray.ts:125](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/AbstractArray.ts#L125)*
 
+*__description__*: Maps the array with the callback
+
+**Type parameters:**
+
+#### U 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
+| Name | Type | Description |
+| ------ | ------ | ------ |
+| callbackfn | `function` |  The mapping function |
+| `Optional` thisArg | `any` |  The \`this\` onject to apply the result to |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md)
+**Returns:** `Array`<`U`>
 
 ___
 <a id="toarray"></a>
@@ -190,9 +214,9 @@ ___
 
 ▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
 
-*Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toArray](_codec_abstractarray_.abstractarray.md#toarray)*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/AbstractArray.ts:53](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/AbstractArray.ts#L53)*
 
 *__description__*: Converts the Object to an standard JavaScript Array
 
@@ -205,9 +229,9 @@ ___
 
 ▸ **toHex**(): `string`
 
-*Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toHex](_codec_abstractarray_.abstractarray.md#tohex)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/AbstractArray.ts:60](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/AbstractArray.ts#L60)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -222,9 +246,9 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
+*Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toJSON](_codec_abstractarray_.abstractarray.md#tojson)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/AbstractArray.ts:67](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/AbstractArray.ts#L67)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -239,9 +263,11 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
+*Inherited from [Tuple](_codec_tuple_.tuple.md).[toRawType](_codec_tuple_.tuple.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L235)*
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toRawType](_codec_abstractarray_.abstractarray.md#torawtype)*
+
+*Defined in [codec/Tuple.ts:81](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/Tuple.ts#L81)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -256,9 +282,11 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
+*Inherited from [Tuple](_codec_tuple_.tuple.md).[toString](_codec_tuple_.tuple.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L248)*
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toString](_codec_abstractarray_.abstractarray.md#tostring)*
+
+*Defined in [codec/Tuple.ts:94](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/Tuple.ts#L94)*
 
 *__description__*: Returns the string representation of the value
 
@@ -273,9 +301,11 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
+*Inherited from [Tuple](_codec_tuple_.tuple.md).[toU8a](_codec_tuple_.tuple.md#tou8a)*
 
-*Defined in [codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L256)*
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toU8a](_codec_abstractarray_.abstractarray.md#tou8a)*
+
+*Defined in [codec/Tuple.ts:103](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/Tuple.ts#L103)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -292,22 +322,19 @@ ___
 
 ## `<Static>` with
 
-▸ **with**<`S`>(Types: *`S`*): [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+▸ **with**(Types: *`TupleConstructors`*): [Constructor](../interfaces/_types_.constructor.md)<[Tuple](_codec_tuple_.tuple.md)>
 
-*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
+*Inherited from [Tuple](_codec_tuple_.tuple.md).[with](_codec_tuple_.tuple.md#with)*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Tuple.ts:52](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/codec/Tuple.ts#L52)*
 
-**Type parameters:**
-
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| Types | `S` |
+| Types | `TupleConstructors` |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Tuple](_codec_tuple_.tuple.md)>
 
 ___
 

@@ -12,7 +12,7 @@
 
 **● name**: *`string`*
 
-*Defined in [ContractAbi.ts:54](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/ContractAbi.ts#L54)*
+*Defined in [ContractAbi.ts:54](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/ContractAbi.ts#L54)*
 
 ___
 <a id="type"></a>
@@ -21,7 +21,7 @@ ___
 
 **● type**: *`string`*
 
-*Defined in [ContractAbi.ts:55](https://github.com/polkadot-js/api/blob/5533b1b/packages/types/src/ContractAbi.ts#L55)*
+*Defined in [ContractAbi.ts:55](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/ContractAbi.ts#L55)*
 
 ___
 
