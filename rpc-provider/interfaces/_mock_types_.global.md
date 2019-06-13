@@ -445,7 +445,7 @@ ___
 
 **● WebSocket**: *`Constructor`<`WebSocket`>*
 
-*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/3ab5811/packages/rpc-provider/src/mock/types.ts#L9)*
+*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/e4a97d4/packages/rpc-provider/src/mock/types.ts#L9)*
 
 ___
 <a id="clearimmediate"></a>
@@ -608,7 +608,7 @@ ___
 
 **● fetch**: *`GlobalFetch`*
 
-*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/3ab5811/packages/rpc-provider/src/mock/types.ts#L10)*
+*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/e4a97d4/packages/rpc-provider/src/mock/types.ts#L10)*
 
 ___
 <a id="gc"></a>
