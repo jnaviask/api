@@ -10,7 +10,7 @@
 # Callable
 ▸ **__call**(extrinsic: *`Uint8Array` \| `string`*): [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`CodecResult`, `SubscriptionResult`>
 
-*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/e4a97d4/packages/api/src/types.ts#L106)*
+*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/29805f7/packages/api/src/types.ts#L106)*
 
 **Parameters:**
 
