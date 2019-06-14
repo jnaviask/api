@@ -16,7 +16,7 @@
 
 ⊕ **new ContractAbi**(abi: *[ContractABI](../modules/_contractabi_.md#contractabi-1)*): [ContractAbi](_contractabi_.contractabi.md)
 
-*Defined in [ContractAbi.ts:119](https://github.com/polkadot-js/api/blob/6d9699a/packages/types/src/ContractAbi.ts#L119)*
+*Defined in [ContractAbi.ts:119](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/ContractAbi.ts#L119)*
 
 **Parameters:**
 
@@ -38,7 +38,7 @@ ___
 
 *Implementation of [Contract](../interfaces/_contractabi_.contract.md).[abi](../interfaces/_contractabi_.contract.md#abi)*
 
-*Defined in [ContractAbi.ts:117](https://github.com/polkadot-js/api/blob/6d9699a/packages/types/src/ContractAbi.ts#L117)*
+*Defined in [ContractAbi.ts:117](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/ContractAbi.ts#L117)*
 
 ___
 <a id="deploy"></a>
@@ -49,7 +49,7 @@ ___
 
 *Implementation of [Contract](../interfaces/_contractabi_.contract.md).[deploy](../interfaces/_contractabi_.contract.md#deploy)*
 
-*Defined in [ContractAbi.ts:118](https://github.com/polkadot-js/api/blob/6d9699a/packages/types/src/ContractAbi.ts#L118)*
+*Defined in [ContractAbi.ts:118](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/ContractAbi.ts#L118)*
 
 ___
 <a id="messages"></a>
@@ -60,7 +60,7 @@ ___
 
 *Implementation of [Contract](../interfaces/_contractabi_.contract.md).[messages](../interfaces/_contractabi_.contract.md#messages)*
 
-*Defined in [ContractAbi.ts:119](https://github.com/polkadot-js/api/blob/6d9699a/packages/types/src/ContractAbi.ts#L119)*
+*Defined in [ContractAbi.ts:119](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/ContractAbi.ts#L119)*
 
 #### Type declaration
 
