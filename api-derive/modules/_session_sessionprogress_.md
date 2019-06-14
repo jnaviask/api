@@ -8,7 +8,7 @@
 
 ▸ **sessionProgress**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [session/sessionProgress.ts:13](https://github.com/polkadot-js/api/blob/b3f2a11/packages/api-derive/src/session/sessionProgress.ts#L13)*
+*Defined in [session/sessionProgress.ts:13](https://github.com/polkadot-js/api/blob/4f9aecc/packages/api-derive/src/session/sessionProgress.ts#L13)*
 
 **Parameters:**
 

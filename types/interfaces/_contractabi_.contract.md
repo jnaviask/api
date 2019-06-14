@@ -16,7 +16,7 @@
 
 **● abi**: *[ContractABI](../modules/_contractabi_.md#contractabi-1)*
 
-*Defined in [ContractAbi.ts:66](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/ContractAbi.ts#L66)*
+*Defined in [ContractAbi.ts:66](https://github.com/polkadot-js/api/blob/4f9aecc/packages/types/src/ContractAbi.ts#L66)*
 
 ___
 <a id="deploy"></a>
@@ -25,7 +25,7 @@ ___
 
 **● deploy**: *[ContractABIFn](_contractabi_.contractabifn.md)*
 
-*Defined in [ContractAbi.ts:67](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/ContractAbi.ts#L67)*
+*Defined in [ContractAbi.ts:67](https://github.com/polkadot-js/api/blob/4f9aecc/packages/types/src/ContractAbi.ts#L67)*
 
 ___
 <a id="messages"></a>
@@ -34,7 +34,7 @@ ___
 
 **● messages**: *`object`*
 
-*Defined in [ContractAbi.ts:68](https://github.com/polkadot-js/api/blob/b3f2a11/packages/types/src/ContractAbi.ts#L68)*
+*Defined in [ContractAbi.ts:68](https://github.com/polkadot-js/api/blob/4f9aecc/packages/types/src/ContractAbi.ts#L68)*
 
 #### Type declaration
 
