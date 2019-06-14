@@ -15,7 +15,7 @@
 
 ▸ **__call**<`T`>(arg1: *`CodecArg`*, arg2: *`CodecArg`*, callback: *`Callback`<`T`>*): [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
 
-*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/types.ts#L102)*
+*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/4cba24c/packages/api/src/types.ts#L102)*
 
 **Parameters:**
 
@@ -26,7 +26,7 @@
 
 **Returns:** `Promise`<`Codec`>
 
-*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/types.ts#L103)*
+*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/4cba24c/packages/api/src/types.ts#L103)*
 
 **Type parameters:**
 
@@ -40,7 +40,7 @@
 
 **Returns:** `Promise`<`T`>
 
-*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/types.ts#L104)*
+*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/4cba24c/packages/api/src/types.ts#L104)*
 
 **Type parameters:**
 
@@ -53,7 +53,7 @@
 
 **Returns:** [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
 
-*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/types.ts#L105)*
+*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/4cba24c/packages/api/src/types.ts#L105)*
 
 **Type parameters:**
 
@@ -67,7 +67,7 @@
 
 **Returns:** [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
 
-*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/types.ts#L106)*
+*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/4cba24c/packages/api/src/types.ts#L106)*
 
 **Type parameters:**
 

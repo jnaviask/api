@@ -90,8 +90,8 @@
 * [Finalized](../classes/_rpc_extrinsicstatus_.finalized.md)
 * [FunctionArgumentMetadata](../classes/_metadata_v1_calls_.functionargumentmetadata.md)
 * [FunctionArgumentMetadata](../classes/_metadata_v0_modules_.functionargumentmetadata.md)
-* [FunctionMetadata](../classes/_metadata_v1_calls_.functionmetadata.md)
 * [FunctionMetadata](../classes/_metadata_v0_modules_.functionmetadata.md)
+* [FunctionMetadata](../classes/_metadata_v1_calls_.functionmetadata.md)
 * [Future](../classes/_rpc_extrinsicstatus_.future.md)
 * [Gas](../classes/_type_gas_.gas.md)
 * [H160](../classes/_primitive_h160_.h160.md)
@@ -252,7 +252,7 @@
 
 **● encodedLength**: *`number`*
 
-*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L47)*
+*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/4cba24c/packages/types/src/types.ts#L47)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -263,7 +263,7 @@ ___
 
 **● isEmpty**: *`boolean`*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/4cba24c/packages/types/src/types.ts#L52)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -277,7 +277,7 @@ ___
 
 ▸ **eq**(other?: *`any`*): `boolean`
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L57)*
+*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/4cba24c/packages/types/src/types.ts#L57)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -296,7 +296,7 @@ ___
 
 ▸ **toHex**(isLe?: *`undefined` \| `false` \| `true`*): `string`
 
-*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L62)*
+*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/4cba24c/packages/types/src/types.ts#L62)*
 
 *__description__*: Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
@@ -315,7 +315,7 @@ ___
 
 ▸ **toJSON**(): `any`
 
-*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L67)*
+*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/4cba24c/packages/types/src/types.ts#L67)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -328,7 +328,7 @@ ___
 
 ▸ **toRawType**(): `string`
 
-*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L72)*
+*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/4cba24c/packages/types/src/types.ts#L72)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -341,7 +341,7 @@ ___
 
 ▸ **toString**(): `string`
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L77)*
+*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/4cba24c/packages/types/src/types.ts#L77)*
 
 *__description__*: Returns the string representation of the value
 
@@ -354,7 +354,7 @@ ___
 
 ▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
 
-*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L83)*
+*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/4cba24c/packages/types/src/types.ts#L83)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
