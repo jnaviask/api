@@ -8,7 +8,7 @@
 
 ▸ **fees**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
 
-*Defined in [balances/fees.ts:28](https://github.com/polkadot-js/api/blob/4cba24c/packages/api-derive/src/balances/fees.ts#L28)*
+*Defined in [balances/fees.ts:28](https://github.com/polkadot-js/api/blob/0d12b08/packages/api-derive/src/balances/fees.ts#L28)*
 
 *__name__*: fees
 
@@ -16,7 +16,7 @@
 
 ```javascript
 api.derive.balances.fees(([creationFee, transferFee]) => {
-  console.log(`The fee for creating a new account on this chain is ${transferFee} units. The fee required for making a transfer is ${transferFee} units.`);
+  console.log(`The fee for creating a new account on this chain is ${creationFee} units. The fee required for making a transfer is ${transferFee} units.`);
 });
 ```
 
