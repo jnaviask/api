@@ -1,12 +1,11 @@
 
 
 # Type parameters
-#### CodecResult 
-#### SubscriptionResult 
+#### ApiType 
 # Hierarchy
 
 **DecoratedRpc$Section**
 
 # Indexable
 
-\[index: `string`\]:&nbsp;[DecoratedRpc$Method](_types_.decoratedrpc_method.md)<`CodecResult`, `SubscriptionResult`>
+\[index: `string`\]:&nbsp;`DecoratedRpc$Method`<`ApiType`>

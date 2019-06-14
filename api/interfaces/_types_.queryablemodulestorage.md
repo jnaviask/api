@@ -1,12 +1,11 @@
 
 
 # Type parameters
-#### CodecResult 
-#### SubscriptionResult 
+#### ApiType 
 # Hierarchy
 
 **QueryableModuleStorage**
 
 # Indexable
 
-\[index: `string`\]:&nbsp;[QueryableStorageFunction](../modules/_types_.md#queryablestoragefunction)<`CodecResult`, `SubscriptionResult`>
+\[index: `string`\]:&nbsp;[QueryableStorageFunction](../modules/_types_.md#queryablestoragefunction)<`ApiType`>

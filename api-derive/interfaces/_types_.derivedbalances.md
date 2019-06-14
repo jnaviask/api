@@ -20,7 +20,7 @@
 
 *Inherited from StructAny.__constructor*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:19](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/codec/StructAny.ts#L19)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:19](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/codec/StructAny.ts#L19)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ ___
 
 **● accountId**: *`AccountId`*
 
-*Defined in [types.ts:9](https://github.com/polkadot-js/api/blob/6d5f297/packages/api-derive/src/types.ts#L9)*
+*Defined in [types.ts:9](https://github.com/polkadot-js/api/blob/63846ac/packages/api-derive/src/types.ts#L9)*
 
 ___
 <a id="accountnonce"></a>
@@ -60,7 +60,7 @@ ___
 
 **● accountNonce**: *`Index`*
 
-*Defined in [types.ts:10](https://github.com/polkadot-js/api/blob/6d5f297/packages/api-derive/src/types.ts#L10)*
+*Defined in [types.ts:10](https://github.com/polkadot-js/api/blob/63846ac/packages/api-derive/src/types.ts#L10)*
 
 ___
 <a id="availablebalance"></a>
@@ -69,7 +69,7 @@ ___
 
 **● availableBalance**: *`BN`*
 
-*Defined in [types.ts:13](https://github.com/polkadot-js/api/blob/6d5f297/packages/api-derive/src/types.ts#L13)*
+*Defined in [types.ts:13](https://github.com/polkadot-js/api/blob/63846ac/packages/api-derive/src/types.ts#L13)*
 
 ___
 <a id="freebalance"></a>
@@ -78,7 +78,7 @@ ___
 
 **● freeBalance**: *`BN`*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/6d5f297/packages/api-derive/src/types.ts#L11)*
+*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/63846ac/packages/api-derive/src/types.ts#L11)*
 
 ___
 <a id="lockedbalance"></a>
@@ -87,7 +87,7 @@ ___
 
 **● lockedBalance**: *`BN`*
 
-*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/6d5f297/packages/api-derive/src/types.ts#L12)*
+*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/63846ac/packages/api-derive/src/types.ts#L12)*
 
 ___
 <a id="reservedbalance"></a>
@@ -96,7 +96,7 @@ ___
 
 **● reservedBalance**: *`BN`*
 
-*Defined in [types.ts:14](https://github.com/polkadot-js/api/blob/6d5f297/packages/api-derive/src/types.ts#L14)*
+*Defined in [types.ts:14](https://github.com/polkadot-js/api/blob/63846ac/packages/api-derive/src/types.ts#L14)*
 
 ___
 <a id="size"></a>
@@ -116,7 +116,7 @@ ___
 
 **● vestedBalance**: *`BN`*
 
-*Defined in [types.ts:16](https://github.com/polkadot-js/api/blob/6d5f297/packages/api-derive/src/types.ts#L16)*
+*Defined in [types.ts:16](https://github.com/polkadot-js/api/blob/63846ac/packages/api-derive/src/types.ts#L16)*
 
 ___
 <a id="votingbalance"></a>
@@ -125,7 +125,7 @@ ___
 
 **● votingBalance**: *`BN`*
 
-*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/6d5f297/packages/api-derive/src/types.ts#L15)*
+*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/63846ac/packages/api-derive/src/types.ts#L15)*
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 *Inherited from StructAny.encodedLength*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:46](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/codec/StructAny.ts#L46)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:46](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/codec/StructAny.ts#L46)*
 
 *__description__*: Always 0, never encodes as a Uint8Array
 
@@ -154,7 +154,7 @@ ___
 
 *Inherited from StructAny.isEmpty*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:53](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/codec/StructAny.ts#L53)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:53](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/codec/StructAny.ts#L53)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -234,7 +234,7 @@ ___
 
 *Inherited from StructAny.eq*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:60](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/codec/StructAny.ts#L60)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:60](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/codec/StructAny.ts#L60)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -348,7 +348,7 @@ ___
 
 *Inherited from StructAny.toHex*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:67](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/codec/StructAny.ts#L67)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:67](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/codec/StructAny.ts#L67)*
 
 *__description__*: Unimplemented, will throw
 
@@ -363,7 +363,7 @@ ___
 
 *Inherited from StructAny.toJSON*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:74](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/codec/StructAny.ts#L74)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:74](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/codec/StructAny.ts#L74)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -378,7 +378,7 @@ ___
 
 *Inherited from StructAny.toRawType*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:85](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/codec/StructAny.ts#L85)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:85](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/codec/StructAny.ts#L85)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -393,7 +393,7 @@ ___
 
 *Inherited from StructAny.toString*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:92](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/codec/StructAny.ts#L92)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:92](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/codec/StructAny.ts#L92)*
 
 *__description__*: Returns the string representation of the value
 
@@ -408,7 +408,7 @@ ___
 
 *Inherited from StructAny.toU8a*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:99](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/codec/StructAny.ts#L99)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/StructAny.ts:99](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/codec/StructAny.ts#L99)*
 
 *__description__*: Unimplemented, will throw
 

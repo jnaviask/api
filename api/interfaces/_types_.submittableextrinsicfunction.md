@@ -1,8 +1,7 @@
 
 
 # Type parameters
-#### CodecResult 
-#### SubscriptionResult 
+#### ApiType 
 # Hierarchy
 
  `MethodFunction`
@@ -10,11 +9,11 @@
 **↳ SubmittableExtrinsicFunction**
 
 # Callable
-▸ **__call**(...params: *`Array`<`CodecArg`>*): [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`CodecResult`, `SubscriptionResult`>
+▸ **__call**(...params: *`Array`<`CodecArg`>*): [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`ApiType`>
 
 ▸ **__call**(...args: *`any`[]*): `Method`
 
-*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/types.ts#L98)*
+*Defined in [types.ts:151](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/types.ts#L151)*
 
 **Parameters:**
 
@@ -22,9 +21,9 @@
 | ------ | ------ |
 | `Rest` params | `Array`<`CodecArg`> |
 
-**Returns:** [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`CodecResult`, `SubscriptionResult`>
+**Returns:** [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`ApiType`>
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:24](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/primitive/Method.ts#L24)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:24](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/primitive/Method.ts#L24)*
 
 **Parameters:**
 
@@ -44,7 +43,7 @@
 
 *Inherited from MethodFunction.callIndex*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:26](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/primitive/Method.ts#L26)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:26](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/primitive/Method.ts#L26)*
 
 ___
 <a id="meta"></a>
@@ -55,7 +54,7 @@ ___
 
 *Inherited from MethodFunction.meta*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:27](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/primitive/Method.ts#L27)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:27](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/primitive/Method.ts#L27)*
 
 ___
 <a id="method"></a>
@@ -66,7 +65,7 @@ ___
 
 *Inherited from MethodFunction.method*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:28](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/primitive/Method.ts#L28)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:28](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/primitive/Method.ts#L28)*
 
 ___
 <a id="section"></a>
@@ -77,7 +76,7 @@ ___
 
 *Inherited from MethodFunction.section*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:29](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/primitive/Method.ts#L29)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:29](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/primitive/Method.ts#L29)*
 
 ___
 <a id="tojson"></a>
@@ -88,7 +87,7 @@ ___
 
 *Inherited from MethodFunction.toJSON*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:30](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/primitive/Method.ts#L30)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:30](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/primitive/Method.ts#L30)*
 
 #### Type declaration
 ▸(): `any`

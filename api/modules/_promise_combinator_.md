@@ -19,20 +19,9 @@
 
 ##  CombinatorCallback
 
-**Ƭ CombinatorCallback**: *`function`*
+**Ƭ CombinatorCallback**: *`Callback`<`Array`<`any`>>*
 
-*Defined in [promise/Combinator.ts:9](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/promise/Combinator.ts#L9)*
-
-#### Type declaration
-▸(value: *`Array`<`any`>*): `any`
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| value | `Array`<`any`> |
-
-**Returns:** `any`
+*Defined in [promise/Combinator.ts:10](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/promise/Combinator.ts#L10)*
 
 ___
 <a id="combinatorfunction"></a>
@@ -41,18 +30,18 @@ ___
 
 **Ƭ CombinatorFunction**: *`function`*
 
-*Defined in [promise/Combinator.ts:10](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/promise/Combinator.ts#L10)*
+*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/promise/Combinator.ts#L11)*
 
 #### Type declaration
-▸(cb: *`function`*): [SubscriptionResult]()
+▸(cb: *`Callback`<`any`>*): [UnsubscribePromise](_types_.md#unsubscribepromise)
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| cb | `function` |
+| cb | `Callback`<`any`> |
 
-**Returns:** [SubscriptionResult]()
+**Returns:** [UnsubscribePromise](_types_.md#unsubscribepromise)
 
 ___
 

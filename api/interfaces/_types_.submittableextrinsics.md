@@ -1,16 +1,15 @@
 
 
 # Type parameters
-#### CodecResult 
-#### SubscriptionResult 
+#### ApiType 
 # Hierarchy
 
 **SubmittableExtrinsics**
 
 # Callable
-▸ **__call**(extrinsic: *`Uint8Array` \| `string`*): [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`CodecResult`, `SubscriptionResult`>
+▸ **__call**(extrinsic: *`Uint8Array` \| `string`*): [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`ApiType`>
 
-*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/types.ts#L106)*
+*Defined in [types.ts:159](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/types.ts#L159)*
 
 **Parameters:**
 
@@ -18,8 +17,8 @@
 | ------ | ------ |
 | extrinsic | `Uint8Array` \| `string` |
 
-**Returns:** [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`CodecResult`, `SubscriptionResult`>
+**Returns:** [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`ApiType`>
 
 # Indexable
 
-\[index: `string`\]:&nbsp;[SubmittableModuleExtrinsics](_types_.submittablemoduleextrinsics.md)<`CodecResult`, `SubscriptionResult`>
+\[index: `string`\]:&nbsp;[SubmittableModuleExtrinsics](_types_.submittablemoduleextrinsics.md)<`ApiType`>

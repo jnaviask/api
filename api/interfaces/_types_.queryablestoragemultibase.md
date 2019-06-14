@@ -1,22 +1,21 @@
 
 
 # Type parameters
-#### CodecResult 
-#### SubscriptionResult 
+#### ApiType 
 # Hierarchy
 
 **QueryableStorageMultiBase**
 
 # Callable
-▸ **__call**(calls: *[QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)<`CodecResult`, `SubscriptionResult`>*): `SubscriptionResult`
+▸ **__call**(calls: *[QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)<`ApiType`>*): [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
 
-*Defined in [types.ts:81](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/types.ts#L81)*
+*Defined in [types.ts:134](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/types.ts#L134)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| calls | [QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)<`CodecResult`, `SubscriptionResult`> |
+| calls | [QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)<`ApiType`> |
 
-**Returns:** `SubscriptionResult`
+**Returns:** [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
 

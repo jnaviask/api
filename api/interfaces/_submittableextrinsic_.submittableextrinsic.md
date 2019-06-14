@@ -1,8 +1,7 @@
 
 
 # Type parameters
-#### CodecResult 
-#### SubscriptionResult 
+#### ApiType 
 # Hierarchy
 
  `IExtrinsic`
@@ -19,7 +18,7 @@
 
 *Inherited from IMethod.args*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:123](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L123)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:125](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L125)*
 
 ___
 <a id="argsdef"></a>
@@ -30,7 +29,7 @@ ___
 
 *Inherited from IMethod.argsDef*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:124](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L124)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:126](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L126)*
 
 ___
 <a id="callindex"></a>
@@ -41,7 +40,7 @@ ___
 
 *Inherited from IMethod.callIndex*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:125](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L125)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:127](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L127)*
 
 ___
 <a id="data"></a>
@@ -52,7 +51,7 @@ ___
 
 *Inherited from IMethod.data*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:126](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L126)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:128](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L128)*
 
 ___
 <a id="encodedlength"></a>
@@ -63,7 +62,7 @@ ___
 
 *Inherited from Codec.encodedLength*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:45](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L45)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:47](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L47)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -76,7 +75,7 @@ ___
 
 *Inherited from IMethod.hasOrigin*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:127](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L127)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:129](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L129)*
 
 ___
 <a id="hash"></a>
@@ -87,7 +86,7 @@ ___
 
 *Inherited from IExtrinsic.hash*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:142](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L142)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:144](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L144)*
 
 ___
 <a id="isempty"></a>
@@ -98,7 +97,7 @@ ___
 
 *Inherited from Codec.isEmpty*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:50](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L50)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:52](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L52)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -111,7 +110,7 @@ ___
 
 *Inherited from IExtrinsic.isSigned*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:143](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L143)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:145](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L145)*
 
 ___
 <a id="meta"></a>
@@ -122,7 +121,7 @@ ___
 
 *Inherited from IMethod.meta*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:128](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L128)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:130](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L130)*
 
 ___
 <a id="method"></a>
@@ -133,7 +132,7 @@ ___
 
 *Inherited from IExtrinsic.method*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:144](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L144)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:146](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L146)*
 
 ___
 <a id="signature"></a>
@@ -144,7 +143,7 @@ ___
 
 *Inherited from IExtrinsic.signature*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:145](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L145)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:147](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L147)*
 
 ___
 
@@ -158,7 +157,7 @@ ___
 
 *Inherited from IExtrinsic.addSignature*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:146](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L146)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:148](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L148)*
 
 **Parameters:**
 
@@ -180,7 +179,7 @@ ___
 
 *Inherited from Codec.eq*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:55](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L55)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:57](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L57)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -197,23 +196,23 @@ ___
 
 ##  send
 
-▸ **send**(): `SumbitableResultResult`<`CodecResult`, `SubscriptionResult`>
+▸ **send**(): `SumbitableResultResult`<`ApiType`>
 
-▸ **send**(statusCb: *`function`*): `SumbitableResultSubscription`<`CodecResult`, `SubscriptionResult`>
+▸ **send**(statusCb: *`Callback`<[SubmittableResult](../classes/_submittableextrinsic_.submittableresult.md)>*): `SumbitableResultSubscription`<`ApiType`>
 
-*Defined in [SubmittableExtrinsic.ts:60](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/SubmittableExtrinsic.ts#L60)*
+*Defined in [SubmittableExtrinsic.ts:59](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/SubmittableExtrinsic.ts#L59)*
 
-**Returns:** `SumbitableResultResult`<`CodecResult`, `SubscriptionResult`>
+**Returns:** `SumbitableResultResult`<`ApiType`>
 
-*Defined in [SubmittableExtrinsic.ts:62](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/SubmittableExtrinsic.ts#L62)*
+*Defined in [SubmittableExtrinsic.ts:61](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/SubmittableExtrinsic.ts#L61)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| statusCb | `function` |
+| statusCb | `Callback`<[SubmittableResult](../classes/_submittableextrinsic_.submittableresult.md)> |
 
-**Returns:** `SumbitableResultSubscription`<`CodecResult`, `SubscriptionResult`>
+**Returns:** `SumbitableResultSubscription`<`ApiType`>
 
 ___
 <a id="sign"></a>
@@ -224,7 +223,7 @@ ___
 
 *Overrides IExtrinsic.sign*
 
-*Defined in [SubmittableExtrinsic.ts:64](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/SubmittableExtrinsic.ts#L64)*
+*Defined in [SubmittableExtrinsic.ts:63](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/SubmittableExtrinsic.ts#L63)*
 
 **Parameters:**
 
@@ -240,11 +239,11 @@ ___
 
 ##  signAndSend
 
-▸ **signAndSend**(account: *`IKeyringPair` \| `string` \| `AccountId` \| `Address`*, options?: *`Partial`<`Partial`<`SignatureOptions`>>*): `SumbitableResultResult`<`CodecResult`, `SubscriptionResult`>
+▸ **signAndSend**(account: *`IKeyringPair` \| `string` \| `AccountId` \| `Address`*, options?: *`Partial`<`Partial`<`SignatureOptions`>>*): `SumbitableResultResult`<`ApiType`>
 
-▸ **signAndSend**(account: *`IKeyringPair` \| `string` \| `AccountId` \| `Address`*, statusCb: *`StatusCb`*): `SumbitableResultSubscription`<`CodecResult`, `SubscriptionResult`>
+▸ **signAndSend**(account: *`IKeyringPair` \| `string` \| `AccountId` \| `Address`*, statusCb: *`Callback`<[SubmittableResult](../classes/_submittableextrinsic_.submittableresult.md)>*): `SumbitableResultSubscription`<`ApiType`>
 
-*Defined in [SubmittableExtrinsic.ts:66](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/SubmittableExtrinsic.ts#L66)*
+*Defined in [SubmittableExtrinsic.ts:65](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/SubmittableExtrinsic.ts#L65)*
 
 **Parameters:**
 
@@ -253,18 +252,18 @@ ___
 | account | `IKeyringPair` \| `string` \| `AccountId` \| `Address` |
 | `Optional` options | `Partial`<`Partial`<`SignatureOptions`>> |
 
-**Returns:** `SumbitableResultResult`<`CodecResult`, `SubscriptionResult`>
+**Returns:** `SumbitableResultResult`<`ApiType`>
 
-*Defined in [SubmittableExtrinsic.ts:68](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/SubmittableExtrinsic.ts#L68)*
+*Defined in [SubmittableExtrinsic.ts:67](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/SubmittableExtrinsic.ts#L67)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
 | account | `IKeyringPair` \| `string` \| `AccountId` \| `Address` |
-| statusCb | `StatusCb` |
+| statusCb | `Callback`<[SubmittableResult](../classes/_submittableextrinsic_.submittableresult.md)> |
 
-**Returns:** `SumbitableResultSubscription`<`CodecResult`, `SubscriptionResult`>
+**Returns:** `SumbitableResultSubscription`<`ApiType`>
 
 ___
 <a id="tohex"></a>
@@ -275,7 +274,7 @@ ___
 
 *Inherited from Codec.toHex*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:60](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L60)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:62](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L62)*
 
 *__description__*: Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
@@ -296,7 +295,7 @@ ___
 
 *Inherited from Codec.toJSON*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:65](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L65)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:67](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L67)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -311,7 +310,7 @@ ___
 
 *Inherited from Codec.toRawType*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:70](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L70)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:72](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L72)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -326,7 +325,7 @@ ___
 
 *Inherited from Codec.toString*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:75](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L75)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:77](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L77)*
 
 *__description__*: Returns the string representation of the value
 
@@ -341,7 +340,7 @@ ___
 
 *Inherited from Codec.toU8a*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:81](https://github.com/polkadot-js/api/blob/6d5f297/packages/types/src/types.ts#L81)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:83](https://github.com/polkadot-js/api/blob/63846ac/packages/types/src/types.ts#L83)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 

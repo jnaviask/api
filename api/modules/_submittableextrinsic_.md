@@ -22,25 +22,24 @@
 
 ##  createSubmittableExtrinsic
 
-▸ **createSubmittableExtrinsic**<`CodecResult`,`SubscriptionResult`>(type: *[ApiType](_types_.md#apitype)*, api: *[ApiInterface$Rx](_types_.md#apiinterface_rx)*, onCall: *[OnCallDefinition](_types_.md#oncalldefinition)<`CodecResult`, `SubscriptionResult`>*, extrinsic: *`Method` \| `Uint8Array` \| `string`*, trackingCb?: *`undefined` \| `function`*): [SubmittableExtrinsic](../interfaces/_submittableextrinsic_.submittableextrinsic.md)<`CodecResult`, `SubscriptionResult`>
+▸ **createSubmittableExtrinsic**<`ApiType`>(type: *[ApiTypes](_types_.md#apitypes)*, api: *[ApiInterface$Rx](../interfaces/_types_.apiinterface_rx.md)*, decorateMethod: *`decorateMethod`*, extrinsic: *`Method` \| `Uint8Array` \| `string`*, trackingCb?: *`Callback`<[SubmittableResult](../classes/_submittableextrinsic_.submittableresult.md)>*): [SubmittableExtrinsic](../interfaces/_submittableextrinsic_.submittableextrinsic.md)<`ApiType`>
 
-*Defined in [SubmittableExtrinsic.ts:71](https://github.com/polkadot-js/api/blob/6d5f297/packages/api/src/SubmittableExtrinsic.ts#L71)*
+*Defined in [SubmittableExtrinsic.ts:70](https://github.com/polkadot-js/api/blob/63846ac/packages/api/src/SubmittableExtrinsic.ts#L70)*
 
 **Type parameters:**
 
-#### CodecResult 
-#### SubscriptionResult 
+#### ApiType 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| type | [ApiType](_types_.md#apitype) |
-| api | [ApiInterface$Rx](_types_.md#apiinterface_rx) |
-| onCall | [OnCallDefinition](_types_.md#oncalldefinition)<`CodecResult`, `SubscriptionResult`> |
+| type | [ApiTypes](_types_.md#apitypes) |
+| api | [ApiInterface$Rx](../interfaces/_types_.apiinterface_rx.md) |
+| decorateMethod | `decorateMethod` |
 | extrinsic | `Method` \| `Uint8Array` \| `string` |
-| `Optional` trackingCb | `undefined` \| `function` |
+| `Optional` trackingCb | `Callback`<[SubmittableResult](../classes/_submittableextrinsic_.submittableresult.md)> |
 
-**Returns:** [SubmittableExtrinsic](../interfaces/_submittableextrinsic_.submittableextrinsic.md)<`CodecResult`, `SubscriptionResult`>
+**Returns:** [SubmittableExtrinsic](../interfaces/_submittableextrinsic_.submittableextrinsic.md)<`ApiType`>
 
 ___
 
