@@ -7,7 +7,7 @@
 # Callable
 ▸ **__call**(...args: *`Array`<`CodecArg`>*): `Uint8Array`
 
-*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/ea991e4/packages/api-contract/src/types.ts#L53)*
+*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api-contract/src/types.ts#L53)*
 
 **Parameters:**
 
@@ -25,7 +25,7 @@
 
 **● args**: *`Array`<[ContractABIFn$Arg](_types_.contractabifn_arg.md)>*
 
-*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/ea991e4/packages/api-contract/src/types.ts#L55)*
+*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api-contract/src/types.ts#L55)*
 
 ___
 <a id="isconstant"></a>
@@ -34,7 +34,7 @@ ___
 
 **● isConstant**: *`boolean`*
 
-*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/ea991e4/packages/api-contract/src/types.ts#L56)*
+*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api-contract/src/types.ts#L56)*
 
 ___
 <a id="type"></a>
@@ -43,7 +43,7 @@ ___
 
 **● type**: *`string` \| `null`*
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/ea991e4/packages/api-contract/src/types.ts#L57)*
+*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api-contract/src/types.ts#L57)*
 
 ___
 

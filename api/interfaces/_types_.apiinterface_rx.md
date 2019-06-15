@@ -12,7 +12,7 @@
 
 **● genesisHash**: *`Hash`*
 
-*Defined in [types.ts:198](https://github.com/polkadot-js/api/blob/ea991e4/packages/api/src/types.ts#L198)*
+*Defined in [types.ts:198](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/types.ts#L198)*
 
 ___
 <a id="hassubscriptions"></a>
@@ -21,7 +21,7 @@ ___
 
 **● hasSubscriptions**: *`boolean`*
 
-*Defined in [types.ts:199](https://github.com/polkadot-js/api/blob/ea991e4/packages/api/src/types.ts#L199)*
+*Defined in [types.ts:199](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/types.ts#L199)*
 
 ___
 <a id="query"></a>
@@ -30,7 +30,7 @@ ___
 
 **● query**: *[QueryableStorage](_types_.queryablestorage.md)<"rxjs">*
 
-*Defined in [types.ts:202](https://github.com/polkadot-js/api/blob/ea991e4/packages/api/src/types.ts#L202)*
+*Defined in [types.ts:202](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/types.ts#L202)*
 
 ___
 <a id="querymulti"></a>
@@ -39,7 +39,7 @@ ___
 
 **● queryMulti**: *[QueryableStorageMulti](../modules/_types_.md#queryablestoragemulti)<"rxjs">*
 
-*Defined in [types.ts:203](https://github.com/polkadot-js/api/blob/ea991e4/packages/api/src/types.ts#L203)*
+*Defined in [types.ts:203](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/types.ts#L203)*
 
 ___
 <a id="rpc"></a>
@@ -48,7 +48,7 @@ ___
 
 **● rpc**: *[DecoratedRpc](_types_.decoratedrpc.md)<"rxjs">*
 
-*Defined in [types.ts:204](https://github.com/polkadot-js/api/blob/ea991e4/packages/api/src/types.ts#L204)*
+*Defined in [types.ts:204](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/types.ts#L204)*
 
 ___
 <a id="runtimemetadata"></a>
@@ -57,7 +57,7 @@ ___
 
 **● runtimeMetadata**: *`Metadata`*
 
-*Defined in [types.ts:200](https://github.com/polkadot-js/api/blob/ea991e4/packages/api/src/types.ts#L200)*
+*Defined in [types.ts:200](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/types.ts#L200)*
 
 ___
 <a id="runtimeversion"></a>
@@ -66,7 +66,7 @@ ___
 
 **● runtimeVersion**: *`RuntimeVersion`*
 
-*Defined in [types.ts:201](https://github.com/polkadot-js/api/blob/ea991e4/packages/api/src/types.ts#L201)*
+*Defined in [types.ts:201](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/types.ts#L201)*
 
 ___
 <a id="signer"></a>
@@ -75,7 +75,7 @@ ___
 
 **● signer**: *[Signer](_types_.signer.md)*
 
-*Defined in [types.ts:206](https://github.com/polkadot-js/api/blob/ea991e4/packages/api/src/types.ts#L206)*
+*Defined in [types.ts:206](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/types.ts#L206)*
 
 ___
 <a id="tx"></a>
@@ -84,7 +84,7 @@ ___
 
 **● tx**: *[SubmittableExtrinsics](_types_.submittableextrinsics.md)<"rxjs">*
 
-*Defined in [types.ts:205](https://github.com/polkadot-js/api/blob/ea991e4/packages/api/src/types.ts#L205)*
+*Defined in [types.ts:205](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/types.ts#L205)*
 
 ___
 
