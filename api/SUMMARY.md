@@ -22,6 +22,8 @@
   * [QueryableStorageMultiBase](interfaces/_types_.queryablestoragemultibase.md)
   * [QueryableStorageMultiPromise](interfaces/_types_.queryablestoragemultipromise.md)
   * [Signer](interfaces/_types_.signer.md)
+  * [StorageFunctionObservable](interfaces/_types_.storagefunctionobservable.md)
+  * [StorageFunctionPromise](interfaces/_types_.storagefunctionpromise.md)
   * [StorageFunctionPromiseOverloads](interfaces/_types_.storagefunctionpromiseoverloads.md)
   * [SubmittableExtrinsicFunction](interfaces/_types_.submittableextrinsicfunction.md)
   * [SubmittableExtrinsics](interfaces/_types_.submittableextrinsics.md)
