@@ -8,7 +8,7 @@
 
 **Ƭ QueryableStorageFunction**: *`QueryableStorageFunctionBase`<"promise">*
 
-*Defined in [promise/types.ts:9](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/promise/types.ts#L9)*
+*Defined in [promise/types.ts:9](https://github.com/polkadot-js/api/blob/f9605cd/packages/api/src/promise/types.ts#L9)*
 
 ___
 <a id="submittableextrinsic"></a>
@@ -17,7 +17,7 @@ ___
 
 **Ƭ SubmittableExtrinsic**: *`SubmittableExtrinsicBase`<"promise">*
 
-*Defined in [promise/types.ts:10](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/promise/types.ts#L10)*
+*Defined in [promise/types.ts:10](https://github.com/polkadot-js/api/blob/f9605cd/packages/api/src/promise/types.ts#L10)*
 
 ___
 <a id="submittableextrinsicfunction"></a>
@@ -26,7 +26,7 @@ ___
 
 **Ƭ SubmittableExtrinsicFunction**: *`SubmittableExtrinsicFunctionBase`<"promise">*
 
-*Defined in [promise/types.ts:11](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api/src/promise/types.ts#L11)*
+*Defined in [promise/types.ts:11](https://github.com/polkadot-js/api/blob/f9605cd/packages/api/src/promise/types.ts#L11)*
 
 ___
 

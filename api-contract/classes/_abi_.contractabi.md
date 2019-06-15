@@ -12,7 +12,7 @@
 
 ⊕ **new ContractAbi**(abi: *[ContractABI](../modules/_types_.md#contractabi)*): [ContractAbi](_abi_.contractabi.md)
 
-*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api-contract/src/Abi.ts#L15)*
+*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/f9605cd/packages/api-contract/src/Abi.ts#L15)*
 
 **Parameters:**
 
@@ -32,7 +32,7 @@ ___
 
 **● abi**: *[ContractABI](../modules/_types_.md#contractabi)*
 
-*Defined in [Abi.ts:13](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api-contract/src/Abi.ts#L13)*
+*Defined in [Abi.ts:13](https://github.com/polkadot-js/api/blob/f9605cd/packages/api-contract/src/Abi.ts#L13)*
 
 ___
 <a id="deploy"></a>
@@ -41,7 +41,7 @@ ___
 
 **● deploy**: *[ContractABIFn](../interfaces/_types_.contractabifn.md)*
 
-*Defined in [Abi.ts:14](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api-contract/src/Abi.ts#L14)*
+*Defined in [Abi.ts:14](https://github.com/polkadot-js/api/blob/f9605cd/packages/api-contract/src/Abi.ts#L14)*
 
 ___
 <a id="messages"></a>
@@ -50,7 +50,7 @@ ___
 
 **● messages**: *`object`*
 
-*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/7e5b09a/packages/api-contract/src/Abi.ts#L15)*
+*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/f9605cd/packages/api-contract/src/Abi.ts#L15)*
 
 #### Type declaration
 
