@@ -10,6 +10,7 @@
 * [ConsensusEngineId](../classes/_rpc_digest_.consensusengineid.md)
 * [Digest](../classes/_rpc_digest_.digest.md)
 * [DigestItem](../classes/_rpc_digest_.digestitem.md)
+* [DigestOf](../classes/_rpc_digest_.digestof.md)
 * [Other](../classes/_rpc_digest_.other.md)
 * [PreRuntime](../classes/_rpc_digest_.preruntime.md)
 * [Seal](../classes/_rpc_digest_.seal.md)

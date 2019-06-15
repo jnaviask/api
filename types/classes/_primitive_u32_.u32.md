@@ -26,6 +26,8 @@
 
 ↳  [ParaId](_type_paraid_.paraid.md)
 
+↳  [EraIndex](_type_eraindex_.eraindex.md)
+
 ↳  [MemberCount](_type_membercount_.membercount.md)
 
 ↳  [Permill](_type_permill_.permill.md)
@@ -37,6 +39,8 @@
 ↳  [ProposalIndex](_type_proposalindex_.proposalindex.md)
 
 ↳  [ReferendumIndex](_type_referendumindex_.referendumindex.md)
+
+↳  [SessionIndex](_type_sessionindex_.sessionindex.md)
 
 ↳  [SetIndex](_type_setindex_.setindex.md)
 
@@ -56,7 +60,7 @@
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/primitive/U32.ts#L14)*
+*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/primitive/U32.ts#L14)*
 
 **Parameters:**
 
@@ -80,7 +84,7 @@ ___
 
 *Overrides AbstractInt.toHex*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/codec/UInt.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -105,7 +109,7 @@ ___
 
 *Overrides AbstractInt.toRawType*
 
-*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/codec/UInt.ts#L48)*
+*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/codec/UInt.ts#L48)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -124,7 +128,7 @@ ___
 
 *Overrides AbstractInt.toU8a*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/codec/UInt.ts#L56)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 

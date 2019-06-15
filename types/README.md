@@ -246,6 +246,10 @@ Wrapper for a AuthorityId. Same as an normal AccountId
 
 Log for Authories changed
 
+[AuthorityWeight](classes/_type_authorityweight_.authorityweight.md)
+
+The weight of an authority
+
 [Balance](classes/_type_balance_.balance.md)
 
 The Substrate Balance representation as a [U128](classes/_primitive_u128_.u128.md)
@@ -298,6 +302,10 @@ The contract information for a given contract
 
 A representation of a storage key for contracts
 
+[EraIndex](classes/_type_eraindex_.eraindex.md)
+
+A representation for the era count
+
 [Exposure](classes/_type_exposure_.exposure.md)
 
 A snapshot of the stake backing a single validator in the system
@@ -337,6 +345,10 @@ A generic justification as a stream of [Bytes](classes/_primitive_bytes_.bytes.m
 [Key](classes/_type_key_.key.md)
 
 The Substrate Key representation as a [Bytes](classes/_primitive_bytes_.bytes.md) (`vec<u8>`)
+
+[Keys](classes/_type_keys_.keys.md)
+
+The session keys
 
 [KeyValue](classes/_type_keyvalue_.keyvalue.md)
 
@@ -386,6 +398,10 @@ The Compact or number of transactions sent by a specific account
 
 Identifier for a deployed parachain implemented as a [U32](classes/_primitive_u32_.u32.md)
 
+[OpaqueKey](classes/_type_opaquekey_.opaquekey.md)
+
+A key represented as a [Bytes](classes/_primitive_bytes_.bytes.md)
+
 [Perbill](classes/_type_perbill_.perbill.md)
 
 Parts per billion (see also [Permill](classes/_type_permill_.permill.md))
@@ -434,9 +450,17 @@ Log item indicating a sealing event
 
 The Substrate SeedOf representation as a [Hash](classes/_primitive_hash_.hash.md)
 
+[SessionIndex](classes/_type_sessionindex_.sessionindex.md)
+
+Simple index type with which we can count sessions as [U32](classes/_primitive_u32_.u32.md)
+
 [SessionKey](classes/_type_sessionkey_.sessionkey.md)
 
 Wrapper for a SessionKey. Same as an normal [AuthorityId](classes/_type_authorityid_.authorityid.md), i.e. a wrapper around publicKey
+
+[SessionKeys](classes/_type_sessionkeys_.sessionkeys.md)
+
+Wrapper for the session and authority ids
 
 [SetIndex](classes/_type_setindex_.setindex.md)
 
@@ -518,6 +542,10 @@ A block encoded with header and extrinsics
 Wraps the properties retrieved from the chain via the `system.properties` RPC call
 
 [Digest](classes/_rpc_digest_.digest.md)
+
+A [Header](classes/_rpc_header_.header.md) Digest
+
+[DigestOf](classes/_rpc_digest_.digestof.md)
 
 A [Header](classes/_rpc_header_.header.md) Digest
 

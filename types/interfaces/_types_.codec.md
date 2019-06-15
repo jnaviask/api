@@ -32,6 +32,7 @@
 * [AttestedCandidate](../classes/_type_attestedcandidate_.attestedcandidate.md)
 * [AuthoritiesChange](../classes/_rpc_digest_.authoritieschange.md)
 * [AuthorityId](../classes/_type_authorityid_.authorityid.md)
+* [AuthorityWeight](../classes/_type_authorityweight_.authorityweight.md)
 * [AvailabilityVote](../classes/_type_attestedcandidate_.availabilityvote.md)
 * [Balance](../classes/_type_balance_.balance.md)
 * [BalanceLock](../classes/_type_balancelock_.balancelock.md)
@@ -65,13 +66,15 @@
 * [Data](../classes/_primitive_data_.data.md)
 * [Digest](../classes/_rpc_digest_.digest.md)
 * [DigestItem](../classes/_rpc_digest_.digestitem.md)
-* [DoubleMapType](../classes/_metadata_v4_storage_.doublemaptype.md)
+* [DigestOf](../classes/_rpc_digest_.digestof.md)
 * [DoubleMapType](../classes/_metadata_v5_storage_.doublemaptype.md)
 * [DoubleMapType](../classes/_metadata_v3_storage_.doublemaptype.md)
+* [DoubleMapType](../classes/_metadata_v4_storage_.doublemaptype.md)
 * [Dropped](../classes/_rpc_extrinsicstatus_.dropped.md)
 * [Ed25519Signature](../classes/_type_signature_.ed25519signature.md)
 * [EgressQueueRoot](../classes/_type_attestedcandidate_.egressqueueroot.md)
 * [Enum](../classes/_codec_enumtype_.enum.md)
+* [EraIndex](../classes/_type_eraindex_.eraindex.md)
 * [Event](../classes/_primitive_event_.event.md)
 * [EventData](../classes/_primitive_event_.eventdata.md)
 * [EventId](../classes/_primitive_event_.eventid.md)
@@ -118,14 +121,15 @@
 * [Key](../classes/_type_key_.key.md)
 * [KeyValue](../classes/_type_keyvalue_.keyvalue.md)
 * [KeyValueOption](../classes/_type_keyvalue_.keyvalueoption.md)
+* [Keys](../classes/_type_keys_.keys.md)
 * [Linkage](../classes/_codec_linkage_.linkage.md)
 * [LinkageResult](../classes/_codec_linkage_.linkageresult.md)
 * [LockIdentifier](../classes/_type_lockidentifier_.lockidentifier.md)
 * [LockPeriods](../classes/_type_lockperiods_.lockperiods.md)
 * [MagicNumber](../classes/_metadata_magicnumber_.magicnumber.md)
 * [MapType](../classes/_metadata_v0_storage_.maptype.md)
-* [MapType](../classes/_metadata_v4_storage_.maptype.md)
 * [MapType](../classes/_metadata_v2_storage_.maptype.md)
+* [MapType](../classes/_metadata_v4_storage_.maptype.md)
 * [MemberCount](../classes/_type_membercount_.membercount.md)
 * [Metadata](../classes/_metadata_metadata_.metadata.md)
 * [MetadataV0](../classes/_metadata_v0_metadata_.metadatav0.md)
@@ -142,9 +146,9 @@
 * [ModuleMetadata](../classes/_metadata_v4_metadata_.modulemetadata.md)
 * [ModuleMetadata](../classes/_metadata_v3_metadata_.modulemetadata.md)
 * [ModuleMetadata](../classes/_metadata_v2_metadata_.modulemetadata.md)
-* [ModuleMetadata](../classes/_metadata_v5_metadata_.modulemetadata.md)
 * [ModuleMetadata](../classes/_metadata_v0_modules_.modulemetadata.md)
 * [ModuleMetadata](../classes/_metadata_v1_metadata_.modulemetadata.md)
+* [ModuleMetadata](../classes/_metadata_v5_metadata_.modulemetadata.md)
 * [Moment](../classes/_primitive_moment_.moment.md)
 * [MomentOf](../classes/_primitive_moment_.momentof.md)
 * [MortalEra](../classes/_type_extrinsicera_.mortalera.md)
@@ -154,6 +158,7 @@
 * [Nonce](../classes/_type_nonce_.nonce.md)
 * [NonceCompact](../classes/_type_noncecompact_.noncecompact.md)
 * [Null](../classes/_primitive_null_.null.md)
+* [OpaqueKey](../classes/_type_opaquekey_.opaquekey.md)
 * [Option](../classes/_codec_option_.option.md)
 * [Origin](../classes/_primitive_origin_.origin.md)
 * [Other](../classes/_rpc_digest_.other.md)
@@ -185,7 +190,9 @@
 * [Seal](../classes/_rpc_digest_.seal.md)
 * [SealV0](../classes/_rpc_digest_.sealv0.md)
 * [SeedOf](../classes/_type_seedof_.seedof.md)
+* [SessionIndex](../classes/_type_sessionindex_.sessionindex.md)
 * [SessionKey](../classes/_type_sessionkey_.sessionkey.md)
+* [SessionKeys](../classes/_type_sessionkeys_.sessionkeys.md)
 * [SetIndex](../classes/_type_setindex_.setindex.md)
 * [Signature](../classes/_type_signature_.signature.md)
 * [SignaturePayload](../classes/_type_signaturepayload_.signaturepayload.md)
@@ -196,16 +203,16 @@
 * [StorageChangeSet](../classes/_rpc_storagechangeset_.storagechangeset.md)
 * [StorageData](../classes/_primitive_storagedata_.storagedata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v5_storage_.storagefunctionmetadata.md)
-* [StorageFunctionMetadata](../classes/_metadata_v2_storage_.storagefunctionmetadata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v0_storage_.storagefunctionmetadata.md)
+* [StorageFunctionMetadata](../classes/_metadata_v2_storage_.storagefunctionmetadata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v4_storage_.storagefunctionmetadata.md)
 * [StorageFunctionMetadata](../classes/_metadata_v3_storage_.storagefunctionmetadata.md)
 * [StorageFunctionModifier](../classes/_metadata_v0_storage_.storagefunctionmodifier.md)
-* [StorageFunctionType](../classes/_metadata_v3_storage_.storagefunctiontype.md)
 * [StorageFunctionType](../classes/_metadata_v2_storage_.storagefunctiontype.md)
-* [StorageFunctionType](../classes/_metadata_v0_storage_.storagefunctiontype.md)
-* [StorageFunctionType](../classes/_metadata_v4_storage_.storagefunctiontype.md)
 * [StorageFunctionType](../classes/_metadata_v5_storage_.storagefunctiontype.md)
+* [StorageFunctionType](../classes/_metadata_v0_storage_.storagefunctiontype.md)
+* [StorageFunctionType](../classes/_metadata_v3_storage_.storagefunctiontype.md)
+* [StorageFunctionType](../classes/_metadata_v4_storage_.storagefunctiontype.md)
 * [StorageHasher](../classes/_primitive_storagehasher_.storagehasher.md)
 * [StorageKey](../classes/_primitive_storagekey_.storagekey.md)
 * [StorageMetadata](../classes/_metadata_v0_storage_.storagemetadata.md)
@@ -252,7 +259,7 @@
 
 **● encodedLength**: *`number`*
 
-*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/types.ts#L47)*
+*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/types.ts#L47)*
 
 *__description__*: The length of the value when encoded as a Uint8Array
 
@@ -263,7 +270,7 @@ ___
 
 **● isEmpty**: *`boolean`*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/types.ts#L52)*
 
 *__description__*: Checks if the value is an empty value
 
@@ -277,7 +284,7 @@ ___
 
 ▸ **eq**(other?: *`any`*): `boolean`
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/types.ts#L57)*
+*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/types.ts#L57)*
 
 *__description__*: Compares the value of the input to see if there is a match
 
@@ -296,7 +303,7 @@ ___
 
 ▸ **toHex**(isLe?: *`undefined` \| `false` \| `true`*): `string`
 
-*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/types.ts#L62)*
+*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/types.ts#L62)*
 
 *__description__*: Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
@@ -315,7 +322,7 @@ ___
 
 ▸ **toJSON**(): `any`
 
-*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/types.ts#L67)*
+*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/types.ts#L67)*
 
 *__description__*: Converts the Object to JSON, typically used for RPC transfers
 
@@ -328,7 +335,7 @@ ___
 
 ▸ **toRawType**(): `string`
 
-*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/types.ts#L72)*
+*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/types.ts#L72)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -341,7 +348,7 @@ ___
 
 ▸ **toString**(): `string`
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/types.ts#L77)*
+*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/types.ts#L77)*
 
 *__description__*: Returns the string representation of the value
 
@@ -354,7 +361,7 @@ ___
 
 ▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
 
-*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/d38ccd1/packages/types/src/types.ts#L83)*
+*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/ea991e4/packages/types/src/types.ts#L83)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
