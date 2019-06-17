@@ -9,7 +9,7 @@
 # Callable
 ▸ **__call**(extrinsic: *`Uint8Array` \| `string`*): [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`ApiType`>
 
-*Defined in [types.ts:159](https://github.com/polkadot-js/api/blob/9d00dce/packages/api/src/types.ts#L159)*
+*Defined in [types.ts:159](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L159)*
 
 **Parameters:**
 

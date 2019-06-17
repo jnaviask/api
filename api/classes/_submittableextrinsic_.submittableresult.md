@@ -12,7 +12,7 @@
 
 ⊕ **new SubmittableResult**(__namedParameters: *`object`*): [SubmittableResult](_submittableextrinsic_.submittableresult.md)
 
-*Defined in [SubmittableExtrinsic.ts:33](https://github.com/polkadot-js/api/blob/9d00dce/packages/api/src/SubmittableExtrinsic.ts#L33)*
+*Defined in [SubmittableExtrinsic.ts:33](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L33)*
 
 **Parameters:**
 
@@ -32,7 +32,7 @@ ___
 
 **● events**: *`Array`<`EventRecord`>*
 
-*Defined in [SubmittableExtrinsic.ts:32](https://github.com/polkadot-js/api/blob/9d00dce/packages/api/src/SubmittableExtrinsic.ts#L32)*
+*Defined in [SubmittableExtrinsic.ts:32](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L32)*
 
 ___
 <a id="status"></a>
@@ -41,7 +41,7 @@ ___
 
 **● status**: *`ExtrinsicStatus`*
 
-*Defined in [SubmittableExtrinsic.ts:33](https://github.com/polkadot-js/api/blob/9d00dce/packages/api/src/SubmittableExtrinsic.ts#L33)*
+*Defined in [SubmittableExtrinsic.ts:33](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L33)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 **get isCompleted**(): `boolean`
 
-*Defined in [SubmittableExtrinsic.ts:40](https://github.com/polkadot-js/api/blob/9d00dce/packages/api/src/SubmittableExtrinsic.ts#L40)*
+*Defined in [SubmittableExtrinsic.ts:40](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L40)*
 
 **Returns:** `boolean`
 
@@ -64,7 +64,7 @@ ___
 
 **get isError**(): `boolean`
 
-*Defined in [SubmittableExtrinsic.ts:44](https://github.com/polkadot-js/api/blob/9d00dce/packages/api/src/SubmittableExtrinsic.ts#L44)*
+*Defined in [SubmittableExtrinsic.ts:44](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L44)*
 
 **Returns:** `boolean`
 
@@ -75,7 +75,7 @@ ___
 
 **get isFinalized**(): `boolean`
 
-*Defined in [SubmittableExtrinsic.ts:48](https://github.com/polkadot-js/api/blob/9d00dce/packages/api/src/SubmittableExtrinsic.ts#L48)*
+*Defined in [SubmittableExtrinsic.ts:48](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L48)*
 
 **Returns:** `boolean`
 
@@ -89,7 +89,7 @@ ___
 
 ▸ **findRecord**(section: *`string`*, method: *`string`*): `EventRecord` \| `undefined`
 
-*Defined in [SubmittableExtrinsic.ts:55](https://github.com/polkadot-js/api/blob/9d00dce/packages/api/src/SubmittableExtrinsic.ts#L55)*
+*Defined in [SubmittableExtrinsic.ts:55](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L55)*
 
 *__description__*: Finds an EventRecord for the specified method & section
 

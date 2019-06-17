@@ -24,7 +24,7 @@
 
 *Overrides [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
-*Defined in [primitive/USize.ts:14](https://github.com/polkadot-js/api/blob/9d00dce/packages/types/src/primitive/USize.ts#L14)*
+*Defined in [primitive/USize.ts:14](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/USize.ts#L14)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ ___
 
 *Overrides AbstractInt.toHex*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/9d00dce/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/UInt.ts#L36)*
 
 *__description__*: Returns a hex string representation of the value
 
@@ -71,7 +71,7 @@ ___
 
 *Overrides [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Defined in [primitive/USize.ts:24](https://github.com/polkadot-js/api/blob/9d00dce/packages/types/src/primitive/USize.ts#L24)*
+*Defined in [primitive/USize.ts:24](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/USize.ts#L24)*
 
 *__description__*: Returns the base runtime type name for this instance
 
@@ -90,7 +90,7 @@ ___
 
 *Overrides AbstractInt.toU8a*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/9d00dce/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/UInt.ts#L56)*
 
 *__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
 
