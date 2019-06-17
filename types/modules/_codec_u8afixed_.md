@@ -20,7 +20,7 @@
 
 **Ƭ BitLength**: *`8` \| `16` \| `32` \| `64` \| `128` \| `160` \| `256` \| `512` \| `1024` \| `2048`*
 
-*Defined in [codec/U8aFixed.ts:11](https://github.com/polkadot-js/api/blob/f9605cd/packages/types/src/codec/U8aFixed.ts#L11)*
+*Defined in [codec/U8aFixed.ts:11](https://github.com/polkadot-js/api/blob/9d00dce/packages/types/src/codec/U8aFixed.ts#L11)*
 
 ___
 

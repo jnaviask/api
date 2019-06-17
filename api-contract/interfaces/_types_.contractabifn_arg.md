@@ -12,7 +12,7 @@
 
 **● name**: *`string`*
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/f9605cd/packages/api-contract/src/types.ts#L49)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/9d00dce/packages/api-contract/src/types.ts#L49)*
 
 ___
 <a id="type"></a>
@@ -21,7 +21,7 @@ ___
 
 **● type**: *`string`*
 
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/f9605cd/packages/api-contract/src/types.ts#L50)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/9d00dce/packages/api-contract/src/types.ts#L50)*
 
 ___
 
