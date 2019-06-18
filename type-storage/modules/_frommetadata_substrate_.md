@@ -20,7 +20,7 @@ documentation: 'Number of authorities.',
 type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:43](url)*
+*Defined in [fromMetadata/substrate.ts:35](url)*
 
 ___
 
@@ -31,7 +31,7 @@ documentation: 'Prefix under which authorities are stored.',
 type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:48](url)*
+*Defined in [fromMetadata/substrate.ts:40](url)*
 
 ___
 
@@ -42,7 +42,7 @@ documentation: 'Changes trie configuration is stored under this key.',
 type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:58](url)*
+*Defined in [fromMetadata/substrate.ts:60](url)*
 
 ___
 
@@ -53,7 +53,7 @@ documentation: 'Wasm code of the runtime.',
 type: 'Bytes'
 })
 
-*Defined in [fromMetadata/substrate.ts:33](url)*
+*Defined in [fromMetadata/substrate.ts:45](url)*
 
 ___
 
@@ -64,7 +64,7 @@ documentation: 'Current extrinsic index (u32) is stored under this key.',
 type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:53](url)*
+*Defined in [fromMetadata/substrate.ts:55](url)*
 
 ___
 
@@ -75,6 +75,6 @@ documentation: 'Number of wasm linear memory pages required for execution of the
 type: 'u64'
 })
 
-*Defined in [fromMetadata/substrate.ts:38](url)*
+*Defined in [fromMetadata/substrate.ts:50](url)*
 
 ___
