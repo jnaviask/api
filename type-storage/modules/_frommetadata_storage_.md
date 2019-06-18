@@ -1,24 +1,23 @@
+> # External module: "fromMetadata/storage"
 
+### Index
 
-# Object literals
+#### Object literals
 
-<a id="storage"></a>
+* [storage](_frommetadata_storage_.md#const-storage)
 
-## `<Const>` storage
+## Object literals
 
-**storage**: *`object`*
+### `Const` storage
 
-*Defined in [fromMetadata/storage.ts:8](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/type-storage/src/fromMetadata/storage.ts#L8)*
+### ■ **storage**: *object*
 
-<a id="storage.substrate"></a>
+*Defined in [fromMetadata/storage.ts:8](url)*
 
 ###  substrate
 
-**● substrate**: *[&quot;fromMetadata/substrate&quot;](_frommetadata_substrate_.md)*
+● **substrate**: *["fromMetadata/substrate"](_frommetadata_substrate_.md)*
 
-*Defined in [fromMetadata/storage.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/type-storage/src/fromMetadata/storage.ts#L9)*
-
-___
+*Defined in [fromMetadata/storage.ts:9](url)*
 
 ___
-

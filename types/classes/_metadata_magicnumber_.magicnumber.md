@@ -1,104 +1,109 @@
+> # Class: MagicNumber
 
+## Hierarchy
 
-# Hierarchy
+  * [U32](_primitive_u32_.u32.md)
 
-↳  [U32](_primitive_u32_.u32.md)
+  * **MagicNumber**
 
-**↳ MagicNumber**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_metadata_magicnumber_.magicnumber.md#constructor)
 
-⊕ **new MagicNumber**(value?: *`any`*): [MagicNumber](_metadata_magicnumber_.magicnumber.md)
+#### Methods
+
+* [toHex](_metadata_magicnumber_.magicnumber.md#tohex)
+* [toRawType](_metadata_magicnumber_.magicnumber.md#torawtype)
+* [toU8a](_metadata_magicnumber_.magicnumber.md#tou8a)
+
+## Constructors
+
+###  constructor
+
+\+ **new MagicNumber**(`value?`: any): *[MagicNumber](_metadata_magicnumber_.magicnumber.md)*
 
 *Overrides [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
-*Defined in [Metadata/MagicNumber.ts:11](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/MagicNumber.ts#L11)*
+*Defined in [Metadata/MagicNumber.ts:11](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** [MagicNumber](_metadata_magicnumber_.magicnumber.md)
+**Returns:** *[MagicNumber](_metadata_magicnumber_.magicnumber.md)*
 
 ___
 
-# Methods
+## Methods
 
-<a id="tohex"></a>
+###  toHex
 
-##  toHex
-
-▸ **toHex**(isLe?: *`boolean`*): `string`
+▸ **toHex**(`isLe`: boolean): *string*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
 
-*Overrides AbstractInt.toHex*
+*Overrides void*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` isLe | `boolean` | false |
+Name | Type | Default |
+------ | ------ | ------ |
+`isLe` | boolean | false |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Overrides AbstractInt.toRawType*
+*Overrides void*
 
-*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/UInt.ts#L48)*
+*Defined in [codec/UInt.ts:48](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[toU8a](_codec_uint_.uint.md#tou8a)*
 
-*Overrides AbstractInt.toU8a*
+*Overrides void*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

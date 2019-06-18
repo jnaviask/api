@@ -1,339 +1,353 @@
+> # Class: ReferendumInfo <**S, T, V, E**>
 
+**`name`** ReferendumInfo
 
-*__name__*: ReferendumInfo
+**`description`** 
+Info regarding an ongoing referendum
 
-*__description__*: Info regarding an ongoing referendum
+## Type parameters
 
-# Type parameters
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
-↳  [Struct](_codec_struct_.struct.md)
+■` T`: *object*
 
-**↳ ReferendumInfo**
+■` V`: *object*
 
-# Implements
+■` E`: *object*
+
+## Hierarchy
+
+  * [Struct](_codec_struct_.struct.md)
+
+  * **ReferendumInfo**
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_referenduminfo_.referenduminfo.md#constructor)
 
-⊕ **new ReferendumInfo**(value?: *`ReferendumInfoValue` \| `Uint8Array` \| `Map`<`string`, [Codec](../interfaces/_types_.codec.md)>*): [ReferendumInfo](_type_referenduminfo_.referenduminfo.md)
+#### Accessors
+
+* [Type](_type_referenduminfo_.referenduminfo.md#type)
+* [delay](_type_referenduminfo_.referenduminfo.md#delay)
+* [encodedLength](_type_referenduminfo_.referenduminfo.md#encodedlength)
+* [end](_type_referenduminfo_.referenduminfo.md#end)
+* [isEmpty](_type_referenduminfo_.referenduminfo.md#isempty)
+* [proposal](_type_referenduminfo_.referenduminfo.md#proposal)
+* [threshold](_type_referenduminfo_.referenduminfo.md#threshold)
+
+#### Methods
+
+* [eq](_type_referenduminfo_.referenduminfo.md#eq)
+* [get](_type_referenduminfo_.referenduminfo.md#get)
+* [getAtIndex](_type_referenduminfo_.referenduminfo.md#getatindex)
+* [toArray](_type_referenduminfo_.referenduminfo.md#toarray)
+* [toHex](_type_referenduminfo_.referenduminfo.md#tohex)
+* [toJSON](_type_referenduminfo_.referenduminfo.md#tojson)
+* [toRawType](_type_referenduminfo_.referenduminfo.md#torawtype)
+* [toString](_type_referenduminfo_.referenduminfo.md#tostring)
+* [toU8a](_type_referenduminfo_.referenduminfo.md#tou8a)
+* [with](_type_referenduminfo_.referenduminfo.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new ReferendumInfo**(`value?`: `ReferendumInfoValue` | `Uint8Array` | `Map<string, Codec>`): *[ReferendumInfo](_type_referenduminfo_.referenduminfo.md)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/ReferendumInfo.ts:24](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ReferendumInfo.ts#L24)*
+*Defined in [type/ReferendumInfo.ts:24](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `ReferendumInfoValue` \| `Uint8Array` \| `Map`<`string`, [Codec](../interfaces/_types_.codec.md)> |
+Name | Type |
+------ | ------ |
+`value?` | `ReferendumInfoValue` \| `Uint8Array` \| `Map<string, Codec>` |
 
-**Returns:** [ReferendumInfo](_type_referenduminfo_.referenduminfo.md)
+**Returns:** *[ReferendumInfo](_type_referenduminfo_.referenduminfo.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="type"></a>
+###  Type
 
-##  Type
-
-**get Type**(): `E`
+● **get Type**(): *`E`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Struct.ts:163](url)*
 
-*__description__*: Returns the Type description to sthe structure
+**`description`** Returns the Type description to sthe structure
 
-**Returns:** `E`
-
-___
-<a id="delay"></a>
-
-##  delay
-
-**get delay**(): [BlockNumber](_type_blocknumber_.blocknumber.md)
-
-*Defined in [type/ReferendumInfo.ts:58](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ReferendumInfo.ts#L58)*
-
-*__description__*: The delay (in blocks) to wait after a successful referendum before deploying
-
-**Returns:** [BlockNumber](_type_blocknumber_.blocknumber.md)
+**Returns:** *`E`*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  delay
 
-**get encodedLength**(): `number`
+● **get delay**(): *[BlockNumber](_type_blocknumber_.blocknumber.md)*
+
+*Defined in [type/ReferendumInfo.ts:58](url)*
+
+**`description`** The delay (in blocks) to wait after a successful referendum before deploying
+
+**Returns:** *[BlockNumber](_type_blocknumber_.blocknumber.md)*
+
+___
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L176)*
+*Defined in [codec/Struct.ts:176](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
-
-___
-<a id="end"></a>
-
-##  end
-
-**get end**(): [BlockNumber](_type_blocknumber_.blocknumber.md)
-
-*Defined in [type/ReferendumInfo.ts:37](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ReferendumInfo.ts#L37)*
-
-*__description__*: When voting on this referendum will end
-
-**Returns:** [BlockNumber](_type_blocknumber_.blocknumber.md)
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  end
 
-**get isEmpty**(): `boolean`
+● **get end**(): *[BlockNumber](_type_blocknumber_.blocknumber.md)*
+
+*Defined in [type/ReferendumInfo.ts:37](url)*
+
+**`description`** When voting on this referendum will end
+
+**Returns:** *[BlockNumber](_type_blocknumber_.blocknumber.md)*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/Struct.ts:148](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
-
-___
-<a id="proposal"></a>
-
-##  proposal
-
-**get proposal**(): [Proposal](_type_proposal_.proposal.md)
-
-*Defined in [type/ReferendumInfo.ts:44](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ReferendumInfo.ts#L44)*
-
-*__description__*: The proposal being voted on
-
-**Returns:** [Proposal](_type_proposal_.proposal.md)
-
-___
-<a id="threshold"></a>
-
-##  threshold
-
-**get threshold**(): [VoteThreshold](_type_votethreshold_.votethreshold.md)
-
-*Defined in [type/ReferendumInfo.ts:51](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ReferendumInfo.ts#L51)*
-
-*__description__*: The thresholding mechanism to determine whether it passed
-
-**Returns:** [VoteThreshold](_type_votethreshold_.votethreshold.md)
+**Returns:** *boolean*
 
 ___
 
-# Methods
+###  proposal
 
-<a id="eq"></a>
+● **get proposal**(): *[Proposal](_type_proposal_.proposal.md)*
 
-##  eq
+*Defined in [type/ReferendumInfo.ts:44](url)*
 
-▸ **eq**(other?: *`any`*): `boolean`
+**`description`** The proposal being voted on
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+**Returns:** *[Proposal](_type_proposal_.proposal.md)*
+
+___
+
+###  threshold
+
+● **get threshold**(): *[VoteThreshold](_type_votethreshold_.votethreshold.md)*
+
+*Defined in [type/ReferendumInfo.ts:51](url)*
+
+**`description`** The thresholding mechanism to determine whether it passed
+
+**Returns:** *[VoteThreshold](_type_votethreshold_.votethreshold.md)*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/Struct.ts:185](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="get"></a>
 
-##  get
+###  get
 
-▸ **get**(name: *`keyof S`*): [Codec](../interfaces/_types_.codec.md) \| `undefined`
+▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
 
-*Overrides Map.get*
+*Overrides void*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/Struct.ts:193](url)*
 
-*__description__*: Returns a specific names entry in the structure
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md) \| `undefined`
+**Returns:** *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  getAtIndex
 
-▸ **getAtIndex**(index: *`number`*): [Codec](../interfaces/_types_.codec.md)
+▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [codec/Struct.ts:200](url)*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md)
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
-<a id="toarray"></a>
 
-##  toArray
+###  toArray
 
-▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
+▸ **toArray**(): *`Array<Codec>`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/Struct.ts:207](url)*
 
-*__description__*: Converts the Object to an standard JavaScript Array
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:214](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/Struct.ts:221](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [codec/Struct.ts:235](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
+*Defined in [codec/Struct.ts:248](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L256)*
+*Defined in [codec/Struct.ts:256](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**<`S`>(Types: *`S`*): [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
+*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#static-with)*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
 ___
-

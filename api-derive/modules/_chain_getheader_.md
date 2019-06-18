@@ -1,20 +1,25 @@
+> # External module: "chain/getHeader"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="getheader"></a>
+* [getHeader](_chain_getheader_.md#getheader)
 
-##  getHeader
+## Functions
 
-▸ **getHeader**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  getHeader
 
-*Defined in [chain/getHeader.ts:28](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/chain/getHeader.ts#L28)*
+▸ **getHeader**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__name__*: bestNumberFinalized
+*Defined in [chain/getHeader.ts:28](url)*
 
-*__description__*: Get a specific block header and extend it with the author
+**`name`** bestNumberFinalized
 
-*__example__*:   
+**`description`** Get a specific block header and extend it with the author
+
+**`example`** 
+<BR>
 
 ```javascript
 const { author, blockNumber } = await api.derive.chain.getHeader('0x123...456');
@@ -24,12 +29,12 @@ console.log(`block #${blockNumber} was authored by ${author}`);
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
+
 An array containing the block header and the block author
 
 ___
-

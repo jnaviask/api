@@ -1,440 +1,454 @@
+> # Class: ExtrinsicSignature <**S, T, V, E**>
 
+**`name`** ExtrinsicSignature
 
-*__name__*: ExtrinsicSignature
+**`description`** 
+A container for the [Signature](_type_signature_.signature.md) associated with a specific [Extrinsic](_type_extrinsic_.extrinsic.md)
 
-*__description__*: A container for the [Signature](_type_signature_.signature.md) associated with a specific [Extrinsic](_type_extrinsic_.extrinsic.md)
+## Type parameters
 
-# Type parameters
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
-↳  [Struct](_codec_struct_.struct.md)
+■` T`: *object*
 
-**↳ ExtrinsicSignature**
+■` V`: *object*
 
-# Implements
+■` E`: *object*
+
+## Hierarchy
+
+  * [Struct](_codec_struct_.struct.md)
+
+  * **ExtrinsicSignature**
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 * [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_extrinsicsignature_.extrinsicsignature.md#constructor)
 
-⊕ **new ExtrinsicSignature**(value?: *[Uint8Array](_codec_u8a_.u8a.md#uint8array)*): [ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)
+#### Accessors
+
+* [Type](_type_extrinsicsignature_.extrinsicsignature.md#type)
+* [encodedLength](_type_extrinsicsignature_.extrinsicsignature.md#encodedlength)
+* [era](_type_extrinsicsignature_.extrinsicsignature.md#era)
+* [isEmpty](_type_extrinsicsignature_.extrinsicsignature.md#isempty)
+* [isSigned](_type_extrinsicsignature_.extrinsicsignature.md#issigned)
+* [nonce](_type_extrinsicsignature_.extrinsicsignature.md#nonce)
+* [signature](_type_extrinsicsignature_.extrinsicsignature.md#signature)
+* [signer](_type_extrinsicsignature_.extrinsicsignature.md#signer)
+* [version](_type_extrinsicsignature_.extrinsicsignature.md#version)
+
+#### Methods
+
+* [addSignature](_type_extrinsicsignature_.extrinsicsignature.md#addsignature)
+* [eq](_type_extrinsicsignature_.extrinsicsignature.md#eq)
+* [get](_type_extrinsicsignature_.extrinsicsignature.md#get)
+* [getAtIndex](_type_extrinsicsignature_.extrinsicsignature.md#getatindex)
+* [sign](_type_extrinsicsignature_.extrinsicsignature.md#sign)
+* [toArray](_type_extrinsicsignature_.extrinsicsignature.md#toarray)
+* [toHex](_type_extrinsicsignature_.extrinsicsignature.md#tohex)
+* [toJSON](_type_extrinsicsignature_.extrinsicsignature.md#tojson)
+* [toRawType](_type_extrinsicsignature_.extrinsicsignature.md#torawtype)
+* [toString](_type_extrinsicsignature_.extrinsicsignature.md#tostring)
+* [toU8a](_type_extrinsicsignature_.extrinsicsignature.md#tou8a)
+* [decodeExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md#static-decodeextrinsicsignature)
+* [with](_type_extrinsicsignature_.extrinsicsignature.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new ExtrinsicSignature**(`value?`: [Uint8Array](_codec_u8a_.u8a.md#static-uint8array)): *[ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/ExtrinsicSignature.ts:28](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L28)*
+*Defined in [type/ExtrinsicSignature.ts:28](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | [Uint8Array](_codec_u8a_.u8a.md#uint8array) |
+Name | Type |
+------ | ------ |
+`value?` | [Uint8Array](_codec_u8a_.u8a.md#static-uint8array) |
 
-**Returns:** [ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)
+**Returns:** *[ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="type"></a>
+###  Type
 
-##  Type
-
-**get Type**(): `E`
+● **get Type**(): *`E`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Struct.ts:163](url)*
 
-*__description__*: Returns the Type description to sthe structure
+**`description`** Returns the Type description to sthe structure
 
-**Returns:** `E`
+**Returns:** *`E`*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  encodedLength
 
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Overrides [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [type/ExtrinsicSignature.ts:65](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L65)*
+*Defined in [type/ExtrinsicSignature.ts:65](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="era"></a>
 
-##  era
+###  era
 
-**get era**(): [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
+● **get era**(): *[ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)*
 
-**set era**(era: *[ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)*): `void`
+*Defined in [type/ExtrinsicSignature.ts:81](url)*
 
-*Defined in [type/ExtrinsicSignature.ts:81](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L81)*
+**`description`** The [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md) (mortal or immortal) this signature applies to
 
-*__description__*: The [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md) (mortal or immortal) this signature applies to
+**Returns:** *[ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)*
 
-**Returns:** [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
+● **set era**(`era`: [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)): *void*
 
-*Defined in [type/ExtrinsicSignature.ts:120](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L120)*
+*Defined in [type/ExtrinsicSignature.ts:120](url)*
 
-*__description__*: The [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md) (mortal or immortal) this signature applies to
+**`description`** The [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md) (mortal or immortal) this signature applies to
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| era | [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md) |
+Name | Type |
+------ | ------ |
+`era` | [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md) |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/Struct.ts:148](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
-
-___
-<a id="issigned"></a>
-
-##  isSigned
-
-**get isSigned**(): `boolean`
-
-*Defined in [type/ExtrinsicSignature.ts:74](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L74)*
-
-*__description__*: `true` if the signature is valid
-
-**Returns:** `boolean`
-
-___
-<a id="nonce"></a>
-
-##  nonce
-
-**get nonce**(): [Nonce](_type_nonce_.nonce.md)
-
-*Defined in [type/ExtrinsicSignature.ts:88](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L88)*
-
-*__description__*: The [Nonce](_type_nonce_.nonce.md) for the signature
-
-**Returns:** [Nonce](_type_nonce_.nonce.md)
-
-___
-<a id="signature"></a>
-
-##  signature
-
-**get signature**(): [Signature](_type_signature_.signature.md)
-
-*Defined in [type/ExtrinsicSignature.ts:95](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L95)*
-
-*__description__*: The actuall [Signature](_type_signature_.signature.md) hash
-
-**Returns:** [Signature](_type_signature_.signature.md)
-
-___
-<a id="signer"></a>
-
-##  signer
-
-**get signer**(): [Address](_primitive_address_.address.md)
-
-*Defined in [type/ExtrinsicSignature.ts:102](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L102)*
-
-*__description__*: The [Address](_primitive_address_.address.md) that signed
-
-**Returns:** [Address](_primitive_address_.address.md)
-
-___
-<a id="version"></a>
-
-##  version
-
-**get version**(): `number`
-
-*Defined in [type/ExtrinsicSignature.ts:109](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L109)*
-
-*__description__*: The encoded version for the signature
-
-**Returns:** `number`
+**Returns:** *boolean*
 
 ___
 
-# Methods
+###  isSigned
 
-<a id="addsignature"></a>
+● **get isSigned**(): *boolean*
 
-##  addSignature
+*Defined in [type/ExtrinsicSignature.ts:74](url)*
 
-▸ **addSignature**(_signer: *[Address](_primitive_address_.address.md) \| `Uint8Array` \| `string`*, _signature: *`Uint8Array` \| `string`*, _nonce: *[AnyNumber](../modules/_types_.md#anynumber)*, _era?: *`Uint8Array` \| [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)*): [ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)
+**`description`** `true` if the signature is valid
 
-*Defined in [type/ExtrinsicSignature.ts:137](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L137)*
+**Returns:** *boolean*
 
-*__description__*: Adds a raw signature
+___
+
+###  nonce
+
+● **get nonce**(): *[Nonce](_type_nonce_.nonce.md)*
+
+*Defined in [type/ExtrinsicSignature.ts:88](url)*
+
+**`description`** The [Nonce](_type_nonce_.nonce.md) for the signature
+
+**Returns:** *[Nonce](_type_nonce_.nonce.md)*
+
+___
+
+###  signature
+
+● **get signature**(): *[Signature](_type_signature_.signature.md)*
+
+*Defined in [type/ExtrinsicSignature.ts:95](url)*
+
+**`description`** The actuall [Signature](_type_signature_.signature.md) hash
+
+**Returns:** *[Signature](_type_signature_.signature.md)*
+
+___
+
+###  signer
+
+● **get signer**(): *[Address](_primitive_address_.address.md)*
+
+*Defined in [type/ExtrinsicSignature.ts:102](url)*
+
+**`description`** The [Address](_primitive_address_.address.md) that signed
+
+**Returns:** *[Address](_primitive_address_.address.md)*
+
+___
+
+###  version
+
+● **get version**(): *number*
+
+*Defined in [type/ExtrinsicSignature.ts:109](url)*
+
+**`description`** The encoded version for the signature
+
+**Returns:** *number*
+
+___
+
+## Methods
+
+###  addSignature
+
+▸ **addSignature**(`_signer`: [Address](_primitive_address_.address.md) | `Uint8Array` | string, `_signature`: `Uint8Array` | string, `_nonce`: [AnyNumber](../modules/_types_.md#anynumber), `_era`: `Uint8Array` | [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)): *[ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)*
+
+*Defined in [type/ExtrinsicSignature.ts:137](url)*
+
+**`description`** Adds a raw signature
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| _signer | [Address](_primitive_address_.address.md) \| `Uint8Array` \| `string` | - |
-| _signature | `Uint8Array` \| `string` | - |
-| _nonce | [AnyNumber](../modules/_types_.md#anynumber) | - |
-| `Default value` _era | `Uint8Array` \| [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md) |  IMMORTAL_ERA |
+Name | Type | Default |
+------ | ------ | ------ |
+`_signer` | [Address](_primitive_address_.address.md) \| `Uint8Array` \| string | - |
+`_signature` | `Uint8Array` \| string | - |
+`_nonce` | [AnyNumber](../modules/_types_.md#anynumber) | - |
+`_era` | `Uint8Array` \| [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md) |  IMMORTAL_ERA |
 
-**Returns:** [ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)
+**Returns:** *[ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)*
 
 ___
-<a id="eq"></a>
 
-##  eq
+###  eq
 
-▸ **eq**(other?: *`any`*): `boolean`
+▸ **eq**(`other?`: any): *boolean*
 
-*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md).[eq](../interfaces/_types_.iextrinsicsignature.md#eq)*
+*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/Struct.ts:185](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="get"></a>
 
-##  get
+###  get
 
-▸ **get**(name: *`keyof S`*): [Codec](../interfaces/_types_.codec.md) \| `undefined`
+▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
 
-*Overrides Map.get*
+*Overrides void*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/Struct.ts:193](url)*
 
-*__description__*: Returns a specific names entry in the structure
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md) \| `undefined`
+**Returns:** *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  getAtIndex
 
-▸ **getAtIndex**(index: *`number`*): [Codec](../interfaces/_types_.codec.md)
+▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [codec/Struct.ts:200](url)*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
-
-**Returns:** [Codec](../interfaces/_types_.codec.md)
-
-___
-<a id="sign"></a>
-
-##  sign
-
-▸ **sign**(method: *[Method](_primitive_method_.method.md)*, account: *[IKeyringPair](../modules/_types_.md#ikeyringpair)*, __namedParameters: *`object`*): [ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)
-
-*Defined in [type/ExtrinsicSignature.ts:149](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L149)*
-
-*__description__*: Generate a payload and pplies the signature from a keypair
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| method | [Method](_primitive_method_.method.md) |
-| account | [IKeyringPair](../modules/_types_.md#ikeyringpair) |
-| __namedParameters | `object` |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** [ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
-<a id="toarray"></a>
 
-##  toArray
+###  sign
 
-▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
+▸ **sign**(`method`: [Method](_primitive_method_.method.md), `account`: [IKeyringPair](../modules/_types_.md#ikeyringpair), `__namedParameters`: object): *[ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)*
+
+*Defined in [type/ExtrinsicSignature.ts:149](url)*
+
+**`description`** Generate a payload and pplies the signature from a keypair
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`method` | [Method](_primitive_method_.method.md) |
+`account` | [IKeyringPair](../modules/_types_.md#ikeyringpair) |
+`__namedParameters` | object |
+
+**Returns:** *[ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)*
+
+___
+
+###  toArray
+
+▸ **toArray**(): *`Array<Codec>`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/Struct.ts:207](url)*
 
-*__description__*: Converts the Object to an standard JavaScript Array
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:214](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md).[toJSON](../interfaces/_types_.iextrinsicsignature.md#tojson)*
+*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/Struct.ts:221](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md).[toRawType](../interfaces/_types_.iextrinsicsignature.md#torawtype)*
+*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [codec/Struct.ts:235](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md).[toString](../interfaces/_types_.iextrinsicsignature.md#tostring)*
+*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
+*Defined in [codec/Struct.ts:248](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md).[toU8a](../interfaces/_types_.iextrinsicsignature.md#tou8a)*
+*Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [type/ExtrinsicSignature.ts:166](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L166)*
+*Defined in [type/ExtrinsicSignature.ts:166](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
-
-**Returns:** `Uint8Array`
-
-___
-<a id="decodeextrinsicsignature"></a>
-
-## `<Static>` decodeExtrinsicSignature
-
-▸ **decodeExtrinsicSignature**(value?: *[Uint8Array](_codec_u8a_.u8a.md#uint8array)*): `object` \| `Uint8Array`
-
-*Defined in [type/ExtrinsicSignature.ts:45](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L45)*
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | [Uint8Array](_codec_u8a_.u8a.md#uint8array) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `object` \| `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` decodeExtrinsicSignature
 
-▸ **with**<`S`>(Types: *`S`*): [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+▸ **decodeExtrinsicSignature**(`value?`: [Uint8Array](_codec_u8a_.u8a.md#static-uint8array)): *object | `Uint8Array`*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
+*Defined in [type/ExtrinsicSignature.ts:45](url)*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value?` | [Uint8Array](_codec_u8a_.u8a.md#static-uint8array) |
+
+**Returns:** *object | `Uint8Array`*
+
+___
+
+### `Static` with
+
+▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
+
+*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#static-with)*
+
+*Defined in [codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
 ___
-

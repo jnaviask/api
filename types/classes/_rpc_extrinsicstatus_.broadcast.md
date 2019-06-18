@@ -1,339 +1,379 @@
+> # Class: Broadcast <**T**>
 
+**`name`** Broadcast
 
-*__name__*: Broadcast
+**`description`** 
+An [ExtrinsicStatus](_rpc_extrinsicstatus_.extrinsicstatus.md) indicating that the [Extrinsic](_type_extrinsic_.extrinsic.md) has been boradcast to peers
 
-*__description__*: An [ExtrinsicStatus](_rpc_extrinsicstatus_.extrinsicstatus.md) indicating that the [Extrinsic](_type_extrinsic_.extrinsic.md) has been boradcast to peers
+## Type parameters
 
-# Type parameters
-#### T :  [Codec](../interfaces/_types_.codec.md)
-# Hierarchy
+■` T`: *[Codec](../interfaces/_types_.codec.md)*
 
-↳  [Vector](_codec_vector_.vector.md)
+## Hierarchy
 
-**↳ Broadcast**
+  * [Vector](_codec_vector_.vector.md)
 
-# Implements
+  * **Broadcast**
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Indexable
+## Indexable
 
-\[n: `number`\]:&nbsp;`T`
-# Constructors
+● \[■&#x60; n&#x60;: *number*\]: `T`
 
-<a id="constructor"></a>
+### Index
 
-##  constructor
+#### Constructors
 
-⊕ **new Broadcast**(Type: *[Constructor](../interfaces/_types_.constructor.md)<`T`>*, value?: *[Vector](_codec_vector_.vector.md)<`any`> \| `Uint8Array` \| `string` \| `Array`<`any`>*): [Broadcast](_rpc_extrinsicstatus_.broadcast.md)
+* [constructor](_rpc_extrinsicstatus_.broadcast.md#constructor)
+
+#### Accessors
+
+* [Type](_rpc_extrinsicstatus_.broadcast.md#type)
+* [encodedLength](_rpc_extrinsicstatus_.broadcast.md#encodedlength)
+* [isEmpty](_rpc_extrinsicstatus_.broadcast.md#isempty)
+* [length](_rpc_extrinsicstatus_.broadcast.md#length)
+
+#### Methods
+
+* [eq](_rpc_extrinsicstatus_.broadcast.md#eq)
+* [filter](_rpc_extrinsicstatus_.broadcast.md#filter)
+* [map](_rpc_extrinsicstatus_.broadcast.md#map)
+* [toArray](_rpc_extrinsicstatus_.broadcast.md#toarray)
+* [toHex](_rpc_extrinsicstatus_.broadcast.md#tohex)
+* [toJSON](_rpc_extrinsicstatus_.broadcast.md#tojson)
+* [toRawType](_rpc_extrinsicstatus_.broadcast.md#torawtype)
+* [toString](_rpc_extrinsicstatus_.broadcast.md#tostring)
+* [toU8a](_rpc_extrinsicstatus_.broadcast.md#tou8a)
+* [decodeVector](_rpc_extrinsicstatus_.broadcast.md#static-decodevector)
+* [with](_rpc_extrinsicstatus_.broadcast.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new Broadcast**(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*`T`*›, `value`: [Vector](_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | `Array<any>`): *[Broadcast](_rpc_extrinsicstatus_.broadcast.md)*
 
 *Inherited from [Vector](_codec_vector_.vector.md).[constructor](_codec_vector_.vector.md#constructor)*
 
-*Defined in [codec/Vector.ts:22](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Vector.ts#L22)*
+*Defined in [codec/Vector.ts:22](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| Type | [Constructor](../interfaces/_types_.constructor.md)<`T`> | - |
-| `Default value` value | [Vector](_codec_vector_.vector.md)<`any`> \| `Uint8Array` \| `string` \| `Array`<`any`> |  [] as Array&lt;any&gt; |
+Name | Type | Default |
+------ | ------ | ------ |
+`Type` | [Constructor](../interfaces/_types_.constructor.md)‹*`T`*› | - |
+`value` | [Vector](_codec_vector_.vector.md)‹*any*› \| `Uint8Array` \| string \| `Array<any>` |  [] as Array<any> |
 
-**Returns:** [Broadcast](_rpc_extrinsicstatus_.broadcast.md)
+**Returns:** *[Broadcast](_rpc_extrinsicstatus_.broadcast.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="type"></a>
+###  Type
 
-##  Type
-
-**get Type**(): `string`
+● **get Type**(): *string*
 
 *Inherited from [Vector](_codec_vector_.vector.md).[Type](_codec_vector_.vector.md#type)*
 
-*Defined in [codec/Vector.ts:70](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Vector.ts#L70)*
+*Defined in [codec/Vector.ts:70](url)*
 
-*__description__*: The type for the items
+**`description`** The type for the items
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  encodedLength
 
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[encodedLength](_codec_abstractarray_.abstractarray.md#encodedlength)*
 
-*Defined in [codec/AbstractArray.ts:29](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L29)*
+*Defined in [codec/AbstractArray.ts:29](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[isEmpty](_codec_abstractarray_.abstractarray.md#isempty)*
 
-*Defined in [codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L22)*
+*Defined in [codec/AbstractArray.ts:22](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="length"></a>
 
-##  length
+###  length
 
-**get length**(): `number`
+● **get length**(): *number*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[length](_codec_abstractarray_.abstractarray.md#length)*
 
-*Overrides Array.length*
+*Overrides void*
 
-*Defined in [codec/AbstractArray.ts:38](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L38)*
+*Defined in [codec/AbstractArray.ts:38](url)*
 
-*__description__*: The length of the value
+**`description`** The length of the value
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
 
-# Methods
+## Methods
 
-<a id="eq"></a>
+###  eq
 
-##  eq
+▸ **eq**(`other?`: any): *boolean*
 
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[eq](_codec_abstractarray_.abstractarray.md#eq)*
 
-*Defined in [codec/AbstractArray.ts:46](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L46)*
+*Defined in [codec/AbstractArray.ts:46](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="filter"></a>
 
-##  filter
+###  filter
 
-▸ **filter**(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<`T`>
+▸ **filter**(`callbackfn`: function, `thisArg?`: any): *`Array<T>`*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[filter](_codec_abstractarray_.abstractarray.md#filter)*
 
-*Overrides Array.filter*
+*Overrides void*
 
-*Defined in [codec/AbstractArray.ts:116](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L116)*
+*Defined in [codec/AbstractArray.ts:116](url)*
 
-*__description__*: Filters the array with the callback
+**`description`** Filters the array with the callback
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  The filter function |
-| `Optional` thisArg | `any` |  The \`this\` object to apply the result to |
+■` callbackfn`: *function*
 
-**Returns:** `Array`<`T`>
+The filter function
+
+▸ (`value`: `T`, `index`: number, `array`: `Array<T>`): *any*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | `T` |
+`index` | number |
+`array` | `Array<T>` |
+
+■`Optional` ` thisArg`: *any*
+
+The `this` object to apply the result to
+
+**Returns:** *`Array<T>`*
 
 ___
-<a id="map"></a>
 
-##  map
+###  map
 
-▸ **map**<`U`>(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<`U`>
+▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *`Array<U>`*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[map](_codec_abstractarray_.abstractarray.md#map)*
 
-*Overrides Array.map*
+*Overrides void*
 
-*Defined in [codec/AbstractArray.ts:125](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L125)*
+*Defined in [codec/AbstractArray.ts:125](url)*
 
-*__description__*: Maps the array with the callback
+**`description`** Maps the array with the callback
 
 **Type parameters:**
 
-#### U 
+■` U`
+
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  The mapping function |
-| `Optional` thisArg | `any` |  The \`this\` onject to apply the result to |
+■` callbackfn`: *function*
 
-**Returns:** `Array`<`U`>
+The mapping function
+
+▸ (`value`: `T`, `index`: number, `array`: `Array<T>`): *`U`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | `T` |
+`index` | number |
+`array` | `Array<T>` |
+
+■`Optional` ` thisArg`: *any*
+
+The `this` onject to apply the result to
+
+**Returns:** *`Array<U>`*
 
 ___
-<a id="toarray"></a>
 
-##  toArray
+###  toArray
 
-▸ **toArray**(): `Array`<`T`>
+▸ **toArray**(): *`Array<T>`*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toArray](_codec_abstractarray_.abstractarray.md#toarray)*
 
-*Defined in [codec/AbstractArray.ts:53](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L53)*
+*Defined in [codec/AbstractArray.ts:53](url)*
 
-*__description__*: Converts the Object to an standard JavaScript Array
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `Array`<`T`>
+**Returns:** *`Array<T>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toHex](_codec_abstractarray_.abstractarray.md#tohex)*
 
-*Defined in [codec/AbstractArray.ts:60](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L60)*
+*Defined in [codec/AbstractArray.ts:60](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toJSON](_codec_abstractarray_.abstractarray.md#tojson)*
 
-*Defined in [codec/AbstractArray.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L67)*
+*Defined in [codec/AbstractArray.ts:67](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Vector](_codec_vector_.vector.md).[toRawType](_codec_vector_.vector.md#torawtype)*
 
-*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toRawType](_codec_abstractarray_.abstractarray.md#torawtype)*
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toRawType](_codec_abstractarray_.abstractarray.md#abstract-torawtype)*
 
-*Defined in [codec/Vector.ts:95](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Vector.ts#L95)*
+*Defined in [codec/Vector.ts:95](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toString](_codec_abstractarray_.abstractarray.md#tostring)*
 
-*Overrides Array.toString*
+*Overrides void*
 
-*Defined in [codec/AbstractArray.ts:81](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L81)*
+*Defined in [codec/AbstractArray.ts:81](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toU8a](_codec_abstractarray_.abstractarray.md#tou8a)*
 
-*Defined in [codec/AbstractArray.ts:94](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L94)*
+*Defined in [codec/AbstractArray.ts:94](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="decodevector"></a>
 
-## `<Static>` decodeVector
+### `Static` decodeVector
 
-▸ **decodeVector**<`T`>(Type: *[Constructor](../interfaces/_types_.constructor.md)<`T`>*, value: *[Vector](_codec_vector_.vector.md)<`any`> \| `Uint8Array` \| `string` \| `Array`<`any`>*): `Array`<`T`>
+▸ **decodeVector**<**T**>(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*`T`*›, `value`: [Vector](_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | `Array<any>`): *`Array<T>`*
 
-*Inherited from [Vector](_codec_vector_.vector.md).[decodeVector](_codec_vector_.vector.md#decodevector)*
+*Inherited from [Vector](_codec_vector_.vector.md).[decodeVector](_codec_vector_.vector.md#static-decodevector)*
 
-*Defined in [codec/Vector.ts:32](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Vector.ts#L32)*
+*Defined in [codec/Vector.ts:32](url)*
 
 **Type parameters:**
 
-#### T :  [Codec](../interfaces/_types_.codec.md)
+■` T`: *[Codec](../interfaces/_types_.codec.md)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Type | [Constructor](../interfaces/_types_.constructor.md)<`T`> |
-| value | [Vector](_codec_vector_.vector.md)<`any`> \| `Uint8Array` \| `string` \| `Array`<`any`> |
+Name | Type |
+------ | ------ |
+`Type` | [Constructor](../interfaces/_types_.constructor.md)‹*`T`*› |
+`value` | [Vector](_codec_vector_.vector.md)‹*any*› \| `Uint8Array` \| string \| `Array<any>` |
 
-**Returns:** `Array`<`T`>
+**Returns:** *`Array<T>`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**<`O`>(Type: *[Constructor](../interfaces/_types_.constructor.md)<`O`>*): [Constructor](../interfaces/_types_.constructor.md)<[Vector](_codec_vector_.vector.md)<`O`>>
+▸ **with**<**O**>(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*`O`*›): *[Constructor](../interfaces/_types_.constructor.md)‹*[Vector](_codec_vector_.vector.md)‹*`O`*›*›*
 
-*Inherited from [Vector](_codec_vector_.vector.md).[with](_codec_vector_.vector.md#with)*
+*Inherited from [Vector](_codec_vector_.vector.md).[with](_codec_vector_.vector.md#static-with)*
 
-*Defined in [codec/Vector.ts:55](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Vector.ts#L55)*
+*Defined in [codec/Vector.ts:55](url)*
 
 **Type parameters:**
 
-#### O :  [Codec](../interfaces/_types_.codec.md)
+■` O`: *[Codec](../interfaces/_types_.codec.md)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Type | [Constructor](../interfaces/_types_.constructor.md)<`O`> |
+Name | Type |
+------ | ------ |
+`Type` | [Constructor](../interfaces/_types_.constructor.md)‹*`O`*› |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Vector](_codec_vector_.vector.md)<`O`>>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Vector](_codec_vector_.vector.md)‹*`O`*›*›*
 
 ___
-

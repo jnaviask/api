@@ -1,33 +1,39 @@
+> # External module: "balances/fees"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="fees"></a>
+* [fees](_balances_fees_.md#fees)
 
-##  fees
+## Functions
 
-▸ **fees**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  fees
 
-*Defined in [balances/fees.ts:27](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/balances/fees.ts#L27)*
+▸ **fees**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__name__*: fees
+*Defined in [balances/fees.ts:27](url)*
 
-*__example__*:   
+**`name`** fees
+
+**`example`** 
+<BR>
 
 ```javascript
 api.derive.balances.fees(([creationFee, transferFee]) => {
-  console.log(`The fee for creating a new account on this chain is ${creationFee} units. The fee required for making a transfer is ${transferFee} units.`);
+console.log(`The fee for creating a new account on this chain is ${creationFee} units. The fee required for making a transfer is ${transferFee} units.`);
 });
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
-An object containing the combined results of the storage queries for all relevant fees as declared in the substrate chain spec.
+**Returns:** *`(Anonymous function)`*
+
+An object containing the combined results of the storage queries for
+all relevant fees as declared in the substrate chain spec.
 
 ___
-

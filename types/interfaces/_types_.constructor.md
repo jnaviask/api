@@ -1,40 +1,47 @@
+> # Interface: Constructor <**T**>
 
+## Type parameters
 
-# Type parameters
-#### T 
-# Hierarchy
+■` T`
 
-**Constructor**
+## Hierarchy
 
-# Constructors
+* **Constructor**
 
-<a id="constructor"></a>
+### Index
 
-##  constructor
+#### Constructors
 
-⊕ **new Constructor**(...value: *`Array`<`any`>*): `T`
+* [constructor](_types_.constructor.md#constructor)
 
-*Defined in [types.ts:89](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L89)*
+#### Properties
+
+* [Fallback](_types_.constructor.md#optional-fallback)
+
+## Constructors
+
+###  constructor
+
+\+ **new Constructor**(...`value`: `Array<any>`): *`T`*
+
+*Defined in [types.ts:89](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` value | `Array`<`any`> |
+Name | Type |
+------ | ------ |
+`...value` | `Array<any>` |
 
-**Returns:** `T`
-
-___
-
-# Properties
-
-<a id="fallback"></a>
-
-## `<Optional>` Fallback
-
-**● Fallback**: *[Constructor](_types_.constructor.md)<`T`>*
-
-*Defined in [types.ts:89](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L89)*
+**Returns:** *`T`*
 
 ___
 
+## Properties
+
+### `Optional` Fallback
+
+● **Fallback**? : *[Constructor](_types_.constructor.md)‹*`T`*›*
+
+*Defined in [types.ts:89](url)*
+
+___

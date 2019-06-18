@@ -1,24 +1,27 @@
+> # External module: "create/param"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="createparam"></a>
+* [createParam](_create_param_.md#createparam)
 
-##  createParam
+## Functions
 
-▸ **createParam**(name: *`string`*, type: *`CodecTypes`*, __namedParameters?: *`object`*): [RpcParam](_types_.md#rpcparam)
+###  createParam
 
-*Defined in [create/param.ts:12](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/type-jsonrpc/src/create/param.ts#L12)*
+▸ **createParam**(`name`: string, `type`: `CodecTypes`, `__namedParameters`: object): *[RpcParam](_types_.md#rpcparam)*
+
+*Defined in [create/param.ts:12](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| name | `string` | - |
-| type | `CodecTypes` | - |
-| `Default value` __namedParameters | `object` |  { isOptional: false } |
+Name | Type | Default |
+------ | ------ | ------ |
+`name` | string | - |
+`type` | `CodecTypes` | - |
+`__namedParameters` | object |  { isOptional: false } |
 
-**Returns:** [RpcParam](_types_.md#rpcparam)
+**Returns:** *[RpcParam](_types_.md#rpcparam)*
 
 ___
-

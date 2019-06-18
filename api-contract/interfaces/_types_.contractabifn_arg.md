@@ -1,27 +1,30 @@
+> # Interface: ContractABIFn$Arg
 
+## Hierarchy
 
-# Hierarchy
+* **ContractABIFn$Arg**
 
-**ContractABIFn$Arg**
+### Index
 
-# Properties
+#### Properties
 
-<a id="name"></a>
+* [name](_types_.contractabifn_arg.md#name)
+* [type](_types_.contractabifn_arg.md#type)
 
-##  name
+## Properties
 
-**● name**: *`string`*
+###  name
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/types.ts#L49)*
+● **name**: *string*
 
-___
-<a id="type"></a>
-
-##  type
-
-**● type**: *`string`*
-
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/types.ts#L50)*
+*Defined in [types.ts:49](url)*
 
 ___
 
+###  type
+
+● **type**: *string*
+
+*Defined in [types.ts:50](url)*
+
+___

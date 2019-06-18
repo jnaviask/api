@@ -1,26 +1,21 @@
+> # External module: "primitive/AccountIndex"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [AccountIndex](../classes/_primitive_accountindex_.accountindex.md)
 
-### Variables
+#### Variables
 
-* [ENUMSET_SIZE](_primitive_accountindex_.md#enumset_size)
+* [ENUMSET_SIZE](_primitive_accountindex_.md#const-enumset_size)
 
----
+## Variables
 
-# Variables
+### `Const` ENUMSET_SIZE
 
-<a id="enumset_size"></a>
+● **ENUMSET_SIZE**: *`BN`* =  new BN(64)
 
-## `<Const>` ENUMSET_SIZE
-
-**● ENUMSET_SIZE**: *`BN`* =  new BN(64)
-
-*Defined in [primitive/AccountIndex.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/AccountIndex.ts#L13)*
+*Defined in [primitive/AccountIndex.ts:13](url)*
 
 ___
-

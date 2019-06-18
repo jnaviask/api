@@ -1,10 +1,7 @@
+> # External module: "type/ApprovalFlag"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [ApprovalFlag](../classes/_type_approvalflag_.approvalflag.md)
-
----
-

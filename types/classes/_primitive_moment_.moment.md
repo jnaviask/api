@@ -1,248 +1,262 @@
+> # Class: Moment
 
+**`name`** Moment
 
-*__name__*: Moment
+**`description`** 
+A wrapper around seconds/timestamps. Internally the representation only has
+second precicion (aligning with Rust), so any numbers passed an/out are always
+per-second. For any encoding/decoding the 1000 multiplier would be applied to
+get it in line with JavaScript formats. It extends the base JS `Date` object
+and has all the methods available that are applicable to any `Date`
 
-*__description__*: A wrapper around seconds/timestamps. Internally the representation only has second precicion (aligning with Rust), so any numbers passed an/out are always per-second. For any encoding/decoding the 1000 multiplier would be applied to get it in line with JavaScript formats. It extends the base JS `Date` object and has all the methods available that are applicable to any `Date`
+## Hierarchy
 
-# Hierarchy
+* `Date`
 
- `Date`
+  * **Moment**
 
-**↳ Moment**
+  * [MomentOf](_primitive_moment_.momentof.md)
 
-↳  [MomentOf](_primitive_moment_.momentof.md)
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_primitive_moment_.moment.md#constructor)
 
-⊕ **new Moment**(value?: *[Moment](_primitive_moment_.moment.md) \| `Date` \| [AnyNumber](../modules/_types_.md#anynumber)*): [Moment](_primitive_moment_.moment.md)
+#### Properties
 
-*Defined in [primitive/Moment.ts:24](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L24)*
+* [Date](_primitive_moment_.moment.md#static-date)
 
-**Parameters:**
+#### Accessors
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` value | [Moment](_primitive_moment_.moment.md) \| `Date` \| [AnyNumber](../modules/_types_.md#anynumber) | 0 |
+* [encodedLength](_primitive_moment_.moment.md#encodedlength)
+* [isEmpty](_primitive_moment_.moment.md#isempty)
 
-**Returns:** [Moment](_primitive_moment_.moment.md)
+#### Methods
 
-___
+* [bitLength](_primitive_moment_.moment.md#bitlength)
+* [eq](_primitive_moment_.moment.md#eq)
+* [toBn](_primitive_moment_.moment.md#tobn)
+* [toHex](_primitive_moment_.moment.md#tohex)
+* [toJSON](_primitive_moment_.moment.md#tojson)
+* [toNumber](_primitive_moment_.moment.md#tonumber)
+* [toRawType](_primitive_moment_.moment.md#torawtype)
+* [toString](_primitive_moment_.moment.md#tostring)
+* [toU8a](_primitive_moment_.moment.md#tou8a)
+* [decodeMoment](_primitive_moment_.moment.md#static-decodemoment)
 
-# Properties
+## Constructors
 
-<a id="date"></a>
+###  constructor
 
-## `<Static>` Date
+\+ **new Moment**(`value`: [Moment](_primitive_moment_.moment.md) | `Date` | [AnyNumber](../modules/_types_.md#anynumber)): *[Moment](_primitive_moment_.moment.md)*
 
-**● Date**: *`DateConstructor`*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:907*
-
-___
-
-# Accessors
-
-<a id="encodedlength"></a>
-
-##  encodedLength
-
-**get encodedLength**(): `number`
-
-*Defined in [primitive/Moment.ts:51](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L51)*
-
-*__description__*: The length of the value when encoded as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Defined in [primitive/Moment.ts:58](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L58)*
-
-*__description__*: Checks if the value is an empty value
-
-**Returns:** `boolean`
-
-___
-
-# Methods
-
-<a id="bitlength"></a>
-
-##  bitLength
-
-▸ **bitLength**(): [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)
-
-*Defined in [primitive/Moment.ts:72](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L72)*
-
-*__description__*: Returns the number of bits in the value
-
-**Returns:** [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)
-
-___
-<a id="eq"></a>
-
-##  eq
-
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
-
-*Defined in [primitive/Moment.ts:65](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L65)*
-
-*__description__*: Compares the value of the input to see if there is a match
+*Defined in [primitive/Moment.ts:24](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type | Default |
+------ | ------ | ------ |
+`value` | [Moment](_primitive_moment_.moment.md) \| `Date` \| [AnyNumber](../modules/_types_.md#anynumber) | 0 |
 
-**Returns:** `boolean`
-
-___
-<a id="tobn"></a>
-
-##  toBn
-
-▸ **toBn**(): `BN`
-
-*Defined in [primitive/Moment.ts:79](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L79)*
-
-*__description__*: Returns the BN representation of the timestamp
-
-**Returns:** `BN`
+**Returns:** *[Moment](_primitive_moment_.moment.md)*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+## Properties
 
-▸ **toHex**(isLe?: *`boolean`*): `string`
+### `Static` Date
 
-*Defined in [primitive/Moment.ts:86](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L86)*
+■ **Date**: *`DateConstructor`*
 
-*__description__*: Returns a hex string representation of the value
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:907
+
+___
+
+## Accessors
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
+
+*Defined in [primitive/Moment.ts:51](url)*
+
+**`description`** The length of the value when encoded as a Uint8Array
+
+**Returns:** *number*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
+
+*Defined in [primitive/Moment.ts:58](url)*
+
+**`description`** Checks if the value is an empty value
+
+**Returns:** *boolean*
+
+___
+
+## Methods
+
+###  bitLength
+
+▸ **bitLength**(): *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*
+
+*Defined in [primitive/Moment.ts:72](url)*
+
+**`description`** Returns the number of bits in the value
+
+**Returns:** *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*
+
+___
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Moment.ts:65](url)*
+
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` isLe | `boolean` | false |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `string`
-
-___
-<a id="tojson"></a>
-
-##  toJSON
-
-▸ **toJSON**(): `any`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
-
-*Overrides Date.toJSON*
-
-*Defined in [primitive/Moment.ts:97](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L97)*
-
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
-
-**Returns:** `any`
+**Returns:** *boolean*
 
 ___
-<a id="tonumber"></a>
 
-##  toNumber
+###  toBn
 
-▸ **toNumber**(): `number`
+▸ **toBn**(): *`BN`*
 
-*Defined in [primitive/Moment.ts:104](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L104)*
+*Defined in [primitive/Moment.ts:79](url)*
 
-*__description__*: Returns the number representation for the timestamp
+**`description`** Returns the BN representation of the timestamp
 
-**Returns:** `number`
-
-___
-<a id="torawtype"></a>
-
-##  toRawType
-
-▸ **toRawType**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
-
-*Defined in [primitive/Moment.ts:111](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L111)*
-
-*__description__*: Returns the base runtime type name for this instance
-
-**Returns:** `string`
+**Returns:** *`BN`*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toHex
 
-▸ **toString**(): `string`
+▸ **toHex**(`isLe`: boolean): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Defined in [primitive/Moment.ts:86](url)*
 
-*Overrides Date.toString*
-
-*Defined in [primitive/Moment.ts:118](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L118)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
-
-___
-<a id="tou8a"></a>
-
-##  toU8a
-
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
-
-*Defined in [primitive/Moment.ts:127](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L127)*
-
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Returns a hex string representation of the value
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Default |
+------ | ------ | ------ |
+`isLe` | boolean | false |
 
-**Returns:** `Uint8Array`
+**Returns:** *string*
 
 ___
-<a id="decodemoment"></a>
 
-## `<Static>` decodeMoment
+###  toJSON
 
-▸ **decodeMoment**(value: *[Moment](_primitive_moment_.moment.md) \| `Date` \| [AnyNumber](../modules/_types_.md#anynumber)*): `Date`
+▸ **toJSON**(): *any*
 
-*Defined in [primitive/Moment.ts:34](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Moment.ts#L34)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Overrides void*
+
+*Defined in [primitive/Moment.ts:97](url)*
+
+**`description`** Converts the Object to JSON, typically used for RPC transfers
+
+**Returns:** *any*
+
+___
+
+###  toNumber
+
+▸ **toNumber**(): *number*
+
+*Defined in [primitive/Moment.ts:104](url)*
+
+**`description`** Returns the number representation for the timestamp
+
+**Returns:** *number*
+
+___
+
+###  toRawType
+
+▸ **toRawType**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Moment.ts:111](url)*
+
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Overrides void*
+
+*Defined in [primitive/Moment.ts:118](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Moment.ts:127](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | [Moment](_primitive_moment_.moment.md) \| `Date` \| [AnyNumber](../modules/_types_.md#anynumber) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Date`
+**Returns:** *`Uint8Array`*
 
 ___
 
+### `Static` decodeMoment
+
+▸ **decodeMoment**(`value`: [Moment](_primitive_moment_.moment.md) | `Date` | [AnyNumber](../modules/_types_.md#anynumber)): *`Date`*
+
+*Defined in [primitive/Moment.ts:34](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | [Moment](_primitive_moment_.moment.md) \| `Date` \| [AnyNumber](../modules/_types_.md#anynumber) |
+
+**Returns:** *`Date`*
+
+___

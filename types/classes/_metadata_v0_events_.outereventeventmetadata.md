@@ -1,336 +1,371 @@
+> # Class: OuterEventEventMetadata
 
+## Hierarchy
 
-# Hierarchy
+  * [Tuple](_codec_tuple_.tuple.md)
 
-↳  [Tuple](_codec_tuple_.tuple.md)
+  * **OuterEventEventMetadata**
 
-**↳ OuterEventEventMetadata**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Indexable
+## Indexable
 
-\[n: `number`\]:&nbsp;[Codec](../interfaces/_types_.codec.md)
-# Constructors
+● \[■&#x60; n&#x60;: *number*\]: [Codec](../interfaces/_types_.codec.md)
 
-<a id="constructor"></a>
+### Index
 
-##  constructor
+#### Constructors
 
-⊕ **new OuterEventEventMetadata**(value?: *`any`*): [OuterEventEventMetadata](_metadata_v0_events_.outereventeventmetadata.md)
+* [constructor](_metadata_v0_events_.outereventeventmetadata.md#constructor)
+
+#### Accessors
+
+* [Types](_metadata_v0_events_.outereventeventmetadata.md#types)
+* [encodedLength](_metadata_v0_events_.outereventeventmetadata.md#encodedlength)
+* [events](_metadata_v0_events_.outereventeventmetadata.md#events)
+* [isEmpty](_metadata_v0_events_.outereventeventmetadata.md#isempty)
+* [length](_metadata_v0_events_.outereventeventmetadata.md#length)
+* [name](_metadata_v0_events_.outereventeventmetadata.md#name)
+
+#### Methods
+
+* [eq](_metadata_v0_events_.outereventeventmetadata.md#eq)
+* [filter](_metadata_v0_events_.outereventeventmetadata.md#filter)
+* [map](_metadata_v0_events_.outereventeventmetadata.md#map)
+* [toArray](_metadata_v0_events_.outereventeventmetadata.md#toarray)
+* [toHex](_metadata_v0_events_.outereventeventmetadata.md#tohex)
+* [toJSON](_metadata_v0_events_.outereventeventmetadata.md#tojson)
+* [toRawType](_metadata_v0_events_.outereventeventmetadata.md#torawtype)
+* [toString](_metadata_v0_events_.outereventeventmetadata.md#tostring)
+* [toU8a](_metadata_v0_events_.outereventeventmetadata.md#tou8a)
+* [with](_metadata_v0_events_.outereventeventmetadata.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new OuterEventEventMetadata**(`value?`: any): *[OuterEventEventMetadata](_metadata_v0_events_.outereventeventmetadata.md)*
 
 *Overrides [Tuple](_codec_tuple_.tuple.md).[constructor](_codec_tuple_.tuple.md#constructor)*
 
-*Defined in [Metadata/v0/Events.ts:58](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/v0/Events.ts#L58)*
+*Defined in [Metadata/v0/Events.ts:58](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** [OuterEventEventMetadata](_metadata_v0_events_.outereventeventmetadata.md)
+**Returns:** *[OuterEventEventMetadata](_metadata_v0_events_.outereventeventmetadata.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="types"></a>
+###  Types
 
-##  Types
-
-**get Types**(): `Array`<`string`>
+● **get Types**(): *`Array<string>`*
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[Types](_codec_tuple_.tuple.md#types)*
 
-*Defined in [codec/Tuple.ts:72](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Tuple.ts#L72)*
+*Defined in [codec/Tuple.ts:72](url)*
 
-*__description__*: The types definition of the tuple
+**`description`** The types definition of the tuple
 
-**Returns:** `Array`<`string`>
+**Returns:** *`Array<string>`*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  encodedLength
 
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[encodedLength](_codec_tuple_.tuple.md#encodedlength)*
 
 *Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[encodedLength](_codec_abstractarray_.abstractarray.md#encodedlength)*
 
-*Defined in [codec/Tuple.ts:63](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Tuple.ts#L63)*
+*Defined in [codec/Tuple.ts:63](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
-
-___
-<a id="events"></a>
-
-##  events
-
-**get events**(): [Vector](_codec_vector_.vector.md)<[EventMetadata](_metadata_v0_events_.eventmetadata.md)>
-
-*Defined in [Metadata/v0/Events.ts:69](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/v0/Events.ts#L69)*
-
-*__description__*: The [EventMetadata](_metadata_v0_events_.eventmetadata.md)
-
-**Returns:** [Vector](_codec_vector_.vector.md)<[EventMetadata](_metadata_v0_events_.eventmetadata.md)>
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  events
 
-**get isEmpty**(): `boolean`
+● **get events**(): *[Vector](_codec_vector_.vector.md)‹*[EventMetadata](_metadata_v0_events_.eventmetadata.md)*›*
+
+*Defined in [Metadata/v0/Events.ts:69](url)*
+
+**`description`** The [EventMetadata](_metadata_v0_events_.eventmetadata.md)
+
+**Returns:** *[Vector](_codec_vector_.vector.md)‹*[EventMetadata](_metadata_v0_events_.eventmetadata.md)*›*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[isEmpty](_codec_abstractarray_.abstractarray.md#isempty)*
 
-*Defined in [codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L22)*
+*Defined in [codec/AbstractArray.ts:22](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="length"></a>
 
-##  length
+###  length
 
-**get length**(): `number`
+● **get length**(): *number*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[length](_codec_abstractarray_.abstractarray.md#length)*
 
-*Overrides Array.length*
+*Overrides void*
 
-*Defined in [codec/AbstractArray.ts:38](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L38)*
+*Defined in [codec/AbstractArray.ts:38](url)*
 
-*__description__*: The length of the value
+**`description`** The length of the value
 
-**Returns:** `number`
-
-___
-<a id="name"></a>
-
-##  name
-
-**get name**(): [Text](_primitive_text_.text.md)
-
-*Defined in [Metadata/v0/Events.ts:76](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/v0/Events.ts#L76)*
-
-*__description__*: The name of the section
-
-**Returns:** [Text](_primitive_text_.text.md)
+**Returns:** *number*
 
 ___
 
-# Methods
+###  name
 
-<a id="eq"></a>
+● **get name**(): *[Text](_primitive_text_.text.md)*
 
-##  eq
+*Defined in [Metadata/v0/Events.ts:76](url)*
 
-▸ **eq**(other?: *`any`*): `boolean`
+**`description`** The name of the section
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+**Returns:** *[Text](_primitive_text_.text.md)*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[eq](_codec_abstractarray_.abstractarray.md#eq)*
 
-*Defined in [codec/AbstractArray.ts:46](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L46)*
+*Defined in [codec/AbstractArray.ts:46](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="filter"></a>
 
-##  filter
+###  filter
 
-▸ **filter**(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<[Codec](../interfaces/_types_.codec.md)>
+▸ **filter**(`callbackfn`: function, `thisArg?`: any): *`Array<Codec>`*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[filter](_codec_abstractarray_.abstractarray.md#filter)*
 
-*Overrides Array.filter*
+*Overrides void*
 
-*Defined in [codec/AbstractArray.ts:116](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L116)*
+*Defined in [codec/AbstractArray.ts:116](url)*
 
-*__description__*: Filters the array with the callback
+**`description`** Filters the array with the callback
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  The filter function |
-| `Optional` thisArg | `any` |  The \`this\` object to apply the result to |
+■` callbackfn`: *function*
 
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+The filter function
+
+▸ (`value`: [Codec](../interfaces/_types_.codec.md), `index`: number, `array`: `Array<Codec>`): *any*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | [Codec](../interfaces/_types_.codec.md) |
+`index` | number |
+`array` | `Array<Codec>` |
+
+■`Optional` ` thisArg`: *any*
+
+The `this` object to apply the result to
+
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="map"></a>
 
-##  map
+###  map
 
-▸ **map**<`U`>(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<`U`>
+▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *`Array<U>`*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[map](_codec_abstractarray_.abstractarray.md#map)*
 
-*Overrides Array.map*
+*Overrides void*
 
-*Defined in [codec/AbstractArray.ts:125](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L125)*
+*Defined in [codec/AbstractArray.ts:125](url)*
 
-*__description__*: Maps the array with the callback
+**`description`** Maps the array with the callback
 
 **Type parameters:**
 
-#### U 
+■` U`
+
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  The mapping function |
-| `Optional` thisArg | `any` |  The \`this\` onject to apply the result to |
+■` callbackfn`: *function*
 
-**Returns:** `Array`<`U`>
+The mapping function
+
+▸ (`value`: [Codec](../interfaces/_types_.codec.md), `index`: number, `array`: `Array<Codec>`): *`U`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | [Codec](../interfaces/_types_.codec.md) |
+`index` | number |
+`array` | `Array<Codec>` |
+
+■`Optional` ` thisArg`: *any*
+
+The `this` onject to apply the result to
+
+**Returns:** *`Array<U>`*
 
 ___
-<a id="toarray"></a>
 
-##  toArray
+###  toArray
 
-▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
+▸ **toArray**(): *`Array<Codec>`*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toArray](_codec_abstractarray_.abstractarray.md#toarray)*
 
-*Defined in [codec/AbstractArray.ts:53](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L53)*
+*Defined in [codec/AbstractArray.ts:53](url)*
 
-*__description__*: Converts the Object to an standard JavaScript Array
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toHex](_codec_abstractarray_.abstractarray.md#tohex)*
 
-*Defined in [codec/AbstractArray.ts:60](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L60)*
+*Defined in [codec/AbstractArray.ts:60](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toJSON](_codec_abstractarray_.abstractarray.md#tojson)*
 
-*Defined in [codec/AbstractArray.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L67)*
+*Defined in [codec/AbstractArray.ts:67](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[toRawType](_codec_tuple_.tuple.md#torawtype)*
 
-*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toRawType](_codec_abstractarray_.abstractarray.md#torawtype)*
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toRawType](_codec_abstractarray_.abstractarray.md#abstract-torawtype)*
 
-*Defined in [codec/Tuple.ts:81](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Tuple.ts#L81)*
+*Defined in [codec/Tuple.ts:81](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[toString](_codec_tuple_.tuple.md#tostring)*
 
 *Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toString](_codec_abstractarray_.abstractarray.md#tostring)*
 
-*Defined in [codec/Tuple.ts:94](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Tuple.ts#L94)*
+*Defined in [codec/Tuple.ts:94](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[toU8a](_codec_tuple_.tuple.md#tou8a)*
 
 *Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toU8a](_codec_abstractarray_.abstractarray.md#tou8a)*
 
-*Defined in [codec/Tuple.ts:103](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Tuple.ts#L103)*
+*Defined in [codec/Tuple.ts:103](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
-
-**Returns:** `Uint8Array`
-
-___
-<a id="with"></a>
-
-## `<Static>` with
-
-▸ **with**(Types: *`TupleConstructors`*): [Constructor](../interfaces/_types_.constructor.md)<[Tuple](_codec_tuple_.tuple.md)>
-
-*Inherited from [Tuple](_codec_tuple_.tuple.md).[with](_codec_tuple_.tuple.md#with)*
-
-*Defined in [codec/Tuple.ts:52](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Tuple.ts#L52)*
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `TupleConstructors` |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Tuple](_codec_tuple_.tuple.md)>
+**Returns:** *`Uint8Array`*
 
 ___
 
+### `Static` with
+
+▸ **with**(`Types`: `TupleConstructors`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Tuple](_codec_tuple_.tuple.md)*›*
+
+*Inherited from [Tuple](_codec_tuple_.tuple.md).[with](_codec_tuple_.tuple.md#static-with)*
+
+*Defined in [codec/Tuple.ts:52](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`Types` | `TupleConstructors` |
+
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Tuple](_codec_tuple_.tuple.md)*›*
+
+___

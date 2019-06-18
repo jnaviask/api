@@ -1,8 +1,8 @@
+> # External module: "types"
 
+### Index
 
-# Index
-
-### Interfaces
+#### Interfaces
 
 * [ArgsDef](../interfaces/_types_.argsdef.md)
 * [Codec](../interfaces/_types_.codec.md)
@@ -14,7 +14,7 @@
 * [IMethod](../interfaces/_types_.imethod.md)
 * [RuntimeVersionInterface](../interfaces/_types_.runtimeversioninterface.md)
 
-### Type aliases
+#### Type aliases
 
 * [AnyFunction](_types_.md#anyfunction)
 * [AnyNumber](_types_.md#anynumber)
@@ -29,154 +29,136 @@
 * [SignatureOptions](_types_.md#signatureoptions)
 * [TypeDef](_types_.md#typedef)
 
----
+## Type aliases
 
-# Type aliases
+###  AnyFunction
 
-<a id="anyfunction"></a>
+Ƭ **AnyFunction**: *function*
 
-##  AnyFunction
+*Defined in [types.ts:28](url)*
 
-**Ƭ AnyFunction**: *`function`*
+#### Type declaration:
 
-*Defined in [types.ts:28](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L28)*
-
-#### Type declaration
-▸(...args: *`any`[]*): `any`
+▸ (...`args`: any[]): *any*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` args | `any`[] |
-
-**Returns:** `any`
+Name | Type |
+------ | ------ |
+`...args` | any[] |
 
 ___
-<a id="anynumber"></a>
 
-##  AnyNumber
+###  AnyNumber
 
-**Ƭ AnyNumber**: *`BN` \| `Uint8Array` \| `number` \| `string`*
+Ƭ **AnyNumber**: *`BN` | `Uint8Array` | number | string*
 
-*Defined in [types.ts:30](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L30)*
-
-___
-<a id="anystring"></a>
-
-##  AnyString
-
-**Ƭ AnyString**: *`string` \| `String`*
-
-*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L32)*
+*Defined in [types.ts:30](url)*
 
 ___
-<a id="anyu8a"></a>
 
-##  AnyU8a
+###  AnyString
 
-**Ƭ AnyU8a**: *`Uint8Array` \| `Array`<`number`> \| `string`*
+Ƭ **AnyString**: *string | `String`*
 
-*Defined in [types.ts:34](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L34)*
+*Defined in [types.ts:32](url)*
 
 ___
-<a id="callback"></a>
 
-##  Callback
+###  AnyU8a
 
-**Ƭ Callback**: *`function`*
+Ƭ **AnyU8a**: *`Uint8Array` | `Array<number>` | string*
 
-*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L20)*
+*Defined in [types.ts:34](url)*
 
-#### Type declaration
-▸(result: *`T`*): `void` \| `Promise`<`void`>
+___
+
+###  Callback
+
+Ƭ **Callback**: *function*
+
+*Defined in [types.ts:20](url)*
+
+#### Type declaration:
+
+▸ (`result`: `T`): *void | `Promise<void>`*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| result | `T` |
-
-**Returns:** `void` \| `Promise`<`void`>
-
-___
-<a id="codecarg"></a>
-
-##  CodecArg
-
-**Ƭ CodecArg**: *[Codec](../interfaces/_types_.codec.md) \| `BN` \| `Boolean` \| `String` \| `Uint8Array` \| `boolean` \| `number` \| `string` \| `undefined` \| `CodecArgArray` \| `CodecArgObject`*
-
-*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L18)*
-
-___
-<a id="codecto"></a>
-
-##  CodecTo
-
-**Ƭ CodecTo**: *"toHex" \| "toJSON" \| "toString" \| "toU8a"*
-
-*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L86)*
-
-___
-<a id="constructordef"></a>
-
-##  ConstructorDef
-
-**Ƭ ConstructorDef**: *`object`*
-
-*Defined in [types.ts:94](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L94)*
-
-#### Type declaration
-
-[index: `string`]: [Constructor](../interfaces/_types_.constructor.md)<`T`>
-
-___
-<a id="ikeyringpair"></a>
-
-##  IKeyringPair
-
-**Ƭ IKeyringPair**: *`object`*
-
-*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L12)*
-
-#### Type declaration
-
-___
-<a id="registrytypes"></a>
-
-##  RegistryTypes
-
-**Ƭ RegistryTypes**: *`object`*
-
-*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L98)*
-
-#### Type declaration
-
-[name: `string`]: [Constructor](../interfaces/_types_.constructor.md) \| `string` \| `object`
-
-___
-<a id="signatureoptions"></a>
-
-##  SignatureOptions
-
-**Ƭ SignatureOptions**: *`object`*
-
-*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L111)*
-
-#### Type declaration
-
-___
-<a id="typedef"></a>
-
-##  TypeDef
-
-**Ƭ TypeDef**: *`object`*
-
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L96)*
-
-#### Type declaration
-
-[index: `string`]: [Codec](../interfaces/_types_.codec.md)
+Name | Type |
+------ | ------ |
+`result` | `T` |
 
 ___
 
+###  CodecArg
+
+Ƭ **CodecArg**: *[Codec](../interfaces/_types_.codec.md) | `BN` | `Boolean` | `String` | `Uint8Array` | boolean | number | string | undefined | `CodecArgArray` | `CodecArgObject`*
+
+*Defined in [types.ts:18](url)*
+
+___
+
+###  CodecTo
+
+Ƭ **CodecTo**: *"toHex" | "toJSON" | "toString" | "toU8a"*
+
+*Defined in [types.ts:86](url)*
+
+___
+
+###  ConstructorDef
+
+Ƭ **ConstructorDef**: *object*
+
+*Defined in [types.ts:94](url)*
+
+#### Type declaration:
+
+● \[■&#x60; index&#x60;: *string*\]: [Constructor](../interfaces/_types_.constructor.md)‹*`T`*›
+
+___
+
+###  IKeyringPair
+
+Ƭ **IKeyringPair**: *object*
+
+*Defined in [types.ts:12](url)*
+
+#### Type declaration:
+
+___
+
+###  RegistryTypes
+
+Ƭ **RegistryTypes**: *object*
+
+*Defined in [types.ts:98](url)*
+
+#### Type declaration:
+
+● \[■&#x60; name&#x60;: *string*\]: [Constructor](../interfaces/_types_.constructor.md) | string | object
+
+___
+
+###  SignatureOptions
+
+Ƭ **SignatureOptions**: *object*
+
+*Defined in [types.ts:111](url)*
+
+#### Type declaration:
+
+___
+
+###  TypeDef
+
+Ƭ **TypeDef**: *object*
+
+*Defined in [types.ts:96](url)*
+
+#### Type declaration:
+
+● \[■&#x60; index&#x60;: *string*\]: [Codec](../interfaces/_types_.codec.md)
+
+___

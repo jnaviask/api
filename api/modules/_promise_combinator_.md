@@ -1,47 +1,40 @@
+> # External module: "promise/Combinator"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Combinator](../classes/_promise_combinator_.combinator.md)
 
-### Type aliases
+#### Type aliases
 
 * [CombinatorCallback](_promise_combinator_.md#combinatorcallback)
 * [CombinatorFunction](_promise_combinator_.md#combinatorfunction)
 
----
+## Type aliases
 
-# Type aliases
+###  CombinatorCallback
 
-<a id="combinatorcallback"></a>
+Ƭ **CombinatorCallback**: *`Callback<Array<any>>`*
 
-##  CombinatorCallback
-
-**Ƭ CombinatorCallback**: *`Callback`<`Array`<`any`>>*
-
-*Defined in [promise/Combinator.ts:10](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/promise/Combinator.ts#L10)*
+*Defined in [promise/Combinator.ts:10](url)*
 
 ___
-<a id="combinatorfunction"></a>
 
-##  CombinatorFunction
+###  CombinatorFunction
 
-**Ƭ CombinatorFunction**: *`function`*
+Ƭ **CombinatorFunction**: *function*
 
-*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/promise/Combinator.ts#L11)*
+*Defined in [promise/Combinator.ts:11](url)*
 
-#### Type declaration
-▸(cb: *`Callback`<`any`>*): [UnsubscribePromise](_types_.md#unsubscribepromise)
+#### Type declaration:
+
+▸ (`cb`: `Callback<any>`): *[UnsubscribePromise](_types_.md#unsubscribepromise)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| cb | `Callback`<`any`> |
-
-**Returns:** [UnsubscribePromise](_types_.md#unsubscribepromise)
+Name | Type |
+------ | ------ |
+`cb` | `Callback<any>` |
 
 ___
-

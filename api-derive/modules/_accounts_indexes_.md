@@ -1,51 +1,60 @@
+> # External module: "accounts/indexes"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="accountindexes"></a>
+* [AccountIndexes](_accounts_indexes_.md#accountindexes)
 
-##  AccountIndexes
+#### Functions
 
-**Ƭ AccountIndexes**: *`object`*
+* [indexes](_accounts_indexes_.md#indexes)
 
-*Defined in [accounts/indexes.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/accounts/indexes.ts#L13)*
+## Type aliases
 
-#### Type declaration
+###  AccountIndexes
 
-[index: `string`]: `AccountIndex`
+Ƭ **AccountIndexes**: *object*
+
+*Defined in [accounts/indexes.ts:13](url)*
+
+#### Type declaration:
+
+● \[■&#x60; index&#x60;: *string*\]: `AccountIndex`
 
 ___
 
-# Functions
+## Functions
 
-<a id="indexes"></a>
+###  indexes
 
-##  indexes
+▸ **indexes**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-▸ **indexes**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+*Defined in [accounts/indexes.ts:32](url)*
 
-*Defined in [accounts/indexes.ts:32](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/accounts/indexes.ts#L32)*
+**`name`** indexes
 
-*__name__*: indexes
+**`description`** This is an unwieldly query since it loops through
+all of the enumsets and returns all of the values found. This could be up to 32k depending
+on the number of active accounts in the system
 
-*__description__*: This is an unwieldly query since it loops through all of the enumsets and returns all of the values found. This could be up to 32k depending on the number of active accounts in the system
-
-*__example__*:   
+**`example`** 
+<BR>
 
 ```javascript
 api.derive.accounts.indexes((indexes) => {
-  console.log('All existing AccountIndexes', indexes);
+console.log('All existing AccountIndexes', indexes);
 });
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
+
 Returns all the indexes on the system.
 
 ___
-

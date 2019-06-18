@@ -1,32 +1,35 @@
+> # External module: "promise/types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="queryablestoragefunction"></a>
+* [QueryableStorageFunction](_promise_types_.md#queryablestoragefunction)
+* [SubmittableExtrinsic](_promise_types_.md#submittableextrinsic)
+* [SubmittableExtrinsicFunction](_promise_types_.md#submittableextrinsicfunction)
 
-##  QueryableStorageFunction
+## Type aliases
 
-**Ƭ QueryableStorageFunction**: *`QueryableStorageFunctionBase`<"promise">*
+###  QueryableStorageFunction
 
-*Defined in [promise/types.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/promise/types.ts#L9)*
+Ƭ **QueryableStorageFunction**: *`QueryableStorageFunctionBase<"promise">`*
 
-___
-<a id="submittableextrinsic"></a>
-
-##  SubmittableExtrinsic
-
-**Ƭ SubmittableExtrinsic**: *`SubmittableExtrinsicBase`<"promise">*
-
-*Defined in [promise/types.ts:10](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/promise/types.ts#L10)*
-
-___
-<a id="submittableextrinsicfunction"></a>
-
-##  SubmittableExtrinsicFunction
-
-**Ƭ SubmittableExtrinsicFunction**: *`SubmittableExtrinsicFunctionBase`<"promise">*
-
-*Defined in [promise/types.ts:11](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/promise/types.ts#L11)*
+*Defined in [promise/types.ts:9](url)*
 
 ___
 
+###  SubmittableExtrinsic
+
+Ƭ **SubmittableExtrinsic**: *`SubmittableExtrinsicBase<"promise">`*
+
+*Defined in [promise/types.ts:10](url)*
+
+___
+
+###  SubmittableExtrinsicFunction
+
+Ƭ **SubmittableExtrinsicFunction**: *`SubmittableExtrinsicFunctionBase<"promise">`*
+
+*Defined in [promise/types.ts:11](url)*
+
+___

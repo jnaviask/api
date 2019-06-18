@@ -1,33 +1,38 @@
+> # External module: "accounts/indexToId"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="indextoid"></a>
+* [indexToId](_accounts_indextoid_.md#indextoid)
 
-##  indexToId
+## Functions
 
-▸ **indexToId**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  indexToId
 
-*Defined in [accounts/indexToId.ts:26](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/accounts/indexToId.ts#L26)*
+▸ **indexToId**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__name__*: indexToId
+*Defined in [accounts/indexToId.ts:26](url)*
 
-*__example__*:   
+**`name`** indexToId
+
+**`example`** 
+<BR>
 
 ```javascript
 api.derive.accounts.indexToId('F7Hs', (accountId) => {
-  console.log(`The AccountId of F7Hs is ${accountId}`);
+console.log(`The AccountId of F7Hs is ${accountId}`);
 });
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
+
 Returns the corresponding AccountId.
 
 ___
-

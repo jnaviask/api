@@ -1,35 +1,40 @@
+> # External module: "chain/bestNumberFinalized"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="bestnumberfinalized"></a>
+* [bestNumberFinalized](_chain_bestnumberfinalized_.md#bestnumberfinalized)
 
-##  bestNumberFinalized
+## Functions
 
-▸ **bestNumberFinalized**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  bestNumberFinalized
 
-*Defined in [chain/bestNumberFinalized.ts:25](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/chain/bestNumberFinalized.ts#L25)*
+▸ **bestNumberFinalized**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__name__*: bestNumberFinalized
+*Defined in [chain/bestNumberFinalized.ts:25](url)*
 
-*__description__*: Get the latest finalized block number.
+**`name`** bestNumberFinalized
 
-*__example__*:   
+**`description`** Get the latest finalized block number.
+
+**`example`** 
+<BR>
 
 ```javascript
 api.derive.chain.bestNumberFinalized((blockNumber) => {
-  console.log(`the current finalized block is #${blockNumber}`);
+console.log(`the current finalized block is #${blockNumber}`);
 });
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
+
 A BlockNumber
 
 ___
-

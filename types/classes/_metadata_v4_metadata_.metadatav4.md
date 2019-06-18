@@ -1,322 +1,336 @@
+> # Class: MetadataV4 <**S, T, V, E**>
 
+**`name`** MetadataV4
 
-*__name__*: MetadataV4
+**`description`** 
+The runtime metadata as a decoded structure
 
-*__description__*: The runtime metadata as a decoded structure
+## Type parameters
 
-# Type parameters
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
-↳  [Struct](_codec_struct_.struct.md)
+■` T`: *object*
 
-**↳ MetadataV4**
+■` V`: *object*
 
-# Implements
+■` E`: *object*
+
+## Hierarchy
+
+  * [Struct](_codec_struct_.struct.md)
+
+  * **MetadataV4**
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
-* [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md)<[ModuleMetadata](_metadata_v4_metadata_.modulemetadata.md)>
+* [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md)‹*[ModuleMetadata](_metadata_v4_metadata_.modulemetadata.md)*›
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_metadata_v4_metadata_.metadatav4.md#constructor)
 
-⊕ **new MetadataV4**(value?: *`any`*): [MetadataV4](_metadata_v4_metadata_.metadatav4.md)
+#### Accessors
+
+* [Type](_metadata_v4_metadata_.metadatav4.md#type)
+* [encodedLength](_metadata_v4_metadata_.metadatav4.md#encodedlength)
+* [isEmpty](_metadata_v4_metadata_.metadatav4.md#isempty)
+* [modules](_metadata_v4_metadata_.metadatav4.md#modules)
+
+#### Methods
+
+* [eq](_metadata_v4_metadata_.metadatav4.md#eq)
+* [get](_metadata_v4_metadata_.metadatav4.md#get)
+* [getAtIndex](_metadata_v4_metadata_.metadatav4.md#getatindex)
+* [getUniqTypes](_metadata_v4_metadata_.metadatav4.md#getuniqtypes)
+* [toArray](_metadata_v4_metadata_.metadatav4.md#toarray)
+* [toHex](_metadata_v4_metadata_.metadatav4.md#tohex)
+* [toJSON](_metadata_v4_metadata_.metadatav4.md#tojson)
+* [toRawType](_metadata_v4_metadata_.metadatav4.md#torawtype)
+* [toString](_metadata_v4_metadata_.metadatav4.md#tostring)
+* [toU8a](_metadata_v4_metadata_.metadatav4.md#tou8a)
+* [with](_metadata_v4_metadata_.metadatav4.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new MetadataV4**(`value?`: any): *[MetadataV4](_metadata_v4_metadata_.metadatav4.md)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [Metadata/v4/Metadata.ts:74](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/v4/Metadata.ts#L74)*
+*Defined in [Metadata/v4/Metadata.ts:74](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** [MetadataV4](_metadata_v4_metadata_.metadatav4.md)
+**Returns:** *[MetadataV4](_metadata_v4_metadata_.metadatav4.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="type"></a>
+###  Type
 
-##  Type
-
-**get Type**(): `E`
+● **get Type**(): *`E`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Struct.ts:163](url)*
 
-*__description__*: Returns the Type description to sthe structure
+**`description`** Returns the Type description to sthe structure
 
-**Returns:** `E`
+**Returns:** *`E`*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  encodedLength
 
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L176)*
+*Defined in [codec/Struct.ts:176](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/Struct.ts:148](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
-
-___
-<a id="modules"></a>
-
-##  modules
-
-**get modules**(): [Vector](_codec_vector_.vector.md)<[ModuleMetadata](_metadata_v4_metadata_.modulemetadata.md)>
-
-*Defined in [Metadata/v4/Metadata.ts:84](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/v4/Metadata.ts#L84)*
-
-*__description__*: The associated modules for this structure
-
-**Returns:** [Vector](_codec_vector_.vector.md)<[ModuleMetadata](_metadata_v4_metadata_.modulemetadata.md)>
+**Returns:** *boolean*
 
 ___
 
-# Methods
+###  modules
 
-<a id="eq"></a>
+● **get modules**(): *[Vector](_codec_vector_.vector.md)‹*[ModuleMetadata](_metadata_v4_metadata_.modulemetadata.md)*›*
 
-##  eq
+*Defined in [Metadata/v4/Metadata.ts:84](url)*
 
-▸ **eq**(other?: *`any`*): `boolean`
+**`description`** The associated modules for this structure
 
-*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md).[eq](../interfaces/_metadata_types_.metadatainterface.md#eq)*
+**Returns:** *[Vector](_codec_vector_.vector.md)‹*[ModuleMetadata](_metadata_v4_metadata_.modulemetadata.md)*›*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/Struct.ts:185](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="get"></a>
 
-##  get
+###  get
 
-▸ **get**(name: *`keyof S`*): [Codec](../interfaces/_types_.codec.md) \| `undefined`
+▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
 
-*Overrides Map.get*
+*Overrides void*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/Struct.ts:193](url)*
 
-*__description__*: Returns a specific names entry in the structure
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md) \| `undefined`
+**Returns:** *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  getAtIndex
 
-▸ **getAtIndex**(index: *`number`*): [Codec](../interfaces/_types_.codec.md)
+▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [codec/Struct.ts:200](url)*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
-
-**Returns:** [Codec](../interfaces/_types_.codec.md)
-
-___
-<a id="getuniqtypes"></a>
-
-##  getUniqTypes
-
-▸ **getUniqTypes**(throwError: *`boolean`*): `Array`<`string`>
-
-*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md).[getUniqTypes](../interfaces/_metadata_types_.metadatainterface.md#getuniqtypes)*
-
-*Defined in [Metadata/v4/Metadata.ts:127](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/v4/Metadata.ts#L127)*
-
-*__description__*: Helper to retrieve a list of all type that are found, sorted and de-deuplicated
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| throwError | `boolean` |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** `Array`<`string`>
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
-<a id="toarray"></a>
 
-##  toArray
+###  getUniqTypes
 
-▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
+▸ **getUniqTypes**(`throwError`: boolean): *`Array<string>`*
+
+*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md)*
+
+*Defined in [Metadata/v4/Metadata.ts:127](url)*
+
+**`description`** Helper to retrieve a list of all type that are found, sorted and de-deuplicated
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`throwError` | boolean |
+
+**Returns:** *`Array<string>`*
+
+___
+
+###  toArray
+
+▸ **toArray**(): *`Array<Codec>`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/Struct.ts:207](url)*
 
-*__description__*: Converts the Object to an standard JavaScript Array
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:214](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md).[toJSON](../interfaces/_metadata_types_.metadatainterface.md#tojson)*
+*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/Struct.ts:221](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md).[toRawType](../interfaces/_metadata_types_.metadatainterface.md#torawtype)*
+*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [codec/Struct.ts:235](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md).[toString](../interfaces/_metadata_types_.metadatainterface.md#tostring)*
+*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
+*Defined in [codec/Struct.ts:248](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md).[toU8a](../interfaces/_metadata_types_.metadatainterface.md#tou8a)*
+*Implementation of [MetadataInterface](../interfaces/_metadata_types_.metadatainterface.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L256)*
+*Defined in [codec/Struct.ts:256](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**<`S`>(Types: *`S`*): [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
+*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#static-with)*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
 ___
-

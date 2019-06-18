@@ -1,22 +1,25 @@
+> # External module: "Metadata/v2/toV3"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="tov3"></a>
+* [toV3](_metadata_v2_tov3_.md#tov3)
 
-##  toV3
+## Functions
 
-▸ **toV3**(metadataV2: *[MetadataV2](../classes/_metadata_v2_metadata_.metadatav2.md)*): [MetadataV3](../classes/_metadata_v3_metadata_.metadatav3.md)
+###  toV3
 
-*Defined in [Metadata/v2/toV3.ts:8](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/v2/toV3.ts#L8)*
+▸ **toV3**(`metadataV2`: [MetadataV2](../classes/_metadata_v2_metadata_.metadatav2.md)): *[MetadataV3](../classes/_metadata_v3_metadata_.metadatav3.md)*
+
+*Defined in [Metadata/v2/toV3.ts:8](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| metadataV2 | [MetadataV2](../classes/_metadata_v2_metadata_.metadatav2.md) |
+Name | Type |
+------ | ------ |
+`metadataV2` | [MetadataV2](../classes/_metadata_v2_metadata_.metadatav2.md) |
 
-**Returns:** [MetadataV3](../classes/_metadata_v3_metadata_.metadatav3.md)
+**Returns:** *[MetadataV3](../classes/_metadata_v3_metadata_.metadatav3.md)*
 
 ___
-

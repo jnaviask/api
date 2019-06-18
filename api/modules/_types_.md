@@ -1,8 +1,8 @@
+> # External module: "types"
 
+### Index
 
-# Index
-
-### Interfaces
+#### Interfaces
 
 * [ApiInterface$Rx](../interfaces/_types_.apiinterface_rx.md)
 * [ApiOptions](../interfaces/_types_.apioptions.md)
@@ -20,9 +20,9 @@
 * [SubmittableExtrinsics](../interfaces/_types_.submittableextrinsics.md)
 * [SubmittableModuleExtrinsics](../interfaces/_types_.submittablemoduleextrinsics.md)
 
-### Type aliases
+#### Type aliases
 
-* [ApiInterface$Events](_types_.md#apiinterface_events)
+* [ApiInterface$Events](_types_.md#apiinterface$events)
 * [ApiTypes](_types_.md#apitypes)
 * [DecorateMethodOptions](_types_.md#decoratemethodoptions)
 * [MethodResult](_types_.md#methodresult)
@@ -36,157 +36,138 @@
 * [SignerOptions](_types_.md#signeroptions)
 * [UnsubscribePromise](_types_.md#unsubscribepromise)
 
----
+## Type aliases
 
-# Type aliases
+###  ApiInterface$Events
 
-<a id="apiinterface_events"></a>
+Ƭ **ApiInterface$Events**: *`RpcRxInterface$Events` | "ready"*
 
-##  ApiInterface$Events
-
-**Ƭ ApiInterface$Events**: *`RpcRxInterface$Events` \| "ready"*
-
-*Defined in [types.ts:209](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L209)*
+*Defined in [types.ts:209](url)*
 
 ___
-<a id="apitypes"></a>
 
-##  ApiTypes
+###  ApiTypes
 
-**Ƭ ApiTypes**: *"promise" \| "rxjs"*
+Ƭ **ApiTypes**: *"promise" | "rxjs"*
 
-*Defined in [types.ts:211](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L211)*
-
-___
-<a id="decoratemethodoptions"></a>
-
-##  DecorateMethodOptions
-
-**Ƭ DecorateMethodOptions**: *`object`*
-
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L39)*
-
-#### Type declaration
+*Defined in [types.ts:211](url)*
 
 ___
-<a id="methodresult"></a>
 
-##  MethodResult
+###  DecorateMethodOptions
 
-**Ƭ MethodResult**: *`MethodResult<ApiType, F>`*
+Ƭ **DecorateMethodOptions**: *object*
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L57)*
+*Defined in [types.ts:39](url)*
 
-___
-<a id="obsinnertype"></a>
-
-##  ObsInnerType
-
-**Ƭ ObsInnerType**: *`ObsInnerType<O>`*
-
-*Defined in [types.ts:33](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L33)*
+#### Type declaration:
 
 ___
-<a id="promiseresult"></a>
 
-##  PromiseResult
+###  MethodResult
 
-**Ƭ PromiseResult**: *`function`*
+Ƭ **MethodResult**: *`MethodResult<ApiType, F>`*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L52)*
+*Defined in [types.ts:57](url)*
 
-#### Type declaration
-▸(...args: *`Parameters`<`F`>*): `Promise`<[ObsInnerType](_types_.md#obsinnertype)<`ReturnType`<`F`>>>▸(...args: *`Push`<`Parameters`<`F`>, `Callback`<[ObsInnerType](_types_.md#obsinnertype)<`ReturnType`<`F`>>>>*): [UnsubscribePromise](_types_.md#unsubscribepromise)
+___
+
+###  ObsInnerType
+
+Ƭ **ObsInnerType**: *`ObsInnerType<O>`*
+
+*Defined in [types.ts:33](url)*
+
+___
+
+###  PromiseResult
+
+Ƭ **PromiseResult**: *function*
+
+*Defined in [types.ts:52](url)*
+
+#### Type declaration:
+
+▸ (...`args`: `Parameters<F>`): *`Promise<ObsInnerType<ReturnType<F>>>`*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` args | `Parameters`<`F`> |
+Name | Type |
+------ | ------ |
+`...args` | `Parameters<F>` |
 
-**Returns:** `Promise`<[ObsInnerType](_types_.md#obsinnertype)<`ReturnType`<`F`>>>
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| `Rest` args | `Push`<`Parameters`<`F`>, `Callback`<[ObsInnerType](_types_.md#obsinnertype)<`ReturnType`<`F`>>>> |
-
-**Returns:** [UnsubscribePromise](_types_.md#unsubscribepromise)
-
-___
-<a id="queryablestoragefunction"></a>
-
-##  QueryableStorageFunction
-
-**Ƭ QueryableStorageFunction**: *`QueryableStorageFunction<ApiType>`*
-
-*Defined in [types.ts:119](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L119)*
-
-___
-<a id="queryablestoragemulti"></a>
-
-##  QueryableStorageMulti
-
-**Ƭ QueryableStorageMulti**: *`QueryableStorageMulti<ApiType>`*
-
-*Defined in [types.ts:142](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L142)*
-
-___
-<a id="queryablestoragemultiarg"></a>
-
-##  QueryableStorageMultiArg
-
-**Ƭ QueryableStorageMultiArg**: *[QueryableStorageFunction](_types_.md#queryablestoragefunction)<`ApiType`> \| [[QueryableStorageFunction](_types_.md#queryablestoragefunction)<`ApiType`>, `Array`]*
-
-*Defined in [types.ts:128](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L128)*
-
-___
-<a id="queryablestoragemultiargs"></a>
-
-##  QueryableStorageMultiArgs
-
-**Ƭ QueryableStorageMultiArgs**: *`Array`<[QueryableStorageMultiArg](_types_.md#queryablestoragemultiarg)<`ApiType`>>*
-
-*Defined in [types.ts:132](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L132)*
-
-___
-<a id="rxresult"></a>
-
-##  RxResult
-
-**Ƭ RxResult**: *`function`*
-
-*Defined in [types.ts:51](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L51)*
-
-#### Type declaration
-▸(...args: *`Parameters`<`F`>*): `Observable`<[ObsInnerType](_types_.md#obsinnertype)<`ReturnType`<`F`>>>
+▸ (...`args`: `Push<Parameters<F>, Callback<ObsInnerType<ReturnType<F>>>>`): *[UnsubscribePromise](_types_.md#unsubscribepromise)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` args | `Parameters`<`F`> |
-
-**Returns:** `Observable`<[ObsInnerType](_types_.md#obsinnertype)<`ReturnType`<`F`>>>
-
-___
-<a id="signeroptions"></a>
-
-##  SignerOptions
-
-**Ƭ SignerOptions**: *`SignatureOptions` & `object`*
-
-*Defined in [types.ts:213](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L213)*
-
-___
-<a id="unsubscribepromise"></a>
-
-##  UnsubscribePromise
-
-**Ƭ UnsubscribePromise**: *`Promise`<`function`>*
-
-*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L35)*
+Name | Type |
+------ | ------ |
+`...args` | `Push<Parameters<F>, Callback<ObsInnerType<ReturnType<F>>>>` |
 
 ___
 
+###  QueryableStorageFunction
+
+Ƭ **QueryableStorageFunction**: *`QueryableStorageFunction<ApiType>`*
+
+*Defined in [types.ts:119](url)*
+
+___
+
+###  QueryableStorageMulti
+
+Ƭ **QueryableStorageMulti**: *`QueryableStorageMulti<ApiType>`*
+
+*Defined in [types.ts:142](url)*
+
+___
+
+###  QueryableStorageMultiArg
+
+Ƭ **QueryableStorageMultiArg**: *[QueryableStorageFunction](_types_.md#queryablestoragefunction)‹*`ApiType`*› | [[QueryableStorageFunction](_types_.md#queryablestoragefunction)‹*`ApiType`*›, `Array`]*
+
+*Defined in [types.ts:128](url)*
+
+___
+
+###  QueryableStorageMultiArgs
+
+Ƭ **QueryableStorageMultiArgs**: *`Array<QueryableStorageMultiArg<ApiType>>`*
+
+*Defined in [types.ts:132](url)*
+
+___
+
+###  RxResult
+
+Ƭ **RxResult**: *function*
+
+*Defined in [types.ts:51](url)*
+
+#### Type declaration:
+
+▸ (...`args`: `Parameters<F>`): *`Observable<ObsInnerType<ReturnType<F>>>`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`...args` | `Parameters<F>` |
+
+___
+
+###  SignerOptions
+
+Ƭ **SignerOptions**: *`SignatureOptions` & object*
+
+*Defined in [types.ts:213](url)*
+
+___
+
+###  UnsubscribePromise
+
+Ƭ **UnsubscribePromise**: *`Promise<function>`*
+
+*Defined in [types.ts:35](url)*
+
+___

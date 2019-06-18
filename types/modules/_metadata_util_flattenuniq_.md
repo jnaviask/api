@@ -1,22 +1,25 @@
+> # External module: "Metadata/util/flattenUniq"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="flattenuniq"></a>
+* [flattenUniq](_metadata_util_flattenuniq_.md#flattenuniq)
 
-##  flattenUniq
+## Functions
 
-▸ **flattenUniq**(list: *`Array`<`any`>*): `Array`<`any`>
+###  flattenUniq
 
-*Defined in [Metadata/util/flattenUniq.ts:6](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/util/flattenUniq.ts#L6)*
+▸ **flattenUniq**(`list`: `Array<any>`): *`Array<any>`*
+
+*Defined in [Metadata/util/flattenUniq.ts:6](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| list | `Array`<`any`> |
+Name | Type |
+------ | ------ |
+`list` | `Array<any>` |
 
-**Returns:** `Array`<`any`>
+**Returns:** *`Array<any>`*
 
 ___
-

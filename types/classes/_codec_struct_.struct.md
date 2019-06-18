@@ -1,423 +1,443 @@
+> # Class: Struct <**S, T, V, E**>
 
+**`name`** Struct
 
-*__name__*: Struct
+**`description`** 
+A Struct defines an Object with key-value pairs - where the values are Codec values. It removes
+a lot of repetition from the actual coding, define a structure type, pass it the key/Codec
+values in the constructor and it manages the decoding. It is important that the constructor
+values matches 100% to the order in th Rust code, i.e. don't go crazy and make it alphabetical,
+it needs to decoded in the specific defined order.
 
-*__description__*: A Struct defines an Object with key-value pairs - where the values are Codec values. It removes a lot of repetition from the actual coding, define a structure type, pass it the key/Codec values in the constructor and it manages the decoding. It is important that the constructor values matches 100% to the order in th Rust code, i.e. don't go crazy and make it alphabetical, it needs to decoded in the specific defined order.
+## Type parameters
 
-# Type parameters
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
- `Map`<`keyof S`, [Codec](../interfaces/_types_.codec.md)>
+■` T`: *object*
 
-**↳ Struct**
+■` V`: *object*
 
-↳  [FunctionArgumentMetadata](_metadata_v1_calls_.functionargumentmetadata.md)
+■` E`: *object*
 
-↳  [FunctionMetadata](_metadata_v1_calls_.functionmetadata.md)
+## Hierarchy
 
-↳  [Linkage](_codec_linkage_.linkage.md)
+* `Map<keyof S, Codec>`
 
-↳  [Method](_primitive_method_.method.md)
+  * **Struct**
 
-↳  [OuterDispatchCall](_metadata_v0_calls_.outerdispatchcall.md)
+  * [FunctionArgumentMetadata](_metadata_v1_calls_.functionargumentmetadata.md)
 
-↳  [OuterDispatchMetadata](_metadata_v0_calls_.outerdispatchmetadata.md)
+  * [FunctionMetadata](_metadata_v1_calls_.functionmetadata.md)
 
-↳  [EventMetadata](_metadata_v0_events_.eventmetadata.md)
+  * [Linkage](_codec_linkage_.linkage.md)
 
-↳  [OuterEventMetadata](_metadata_v0_events_.outereventmetadata.md)
+  * [Method](_primitive_method_.method.md)
 
-↳  [MapType](_metadata_v0_storage_.maptype.md)
+  * [OuterDispatchCall](_metadata_v0_calls_.outerdispatchcall.md)
 
-↳  [StorageFunctionMetadata](_metadata_v0_storage_.storagefunctionmetadata.md)
+  * [OuterDispatchMetadata](_metadata_v0_calls_.outerdispatchmetadata.md)
 
-↳  [StorageMetadata](_metadata_v0_storage_.storagemetadata.md)
+  * [EventMetadata](_metadata_v0_events_.eventmetadata.md)
 
-↳  [FunctionArgumentMetadata](_metadata_v0_modules_.functionargumentmetadata.md)
+  * [OuterEventMetadata](_metadata_v0_events_.outereventmetadata.md)
 
-↳  [FunctionMetadata](_metadata_v0_modules_.functionmetadata.md)
+  * [MapType](_metadata_v0_storage_.maptype.md)
 
-↳  [CallMetadata](_metadata_v0_modules_.callmetadata.md)
+  * [StorageFunctionMetadata](_metadata_v0_storage_.storagefunctionmetadata.md)
 
-↳  [ModuleMetadata](_metadata_v0_modules_.modulemetadata.md)
+  * [StorageMetadata](_metadata_v0_storage_.storagemetadata.md)
 
-↳  [RuntimeModuleMetadata](_metadata_v0_modules_.runtimemodulemetadata.md)
+  * [FunctionArgumentMetadata](_metadata_v0_modules_.functionargumentmetadata.md)
 
-↳  [MetadataV0](_metadata_v0_metadata_.metadatav0.md)
+  * [FunctionMetadata](_metadata_v0_modules_.functionmetadata.md)
 
-↳  [ModuleMetadata](_metadata_v1_metadata_.modulemetadata.md)
+  * [CallMetadata](_metadata_v0_modules_.callmetadata.md)
 
-↳  [MetadataV1](_metadata_v1_metadata_.metadatav1.md)
+  * [ModuleMetadata](_metadata_v0_modules_.modulemetadata.md)
 
-↳  [MapType](_metadata_v2_storage_.maptype.md)
+  * [RuntimeModuleMetadata](_metadata_v0_modules_.runtimemodulemetadata.md)
 
-↳  [StorageFunctionMetadata](_metadata_v2_storage_.storagefunctionmetadata.md)
+  * [MetadataV0](_metadata_v0_metadata_.metadatav0.md)
 
-↳  [ModuleMetadata](_metadata_v2_metadata_.modulemetadata.md)
+  * [ModuleMetadata](_metadata_v1_metadata_.modulemetadata.md)
 
-↳  [MetadataV2](_metadata_v2_metadata_.metadatav2.md)
+  * [MetadataV1](_metadata_v1_metadata_.metadatav1.md)
 
-↳  [DoubleMapType](_metadata_v3_storage_.doublemaptype.md)
+  * [MapType](_metadata_v2_storage_.maptype.md)
 
-↳  [StorageFunctionMetadata](_metadata_v3_storage_.storagefunctionmetadata.md)
+  * [StorageFunctionMetadata](_metadata_v2_storage_.storagefunctionmetadata.md)
 
-↳  [ModuleMetadata](_metadata_v3_metadata_.modulemetadata.md)
+  * [ModuleMetadata](_metadata_v2_metadata_.modulemetadata.md)
 
-↳  [MetadataV3](_metadata_v3_metadata_.metadatav3.md)
+  * [MetadataV2](_metadata_v2_metadata_.metadatav2.md)
 
-↳  [MapType](_metadata_v4_storage_.maptype.md)
+  * [DoubleMapType](_metadata_v3_storage_.doublemaptype.md)
 
-↳  [DoubleMapType](_metadata_v4_storage_.doublemaptype.md)
+  * [StorageFunctionMetadata](_metadata_v3_storage_.storagefunctionmetadata.md)
 
-↳  [StorageFunctionMetadata](_metadata_v4_storage_.storagefunctionmetadata.md)
+  * [ModuleMetadata](_metadata_v3_metadata_.modulemetadata.md)
 
-↳  [ModuleMetadata](_metadata_v4_metadata_.modulemetadata.md)
+  * [MetadataV3](_metadata_v3_metadata_.metadatav3.md)
 
-↳  [MetadataV4](_metadata_v4_metadata_.metadatav4.md)
+  * [MapType](_metadata_v4_storage_.maptype.md)
 
-↳  [DoubleMapType](_metadata_v5_storage_.doublemaptype.md)
+  * [DoubleMapType](_metadata_v4_storage_.doublemaptype.md)
 
-↳  [StorageFunctionMetadata](_metadata_v5_storage_.storagefunctionmetadata.md)
+  * [StorageFunctionMetadata](_metadata_v4_storage_.storagefunctionmetadata.md)
 
-↳  [ModuleMetadata](_metadata_v5_metadata_.modulemetadata.md)
+  * [ModuleMetadata](_metadata_v4_metadata_.modulemetadata.md)
 
-↳  [MetadataV5](_metadata_v5_metadata_.metadatav5.md)
+  * [MetadataV4](_metadata_v4_metadata_.metadatav4.md)
 
-↳  [AccountInfo](_primitive_accountinfo_.accountinfo.md)
+  * [DoubleMapType](_metadata_v5_storage_.doublemaptype.md)
 
-↳  [Event](_primitive_event_.event.md)
+  * [StorageFunctionMetadata](_metadata_v5_storage_.storagefunctionmetadata.md)
 
-↳  [EventRecord_0_76](_primitive_eventrecord_.eventrecord_0_76.md)
+  * [ModuleMetadata](_metadata_v5_metadata_.modulemetadata.md)
 
-↳  [EventRecord](_primitive_eventrecord_.eventrecord.md)
+  * [MetadataV5](_metadata_v5_metadata_.metadatav5.md)
 
-↳  [MetadataVersioned](_metadata_metadataversioned_.metadataversioned.md)
+  * [AccountInfo](_primitive_accountinfo_.accountinfo.md)
 
-↳  [RuntimeVersion](_rpc_runtimeversion_.runtimeversion.md)
+  * [Event](_primitive_event_.event.md)
 
-↳  [SignaturePayload](_type_signaturepayload_.signaturepayload.md)
+  * [EventRecord_0_76](_primitive_eventrecord_.eventrecord_0_76.md)
 
-↳  [SignaturePayloadRaw](_type_signaturepayload_.signaturepayloadraw.md)
+  * [EventRecord](_primitive_eventrecord_.eventrecord.md)
 
-↳  [ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)
+  * [MetadataVersioned](_metadata_metadataversioned_.metadataversioned.md)
 
-↳  [Extrinsic](_type_extrinsic_.extrinsic.md)
+  * [RuntimeVersion](_rpc_runtimeversion_.runtimeversion.md)
 
-↳  [Digest](_rpc_digest_.digest.md)
+  * [SignaturePayload](_type_signaturepayload_.signaturepayload.md)
 
-↳  [Header](_rpc_header_.header.md)
+  * [SignaturePayloadRaw](_type_signaturepayload_.signaturepayloadraw.md)
 
-↳  [Block](_rpc_block_.block.md)
+  * [ExtrinsicSignature](_type_extrinsicsignature_.extrinsicsignature.md)
 
-↳  [Health](_rpc_health_.health.md)
+  * [Extrinsic](_type_extrinsic_.extrinsic.md)
 
-↳  [PeerInfo](_rpc_peerinfo_.peerinfo.md)
+  * [Digest](_rpc_digest_.digest.md)
 
-↳  [RhdJustification](_type_justification_.rhdjustification.md)
+  * [Header](_rpc_header_.header.md)
 
-↳  [SignedBlock](_rpc_signedblock_.signedblock.md)
+  * [Block](_rpc_block_.block.md)
 
-↳  [StorageChangeSet](_rpc_storagechangeset_.storagechangeset.md)
+  * [Health](_rpc_health_.health.md)
 
-↳  [CandidateReceipt](_type_attestedcandidate_.candidatereceipt.md)
+  * [PeerInfo](_rpc_peerinfo_.peerinfo.md)
 
-↳  [AttestedCandidate](_type_attestedcandidate_.attestedcandidate.md)
+  * [RhdJustification](_type_justification_.rhdjustification.md)
 
-↳  [BalanceLock](_type_balancelock_.balancelock.md)
+  * [SignedBlock](_rpc_signedblock_.signedblock.md)
 
-↳  [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md)
+  * [StorageChangeSet](_rpc_storagechangeset_.storagechangeset.md)
 
-↳  [IndividualExposure](_type_individualexposure_.individualexposure.md)
+  * [CandidateReceipt](_type_attestedcandidate_.candidatereceipt.md)
 
-↳  [Exposure](_type_exposure_.exposure.md)
+  * [AttestedCandidate](_type_attestedcandidate_.attestedcandidate.md)
 
-↳  [SessionKeys](_type_sessionkeys_.sessionkeys.md)
+  * [BalanceLock](_type_balancelock_.balancelock.md)
 
-↳  [BftAtReport](_type_misbehaviorreport_.bftatreport.md)
+  * [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md)
 
-↳  [BftProposeOutOfTurn](_type_misbehaviorreport_.bftproposeoutofturn.md)
+  * [IndividualExposure](_type_individualexposure_.individualexposure.md)
 
-↳  [MisbehaviorReport](_type_misbehaviorreport_.misbehaviorreport.md)
+  * [Exposure](_type_exposure_.exposure.md)
 
-↳  [PrefabWasmModule](_type_prefabwasmmodule_.prefabwasmmodule.md)
+  * [SessionKeys](_type_sessionkeys_.sessionkeys.md)
 
-↳  [ReferendumInfo](_type_referenduminfo_.referenduminfo.md)
+  * [BftAtReport](_type_misbehaviorreport_.bftatreport.md)
 
-↳  [Schedule](_type_schedule_.schedule.md)
+  * [BftProposeOutOfTurn](_type_misbehaviorreport_.bftproposeoutofturn.md)
 
-↳  [UnlockChunk](_type_unlockchunk_.unlockchunk.md)
+  * [MisbehaviorReport](_type_misbehaviorreport_.misbehaviorreport.md)
 
-↳  [StakingLedger](_type_stakingledger_.stakingledger.md)
+  * [PrefabWasmModule](_type_prefabwasmmodule_.prefabwasmmodule.md)
 
-↳  [StoredPendingChange](_type_storedpendingchange_.storedpendingchange.md)
+  * [ReferendumInfo](_type_referenduminfo_.referenduminfo.md)
 
-↳  [TreasuryProposal](_type_treasuryproposal_.treasuryproposal.md)
+  * [Schedule](_type_schedule_.schedule.md)
 
-↳  [ValidatorPrefs](_type_validatorprefs_.validatorprefs.md)
+  * [UnlockChunk](_type_unlockchunk_.unlockchunk.md)
 
-↳  [VestingSchedule](_type_vestingschedule_.vestingschedule.md)
+  * [StakingLedger](_type_stakingledger_.stakingledger.md)
 
-↳  [Votes](_type_votes_.votes.md)
+  * [StoredPendingChange](_type_storedpendingchange_.storedpendingchange.md)
 
-↳  [VoterInfo](_type_voterinfo_.voterinfo.md)
+  * [TreasuryProposal](_type_treasuryproposal_.treasuryproposal.md)
 
-# Implements
+  * [ValidatorPrefs](_type_validatorprefs_.validatorprefs.md)
+
+  * [VestingSchedule](_type_vestingschedule_.vestingschedule.md)
+
+  * [Votes](_type_votes_.votes.md)
+
+  * [VoterInfo](_type_voterinfo_.voterinfo.md)
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_codec_struct_.struct.md#constructor)
 
-⊕ **new Struct**(Types: *`S`*, value?: *`V` \| `Map`<`any`, `any`> \| `Array`<`any`>*, jsonMap?: *`Map`<`keyof S`, `string`>*): [Struct](_codec_struct_.struct.md)
+#### Properties
 
-*Defined in [codec/Struct.ts:31](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L31)*
+* [Map](_codec_struct_.struct.md#static-map)
 
-**Parameters:**
+#### Accessors
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| Types | `S` | - |
-| `Default value` value | `V` \| `Map`<`any`, `any`> \| `Array`<`any`> |  {} as V |
-| `Default value` jsonMap | `Map`<`keyof S`, `string`> |  new Map() |
+* [Type](_codec_struct_.struct.md#type)
+* [encodedLength](_codec_struct_.struct.md#encodedlength)
+* [isEmpty](_codec_struct_.struct.md#isempty)
 
-**Returns:** [Struct](_codec_struct_.struct.md)
+#### Methods
 
-___
+* [eq](_codec_struct_.struct.md#eq)
+* [get](_codec_struct_.struct.md#get)
+* [getAtIndex](_codec_struct_.struct.md#getatindex)
+* [toArray](_codec_struct_.struct.md#toarray)
+* [toHex](_codec_struct_.struct.md#tohex)
+* [toJSON](_codec_struct_.struct.md#tojson)
+* [toRawType](_codec_struct_.struct.md#torawtype)
+* [toString](_codec_struct_.struct.md#tostring)
+* [toU8a](_codec_struct_.struct.md#tou8a)
+* [with](_codec_struct_.struct.md#static-with)
 
-# Properties
+## Constructors
 
-<a id="map"></a>
+###  constructor
 
-## `<Static>` Map
+\+ **new Struct**(`Types`: `S`, `value`: `V` | `Map<any, any>` | `Array<any>`, `jsonMap`: `Map<keyof S, string>`): *[Struct](_codec_struct_.struct.md)*
 
-**● Map**: *`MapConstructor`*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:36*
-
-___
-
-# Accessors
-
-<a id="type"></a>
-
-##  Type
-
-**get Type**(): `E`
-
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
-
-*__description__*: Returns the Type description to sthe structure
-
-**Returns:** `E`
-
-___
-<a id="encodedlength"></a>
-
-##  encodedLength
-
-**get encodedLength**(): `number`
-
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L176)*
-
-*__description__*: The length of the value when encoded as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
-
-*__description__*: Checks if the value is an empty value
-
-**Returns:** `boolean`
-
-___
-
-# Methods
-
-<a id="eq"></a>
-
-##  eq
-
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
-
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
-
-*__description__*: Compares the value of the input to see if there is a match
+*Defined in [codec/Struct.ts:31](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type | Default |
+------ | ------ | ------ |
+`Types` | `S` | - |
+`value` | `V` \| `Map<any, any>` \| `Array<any>` |  {} as V |
+`jsonMap` | `Map<keyof S, string>` |  new Map() |
 
-**Returns:** `boolean`
+**Returns:** *[Struct](_codec_struct_.struct.md)*
 
 ___
-<a id="get"></a>
 
-##  get
+## Properties
 
-▸ **get**(name: *`keyof S`*): [Codec](../interfaces/_types_.codec.md) \| `undefined`
+### `Static` Map
 
-*Overrides Map.get*
+■ **Map**: *`MapConstructor`*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:36
 
-*__description__*: Returns a specific names entry in the structure
+___
+
+## Accessors
+
+###  Type
+
+● **get Type**(): *`E`*
+
+*Defined in [codec/Struct.ts:163](url)*
+
+**`description`** Returns the Type description to sthe structure
+
+**Returns:** *`E`*
+
+___
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
+
+*Defined in [codec/Struct.ts:176](url)*
+
+**`description`** The length of the value when encoded as a Uint8Array
+
+**Returns:** *number*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
+
+*Defined in [codec/Struct.ts:148](url)*
+
+**`description`** Checks if the value is an empty value
+
+**Returns:** *boolean*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/Struct.ts:185](url)*
+
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md) \| `undefined`
+**Returns:** *boolean*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  get
 
-▸ **getAtIndex**(index: *`number`*): [Codec](../interfaces/_types_.codec.md)
+▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Overrides void*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
+*Defined in [codec/Struct.ts:193](url)*
+
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md)
-
-___
-<a id="toarray"></a>
-
-##  toArray
-
-▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
-
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
-
-*__description__*: Converts the Object to an standard JavaScript Array
-
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+**Returns:** *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  getAtIndex
 
-▸ **toHex**(): `string`
+▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:200](url)*
 
-*__description__*: Returns a hex string representation of the value
-
-**Returns:** `string`
-
-___
-<a id="tojson"></a>
-
-##  toJSON
-
-▸ **toJSON**(): `any`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
-
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L221)*
-
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
-
-**Returns:** `any`
-
-___
-<a id="torawtype"></a>
-
-##  toRawType
-
-▸ **toRawType**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
-
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
-
-*__description__*: Returns the base runtime type name for this instance
-
-**Returns:** `string`
-
-___
-<a id="tostring"></a>
-
-##  toString
-
-▸ **toString**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
-
-*Defined in [codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
-
-___
-<a id="tou8a"></a>
-
-##  toU8a
-
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
-
-*Defined in [codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L256)*
-
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** `Uint8Array`
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+###  toArray
 
-▸ **with**<`S`>(Types: *`S`*): [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+▸ **toArray**(): *`Array<Codec>`*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Struct.ts:207](url)*
+
+**`description`** Converts the Object to an standard JavaScript Array
+
+**Returns:** *`Array<Codec>`*
+
+___
+
+###  toHex
+
+▸ **toHex**(): *string*
+
+*Defined in [codec/Struct.ts:214](url)*
+
+**`description`** Returns a hex string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toJSON
+
+▸ **toJSON**(): *any*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/Struct.ts:221](url)*
+
+**`description`** Converts the Object to JSON, typically used for RPC transfers
+
+**Returns:** *any*
+
+___
+
+###  toRawType
+
+▸ **toRawType**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/Struct.ts:235](url)*
+
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/Struct.ts:248](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/Struct.ts:256](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
+
+**Returns:** *`Uint8Array`*
+
+___
+
+### `Static` with
+
+▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
+
+*Defined in [codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
 ___
-

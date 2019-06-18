@@ -1,295 +1,303 @@
+> # Class: NewAccountOutcome
 
+**`name`** NewAccountOutcome
 
-*__name__*: NewAccountOutcome
+**`description`** 
+Enum to track the outcome for creation of an [AccountId](_primitive_accountid_.accountid.md)
 
-*__description__*: Enum to track the outcome for creation of an [AccountId](_primitive_accountid_.accountid.md)
+## Hierarchy
 
-# Hierarchy
+  * [Enum](_codec_enumtype_.enum.md)
 
-↳  [Enum](_codec_enumtype_.enum.md)
+  * **NewAccountOutcome**
 
-**↳ NewAccountOutcome**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_newaccountoutcome_.newaccountoutcome.md#constructor)
 
-⊕ **new NewAccountOutcome**(index?: *[U8a](_codec_u8a_.u8a.md) \| `Uint8Array` \| `number`*): [NewAccountOutcome](_type_newaccountoutcome_.newaccountoutcome.md)
+#### Accessors
+
+* [encodedLength](_type_newaccountoutcome_.newaccountoutcome.md#encodedlength)
+* [index](_type_newaccountoutcome_.newaccountoutcome.md#index)
+* [isEmpty](_type_newaccountoutcome_.newaccountoutcome.md#isempty)
+* [isNone](_type_newaccountoutcome_.newaccountoutcome.md#isnone)
+* [isNull](_type_newaccountoutcome_.newaccountoutcome.md#isnull)
+* [type](_type_newaccountoutcome_.newaccountoutcome.md#type)
+* [value](_type_newaccountoutcome_.newaccountoutcome.md#value)
+
+#### Methods
+
+* [eq](_type_newaccountoutcome_.newaccountoutcome.md#eq)
+* [toHex](_type_newaccountoutcome_.newaccountoutcome.md#tohex)
+* [toJSON](_type_newaccountoutcome_.newaccountoutcome.md#tojson)
+* [toNumber](_type_newaccountoutcome_.newaccountoutcome.md#tonumber)
+* [toRawType](_type_newaccountoutcome_.newaccountoutcome.md#torawtype)
+* [toString](_type_newaccountoutcome_.newaccountoutcome.md#tostring)
+* [toU8a](_type_newaccountoutcome_.newaccountoutcome.md#tou8a)
+* [with](_type_newaccountoutcome_.newaccountoutcome.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new NewAccountOutcome**(`index?`: [U8a](_codec_u8a_.u8a.md) | `Uint8Array` | number): *[NewAccountOutcome](_type_newaccountoutcome_.newaccountoutcome.md)*
 
 *Overrides [Enum](_codec_enumtype_.enum.md).[constructor](_codec_enumtype_.enum.md#constructor)*
 
-*Defined in [type/NewAccountOutcome.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/NewAccountOutcome.ts#L13)*
+*Defined in [type/NewAccountOutcome.ts:13](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` index | [U8a](_codec_u8a_.u8a.md) \| `Uint8Array` \| `number` |
+Name | Type |
+------ | ------ |
+`index?` | [U8a](_codec_u8a_.u8a.md) \| `Uint8Array` \| number |
 
-**Returns:** [NewAccountOutcome](_type_newaccountoutcome_.newaccountoutcome.md)
+**Returns:** *[NewAccountOutcome](_type_newaccountoutcome_.newaccountoutcome.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="encodedlength"></a>
+###  encodedLength
 
-##  encodedLength
-
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[encodedLength](_codec_enumtype_.enum.md#encodedlength)*
 
-*Defined in [codec/EnumType.ts:137](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L137)*
+*Defined in [codec/EnumType.ts:137](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="index"></a>
 
-##  index
+###  index
 
-**get index**(): `number`
+● **get index**(): *number*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[index](_codec_enumtype_.enum.md#index)*
 
-*Defined in [codec/EnumType.ts:144](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L144)*
+*Defined in [codec/EnumType.ts:144](url)*
 
-*__description__*: The index of the metadata value
+**`description`** The index of the metadata value
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[isEmpty](_codec_enumtype_.enum.md#isempty)*
 
-*Defined in [codec/EnumType.ts:151](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L151)*
+*Defined in [codec/EnumType.ts:151](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="isnone"></a>
 
-##  isNone
+###  isNone
 
-**get isNone**(): `boolean`
+● **get isNone**(): *boolean*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[isNone](_codec_enumtype_.enum.md#isnone)*
 
-*Defined in [codec/EnumType.ts:158](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L158)*
+*Defined in [codec/EnumType.ts:158](url)*
 
-*__description__*: Checks if the Enum points to a [Null](_primitive_null_.null.md) type
+**`description`** Checks if the Enum points to a [Null](_primitive_null_.null.md) type
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="isnull"></a>
 
-##  isNull
+###  isNull
 
-**get isNull**(): `boolean`
+● **get isNull**(): *boolean*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[isNull](_codec_enumtype_.enum.md#isnull)*
 
-*Defined in [codec/EnumType.ts:165](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L165)*
+*Defined in [codec/EnumType.ts:165](url)*
 
-*__description__*: Checks if the Enum points to a [Null](_primitive_null_.null.md) type (deprecated, use isNone)
+**`description`** Checks if the Enum points to a [Null](_primitive_null_.null.md) type (deprecated, use isNone)
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="type"></a>
 
-##  type
+###  type
 
-**get type**(): `string`
+● **get type**(): *string*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[type](_codec_enumtype_.enum.md#type)*
 
-*Defined in [codec/EnumType.ts:172](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L172)*
+*Defined in [codec/EnumType.ts:172](url)*
 
-*__description__*: The name of the type this enum value represents
+**`description`** The name of the type this enum value represents
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="value"></a>
 
-##  value
+###  value
 
-**get value**(): [Codec](../interfaces/_types_.codec.md)
+● **get value**(): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[value](_codec_enumtype_.enum.md#value)*
 
-*Defined in [codec/EnumType.ts:179](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L179)*
+*Defined in [codec/EnumType.ts:179](url)*
 
-*__description__*: The value of the enum
+**`description`** The value of the enum
 
-**Returns:** [Codec](../interfaces/_types_.codec.md)
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
 
-# Methods
+## Methods
 
-<a id="eq"></a>
+###  eq
 
-##  eq
+▸ **eq**(`other?`: any): *boolean*
 
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[eq](_codec_enumtype_.enum.md#eq)*
 
-*Defined in [codec/EnumType.ts:186](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L186)*
+*Defined in [codec/EnumType.ts:186](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toHex](_codec_enumtype_.enum.md#tohex)*
 
-*Defined in [codec/EnumType.ts:201](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L201)*
+*Defined in [codec/EnumType.ts:201](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toJSON](_codec_enumtype_.enum.md#tojson)*
 
-*Defined in [codec/EnumType.ts:208](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L208)*
+*Defined in [codec/EnumType.ts:208](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="tonumber"></a>
 
-##  toNumber
+###  toNumber
 
-▸ **toNumber**(): `number`
+▸ **toNumber**(): *number*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toNumber](_codec_enumtype_.enum.md#tonumber)*
 
-*Defined in [codec/EnumType.ts:217](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L217)*
+*Defined in [codec/EnumType.ts:217](url)*
 
-*__description__*: Returns the number representation for the value
+**`description`** Returns the number representation for the value
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toRawType](_codec_enumtype_.enum.md#torawtype)*
 
-*Defined in [codec/EnumType.ts:224](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L224)*
+*Defined in [codec/EnumType.ts:224](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toString](_codec_enumtype_.enum.md#tostring)*
 
-*Defined in [codec/EnumType.ts:239](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L239)*
+*Defined in [codec/EnumType.ts:239](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toU8a](_codec_enumtype_.enum.md#tou8a)*
 
-*Defined in [codec/EnumType.ts:249](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L249)*
+*Defined in [codec/EnumType.ts:249](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
-
-**Returns:** `Uint8Array`
-
-___
-<a id="with"></a>
-
-## `<Static>` with
-
-▸ **with**(Types: *`TypesDef` \| `Array`<`string`>*): `EnumConstructor`<[Enum](_codec_enumtype_.enum.md)>
-
-*Inherited from [Enum](_codec_enumtype_.enum.md).[with](_codec_enumtype_.enum.md#with)*
-
-*Defined in [codec/EnumType.ts:126](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L126)*
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `TypesDef` \| `Array`<`string`> |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `EnumConstructor`<[Enum](_codec_enumtype_.enum.md)>
+**Returns:** *`Uint8Array`*
 
 ___
 
+### `Static` with
+
+▸ **with**(`Types`: `TypesDef` | `Array<string>`): *`EnumConstructor<Enum>`*
+
+*Inherited from [Enum](_codec_enumtype_.enum.md).[with](_codec_enumtype_.enum.md#static-with)*
+
+*Defined in [codec/EnumType.ts:126](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`Types` | `TypesDef` \| `Array<string>` |
+
+**Returns:** *`EnumConstructor<Enum>`*
+
+___

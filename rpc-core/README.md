@@ -1,11 +1,8 @@
-
-@polkadot/rpc-core
-==================
+# @polkadot/rpc-core
 
 This library provides a clean wrapper around all the methods exposed by a Polkadot network client.
 
-Usage
------
+## Usage
 
 Installation -
 
@@ -27,50 +24,48 @@ Retrieving the block header object for a given block header hash (a 0x-prefixed 
 
 ```js
 api.chain
-  .getHeader('0x1234567890')
-  .then((header) => console.log(header))
-  .catch((error) => console.error(error));
+.getHeader('0x1234567890')
+.then((header) => console.log(header))
+.catch((error) => console.error(error));
 ```
 
 Retrieving the best block number, parent hash, state root hash, extrinsics root hash, and digest (once-off) -
 
 ```js
 api.chain
-  .getHead()
-  .then((headerHash) => {
-    return api.chain.getHeader(headerHash);
-  })
-  .then((header) => {
-    console.log(`best #${header.blockNumber.toString()}`);
-    console.log(`parentHash: ${header.parentHash.toString()}`);
-    console.log(`stateRoot: ${header.stateRoot.toString()}`);
-    console.log(`extrinsicsRoot: ${header.extrinsicsRoot.toString()}`);
-    console.log(`digest: ${header.digest.toString()}`);
-  })
-  .catch((error) => {
-    console.error('error:', error);
-  });
+.getHead()
+.then((headerHash) => {
+return api.chain.getHeader(headerHash);
+})
+.then((header) => {
+console.log(`best #${header.blockNumber.toString()}`);
+console.log(`parentHash: ${header.parentHash.toString()}`);
+console.log(`stateRoot: ${header.stateRoot.toString()}`);
+console.log(`extrinsicsRoot: ${header.extrinsicsRoot.toString()}`);
+console.log(`digest: ${header.digest.toString()}`);
+})
+.catch((error) => {
+console.error('error:', error);
+});
 ```
 
 Retrieving best header via subscription -
 
 ```js
 api.chain
-  .subscribeNewHead((header) => {
-    console.log(`best #${header.blockNumber}`);
-  })
-  .then((subscriptionId) => {
-    console.log(`subscriptionId: ${subscriptionId}`);
-    // id for the subscription, can unsubscribe via
-    // api.chain.subscribeNewHead.unsubscribe(subscriptionId);
-  })
-  .catch((error) => {
-    console.error('error subscribing:', error);
-  });
+.subscribeNewHead((header) => {
+console.log(`best #${header.blockNumber}`);
+})
+.then((subscriptionId) => {
+console.log(`subscriptionId: ${subscriptionId}`);
+// id for the subscription, can unsubscribe via
+// api.chain.subscribeNewHead.unsubscribe(subscriptionId);
+})
+.catch((error) => {
+console.error('error subscribing:', error);
+});
 ```
 
-Classes
--------
+## Classes
 
 [Classes](SUMMARY.md)
-

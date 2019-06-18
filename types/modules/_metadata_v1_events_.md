@@ -1,2 +1,1 @@
-
-
+> # External module: "Metadata/v1/Events"

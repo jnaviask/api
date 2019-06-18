@@ -1,23 +1,26 @@
+> # External module: "Metadata/util/validateTypes"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="validatetypes"></a>
+* [validateTypes](_metadata_util_validatetypes_.md#validatetypes)
 
-##  validateTypes
+## Functions
 
-▸ **validateTypes**(types: *`Array`<`string`>*, throwError: *`boolean`*): `void`
+###  validateTypes
 
-*Defined in [Metadata/util/validateTypes.ts:11](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/util/validateTypes.ts#L11)*
+▸ **validateTypes**(`types`: `Array<string>`, `throwError`: boolean): *void*
+
+*Defined in [Metadata/util/validateTypes.ts:11](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| types | `Array`<`string`> |
-| throwError | `boolean` |
+Name | Type |
+------ | ------ |
+`types` | `Array<string>` |
+`throwError` | boolean |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-

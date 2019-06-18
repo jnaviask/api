@@ -1,22 +1,25 @@
+> # External module: "balances/votingBalancesNominatorsFor"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="votingbalancesnominatorsfor"></a>
+* [votingBalancesNominatorsFor](_balances_votingbalancesnominatorsfor_.md#votingbalancesnominatorsfor)
 
-##  votingBalancesNominatorsFor
+## Functions
 
-▸ **votingBalancesNominatorsFor**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  votingBalancesNominatorsFor
 
-*Defined in [balances/votingBalancesNominatorsFor.ts:15](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L15)*
+▸ **votingBalancesNominatorsFor**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+
+*Defined in [balances/votingBalancesNominatorsFor.ts:15](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
 
 ___
-

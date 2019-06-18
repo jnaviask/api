@@ -1,90 +1,93 @@
+> # Interface: ApiInterface$Rx
 
+## Hierarchy
 
-# Hierarchy
+* **ApiInterface$Rx**
 
-**ApiInterface$Rx**
+### Index
 
-# Properties
+#### Properties
 
-<a id="genesishash"></a>
+* [genesisHash](_types_.apiinterface_rx.md#genesishash)
+* [hasSubscriptions](_types_.apiinterface_rx.md#hassubscriptions)
+* [query](_types_.apiinterface_rx.md#query)
+* [queryMulti](_types_.apiinterface_rx.md#querymulti)
+* [rpc](_types_.apiinterface_rx.md#rpc)
+* [runtimeMetadata](_types_.apiinterface_rx.md#runtimemetadata)
+* [runtimeVersion](_types_.apiinterface_rx.md#runtimeversion)
+* [signer](_types_.apiinterface_rx.md#optional-signer)
+* [tx](_types_.apiinterface_rx.md#tx)
 
-##  genesisHash
+## Properties
 
-**● genesisHash**: *`Hash`*
+###  genesisHash
 
-*Defined in [types.ts:198](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L198)*
+● **genesisHash**: *`Hash`*
 
-___
-<a id="hassubscriptions"></a>
-
-##  hasSubscriptions
-
-**● hasSubscriptions**: *`boolean`*
-
-*Defined in [types.ts:199](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L199)*
-
-___
-<a id="query"></a>
-
-##  query
-
-**● query**: *[QueryableStorage](_types_.queryablestorage.md)<"rxjs">*
-
-*Defined in [types.ts:202](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L202)*
-
-___
-<a id="querymulti"></a>
-
-##  queryMulti
-
-**● queryMulti**: *[QueryableStorageMulti](../modules/_types_.md#queryablestoragemulti)<"rxjs">*
-
-*Defined in [types.ts:203](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L203)*
-
-___
-<a id="rpc"></a>
-
-##  rpc
-
-**● rpc**: *[DecoratedRpc](_types_.decoratedrpc.md)<"rxjs">*
-
-*Defined in [types.ts:204](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L204)*
-
-___
-<a id="runtimemetadata"></a>
-
-##  runtimeMetadata
-
-**● runtimeMetadata**: *`Metadata`*
-
-*Defined in [types.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L200)*
-
-___
-<a id="runtimeversion"></a>
-
-##  runtimeVersion
-
-**● runtimeVersion**: *`RuntimeVersion`*
-
-*Defined in [types.ts:201](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L201)*
-
-___
-<a id="signer"></a>
-
-## `<Optional>` signer
-
-**● signer**: *[Signer](_types_.signer.md)*
-
-*Defined in [types.ts:206](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L206)*
-
-___
-<a id="tx"></a>
-
-##  tx
-
-**● tx**: *[SubmittableExtrinsics](_types_.submittableextrinsics.md)<"rxjs">*
-
-*Defined in [types.ts:205](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L205)*
+*Defined in [types.ts:198](url)*
 
 ___
 
+###  hasSubscriptions
+
+● **hasSubscriptions**: *boolean*
+
+*Defined in [types.ts:199](url)*
+
+___
+
+###  query
+
+● **query**: *[QueryableStorage](_types_.queryablestorage.md)‹*"rxjs"*›*
+
+*Defined in [types.ts:202](url)*
+
+___
+
+###  queryMulti
+
+● **queryMulti**: *[QueryableStorageMulti](../modules/_types_.md#queryablestoragemulti)‹*"rxjs"*›*
+
+*Defined in [types.ts:203](url)*
+
+___
+
+###  rpc
+
+● **rpc**: *[DecoratedRpc](_types_.decoratedrpc.md)‹*"rxjs"*›*
+
+*Defined in [types.ts:204](url)*
+
+___
+
+###  runtimeMetadata
+
+● **runtimeMetadata**: *`Metadata`*
+
+*Defined in [types.ts:200](url)*
+
+___
+
+###  runtimeVersion
+
+● **runtimeVersion**: *`RuntimeVersion`*
+
+*Defined in [types.ts:201](url)*
+
+___
+
+### `Optional` signer
+
+● **signer**? : *[Signer](_types_.signer.md)*
+
+*Defined in [types.ts:206](url)*
+
+___
+
+###  tx
+
+● **tx**: *[SubmittableExtrinsics](_types_.submittableextrinsics.md)‹*"rxjs"*›*
+
+*Defined in [types.ts:205](url)*
+
+___

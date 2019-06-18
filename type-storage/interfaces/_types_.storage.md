@@ -1,25 +1,29 @@
+> # Interface: Storage
 
+## Hierarchy
 
-# Hierarchy
+* **Storage**
 
-**Storage**
+## Indexable
 
-# Indexable
+● \[■&#x60; key&#x60;: *string*\]: [ModuleStorage](_types_.modulestorage.md)
 
-\[key: `string`\]:&nbsp;[ModuleStorage](_types_.modulestorage.md)
-# Properties
+### Index
 
-<a id="substrate"></a>
+#### Properties
 
-##  substrate
+* [substrate](_types_.storage.md#substrate)
 
-**● substrate**: *`object`*
+## Properties
 
-*Defined in [types.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/type-storage/src/types.ts#L13)*
+###  substrate
 
-#### Type declaration
+● **substrate**: *object*
 
-[key: `string`]: `StorageFunction`
+*Defined in [types.ts:13](url)*
+
+#### Type declaration:
+
+● \[■&#x60; key&#x60;: *string*\]: `StorageFunction`
 
 ___
-

@@ -1,10 +1,7 @@
+> # External module: "rpc/SignedBlock"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [SignedBlock](../classes/_rpc_signedblock_.signedblock.md)
-
----
-

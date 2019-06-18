@@ -1,9 +1,9 @@
+> # Interface: ModulesWithMethods
 
+## Hierarchy
 
-# Hierarchy
+* **ModulesWithMethods**
 
-**ModulesWithMethods**
+## Indexable
 
-# Indexable
-
-\[key: `string`\]:&nbsp;[Methods](_primitive_method_.methods.md)
+● \[■&#x60; key&#x60;: *string*\]: [Methods](_primitive_method_.methods.md)

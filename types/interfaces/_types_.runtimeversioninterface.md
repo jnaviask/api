@@ -1,67 +1,70 @@
+> # Interface: RuntimeVersionInterface
 
+## Hierarchy
 
-# Hierarchy
+* **RuntimeVersionInterface**
 
-**RuntimeVersionInterface**
-
-# Implemented by
+## Implemented by
 
 * [RuntimeVersion](../classes/_rpc_runtimeversion_.runtimeversion.md)
 
-# Properties
+### Index
 
-<a id="apis"></a>
+#### Properties
 
-##  apis
+* [apis](_types_.runtimeversioninterface.md#apis)
+* [authoringVersion](_types_.runtimeversioninterface.md#authoringversion)
+* [implName](_types_.runtimeversioninterface.md#implname)
+* [implVersion](_types_.runtimeversioninterface.md#implversion)
+* [specName](_types_.runtimeversioninterface.md#specname)
+* [specVersion](_types_.runtimeversioninterface.md#specversion)
 
-**● apis**: *`Array`<`any`>*
+## Properties
 
-*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L103)*
+###  apis
 
-___
-<a id="authoringversion"></a>
+● **apis**: *`Array<any>`*
 
-##  authoringVersion
-
-**● authoringVersion**: *`BN`*
-
-*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L104)*
-
-___
-<a id="implname"></a>
-
-##  implName
-
-**● implName**: *`String`*
-
-*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L105)*
-
-___
-<a id="implversion"></a>
-
-##  implVersion
-
-**● implVersion**: *`BN`*
-
-*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L106)*
-
-___
-<a id="specname"></a>
-
-##  specName
-
-**● specName**: *`String`*
-
-*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L107)*
-
-___
-<a id="specversion"></a>
-
-##  specVersion
-
-**● specVersion**: *`BN`*
-
-*Defined in [types.ts:108](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L108)*
+*Defined in [types.ts:103](url)*
 
 ___
 
+###  authoringVersion
+
+● **authoringVersion**: *`BN`*
+
+*Defined in [types.ts:104](url)*
+
+___
+
+###  implName
+
+● **implName**: *`String`*
+
+*Defined in [types.ts:105](url)*
+
+___
+
+###  implVersion
+
+● **implVersion**: *`BN`*
+
+*Defined in [types.ts:106](url)*
+
+___
+
+###  specName
+
+● **specName**: *`String`*
+
+*Defined in [types.ts:107](url)*
+
+___
+
+###  specVersion
+
+● **specVersion**: *`BN`*
+
+*Defined in [types.ts:108](url)*
+
+___

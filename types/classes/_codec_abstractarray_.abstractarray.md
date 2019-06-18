@@ -1,248 +1,287 @@
+> # Class: AbstractArray <**T**>
 
+**`name`** AbstractArray
 
-*__name__*: AbstractArray
+**`description`** 
+This manages codec arrays. It is an extension to Array, providing
+specific encoding/decoding on top of the base type.
 
-*__description__*: This manages codec arrays. It is an extension to Array, providing specific encoding/decoding on top of the base type.
+## Type parameters
 
-# Type parameters
-#### T :  [Codec](../interfaces/_types_.codec.md)
-# Hierarchy
+■` T`: *[Codec](../interfaces/_types_.codec.md)*
 
- `Array`<`T`>
+## Hierarchy
 
-**↳ AbstractArray**
+* `Array<T>`
 
-↳  [Vector](_codec_vector_.vector.md)
+  * **AbstractArray**
 
-↳  [Tuple](_codec_tuple_.tuple.md)
+  * [Vector](_codec_vector_.vector.md)
 
-↳  [VectorAny](_codec_vectorany_.vectorany.md)
+  * [Tuple](_codec_tuple_.tuple.md)
 
-# Implements
+  * [VectorAny](_codec_vectorany_.vectorany.md)
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Indexable
+## Indexable
 
-\[n: `number`\]:&nbsp;`T`
-# Properties
+● \[■&#x60; n&#x60;: *number*\]: `T`
 
-<a id="array"></a>
+### Index
 
-## `<Static>` Array
+#### Properties
 
-**● Array**: *`ArrayConstructor`*
+* [Array](_codec_abstractarray_.abstractarray.md#static-array)
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1368*
+#### Accessors
 
-___
+* [encodedLength](_codec_abstractarray_.abstractarray.md#encodedlength)
+* [isEmpty](_codec_abstractarray_.abstractarray.md#isempty)
+* [length](_codec_abstractarray_.abstractarray.md#length)
 
-# Accessors
+#### Methods
 
-<a id="encodedlength"></a>
+* [eq](_codec_abstractarray_.abstractarray.md#eq)
+* [filter](_codec_abstractarray_.abstractarray.md#filter)
+* [map](_codec_abstractarray_.abstractarray.md#map)
+* [toArray](_codec_abstractarray_.abstractarray.md#toarray)
+* [toHex](_codec_abstractarray_.abstractarray.md#tohex)
+* [toJSON](_codec_abstractarray_.abstractarray.md#tojson)
+* [toRawType](_codec_abstractarray_.abstractarray.md#abstract-torawtype)
+* [toString](_codec_abstractarray_.abstractarray.md#tostring)
+* [toU8a](_codec_abstractarray_.abstractarray.md#tou8a)
 
-##  encodedLength
+## Properties
 
-**get encodedLength**(): `number`
+### `Static` Array
 
-*Defined in [codec/AbstractArray.ts:29](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L29)*
+■ **Array**: *`ArrayConstructor`*
 
-*__description__*: The length of the value when encoded as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Defined in [codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L22)*
-
-*__description__*: Checks if the value is an empty value
-
-**Returns:** `boolean`
-
-___
-<a id="length"></a>
-
-##  length
-
-**get length**(): `number`
-
-*Overrides Array.length*
-
-*Defined in [codec/AbstractArray.ts:38](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L38)*
-
-*__description__*: The length of the value
-
-**Returns:** `number`
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1368
 
 ___
 
-# Methods
+## Accessors
 
-<a id="eq"></a>
+###  encodedLength
 
-##  eq
+● **get encodedLength**(): *number*
 
-▸ **eq**(other?: *`any`*): `boolean`
+*Defined in [codec/AbstractArray.ts:29](url)*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+**`description`** The length of the value when encoded as a Uint8Array
 
-*Defined in [codec/AbstractArray.ts:46](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L46)*
+**Returns:** *number*
 
-*__description__*: Compares the value of the input to see if there is a match
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
+
+*Defined in [codec/AbstractArray.ts:22](url)*
+
+**`description`** Checks if the value is an empty value
+
+**Returns:** *boolean*
+
+___
+
+###  length
+
+● **get length**(): *number*
+
+*Overrides void*
+
+*Defined in [codec/AbstractArray.ts:38](url)*
+
+**`description`** The length of the value
+
+**Returns:** *number*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/AbstractArray.ts:46](url)*
+
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="filter"></a>
 
-##  filter
+###  filter
 
-▸ **filter**(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<`T`>
+▸ **filter**(`callbackfn`: function, `thisArg?`: any): *`Array<T>`*
 
-*Overrides Array.filter*
+*Overrides void*
 
-*Defined in [codec/AbstractArray.ts:116](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L116)*
+*Defined in [codec/AbstractArray.ts:116](url)*
 
-*__description__*: Filters the array with the callback
+**`description`** Filters the array with the callback
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  The filter function |
-| `Optional` thisArg | `any` |  The \`this\` object to apply the result to |
+■` callbackfn`: *function*
 
-**Returns:** `Array`<`T`>
+The filter function
+
+▸ (`value`: `T`, `index`: number, `array`: `Array<T>`): *any*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | `T` |
+`index` | number |
+`array` | `Array<T>` |
+
+■`Optional` ` thisArg`: *any*
+
+The `this` object to apply the result to
+
+**Returns:** *`Array<T>`*
 
 ___
-<a id="map"></a>
 
-##  map
+###  map
 
-▸ **map**<`U`>(callbackfn: *`function`*, thisArg?: *`any`*): `Array`<`U`>
+▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *`Array<U>`*
 
-*Overrides Array.map*
+*Overrides void*
 
-*Defined in [codec/AbstractArray.ts:125](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L125)*
+*Defined in [codec/AbstractArray.ts:125](url)*
 
-*__description__*: Maps the array with the callback
+**`description`** Maps the array with the callback
 
 **Type parameters:**
 
-#### U 
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| callbackfn | `function` |  The mapping function |
-| `Optional` thisArg | `any` |  The \`this\` onject to apply the result to |
-
-**Returns:** `Array`<`U`>
-
-___
-<a id="toarray"></a>
-
-##  toArray
-
-▸ **toArray**(): `Array`<`T`>
-
-*Defined in [codec/AbstractArray.ts:53](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L53)*
-
-*__description__*: Converts the Object to an standard JavaScript Array
-
-**Returns:** `Array`<`T`>
-
-___
-<a id="tohex"></a>
-
-##  toHex
-
-▸ **toHex**(): `string`
-
-*Defined in [codec/AbstractArray.ts:60](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L60)*
-
-*__description__*: Returns a hex string representation of the value
-
-**Returns:** `string`
-
-___
-<a id="tojson"></a>
-
-##  toJSON
-
-▸ **toJSON**(): `any`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
-
-*Defined in [codec/AbstractArray.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L67)*
-
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
-
-**Returns:** `any`
-
-___
-<a id="torawtype"></a>
-
-## `<Abstract>` toRawType
-
-▸ **toRawType**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
-
-*Defined in [codec/AbstractArray.ts:76](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L76)*
-
-*__description__*: Returns the base runtime type name for this instance
-
-**Returns:** `string`
-
-___
-<a id="tostring"></a>
-
-##  toString
-
-▸ **toString**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
-
-*Overrides Array.toString*
-
-*Defined in [codec/AbstractArray.ts:81](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L81)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
-
-___
-<a id="tou8a"></a>
-
-##  toU8a
-
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
-
-*Defined in [codec/AbstractArray.ts:94](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractArray.ts#L94)*
-
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+■` U`
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+■` callbackfn`: *function*
 
-**Returns:** `Uint8Array`
+The mapping function
+
+▸ (`value`: `T`, `index`: number, `array`: `Array<T>`): *`U`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | `T` |
+`index` | number |
+`array` | `Array<T>` |
+
+■`Optional` ` thisArg`: *any*
+
+The `this` onject to apply the result to
+
+**Returns:** *`Array<U>`*
 
 ___
 
+###  toArray
+
+▸ **toArray**(): *`Array<T>`*
+
+*Defined in [codec/AbstractArray.ts:53](url)*
+
+**`description`** Converts the Object to an standard JavaScript Array
+
+**Returns:** *`Array<T>`*
+
+___
+
+###  toHex
+
+▸ **toHex**(): *string*
+
+*Defined in [codec/AbstractArray.ts:60](url)*
+
+**`description`** Returns a hex string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toJSON
+
+▸ **toJSON**(): *any*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/AbstractArray.ts:67](url)*
+
+**`description`** Converts the Object to JSON, typically used for RPC transfers
+
+**Returns:** *any*
+
+___
+
+### `Abstract` toRawType
+
+▸ **toRawType**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/AbstractArray.ts:76](url)*
+
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Overrides void*
+
+*Defined in [codec/AbstractArray.ts:81](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/AbstractArray.ts:94](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
+
+**Returns:** *`Uint8Array`*
+
+___

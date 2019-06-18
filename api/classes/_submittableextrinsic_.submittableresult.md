@@ -1,106 +1,115 @@
+> # Class: SubmittableResult
 
+## Hierarchy
 
-# Hierarchy
+* **SubmittableResult**
 
-**SubmittableResult**
+### Index
 
-# Constructors
+#### Constructors
 
-<a id="constructor"></a>
+* [constructor](_submittableextrinsic_.submittableresult.md#constructor)
 
-##  constructor
+#### Properties
 
-⊕ **new SubmittableResult**(__namedParameters: *`object`*): [SubmittableResult](_submittableextrinsic_.submittableresult.md)
+* [events](_submittableextrinsic_.submittableresult.md#events)
+* [status](_submittableextrinsic_.submittableresult.md#status)
 
-*Defined in [SubmittableExtrinsic.ts:33](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L33)*
+#### Accessors
 
-**Parameters:**
+* [isCompleted](_submittableextrinsic_.submittableresult.md#iscompleted)
+* [isError](_submittableextrinsic_.submittableresult.md#iserror)
+* [isFinalized](_submittableextrinsic_.submittableresult.md#isfinalized)
 
-| Name | Type |
-| ------ | ------ |
-| __namedParameters | `object` |
+#### Methods
 
-**Returns:** [SubmittableResult](_submittableextrinsic_.submittableresult.md)
+* [findRecord](_submittableextrinsic_.submittableresult.md#findrecord)
 
-___
+## Constructors
 
-# Properties
+###  constructor
 
-<a id="events"></a>
+\+ **new SubmittableResult**(`__namedParameters`: object): *[SubmittableResult](_submittableextrinsic_.submittableresult.md)*
 
-##  events
-
-**● events**: *`Array`<`EventRecord`>*
-
-*Defined in [SubmittableExtrinsic.ts:32](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L32)*
-
-___
-<a id="status"></a>
-
-##  status
-
-**● status**: *`ExtrinsicStatus`*
-
-*Defined in [SubmittableExtrinsic.ts:33](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L33)*
-
-___
-
-# Accessors
-
-<a id="iscompleted"></a>
-
-##  isCompleted
-
-**get isCompleted**(): `boolean`
-
-*Defined in [SubmittableExtrinsic.ts:40](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L40)*
-
-**Returns:** `boolean`
-
-___
-<a id="iserror"></a>
-
-##  isError
-
-**get isError**(): `boolean`
-
-*Defined in [SubmittableExtrinsic.ts:44](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L44)*
-
-**Returns:** `boolean`
-
-___
-<a id="isfinalized"></a>
-
-##  isFinalized
-
-**get isFinalized**(): `boolean`
-
-*Defined in [SubmittableExtrinsic.ts:48](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L48)*
-
-**Returns:** `boolean`
-
-___
-
-# Methods
-
-<a id="findrecord"></a>
-
-##  findRecord
-
-▸ **findRecord**(section: *`string`*, method: *`string`*): `EventRecord` \| `undefined`
-
-*Defined in [SubmittableExtrinsic.ts:55](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/SubmittableExtrinsic.ts#L55)*
-
-*__description__*: Finds an EventRecord for the specified method & section
+*Defined in [SubmittableExtrinsic.ts:33](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| section | `string` |
-| method | `string` |
+Name | Type |
+------ | ------ |
+`__namedParameters` | object |
 
-**Returns:** `EventRecord` \| `undefined`
+**Returns:** *[SubmittableResult](_submittableextrinsic_.submittableresult.md)*
 
 ___
 
+## Properties
+
+###  events
+
+● **events**: *`Array<EventRecord>`*
+
+*Defined in [SubmittableExtrinsic.ts:32](url)*
+
+___
+
+###  status
+
+● **status**: *`ExtrinsicStatus`*
+
+*Defined in [SubmittableExtrinsic.ts:33](url)*
+
+___
+
+## Accessors
+
+###  isCompleted
+
+● **get isCompleted**(): *boolean*
+
+*Defined in [SubmittableExtrinsic.ts:40](url)*
+
+**Returns:** *boolean*
+
+___
+
+###  isError
+
+● **get isError**(): *boolean*
+
+*Defined in [SubmittableExtrinsic.ts:44](url)*
+
+**Returns:** *boolean*
+
+___
+
+###  isFinalized
+
+● **get isFinalized**(): *boolean*
+
+*Defined in [SubmittableExtrinsic.ts:48](url)*
+
+**Returns:** *boolean*
+
+___
+
+## Methods
+
+###  findRecord
+
+▸ **findRecord**(`section`: string, `method`: string): *`EventRecord` | undefined*
+
+*Defined in [SubmittableExtrinsic.ts:55](url)*
+
+**`description`** Finds an EventRecord for the specified method & section
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`section` | string |
+`method` | string |
+
+**Returns:** *`EventRecord` | undefined*
+
+___

@@ -1,268 +1,277 @@
+> # Class: MethodIndex
 
+**`name`** MethodIndex
 
-*__name__*: MethodIndex
+**`description`** 
+A wrapper around the `[sectionIndex, methodIndex]` value that uniquely identifies a method
 
-*__description__*: A wrapper around the `[sectionIndex, methodIndex]` value that uniquely identifies a method
+## Hierarchy
 
-# Hierarchy
+  * [U8aFixed](_codec_u8afixed_.u8afixed.md)
 
-↳  [U8aFixed](_codec_u8afixed_.u8afixed.md)
+  * **MethodIndex**
 
-**↳ MethodIndex**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Indexable
+## Indexable
 
-\[index: `number`\]:&nbsp;`number`
-# Constructors
+● \[■&#x60; index&#x60;: *number*\]: number
 
-<a id="constructor"></a>
+### Index
 
-##  constructor
+#### Constructors
 
-⊕ **new MethodIndex**(value?: *[AnyU8a](../modules/_types_.md#anyu8a)*): [MethodIndex](_primitive_method_.methodindex.md)
+* [constructor](_primitive_method_.methodindex.md#constructor)
+
+#### Accessors
+
+* [encodedLength](_primitive_method_.methodindex.md#encodedlength)
+* [isEmpty](_primitive_method_.methodindex.md#isempty)
+* [length](_primitive_method_.methodindex.md#length)
+
+#### Methods
+
+* [bitLength](_primitive_method_.methodindex.md#bitlength)
+* [eq](_primitive_method_.methodindex.md#eq)
+* [subarray](_primitive_method_.methodindex.md#subarray)
+* [toHex](_primitive_method_.methodindex.md#tohex)
+* [toJSON](_primitive_method_.methodindex.md#tojson)
+* [toRawType](_primitive_method_.methodindex.md#torawtype)
+* [toString](_primitive_method_.methodindex.md#tostring)
+* [toU8a](_primitive_method_.methodindex.md#tou8a)
+* [with](_primitive_method_.methodindex.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new MethodIndex**(`value?`: [AnyU8a](../modules/_types_.md#anyu8a)): *[MethodIndex](_primitive_method_.methodindex.md)*
 
 *Overrides [U8aFixed](_codec_u8afixed_.u8afixed.md).[constructor](_codec_u8afixed_.u8afixed.md#constructor)*
 
-*Defined in [primitive/Method.ts:53](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L53)*
+*Defined in [primitive/Method.ts:53](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | [AnyU8a](../modules/_types_.md#anyu8a) |
+Name | Type |
+------ | ------ |
+`value?` | [AnyU8a](../modules/_types_.md#anyu8a) |
 
-**Returns:** [MethodIndex](_primitive_method_.methodindex.md)
+**Returns:** *[MethodIndex](_primitive_method_.methodindex.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="encodedlength"></a>
+###  encodedLength
 
-##  encodedLength
-
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[encodedLength](_codec_u8a_.u8a.md#encodedlength)*
 
-*Defined in [codec/U8a.ts:36](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L36)*
+*Defined in [codec/U8a.ts:36](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[isEmpty](_codec_u8a_.u8a.md#isempty)*
 
-*Defined in [codec/U8a.ts:43](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L43)*
+*Defined in [codec/U8a.ts:43](url)*
 
-*__description__*: Returns true if the type wraps an empty/default all-0 value
+**`description`** Returns true if the type wraps an empty/default all-0 value
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="length"></a>
 
-##  length
+###  length
 
-**get length**(): `number`
+● **get length**(): *number*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[length](_codec_u8a_.u8a.md#length)*
 
-*Overrides Uint8Array.length*
+*Overrides void*
 
-*Defined in [codec/U8a.ts:50](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L50)*
+*Defined in [codec/U8a.ts:50](url)*
 
-*__description__*: The length of the value
+**`description`** The length of the value
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
 
-# Methods
+## Methods
 
-<a id="bitlength"></a>
+###  bitLength
 
-##  bitLength
-
-▸ **bitLength**(): `number`
+▸ **bitLength**(): *number*
 
 *Inherited from [U8aFixed](_codec_u8afixed_.u8afixed.md).[bitLength](_codec_u8afixed_.u8afixed.md#bitlength)*
 
-*Defined in [codec/U8aFixed.ts:60](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8aFixed.ts#L60)*
+*Defined in [codec/U8aFixed.ts:60](url)*
 
-*__description__*: Returns the number of bits in the value
+**`description`** Returns the number of bits in the value
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="eq"></a>
 
-##  eq
+###  eq
 
-▸ **eq**(other?: *`any`*): `boolean`
+▸ **eq**(`other?`: any): *boolean*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[eq](_codec_u8a_.u8a.md#eq)*
 
-*Defined in [codec/U8a.ts:58](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L58)*
+*Defined in [codec/U8a.ts:58](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="subarray"></a>
 
-##  subarray
+###  subarray
 
-▸ **subarray**(begin: *`number`*, end?: *`undefined` \| `number`*): `Uint8Array`
+▸ **subarray**(`begin`: number, `end?`: undefined | number): *`Uint8Array`*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[subarray](_codec_u8a_.u8a.md#subarray)*
 
-*Overrides Uint8Array.subarray*
+*Overrides void*
 
-*Defined in [codec/U8a.ts:73](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L73)*
+*Defined in [codec/U8a.ts:73](url)*
 
-*__description__*: Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
+**`description`** Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| begin | `number` |  The position to start at |
-| `Optional` end | `undefined` \| `number` |  The position to end at |
+Name | Type | Description |
+------ | ------ | ------ |
+`begin` | number | The position to start at |
+`end?` | undefined \| number | The position to end at  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[toHex](_codec_u8a_.u8a.md#tohex)*
 
-*Defined in [codec/U8a.ts:80](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L80)*
+*Defined in [codec/U8a.ts:80](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[toJSON](_codec_u8a_.u8a.md#tojson)*
 
-*Defined in [codec/U8a.ts:87](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L87)*
+*Defined in [codec/U8a.ts:87](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [U8aFixed](_codec_u8afixed_.u8afixed.md).[toRawType](_codec_u8afixed_.u8afixed.md#torawtype)*
 
 *Overrides [U8a](_codec_u8a_.u8a.md).[toRawType](_codec_u8a_.u8a.md#torawtype)*
 
-*Defined in [codec/U8aFixed.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8aFixed.ts#L67)*
+*Defined in [codec/U8aFixed.ts:67](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[toString](_codec_u8a_.u8a.md#tostring)*
 
-*Overrides Uint8Array.toString*
+*Overrides void*
 
-*Defined in [codec/U8a.ts:101](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L101)*
+*Defined in [codec/U8a.ts:101](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[toU8a](_codec_u8a_.u8a.md#tou8a)*
 
-*Defined in [codec/U8a.ts:109](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L109)*
+*Defined in [codec/U8a.ts:109](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
-
-**Returns:** `Uint8Array`
-
-___
-<a id="with"></a>
-
-## `<Static>` with
-
-▸ **with**(bitLength: *[BitLength](../modules/_codec_u8afixed_.md#bitlength)*): [Constructor](../interfaces/_types_.constructor.md)<[U8aFixed](_codec_u8afixed_.u8afixed.md)>
-
-*Inherited from [U8aFixed](_codec_u8afixed_.u8afixed.md).[with](_codec_u8afixed_.u8afixed.md#with)*
-
-*Defined in [codec/U8aFixed.ts:49](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8aFixed.ts#L49)*
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| bitLength | [BitLength](../modules/_codec_u8afixed_.md#bitlength) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[U8aFixed](_codec_u8afixed_.u8afixed.md)>
+**Returns:** *`Uint8Array`*
 
 ___
 
+### `Static` with
+
+▸ **with**(`bitLength`: [BitLength](../modules/_codec_u8afixed_.md#bitlength)): *[Constructor](../interfaces/_types_.constructor.md)‹*[U8aFixed](_codec_u8afixed_.u8afixed.md)*›*
+
+*Inherited from [U8aFixed](_codec_u8afixed_.u8afixed.md).[with](_codec_u8afixed_.u8afixed.md#static-with)*
+
+*Defined in [codec/U8aFixed.ts:49](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`bitLength` | [BitLength](../modules/_codec_u8afixed_.md#bitlength) |
+
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[U8aFixed](_codec_u8afixed_.u8afixed.md)*›*
+
+___

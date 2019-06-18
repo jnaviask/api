@@ -1,2 +1,1 @@
-
-
+> # External module: "Metadata/v2/static"

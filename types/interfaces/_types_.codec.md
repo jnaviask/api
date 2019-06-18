@@ -1,20 +1,23 @@
+> # Interface: Codec
 
+**`name`** Codec
 
-*__name__*: Codec
+**`description`** 
+The base Codec interface. All types implement the interface provided here. Additionally
+implementors can add their own specific interfaces and helpres with getters and functions.
+The Codec Base is however required for operating as an encoding/decoding layer
 
-*__description__*: The base Codec interface. All types implement the interface provided here. Additionally implementors can add their own specific interfaces and helpres with getters and functions. The Codec Base is however required for operating as an encoding/decoding layer
+## Hierarchy
 
-# Hierarchy
+* **Codec**
 
-**Codec**
+  * [IMethod](_types_.imethod.md)
 
-↳  [IMethod](_types_.imethod.md)
+  * [IExtrinsicSignature](_types_.iextrinsicsignature.md)
 
-↳  [IExtrinsicSignature](_types_.iextrinsicsignature.md)
+  * [MetadataInterface](_metadata_types_.metadatainterface.md)
 
-↳  [MetadataInterface](_metadata_types_.metadatainterface.md)
-
-# Implemented by
+## Implemented by
 
 * [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md)
 * [AccountId](../classes/_primitive_accountid_.accountid.md)
@@ -251,127 +254,132 @@
 * [Votes](../classes/_type_votes_.votes.md)
 * [WithdrawReasons](../classes/_type_withdrawreasons_.withdrawreasons.md)
 
-# Properties
+### Index
 
-<a id="encodedlength"></a>
+#### Properties
 
-##  encodedLength
+* [encodedLength](_types_.codec.md#encodedlength)
+* [isEmpty](_types_.codec.md#isempty)
 
-**● encodedLength**: *`number`*
+#### Methods
 
-*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L47)*
+* [eq](_types_.codec.md#eq)
+* [toHex](_types_.codec.md#tohex)
+* [toJSON](_types_.codec.md#tojson)
+* [toRawType](_types_.codec.md#torawtype)
+* [toString](_types_.codec.md#tostring)
+* [toU8a](_types_.codec.md#tou8a)
 
-*__description__*: The length of the value when encoded as a Uint8Array
+## Properties
+
+###  encodedLength
+
+● **encodedLength**: *number*
+
+*Defined in [types.ts:47](url)*
+
+**`description`** The length of the value when encoded as a Uint8Array
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**● isEmpty**: *`boolean`*
+● **isEmpty**: *boolean*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L52)*
+*Defined in [types.ts:52](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
 ___
 
-# Methods
+## Methods
 
-<a id="eq"></a>
+###  eq
 
-##  eq
+▸ **eq**(`other?`: any): *boolean*
 
-▸ **eq**(other?: *`any`*): `boolean`
+*Defined in [types.ts:57](url)*
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L57)*
-
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(isLe?: *`undefined` \| `false` \| `true`*): `string`
+▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L62)*
+*Defined in [types.ts:62](url)*
 
-*__description__*: Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
+**`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` isLe | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`isLe?` | undefined \| false \| true |
 
-**Returns:** `string`
-
-___
-<a id="tojson"></a>
-
-##  toJSON
-
-▸ **toJSON**(): `any`
-
-*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L67)*
-
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
-
-**Returns:** `any`
+**Returns:** *string*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toJSON
 
-▸ **toRawType**(): `string`
+▸ **toJSON**(): *any*
 
-*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L72)*
+*Defined in [types.ts:67](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `string`
-
-___
-<a id="tostring"></a>
-
-##  toString
-
-▸ **toString**(): `string`
-
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L77)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
+**Returns:** *any*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toRawType
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toRawType**(): *string*
 
-*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L83)*
+*Defined in [types.ts:72](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Defined in [types.ts:77](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Defined in [types.ts:83](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

@@ -1,320 +1,333 @@
+> # Class: Compact
 
+**`name`** Compact
 
-*__name__*: Compact
+**`description`** 
+A compact length-encoding codec wrapper. It performs the same function as Length, however
+differs in that it uses a variable number of bytes to do the actual encoding. This is mostly
+used by other types to add length-prefixed encoding, or in the case of wrapped types, taking
+a number and making the compact representation thereof
 
-*__description__*: A compact length-encoding codec wrapper. It performs the same function as Length, however differs in that it uses a variable number of bytes to do the actual encoding. This is mostly used by other types to add length-prefixed encoding, or in the case of wrapped types, taking a number and making the compact representation thereof
+## Hierarchy
 
-# Hierarchy
+* [Base](_codec_base_.base.md)‹*[UInt](_codec_uint_.uint.md) | [Moment](_primitive_moment_.moment.md)*›
 
- [Base](_codec_base_.base.md)<[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)>
+  * **Compact**
 
-**↳ Compact**
+  * [NonceCompact](_type_noncecompact_.noncecompact.md)
 
-↳  [NonceCompact](_type_noncecompact_.noncecompact.md)
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_codec_compact_.compact.md#constructor)
 
-⊕ **new Compact**(Type: *[Constructor](../interfaces/_types_.constructor.md)<[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)>*, value?: *[Compact](_codec_compact_.compact.md) \| [AnyNumber](../modules/_types_.md#anynumber)*): [Compact](_codec_compact_.compact.md)
+#### Properties
+
+* [addLengthPrefix](_codec_compact_.compact.md#static-addlengthprefix)
+* [decodeU8a](_codec_compact_.compact.md#static-decodeu8a)
+* [encodeU8a](_codec_compact_.compact.md#static-encodeu8a)
+
+#### Accessors
+
+* [encodedLength](_codec_compact_.compact.md#encodedlength)
+* [isEmpty](_codec_compact_.compact.md#isempty)
+
+#### Methods
+
+* [bitLength](_codec_compact_.compact.md#bitlength)
+* [eq](_codec_compact_.compact.md#eq)
+* [toBn](_codec_compact_.compact.md#tobn)
+* [toHex](_codec_compact_.compact.md#tohex)
+* [toJSON](_codec_compact_.compact.md#tojson)
+* [toNumber](_codec_compact_.compact.md#tonumber)
+* [toRawType](_codec_compact_.compact.md#torawtype)
+* [toString](_codec_compact_.compact.md#tostring)
+* [toU8a](_codec_compact_.compact.md#tou8a)
+* [unwrap](_codec_compact_.compact.md#unwrap)
+* [decodeCompact](_codec_compact_.compact.md#static-decodecompact)
+* [stripLengthPrefix](_codec_compact_.compact.md#static-striplengthprefix)
+* [with](_codec_compact_.compact.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new Compact**(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*[UInt](_codec_uint_.uint.md) | [Moment](_primitive_moment_.moment.md)*›, `value`: [Compact](_codec_compact_.compact.md) | [AnyNumber](../modules/_types_.md#anynumber)): *[Compact](_codec_compact_.compact.md)*
 
 *Overrides [Base](_codec_base_.base.md).[constructor](_codec_base_.base.md#constructor)*
 
-*Defined in [codec/Compact.ts:23](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L23)*
+*Defined in [codec/Compact.ts:23](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| Type | [Constructor](../interfaces/_types_.constructor.md)<[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)> | - |
-| `Default value` value | [Compact](_codec_compact_.compact.md) \| [AnyNumber](../modules/_types_.md#anynumber) | 0 |
+Name | Type | Default |
+------ | ------ | ------ |
+`Type` | [Constructor](../interfaces/_types_.constructor.md)‹*[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)*› | - |
+`value` | [Compact](_codec_compact_.compact.md) \| [AnyNumber](../modules/_types_.md#anynumber) | 0 |
 
-**Returns:** [Compact](_codec_compact_.compact.md)
+**Returns:** *[Compact](_codec_compact_.compact.md)*
 
 ___
 
-# Properties
+## Properties
 
-<a id="addlengthprefix"></a>
+### `Static` addLengthPrefix
 
-## `<Static>` addLengthPrefix
+■ **addLengthPrefix**: *`compactAddLength`* =  compactAddLength
 
-**● addLengthPrefix**: *`compactAddLength`* =  compactAddLength
-
-*Defined in [codec/Compact.ts:41](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L41)*
+*Defined in [codec/Compact.ts:41](url)*
 
 Prepend a Uint8Array with its compact length.
 
-*__param__*: The Uint8Array to be prefixed
-
-___
-<a id="decodeu8a"></a>
-
-## `<Static>` decodeU8a
-
-**● decodeU8a**: *`compactFromU8a`* =  compactFromU8a
-
-*Defined in [codec/Compact.ts:42](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L42)*
-
-___
-<a id="encodeu8a"></a>
-
-## `<Static>` encodeU8a
-
-**● encodeU8a**: *`compactToU8a`* =  compactToU8a
-
-*Defined in [codec/Compact.ts:43](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L43)*
+**`param`** The Uint8Array to be prefixed
 
 ___
 
-# Accessors
+### `Static` decodeU8a
 
-<a id="encodedlength"></a>
+■ **decodeU8a**: *`compactFromU8a`* =  compactFromU8a
 
-##  encodedLength
-
-**get encodedLength**(): `number`
-
-*Defined in [codec/Compact.ts:72](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L72)*
-
-*__description__*: The length of the value when encoded as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Defined in [codec/Compact.ts:79](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L79)*
-
-*__description__*: Checks if the value is an empty value
-
-**Returns:** `boolean`
+*Defined in [codec/Compact.ts:42](url)*
 
 ___
 
-# Methods
+### `Static` encodeU8a
 
-<a id="bitlength"></a>
+■ **encodeU8a**: *`compactToU8a`* =  compactToU8a
 
-##  bitLength
-
-▸ **bitLength**(): [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)
-
-*Defined in [codec/Compact.ts:86](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L86)*
-
-*__description__*: Returns the number of bits in the value
-
-**Returns:** [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)
+*Defined in [codec/Compact.ts:43](url)*
 
 ___
-<a id="eq"></a>
 
-##  eq
+## Accessors
 
-▸ **eq**(other?: *`any`*): `boolean`
+###  encodedLength
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+● **get encodedLength**(): *number*
 
-*Defined in [codec/Compact.ts:93](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L93)*
+*Defined in [codec/Compact.ts:72](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** The length of the value when encoded as a Uint8Array
+
+**Returns:** *number*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
+
+*Defined in [codec/Compact.ts:79](url)*
+
+**`description`** Checks if the value is an empty value
+
+**Returns:** *boolean*
+
+___
+
+## Methods
+
+###  bitLength
+
+▸ **bitLength**(): *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*
+
+*Defined in [codec/Compact.ts:86](url)*
+
+**`description`** Returns the number of bits in the value
+
+**Returns:** *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*
+
+___
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/Compact.ts:93](url)*
+
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
-
-___
-<a id="tobn"></a>
-
-##  toBn
-
-▸ **toBn**(): `BN`
-
-*Defined in [codec/Compact.ts:104](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L104)*
-
-*__description__*: Returns the BN representation of the number
-
-**Returns:** `BN`
+**Returns:** *boolean*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toBn
 
-▸ **toHex**(isLe?: *`undefined` \| `false` \| `true`*): `any`
+▸ **toBn**(): *`BN`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toHex](../interfaces/_types_.codec.md#tohex)*
+*Defined in [codec/Compact.ts:104](url)*
 
-*Defined in [codec/Compact.ts:111](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L111)*
+**`description`** Returns the BN representation of the number
 
-*__description__*: Returns a hex string representation of the value
+**Returns:** *`BN`*
+
+___
+
+###  toHex
+
+▸ **toHex**(`isLe?`: undefined | false | true): *any*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/Compact.ts:111](url)*
+
+**`description`** Returns a hex string representation of the value
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` isLe | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`isLe?` | undefined \| false \| true |
 
-**Returns:** `any`
-
-___
-<a id="tojson"></a>
-
-##  toJSON
-
-▸ **toJSON**(): `any`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
-
-*Defined in [codec/Compact.ts:118](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L118)*
-
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
-
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="tonumber"></a>
 
-##  toNumber
+###  toJSON
 
-▸ **toNumber**(): `number`
+▸ **toJSON**(): *any*
 
-*Defined in [codec/Compact.ts:125](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L125)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*__description__*: Returns the number representation for the value
+*Defined in [codec/Compact.ts:118](url)*
 
-**Returns:** `number`
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-___
-<a id="torawtype"></a>
-
-##  toRawType
-
-▸ **toRawType**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
-
-*Defined in [codec/Compact.ts:132](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L132)*
-
-*__description__*: Returns the base runtime type name for this instance
-
-**Returns:** `string`
+**Returns:** *any*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toNumber
 
-▸ **toString**(): `string`
+▸ **toNumber**(): *number*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Defined in [codec/Compact.ts:125](url)*
 
-*Defined in [codec/Compact.ts:139](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L139)*
+**`description`** Returns the number representation for the value
 
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
+**Returns:** *number*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toRawType
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Compact.ts:147](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L147)*
+*Defined in [codec/Compact.ts:132](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/Compact.ts:139](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/Compact.ts:147](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
-
-___
-<a id="unwrap"></a>
-
-##  unwrap
-
-▸ **unwrap**(): [UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)
-
-*Defined in [codec/Compact.ts:154](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L154)*
-
-*__description__*: Returns the embedded [UInt](_codec_uint_.uint.md) or [Moment](_primitive_moment_.moment.md) value
-
-**Returns:** [UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="decodecompact"></a>
 
-## `<Static>` decodeCompact
+###  unwrap
 
-▸ **decodeCompact**(Type: *[Constructor](../interfaces/_types_.constructor.md)<[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)>*, value: *[Compact](_codec_compact_.compact.md) \| [AnyNumber](../modules/_types_.md#anynumber)*): [Moment](_primitive_moment_.moment.md) \| [UInt](_codec_uint_.uint.md)
+▸ **unwrap**(): *[UInt](_codec_uint_.uint.md) | [Moment](_primitive_moment_.moment.md)*
 
-*Defined in [codec/Compact.ts:51](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L51)*
+*Defined in [codec/Compact.ts:154](url)*
+
+**`description`** Returns the embedded [UInt](_codec_uint_.uint.md) or [Moment](_primitive_moment_.moment.md) value
+
+**Returns:** *[UInt](_codec_uint_.uint.md) | [Moment](_primitive_moment_.moment.md)*
+
+___
+
+### `Static` decodeCompact
+
+▸ **decodeCompact**(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*[UInt](_codec_uint_.uint.md) | [Moment](_primitive_moment_.moment.md)*›, `value`: [Compact](_codec_compact_.compact.md) | [AnyNumber](../modules/_types_.md#anynumber)): *[Moment](_primitive_moment_.moment.md) | [UInt](_codec_uint_.uint.md)*
+
+*Defined in [codec/Compact.ts:51](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Type | [Constructor](../interfaces/_types_.constructor.md)<[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)> |
-| value | [Compact](_codec_compact_.compact.md) \| [AnyNumber](../modules/_types_.md#anynumber) |
+Name | Type |
+------ | ------ |
+`Type` | [Constructor](../interfaces/_types_.constructor.md)‹*[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)*› |
+`value` | [Compact](_codec_compact_.compact.md) \| [AnyNumber](../modules/_types_.md#anynumber) |
 
-**Returns:** [Moment](_primitive_moment_.moment.md) \| [UInt](_codec_uint_.uint.md)
+**Returns:** *[Moment](_primitive_moment_.moment.md) | [UInt](_codec_uint_.uint.md)*
 
 ___
-<a id="striplengthprefix"></a>
 
-## `<Static>` stripLengthPrefix
+### `Static` stripLengthPrefix
 
-▸ **stripLengthPrefix**(u8a: *`Uint8Array`*, bitLength?: *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*): `Uint8Array`
+▸ **stripLengthPrefix**(`u8a`: `Uint8Array`, `bitLength`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *`Uint8Array`*
 
-*Defined in [codec/Compact.ts:45](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L45)*
+*Defined in [codec/Compact.ts:45](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| u8a | `Uint8Array` | - |
-| `Default value` bitLength | [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength) |  DEFAULT_BITLENGTH |
+Name | Type | Default |
+------ | ------ | ------ |
+`u8a` | `Uint8Array` | - |
+`bitLength` | [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength) |  DEFAULT_BITLENGTH |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**(Type: *[Constructor](../interfaces/_types_.constructor.md)<[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)>*): [Constructor](../interfaces/_types_.constructor.md)<[Compact](_codec_compact_.compact.md)>
+▸ **with**(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*[UInt](_codec_uint_.uint.md) | [Moment](_primitive_moment_.moment.md)*›): *[Constructor](../interfaces/_types_.constructor.md)‹*[Compact](_codec_compact_.compact.md)*›*
 
-*Defined in [codec/Compact.ts:28](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Compact.ts#L28)*
+*Defined in [codec/Compact.ts:28](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Type | [Constructor](../interfaces/_types_.constructor.md)<[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)> |
+Name | Type |
+------ | ------ |
+`Type` | [Constructor](../interfaces/_types_.constructor.md)‹*[UInt](_codec_uint_.uint.md) \| [Moment](_primitive_moment_.moment.md)*› |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Compact](_codec_compact_.compact.md)>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Compact](_codec_compact_.compact.md)*›*
 
 ___
-

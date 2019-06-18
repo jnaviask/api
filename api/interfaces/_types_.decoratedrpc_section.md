@@ -1,11 +1,13 @@
+> # Interface: DecoratedRpc$Section <**ApiType**>
 
+## Type parameters
 
-# Type parameters
-#### ApiType 
-# Hierarchy
+■` ApiType`
 
-**DecoratedRpc$Section**
+## Hierarchy
 
-# Indexable
+* **DecoratedRpc$Section**
 
-\[index: `string`\]:&nbsp;`DecoratedRpc$Method`<`ApiType`>
+## Indexable
+
+● \[■&#x60; index&#x60;: *string*\]: `DecoratedRpc$Method<ApiType>`

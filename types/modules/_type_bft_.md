@@ -1,37 +1,31 @@
+> # External module: "type/Bft"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [BftAuthoritySignature](../classes/_type_bft_.bftauthoritysignature.md)
 * [BftHashSignature](../classes/_type_bft_.bfthashsignature.md)
 
-### Type aliases
+#### Type aliases
 
 * [BftAuthoritySignatureValue](_type_bft_.md#bftauthoritysignaturevalue)
 * [BftHashSignatureValue](_type_bft_.md#bfthashsignaturevalue)
 
----
+## Type aliases
 
-# Type aliases
+###  BftAuthoritySignatureValue
 
-<a id="bftauthoritysignaturevalue"></a>
+Ƭ **BftAuthoritySignatureValue**: *[[AnyU8a](_types_.md#anyu8a), [AnyU8a](_types_.md#anyu8a)]*
 
-##  BftAuthoritySignatureValue
-
-**Ƭ BftAuthoritySignatureValue**: *[[AnyU8a](_types_.md#anyu8a), [AnyU8a](_types_.md#anyu8a)]*
-
-*Defined in [type/Bft.ts:12](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Bft.ts#L12)*
-
-___
-<a id="bfthashsignaturevalue"></a>
-
-##  BftHashSignatureValue
-
-**Ƭ BftHashSignatureValue**: *[[AnyU8a](_types_.md#anyu8a), [AnyU8a](_types_.md#anyu8a)]*
-
-*Defined in [type/Bft.ts:43](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Bft.ts#L43)*
+*Defined in [type/Bft.ts:12](url)*
 
 ___
 
+###  BftHashSignatureValue
+
+Ƭ **BftHashSignatureValue**: *[[AnyU8a](_types_.md#anyu8a), [AnyU8a](_types_.md#anyu8a)]*
+
+*Defined in [type/Bft.ts:43](url)*
+
+___

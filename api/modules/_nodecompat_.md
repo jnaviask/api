@@ -1,22 +1,25 @@
+> # External module: "nodeCompat"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="injectnodecompat"></a>
+* [injectNodeCompat](_nodecompat_.md#injectnodecompat)
 
-##  injectNodeCompat
+## Functions
 
-▸ **injectNodeCompat**(__namedParameters: *`object`*): `void`
+###  injectNodeCompat
 
-*Defined in [nodeCompat.ts:35](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/nodeCompat.ts#L35)*
+▸ **injectNodeCompat**(`__namedParameters`: object): *void*
+
+*Defined in [nodeCompat.ts:35](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| __namedParameters | `object` |
+Name | Type |
+------ | ------ |
+`__namedParameters` | object |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-

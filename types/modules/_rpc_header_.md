@@ -1,28 +1,23 @@
+> # External module: "rpc/Header"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Header](../classes/_rpc_header_.header.md)
 
-### Type aliases
+#### Type aliases
 
 * [HeaderValue](_rpc_header_.md#headervalue)
 
----
+## Type aliases
 
-# Type aliases
+###  HeaderValue
 
-<a id="headervalue"></a>
+Ƭ **HeaderValue**: *object*
 
-##  HeaderValue
+*Defined in [rpc/Header.ts:15](url)*
 
-**Ƭ HeaderValue**: *`object`*
-
-*Defined in [rpc/Header.ts:15](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Header.ts#L15)*
-
-#### Type declaration
+#### Type declaration:
 
 ___
-

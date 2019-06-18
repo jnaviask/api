@@ -1,17 +1,17 @@
+> # External module: "codec/createType"
 
+### Index
 
-# Index
-
-### Enumerations
+#### Enumerations
 
 * [TypeDefInfo](../enums/_codec_createtype_.typedefinfo.md)
 
-### Type aliases
+#### Type aliases
 
 * [TypeDef](_codec_createtype_.md#typedef)
 * [TypeDefExtVecFixed](_codec_createtype_.md#typedefextvecfixed)
 
-### Functions
+#### Functions
 
 * [createClass](_codec_createtype_.md#createclass)
 * [createType](_codec_createtype_.md#createtype)
@@ -19,121 +19,109 @@
 * [getTypeDef](_codec_createtype_.md#gettypedef)
 * [typeSplit](_codec_createtype_.md#typesplit)
 
----
+## Type aliases
 
-# Type aliases
+###  TypeDef
 
-<a id="typedef"></a>
+Ƭ **TypeDef**: *object*
 
-##  TypeDef
+*Defined in [codec/createType.ts:41](url)*
 
-**Ƭ TypeDef**: *`object`*
-
-*Defined in [codec/createType.ts:41](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L41)*
-
-#### Type declaration
-
-___
-<a id="typedefextvecfixed"></a>
-
-##  TypeDefExtVecFixed
-
-**Ƭ TypeDefExtVecFixed**: *`object`*
-
-*Defined in [codec/createType.ts:36](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L36)*
-
-#### Type declaration
+#### Type declaration:
 
 ___
 
-# Functions
+###  TypeDefExtVecFixed
 
-<a id="createclass"></a>
+Ƭ **TypeDefExtVecFixed**: *object*
 
-##  createClass
+*Defined in [codec/createType.ts:36](url)*
 
-▸ **createClass**(type: *[Text](../classes/_primitive_text_.text.md) \| `string`*): [Constructor](../interfaces/_types_.constructor.md)
+#### Type declaration:
 
-*Defined in [codec/createType.ts:249](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L249)*
+___
+
+## Functions
+
+###  createClass
+
+▸ **createClass**(`type`: [Text](../classes/_primitive_text_.text.md) | string): *[Constructor](../interfaces/_types_.constructor.md)*
+
+*Defined in [codec/createType.ts:249](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| type | [Text](../classes/_primitive_text_.text.md) \| `string` |
+Name | Type |
+------ | ------ |
+`type` | [Text](../classes/_primitive_text_.text.md) \| string |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)*
 
 ___
-<a id="createtype"></a>
 
-##  createType
+###  createType
 
-▸ **createType**(type: *[Text](../classes/_primitive_text_.text.md) \| `string`*, value?: *`any`*, isPedantic?: *`undefined` \| `false` \| `true`*): [Codec](../interfaces/_types_.codec.md)
+▸ **createType**(`type`: [Text](../classes/_primitive_text_.text.md) | string, `value?`: any, `isPedantic?`: undefined | false | true): *[Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/createType.ts:278](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L278)*
+*Defined in [codec/createType.ts:278](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| type | [Text](../classes/_primitive_text_.text.md) \| `string` |
-| `Optional` value | `any` |
-| `Optional` isPedantic | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`type` | [Text](../classes/_primitive_text_.text.md) \| string |
+`value?` | any |
+`isPedantic?` | undefined \| false \| true |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md)
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
-<a id="gettypeclass"></a>
 
-##  getTypeClass
+###  getTypeClass
 
-▸ **getTypeClass**(value: *[TypeDef](_codec_createtype_.md#typedef)*): [Constructor](../interfaces/_types_.constructor.md)
+▸ **getTypeClass**(`value`: [TypeDef](_codec_createtype_.md#typedef)): *[Constructor](../interfaces/_types_.constructor.md)*
 
-*Defined in [codec/createType.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L176)*
+*Defined in [codec/createType.ts:176](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | [TypeDef](_codec_createtype_.md#typedef) |
+Name | Type |
+------ | ------ |
+`value` | [TypeDef](_codec_createtype_.md#typedef) |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)*
 
 ___
-<a id="gettypedef"></a>
 
-##  getTypeDef
+###  getTypeDef
 
-▸ **getTypeDef**(_type: *[Text](../classes/_primitive_text_.text.md) \| `string`*, name?: *`undefined` \| `string`*): [TypeDef](_codec_createtype_.md#typedef)
+▸ **getTypeDef**(`_type`: [Text](../classes/_primitive_text_.text.md) | string, `name?`: undefined | string): *[TypeDef](_codec_createtype_.md#typedef)*
 
-*Defined in [codec/createType.ts:97](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L97)*
+*Defined in [codec/createType.ts:97](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| _type | [Text](../classes/_primitive_text_.text.md) \| `string` |
-| `Optional` name | `undefined` \| `string` |
+Name | Type |
+------ | ------ |
+`_type` | [Text](../classes/_primitive_text_.text.md) \| string |
+`name?` | undefined \| string |
 
-**Returns:** [TypeDef](_codec_createtype_.md#typedef)
+**Returns:** *[TypeDef](_codec_createtype_.md#typedef)*
 
 ___
-<a id="typesplit"></a>
 
-##  typeSplit
+###  typeSplit
 
-▸ **typeSplit**(type: *`string`*): `Array`<`string`>
+▸ **typeSplit**(`type`: string): *`Array<string>`*
 
-*Defined in [codec/createType.ts:50](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L50)*
+*Defined in [codec/createType.ts:50](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| type | `string` |
+Name | Type |
+------ | ------ |
+`type` | string |
 
-**Returns:** `Array`<`string`>
+**Returns:** *`Array<string>`*
 
 ___
-

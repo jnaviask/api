@@ -1,108 +1,111 @@
+> # Interface: DerivedStaking
 
+## Hierarchy
 
-# Hierarchy
+* **DerivedStaking**
 
-**DerivedStaking**
+### Index
 
-# Properties
+#### Properties
 
-<a id="accountid"></a>
+* [accountId](_types_.derivedstaking.md#accountid)
+* [controllerId](_types_.derivedstaking.md#optional-controllerid)
+* [nextSessionId](_types_.derivedstaking.md#optional-nextsessionid)
+* [nominators](_types_.derivedstaking.md#optional-nominators)
+* [redeemable](_types_.derivedstaking.md#optional-redeemable)
+* [rewardDestination](_types_.derivedstaking.md#optional-rewarddestination)
+* [stakers](_types_.derivedstaking.md#optional-stakers)
+* [stakingLedger](_types_.derivedstaking.md#optional-stakingledger)
+* [stashId](_types_.derivedstaking.md#optional-stashid)
+* [unlocking](_types_.derivedstaking.md#optional-unlocking)
+* [validatorPrefs](_types_.derivedstaking.md#optional-validatorprefs)
 
-##  accountId
+## Properties
 
-**● accountId**: *`AccountId`*
+###  accountId
 
-*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L63)*
+● **accountId**: *`AccountId`*
 
-___
-<a id="controllerid"></a>
-
-## `<Optional>` controllerId
-
-**● controllerId**: *`AccountId`*
-
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L64)*
-
-___
-<a id="nextsessionid"></a>
-
-## `<Optional>` nextSessionId
-
-**● nextSessionId**: *`AccountId`*
-
-*Defined in [types.ts:65](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L65)*
-
-___
-<a id="nominators"></a>
-
-## `<Optional>` nominators
-
-**● nominators**: *`Array`<`AccountId`>*
-
-*Defined in [types.ts:66](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L66)*
-
-___
-<a id="redeemable"></a>
-
-## `<Optional>` redeemable
-
-**● redeemable**: *`BN`*
-
-*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L67)*
-
-___
-<a id="rewarddestination"></a>
-
-## `<Optional>` rewardDestination
-
-**● rewardDestination**: *`RewardDestination`*
-
-*Defined in [types.ts:68](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L68)*
-
-___
-<a id="stakers"></a>
-
-## `<Optional>` stakers
-
-**● stakers**: *`Exposure`*
-
-*Defined in [types.ts:69](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L69)*
-
-___
-<a id="stakingledger"></a>
-
-## `<Optional>` stakingLedger
-
-**● stakingLedger**: *`StakingLedger`*
-
-*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L70)*
-
-___
-<a id="stashid"></a>
-
-## `<Optional>` stashId
-
-**● stashId**: *`AccountId`*
-
-*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L71)*
-
-___
-<a id="unlocking"></a>
-
-## `<Optional>` unlocking
-
-**● unlocking**: *[DerivedUnlocking](../modules/_types_.md#derivedunlocking)*
-
-*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L72)*
-
-___
-<a id="validatorprefs"></a>
-
-## `<Optional>` validatorPrefs
-
-**● validatorPrefs**: *`ValidatorPrefs`*
-
-*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L73)*
+*Defined in [types.ts:63](url)*
 
 ___
 
+### `Optional` controllerId
+
+● **controllerId**? : *`AccountId`*
+
+*Defined in [types.ts:64](url)*
+
+___
+
+### `Optional` nextSessionId
+
+● **nextSessionId**? : *`AccountId`*
+
+*Defined in [types.ts:65](url)*
+
+___
+
+### `Optional` nominators
+
+● **nominators**? : *`Array<AccountId>`*
+
+*Defined in [types.ts:66](url)*
+
+___
+
+### `Optional` redeemable
+
+● **redeemable**? : *`BN`*
+
+*Defined in [types.ts:67](url)*
+
+___
+
+### `Optional` rewardDestination
+
+● **rewardDestination**? : *`RewardDestination`*
+
+*Defined in [types.ts:68](url)*
+
+___
+
+### `Optional` stakers
+
+● **stakers**? : *`Exposure`*
+
+*Defined in [types.ts:69](url)*
+
+___
+
+### `Optional` stakingLedger
+
+● **stakingLedger**? : *`StakingLedger`*
+
+*Defined in [types.ts:70](url)*
+
+___
+
+### `Optional` stashId
+
+● **stashId**? : *`AccountId`*
+
+*Defined in [types.ts:71](url)*
+
+___
+
+### `Optional` unlocking
+
+● **unlocking**? : *[DerivedUnlocking](../modules/_types_.md#derivedunlocking)*
+
+*Defined in [types.ts:72](url)*
+
+___
+
+### `Optional` validatorPrefs
+
+● **validatorPrefs**? : *`ValidatorPrefs`*
+
+*Defined in [types.ts:73](url)*
+
+___

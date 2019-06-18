@@ -1,58 +1,61 @@
+> # External module: "method"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="createargclass"></a>
+* [createArgClass](_method_.md#createargclass)
+* [createMethod](_method_.md#createmethod)
+* [typeToString](_method_.md#typetostring)
 
-##  createArgClass
+## Functions
 
-▸ **createArgClass**(args: *`Array`<[ContractABIFn$Arg](../interfaces/_types_.contractabifn_arg.md)>*, baseDef: *`object`*): `Constructor`
+###  createArgClass
 
-*Defined in [method.ts:29](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/method.ts#L29)*
+▸ **createArgClass**(`args`: `Array<ContractABIFn$Arg>`, `baseDef`: object): *`Constructor`*
 
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| args | `Array`<[ContractABIFn$Arg](../interfaces/_types_.contractabifn_arg.md)> |
-| baseDef | `object` |
-
-**Returns:** `Constructor`
-
-___
-<a id="createmethod"></a>
-
-##  createMethod
-
-▸ **createMethod**(name: *`string`*, method: *`Partial`<[ContractABIMethod](_types_.md#contractabimethod)> & [ContractABIMethodBase](_types_.md#contractabimethodbase)*): [ContractABIFn](../interfaces/_types_.contractabifn.md)
-
-*Defined in [method.ts:41](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/method.ts#L41)*
+*Defined in [method.ts:29](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| name | `string` |
-| method | `Partial`<[ContractABIMethod](_types_.md#contractabimethod)> & [ContractABIMethodBase](_types_.md#contractabimethodbase) |
+Name | Type |
+------ | ------ |
+`args` | `Array<ContractABIFn$Arg>` |
+`baseDef` | object |
 
-**Returns:** [ContractABIFn](../interfaces/_types_.contractabifn.md)
+**Returns:** *`Constructor`*
 
 ___
-<a id="typetostring"></a>
 
-##  typeToString
+###  createMethod
 
-▸ **typeToString**(type: *[ContractABITypes](_types_.md#contractabitypes)*): `string`
+▸ **createMethod**(`name`: string, `method`: `Partial<ContractABIMethod>` & [ContractABIMethodBase](_types_.md#contractabimethodbase)): *[ContractABIFn](../interfaces/_types_.contractabifn.md)*
 
-*Defined in [method.ts:11](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/method.ts#L11)*
+*Defined in [method.ts:41](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| type | [ContractABITypes](_types_.md#contractabitypes) |
+Name | Type |
+------ | ------ |
+`name` | string |
+`method` | `Partial<ContractABIMethod>` & [ContractABIMethodBase](_types_.md#contractabimethodbase) |
 
-**Returns:** `string`
+**Returns:** *[ContractABIFn](../interfaces/_types_.contractabifn.md)*
 
 ___
 
+###  typeToString
+
+▸ **typeToString**(`type`: [ContractABITypes](_types_.md#contractabitypes)): *string*
+
+*Defined in [method.ts:11](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`type` | [ContractABITypes](_types_.md#contractabitypes) |
+
+**Returns:** *string*
+
+___

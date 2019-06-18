@@ -1,9 +1,9 @@
+> # Interface: Methods
 
+## Hierarchy
 
-# Hierarchy
+* **Methods**
 
-**Methods**
+## Indexable
 
-# Indexable
-
-\[key: `string`\]:&nbsp;[MethodFunction](_primitive_method_.methodfunction.md)
+● \[■&#x60; key&#x60;: *string*\]: [MethodFunction](_primitive_method_.methodfunction.md)

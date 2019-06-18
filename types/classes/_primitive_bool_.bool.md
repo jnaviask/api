@@ -1,180 +1,190 @@
+> # Class: Bool
 
+**`name`** Bool
 
-*__name__*: Bool
+**`description`** 
+Representation for a boolean value in the system. It extends the base JS `Boolean` class
 
-*__description__*: Representation for a boolean value in the system. It extends the base JS `Boolean` class
+## Hierarchy
 
-# Hierarchy
+* `Boolean`
 
- `Boolean`
+  * **Bool**
 
-**↳ Bool**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_primitive_bool_.bool.md#constructor)
 
-⊕ **new Bool**(value?: *[Bool](_primitive_bool_.bool.md) \| `Boolean` \| `Uint8Array` \| `boolean` \| `number`*): [Bool](_primitive_bool_.bool.md)
+#### Properties
 
-*Defined in [primitive/Bool.ts:15](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Bool.ts#L15)*
+* [Boolean](_primitive_bool_.bool.md#static-boolean)
 
-**Parameters:**
+#### Accessors
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` value | [Bool](_primitive_bool_.bool.md) \| `Boolean` \| `Uint8Array` \| `boolean` \| `number` | false |
+* [encodedLength](_primitive_bool_.bool.md#encodedlength)
+* [isEmpty](_primitive_bool_.bool.md#isempty)
 
-**Returns:** [Bool](_primitive_bool_.bool.md)
+#### Methods
 
-___
+* [eq](_primitive_bool_.bool.md#eq)
+* [toHex](_primitive_bool_.bool.md#tohex)
+* [toJSON](_primitive_bool_.bool.md#tojson)
+* [toRawType](_primitive_bool_.bool.md#torawtype)
+* [toString](_primitive_bool_.bool.md#tostring)
+* [toU8a](_primitive_bool_.bool.md#tou8a)
 
-# Properties
+## Constructors
 
-<a id="boolean"></a>
+###  constructor
 
-## `<Static>` Boolean
+\+ **new Bool**(`value`: [Bool](_primitive_bool_.bool.md) | `Boolean` | `Uint8Array` | boolean | number): *[Bool](_primitive_bool_.bool.md)*
 
-**● Boolean**: *`BooleanConstructor`*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:540*
-
-___
-
-# Accessors
-
-<a id="encodedlength"></a>
-
-##  encodedLength
-
-**get encodedLength**(): `number`
-
-*Defined in [primitive/Bool.ts:35](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Bool.ts#L35)*
-
-*__description__*: The length of the value when encoded as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Defined in [primitive/Bool.ts:42](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Bool.ts#L42)*
-
-*__description__*: Checks if the value is an empty value (always false)
-
-**Returns:** `boolean`
-
-___
-
-# Methods
-
-<a id="eq"></a>
-
-##  eq
-
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
-
-*Defined in [primitive/Bool.ts:49](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Bool.ts#L49)*
-
-*__description__*: Compares the value of the input to see if there is a match
+*Defined in [primitive/Bool.ts:15](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type | Default |
+------ | ------ | ------ |
+`value` | [Bool](_primitive_bool_.bool.md) \| `Boolean` \| `Uint8Array` \| boolean \| number | false |
 
-**Returns:** `boolean`
-
-___
-<a id="tohex"></a>
-
-##  toHex
-
-▸ **toHex**(): `string`
-
-*Defined in [primitive/Bool.ts:60](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Bool.ts#L60)*
-
-*__description__*: Returns a hex string representation of the value
-
-**Returns:** `string`
+**Returns:** *[Bool](_primitive_bool_.bool.md)*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+## Properties
 
-▸ **toJSON**(): `any`
+### `Static` Boolean
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+■ **Boolean**: *`BooleanConstructor`*
 
-*Defined in [primitive/Bool.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Bool.ts#L67)*
-
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
-
-**Returns:** `any`
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:540
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+## Accessors
 
-▸ **toRawType**(): `string`
+###  encodedLength
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+● **get encodedLength**(): *number*
 
-*Defined in [primitive/Bool.ts:74](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Bool.ts#L74)*
+*Defined in [primitive/Bool.ts:35](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `string`
-
-___
-<a id="tostring"></a>
-
-##  toString
-
-▸ **toString**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
-
-*Defined in [primitive/Bool.ts:81](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Bool.ts#L81)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
+**Returns:** *number*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  isEmpty
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+● **get isEmpty**(): *boolean*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Defined in [primitive/Bool.ts:42](url)*
 
-*Defined in [primitive/Bool.ts:89](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Bool.ts#L89)*
+**`description`** Checks if the value is an empty value (always false)
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**Returns:** *boolean*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Bool.ts:49](url)*
+
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `Uint8Array`
+**Returns:** *boolean*
 
 ___
 
+###  toHex
+
+▸ **toHex**(): *string*
+
+*Defined in [primitive/Bool.ts:60](url)*
+
+**`description`** Returns a hex string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toJSON
+
+▸ **toJSON**(): *any*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Bool.ts:67](url)*
+
+**`description`** Converts the Object to JSON, typically used for RPC transfers
+
+**Returns:** *any*
+
+___
+
+###  toRawType
+
+▸ **toRawType**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Bool.ts:74](url)*
+
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Bool.ts:81](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Bool.ts:89](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
+
+**Returns:** *`Uint8Array`*
+
+___

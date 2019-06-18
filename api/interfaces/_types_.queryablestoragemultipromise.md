@@ -1,25 +1,28 @@
+> # Interface: QueryableStorageMultiPromise <**ApiType**>
 
+## Type parameters
 
-# Type parameters
-#### ApiType 
-# Hierarchy
+■` ApiType`
 
-**QueryableStorageMultiPromise**
+## Hierarchy
 
-# Callable
-▸ **__call**<`T`>(calls: *[QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)<`ApiType`>*, callback: *`Callback`<`Array`<`T`>>*): [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
+* **QueryableStorageMultiPromise**
 
-*Defined in [types.ts:138](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L138)*
+## Callable
+
+▸ <**T**>(`calls`: [QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)‹*`ApiType`*›, `callback`: `Callback<Array<T>>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+
+*Defined in [types.ts:138](url)*
 
 **Type parameters:**
 
-#### T :  `Codec`
+■` T`: *`Codec`*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| calls | [QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)<`ApiType`> |
-| callback | `Callback`<`Array`<`T`>> |
+Name | Type |
+------ | ------ |
+`calls` | [QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)‹*`ApiType`*› |
+`callback` | `Callback<Array<T>>` |
 
-**Returns:** [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
-
+**Returns:** *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*

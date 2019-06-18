@@ -1,178 +1,187 @@
+> # Class: Origin
 
+**`name`** Origin
 
-*__name__*: Origin
+**`description`** 
+Where Origin occurs, it should be ignored as an internal-only value, so it should
+never actually be constructed
 
-*__description__*: Where Origin occurs, it should be ignored as an internal-only value, so it should never actually be constructed
+## Hierarchy
 
-# Hierarchy
+* [Null](_primitive_null_.null.md)
 
- [Null](_primitive_null_.null.md)
+  * **Origin**
 
-**↳ Origin**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_primitive_origin_.origin.md#constructor)
 
-⊕ **new Origin**(): [Origin](_primitive_origin_.origin.md)
+#### Accessors
 
-*Defined in [primitive/Origin.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Origin.ts#L13)*
+* [encodedLength](_primitive_origin_.origin.md#encodedlength)
+* [isEmpty](_primitive_origin_.origin.md#isempty)
 
-**Returns:** [Origin](_primitive_origin_.origin.md)
+#### Methods
+
+* [eq](_primitive_origin_.origin.md#eq)
+* [toHex](_primitive_origin_.origin.md#tohex)
+* [toJSON](_primitive_origin_.origin.md#tojson)
+* [toRawType](_primitive_origin_.origin.md#torawtype)
+* [toString](_primitive_origin_.origin.md#tostring)
+* [toU8a](_primitive_origin_.origin.md#tou8a)
+
+## Constructors
+
+###  constructor
+
+\+ **new Origin**(): *[Origin](_primitive_origin_.origin.md)*
+
+*Defined in [primitive/Origin.ts:13](url)*
+
+**Returns:** *[Origin](_primitive_origin_.origin.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="encodedlength"></a>
+###  encodedLength
 
-##  encodedLength
-
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Inherited from [Null](_primitive_null_.null.md).[encodedLength](_primitive_null_.null.md#encodedlength)*
 
-*Defined in [primitive/Null.ts:17](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Null.ts#L17)*
+*Defined in [primitive/Null.ts:17](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Null](_primitive_null_.null.md).[isEmpty](_primitive_null_.null.md#isempty)*
 
-*Defined in [primitive/Null.ts:24](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Null.ts#L24)*
+*Defined in [primitive/Null.ts:24](url)*
 
-*__description__*: Checks if the value is an empty value (always true)
+**`description`** Checks if the value is an empty value (always true)
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
 
-# Methods
+## Methods
 
-<a id="eq"></a>
+###  eq
 
-##  eq
+▸ **eq**(`other?`: any): *boolean*
 
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Null](_primitive_null_.null.md).[eq](_primitive_null_.null.md#eq)*
 
-*Defined in [primitive/Null.ts:31](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Null.ts#L31)*
+*Defined in [primitive/Null.ts:31](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Null](_primitive_null_.null.md).[toHex](_primitive_null_.null.md#tohex)*
 
-*Defined in [primitive/Null.ts:38](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Null.ts#L38)*
+*Defined in [primitive/Null.ts:38](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Null](_primitive_null_.null.md).[toJSON](_primitive_null_.null.md#tojson)*
 
-*Defined in [primitive/Null.ts:45](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Null.ts#L45)*
+*Defined in [primitive/Null.ts:45](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Overrides [Null](_primitive_null_.null.md).[toRawType](_primitive_null_.null.md#torawtype)*
 
-*Defined in [primitive/Origin.ts:23](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Origin.ts#L23)*
+*Defined in [primitive/Origin.ts:23](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Null](_primitive_null_.null.md).[toString](_primitive_null_.null.md#tostring)*
 
-*Defined in [primitive/Null.ts:59](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Null.ts#L59)*
+*Defined in [primitive/Null.ts:59](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Null](_primitive_null_.null.md).[toU8a](_primitive_null_.null.md#tou8a)*
 
-*Defined in [primitive/Null.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Null.ts#L67)*
+*Defined in [primitive/Null.ts:67](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

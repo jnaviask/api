@@ -1,207 +1,211 @@
+> # Interface: StorageFunctionPromise
 
+## Hierarchy
 
-# Hierarchy
+* [StorageFunctionPromiseOverloads](_types_.storagefunctionpromiseoverloads.md)
 
- [StorageFunctionPromiseOverloads](_types_.storagefunctionpromiseoverloads.md)
+  * **StorageFunctionPromise**
 
-**↳ StorageFunctionPromise**
+## Callable
 
-# Callable
-▸ **__call**(arg1?: *`CodecArg`*, arg2?: *`CodecArg`*): `Promise`<`Codec`>
+▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<Codec>`*
 
-▸ **__call**<`T`>(arg1?: *`CodecArg`*, arg2?: *`CodecArg`*): `Promise`<`T`>
-
-▸ **__call**<`T`>(callback: *`Callback`<`T`>*): [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
-
-▸ **__call**<`T`>(arg: *`CodecArg`*, callback: *`Callback`<`T`>*): [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
-
-▸ **__call**<`T`>(arg1: *`CodecArg`*, arg2: *`CodecArg`*, callback: *`Callback`<`T`>*): [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
-
-*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L102)*
+*Defined in [types.ts:102](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` arg1 | `CodecArg` |
-| `Optional` arg2 | `CodecArg` |
+Name | Type |
+------ | ------ |
+`arg1?` | `CodecArg` |
+`arg2?` | `CodecArg` |
 
-**Returns:** `Promise`<`Codec`>
+**Returns:** *`Promise<Codec>`*
 
-*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L103)*
+▸ <**T**>(`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<T>`*
+
+*Defined in [types.ts:103](url)*
 
 **Type parameters:**
 
-#### T :  `Codec`
+■` T`: *`Codec`*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` arg1 | `CodecArg` |
-| `Optional` arg2 | `CodecArg` |
+Name | Type |
+------ | ------ |
+`arg1?` | `CodecArg` |
+`arg2?` | `CodecArg` |
 
-**Returns:** `Promise`<`T`>
+**Returns:** *`Promise<T>`*
 
-*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L104)*
+▸ <**T**>(`callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+
+*Defined in [types.ts:104](url)*
 
 **Type parameters:**
 
-#### T :  `Codec`
+■` T`: *`Codec`*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| callback | `Callback`<`T`> |
+Name | Type |
+------ | ------ |
+`callback` | `Callback<T>` |
 
-**Returns:** [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
+**Returns:** *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L105)*
+▸ <**T**>(`arg`: `CodecArg`, `callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+
+*Defined in [types.ts:105](url)*
 
 **Type parameters:**
 
-#### T :  `Codec`
+■` T`: *`Codec`*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| arg | `CodecArg` |
-| callback | `Callback`<`T`> |
+Name | Type |
+------ | ------ |
+`arg` | `CodecArg` |
+`callback` | `Callback<T>` |
 
-**Returns:** [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
+**Returns:** *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L106)*
+▸ <**T**>(`arg1`: `CodecArg`, `arg2`: `CodecArg`, `callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+
+*Defined in [types.ts:106](url)*
 
 **Type parameters:**
 
-#### T :  `Codec`
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| arg1 | `CodecArg` |
-| arg2 | `CodecArg` |
-| callback | `Callback`<`T`> |
-
-**Returns:** [UnsubscribePromise](../modules/_types_.md#unsubscribepromise)
-
-# Properties
-
-<a id="at"></a>
-
-##  at
-
-**● at**: *`function`*
-
-*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L111)*
-
-#### Type declaration
-▸(hash: *`Hash` \| `Uint8Array` \| `string`*, arg1?: *`CodecArg`*, arg2?: *`CodecArg`*): `Promise`<`Codec`>
+■` T`: *`Codec`*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| hash | `Hash` \| `Uint8Array` \| `string` |
-| `Optional` arg1 | `CodecArg` |
-| `Optional` arg2 | `CodecArg` |
+Name | Type |
+------ | ------ |
+`arg1` | `CodecArg` |
+`arg2` | `CodecArg` |
+`callback` | `Callback<T>` |
 
-**Returns:** `Promise`<`Codec`>
+**Returns:** *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-___
-<a id="creator"></a>
+### Index
 
-##  creator
+#### Properties
 
-**● creator**: *`StorageFunction`*
+* [at](_types_.storagefunctionpromise.md#at)
+* [creator](_types_.storagefunctionpromise.md#creator)
+* [hash](_types_.storagefunctionpromise.md#hash)
+* [key](_types_.storagefunctionpromise.md#key)
+* [multi](_types_.storagefunctionpromise.md#multi)
+* [size](_types_.storagefunctionpromise.md#size)
 
-*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L112)*
+## Properties
 
-___
-<a id="hash"></a>
+###  at
 
-##  hash
+● **at**: *function*
 
-**● hash**: *`function`*
+*Defined in [types.ts:111](url)*
 
-*Defined in [types.ts:113](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L113)*
+#### Type declaration:
 
-#### Type declaration
-▸(arg1?: *`CodecArg`*, arg2?: *`CodecArg`*): `Promise`<`Hash`>
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| `Optional` arg1 | `CodecArg` |
-| `Optional` arg2 | `CodecArg` |
-
-**Returns:** `Promise`<`Hash`>
-
-___
-<a id="key"></a>
-
-##  key
-
-**● key**: *`function`*
-
-*Defined in [types.ts:114](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L114)*
-
-#### Type declaration
-▸(arg1?: *`CodecArg`*, arg2?: *`CodecArg`*): `string`
+▸ (`hash`: `Hash` | `Uint8Array` | string, `arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<Codec>`*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` arg1 | `CodecArg` |
-| `Optional` arg2 | `CodecArg` |
-
-**Returns:** `string`
+Name | Type |
+------ | ------ |
+`hash` | `Hash` \| `Uint8Array` \| string |
+`arg1?` | `CodecArg` |
+`arg2?` | `CodecArg` |
 
 ___
-<a id="multi"></a>
 
-##  multi
+###  creator
 
-**● multi**: *`function`*
+● **creator**: *`StorageFunction`*
 
-*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L115)*
+*Defined in [types.ts:112](url)*
 
-#### Type declaration
-▸<`T`>(args: *`Array`<`CodecArg`[] \| `CodecArg`>*, callback?: *`Callback`<`Array`<`T`>>*): `Promise`<`Array`<`T`>>
+___
+
+###  hash
+
+● **hash**: *function*
+
+*Defined in [types.ts:113](url)*
+
+#### Type declaration:
+
+▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<Hash>`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`arg1?` | `CodecArg` |
+`arg2?` | `CodecArg` |
+
+___
+
+###  key
+
+● **key**: *function*
+
+*Defined in [types.ts:114](url)*
+
+#### Type declaration:
+
+▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *string*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`arg1?` | `CodecArg` |
+`arg2?` | `CodecArg` |
+
+___
+
+###  multi
+
+● **multi**: *function*
+
+*Defined in [types.ts:115](url)*
+
+#### Type declaration:
+
+▸ <**T**>(`args`: `Array<CodecArg[] | CodecArg>`, `callback?`: `Callback<Array<T>>`): *`Promise<Array<T>>`*
 
 **Type parameters:**
 
-#### T :  `Codec`
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| args | `Array`<`CodecArg`[] \| `CodecArg`> |
-| `Optional` callback | `Callback`<`Array`<`T`>> |
-
-**Returns:** `Promise`<`Array`<`T`>>
-
-___
-<a id="size"></a>
-
-##  size
-
-**● size**: *`function`*
-
-*Defined in [types.ts:116](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L116)*
-
-#### Type declaration
-▸(arg1?: *`CodecArg`*, arg2?: *`CodecArg`*): `Promise`<`U64`>
+■` T`: *`Codec`*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` arg1 | `CodecArg` |
-| `Optional` arg2 | `CodecArg` |
-
-**Returns:** `Promise`<`U64`>
+Name | Type |
+------ | ------ |
+`args` | `Array<CodecArg[] \| CodecArg>` |
+`callback?` | `Callback<Array<T>>` |
 
 ___
 
+###  size
+
+● **size**: *function*
+
+*Defined in [types.ts:116](url)*
+
+#### Type declaration:
+
+▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<U64>`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`arg1?` | `CodecArg` |
+`arg2?` | `CodecArg` |
+
+___

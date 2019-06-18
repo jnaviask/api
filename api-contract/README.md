@@ -1,6 +1,4 @@
-
-@polkadot/api-contract
-======================
+# @polkadot/api-contract
 
 Interfaces to allow for the encoding and decoding of Substrate contract ABIs.
 
@@ -10,7 +8,6 @@ import { Abi } from '@polkadot/api-contract';
 const abi = new Abi(<...JSON ABI...>);
 
 api.tx.contract
-  .call(<contract addr>, <value>, <max gas>, abi.messages.<method name>(<...params...>))
-  .signAndSend(<keyring pair>, (result: SubmittableResult) => { ... });
+.call(<contract addr>, <value>, <max gas>, abi.messages.<method name>(<...params...>))
+.signAndSend(<keyring pair>, (result: SubmittableResult) => { ... });
 ```
-

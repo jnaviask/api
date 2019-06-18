@@ -1,35 +1,40 @@
+> # External module: "chain/bestNumberLag"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="bestnumberlag"></a>
+* [bestNumberLag](_chain_bestnumberlag_.md#bestnumberlag)
 
-##  bestNumberLag
+## Functions
 
-▸ **bestNumberLag**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  bestNumberLag
 
-*Defined in [chain/bestNumberLag.ts:27](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/chain/bestNumberLag.ts#L27)*
+▸ **bestNumberLag**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__name__*: bestNumberLag
+*Defined in [chain/bestNumberLag.ts:27](url)*
 
-*__description__*: Calculates the lag between finalized head and best head
+**`name`** bestNumberLag
 
-*__example__*:   
+**`description`** Calculates the lag between finalized head and best head
+
+**`example`** 
+<BR>
 
 ```javascript
 api.derive.chain.bestNumberLag((lag) => {
-  console.log(`finalized is ${lag} blocks behind head`);
+console.log(`finalized is ${lag} blocks behind head`);
 });
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
+
 A number of blocks
 
 ___
-

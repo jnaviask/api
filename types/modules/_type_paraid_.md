@@ -1,10 +1,7 @@
+> # External module: "type/ParaId"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [ParaId](../classes/_type_paraid_.paraid.md)
-
----
-

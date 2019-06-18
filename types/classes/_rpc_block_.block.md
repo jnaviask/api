@@ -1,339 +1,353 @@
+> # Class: Block <**S, T, V, E**>
 
+**`name`** Block
 
-*__name__*: Block
+**`description`** 
+A block encoded with header and extrinsics
 
-*__description__*: A block encoded with header and extrinsics
+## Type parameters
 
-# Type parameters
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
-↳  [Struct](_codec_struct_.struct.md)
+■` T`: *object*
 
-**↳ Block**
+■` V`: *object*
 
-# Implements
+■` E`: *object*
+
+## Hierarchy
+
+  * [Struct](_codec_struct_.struct.md)
+
+  * **Block**
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_rpc_block_.block.md#constructor)
 
-⊕ **new Block**(value?: *[BlockValue](../modules/_rpc_block_.md#blockvalue) \| `Uint8Array`*): [Block](_rpc_block_.block.md)
+#### Accessors
+
+* [Type](_rpc_block_.block.md#type)
+* [contentHash](_rpc_block_.block.md#contenthash)
+* [encodedLength](_rpc_block_.block.md#encodedlength)
+* [extrinsics](_rpc_block_.block.md#extrinsics)
+* [hash](_rpc_block_.block.md#hash)
+* [header](_rpc_block_.block.md#header)
+* [isEmpty](_rpc_block_.block.md#isempty)
+
+#### Methods
+
+* [eq](_rpc_block_.block.md#eq)
+* [get](_rpc_block_.block.md#get)
+* [getAtIndex](_rpc_block_.block.md#getatindex)
+* [toArray](_rpc_block_.block.md#toarray)
+* [toHex](_rpc_block_.block.md#tohex)
+* [toJSON](_rpc_block_.block.md#tojson)
+* [toRawType](_rpc_block_.block.md#torawtype)
+* [toString](_rpc_block_.block.md#tostring)
+* [toU8a](_rpc_block_.block.md#tou8a)
+* [with](_rpc_block_.block.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new Block**(`value?`: [BlockValue](../modules/_rpc_block_.md#blockvalue) | `Uint8Array`): *[Block](_rpc_block_.block.md)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [rpc/Block.ts:24](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Block.ts#L24)*
+*Defined in [rpc/Block.ts:24](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | [BlockValue](../modules/_rpc_block_.md#blockvalue) \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`value?` | [BlockValue](../modules/_rpc_block_.md#blockvalue) \| `Uint8Array` |
 
-**Returns:** [Block](_rpc_block_.block.md)
+**Returns:** *[Block](_rpc_block_.block.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="type"></a>
+###  Type
 
-##  Type
-
-**get Type**(): `E`
+● **get Type**(): *`E`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Struct.ts:163](url)*
 
-*__description__*: Returns the Type description to sthe structure
+**`description`** Returns the Type description to sthe structure
 
-**Returns:** `E`
-
-___
-<a id="contenthash"></a>
-
-##  contentHash
-
-**get contentHash**(): [Hash](_primitive_hash_.hash.md)
-
-*Defined in [rpc/Block.ts:35](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Block.ts#L35)*
-
-*__description__*: Encodes a content [Hash](_primitive_hash_.hash.md) for the block
-
-**Returns:** [Hash](_primitive_hash_.hash.md)
+**Returns:** *`E`*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  contentHash
 
-**get encodedLength**(): `number`
+● **get contentHash**(): *[Hash](_primitive_hash_.hash.md)*
+
+*Defined in [rpc/Block.ts:35](url)*
+
+**`description`** Encodes a content [Hash](_primitive_hash_.hash.md) for the block
+
+**Returns:** *[Hash](_primitive_hash_.hash.md)*
+
+___
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L176)*
+*Defined in [codec/Struct.ts:176](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
-
-___
-<a id="extrinsics"></a>
-
-##  extrinsics
-
-**get extrinsics**(): [Extrinsics](_type_extrinsics_.extrinsics.md)
-
-*Defined in [rpc/Block.ts:44](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Block.ts#L44)*
-
-*__description__*: The [Extrinsics](_type_extrinsics_.extrinsics.md) contained in the block
-
-**Returns:** [Extrinsics](_type_extrinsics_.extrinsics.md)
+**Returns:** *number*
 
 ___
-<a id="hash"></a>
 
-##  hash
+###  extrinsics
 
-**get hash**(): [Hash](_primitive_hash_.hash.md)
+● **get extrinsics**(): *[Extrinsics](_type_extrinsics_.extrinsics.md)*
 
-*Defined in [rpc/Block.ts:51](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Block.ts#L51)*
+*Defined in [rpc/Block.ts:44](url)*
 
-*__description__*: Block/header [Hash](_primitive_hash_.hash.md)
+**`description`** The [Extrinsics](_type_extrinsics_.extrinsics.md) contained in the block
 
-**Returns:** [Hash](_primitive_hash_.hash.md)
-
-___
-<a id="header"></a>
-
-##  header
-
-**get header**(): [Header](_rpc_header_.header.md)
-
-*Defined in [rpc/Block.ts:58](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Block.ts#L58)*
-
-*__description__*: The [Header](_rpc_header_.header.md) of the block
-
-**Returns:** [Header](_rpc_header_.header.md)
+**Returns:** *[Extrinsics](_type_extrinsics_.extrinsics.md)*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  hash
 
-**get isEmpty**(): `boolean`
+● **get hash**(): *[Hash](_primitive_hash_.hash.md)*
+
+*Defined in [rpc/Block.ts:51](url)*
+
+**`description`** Block/header [Hash](_primitive_hash_.hash.md)
+
+**Returns:** *[Hash](_primitive_hash_.hash.md)*
+
+___
+
+###  header
+
+● **get header**(): *[Header](_rpc_header_.header.md)*
+
+*Defined in [rpc/Block.ts:58](url)*
+
+**`description`** The [Header](_rpc_header_.header.md) of the block
+
+**Returns:** *[Header](_rpc_header_.header.md)*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/Struct.ts:148](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
 
-# Methods
+## Methods
 
-<a id="eq"></a>
+###  eq
 
-##  eq
+▸ **eq**(`other?`: any): *boolean*
 
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/Struct.ts:185](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="get"></a>
 
-##  get
+###  get
 
-▸ **get**(name: *`keyof S`*): [Codec](../interfaces/_types_.codec.md) \| `undefined`
+▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
 
-*Overrides Map.get*
+*Overrides void*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/Struct.ts:193](url)*
 
-*__description__*: Returns a specific names entry in the structure
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md) \| `undefined`
+**Returns:** *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  getAtIndex
 
-▸ **getAtIndex**(index: *`number`*): [Codec](../interfaces/_types_.codec.md)
+▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [codec/Struct.ts:200](url)*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md)
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
-<a id="toarray"></a>
 
-##  toArray
+###  toArray
 
-▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
+▸ **toArray**(): *`Array<Codec>`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/Struct.ts:207](url)*
 
-*__description__*: Converts the Object to an standard JavaScript Array
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:214](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/Struct.ts:221](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [codec/Struct.ts:235](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
+*Defined in [codec/Struct.ts:248](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L256)*
+*Defined in [codec/Struct.ts:256](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**<`S`>(Types: *`S`*): [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
+*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#static-with)*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
 ___
-

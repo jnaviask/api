@@ -1,41 +1,35 @@
+> # External module: "type/StoredPendingChange"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [NextAuthority](../classes/_type_storedpendingchange_.nextauthority.md)
 * [StoredPendingChange](../classes/_type_storedpendingchange_.storedpendingchange.md)
 
-### Type aliases
+#### Type aliases
 
 * [NextAuthorityValue](_type_storedpendingchange_.md#nextauthorityvalue)
 * [StoredPendingChangeValue](_type_storedpendingchange_.md#storedpendingchangevalue)
 
----
+## Type aliases
 
-# Type aliases
+###  NextAuthorityValue
 
-<a id="nextauthorityvalue"></a>
+Ƭ **NextAuthorityValue**: *object*
 
-##  NextAuthorityValue
+*Defined in [type/StoredPendingChange.ts:14](url)*
 
-**Ƭ NextAuthorityValue**: *`object`*
-
-*Defined in [type/StoredPendingChange.ts:14](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/StoredPendingChange.ts#L14)*
-
-#### Type declaration
-
-___
-<a id="storedpendingchangevalue"></a>
-
-##  StoredPendingChangeValue
-
-**Ƭ StoredPendingChangeValue**: *`object`*
-
-*Defined in [type/StoredPendingChange.ts:19](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/StoredPendingChange.ts#L19)*
-
-#### Type declaration
+#### Type declaration:
 
 ___
 
+###  StoredPendingChangeValue
+
+Ƭ **StoredPendingChangeValue**: *object*
+
+*Defined in [type/StoredPendingChange.ts:19](url)*
+
+#### Type declaration:
+
+___

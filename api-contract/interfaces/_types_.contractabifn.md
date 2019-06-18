@@ -1,49 +1,53 @@
+> # Interface: ContractABIFn
 
+## Hierarchy
 
-# Hierarchy
+* **ContractABIFn**
 
-**ContractABIFn**
+## Callable
 
-# Callable
-▸ **__call**(...args: *`Array`<`CodecArg`>*): `Uint8Array`
+▸ (...`args`: `Array<CodecArg>`): *`Uint8Array`*
 
-*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/types.ts#L53)*
+*Defined in [types.ts:53](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` args | `Array`<`CodecArg`> |
+Name | Type |
+------ | ------ |
+`...args` | `Array<CodecArg>` |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
-# Properties
+### Index
 
-<a id="args"></a>
+#### Properties
 
-##  args
+* [args](_types_.contractabifn.md#args)
+* [isConstant](_types_.contractabifn.md#isconstant)
+* [type](_types_.contractabifn.md#type)
 
-**● args**: *`Array`<[ContractABIFn$Arg](_types_.contractabifn_arg.md)>*
+## Properties
 
-*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/types.ts#L55)*
+###  args
 
-___
-<a id="isconstant"></a>
+● **args**: *`Array<ContractABIFn$Arg>`*
 
-##  isConstant
-
-**● isConstant**: *`boolean`*
-
-*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/types.ts#L56)*
-
-___
-<a id="type"></a>
-
-##  type
-
-**● type**: *`string` \| `null`*
-
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/types.ts#L57)*
+*Defined in [types.ts:55](url)*
 
 ___
 
+###  isConstant
+
+● **isConstant**: *boolean*
+
+*Defined in [types.ts:56](url)*
+
+___
+
+###  type
+
+● **type**: *string | null*
+
+*Defined in [types.ts:57](url)*
+
+___

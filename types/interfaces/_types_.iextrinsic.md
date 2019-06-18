@@ -1,292 +1,297 @@
+> # Interface: IExtrinsic
 
+## Hierarchy
 
-# Hierarchy
+  * [IMethod](_types_.imethod.md)
 
-↳  [IMethod](_types_.imethod.md)
+  * **IExtrinsic**
 
-**↳ IExtrinsic**
-
-# Implemented by
+## Implemented by
 
 * [Extrinsic](../classes/_type_extrinsic_.extrinsic.md)
 
-# Properties
+### Index
 
-<a id="args"></a>
+#### Properties
 
-##  args
+* [args](_types_.iextrinsic.md#args)
+* [argsDef](_types_.iextrinsic.md#argsdef)
+* [callIndex](_types_.iextrinsic.md#callindex)
+* [data](_types_.iextrinsic.md#data)
+* [encodedLength](_types_.iextrinsic.md#encodedlength)
+* [hasOrigin](_types_.iextrinsic.md#hasorigin)
+* [hash](_types_.iextrinsic.md#hash)
+* [isEmpty](_types_.iextrinsic.md#isempty)
+* [isSigned](_types_.iextrinsic.md#issigned)
+* [meta](_types_.iextrinsic.md#meta)
+* [method](_types_.iextrinsic.md#method)
+* [signature](_types_.iextrinsic.md#signature)
 
-**● args**: *`Array`<[Codec](_types_.codec.md)>*
+#### Methods
+
+* [addSignature](_types_.iextrinsic.md#addsignature)
+* [eq](_types_.iextrinsic.md#eq)
+* [sign](_types_.iextrinsic.md#sign)
+* [toHex](_types_.iextrinsic.md#tohex)
+* [toJSON](_types_.iextrinsic.md#tojson)
+* [toRawType](_types_.iextrinsic.md#torawtype)
+* [toString](_types_.iextrinsic.md#tostring)
+* [toU8a](_types_.iextrinsic.md#tou8a)
+
+## Properties
+
+###  args
+
+● **args**: *`Array<Codec>`*
 
 *Inherited from [IMethod](_types_.imethod.md).[args](_types_.imethod.md#args)*
 
-*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L125)*
+*Defined in [types.ts:125](url)*
 
 ___
-<a id="argsdef"></a>
 
-##  argsDef
+###  argsDef
 
-**● argsDef**: *[ArgsDef](_types_.argsdef.md)*
+● **argsDef**: *[ArgsDef](_types_.argsdef.md)*
 
 *Inherited from [IMethod](_types_.imethod.md).[argsDef](_types_.imethod.md#argsdef)*
 
-*Defined in [types.ts:126](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L126)*
+*Defined in [types.ts:126](url)*
 
 ___
-<a id="callindex"></a>
 
-##  callIndex
+###  callIndex
 
-**● callIndex**: *`Uint8Array`*
+● **callIndex**: *`Uint8Array`*
 
 *Inherited from [IMethod](_types_.imethod.md).[callIndex](_types_.imethod.md#callindex)*
 
-*Defined in [types.ts:127](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L127)*
+*Defined in [types.ts:127](url)*
 
 ___
-<a id="data"></a>
 
-##  data
+###  data
 
-**● data**: *`Uint8Array`*
+● **data**: *`Uint8Array`*
 
 *Inherited from [IMethod](_types_.imethod.md).[data](_types_.imethod.md#data)*
 
-*Defined in [types.ts:128](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L128)*
+*Defined in [types.ts:128](url)*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  encodedLength
 
-**● encodedLength**: *`number`*
+● **encodedLength**: *number*
 
 *Inherited from [Codec](_types_.codec.md).[encodedLength](_types_.codec.md#encodedlength)*
 
-*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L47)*
+*Defined in [types.ts:47](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
 ___
-<a id="hasorigin"></a>
 
-##  hasOrigin
+###  hasOrigin
 
-**● hasOrigin**: *`boolean`*
+● **hasOrigin**: *boolean*
 
 *Inherited from [IMethod](_types_.imethod.md).[hasOrigin](_types_.imethod.md#hasorigin)*
 
-*Defined in [types.ts:129](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L129)*
+*Defined in [types.ts:129](url)*
 
 ___
-<a id="hash"></a>
 
-##  hash
+###  hash
 
-**● hash**: *[IHash](_types_.ihash.md)*
+● **hash**: *[IHash](_types_.ihash.md)*
 
-*Defined in [types.ts:144](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L144)*
+*Defined in [types.ts:144](url)*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**● isEmpty**: *`boolean`*
+● **isEmpty**: *boolean*
 
 *Inherited from [Codec](_types_.codec.md).[isEmpty](_types_.codec.md#isempty)*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L52)*
+*Defined in [types.ts:52](url)*
 
-*__description__*: Checks if the value is an empty value
-
-___
-<a id="issigned"></a>
-
-##  isSigned
-
-**● isSigned**: *`boolean`*
-
-*Defined in [types.ts:145](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L145)*
+**`description`** Checks if the value is an empty value
 
 ___
-<a id="meta"></a>
 
-##  meta
+###  isSigned
 
-**● meta**: *[FunctionMetadata](../classes/_metadata_v1_calls_.functionmetadata.md)*
+● **isSigned**: *boolean*
+
+*Defined in [types.ts:145](url)*
+
+___
+
+###  meta
+
+● **meta**: *[FunctionMetadata](../classes/_metadata_v1_calls_.functionmetadata.md)*
 
 *Inherited from [IMethod](_types_.imethod.md).[meta](_types_.imethod.md#meta)*
 
-*Defined in [types.ts:130](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L130)*
-
-___
-<a id="method"></a>
-
-##  method
-
-**● method**: *[Method](../classes/_primitive_method_.method.md)*
-
-*Defined in [types.ts:146](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L146)*
-
-___
-<a id="signature"></a>
-
-##  signature
-
-**● signature**: *[IExtrinsicSignature](_types_.iextrinsicsignature.md)*
-
-*Defined in [types.ts:147](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L147)*
+*Defined in [types.ts:130](url)*
 
 ___
 
-# Methods
+###  method
 
-<a id="addsignature"></a>
+● **method**: *[Method](../classes/_primitive_method_.method.md)*
 
-##  addSignature
+*Defined in [types.ts:146](url)*
 
-▸ **addSignature**(signer: *[Address](../classes/_primitive_address_.address.md) \| `Uint8Array` \| `string`*, signature: *`Uint8Array` \| `string`*, nonce: *[AnyNumber](../modules/_types_.md#anynumber)*, era?: *[Uint8Array](../classes/_codec_u8a_.u8a.md#uint8array)*): [IExtrinsic](_types_.iextrinsic.md)
+___
 
-*Defined in [types.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L148)*
+###  signature
+
+● **signature**: *[IExtrinsicSignature](_types_.iextrinsicsignature.md)*
+
+*Defined in [types.ts:147](url)*
+
+___
+
+## Methods
+
+###  addSignature
+
+▸ **addSignature**(`signer`: [Address](../classes/_primitive_address_.address.md) | `Uint8Array` | string, `signature`: `Uint8Array` | string, `nonce`: [AnyNumber](../modules/_types_.md#anynumber), `era?`: [Uint8Array](../classes/_codec_u8a_.u8a.md#static-uint8array)): *[IExtrinsic](_types_.iextrinsic.md)*
+
+*Defined in [types.ts:148](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| signer | [Address](../classes/_primitive_address_.address.md) \| `Uint8Array` \| `string` |
-| signature | `Uint8Array` \| `string` |
-| nonce | [AnyNumber](../modules/_types_.md#anynumber) |
-| `Optional` era | [Uint8Array](../classes/_codec_u8a_.u8a.md#uint8array) |
+Name | Type |
+------ | ------ |
+`signer` | [Address](../classes/_primitive_address_.address.md) \| `Uint8Array` \| string |
+`signature` | `Uint8Array` \| string |
+`nonce` | [AnyNumber](../modules/_types_.md#anynumber) |
+`era?` | [Uint8Array](../classes/_codec_u8a_.u8a.md#static-uint8array) |
 
-**Returns:** [IExtrinsic](_types_.iextrinsic.md)
+**Returns:** *[IExtrinsic](_types_.iextrinsic.md)*
 
 ___
-<a id="eq"></a>
 
-##  eq
+###  eq
 
-▸ **eq**(other?: *`any`*): `boolean`
+▸ **eq**(`other?`: any): *boolean*
 
 *Inherited from [Codec](_types_.codec.md).[eq](_types_.codec.md#eq)*
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L57)*
+*Defined in [types.ts:57](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
-
-**Returns:** `boolean`
-
-___
-<a id="sign"></a>
-
-##  sign
-
-▸ **sign**(account: *[IKeyringPair](../modules/_types_.md#ikeyringpair)*, options: *[SignatureOptions](../modules/_types_.md#signatureoptions)*): [IExtrinsic](_types_.iextrinsic.md)
-
-*Defined in [types.ts:149](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L149)*
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| account | [IKeyringPair](../modules/_types_.md#ikeyringpair) |
-| options | [SignatureOptions](../modules/_types_.md#signatureoptions) |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** [IExtrinsic](_types_.iextrinsic.md)
+**Returns:** *boolean*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  sign
 
-▸ **toHex**(isLe?: *`undefined` \| `false` \| `true`*): `string`
+▸ **sign**(`account`: [IKeyringPair](../modules/_types_.md#ikeyringpair), `options`: [SignatureOptions](../modules/_types_.md#signatureoptions)): *[IExtrinsic](_types_.iextrinsic.md)*
+
+*Defined in [types.ts:149](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`account` | [IKeyringPair](../modules/_types_.md#ikeyringpair) |
+`options` | [SignatureOptions](../modules/_types_.md#signatureoptions) |
+
+**Returns:** *[IExtrinsic](_types_.iextrinsic.md)*
+
+___
+
+###  toHex
+
+▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
 *Inherited from [Codec](_types_.codec.md).[toHex](_types_.codec.md#tohex)*
 
-*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L62)*
+*Defined in [types.ts:62](url)*
 
-*__description__*: Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
+**`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` isLe | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`isLe?` | undefined \| false \| true |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
 *Inherited from [Codec](_types_.codec.md).[toJSON](_types_.codec.md#tojson)*
 
-*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L67)*
+*Defined in [types.ts:67](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
 *Inherited from [Codec](_types_.codec.md).[toRawType](_types_.codec.md#torawtype)*
 
-*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L72)*
+*Defined in [types.ts:72](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
 *Inherited from [Codec](_types_.codec.md).[toString](_types_.codec.md#tostring)*
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L77)*
+*Defined in [types.ts:77](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
 *Inherited from [Codec](_types_.codec.md).[toU8a](_types_.codec.md#tou8a)*
 
-*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L83)*
+*Defined in [types.ts:83](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

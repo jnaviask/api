@@ -1,34 +1,39 @@
+> # External module: "accounts/idToIndex"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="idtoindex"></a>
+* [idToIndex](_accounts_idtoindex_.md#idtoindex)
 
-##  idToIndex
+## Functions
 
-▸ **idToIndex**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  idToIndex
 
-*Defined in [accounts/idToIndex.ts:27](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/accounts/idToIndex.ts#L27)*
+▸ **idToIndex**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__name__*: idToIndex
+*Defined in [accounts/idToIndex.ts:27](url)*
 
-*__example__*:   
+**`name`** idToIndex
+
+**`example`** 
+<BR>
 
 ```javascript
 const ALICE = '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY';
 api.derive.accounts.idToIndex(ALICE, (accountIndex) => {
-  console.log(`The AccountIndex of ${ALICE} is ${accountIndex}`);
+console.log(`The AccountIndex of ${ALICE} is ${accountIndex}`);
 });
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
+
 Returns the corresponding AccountIndex.
 
 ___
-

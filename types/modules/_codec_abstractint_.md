@@ -1,26 +1,31 @@
+> # External module: "codec/AbstractInt"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="uintbitlength"></a>
+* [UIntBitLength](_codec_abstractint_.md#uintbitlength)
 
-##  UIntBitLength
+#### Variables
 
-**Ƭ UIntBitLength**: *`8` \| `16` \| `32` \| `64` \| `128` \| `256`*
+* [DEFAULT_UINT_BITS](_codec_abstractint_.md#const-default_uint_bits)
 
-*Defined in [codec/AbstractInt.ts:10](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractInt.ts#L10)*
+## Type aliases
 
-___
+###  UIntBitLength
 
-# Variables
+Ƭ **UIntBitLength**: *`8` | `16` | `32` | `64` | `128` | `256`*
 
-<a id="default_uint_bits"></a>
-
-## `<Const>` DEFAULT_UINT_BITS
-
-**● DEFAULT_UINT_BITS**: *`64`* = 64
-
-*Defined in [codec/AbstractInt.ts:12](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/AbstractInt.ts#L12)*
+*Defined in [codec/AbstractInt.ts:10](url)*
 
 ___
 
+## Variables
+
+### `Const` DEFAULT_UINT_BITS
+
+● **DEFAULT_UINT_BITS**: *`64`* = 64
+
+*Defined in [codec/AbstractInt.ts:12](url)*
+
+___

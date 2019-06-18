@@ -1,40 +1,45 @@
+> # Class: Base <**T**>
 
+**`name`** Base
 
-*__name__*: Base
+**`description`** A type extends the Base class, when it holds a value
 
-*__description__*: A type extends the Base class, when it holds a value
+## Type parameters
 
-# Type parameters
-#### T 
-# Hierarchy
+■` T`
 
-**Base**
+## Hierarchy
 
-↳  [Compact](_codec_compact_.compact.md)
+* **Base**
 
-↳  [Enum](_codec_enumtype_.enum.md)
+  * [Compact](_codec_compact_.compact.md)
 
-↳  [Option](_codec_option_.option.md)
+  * [Enum](_codec_enumtype_.enum.md)
 
-↳  [Address](_primitive_address_.address.md)
+  * [Option](_codec_option_.option.md)
 
-# Constructors
+  * [Address](_primitive_address_.address.md)
 
-<a id="constructor"></a>
+### Index
 
-##  constructor
+#### Constructors
 
-⊕ **new Base**(value?: *`any`*): [Base](_codec_base_.base.md)
+* [constructor](_codec_base_.base.md#constructor)
 
-*Defined in [codec/Base.ts:10](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Base.ts#L10)*
+## Constructors
+
+###  constructor
+
+\+ **new Base**(`value?`: any): *[Base](_codec_base_.base.md)*
+
+*Defined in [codec/Base.ts:10](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** [Base](_codec_base_.base.md)
+**Returns:** *[Base](_codec_base_.base.md)*
 
 ___
-

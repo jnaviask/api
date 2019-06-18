@@ -1,271 +1,279 @@
+> # Class: Tombstone
 
+## Hierarchy
 
-# Hierarchy
+  * [TombstoneContractInfo](_type_contractinfo_.tombstonecontractinfo.md)
 
-↳  [TombstoneContractInfo](_type_contractinfo_.tombstonecontractinfo.md)
+  * **Tombstone**
 
-**↳ Tombstone**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 * [IHash](../interfaces/_types_.ihash.md)
 
-# Indexable
+## Indexable
 
-\[index: `number`\]:&nbsp;`number`
-# Constructors
+● \[■&#x60; index&#x60;: *number*\]: number
 
-<a id="constructor"></a>
+### Index
 
-##  constructor
+#### Constructors
 
-⊕ **new Tombstone**(value?: *[AnyU8a](../modules/_types_.md#anyu8a)*): [Tombstone](_type_contractinfo_.tombstone.md)
+* [constructor](_type_contractinfo_.tombstone.md#constructor)
+
+#### Accessors
+
+* [encodedLength](_type_contractinfo_.tombstone.md#encodedlength)
+* [isEmpty](_type_contractinfo_.tombstone.md#isempty)
+* [length](_type_contractinfo_.tombstone.md#length)
+
+#### Methods
+
+* [bitLength](_type_contractinfo_.tombstone.md#bitlength)
+* [eq](_type_contractinfo_.tombstone.md#eq)
+* [subarray](_type_contractinfo_.tombstone.md#subarray)
+* [toHex](_type_contractinfo_.tombstone.md#tohex)
+* [toJSON](_type_contractinfo_.tombstone.md#tojson)
+* [toRawType](_type_contractinfo_.tombstone.md#torawtype)
+* [toString](_type_contractinfo_.tombstone.md#tostring)
+* [toU8a](_type_contractinfo_.tombstone.md#tou8a)
+* [with](_type_contractinfo_.tombstone.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new Tombstone**(`value?`: [AnyU8a](../modules/_types_.md#anyu8a)): *[Tombstone](_type_contractinfo_.tombstone.md)*
 
 *Inherited from [H256](_primitive_h256_.h256.md).[constructor](_primitive_h256_.h256.md#constructor)*
 
 *Overrides [U8aFixed](_codec_u8afixed_.u8afixed.md).[constructor](_codec_u8afixed_.u8afixed.md#constructor)*
 
-*Defined in [primitive/H256.ts:15](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/H256.ts#L15)*
+*Defined in [primitive/H256.ts:15](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | [AnyU8a](../modules/_types_.md#anyu8a) |
+Name | Type |
+------ | ------ |
+`value?` | [AnyU8a](../modules/_types_.md#anyu8a) |
 
-**Returns:** [Tombstone](_type_contractinfo_.tombstone.md)
+**Returns:** *[Tombstone](_type_contractinfo_.tombstone.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="encodedlength"></a>
+###  encodedLength
 
-##  encodedLength
-
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[encodedLength](_codec_u8a_.u8a.md#encodedlength)*
 
-*Defined in [codec/U8a.ts:36](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L36)*
+*Defined in [codec/U8a.ts:36](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[isEmpty](_codec_u8a_.u8a.md#isempty)*
 
-*Defined in [codec/U8a.ts:43](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L43)*
+*Defined in [codec/U8a.ts:43](url)*
 
-*__description__*: Returns true if the type wraps an empty/default all-0 value
+**`description`** Returns true if the type wraps an empty/default all-0 value
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="length"></a>
 
-##  length
+###  length
 
-**get length**(): `number`
+● **get length**(): *number*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[length](_codec_u8a_.u8a.md#length)*
 
-*Overrides Uint8Array.length*
+*Overrides void*
 
-*Defined in [codec/U8a.ts:50](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L50)*
+*Defined in [codec/U8a.ts:50](url)*
 
-*__description__*: The length of the value
+**`description`** The length of the value
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
 
-# Methods
+## Methods
 
-<a id="bitlength"></a>
+###  bitLength
 
-##  bitLength
-
-▸ **bitLength**(): `number`
+▸ **bitLength**(): *number*
 
 *Inherited from [U8aFixed](_codec_u8afixed_.u8afixed.md).[bitLength](_codec_u8afixed_.u8afixed.md#bitlength)*
 
-*Defined in [codec/U8aFixed.ts:60](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8aFixed.ts#L60)*
+*Defined in [codec/U8aFixed.ts:60](url)*
 
-*__description__*: Returns the number of bits in the value
+**`description`** Returns the number of bits in the value
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="eq"></a>
 
-##  eq
+###  eq
 
-▸ **eq**(other?: *`any`*): `boolean`
+▸ **eq**(`other?`: any): *boolean*
 
-*Implementation of [IHash](../interfaces/_types_.ihash.md).[eq](../interfaces/_types_.ihash.md#eq)*
+*Implementation of [IHash](../interfaces/_types_.ihash.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[eq](_codec_u8a_.u8a.md#eq)*
 
-*Defined in [codec/U8a.ts:58](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L58)*
+*Defined in [codec/U8a.ts:58](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="subarray"></a>
 
-##  subarray
+###  subarray
 
-▸ **subarray**(begin: *`number`*, end?: *`undefined` \| `number`*): `Uint8Array`
+▸ **subarray**(`begin`: number, `end?`: undefined | number): *`Uint8Array`*
 
-*Implementation of [IHash](../interfaces/_types_.ihash.md).[subarray](../interfaces/_types_.ihash.md#subarray)*
+*Implementation of [IHash](../interfaces/_types_.ihash.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[subarray](_codec_u8a_.u8a.md#subarray)*
 
-*Overrides Uint8Array.subarray*
+*Overrides void*
 
-*Defined in [codec/U8a.ts:73](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L73)*
+*Defined in [codec/U8a.ts:73](url)*
 
-*__description__*: Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
+**`description`** Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| begin | `number` |  The position to start at |
-| `Optional` end | `undefined` \| `number` |  The position to end at |
+Name | Type | Description |
+------ | ------ | ------ |
+`begin` | number | The position to start at |
+`end?` | undefined \| number | The position to end at  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
-*Implementation of [IHash](../interfaces/_types_.ihash.md).[toHex](../interfaces/_types_.ihash.md#tohex)*
+*Implementation of [IHash](../interfaces/_types_.ihash.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[toHex](_codec_u8a_.u8a.md#tohex)*
 
-*Defined in [codec/U8a.ts:80](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L80)*
+*Defined in [codec/U8a.ts:80](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [IHash](../interfaces/_types_.ihash.md).[toJSON](../interfaces/_types_.ihash.md#tojson)*
+*Implementation of [IHash](../interfaces/_types_.ihash.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[toJSON](_codec_u8a_.u8a.md#tojson)*
 
-*Defined in [codec/U8a.ts:87](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L87)*
+*Defined in [codec/U8a.ts:87](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [IHash](../interfaces/_types_.ihash.md).[toRawType](../interfaces/_types_.ihash.md#torawtype)*
+*Implementation of [IHash](../interfaces/_types_.ihash.md)*
 
 *Inherited from [H256](_primitive_h256_.h256.md).[toRawType](_primitive_h256_.h256.md#torawtype)*
 
 *Overrides [U8aFixed](_codec_u8afixed_.u8afixed.md).[toRawType](_codec_u8afixed_.u8afixed.md#torawtype)*
 
-*Defined in [primitive/H256.ts:23](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/H256.ts#L23)*
+*Defined in [primitive/H256.ts:23](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [IHash](../interfaces/_types_.ihash.md).[toString](../interfaces/_types_.ihash.md#tostring)*
+*Implementation of [IHash](../interfaces/_types_.ihash.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[toString](_codec_u8a_.u8a.md#tostring)*
 
-*Overrides Uint8Array.toString*
+*Overrides void*
 
-*Defined in [codec/U8a.ts:101](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L101)*
+*Defined in [codec/U8a.ts:101](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [IHash](../interfaces/_types_.ihash.md).[toU8a](../interfaces/_types_.ihash.md#tou8a)*
+*Implementation of [IHash](../interfaces/_types_.ihash.md)*
 
 *Inherited from [U8a](_codec_u8a_.u8a.md).[toU8a](_codec_u8a_.u8a.md#tou8a)*
 
-*Defined in [codec/U8a.ts:109](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L109)*
+*Defined in [codec/U8a.ts:109](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
-
-**Returns:** `Uint8Array`
-
-___
-<a id="with"></a>
-
-## `<Static>` with
-
-▸ **with**(bitLength: *[BitLength](../modules/_codec_u8afixed_.md#bitlength)*): [Constructor](../interfaces/_types_.constructor.md)<[U8aFixed](_codec_u8afixed_.u8afixed.md)>
-
-*Inherited from [U8aFixed](_codec_u8afixed_.u8afixed.md).[with](_codec_u8afixed_.u8afixed.md#with)*
-
-*Defined in [codec/U8aFixed.ts:49](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8aFixed.ts#L49)*
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| bitLength | [BitLength](../modules/_codec_u8afixed_.md#bitlength) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[U8aFixed](_codec_u8afixed_.u8afixed.md)>
+**Returns:** *`Uint8Array`*
 
 ___
 
+### `Static` with
+
+▸ **with**(`bitLength`: [BitLength](../modules/_codec_u8afixed_.md#bitlength)): *[Constructor](../interfaces/_types_.constructor.md)‹*[U8aFixed](_codec_u8afixed_.u8afixed.md)*›*
+
+*Inherited from [U8aFixed](_codec_u8afixed_.u8afixed.md).[with](_codec_u8afixed_.u8afixed.md#static-with)*
+
+*Defined in [codec/U8aFixed.ts:49](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`bitLength` | [BitLength](../modules/_codec_u8afixed_.md#bitlength) |
+
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[U8aFixed](_codec_u8afixed_.u8afixed.md)*›*
+
+___

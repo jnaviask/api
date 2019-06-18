@@ -1,31 +1,26 @@
+> # External module: "types"
 
+### Index
 
-# Index
-
-### Interfaces
+#### Interfaces
 
 * [RpcInterface](../interfaces/_types_.rpcinterface.md)
 * [RpcInterface$Method](../interfaces/_types_.rpcinterface_method.md)
 
-### Type aliases
+#### Type aliases
 
-* [RpcInterface$Section](_types_.md#rpcinterface_section)
+* [RpcInterface$Section](_types_.md#rpcinterface$section)
 
----
+## Type aliases
 
-# Type aliases
+###  RpcInterface$Section
 
-<a id="rpcinterface_section"></a>
+Ƭ **RpcInterface$Section**: *object*
 
-##  RpcInterface$Section
+*Defined in [types.ts:12](url)*
 
-**Ƭ RpcInterface$Section**: *`object`*
+#### Type declaration:
 
-*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-core/src/types.ts#L12)*
-
-#### Type declaration
-
-[index: `string`]: [RpcInterface$Method](../interfaces/_types_.rpcinterface_method.md)
+● \[■&#x60; index&#x60;: *string*\]: [RpcInterface$Method](../interfaces/_types_.rpcinterface_method.md)
 
 ___
-

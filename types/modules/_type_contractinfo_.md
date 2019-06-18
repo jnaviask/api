@@ -1,8 +1,8 @@
+> # External module: "type/ContractInfo"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Alive](../classes/_type_contractinfo_.alive.md)
 * [AliveContractInfo](../classes/_type_contractinfo_.alivecontractinfo.md)
@@ -10,6 +10,3 @@
 * [Tombstone](../classes/_type_contractinfo_.tombstone.md)
 * [TombstoneContractInfo](../classes/_type_contractinfo_.tombstonecontractinfo.md)
 * [TrieId](../classes/_type_contractinfo_.trieid.md)
-
----
-

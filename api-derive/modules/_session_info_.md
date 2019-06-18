@@ -1,24 +1,27 @@
+> # External module: "session/info"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="info"></a>
+* [info](_session_info_.md#info)
 
-##  info
+## Functions
 
-▸ **info**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  info
 
-*Defined in [session/info.ts:70](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/session/info.ts#L70)*
+▸ **info**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__description__*: Retrieves all the session and era info and calculates specific valus on it sunh as the length of the session and eras
+*Defined in [session/info.ts:70](url)*
+
+**`description`** Retrieves all the session and era info and calculates specific valus on it sunh as the length of the session and eras
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
 
 ___
-

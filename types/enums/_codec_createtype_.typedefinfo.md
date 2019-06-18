@@ -1,8 +1,8 @@
+> # Enumeration: TypeDefInfo
 
+### Index
 
-# Index
-
-### Enumeration members
+#### Enumeration members
 
 * [Compact](_codec_createtype_.typedefinfo.md#compact)
 * [DoubleMap](_codec_createtype_.typedefinfo.md#doublemap)
@@ -16,107 +16,92 @@
 * [Vector](_codec_createtype_.typedefinfo.md#vector)
 * [VectorFixed](_codec_createtype_.typedefinfo.md#vectorfixed)
 
----
+## Enumeration members
 
-# Enumeration members
+###  Compact
 
-<a id="compact"></a>
+● **Compact**:
 
-##  Compact
-
-**Compact**: 
-
-*Defined in [codec/createType.ts:22](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L22)*
-
-___
-<a id="doublemap"></a>
-
-##  DoubleMap
-
-**DoubleMap**: 
-
-*Defined in [codec/createType.ts:23](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L23)*
-
-___
-<a id="enum"></a>
-
-##  Enum
-
-**Enum**: 
-
-*Defined in [codec/createType.ts:24](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L24)*
-
-___
-<a id="linkage"></a>
-
-##  Linkage
-
-**Linkage**: 
-
-*Defined in [codec/createType.ts:25](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L25)*
-
-___
-<a id="null"></a>
-
-##  Null
-
-**Null**: 
-
-*Defined in [codec/createType.ts:33](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L33)*
-
-___
-<a id="option"></a>
-
-##  Option
-
-**Option**: 
-
-*Defined in [codec/createType.ts:26](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L26)*
-
-___
-<a id="plain"></a>
-
-##  Plain
-
-**Plain**: 
-
-*Defined in [codec/createType.ts:27](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L27)*
-
-___
-<a id="struct"></a>
-
-##  Struct
-
-**Struct**: 
-
-*Defined in [codec/createType.ts:28](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L28)*
-
-___
-<a id="tuple"></a>
-
-##  Tuple
-
-**Tuple**: 
-
-*Defined in [codec/createType.ts:29](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L29)*
-
-___
-<a id="vector"></a>
-
-##  Vector
-
-**Vector**: 
-
-*Defined in [codec/createType.ts:30](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L30)*
-
-___
-<a id="vectorfixed"></a>
-
-##  VectorFixed
-
-**VectorFixed**: 
-
-*Defined in [codec/createType.ts:31](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/createType.ts#L31)*
+*Defined in [codec/createType.ts:22](url)*
 
 ___
 
+###  DoubleMap
+
+● **DoubleMap**:
+
+*Defined in [codec/createType.ts:23](url)*
+
+___
+
+###  Enum
+
+● **Enum**:
+
+*Defined in [codec/createType.ts:24](url)*
+
+___
+
+###  Linkage
+
+● **Linkage**:
+
+*Defined in [codec/createType.ts:25](url)*
+
+___
+
+###  Null
+
+● **Null**:
+
+*Defined in [codec/createType.ts:33](url)*
+
+___
+
+###  Option
+
+● **Option**:
+
+*Defined in [codec/createType.ts:26](url)*
+
+___
+
+###  Plain
+
+● **Plain**:
+
+*Defined in [codec/createType.ts:27](url)*
+
+___
+
+###  Struct
+
+● **Struct**:
+
+*Defined in [codec/createType.ts:28](url)*
+
+___
+
+###  Tuple
+
+● **Tuple**:
+
+*Defined in [codec/createType.ts:29](url)*
+
+___
+
+###  Vector
+
+● **Vector**:
+
+*Defined in [codec/createType.ts:30](url)*
+
+___
+
+###  VectorFixed
+
+● **VectorFixed**:
+
+*Defined in [codec/createType.ts:31](url)*
+
+___

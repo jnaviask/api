@@ -1,72 +1,75 @@
+> # Interface: MethodFunction
 
+## Hierarchy
 
-# Hierarchy
+* **MethodFunction**
 
-**MethodFunction**
+## Callable
 
-# Callable
-▸ **__call**(...args: *`any`[]*): [Method](../classes/_primitive_method_.method.md)
+▸ (...`args`: any[]): *[Method](../classes/_primitive_method_.method.md)*
 
-*Defined in [primitive/Method.ts:24](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L24)*
+*Defined in [primitive/Method.ts:24](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` args | `any`[] |
+Name | Type |
+------ | ------ |
+`...args` | any[] |
 
-**Returns:** [Method](../classes/_primitive_method_.method.md)
+**Returns:** *[Method](../classes/_primitive_method_.method.md)*
 
-# Properties
+### Index
 
-<a id="callindex"></a>
+#### Properties
 
-##  callIndex
+* [callIndex](_primitive_method_.methodfunction.md#callindex)
+* [meta](_primitive_method_.methodfunction.md#meta)
+* [method](_primitive_method_.methodfunction.md#method)
+* [section](_primitive_method_.methodfunction.md#section)
+* [toJSON](_primitive_method_.methodfunction.md#tojson)
 
-**● callIndex**: *`Uint8Array`*
+## Properties
 
-*Defined in [primitive/Method.ts:26](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L26)*
+###  callIndex
 
-___
-<a id="meta"></a>
+● **callIndex**: *`Uint8Array`*
 
-##  meta
-
-**● meta**: *`FunctionMetadataV5`*
-
-*Defined in [primitive/Method.ts:27](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L27)*
-
-___
-<a id="method"></a>
-
-##  method
-
-**● method**: *`string`*
-
-*Defined in [primitive/Method.ts:28](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L28)*
-
-___
-<a id="section"></a>
-
-##  section
-
-**● section**: *`string`*
-
-*Defined in [primitive/Method.ts:29](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L29)*
-
-___
-<a id="tojson"></a>
-
-##  toJSON
-
-**● toJSON**: *`function`*
-
-*Defined in [primitive/Method.ts:30](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L30)*
-
-#### Type declaration
-▸(): `any`
-
-**Returns:** `any`
+*Defined in [primitive/Method.ts:26](url)*
 
 ___
 
+###  meta
+
+● **meta**: *`FunctionMetadataV5`*
+
+*Defined in [primitive/Method.ts:27](url)*
+
+___
+
+###  method
+
+● **method**: *string*
+
+*Defined in [primitive/Method.ts:28](url)*
+
+___
+
+###  section
+
+● **section**: *string*
+
+*Defined in [primitive/Method.ts:29](url)*
+
+___
+
+###  toJSON
+
+● **toJSON**: *function*
+
+*Defined in [primitive/Method.ts:30](url)*
+
+#### Type declaration:
+
+▸ (): *any*
+
+___

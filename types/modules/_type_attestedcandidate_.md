@@ -1,8 +1,8 @@
+> # External module: "type/AttestedCandidate"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [AttestedCandidate](../classes/_type_attestedcandidate_.attestedcandidate.md)
 * [AvailabilityVote](../classes/_type_attestedcandidate_.availabilityvote.md)
@@ -15,6 +15,3 @@
 * [ImplicitCandidateSignature](../classes/_type_attestedcandidate_.implicitcandidatesignature.md)
 * [ValidityAttestation](../classes/_type_attestedcandidate_.validityattestation.md)
 * [ValidityVote](../classes/_type_attestedcandidate_.validityvote.md)
-
----
-

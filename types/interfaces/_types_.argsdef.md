@@ -1,9 +1,9 @@
+> # Interface: ArgsDef
 
+## Hierarchy
 
-# Hierarchy
+* **ArgsDef**
 
-**ArgsDef**
+## Indexable
 
-# Indexable
-
-\[index: `string`\]:&nbsp;[Constructor](_types_.constructor.md)
+● \[■&#x60; index&#x60;: *string*\]: [Constructor](_types_.constructor.md)

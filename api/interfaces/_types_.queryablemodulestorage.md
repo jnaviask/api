@@ -1,11 +1,13 @@
+> # Interface: QueryableModuleStorage <**ApiType**>
 
+## Type parameters
 
-# Type parameters
-#### ApiType 
-# Hierarchy
+■` ApiType`
 
-**QueryableModuleStorage**
+## Hierarchy
 
-# Indexable
+* **QueryableModuleStorage**
 
-\[index: `string`\]:&nbsp;[QueryableStorageFunction](../modules/_types_.md#queryablestoragefunction)<`ApiType`>
+## Indexable
+
+● \[■&#x60; index&#x60;: *string*\]: [QueryableStorageFunction](../modules/_types_.md#queryablestoragefunction)‹*`ApiType`*›

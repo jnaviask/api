@@ -1,23 +1,26 @@
+> # External module: "codec/utils/compareArray"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="comparearray"></a>
+* [compareArray](_codec_utils_comparearray_.md#comparearray)
 
-##  compareArray
+## Functions
 
-▸ **compareArray**(a: *`Array`<`any`>*, b?: *`any`*): `boolean`
+###  compareArray
 
-*Defined in [codec/utils/compareArray.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/utils/compareArray.ts#L9)*
+▸ **compareArray**(`a`: `Array<any>`, `b?`: any): *boolean*
+
+*Defined in [codec/utils/compareArray.ts:9](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| a | `Array`<`any`> |
-| `Optional` b | `any` |
+Name | Type |
+------ | ------ |
+`a` | `Array<any>` |
+`b?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

@@ -1,74 +1,77 @@
+> # External module: "validation"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="validateabi"></a>
+* [validateAbi](_validation_.md#validateabi)
+* [validateArgs](_validation_.md#validateargs)
+* [validateDeploy](_validation_.md#validatedeploy)
+* [validateMethods](_validation_.md#validatemethods)
 
-##  validateAbi
+## Functions
 
-▸ **validateAbi**(abi: *[ContractABI](_types_.md#contractabi)*): `void`
+###  validateAbi
 
-*Defined in [validation.ts:42](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/validation.ts#L42)*
+▸ **validateAbi**(`abi`: [ContractABI](_types_.md#contractabi)): *void*
 
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| abi | [ContractABI](_types_.md#contractabi) |
-
-**Returns:** `void`
-
-___
-<a id="validateargs"></a>
-
-##  validateArgs
-
-▸ **validateArgs**(name: *`string`*, args: *`Array`<[ContractABIArg](_types_.md#contractabiarg)>*): `void`
-
-*Defined in [validation.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/validation.ts#L9)*
+*Defined in [validation.ts:42](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| name | `string` |
-| args | `Array`<[ContractABIArg](_types_.md#contractabiarg)> |
+Name | Type |
+------ | ------ |
+`abi` | [ContractABI](_types_.md#contractabi) |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="validatedeploy"></a>
 
-##  validateDeploy
+###  validateArgs
 
-▸ **validateDeploy**(__namedParameters: *`object`*): `void`
+▸ **validateArgs**(`name`: string, `args`: `Array<ContractABIArg>`): *void*
 
-*Defined in [validation.ts:21](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/validation.ts#L21)*
+*Defined in [validation.ts:9](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| __namedParameters | `object` |
+Name | Type |
+------ | ------ |
+`name` | string |
+`args` | `Array<ContractABIArg>` |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="validatemethods"></a>
 
-##  validateMethods
+###  validateDeploy
 
-▸ **validateMethods**(__namedParameters: *`object`*): `void`
+▸ **validateDeploy**(`__namedParameters`: object): *void*
 
-*Defined in [validation.ts:29](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-contract/src/validation.ts#L29)*
+*Defined in [validation.ts:21](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| __namedParameters | `object` |
+Name | Type |
+------ | ------ |
+`__namedParameters` | object |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
 
+###  validateMethods
+
+▸ **validateMethods**(`__namedParameters`: object): *void*
+
+*Defined in [validation.ts:29](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`__namedParameters` | object |
+
+**Returns:** *void*
+
+___

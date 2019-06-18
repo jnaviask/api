@@ -1,22 +1,25 @@
+> # External module: "session/sessionProgress"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="sessionprogress"></a>
+* [sessionProgress](_session_sessionprogress_.md#sessionprogress)
 
-##  sessionProgress
+## Functions
 
-▸ **sessionProgress**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  sessionProgress
 
-*Defined in [session/sessionProgress.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/session/sessionProgress.ts#L13)*
+▸ **sessionProgress**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+
+*Defined in [session/sessionProgress.ts:13](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
 
 ___
-

@@ -1,114 +1,120 @@
+> # Class: Balance
 
+**`name`** Balance
 
-*__name__*: Balance
+**`description`** 
+The Substrate Balance representation as a [U128](_primitive_u128_.u128.md).
 
-*__description__*: The Substrate Balance representation as a [U128](_primitive_u128_.u128.md).
+## Hierarchy
 
-# Hierarchy
+  * [U128](_primitive_u128_.u128.md)
 
-↳  [U128](_primitive_u128_.u128.md)
+  * **Balance**
 
-**↳ Balance**
+  * [BalanceOf](_type_balance_.balanceof.md)
 
-↳  [BalanceOf](_type_balance_.balanceof.md)
+  * [Amount](_type_amount_.amount.md)
 
-↳  [Amount](_type_amount_.amount.md)
+  * [AssetOf](_type_assetof_.assetof.md)
 
-↳  [AssetOf](_type_assetof_.assetof.md)
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_balance_.balance.md#constructor)
 
-⊕ **new Balance**(value?: *[AnyNumber](../modules/_types_.md#anynumber)*): [Balance](_type_balance_.balance.md)
+#### Methods
+
+* [toHex](_type_balance_.balance.md#tohex)
+* [toRawType](_type_balance_.balance.md#torawtype)
+* [toU8a](_type_balance_.balance.md#tou8a)
+
+## Constructors
+
+###  constructor
+
+\+ **new Balance**(`value?`: [AnyNumber](../modules/_types_.md#anynumber)): *[Balance](_type_balance_.balance.md)*
 
 *Inherited from [U128](_primitive_u128_.u128.md).[constructor](_primitive_u128_.u128.md#constructor)*
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/U128.ts#L14)*
+*Defined in [primitive/U128.ts:14](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | [AnyNumber](../modules/_types_.md#anynumber) |
+Name | Type |
+------ | ------ |
+`value?` | [AnyNumber](../modules/_types_.md#anynumber) |
 
-**Returns:** [Balance](_type_balance_.balance.md)
+**Returns:** *[Balance](_type_balance_.balance.md)*
 
 ___
 
-# Methods
+## Methods
 
-<a id="tohex"></a>
+###  toHex
 
-##  toHex
-
-▸ **toHex**(isLe?: *`boolean`*): `string`
+▸ **toHex**(`isLe`: boolean): *string*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
 
-*Overrides AbstractInt.toHex*
+*Overrides void*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` isLe | `boolean` | false |
+Name | Type | Default |
+------ | ------ | ------ |
+`isLe` | boolean | false |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Overrides [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Defined in [type/Balance.ts:16](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Balance.ts#L16)*
+*Defined in [type/Balance.ts:16](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[toU8a](_codec_uint_.uint.md#tou8a)*
 
-*Overrides AbstractInt.toU8a*
+*Overrides void*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

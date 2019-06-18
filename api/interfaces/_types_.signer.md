@@ -1,44 +1,49 @@
+> # Interface: Signer
 
+## Hierarchy
 
-# Hierarchy
+* **Signer**
 
-**Signer**
+### Index
 
-# Properties
+#### Properties
 
-<a id="update"></a>
+* [update](_types_.signer.md#optional-update)
 
-## `<Optional>` update
+#### Methods
 
-**● update**: *`undefined` \| `function`*
+* [sign](_types_.signer.md#sign)
 
-*Defined in [types.ts:226](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L226)*
+## Properties
 
-*__description__*: Receives an update for the extrinsic signed by a `signer.sign`
+### `Optional` update
+
+● **update**? : *undefined | function*
+
+*Defined in [types.ts:226](url)*
+
+**`description`** Receives an update for the extrinsic signed by a `signer.sign`
 
 ___
 
-# Methods
+## Methods
 
-<a id="sign"></a>
+###  sign
 
-##  sign
+▸ **sign**(`extrinsic`: `IExtrinsic`, `address`: string, `options`: [SignerOptions](../modules/_types_.md#signeroptions)): *`Promise<number>`*
 
-▸ **sign**(extrinsic: *`IExtrinsic`*, address: *`string`*, options: *[SignerOptions](../modules/_types_.md#signeroptions)*): `Promise`<`number`>
+*Defined in [types.ts:221](url)*
 
-*Defined in [types.ts:221](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L221)*
-
-*__description__*: Signs an extrinsic, returning an id (>0) that can be used to retrieve updates
+**`description`** Signs an extrinsic, returning an id (>0) that can be used to retrieve updates
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| extrinsic | `IExtrinsic` |
-| address | `string` |
-| options | [SignerOptions](../modules/_types_.md#signeroptions) |
+Name | Type |
+------ | ------ |
+`extrinsic` | `IExtrinsic` |
+`address` | string |
+`options` | [SignerOptions](../modules/_types_.md#signeroptions) |
 
-**Returns:** `Promise`<`number`>
+**Returns:** *`Promise<number>`*
 
 ___
-

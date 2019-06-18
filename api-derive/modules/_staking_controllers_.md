@@ -1,24 +1,27 @@
+> # External module: "staking/controllers"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="controllers"></a>
+* [controllers](_staking_controllers_.md#controllers)
 
-##  controllers
+## Functions
 
-▸ **controllers**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  controllers
 
-*Defined in [staking/controllers.ts:15](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/staking/controllers.ts#L15)*
+▸ **controllers**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__description__*: From the list of stash accounts, retrieve the list of controllers
+*Defined in [staking/controllers.ts:15](url)*
+
+**`description`** From the list of stash accounts, retrieve the list of controllers
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
 
 ___
-

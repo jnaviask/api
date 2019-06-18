@@ -1,33 +1,38 @@
+> # External module: "chain/bestNumber"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="bestnumber"></a>
+* [bestNumber](_chain_bestnumber_.md#bestnumber)
 
-##  bestNumber
+## Functions
 
-▸ **bestNumber**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  bestNumber
 
-*Defined in [chain/bestNumber.ts:24](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/chain/bestNumber.ts#L24)*
+▸ **bestNumber**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__name__*: bestNumber
+*Defined in [chain/bestNumber.ts:24](url)*
 
-*__example__*:   
+**`name`** bestNumber
+
+**`example`** 
+<BR>
 
 ```javascript
 api.derive.chain.bestNumber((blockNumber) => {
-  console.log(`the current best block is #${blockNumber}`);
+console.log(`the current best block is #${blockNumber}`);
 });
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
+
 The latest block number.
 
 ___
-

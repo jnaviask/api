@@ -1,212 +1,220 @@
+> # Class: ChainProperties
 
+**`name`** ChainProperties
 
-*__name__*: ChainProperties
+**`description`** 
+Wraps the properties retrieved from the chain via the `system.properties` RPC call.
 
-*__description__*: Wraps the properties retrieved from the chain via the `system.properties` RPC call.
+## Hierarchy
 
-# Hierarchy
+  * [StructAny](_codec_structany_.structany.md)
 
-↳  [StructAny](_codec_structany_.structany.md)
+  * **ChainProperties**
 
-**↳ ChainProperties**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_rpc_chainproperties_.chainproperties.md#constructor)
 
-⊕ **new ChainProperties**(value?: *`object` \| `null`*): [ChainProperties](_rpc_chainproperties_.chainproperties.md)
+#### Accessors
+
+* [encodedLength](_rpc_chainproperties_.chainproperties.md#encodedlength)
+* [isEmpty](_rpc_chainproperties_.chainproperties.md#isempty)
+* [tokenDecimals](_rpc_chainproperties_.chainproperties.md#tokendecimals)
+* [tokenSymbol](_rpc_chainproperties_.chainproperties.md#tokensymbol)
+
+#### Methods
+
+* [eq](_rpc_chainproperties_.chainproperties.md#eq)
+* [toHex](_rpc_chainproperties_.chainproperties.md#tohex)
+* [toJSON](_rpc_chainproperties_.chainproperties.md#tojson)
+* [toRawType](_rpc_chainproperties_.chainproperties.md#torawtype)
+* [toString](_rpc_chainproperties_.chainproperties.md#tostring)
+* [toU8a](_rpc_chainproperties_.chainproperties.md#tou8a)
+
+## Constructors
+
+###  constructor
+
+\+ **new ChainProperties**(`value?`: object | null): *[ChainProperties](_rpc_chainproperties_.chainproperties.md)*
 
 *Inherited from [StructAny](_codec_structany_.structany.md).[constructor](_codec_structany_.structany.md#constructor)*
 
-*Defined in [codec/StructAny.ts:19](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L19)*
+*Defined in [codec/StructAny.ts:19](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `object` \| `null` |
+Name | Type |
+------ | ------ |
+`value?` | object \| null |
 
-**Returns:** [ChainProperties](_rpc_chainproperties_.chainproperties.md)
+**Returns:** *[ChainProperties](_rpc_chainproperties_.chainproperties.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="encodedlength"></a>
+###  encodedLength
 
-##  encodedLength
-
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Inherited from [StructAny](_codec_structany_.structany.md).[encodedLength](_codec_structany_.structany.md#encodedlength)*
 
-*Defined in [codec/StructAny.ts:46](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L46)*
+*Defined in [codec/StructAny.ts:46](url)*
 
-*__description__*: Always 0, never encodes as a Uint8Array
+**`description`** Always 0, never encodes as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [StructAny](_codec_structany_.structany.md).[isEmpty](_codec_structany_.structany.md#isempty)*
 
-*Defined in [codec/StructAny.ts:53](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L53)*
+*Defined in [codec/StructAny.ts:53](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
-
-___
-<a id="tokendecimals"></a>
-
-##  tokenDecimals
-
-**get tokenDecimals**(): `number` \| `undefined`
-
-*Defined in [rpc/ChainProperties.ts:16](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/ChainProperties.ts#L16)*
-
-*__description__*: The token decimals, if defined (de-facto standard only)
-
-**Returns:** `number` \| `undefined`
-
-___
-<a id="tokensymbol"></a>
-
-##  tokenSymbol
-
-**get tokenSymbol**(): `string` \| `undefined`
-
-*Defined in [rpc/ChainProperties.ts:23](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/ChainProperties.ts#L23)*
-
-*__description__*: The token system, if defined (de-facto standard only)
-
-**Returns:** `string` \| `undefined`
+**Returns:** *boolean*
 
 ___
 
-# Methods
+###  tokenDecimals
 
-<a id="eq"></a>
+● **get tokenDecimals**(): *number | undefined*
 
-##  eq
+*Defined in [rpc/ChainProperties.ts:16](url)*
 
-▸ **eq**(other?: *`any`*): `boolean`
+**`description`** The token decimals, if defined (de-facto standard only)
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+**Returns:** *number | undefined*
+
+___
+
+###  tokenSymbol
+
+● **get tokenSymbol**(): *string | undefined*
+
+*Defined in [rpc/ChainProperties.ts:23](url)*
+
+**`description`** The token system, if defined (de-facto standard only)
+
+**Returns:** *string | undefined*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [StructAny](_codec_structany_.structany.md).[eq](_codec_structany_.structany.md#eq)*
 
-*Defined in [codec/StructAny.ts:60](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L60)*
+*Defined in [codec/StructAny.ts:60](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [StructAny](_codec_structany_.structany.md).[toHex](_codec_structany_.structany.md#tohex)*
 
-*Defined in [codec/StructAny.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L67)*
+*Defined in [codec/StructAny.ts:67](url)*
 
-*__description__*: Unimplemented, will throw
+**`description`** Unimplemented, will throw
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [StructAny](_codec_structany_.structany.md).[toJSON](_codec_structany_.structany.md#tojson)*
 
-*Defined in [codec/StructAny.ts:74](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L74)*
+*Defined in [codec/StructAny.ts:74](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [StructAny](_codec_structany_.structany.md).[toRawType](_codec_structany_.structany.md#torawtype)*
 
-*Defined in [codec/StructAny.ts:85](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L85)*
+*Defined in [codec/StructAny.ts:85](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [StructAny](_codec_structany_.structany.md).[toString](_codec_structany_.structany.md#tostring)*
 
-*Defined in [codec/StructAny.ts:92](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L92)*
+*Defined in [codec/StructAny.ts:92](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [StructAny](_codec_structany_.structany.md).[toU8a](_codec_structany_.structany.md#tou8a)*
 
-*Defined in [codec/StructAny.ts:99](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L99)*
+*Defined in [codec/StructAny.ts:99](url)*
 
-*__description__*: Unimplemented, will throw
+**`description`** Unimplemented, will throw
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`isBare?` | undefined \| false \| true |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

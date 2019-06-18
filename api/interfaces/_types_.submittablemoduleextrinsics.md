@@ -1,11 +1,13 @@
+> # Interface: SubmittableModuleExtrinsics <**ApiType**>
 
+## Type parameters
 
-# Type parameters
-#### ApiType 
-# Hierarchy
+■` ApiType`
 
-**SubmittableModuleExtrinsics**
+## Hierarchy
 
-# Indexable
+* **SubmittableModuleExtrinsics**
 
-\[index: `string`\]:&nbsp;[SubmittableExtrinsicFunction](_types_.submittableextrinsicfunction.md)<`ApiType`>
+## Indexable
+
+● \[■&#x60; index&#x60;: *string*\]: [SubmittableExtrinsicFunction](_types_.submittableextrinsicfunction.md)‹*`ApiType`*›

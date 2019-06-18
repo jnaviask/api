@@ -1,22 +1,25 @@
+> # External module: "session/eraProgress"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="eraprogress"></a>
+* [eraProgress](_session_eraprogress_.md#eraprogress)
 
-##  eraProgress
+## Functions
 
-▸ **eraProgress**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  eraProgress
 
-*Defined in [session/eraProgress.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/session/eraProgress.ts#L13)*
+▸ **eraProgress**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+
+*Defined in [session/eraProgress.ts:13](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
 
 ___
-

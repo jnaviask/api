@@ -1,9 +1,9 @@
+> # Interface: ModuleStorage
 
+## Hierarchy
 
-# Hierarchy
+* **ModuleStorage**
 
-**ModuleStorage**
+## Indexable
 
-# Indexable
-
-\[key: `string`\]:&nbsp;`StorageFunction`
+● \[■&#x60; key&#x60;: *string*\]: `StorageFunction`

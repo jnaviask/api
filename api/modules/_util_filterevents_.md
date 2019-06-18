@@ -1,24 +1,27 @@
+> # External module: "util/filterEvents"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="filterevents"></a>
+* [filterEvents](_util_filterevents_.md#filterevents)
 
-##  filterEvents
+## Functions
 
-▸ **filterEvents**(extHash: *`U8a`*, __namedParameters: *`object`*, allEvents: *`Array`<`EventRecord`>*): `Array`<`EventRecord`> \| `undefined`
+###  filterEvents
 
-*Defined in [util/filterEvents.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/util/filterEvents.ts#L9)*
+▸ **filterEvents**(`extHash`: `U8a`, `__namedParameters`: object, `allEvents`: `Array<EventRecord>`): *`Array<EventRecord>` | undefined*
+
+*Defined in [util/filterEvents.ts:9](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| extHash | `U8a` |
-| __namedParameters | `object` |
-| allEvents | `Array`<`EventRecord`> |
+Name | Type |
+------ | ------ |
+`extHash` | `U8a` |
+`__namedParameters` | object |
+`allEvents` | `Array<EventRecord>` |
 
-**Returns:** `Array`<`EventRecord`> \| `undefined`
+**Returns:** *`Array<EventRecord>` | undefined*
 
 ___
-

@@ -1,30 +1,25 @@
+> # External module: "Metadata/v2/Storage"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [MapType](../classes/_metadata_v2_storage_.maptype.md)
 * [StorageFunctionMetadata](../classes/_metadata_v2_storage_.storagefunctionmetadata.md)
 * [StorageFunctionType](../classes/_metadata_v2_storage_.storagefunctiontype.md)
 
-### Type aliases
+#### Type aliases
 
 * [StorageFunctionMetadataValue](_metadata_v2_storage_.md#storagefunctionmetadatavalue)
 
----
+## Type aliases
 
-# Type aliases
+###  StorageFunctionMetadataValue
 
-<a id="storagefunctionmetadatavalue"></a>
+Ƭ **StorageFunctionMetadataValue**: *object*
 
-##  StorageFunctionMetadataValue
+*Defined in [Metadata/v2/Storage.ts:111](url)*
 
-**Ƭ StorageFunctionMetadataValue**: *`object`*
-
-*Defined in [Metadata/v2/Storage.ts:111](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/v2/Storage.ts#L111)*
-
-#### Type declaration
+#### Type declaration:
 
 ___
-

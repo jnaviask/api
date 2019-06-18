@@ -1,10 +1,7 @@
+> # External module: "Contract"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Contract](../classes/_contract_.contract.md)
-
----
-

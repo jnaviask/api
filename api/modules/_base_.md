@@ -1,10 +1,7 @@
+> # External module: "Base"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [ApiBase](../classes/_base_.apibase.md)
-
----
-

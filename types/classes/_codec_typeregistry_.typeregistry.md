@@ -1,86 +1,91 @@
+> # Class: TypeRegistry
 
+## Hierarchy
 
-# Hierarchy
+* **TypeRegistry**
 
-**TypeRegistry**
+### Index
 
-# Properties
+#### Properties
 
-<a id="defaultregistry"></a>
+* [defaultRegistry](_codec_typeregistry_.typeregistry.md#static-defaultregistry)
 
-## `<Static>` defaultRegistry
+#### Methods
 
-**● defaultRegistry**: *[TypeRegistry](_codec_typeregistry_.typeregistry.md)* =  new TypeRegistry()
+* [get](_codec_typeregistry_.typeregistry.md#get)
+* [getOrThrow](_codec_typeregistry_.typeregistry.md#getorthrow)
+* [register](_codec_typeregistry_.typeregistry.md#register)
 
-*Defined in [codec/typeRegistry.ts:11](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/typeRegistry.ts#L11)*
+## Properties
 
-___
+### `Static` defaultRegistry
 
-# Methods
+■ **defaultRegistry**: *[TypeRegistry](_codec_typeregistry_.typeregistry.md)* =  new TypeRegistry()
 
-<a id="get"></a>
-
-##  get
-
-▸ **get**(name: *`string`*): [Constructor](../interfaces/_types_.constructor.md) \| `undefined`
-
-*Defined in [codec/typeRegistry.ts:48](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/typeRegistry.ts#L48)*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| name | `string` |
-
-**Returns:** [Constructor](../interfaces/_types_.constructor.md) \| `undefined`
-
-___
-<a id="getorthrow"></a>
-
-##  getOrThrow
-
-▸ **getOrThrow**(name: *`string`*, msg?: *`undefined` \| `string`*): [Constructor](../interfaces/_types_.constructor.md)
-
-*Defined in [codec/typeRegistry.ts:52](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/typeRegistry.ts#L52)*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| name | `string` |
-| `Optional` msg | `undefined` \| `string` |
-
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)
-
-___
-<a id="register"></a>
-
-##  register
-
-▸ **register**(type: *[Constructor](../interfaces/_types_.constructor.md) \| [RegistryTypes](../modules/_types_.md#registrytypes)*): `void`
-
-▸ **register**(name: *`string`*, type: *[Constructor](../interfaces/_types_.constructor.md)*): `void`
-
-*Defined in [codec/typeRegistry.ts:15](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/typeRegistry.ts#L15)*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| type | [Constructor](../interfaces/_types_.constructor.md) \| [RegistryTypes](../modules/_types_.md#registrytypes) |
-
-**Returns:** `void`
-
-*Defined in [codec/typeRegistry.ts:16](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/typeRegistry.ts#L16)*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| name | `string` |
-| type | [Constructor](../interfaces/_types_.constructor.md) |
-
-**Returns:** `void`
+*Defined in [codec/typeRegistry.ts:11](url)*
 
 ___
 
+## Methods
+
+###  get
+
+▸ **get**(`name`: string): *[Constructor](../interfaces/_types_.constructor.md) | undefined*
+
+*Defined in [codec/typeRegistry.ts:48](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`name` | string |
+
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md) | undefined*
+
+___
+
+###  getOrThrow
+
+▸ **getOrThrow**(`name`: string, `msg?`: undefined | string): *[Constructor](../interfaces/_types_.constructor.md)*
+
+*Defined in [codec/typeRegistry.ts:52](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`name` | string |
+`msg?` | undefined \| string |
+
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)*
+
+___
+
+###  register
+
+▸ **register**(`type`: [Constructor](../interfaces/_types_.constructor.md) | [RegistryTypes](../modules/_types_.md#registrytypes)): *void*
+
+*Defined in [codec/typeRegistry.ts:15](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`type` | [Constructor](../interfaces/_types_.constructor.md) \| [RegistryTypes](../modules/_types_.md#registrytypes) |
+
+**Returns:** *void*
+
+▸ **register**(`name`: string, `type`: [Constructor](../interfaces/_types_.constructor.md)): *void*
+
+*Defined in [codec/typeRegistry.ts:16](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`name` | string |
+`type` | [Constructor](../interfaces/_types_.constructor.md) |
+
+**Returns:** *void*
+
+___

@@ -1,363 +1,376 @@
+> # Class: Alive <**S, T, V, E**>
 
+## Type parameters
 
-# Type parameters
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
-↳  [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md)
+■` T`: *object*
 
-**↳ Alive**
+■` V`: *object*
 
-# Implements
+■` E`: *object*
+
+## Hierarchy
+
+  * [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md)
+
+  * **Alive**
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_contractinfo_.alive.md#constructor)
 
-⊕ **new Alive**(value?: *`any`*): [Alive](_type_contractinfo_.alive.md)
+#### Accessors
+
+* [Type](_type_contractinfo_.alive.md#type)
+* [codeHash](_type_contractinfo_.alive.md#codehash)
+* [deductBlock](_type_contractinfo_.alive.md#deductblock)
+* [encodedLength](_type_contractinfo_.alive.md#encodedlength)
+* [isEmpty](_type_contractinfo_.alive.md#isempty)
+* [lastWrite](_type_contractinfo_.alive.md#lastwrite)
+* [rentAllowance](_type_contractinfo_.alive.md#rentallowance)
+* [storageSize](_type_contractinfo_.alive.md#storagesize)
+* [trieId](_type_contractinfo_.alive.md#trieid)
+
+#### Methods
+
+* [eq](_type_contractinfo_.alive.md#eq)
+* [get](_type_contractinfo_.alive.md#get)
+* [getAtIndex](_type_contractinfo_.alive.md#getatindex)
+* [toArray](_type_contractinfo_.alive.md#toarray)
+* [toHex](_type_contractinfo_.alive.md#tohex)
+* [toJSON](_type_contractinfo_.alive.md#tojson)
+* [toRawType](_type_contractinfo_.alive.md#torawtype)
+* [toString](_type_contractinfo_.alive.md#tostring)
+* [toU8a](_type_contractinfo_.alive.md#tou8a)
+* [with](_type_contractinfo_.alive.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new Alive**(`value?`: any): *[Alive](_type_contractinfo_.alive.md)*
 
 *Inherited from [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md).[constructor](_type_contractinfo_.alivecontractinfo.md#constructor)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/ContractInfo.ts:20](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ContractInfo.ts#L20)*
+*Defined in [type/ContractInfo.ts:20](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** [Alive](_type_contractinfo_.alive.md)
+**Returns:** *[Alive](_type_contractinfo_.alive.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="type"></a>
+###  Type
 
-##  Type
-
-**get Type**(): `E`
+● **get Type**(): *`E`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Struct.ts:163](url)*
 
-*__description__*: Returns the Type description to sthe structure
+**`description`** Returns the Type description to sthe structure
 
-**Returns:** `E`
+**Returns:** *`E`*
 
 ___
-<a id="codehash"></a>
 
-##  codeHash
+###  codeHash
 
-**get codeHash**(): [CodeHash](_type_codehash_.codehash.md)
+● **get codeHash**(): *[CodeHash](_type_codehash_.codehash.md)*
 
 *Inherited from [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md).[codeHash](_type_contractinfo_.alivecontractinfo.md#codehash)*
 
-*Defined in [type/ContractInfo.ts:32](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ContractInfo.ts#L32)*
+*Defined in [type/ContractInfo.ts:32](url)*
 
-**Returns:** [CodeHash](_type_codehash_.codehash.md)
+**Returns:** *[CodeHash](_type_codehash_.codehash.md)*
 
 ___
-<a id="deductblock"></a>
 
-##  deductBlock
+###  deductBlock
 
-**get deductBlock**(): [BlockNumber](_type_blocknumber_.blocknumber.md)
+● **get deductBlock**(): *[BlockNumber](_type_blocknumber_.blocknumber.md)*
 
 *Inherited from [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md).[deductBlock](_type_contractinfo_.alivecontractinfo.md#deductblock)*
 
-*Defined in [type/ContractInfo.ts:36](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ContractInfo.ts#L36)*
+*Defined in [type/ContractInfo.ts:36](url)*
 
-**Returns:** [BlockNumber](_type_blocknumber_.blocknumber.md)
+**Returns:** *[BlockNumber](_type_blocknumber_.blocknumber.md)*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  encodedLength
 
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L176)*
+*Defined in [codec/Struct.ts:176](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/Struct.ts:148](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="lastwrite"></a>
 
-##  lastWrite
+###  lastWrite
 
-**get lastWrite**(): [Option](_codec_option_.option.md)<[BlockNumber](_type_blocknumber_.blocknumber.md)>
+● **get lastWrite**(): *[Option](_codec_option_.option.md)‹*[BlockNumber](_type_blocknumber_.blocknumber.md)*›*
 
 *Inherited from [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md).[lastWrite](_type_contractinfo_.alivecontractinfo.md#lastwrite)*
 
-*Defined in [type/ContractInfo.ts:40](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ContractInfo.ts#L40)*
+*Defined in [type/ContractInfo.ts:40](url)*
 
-**Returns:** [Option](_codec_option_.option.md)<[BlockNumber](_type_blocknumber_.blocknumber.md)>
+**Returns:** *[Option](_codec_option_.option.md)‹*[BlockNumber](_type_blocknumber_.blocknumber.md)*›*
 
 ___
-<a id="rentallowance"></a>
 
-##  rentAllowance
+###  rentAllowance
 
-**get rentAllowance**(): [Balance](_type_balance_.balance.md)
+● **get rentAllowance**(): *[Balance](_type_balance_.balance.md)*
 
 *Inherited from [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md).[rentAllowance](_type_contractinfo_.alivecontractinfo.md#rentallowance)*
 
-*Defined in [type/ContractInfo.ts:44](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ContractInfo.ts#L44)*
+*Defined in [type/ContractInfo.ts:44](url)*
 
-**Returns:** [Balance](_type_balance_.balance.md)
+**Returns:** *[Balance](_type_balance_.balance.md)*
 
 ___
-<a id="storagesize"></a>
 
-##  storageSize
+###  storageSize
 
-**get storageSize**(): [U32](_primitive_u32_.u32.md)
+● **get storageSize**(): *[U32](_primitive_u32_.u32.md)*
 
 *Inherited from [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md).[storageSize](_type_contractinfo_.alivecontractinfo.md#storagesize)*
 
-*Defined in [type/ContractInfo.ts:48](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ContractInfo.ts#L48)*
+*Defined in [type/ContractInfo.ts:48](url)*
 
-**Returns:** [U32](_primitive_u32_.u32.md)
+**Returns:** *[U32](_primitive_u32_.u32.md)*
 
 ___
-<a id="trieid"></a>
 
-##  trieId
+###  trieId
 
-**get trieId**(): [TrieId](_type_contractinfo_.trieid.md)
+● **get trieId**(): *[TrieId](_type_contractinfo_.trieid.md)*
 
 *Inherited from [AliveContractInfo](_type_contractinfo_.alivecontractinfo.md).[trieId](_type_contractinfo_.alivecontractinfo.md#trieid)*
 
-*Defined in [type/ContractInfo.ts:52](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ContractInfo.ts#L52)*
+*Defined in [type/ContractInfo.ts:52](url)*
 
-**Returns:** [TrieId](_type_contractinfo_.trieid.md)
+**Returns:** *[TrieId](_type_contractinfo_.trieid.md)*
 
 ___
 
-# Methods
+## Methods
 
-<a id="eq"></a>
+###  eq
 
-##  eq
+▸ **eq**(`other?`: any): *boolean*
 
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/Struct.ts:185](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="get"></a>
 
-##  get
+###  get
 
-▸ **get**(name: *`keyof S`*): [Codec](../interfaces/_types_.codec.md) \| `undefined`
+▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
 
-*Overrides Map.get*
+*Overrides void*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/Struct.ts:193](url)*
 
-*__description__*: Returns a specific names entry in the structure
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md) \| `undefined`
+**Returns:** *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  getAtIndex
 
-▸ **getAtIndex**(index: *`number`*): [Codec](../interfaces/_types_.codec.md)
+▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [codec/Struct.ts:200](url)*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md)
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
-<a id="toarray"></a>
 
-##  toArray
+###  toArray
 
-▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
+▸ **toArray**(): *`Array<Codec>`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/Struct.ts:207](url)*
 
-*__description__*: Converts the Object to an standard JavaScript Array
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:214](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/Struct.ts:221](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [codec/Struct.ts:235](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
+*Defined in [codec/Struct.ts:248](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L256)*
+*Defined in [codec/Struct.ts:256](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**<`S`>(Types: *`S`*): [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
+*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#static-with)*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
 ___
-

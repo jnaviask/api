@@ -1,14 +1,16 @@
+> # Interface: MetadataInterface <**Modules**>
 
+## Type parameters
 
-# Type parameters
-#### Modules :  [Codec](_types_.codec.md)
-# Hierarchy
+■` Modules`: *[Codec](_types_.codec.md)*
 
- [Codec](_types_.codec.md)
+## Hierarchy
 
-**↳ MetadataInterface**
+* [Codec](_types_.codec.md)
 
-# Implemented by
+  * **MetadataInterface**
+
+## Implemented by
 
 * [MetadataV0](../classes/_metadata_v0_metadata_.metadatav0.md)
 * [MetadataV1](../classes/_metadata_v1_metadata_.metadatav1.md)
@@ -17,169 +19,174 @@
 * [MetadataV4](../classes/_metadata_v4_metadata_.metadatav4.md)
 * [MetadataV5](../classes/_metadata_v5_metadata_.metadatav5.md)
 
-# Properties
+### Index
 
-<a id="encodedlength"></a>
+#### Properties
 
-##  encodedLength
+* [encodedLength](_metadata_types_.metadatainterface.md#encodedlength)
+* [isEmpty](_metadata_types_.metadatainterface.md#isempty)
+* [modules](_metadata_types_.metadatainterface.md#modules)
 
-**● encodedLength**: *`number`*
+#### Methods
+
+* [eq](_metadata_types_.metadatainterface.md#eq)
+* [getUniqTypes](_metadata_types_.metadatainterface.md#getuniqtypes)
+* [toHex](_metadata_types_.metadatainterface.md#tohex)
+* [toJSON](_metadata_types_.metadatainterface.md#tojson)
+* [toRawType](_metadata_types_.metadatainterface.md#torawtype)
+* [toString](_metadata_types_.metadatainterface.md#tostring)
+* [toU8a](_metadata_types_.metadatainterface.md#tou8a)
+
+## Properties
+
+###  encodedLength
+
+● **encodedLength**: *number*
 
 *Inherited from [Codec](_types_.codec.md).[encodedLength](_types_.codec.md#encodedlength)*
 
-*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L47)*
+*Defined in [types.ts:47](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**● isEmpty**: *`boolean`*
+● **isEmpty**: *boolean*
 
 *Inherited from [Codec](_types_.codec.md).[isEmpty](_types_.codec.md#isempty)*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L52)*
+*Defined in [types.ts:52](url)*
 
-*__description__*: Checks if the value is an empty value
-
-___
-<a id="modules"></a>
-
-##  modules
-
-**● modules**: *[Vector](../classes/_codec_vector_.vector.md)<`Modules`>*
-
-*Defined in [Metadata/types.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/types.ts#L9)*
+**`description`** Checks if the value is an empty value
 
 ___
 
-# Methods
+###  modules
 
-<a id="eq"></a>
+● **modules**: *[Vector](../classes/_codec_vector_.vector.md)‹*`Modules`*›*
 
-##  eq
+*Defined in [Metadata/types.ts:9](url)*
 
-▸ **eq**(other?: *`any`*): `boolean`
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
 
 *Inherited from [Codec](_types_.codec.md).[eq](_types_.codec.md#eq)*
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L57)*
+*Defined in [types.ts:57](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
-
-**Returns:** `boolean`
-
-___
-<a id="getuniqtypes"></a>
-
-##  getUniqTypes
-
-▸ **getUniqTypes**(throwError: *`boolean`*): `Array`<`string`>
-
-*Defined in [Metadata/types.ts:10](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/Metadata/types.ts#L10)*
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| throwError | `boolean` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `Array`<`string`>
+**Returns:** *boolean*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  getUniqTypes
 
-▸ **toHex**(isLe?: *`undefined` \| `false` \| `true`*): `string`
+▸ **getUniqTypes**(`throwError`: boolean): *`Array<string>`*
+
+*Defined in [Metadata/types.ts:10](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`throwError` | boolean |
+
+**Returns:** *`Array<string>`*
+
+___
+
+###  toHex
+
+▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
 *Inherited from [Codec](_types_.codec.md).[toHex](_types_.codec.md#tohex)*
 
-*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L62)*
+*Defined in [types.ts:62](url)*
 
-*__description__*: Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
+**`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` isLe | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`isLe?` | undefined \| false \| true |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
 *Inherited from [Codec](_types_.codec.md).[toJSON](_types_.codec.md#tojson)*
 
-*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L67)*
+*Defined in [types.ts:67](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
 *Inherited from [Codec](_types_.codec.md).[toRawType](_types_.codec.md#torawtype)*
 
-*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L72)*
+*Defined in [types.ts:72](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
 *Inherited from [Codec](_types_.codec.md).[toString](_types_.codec.md#tostring)*
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L77)*
+*Defined in [types.ts:77](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
 *Inherited from [Codec](_types_.codec.md).[toU8a](_types_.codec.md#tou8a)*
 
-*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L83)*
+*Defined in [types.ts:83](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

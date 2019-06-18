@@ -1,204 +1,217 @@
+> # Class: Text
 
+**`name`** Text
 
-*__name__*: Text
+**`description`** 
+This is a string wrapper, along with the length. It is used both for strings as well
+as items such as documentation. It simply extends the standard JS `String` built-in
+object, inheriting all methods exposed from `String`.
 
-*__description__*: This is a string wrapper, along with the length. It is used both for strings as well as items such as documentation. It simply extends the standard JS `String` built-in object, inheriting all methods exposed from `String`.
+## Hierarchy
 
-# Hierarchy
+* `String`
 
- `String`
+  * **Text**
 
-**↳ Text**
+  * [Type](_primitive_type_.type.md)
 
-↳  [Type](_primitive_type_.type.md)
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Indexable
+## Indexable
 
-\[index: `number`\]:&nbsp;`string`
-# Constructors
+● \[■&#x60; index&#x60;: *number*\]: string
 
-<a id="constructor"></a>
+### Index
 
-##  constructor
+#### Constructors
 
-⊕ **new Text**(value?: *[Text](_primitive_text_.text.md) \| `string` \| [AnyU8a](../modules/_types_.md#anyu8a) \| `object`*): [Text](_primitive_text_.text.md)
+* [constructor](_primitive_text_.text.md#constructor)
 
-*Defined in [primitive/Text.ts:23](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L23)*
+#### Properties
+
+* [String](_primitive_text_.text.md#static-string)
+
+#### Accessors
+
+* [encodedLength](_primitive_text_.text.md#encodedlength)
+* [isEmpty](_primitive_text_.text.md#isempty)
+* [length](_primitive_text_.text.md#length)
+
+#### Methods
+
+* [eq](_primitive_text_.text.md#eq)
+* [toHex](_primitive_text_.text.md#tohex)
+* [toJSON](_primitive_text_.text.md#tojson)
+* [toRawType](_primitive_text_.text.md#torawtype)
+* [toString](_primitive_text_.text.md#tostring)
+* [toU8a](_primitive_text_.text.md#tou8a)
+
+## Constructors
+
+###  constructor
+
+\+ **new Text**(`value`: [Text](_primitive_text_.text.md) | string | [AnyU8a](../modules/_types_.md#anyu8a) | object): *[Text](_primitive_text_.text.md)*
+
+*Defined in [primitive/Text.ts:23](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` value | [Text](_primitive_text_.text.md) \| `string` \| [AnyU8a](../modules/_types_.md#anyu8a) \| `object` | &quot;&quot; |
+Name | Type | Default |
+------ | ------ | ------ |
+`value` | [Text](_primitive_text_.text.md) \| string \| [AnyU8a](../modules/_types_.md#anyu8a) \| object | "" |
 
-**Returns:** [Text](_primitive_text_.text.md)
+**Returns:** *[Text](_primitive_text_.text.md)*
 
 ___
 
-# Properties
+## Properties
 
-<a id="string"></a>
+### `Static` String
 
-## `<Static>` String
+■ **String**: *`StringConstructor`*
 
-**● String**: *`StringConstructor`*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:527*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:527
 
 Allows manipulation and formatting of text strings and determination and location of substrings within strings.
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="encodedlength"></a>
+###  encodedLength
 
-##  encodedLength
+● **get encodedLength**(): *number*
 
-**get encodedLength**(): `number`
+*Defined in [primitive/Text.ts:52](url)*
 
-*Defined in [primitive/Text.ts:52](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L52)*
+**`description`** The length of the value when encoded as a Uint8Array
 
-*__description__*: The length of the value when encoded as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Defined in [primitive/Text.ts:59](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L59)*
-
-*__description__*: Checks if the value is an empty value
-
-**Returns:** `boolean`
-
-___
-<a id="length"></a>
-
-##  length
-
-**get length**(): `number`
-
-*Overrides String.length*
-
-*Defined in [primitive/Text.ts:66](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L66)*
-
-*__description__*: The length of the value
-
-**Returns:** `number`
+**Returns:** *number*
 
 ___
 
-# Methods
+###  isEmpty
 
-<a id="eq"></a>
+● **get isEmpty**(): *boolean*
 
-##  eq
+*Defined in [primitive/Text.ts:59](url)*
 
-▸ **eq**(other?: *`any`*): `boolean`
+**`description`** Checks if the value is an empty value
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+**Returns:** *boolean*
 
-*Defined in [primitive/Text.ts:74](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L74)*
+___
 
-*__description__*: Compares the value of the input to see if there is a match
+###  length
+
+● **get length**(): *number*
+
+*Overrides void*
+
+*Defined in [primitive/Text.ts:66](url)*
+
+**`description`** The length of the value
+
+**Returns:** *number*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Text.ts:74](url)*
+
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
-
-___
-<a id="tohex"></a>
-
-##  toHex
-
-▸ **toHex**(): `string`
-
-*Defined in [primitive/Text.ts:83](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L83)*
-
-*__description__*: Returns a hex string representation of the value
-
-**Returns:** `string`
+**Returns:** *boolean*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toHex
 
-▸ **toJSON**(): `any`
+▸ **toHex**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Defined in [primitive/Text.ts:83](url)*
 
-*Defined in [primitive/Text.ts:92](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L92)*
+**`description`** Returns a hex string representation of the value
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
-
-**Returns:** `any`
+**Returns:** *string*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toJSON
 
-▸ **toRawType**(): `string`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:99](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L99)*
+*Defined in [primitive/Text.ts:92](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `string`
-
-___
-<a id="tostring"></a>
-
-##  toString
-
-▸ **toString**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
-
-*Overrides String.toString*
-
-*Defined in [primitive/Text.ts:106](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L106)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
+**Returns:** *any*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toRawType
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:115](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Text.ts#L115)*
+*Defined in [primitive/Text.ts:99](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Overrides void*
+
+*Defined in [primitive/Text.ts:106](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [primitive/Text.ts:115](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

@@ -1,36 +1,39 @@
+> # Interface: DerivedReferendumVote
 
+## Hierarchy
 
-# Hierarchy
+* **DerivedReferendumVote**
 
-**DerivedReferendumVote**
+### Index
 
-# Properties
+#### Properties
 
-<a id="accountid"></a>
+* [accountId](_types_.derivedreferendumvote.md#accountid)
+* [balance](_types_.derivedreferendumvote.md#balance)
+* [vote](_types_.derivedreferendumvote.md#vote)
 
-##  accountId
+## Properties
 
-**● accountId**: *`AccountId`*
+###  accountId
 
-*Defined in [types.ts:45](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L45)*
+● **accountId**: *`AccountId`*
 
-___
-<a id="balance"></a>
-
-##  balance
-
-**● balance**: *`Balance`*
-
-*Defined in [types.ts:46](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L46)*
-
-___
-<a id="vote"></a>
-
-##  vote
-
-**● vote**: *`Vote`*
-
-*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L47)*
+*Defined in [types.ts:45](url)*
 
 ___
 
+###  balance
+
+● **balance**: *`Balance`*
+
+*Defined in [types.ts:46](url)*
+
+___
+
+###  vote
+
+● **vote**: *`Vote`*
+
+*Defined in [types.ts:47](url)*
+
+___

@@ -1,527 +1,552 @@
+> # Class: ReferendumInfoExtended <**S, T, V, E**>
 
+**`name`** ReferendumInfoExtended
 
-*__name__*: ReferendumInfoExtended
+**`description`** 
+A [[ReferendumInfo]] with an additional `index` field
 
-*__description__*: A \[\[ReferendumInfo\]\] with an additional `index` field
+## Type parameters
 
-# Type parameters
-#### S :  `ConstructorDef`
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *`ConstructorDef`*
 
- `ReferendumInfo`
+■` T`: *object*
 
-**↳ ReferendumInfoExtended**
+■` V`: *object*
 
-# Implements
+■` E`: *object*
+
+## Hierarchy
+
+* `ReferendumInfo`
+
+  * **ReferendumInfoExtended**
+
+## Implements
 
 * `Codec`
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_referenduminfoextended_.referenduminfoextended.md#constructor)
 
-⊕ **new ReferendumInfoExtended**(value: *`ReferendumInfo` \| [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md)*, index?: *`BN` \| `number`*): [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md)
+#### Properties
 
-*Overrides ReferendumInfo.__constructor*
+* [__@toStringTag](_type_referenduminfoextended_.referenduminfoextended.md#__@tostringtag)
+* [size](_type_referenduminfoextended_.referenduminfoextended.md#size)
 
-*Defined in [type/ReferendumInfoExtended.ts:14](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/type/ReferendumInfoExtended.ts#L14)*
+#### Accessors
+
+* [Type](_type_referenduminfoextended_.referenduminfoextended.md#type)
+* [delay](_type_referenduminfoextended_.referenduminfoextended.md#delay)
+* [encodedLength](_type_referenduminfoextended_.referenduminfoextended.md#encodedlength)
+* [end](_type_referenduminfoextended_.referenduminfoextended.md#end)
+* [index](_type_referenduminfoextended_.referenduminfoextended.md#index)
+* [isEmpty](_type_referenduminfoextended_.referenduminfoextended.md#isempty)
+* [proposal](_type_referenduminfoextended_.referenduminfoextended.md#proposal)
+* [threshold](_type_referenduminfoextended_.referenduminfoextended.md#threshold)
+
+#### Methods
+
+* [__@iterator](_type_referenduminfoextended_.referenduminfoextended.md#__@iterator)
+* [clear](_type_referenduminfoextended_.referenduminfoextended.md#clear)
+* [delete](_type_referenduminfoextended_.referenduminfoextended.md#delete)
+* [entries](_type_referenduminfoextended_.referenduminfoextended.md#entries)
+* [eq](_type_referenduminfoextended_.referenduminfoextended.md#eq)
+* [forEach](_type_referenduminfoextended_.referenduminfoextended.md#foreach)
+* [get](_type_referenduminfoextended_.referenduminfoextended.md#get)
+* [getAtIndex](_type_referenduminfoextended_.referenduminfoextended.md#getatindex)
+* [has](_type_referenduminfoextended_.referenduminfoextended.md#has)
+* [keys](_type_referenduminfoextended_.referenduminfoextended.md#keys)
+* [set](_type_referenduminfoextended_.referenduminfoextended.md#set)
+* [toArray](_type_referenduminfoextended_.referenduminfoextended.md#toarray)
+* [toHex](_type_referenduminfoextended_.referenduminfoextended.md#tohex)
+* [toJSON](_type_referenduminfoextended_.referenduminfoextended.md#tojson)
+* [toRawType](_type_referenduminfoextended_.referenduminfoextended.md#torawtype)
+* [toString](_type_referenduminfoextended_.referenduminfoextended.md#tostring)
+* [toU8a](_type_referenduminfoextended_.referenduminfoextended.md#tou8a)
+* [values](_type_referenduminfoextended_.referenduminfoextended.md#values)
+* [with](_type_referenduminfoextended_.referenduminfoextended.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new ReferendumInfoExtended**(`value`: `ReferendumInfo` | [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md), `index?`: `BN` | number): *[ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md)*
+
+*Overrides void*
+
+*Defined in [type/ReferendumInfoExtended.ts:14](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `ReferendumInfo` \| [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md) |
-| `Optional` index | `BN` \| `number` |
+Name | Type |
+------ | ------ |
+`value` | `ReferendumInfo` \| [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md) |
+`index?` | `BN` \| number |
 
-**Returns:** [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md)
-
-___
-
-# Properties
-
-<a id="___tostringtag"></a>
-
-##  __@toStringTag
-
-**● __@toStringTag**: *`string`*
-
-*Inherited from Map.[Symbol.toStringTag]*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130*
-
-___
-<a id="size"></a>
-
-##  size
-
-**● size**: *`number`*
-
-*Inherited from Map.size*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:28*
+**Returns:** *[ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md)*
 
 ___
 
-# Accessors
+## Properties
 
-<a id="type"></a>
+###  __@toStringTag
 
-##  Type
+● **__@toStringTag**: *string*
 
-**get Type**(): `E`
+*Inherited from void*
 
-*Inherited from Struct.Type*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
-
-*__description__*: Returns the Type description to sthe structure
-
-**Returns:** `E`
-
-___
-<a id="delay"></a>
-
-##  delay
-
-**get delay**(): `BlockNumber`
-
-*Inherited from ReferendumInfo.delay*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/type/ReferendumInfo.ts:58](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ReferendumInfo.ts#L58)*
-
-*__description__*: The delay (in blocks) to wait after a successful referendum before deploying
-
-**Returns:** `BlockNumber`
-
-___
-<a id="encodedlength"></a>
-
-##  encodedLength
-
-**get encodedLength**(): `number`
-
-*Inherited from Struct.encodedLength*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L176)*
-
-*__description__*: The length of the value when encoded as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="end"></a>
-
-##  end
-
-**get end**(): `BlockNumber`
-
-*Inherited from ReferendumInfo.end*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/type/ReferendumInfo.ts:37](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ReferendumInfo.ts#L37)*
-
-*__description__*: When voting on this referendum will end
-
-**Returns:** `BlockNumber`
-
-___
-<a id="index"></a>
-
-##  index
-
-**get index**(): `ReferendumIndex`
-
-*Defined in [type/ReferendumInfoExtended.ts:27](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/type/ReferendumInfoExtended.ts#L27)*
-
-*__description__*: Convenience getter, returns the referendumIndex
-
-**Returns:** `ReferendumIndex`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Inherited from Struct.isEmpty*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
-
-*__description__*: Checks if the value is an empty value
-
-**Returns:** `boolean`
-
-___
-<a id="proposal"></a>
-
-##  proposal
-
-**get proposal**(): `Proposal`
-
-*Inherited from ReferendumInfo.proposal*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/type/ReferendumInfo.ts:44](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ReferendumInfo.ts#L44)*
-
-*__description__*: The proposal being voted on
-
-**Returns:** `Proposal`
-
-___
-<a id="threshold"></a>
-
-##  threshold
-
-**get threshold**(): `VoteThreshold`
-
-*Inherited from ReferendumInfo.threshold*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/type/ReferendumInfo.ts:51](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ReferendumInfo.ts#L51)*
-
-*__description__*: The thresholding mechanism to determine whether it passed
-
-**Returns:** `VoteThreshold`
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130
 
 ___
 
-# Methods
+###  size
 
-<a id="___iterator"></a>
+● **size**: *number*
 
-##  __@iterator
+*Inherited from void*
 
-▸ **__@iterator**(): `IterableIterator`<[`keyof S`, `Codec`]>
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:28
 
-*Inherited from Map.[Symbol.iterator]*
+___
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:113*
+## Accessors
+
+###  Type
+
+● **get Type**(): *`E`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:163](url)*
+
+**`description`** Returns the Type description to sthe structure
+
+**Returns:** *`E`*
+
+___
+
+###  delay
+
+● **get delay**(): *`BlockNumber`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/type/ReferendumInfo.ts:58](url)*
+
+**`description`** The delay (in blocks) to wait after a successful referendum before deploying
+
+**Returns:** *`BlockNumber`*
+
+___
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:176](url)*
+
+**`description`** The length of the value when encoded as a Uint8Array
+
+**Returns:** *number*
+
+___
+
+###  end
+
+● **get end**(): *`BlockNumber`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/type/ReferendumInfo.ts:37](url)*
+
+**`description`** When voting on this referendum will end
+
+**Returns:** *`BlockNumber`*
+
+___
+
+###  index
+
+● **get index**(): *`ReferendumIndex`*
+
+*Defined in [type/ReferendumInfoExtended.ts:27](url)*
+
+**`description`** Convenience getter, returns the referendumIndex
+
+**Returns:** *`ReferendumIndex`*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:148](url)*
+
+**`description`** Checks if the value is an empty value
+
+**Returns:** *boolean*
+
+___
+
+###  proposal
+
+● **get proposal**(): *`Proposal`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/type/ReferendumInfo.ts:44](url)*
+
+**`description`** The proposal being voted on
+
+**Returns:** *`Proposal`*
+
+___
+
+###  threshold
+
+● **get threshold**(): *`VoteThreshold`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/type/ReferendumInfo.ts:51](url)*
+
+**`description`** The thresholding mechanism to determine whether it passed
+
+**Returns:** *`VoteThreshold`*
+
+___
+
+## Methods
+
+###  __@iterator
+
+▸ **__@iterator**(): *`IterableIterator<[keyof S, Codec]>`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:113
 
 Returns an iterable of entries in the map.
 
-**Returns:** `IterableIterator`<[`keyof S`, `Codec`]>
+**Returns:** *`IterableIterator<[keyof S, Codec]>`*
 
 ___
-<a id="clear"></a>
 
-##  clear
+###  clear
 
-▸ **clear**(): `void`
+▸ **clear**(): *void*
 
-*Inherited from Map.clear*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:22*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:22
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="delete"></a>
 
-##  delete
+###  delete
 
-▸ **delete**(key: *`keyof S`*): `boolean`
+▸ **delete**(`key`: keyof S): *boolean*
 
-*Inherited from Map.delete*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:23*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:23
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `keyof S` |
+Name | Type |
+------ | ------ |
+`key` | keyof S |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="entries"></a>
 
-##  entries
+###  entries
 
-▸ **entries**(): `IterableIterator`<[`keyof S`, `Codec`]>
+▸ **entries**(): *`IterableIterator<[keyof S, Codec]>`*
 
-*Inherited from Map.entries*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:118*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:118
 
 Returns an iterable of key, value pairs for every entry in the map.
 
-**Returns:** `IterableIterator`<[`keyof S`, `Codec`]>
+**Returns:** *`IterableIterator<[keyof S, Codec]>`*
 
 ___
-<a id="eq"></a>
 
-##  eq
+###  eq
 
-▸ **eq**(other?: *`any`*): `boolean`
+▸ **eq**(`other?`: any): *boolean*
 
-*Inherited from Struct.eq*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:185](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="foreach"></a>
 
-##  forEach
+###  forEach
 
-▸ **forEach**(callbackfn: *`function`*, thisArg?: *`any`*): `void`
+▸ **forEach**(`callbackfn`: function, `thisArg?`: any): *void*
 
-*Inherited from Map.forEach*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:24*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:24
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| callbackfn | `function` |
-| `Optional` thisArg | `any` |
+■` callbackfn`: *function*
 
-**Returns:** `void`
-
-___
-<a id="get"></a>
-
-##  get
-
-▸ **get**(name: *`keyof S`*): `Codec` \| `undefined`
-
-*Inherited from Struct.get*
-
-*Overrides Map.get*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
-
-*__description__*: Returns a specific names entry in the structure
+▸ (`value`: `Codec`, `key`: keyof S, `map`: `Map<keyof S, Codec>`): *void*
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type |
+------ | ------ |
+`value` | `Codec` |
+`key` | keyof S |
+`map` | `Map<keyof S, Codec>` |
 
-**Returns:** `Codec` \| `undefined`
+■`Optional` ` thisArg`: *any*
+
+**Returns:** *void*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  get
 
-▸ **getAtIndex**(index: *`number`*): `Codec`
+▸ **get**(`name`: keyof S): *`Codec` | undefined*
 
-*Inherited from Struct.getAtIndex*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Overrides void*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:193](url)*
+
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** `Codec`
+**Returns:** *`Codec` | undefined*
 
 ___
-<a id="has"></a>
 
-##  has
+###  getAtIndex
 
-▸ **has**(key: *`keyof S`*): `boolean`
+▸ **getAtIndex**(`index`: number): *`Codec`*
 
-*Inherited from Map.has*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:26*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:200](url)*
+
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `keyof S` |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** `boolean`
+**Returns:** *`Codec`*
 
 ___
-<a id="keys"></a>
 
-##  keys
+###  has
 
-▸ **keys**(): `IterableIterator`<`keyof S`>
+▸ **has**(`key`: keyof S): *boolean*
 
-*Inherited from Map.keys*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:123*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:26
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`key` | keyof S |
+
+**Returns:** *boolean*
+
+___
+
+###  keys
+
+▸ **keys**(): *`IterableIterator<keyof S>`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:123
 
 Returns an iterable of keys in the map
 
-**Returns:** `IterableIterator`<`keyof S`>
+**Returns:** *`IterableIterator<keyof S>`*
 
 ___
-<a id="set"></a>
 
-##  set
+###  set
 
-▸ **set**(key: *`keyof S`*, value: *`Codec`*): `this`
+▸ **set**(`key`: keyof S, `value`: `Codec`): *this*
 
-*Inherited from Map.set*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:27*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:27
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `keyof S` |
-| value | `Codec` |
+Name | Type |
+------ | ------ |
+`key` | keyof S |
+`value` | `Codec` |
 
-**Returns:** `this`
-
-___
-<a id="toarray"></a>
-
-##  toArray
-
-▸ **toArray**(): `Array`<`Codec`>
-
-*Inherited from Struct.toArray*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
-
-*__description__*: Converts the Object to an standard JavaScript Array
-
-**Returns:** `Array`<`Codec`>
+**Returns:** *this*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toArray
 
-▸ **toHex**(): `string`
+▸ **toArray**(): *`Array<Codec>`*
 
-*Inherited from Struct.toHex*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:207](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `string`
-
-___
-<a id="tojson"></a>
-
-##  toJSON
-
-▸ **toJSON**(): `any`
-
-*Overrides Struct.toJSON*
-
-*Defined in [type/ReferendumInfoExtended.ts:34](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/type/ReferendumInfoExtended.ts#L34)*
-
-*__description__*: Creates the JSON representation
-
-**Returns:** `any`
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toHex
 
-▸ **toRawType**(): `string`
+▸ **toHex**(): *string*
 
-*Inherited from Struct.toRawType*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:214](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
-
-___
-<a id="tostring"></a>
-
-##  toString
-
-▸ **toString**(): `string`
-
-*Inherited from Struct.toString*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toJSON
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toJSON**(): *any*
 
-*Inherited from Struct.toU8a*
+*Overrides void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L256)*
+*Defined in [type/ReferendumInfoExtended.ts:34](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Creates the JSON representation
+
+**Returns:** *any*
+
+___
+
+###  toRawType
+
+▸ **toRawType**(): *string*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:235](url)*
+
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:248](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:256](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="values"></a>
 
-##  values
+###  values
 
-▸ **values**(): `IterableIterator`<`Codec`>
+▸ **values**(): *`IterableIterator<Codec>`*
 
-*Inherited from Map.values*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:128*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:128
 
 Returns an iterable of values in the map
 
-**Returns:** `IterableIterator`<`Codec`>
+**Returns:** *`IterableIterator<Codec>`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**<`S`>(Types: *`S`*): `Constructor`<`Struct`<`S`>>
+▸ **with**<**S**>(`Types`: `S`): *`Constructor<Struct<S>>`*
 
-*Inherited from Struct.with*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  `ConstructorDef`
+■` S`: *`ConstructorDef`*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** `Constructor`<`Struct`<`S`>>
+**Returns:** *`Constructor<Struct<S>>`*
 
 ___
-

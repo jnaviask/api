@@ -1,24 +1,27 @@
+> # External module: "create/method"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="createmethod"></a>
+* [createMethod](_create_method_.md#createmethod)
 
-##  createMethod
+## Functions
 
-▸ **createMethod**(section: *`string`*, method: *`string`*, __namedParameters: *`object`*): [RpcMethod](_types_.md#rpcmethod)
+###  createMethod
 
-*Defined in [create/method.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/type-jsonrpc/src/create/method.ts#L9)*
+▸ **createMethod**(`section`: string, `method`: string, `__namedParameters`: object): *[RpcMethod](_types_.md#rpcmethod)*
+
+*Defined in [create/method.ts:9](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| section | `string` |
-| method | `string` |
-| __namedParameters | `object` |
+Name | Type |
+------ | ------ |
+`section` | string |
+`method` | string |
+`__namedParameters` | object |
 
-**Returns:** [RpcMethod](_types_.md#rpcmethod)
+**Returns:** *[RpcMethod](_types_.md#rpcmethod)*
 
 ___
-

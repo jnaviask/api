@@ -1,232 +1,246 @@
+> # Class: U8a
 
+**`name`** U8a
 
-*__name__*: U8a
+**`description`** 
+A basic wrapper around Uint8Array, with no frills and no fuss. It does differ
+from other implementations where it will consume the full Uint8Array as passed to it.
+As such it is meant to be subclassed where the wrapper takes care of the
+actual lengths instead of used directly.
 
-*__description__*: A basic wrapper around Uint8Array, with no frills and no fuss. It does differ from other implementations where it will consume the full Uint8Array as passed to it. As such it is meant to be subclassed where the wrapper takes care of the actual lengths instead of used directly.
+## Hierarchy
 
-# Hierarchy
+* `Uint8Array`
 
- `Uint8Array`
+  * **U8a**
 
-**↳ U8a**
+  * [U8aFixed](_codec_u8afixed_.u8afixed.md)
 
-↳  [U8aFixed](_codec_u8afixed_.u8afixed.md)
+  * [IHash](../interfaces/_types_.ihash.md)
 
-↳  [IHash](../interfaces/_types_.ihash.md)
+  * [Bytes](_primitive_bytes_.bytes.md)
 
-↳  [Bytes](_primitive_bytes_.bytes.md)
+  * [Data](_primitive_data_.data.md)
 
-↳  [Data](_primitive_data_.data.md)
+  * [ImmortalEra](_type_extrinsicera_.immortalera.md)
 
-↳  [ImmortalEra](_type_extrinsicera_.immortalera.md)
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Indexable
+## Indexable
 
-\[index: `number`\]:&nbsp;`number`
-# Constructors
+● \[■&#x60; index&#x60;: *number*\]: number
 
-<a id="constructor"></a>
+### Index
 
-##  constructor
+#### Constructors
 
-⊕ **new U8a**(value?: *[AnyU8a](../modules/_types_.md#anyu8a)*): [U8a](_codec_u8a_.u8a.md)
+* [constructor](_codec_u8a_.u8a.md#constructor)
 
-*Defined in [codec/U8a.ts:18](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L18)*
+#### Properties
 
-**Parameters:**
+* [Uint8Array](_codec_u8a_.u8a.md#static-uint8array)
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | [AnyU8a](../modules/_types_.md#anyu8a) |
+#### Accessors
 
-**Returns:** [U8a](_codec_u8a_.u8a.md)
+* [encodedLength](_codec_u8a_.u8a.md#encodedlength)
+* [isEmpty](_codec_u8a_.u8a.md#isempty)
+* [length](_codec_u8a_.u8a.md#length)
 
-___
+#### Methods
 
-# Properties
+* [eq](_codec_u8a_.u8a.md#eq)
+* [subarray](_codec_u8a_.u8a.md#subarray)
+* [toHex](_codec_u8a_.u8a.md#tohex)
+* [toJSON](_codec_u8a_.u8a.md#tojson)
+* [toRawType](_codec_u8a_.u8a.md#torawtype)
+* [toString](_codec_u8a_.u8a.md#tostring)
+* [toU8a](_codec_u8a_.u8a.md#tou8a)
 
-<a id="uint8array"></a>
+## Constructors
 
-## `<Static>` Uint8Array
+###  constructor
 
-**● Uint8Array**: *`Uint8ArrayConstructor`*
+\+ **new U8a**(`value?`: [AnyU8a](../modules/_types_.md#anyu8a)): *[U8a](_codec_u8a_.u8a.md)*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2232*
-
-___
-
-# Accessors
-
-<a id="encodedlength"></a>
-
-##  encodedLength
-
-**get encodedLength**(): `number`
-
-*Defined in [codec/U8a.ts:36](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L36)*
-
-*__description__*: The length of the value when encoded as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Defined in [codec/U8a.ts:43](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L43)*
-
-*__description__*: Returns true if the type wraps an empty/default all-0 value
-
-**Returns:** `boolean`
-
-___
-<a id="length"></a>
-
-##  length
-
-**get length**(): `number`
-
-*Overrides Uint8Array.length*
-
-*Defined in [codec/U8a.ts:50](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L50)*
-
-*__description__*: The length of the value
-
-**Returns:** `number`
-
-___
-
-# Methods
-
-<a id="eq"></a>
-
-##  eq
-
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
-
-*Defined in [codec/U8a.ts:58](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L58)*
-
-*__description__*: Compares the value of the input to see if there is a match
+*Defined in [codec/U8a.ts:18](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`value?` | [AnyU8a](../modules/_types_.md#anyu8a) |
 
-**Returns:** `boolean`
+**Returns:** *[U8a](_codec_u8a_.u8a.md)*
 
 ___
-<a id="subarray"></a>
 
-##  subarray
+## Properties
 
-▸ **subarray**(begin: *`number`*, end?: *`undefined` \| `number`*): `Uint8Array`
+### `Static` Uint8Array
 
-*Overrides Uint8Array.subarray*
+■ **Uint8Array**: *`Uint8ArrayConstructor`*
 
-*Defined in [codec/U8a.ts:73](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L73)*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:2232
 
-*__description__*: Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
+___
+
+## Accessors
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
+
+*Defined in [codec/U8a.ts:36](url)*
+
+**`description`** The length of the value when encoded as a Uint8Array
+
+**Returns:** *number*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
+
+*Defined in [codec/U8a.ts:43](url)*
+
+**`description`** Returns true if the type wraps an empty/default all-0 value
+
+**Returns:** *boolean*
+
+___
+
+###  length
+
+● **get length**(): *number*
+
+*Overrides void*
+
+*Defined in [codec/U8a.ts:50](url)*
+
+**`description`** The length of the value
+
+**Returns:** *number*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/U8a.ts:58](url)*
+
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| begin | `number` |  The position to start at |
-| `Optional` end | `undefined` \| `number` |  The position to end at |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `Uint8Array`
-
-___
-<a id="tohex"></a>
-
-##  toHex
-
-▸ **toHex**(): `string`
-
-*Defined in [codec/U8a.ts:80](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L80)*
-
-*__description__*: Returns a hex string representation of the value
-
-**Returns:** `string`
+**Returns:** *boolean*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  subarray
 
-▸ **toJSON**(): `any`
+▸ **subarray**(`begin`: number, `end?`: undefined | number): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Overrides void*
 
-*Defined in [codec/U8a.ts:87](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L87)*
+*Defined in [codec/U8a.ts:73](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
-
-**Returns:** `any`
-
-___
-<a id="torawtype"></a>
-
-##  toRawType
-
-▸ **toRawType**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
-
-*Defined in [codec/U8a.ts:94](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L94)*
-
-*__description__*: Returns the base runtime type name for this instance
-
-**Returns:** `string`
-
-___
-<a id="tostring"></a>
-
-##  toString
-
-▸ **toString**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
-
-*Overrides Uint8Array.toString*
-
-*Defined in [codec/U8a.ts:101](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L101)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
-
-___
-<a id="tou8a"></a>
-
-##  toU8a
-
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
-
-*Defined in [codec/U8a.ts:109](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/U8a.ts#L109)*
-
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`begin` | number | The position to start at |
+`end?` | undefined \| number | The position to end at  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
 
+###  toHex
+
+▸ **toHex**(): *string*
+
+*Defined in [codec/U8a.ts:80](url)*
+
+**`description`** Returns a hex string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toJSON
+
+▸ **toJSON**(): *any*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/U8a.ts:87](url)*
+
+**`description`** Converts the Object to JSON, typically used for RPC transfers
+
+**Returns:** *any*
+
+___
+
+###  toRawType
+
+▸ **toRawType**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/U8a.ts:94](url)*
+
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Overrides void*
+
+*Defined in [codec/U8a.ts:101](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/U8a.ts:109](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
+
+**Returns:** *`Uint8Array`*
+
+___

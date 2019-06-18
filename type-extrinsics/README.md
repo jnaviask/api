@@ -1,11 +1,7 @@
-
-@polkadot/extrinsics
-====================
+# @polkadot/extrinsics
 
 Base extrinsic definitions & codecs
 
-Classes
--------
+## Classes
 
 [Classes](SUMMARY.md)
-

@@ -1,35 +1,41 @@
+> # External module: "balances/all"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="all"></a>
+* [all](_balances_all_.md#all)
 
-##  all
+## Functions
 
-▸ **all**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  all
 
-*Defined in [balances/all.ts:75](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/balances/all.ts#L75)*
+▸ **all**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*__name__*: all
+*Defined in [balances/all.ts:75](url)*
 
-*__example__*:   
+**`name`** all
+
+**`example`** 
+<BR>
 
 ```javascript
 const ALICE = 'F7Hs';
 
 api.derive.balances.all(ALICE, ([accountId, lockedBalance]) => {
-  console.log(`The account ${accountId} has a locked balance ${lockedBalance} units.`);
+console.log(`The account ${accountId} has a locked balance ${lockedBalance} units.`);
 });
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
-An object containing the combined results of the storage queries for all relevant fees as declared in the substrate chain spec.
+**Returns:** *`(Anonymous function)`*
+
+An object containing the combined results of the storage queries for
+all relevant fees as declared in the substrate chain spec.
 
 ___
-

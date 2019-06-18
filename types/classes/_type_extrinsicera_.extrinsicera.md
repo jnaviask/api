@@ -1,348 +1,356 @@
+> # Class: ExtrinsicEra
 
+**`name`** ExtrinsicEra
 
-*__name__*: ExtrinsicEra
+**`description`** 
+The era for an extrinsic, indicating either a mortal or immortal extrinsic
 
-*__description__*: The era for an extrinsic, indicating either a mortal or immortal extrinsic
+## Hierarchy
 
-# Hierarchy
+  * [Enum](_codec_enumtype_.enum.md)
 
-↳  [Enum](_codec_enumtype_.enum.md)
+  * **ExtrinsicEra**
 
-**↳ ExtrinsicEra**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 * [IExtrinsicEra](../interfaces/_types_.iextrinsicera.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_extrinsicera_.extrinsicera.md#constructor)
 
-⊕ **new ExtrinsicEra**(value?: *`any`*): [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
+#### Accessors
+
+* [asImmortalEra](_type_extrinsicera_.extrinsicera.md#asimmortalera)
+* [asMortalEra](_type_extrinsicera_.extrinsicera.md#asmortalera)
+* [encodedLength](_type_extrinsicera_.extrinsicera.md#encodedlength)
+* [index](_type_extrinsicera_.extrinsicera.md#index)
+* [isEmpty](_type_extrinsicera_.extrinsicera.md#isempty)
+* [isImmortalEra](_type_extrinsicera_.extrinsicera.md#isimmortalera)
+* [isMortalEra](_type_extrinsicera_.extrinsicera.md#ismortalera)
+* [isNone](_type_extrinsicera_.extrinsicera.md#isnone)
+* [isNull](_type_extrinsicera_.extrinsicera.md#isnull)
+* [type](_type_extrinsicera_.extrinsicera.md#type)
+* [value](_type_extrinsicera_.extrinsicera.md#value)
+
+#### Methods
+
+* [eq](_type_extrinsicera_.extrinsicera.md#eq)
+* [toHex](_type_extrinsicera_.extrinsicera.md#tohex)
+* [toJSON](_type_extrinsicera_.extrinsicera.md#tojson)
+* [toNumber](_type_extrinsicera_.extrinsicera.md#tonumber)
+* [toRawType](_type_extrinsicera_.extrinsicera.md#torawtype)
+* [toString](_type_extrinsicera_.extrinsicera.md#tostring)
+* [toU8a](_type_extrinsicera_.extrinsicera.md#tou8a)
+* [with](_type_extrinsicera_.extrinsicera.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new ExtrinsicEra**(`value?`: any): *[ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)*
 
 *Overrides [Enum](_codec_enumtype_.enum.md).[constructor](_codec_enumtype_.enum.md#constructor)*
 
-*Defined in [type/ExtrinsicEra.ts:27](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicEra.ts#L27)*
+*Defined in [type/ExtrinsicEra.ts:27](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
+**Returns:** *[ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)*
+
+___
+
+## Accessors
+
+###  asImmortalEra
+
+● **get asImmortalEra**(): *[ImmortalEra](_type_extrinsicera_.immortalera.md)*
+
+*Defined in [type/ExtrinsicEra.ts:65](url)*
+
+**`description`** Returns the item as a [ImmortalEra](_type_extrinsicera_.immortalera.md)
+
+**Returns:** *[ImmortalEra](_type_extrinsicera_.immortalera.md)*
 
 ___
 
-# Accessors
+###  asMortalEra
 
-<a id="asimmortalera"></a>
+● **get asMortalEra**(): *[MortalEra](_type_extrinsicera_.mortalera.md)*
 
-##  asImmortalEra
+*Defined in [type/ExtrinsicEra.ts:74](url)*
 
-**get asImmortalEra**(): [ImmortalEra](_type_extrinsicera_.immortalera.md)
+**`description`** Returns the item as a [MortalEra](_type_extrinsicera_.mortalera.md)
 
-*Defined in [type/ExtrinsicEra.ts:65](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicEra.ts#L65)*
-
-*__description__*: Returns the item as a [ImmortalEra](_type_extrinsicera_.immortalera.md)
-
-**Returns:** [ImmortalEra](_type_extrinsicera_.immortalera.md)
+**Returns:** *[MortalEra](_type_extrinsicera_.mortalera.md)*
 
 ___
-<a id="asmortalera"></a>
 
-##  asMortalEra
+###  encodedLength
 
-**get asMortalEra**(): [MortalEra](_type_extrinsicera_.mortalera.md)
-
-*Defined in [type/ExtrinsicEra.ts:74](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicEra.ts#L74)*
-
-*__description__*: Returns the item as a [MortalEra](_type_extrinsicera_.mortalera.md)
-
-**Returns:** [MortalEra](_type_extrinsicera_.mortalera.md)
-
-___
-<a id="encodedlength"></a>
-
-##  encodedLength
-
-**get encodedLength**(): `number`
+● **get encodedLength**(): *number*
 
 *Overrides [Enum](_codec_enumtype_.enum.md).[encodedLength](_codec_enumtype_.enum.md#encodedlength)*
 
-*Defined in [type/ExtrinsicEra.ts:54](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicEra.ts#L54)*
+*Defined in [type/ExtrinsicEra.ts:54](url)*
 
-*__description__*: Overide the encoded length method
+**`description`** Overide the encoded length method
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="index"></a>
 
-##  index
+###  index
 
-**get index**(): `number`
+● **get index**(): *number*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[index](_codec_enumtype_.enum.md#index)*
 
-*Defined in [codec/EnumType.ts:144](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L144)*
+*Defined in [codec/EnumType.ts:144](url)*
 
-*__description__*: The index of the metadata value
+**`description`** The index of the metadata value
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[isEmpty](_codec_enumtype_.enum.md#isempty)*
 
-*Defined in [codec/EnumType.ts:151](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L151)*
+*Defined in [codec/EnumType.ts:151](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
-
-___
-<a id="isimmortalera"></a>
-
-##  isImmortalEra
-
-**get isImmortalEra**(): `boolean`
-
-*Defined in [type/ExtrinsicEra.ts:83](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicEra.ts#L83)*
-
-*__description__*: `true` if Immortal
-
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="ismortalera"></a>
 
-##  isMortalEra
+###  isImmortalEra
 
-**get isMortalEra**(): `boolean`
+● **get isImmortalEra**(): *boolean*
 
-*Defined in [type/ExtrinsicEra.ts:90](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicEra.ts#L90)*
+*Defined in [type/ExtrinsicEra.ts:83](url)*
 
-*__description__*: `true` if Mortal
+**`description`** `true` if Immortal
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="isnone"></a>
 
-##  isNone
+###  isMortalEra
 
-**get isNone**(): `boolean`
+● **get isMortalEra**(): *boolean*
+
+*Defined in [type/ExtrinsicEra.ts:90](url)*
+
+**`description`** `true` if Mortal
+
+**Returns:** *boolean*
+
+___
+
+###  isNone
+
+● **get isNone**(): *boolean*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[isNone](_codec_enumtype_.enum.md#isnone)*
 
-*Defined in [codec/EnumType.ts:158](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L158)*
+*Defined in [codec/EnumType.ts:158](url)*
 
-*__description__*: Checks if the Enum points to a [Null](_primitive_null_.null.md) type
+**`description`** Checks if the Enum points to a [Null](_primitive_null_.null.md) type
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="isnull"></a>
 
-##  isNull
+###  isNull
 
-**get isNull**(): `boolean`
+● **get isNull**(): *boolean*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[isNull](_codec_enumtype_.enum.md#isnull)*
 
-*Defined in [codec/EnumType.ts:165](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L165)*
+*Defined in [codec/EnumType.ts:165](url)*
 
-*__description__*: Checks if the Enum points to a [Null](_primitive_null_.null.md) type (deprecated, use isNone)
+**`description`** Checks if the Enum points to a [Null](_primitive_null_.null.md) type (deprecated, use isNone)
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="type"></a>
 
-##  type
+###  type
 
-**get type**(): `string`
+● **get type**(): *string*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[type](_codec_enumtype_.enum.md#type)*
 
-*Defined in [codec/EnumType.ts:172](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L172)*
+*Defined in [codec/EnumType.ts:172](url)*
 
-*__description__*: The name of the type this enum value represents
+**`description`** The name of the type this enum value represents
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="value"></a>
 
-##  value
+###  value
 
-**get value**(): [Codec](../interfaces/_types_.codec.md)
+● **get value**(): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[value](_codec_enumtype_.enum.md#value)*
 
-*Defined in [codec/EnumType.ts:179](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L179)*
+*Defined in [codec/EnumType.ts:179](url)*
 
-*__description__*: The value of the enum
+**`description`** The value of the enum
 
-**Returns:** [Codec](../interfaces/_types_.codec.md)
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
 
-# Methods
+## Methods
 
-<a id="eq"></a>
+###  eq
 
-##  eq
+▸ **eq**(`other?`: any): *boolean*
 
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[eq](_codec_enumtype_.enum.md#eq)*
 
-*Defined in [codec/EnumType.ts:186](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L186)*
+*Defined in [codec/EnumType.ts:186](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toHex](_codec_enumtype_.enum.md#tohex)*
 
-*Defined in [codec/EnumType.ts:201](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L201)*
+*Defined in [codec/EnumType.ts:201](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toJSON](_codec_enumtype_.enum.md#tojson)*
 
-*Defined in [codec/EnumType.ts:208](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L208)*
+*Defined in [codec/EnumType.ts:208](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="tonumber"></a>
 
-##  toNumber
+###  toNumber
 
-▸ **toNumber**(): `number`
+▸ **toNumber**(): *number*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toNumber](_codec_enumtype_.enum.md#tonumber)*
 
-*Defined in [codec/EnumType.ts:217](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L217)*
+*Defined in [codec/EnumType.ts:217](url)*
 
-*__description__*: Returns the number representation for the value
+**`description`** Returns the number representation for the value
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toRawType](_codec_enumtype_.enum.md#torawtype)*
 
-*Defined in [codec/EnumType.ts:224](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L224)*
+*Defined in [codec/EnumType.ts:224](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Enum](_codec_enumtype_.enum.md).[toString](_codec_enumtype_.enum.md#tostring)*
 
-*Defined in [codec/EnumType.ts:239](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L239)*
+*Defined in [codec/EnumType.ts:239](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Overrides [Enum](_codec_enumtype_.enum.md).[toU8a](_codec_enumtype_.enum.md#tou8a)*
 
-*Defined in [type/ExtrinsicEra.ts:98](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicEra.ts#L98)*
+*Defined in [type/ExtrinsicEra.ts:98](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the parity-codec specifications
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
-
-**Returns:** `Uint8Array`
-
-___
-<a id="with"></a>
-
-## `<Static>` with
-
-▸ **with**(Types: *`TypesDef` \| `Array`<`string`>*): `EnumConstructor`<[Enum](_codec_enumtype_.enum.md)>
-
-*Inherited from [Enum](_codec_enumtype_.enum.md).[with](_codec_enumtype_.enum.md#with)*
-
-*Defined in [codec/EnumType.ts:126](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/EnumType.ts#L126)*
+**`description`** Encodes the value as a Uint8Array as per the parity-codec specifications
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `TypesDef` \| `Array`<`string`> |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `EnumConstructor`<[Enum](_codec_enumtype_.enum.md)>
+**Returns:** *`Uint8Array`*
 
 ___
 
+### `Static` with
+
+▸ **with**(`Types`: `TypesDef` | `Array<string>`): *`EnumConstructor<Enum>`*
+
+*Inherited from [Enum](_codec_enumtype_.enum.md).[with](_codec_enumtype_.enum.md#static-with)*
+
+*Defined in [codec/EnumType.ts:126](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`Types` | `TypesDef` \| `Array<string>` |
+
+**Returns:** *`EnumConstructor<Enum>`*
+
+___

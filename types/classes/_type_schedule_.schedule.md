@@ -1,482 +1,496 @@
+> # Class: Schedule <**S, T, V, E**>
 
+**`name`** Schedule
 
-*__name__*: Schedule
+**`description`** 
+Definition of the cost schedule and other parameterizations for wasm vm
 
-*__description__*: Definition of the cost schedule and other parameterizations for wasm vm
+## Type parameters
 
-# Type parameters
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
-↳  [Struct](_codec_struct_.struct.md)
+■` T`: *object*
 
-**↳ Schedule**
+■` V`: *object*
 
-# Implements
+■` E`: *object*
+
+## Hierarchy
+
+  * [Struct](_codec_struct_.struct.md)
+
+  * **Schedule**
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_schedule_.schedule.md#constructor)
 
-⊕ **new Schedule**(value?: *`any`*): [Schedule](_type_schedule_.schedule.md)
+#### Accessors
+
+* [Type](_type_schedule_.schedule.md#type)
+* [enablePrintln](_type_schedule_.schedule.md#enableprintln)
+* [encodedLength](_type_schedule_.schedule.md#encodedlength)
+* [eventBaseCost](_type_schedule_.schedule.md#eventbasecost)
+* [eventDataPerByteCost](_type_schedule_.schedule.md#eventdataperbytecost)
+* [eventPerTopicCost](_type_schedule_.schedule.md#eventpertopiccost)
+* [growMemCost](_type_schedule_.schedule.md#growmemcost)
+* [isEmpty](_type_schedule_.schedule.md#isempty)
+* [maxEventTopics](_type_schedule_.schedule.md#maxeventtopics)
+* [maxMemoryPages](_type_schedule_.schedule.md#maxmemorypages)
+* [maxStackHeight](_type_schedule_.schedule.md#maxstackheight)
+* [maxSubjectLen](_type_schedule_.schedule.md#maxsubjectlen)
+* [putCodePerByteCost](_type_schedule_.schedule.md#putcodeperbytecost)
+* [regularOpCost](_type_schedule_.schedule.md#regularopcost)
+* [returnDataPerByteCost](_type_schedule_.schedule.md#returndataperbytecost)
+* [sandboxDataReadCost](_type_schedule_.schedule.md#sandboxdatareadcost)
+* [sandboxDataWriteCost](_type_schedule_.schedule.md#sandboxdatawritecost)
+* [version](_type_schedule_.schedule.md#version)
+
+#### Methods
+
+* [eq](_type_schedule_.schedule.md#eq)
+* [get](_type_schedule_.schedule.md#get)
+* [getAtIndex](_type_schedule_.schedule.md#getatindex)
+* [toArray](_type_schedule_.schedule.md#toarray)
+* [toHex](_type_schedule_.schedule.md#tohex)
+* [toJSON](_type_schedule_.schedule.md#tojson)
+* [toRawType](_type_schedule_.schedule.md#torawtype)
+* [toString](_type_schedule_.schedule.md#tostring)
+* [toU8a](_type_schedule_.schedule.md#tou8a)
+* [with](_type_schedule_.schedule.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new Schedule**(`value?`: any): *[Schedule](_type_schedule_.schedule.md)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/Schedule.ts:15](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L15)*
+*Defined in [type/Schedule.ts:15](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** [Schedule](_type_schedule_.schedule.md)
+**Returns:** *[Schedule](_type_schedule_.schedule.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="type"></a>
+###  Type
 
-##  Type
-
-**get Type**(): `E`
+● **get Type**(): *`E`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Struct.ts:163](url)*
 
-*__description__*: Returns the Type description to sthe structure
+**`description`** Returns the Type description to sthe structure
 
-**Returns:** `E`
-
-___
-<a id="enableprintln"></a>
-
-##  enablePrintln
-
-**get enablePrintln**(): [Bool](_primitive_bool_.bool.md)
-
-*Defined in [type/Schedule.ts:39](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L39)*
-
-*__description__*: Whether the `ext_println` function is allowed to be used contracts. MUST only be enabled for `dev` chains, NOT for production chains
-
-**Returns:** [Bool](_primitive_bool_.bool.md)
+**Returns:** *`E`*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  enablePrintln
 
-**get encodedLength**(): `number`
+● **get enablePrintln**(): *[Bool](_primitive_bool_.bool.md)*
+
+*Defined in [type/Schedule.ts:39](url)*
+
+**`description`** Whether the `ext_println` function is allowed to be used contracts. MUST only be enabled for `dev` chains, NOT for production chains
+
+**Returns:** *[Bool](_primitive_bool_.bool.md)*
+
+___
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L176)*
+*Defined in [codec/Struct.ts:176](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
-
-___
-<a id="eventbasecost"></a>
-
-##  eventBaseCost
-
-**get eventBaseCost**(): [Gas](_type_gas_.gas.md)
-
-*Defined in [type/Schedule.ts:46](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L46)*
-
-*__description__*: Gas cost to deposit an event; the base.
-
-**Returns:** [Gas](_type_gas_.gas.md)
+**Returns:** *number*
 
 ___
-<a id="eventdataperbytecost"></a>
 
-##  eventDataPerByteCost
+###  eventBaseCost
 
-**get eventDataPerByteCost**(): [Gas](_type_gas_.gas.md)
+● **get eventBaseCost**(): *[Gas](_type_gas_.gas.md)*
 
-*Defined in [type/Schedule.ts:53](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L53)*
+*Defined in [type/Schedule.ts:46](url)*
 
-*__description__*: Gas cost to deposit an event; the per-byte portion.
+**`description`** Gas cost to deposit an event; the base.
 
-**Returns:** [Gas](_type_gas_.gas.md)
-
-___
-<a id="eventpertopiccost"></a>
-
-##  eventPerTopicCost
-
-**get eventPerTopicCost**(): [Gas](_type_gas_.gas.md)
-
-*Defined in [type/Schedule.ts:60](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L60)*
-
-*__description__*: Gas cost to deposit an event; the cost per topic.
-
-**Returns:** [Gas](_type_gas_.gas.md)
+**Returns:** *[Gas](_type_gas_.gas.md)*
 
 ___
-<a id="growmemcost"></a>
 
-##  growMemCost
+###  eventDataPerByteCost
 
-**get growMemCost**(): [Gas](_type_gas_.gas.md)
+● **get eventDataPerByteCost**(): *[Gas](_type_gas_.gas.md)*
 
-*Defined in [type/Schedule.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L67)*
+*Defined in [type/Schedule.ts:53](url)*
 
-*__description__*: Gas cost of a growing memory by single page.
+**`description`** Gas cost to deposit an event; the per-byte portion.
 
-**Returns:** [Gas](_type_gas_.gas.md)
+**Returns:** *[Gas](_type_gas_.gas.md)*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  eventPerTopicCost
 
-**get isEmpty**(): `boolean`
+● **get eventPerTopicCost**(): *[Gas](_type_gas_.gas.md)*
+
+*Defined in [type/Schedule.ts:60](url)*
+
+**`description`** Gas cost to deposit an event; the cost per topic.
+
+**Returns:** *[Gas](_type_gas_.gas.md)*
+
+___
+
+###  growMemCost
+
+● **get growMemCost**(): *[Gas](_type_gas_.gas.md)*
+
+*Defined in [type/Schedule.ts:67](url)*
+
+**`description`** Gas cost of a growing memory by single page.
+
+**Returns:** *[Gas](_type_gas_.gas.md)*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/Struct.ts:148](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
-
-___
-<a id="maxeventtopics"></a>
-
-##  maxEventTopics
-
-**get maxEventTopics**(): [U32](_primitive_u32_.u32.md)
-
-*Defined in [type/Schedule.ts:74](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L74)*
-
-*__description__*: The maximum number of topics supported by an event.
-
-**Returns:** [U32](_primitive_u32_.u32.md)
-
-___
-<a id="maxmemorypages"></a>
-
-##  maxMemoryPages
-
-**get maxMemoryPages**(): [U32](_primitive_u32_.u32.md)
-
-*Defined in [type/Schedule.ts:81](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L81)*
-
-*__description__*: What is the maximal memory pages amount is allowed to have for a contract.
-
-**Returns:** [U32](_primitive_u32_.u32.md)
-
-___
-<a id="maxstackheight"></a>
-
-##  maxStackHeight
-
-**get maxStackHeight**(): [U32](_primitive_u32_.u32.md)
-
-*Defined in [type/Schedule.ts:88](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L88)*
-
-*__description__*: How tall the stack is allowed to grow
-
-**Returns:** [U32](_primitive_u32_.u32.md)
-
-___
-<a id="maxsubjectlen"></a>
-
-##  maxSubjectLen
-
-**get maxSubjectLen**(): [U32](_primitive_u32_.u32.md)
-
-*Defined in [type/Schedule.ts:95](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L95)*
-
-*__description__*: The maximum length of a subject used for PRNG generation.
-
-**Returns:** [U32](_primitive_u32_.u32.md)
-
-___
-<a id="putcodeperbytecost"></a>
-
-##  putCodePerByteCost
-
-**get putCodePerByteCost**(): [Gas](_type_gas_.gas.md)
-
-*Defined in [type/Schedule.ts:102](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L102)*
-
-*__description__*: Cost of putting a byte of code into the storage.
-
-**Returns:** [Gas](_type_gas_.gas.md)
-
-___
-<a id="regularopcost"></a>
-
-##  regularOpCost
-
-**get regularOpCost**(): [Gas](_type_gas_.gas.md)
-
-*Defined in [type/Schedule.ts:109](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L109)*
-
-*__description__*: Gas cost of a regular operation.
-
-**Returns:** [Gas](_type_gas_.gas.md)
-
-___
-<a id="returndataperbytecost"></a>
-
-##  returnDataPerByteCost
-
-**get returnDataPerByteCost**(): [Gas](_type_gas_.gas.md)
-
-*Defined in [type/Schedule.ts:116](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L116)*
-
-*__description__*: Gas cost per one byte returned.
-
-**Returns:** [Gas](_type_gas_.gas.md)
-
-___
-<a id="sandboxdatareadcost"></a>
-
-##  sandboxDataReadCost
-
-**get sandboxDataReadCost**(): [Gas](_type_gas_.gas.md)
-
-*Defined in [type/Schedule.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L123)*
-
-*__description__*: Gas cost per one byte read from the sandbox memory.
-
-**Returns:** [Gas](_type_gas_.gas.md)
-
-___
-<a id="sandboxdatawritecost"></a>
-
-##  sandboxDataWriteCost
-
-**get sandboxDataWriteCost**(): [Gas](_type_gas_.gas.md)
-
-*Defined in [type/Schedule.ts:130](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L130)*
-
-*__description__*: Gas cost per one byte written to the sandbox memory.
-
-**Returns:** [Gas](_type_gas_.gas.md)
-
-___
-<a id="version"></a>
-
-##  version
-
-**get version**(): [U32](_primitive_u32_.u32.md)
-
-*Defined in [type/Schedule.ts:137](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Schedule.ts#L137)*
-
-*__description__*: Version of the schedule.
-
-**Returns:** [U32](_primitive_u32_.u32.md)
+**Returns:** *boolean*
 
 ___
 
-# Methods
+###  maxEventTopics
 
-<a id="eq"></a>
+● **get maxEventTopics**(): *[U32](_primitive_u32_.u32.md)*
 
-##  eq
+*Defined in [type/Schedule.ts:74](url)*
 
-▸ **eq**(other?: *`any`*): `boolean`
+**`description`** The maximum number of topics supported by an event.
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+**Returns:** *[U32](_primitive_u32_.u32.md)*
+
+___
+
+###  maxMemoryPages
+
+● **get maxMemoryPages**(): *[U32](_primitive_u32_.u32.md)*
+
+*Defined in [type/Schedule.ts:81](url)*
+
+**`description`** What is the maximal memory pages amount is allowed to have for a contract.
+
+**Returns:** *[U32](_primitive_u32_.u32.md)*
+
+___
+
+###  maxStackHeight
+
+● **get maxStackHeight**(): *[U32](_primitive_u32_.u32.md)*
+
+*Defined in [type/Schedule.ts:88](url)*
+
+**`description`** How tall the stack is allowed to grow?
+
+**Returns:** *[U32](_primitive_u32_.u32.md)*
+
+___
+
+###  maxSubjectLen
+
+● **get maxSubjectLen**(): *[U32](_primitive_u32_.u32.md)*
+
+*Defined in [type/Schedule.ts:95](url)*
+
+**`description`** The maximum length of a subject used for PRNG generation.
+
+**Returns:** *[U32](_primitive_u32_.u32.md)*
+
+___
+
+###  putCodePerByteCost
+
+● **get putCodePerByteCost**(): *[Gas](_type_gas_.gas.md)*
+
+*Defined in [type/Schedule.ts:102](url)*
+
+**`description`** Cost of putting a byte of code into the storage.
+
+**Returns:** *[Gas](_type_gas_.gas.md)*
+
+___
+
+###  regularOpCost
+
+● **get regularOpCost**(): *[Gas](_type_gas_.gas.md)*
+
+*Defined in [type/Schedule.ts:109](url)*
+
+**`description`** Gas cost of a regular operation.
+
+**Returns:** *[Gas](_type_gas_.gas.md)*
+
+___
+
+###  returnDataPerByteCost
+
+● **get returnDataPerByteCost**(): *[Gas](_type_gas_.gas.md)*
+
+*Defined in [type/Schedule.ts:116](url)*
+
+**`description`** Gas cost per one byte returned.
+
+**Returns:** *[Gas](_type_gas_.gas.md)*
+
+___
+
+###  sandboxDataReadCost
+
+● **get sandboxDataReadCost**(): *[Gas](_type_gas_.gas.md)*
+
+*Defined in [type/Schedule.ts:123](url)*
+
+**`description`** Gas cost per one byte read from the sandbox memory.
+
+**Returns:** *[Gas](_type_gas_.gas.md)*
+
+___
+
+###  sandboxDataWriteCost
+
+● **get sandboxDataWriteCost**(): *[Gas](_type_gas_.gas.md)*
+
+*Defined in [type/Schedule.ts:130](url)*
+
+**`description`** Gas cost per one byte written to the sandbox memory.
+
+**Returns:** *[Gas](_type_gas_.gas.md)*
+
+___
+
+###  version
+
+● **get version**(): *[U32](_primitive_u32_.u32.md)*
+
+*Defined in [type/Schedule.ts:137](url)*
+
+**`description`** Version of the schedule.
+
+**Returns:** *[U32](_primitive_u32_.u32.md)*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/Struct.ts:185](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="get"></a>
 
-##  get
+###  get
 
-▸ **get**(name: *`keyof S`*): [Codec](../interfaces/_types_.codec.md) \| `undefined`
+▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
 
-*Overrides Map.get*
+*Overrides void*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/Struct.ts:193](url)*
 
-*__description__*: Returns a specific names entry in the structure
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md) \| `undefined`
+**Returns:** *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  getAtIndex
 
-▸ **getAtIndex**(index: *`number`*): [Codec](../interfaces/_types_.codec.md)
+▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [codec/Struct.ts:200](url)*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md)
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
-<a id="toarray"></a>
 
-##  toArray
+###  toArray
 
-▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
+▸ **toArray**(): *`Array<Codec>`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/Struct.ts:207](url)*
 
-*__description__*: Converts the Object to an standard JavaScript Array
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:214](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/Struct.ts:221](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [codec/Struct.ts:235](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
+*Defined in [codec/Struct.ts:248](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L256)*
+*Defined in [codec/Struct.ts:256](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**<`S`>(Types: *`S`*): [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
+*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#static-with)*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
 ___
-

@@ -1,26 +1,21 @@
+> # External module: "type/ExtrinsicSignature"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [ExtrinsicSignature](../classes/_type_extrinsicsignature_.extrinsicsignature.md)
 
-### Variables
+#### Variables
 
-* [IMMORTAL_ERA](_type_extrinsicsignature_.md#immortal_era)
+* [IMMORTAL_ERA](_type_extrinsicsignature_.md#const-immortal_era)
 
----
+## Variables
 
-# Variables
+### `Const` IMMORTAL_ERA
 
-<a id="immortal_era"></a>
+● **IMMORTAL_ERA**: *`Uint8Array`* =  new Uint8Array([0])
 
-## `<Const>` IMMORTAL_ERA
-
-**● IMMORTAL_ERA**: *`Uint8Array`* =  new Uint8Array([0])
-
-*Defined in [type/ExtrinsicSignature.ts:17](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/ExtrinsicSignature.ts#L17)*
+*Defined in [type/ExtrinsicSignature.ts:17](url)*
 
 ___
-

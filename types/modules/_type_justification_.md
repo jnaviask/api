@@ -1,29 +1,24 @@
+> # External module: "type/Justification"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Justification](../classes/_type_justification_.justification.md)
 * [RhdJustification](../classes/_type_justification_.rhdjustification.md)
 
-### Type aliases
+#### Type aliases
 
 * [RhdJustificationValue](_type_justification_.md#rhdjustificationvalue)
 
----
+## Type aliases
 
-# Type aliases
+###  RhdJustificationValue
 
-<a id="rhdjustificationvalue"></a>
+Ƭ **RhdJustificationValue**: *object*
 
-##  RhdJustificationValue
+*Defined in [type/Justification.ts:14](url)*
 
-**Ƭ RhdJustificationValue**: *`object`*
-
-*Defined in [type/Justification.ts:14](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/Justification.ts#L14)*
-
-#### Type declaration
+#### Type declaration:
 
 ___
-

@@ -1,22 +1,25 @@
+> # External module: "democracy/votes"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="votes"></a>
+* [votes](_democracy_votes_.md#votes)
 
-##  votes
+## Functions
 
-▸ **votes**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  votes
 
-*Defined in [democracy/votes.ts:12](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/democracy/votes.ts#L12)*
+▸ **votes**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+
+*Defined in [democracy/votes.ts:12](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
 
 ___
-

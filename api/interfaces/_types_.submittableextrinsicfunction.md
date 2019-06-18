@@ -1,98 +1,103 @@
+> # Interface: SubmittableExtrinsicFunction <**ApiType**>
 
+## Type parameters
 
-# Type parameters
-#### ApiType 
-# Hierarchy
+■` ApiType`
 
- `MethodFunction`
+## Hierarchy
 
-**↳ SubmittableExtrinsicFunction**
+* `MethodFunction`
 
-# Callable
-▸ **__call**(...params: *`Array`<`CodecArg`>*): [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`ApiType`>
+  * **SubmittableExtrinsicFunction**
 
-▸ **__call**(...args: *`any`[]*): `Method`
+## Callable
 
-*Defined in [types.ts:151](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api/src/types.ts#L151)*
+▸ (...`params`: `Array<CodecArg>`): *[SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
 
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| `Rest` params | `Array`<`CodecArg`> |
-
-**Returns:** [SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)<`ApiType`>
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:24](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L24)*
+*Defined in [types.ts:151](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` args | `any`[] |
+Name | Type |
+------ | ------ |
+`...params` | `Array<CodecArg>` |
 
-**Returns:** `Method`
+**Returns:** *[SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
 
-# Properties
+▸ (...`args`: any[]): *`Method`*
 
-<a id="callindex"></a>
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:24](url)*
 
-##  callIndex
+**Parameters:**
 
-**● callIndex**: *`Uint8Array`*
+Name | Type |
+------ | ------ |
+`...args` | any[] |
 
-*Inherited from MethodFunction.callIndex*
+**Returns:** *`Method`*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:26](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L26)*
+### Index
 
-___
-<a id="meta"></a>
+#### Properties
 
-##  meta
+* [callIndex](_types_.submittableextrinsicfunction.md#callindex)
+* [meta](_types_.submittableextrinsicfunction.md#meta)
+* [method](_types_.submittableextrinsicfunction.md#method)
+* [section](_types_.submittableextrinsicfunction.md#section)
+* [toJSON](_types_.submittableextrinsicfunction.md#tojson)
 
-**● meta**: *`FunctionMetadataV5`*
+## Properties
 
-*Inherited from MethodFunction.meta*
+###  callIndex
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:27](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L27)*
+● **callIndex**: *`Uint8Array`*
 
-___
-<a id="method"></a>
+*Inherited from void*
 
-##  method
-
-**● method**: *`string`*
-
-*Inherited from MethodFunction.method*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:28](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L28)*
-
-___
-<a id="section"></a>
-
-##  section
-
-**● section**: *`string`*
-
-*Inherited from MethodFunction.section*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:29](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L29)*
-
-___
-<a id="tojson"></a>
-
-##  toJSON
-
-**● toJSON**: *`function`*
-
-*Inherited from MethodFunction.toJSON*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:30](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Method.ts#L30)*
-
-#### Type declaration
-▸(): `any`
-
-**Returns:** `any`
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:26](url)*
 
 ___
 
+###  meta
+
+● **meta**: *`FunctionMetadataV5`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:27](url)*
+
+___
+
+###  method
+
+● **method**: *string*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:28](url)*
+
+___
+
+###  section
+
+● **section**: *string*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:29](url)*
+
+___
+
+###  toJSON
+
+● **toJSON**: *function*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:30](url)*
+
+#### Type declaration:
+
+▸ (): *any*
+
+___

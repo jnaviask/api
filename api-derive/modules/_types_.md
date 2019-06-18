@@ -1,8 +1,8 @@
+> # External module: "types"
 
+### Index
 
-# Index
-
-### Interfaces
+#### Interfaces
 
 * [DerivedBalances](../interfaces/_types_.derivedbalances.md)
 * [DerivedContractFees](../interfaces/_types_.derivedcontractfees.md)
@@ -11,35 +11,29 @@
 * [DerivedSessionInfo](../interfaces/_types_.derivedsessioninfo.md)
 * [DerivedStaking](../interfaces/_types_.derivedstaking.md)
 
-### Type aliases
+#### Type aliases
 
 * [DerivedBalancesMap](_types_.md#derivedbalancesmap)
 * [DerivedUnlocking](_types_.md#derivedunlocking)
 
----
+## Type aliases
 
-# Type aliases
+###  DerivedBalancesMap
 
-<a id="derivedbalancesmap"></a>
+Ƭ **DerivedBalancesMap**: *object*
 
-##  DerivedBalancesMap
+*Defined in [types.ts:19](url)*
 
-**Ƭ DerivedBalancesMap**: *`object`*
+#### Type declaration:
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L19)*
-
-#### Type declaration
-
-[index: `string`]: [DerivedBalances](../interfaces/_types_.derivedbalances.md)
-
-___
-<a id="derivedunlocking"></a>
-
-##  DerivedUnlocking
-
-**Ƭ DerivedUnlocking**: *`Array`<`object`>*
-
-*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L76)*
+● \[■&#x60; index&#x60;: *string*\]: [DerivedBalances](../interfaces/_types_.derivedbalances.md)
 
 ___
 
+###  DerivedUnlocking
+
+Ƭ **DerivedUnlocking**: *`Array<object>`*
+
+*Defined in [types.ts:76](url)*
+
+___

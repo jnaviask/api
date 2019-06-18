@@ -1,28 +1,23 @@
+> # External module: "rpc/Block"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Block](../classes/_rpc_block_.block.md)
 
-### Type aliases
+#### Type aliases
 
 * [BlockValue](_rpc_block_.md#blockvalue)
 
----
+## Type aliases
 
-# Type aliases
+###  BlockValue
 
-<a id="blockvalue"></a>
+Ƭ **BlockValue**: *object*
 
-##  BlockValue
+*Defined in [rpc/Block.ts:14](url)*
 
-**Ƭ BlockValue**: *`object`*
-
-*Defined in [rpc/Block.ts:14](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Block.ts#L14)*
-
-#### Type declaration
+#### Type declaration:
 
 ___
-

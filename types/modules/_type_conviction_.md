@@ -1,10 +1,7 @@
+> # External module: "type/Conviction"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Conviction](../classes/_type_conviction_.conviction.md)
-
----
-

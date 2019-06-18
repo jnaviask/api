@@ -1,572 +1,597 @@
+> # Class: HeaderExtended <**S, T, V, E**>
 
+**`name`** HeaderExtended
 
-*__name__*: HeaderExtended
+**`description`** 
+A [[Block]] header with an additional `author` field that indicates the block author
 
-*__description__*: A \[\[Block\]\] header with an additional `author` field that indicates the block author
+## Type parameters
 
-# Type parameters
-#### S :  `ConstructorDef`
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *`ConstructorDef`*
 
- `Header`
+■` T`: *object*
 
-**↳ HeaderExtended**
+■` V`: *object*
 
-# Implements
+■` E`: *object*
+
+## Hierarchy
+
+* `Header`
+
+  * **HeaderExtended**
+
+## Implements
 
 * `Codec`
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_headerextended_.headerextended.md#constructor)
 
-⊕ **new HeaderExtended**(header?: *`Header` \| `null`*, sessionValidators?: *`Array`<`AccountId`>*): [HeaderExtended](_type_headerextended_.headerextended.md)
+#### Properties
 
-*Overrides Header.__constructor*
+* [__@toStringTag](_type_headerextended_.headerextended.md#__@tostringtag)
+* [size](_type_headerextended_.headerextended.md#size)
 
-*Defined in [type/HeaderExtended.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/type/HeaderExtended.ts#L13)*
+#### Accessors
+
+* [Type](_type_headerextended_.headerextended.md#type)
+* [author](_type_headerextended_.headerextended.md#author)
+* [blockNumber](_type_headerextended_.headerextended.md#blocknumber)
+* [digest](_type_headerextended_.headerextended.md#digest)
+* [encodedLength](_type_headerextended_.headerextended.md#encodedlength)
+* [extrinsicsRoot](_type_headerextended_.headerextended.md#extrinsicsroot)
+* [hash](_type_headerextended_.headerextended.md#hash)
+* [isEmpty](_type_headerextended_.headerextended.md#isempty)
+* [number](_type_headerextended_.headerextended.md#number)
+* [parentHash](_type_headerextended_.headerextended.md#parenthash)
+* [stateRoot](_type_headerextended_.headerextended.md#stateroot)
+
+#### Methods
+
+* [__@iterator](_type_headerextended_.headerextended.md#__@iterator)
+* [clear](_type_headerextended_.headerextended.md#clear)
+* [delete](_type_headerextended_.headerextended.md#delete)
+* [entries](_type_headerextended_.headerextended.md#entries)
+* [eq](_type_headerextended_.headerextended.md#eq)
+* [forEach](_type_headerextended_.headerextended.md#foreach)
+* [get](_type_headerextended_.headerextended.md#get)
+* [getAtIndex](_type_headerextended_.headerextended.md#getatindex)
+* [has](_type_headerextended_.headerextended.md#has)
+* [keys](_type_headerextended_.headerextended.md#keys)
+* [set](_type_headerextended_.headerextended.md#set)
+* [toArray](_type_headerextended_.headerextended.md#toarray)
+* [toHex](_type_headerextended_.headerextended.md#tohex)
+* [toJSON](_type_headerextended_.headerextended.md#tojson)
+* [toRawType](_type_headerextended_.headerextended.md#torawtype)
+* [toString](_type_headerextended_.headerextended.md#tostring)
+* [toU8a](_type_headerextended_.headerextended.md#tou8a)
+* [values](_type_headerextended_.headerextended.md#values)
+* [with](_type_headerextended_.headerextended.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new HeaderExtended**(`header`: `Header` | null, `sessionValidators`: `Array<AccountId>`): *[HeaderExtended](_type_headerextended_.headerextended.md)*
+
+*Overrides void*
+
+*Defined in [type/HeaderExtended.ts:13](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` header | `Header` \| `null` |  null |
-| `Default value` sessionValidators | `Array`<`AccountId`> |  [] |
+Name | Type | Default |
+------ | ------ | ------ |
+`header` | `Header` \| null |  null |
+`sessionValidators` | `Array<AccountId>` |  [] |
 
-**Returns:** [HeaderExtended](_type_headerextended_.headerextended.md)
-
-___
-
-# Properties
-
-<a id="___tostringtag"></a>
-
-##  __@toStringTag
-
-**● __@toStringTag**: *`string`*
-
-*Inherited from Map.[Symbol.toStringTag]*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130*
-
-___
-<a id="size"></a>
-
-##  size
-
-**● size**: *`number`*
-
-*Inherited from Map.size*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:28*
+**Returns:** *[HeaderExtended](_type_headerextended_.headerextended.md)*
 
 ___
 
-# Accessors
+## Properties
 
-<a id="type"></a>
+###  __@toStringTag
 
-##  Type
+● **__@toStringTag**: *string*
 
-**get Type**(): `E`
+*Inherited from void*
 
-*Inherited from Struct.Type*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
-
-*__description__*: Returns the Type description to sthe structure
-
-**Returns:** `E`
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130
 
 ___
-<a id="author"></a>
 
-##  author
+###  size
 
-**get author**(): `AccountId` \| `undefined`
+● **size**: *number*
 
-*Defined in [type/HeaderExtended.ts:61](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/type/HeaderExtended.ts#L61)*
+*Inherited from void*
 
-*__description__*: Convenience method, returns the author for the block
-
-**Returns:** `AccountId` \| `undefined`
-
-___
-<a id="blocknumber"></a>
-
-##  blockNumber
-
-**get blockNumber**(): `BlockNumber`
-
-*Inherited from Header.blockNumber*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:42](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Header.ts#L42)*
-
-*__description__*: The wrapped \[\[BlockNumber\]\]
-
-**Returns:** `BlockNumber`
-
-___
-<a id="digest"></a>
-
-##  digest
-
-**get digest**(): `Digest`
-
-*Inherited from Header.digest*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:49](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Header.ts#L49)*
-
-*__description__*: The wrapped \[\[Digest\]\]
-
-**Returns:** `Digest`
-
-___
-<a id="encodedlength"></a>
-
-##  encodedLength
-
-**get encodedLength**(): `number`
-
-*Inherited from Struct.encodedLength*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L176)*
-
-*__description__*: The length of the value when encoded as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="extrinsicsroot"></a>
-
-##  extrinsicsRoot
-
-**get extrinsicsRoot**(): `Hash`
-
-*Inherited from Header.extrinsicsRoot*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:56](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Header.ts#L56)*
-
-*__description__*: The wrapped extrisics root as a \[\[Hash\]\]
-
-**Returns:** `Hash`
-
-___
-<a id="hash"></a>
-
-##  hash
-
-**get hash**(): `Hash`
-
-*Inherited from Header.hash*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:63](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Header.ts#L63)*
-
-*__description__*: Convenience method, encodes the header and calculates the \[\[Hash\]\]
-
-**Returns:** `Hash`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Inherited from Struct.isEmpty*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
-
-*__description__*: Checks if the value is an empty value
-
-**Returns:** `boolean`
-
-___
-<a id="number"></a>
-
-##  number
-
-**get number**(): `BlockNumber`
-
-*Inherited from Header.number*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:72](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Header.ts#L72)*
-
-*__description__*: Alias for `blockNumber` (this is displayed in JSON)
-
-**Returns:** `BlockNumber`
-
-___
-<a id="parenthash"></a>
-
-##  parentHash
-
-**get parentHash**(): `Hash`
-
-*Inherited from Header.parentHash*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:79](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Header.ts#L79)*
-
-*__description__*: The wrapped parent as a \[\[Hash\]\]
-
-**Returns:** `Hash`
-
-___
-<a id="stateroot"></a>
-
-##  stateRoot
-
-**get stateRoot**(): `Hash`
-
-*Inherited from Header.stateRoot*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:86](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/rpc/Header.ts#L86)*
-
-*__description__*: The wrapped state root as a \[\[Hash\]\]
-
-**Returns:** `Hash`
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:28
 
 ___
 
-# Methods
+## Accessors
 
-<a id="___iterator"></a>
+###  Type
 
-##  __@iterator
+● **get Type**(): *`E`*
 
-▸ **__@iterator**(): `IterableIterator`<[`keyof S`, `Codec`]>
+*Inherited from void*
 
-*Inherited from Map.[Symbol.iterator]*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:163](url)*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:113*
+**`description`** Returns the Type description to sthe structure
+
+**Returns:** *`E`*
+
+___
+
+###  author
+
+● **get author**(): *`AccountId` | undefined*
+
+*Defined in [type/HeaderExtended.ts:61](url)*
+
+**`description`** Convenience method, returns the author for the block
+
+**Returns:** *`AccountId` | undefined*
+
+___
+
+###  blockNumber
+
+● **get blockNumber**(): *`BlockNumber`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:42](url)*
+
+**`description`** The wrapped [[BlockNumber]]
+
+**Returns:** *`BlockNumber`*
+
+___
+
+###  digest
+
+● **get digest**(): *`Digest`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:49](url)*
+
+**`description`** The wrapped [[Digest]]
+
+**Returns:** *`Digest`*
+
+___
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:176](url)*
+
+**`description`** The length of the value when encoded as a Uint8Array
+
+**Returns:** *number*
+
+___
+
+###  extrinsicsRoot
+
+● **get extrinsicsRoot**(): *`Hash`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:56](url)*
+
+**`description`** The wrapped extrisics root as a [[Hash]]
+
+**Returns:** *`Hash`*
+
+___
+
+###  hash
+
+● **get hash**(): *`Hash`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:63](url)*
+
+**`description`** Convenience method, encodes the header and calculates the [[Hash]]
+
+**Returns:** *`Hash`*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:148](url)*
+
+**`description`** Checks if the value is an empty value
+
+**Returns:** *boolean*
+
+___
+
+###  number
+
+● **get number**(): *`BlockNumber`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:72](url)*
+
+**`description`** Alias for `blockNumber` (this is displayed in JSON)
+
+**Returns:** *`BlockNumber`*
+
+___
+
+###  parentHash
+
+● **get parentHash**(): *`Hash`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:79](url)*
+
+**`description`** The wrapped parent as a [[Hash]]
+
+**Returns:** *`Hash`*
+
+___
+
+###  stateRoot
+
+● **get stateRoot**(): *`Hash`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:86](url)*
+
+**`description`** The wrapped state root as a [[Hash]]
+
+**Returns:** *`Hash`*
+
+___
+
+## Methods
+
+###  __@iterator
+
+▸ **__@iterator**(): *`IterableIterator<[keyof S, Codec]>`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:113
 
 Returns an iterable of entries in the map.
 
-**Returns:** `IterableIterator`<[`keyof S`, `Codec`]>
+**Returns:** *`IterableIterator<[keyof S, Codec]>`*
 
 ___
-<a id="clear"></a>
 
-##  clear
+###  clear
 
-▸ **clear**(): `void`
+▸ **clear**(): *void*
 
-*Inherited from Map.clear*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:22*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:22
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="delete"></a>
 
-##  delete
+###  delete
 
-▸ **delete**(key: *`keyof S`*): `boolean`
+▸ **delete**(`key`: keyof S): *boolean*
 
-*Inherited from Map.delete*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:23*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:23
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `keyof S` |
+Name | Type |
+------ | ------ |
+`key` | keyof S |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="entries"></a>
 
-##  entries
+###  entries
 
-▸ **entries**(): `IterableIterator`<[`keyof S`, `Codec`]>
+▸ **entries**(): *`IterableIterator<[keyof S, Codec]>`*
 
-*Inherited from Map.entries*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:118*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:118
 
 Returns an iterable of key, value pairs for every entry in the map.
 
-**Returns:** `IterableIterator`<[`keyof S`, `Codec`]>
+**Returns:** *`IterableIterator<[keyof S, Codec]>`*
 
 ___
-<a id="eq"></a>
 
-##  eq
+###  eq
 
-▸ **eq**(other?: *`any`*): `boolean`
+▸ **eq**(`other?`: any): *boolean*
 
-*Inherited from Struct.eq*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:185](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="foreach"></a>
 
-##  forEach
+###  forEach
 
-▸ **forEach**(callbackfn: *`function`*, thisArg?: *`any`*): `void`
+▸ **forEach**(`callbackfn`: function, `thisArg?`: any): *void*
 
-*Inherited from Map.forEach*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:24*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:24
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| callbackfn | `function` |
-| `Optional` thisArg | `any` |
+■` callbackfn`: *function*
 
-**Returns:** `void`
-
-___
-<a id="get"></a>
-
-##  get
-
-▸ **get**(name: *`keyof S`*): `Codec` \| `undefined`
-
-*Inherited from Struct.get*
-
-*Overrides Map.get*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
-
-*__description__*: Returns a specific names entry in the structure
+▸ (`value`: `Codec`, `key`: keyof S, `map`: `Map<keyof S, Codec>`): *void*
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type |
+------ | ------ |
+`value` | `Codec` |
+`key` | keyof S |
+`map` | `Map<keyof S, Codec>` |
 
-**Returns:** `Codec` \| `undefined`
+■`Optional` ` thisArg`: *any*
+
+**Returns:** *void*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  get
 
-▸ **getAtIndex**(index: *`number`*): `Codec`
+▸ **get**(`name`: keyof S): *`Codec` | undefined*
 
-*Inherited from Struct.getAtIndex*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Overrides void*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:193](url)*
+
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** `Codec`
+**Returns:** *`Codec` | undefined*
 
 ___
-<a id="has"></a>
 
-##  has
+###  getAtIndex
 
-▸ **has**(key: *`keyof S`*): `boolean`
+▸ **getAtIndex**(`index`: number): *`Codec`*
 
-*Inherited from Map.has*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:26*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:200](url)*
+
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `keyof S` |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** `boolean`
+**Returns:** *`Codec`*
 
 ___
-<a id="keys"></a>
 
-##  keys
+###  has
 
-▸ **keys**(): `IterableIterator`<`keyof S`>
+▸ **has**(`key`: keyof S): *boolean*
 
-*Inherited from Map.keys*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:123*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:26
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`key` | keyof S |
+
+**Returns:** *boolean*
+
+___
+
+###  keys
+
+▸ **keys**(): *`IterableIterator<keyof S>`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:123
 
 Returns an iterable of keys in the map
 
-**Returns:** `IterableIterator`<`keyof S`>
+**Returns:** *`IterableIterator<keyof S>`*
 
 ___
-<a id="set"></a>
 
-##  set
+###  set
 
-▸ **set**(key: *`keyof S`*, value: *`Codec`*): `this`
+▸ **set**(`key`: keyof S, `value`: `Codec`): *this*
 
-*Inherited from Map.set*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:27*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:27
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `keyof S` |
-| value | `Codec` |
+Name | Type |
+------ | ------ |
+`key` | keyof S |
+`value` | `Codec` |
 
-**Returns:** `this`
-
-___
-<a id="toarray"></a>
-
-##  toArray
-
-▸ **toArray**(): `Array`<`Codec`>
-
-*Inherited from Struct.toArray*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
-
-*__description__*: Converts the Object to an standard JavaScript Array
-
-**Returns:** `Array`<`Codec`>
+**Returns:** *this*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toArray
 
-▸ **toHex**(): `string`
+▸ **toArray**(): *`Array<Codec>`*
 
-*Inherited from Struct.toHex*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:207](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `string`
-
-___
-<a id="tojson"></a>
-
-##  toJSON
-
-▸ **toJSON**(): `any`
-
-*Overrides Struct.toJSON*
-
-*Defined in [type/HeaderExtended.ts:68](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/type/HeaderExtended.ts#L68)*
-
-*__description__*: Creates the JSON representation
-
-**Returns:** `any`
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toHex
 
-▸ **toRawType**(): `string`
+▸ **toHex**(): *string*
 
-*Inherited from Struct.toRawType*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:214](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
-
-___
-<a id="tostring"></a>
-
-##  toString
-
-▸ **toString**(): `string`
-
-*Inherited from Struct.toString*
-
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toJSON
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toJSON**(): *any*
 
-*Inherited from Struct.toU8a*
+*Overrides void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L256)*
+*Defined in [type/HeaderExtended.ts:68](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Creates the JSON representation
+
+**Returns:** *any*
+
+___
+
+###  toRawType
+
+▸ **toRawType**(): *string*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:235](url)*
+
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:248](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:256](url)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="values"></a>
 
-##  values
+###  values
 
-▸ **values**(): `IterableIterator`<`Codec`>
+▸ **values**(): *`IterableIterator<Codec>`*
 
-*Inherited from Map.values*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:128*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:128
 
 Returns an iterable of values in the map
 
-**Returns:** `IterableIterator`<`Codec`>
+**Returns:** *`IterableIterator<Codec>`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**<`S`>(Types: *`S`*): `Constructor`<`Struct`<`S`>>
+▸ **with**<**S**>(`Types`: `S`): *`Constructor<Struct<S>>`*
 
-*Inherited from Struct.with*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  `ConstructorDef`
+■` S`: *`ConstructorDef`*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** `Constructor`<`Struct`<`S`>>
+**Returns:** *`Constructor<Struct<S>>`*
 
 ___
-

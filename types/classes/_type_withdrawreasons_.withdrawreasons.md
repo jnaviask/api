@@ -1,502 +1,521 @@
+> # Class: WithdrawReasons
 
+**`name`** WithdrawReasons
 
-*__name__*: WithdrawReasons
+**`description`** 
+The Substrate WithdrawReasons for staking
 
-*__description__*: The Substrate WithdrawReasons for staking
+## Hierarchy
 
-# Hierarchy
+  * [CodecSet](_codec_set_.codecset.md)
 
-↳  [CodecSet](_codec_set_.codecset.md)
+  * **WithdrawReasons**
 
-**↳ WithdrawReasons**
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_withdrawreasons_.withdrawreasons.md#constructor)
 
-⊕ **new WithdrawReasons**(value?: *`any`*): [WithdrawReasons](_type_withdrawreasons_.withdrawreasons.md)
+#### Properties
+
+* [__@toStringTag](_type_withdrawreasons_.withdrawreasons.md#__@tostringtag)
+* [size](_type_withdrawreasons_.withdrawreasons.md#size)
+
+#### Accessors
+
+* [encodedLength](_type_withdrawreasons_.withdrawreasons.md#encodedlength)
+* [isEmpty](_type_withdrawreasons_.withdrawreasons.md#isempty)
+* [isFee](_type_withdrawreasons_.withdrawreasons.md#isfee)
+* [isReserve](_type_withdrawreasons_.withdrawreasons.md#isreserve)
+* [isTransactionPayment](_type_withdrawreasons_.withdrawreasons.md#istransactionpayment)
+* [isTransfer](_type_withdrawreasons_.withdrawreasons.md#istransfer)
+* [strings](_type_withdrawreasons_.withdrawreasons.md#strings)
+* [valueEncoded](_type_withdrawreasons_.withdrawreasons.md#valueencoded)
+
+#### Methods
+
+* [__@iterator](_type_withdrawreasons_.withdrawreasons.md#__@iterator)
+* [add](_type_withdrawreasons_.withdrawreasons.md#add)
+* [clear](_type_withdrawreasons_.withdrawreasons.md#clear)
+* [delete](_type_withdrawreasons_.withdrawreasons.md#delete)
+* [entries](_type_withdrawreasons_.withdrawreasons.md#entries)
+* [eq](_type_withdrawreasons_.withdrawreasons.md#eq)
+* [forEach](_type_withdrawreasons_.withdrawreasons.md#foreach)
+* [has](_type_withdrawreasons_.withdrawreasons.md#has)
+* [keys](_type_withdrawreasons_.withdrawreasons.md#keys)
+* [toHex](_type_withdrawreasons_.withdrawreasons.md#tohex)
+* [toJSON](_type_withdrawreasons_.withdrawreasons.md#tojson)
+* [toNumber](_type_withdrawreasons_.withdrawreasons.md#tonumber)
+* [toRawType](_type_withdrawreasons_.withdrawreasons.md#torawtype)
+* [toString](_type_withdrawreasons_.withdrawreasons.md#tostring)
+* [toU8a](_type_withdrawreasons_.withdrawreasons.md#tou8a)
+* [values](_type_withdrawreasons_.withdrawreasons.md#values)
+* [decodeSet](_type_withdrawreasons_.withdrawreasons.md#static-decodeset)
+* [encodeSet](_type_withdrawreasons_.withdrawreasons.md#static-encodeset)
+
+## Constructors
+
+###  constructor
+
+\+ **new WithdrawReasons**(`value`: any): *[WithdrawReasons](_type_withdrawreasons_.withdrawreasons.md)*
 
 *Overrides [CodecSet](_codec_set_.codecset.md).[constructor](_codec_set_.codecset.md#constructor)*
 
-*Defined in [type/WithdrawReasons.ts:12](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/WithdrawReasons.ts#L12)*
+*Defined in [type/WithdrawReasons.ts:12](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` value | `any` |  [] |
+Name | Type | Default |
+------ | ------ | ------ |
+`value` | any |  [] |
 
-**Returns:** [WithdrawReasons](_type_withdrawreasons_.withdrawreasons.md)
-
-___
-
-# Properties
-
-<a id="___tostringtag"></a>
-
-##  __@toStringTag
-
-**● __@toStringTag**: *`string`*
-
-*Inherited from Set.[Symbol.toStringTag]*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:138*
-
-___
-<a id="size"></a>
-
-##  size
-
-**● size**: *`number`*
-
-*Inherited from Set.size*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:64*
+**Returns:** *[WithdrawReasons](_type_withdrawreasons_.withdrawreasons.md)*
 
 ___
 
-# Accessors
+## Properties
 
-<a id="encodedlength"></a>
+###  __@toStringTag
 
-##  encodedLength
+● **__@toStringTag**: *string*
 
-**get encodedLength**(): `number`
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:138
+
+___
+
+###  size
+
+● **size**: *number*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:64
+
+___
+
+## Accessors
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[encodedLength](_codec_set_.codecset.md#encodedlength)*
 
-*Defined in [codec/Set.ts:73](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L73)*
+*Defined in [codec/Set.ts:73](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  isEmpty
 
-**get isEmpty**(): `boolean`
+● **get isEmpty**(): *boolean*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[isEmpty](_codec_set_.codecset.md#isempty)*
 
-*Defined in [codec/Set.ts:80](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L80)*
+*Defined in [codec/Set.ts:80](url)*
 
-*__description__*: true is the Set contains no values
+**`description`** true is the Set contains no values
 
-**Returns:** `boolean`
-
-___
-<a id="isfee"></a>
-
-##  isFee
-
-**get isFee**(): `boolean`
-
-*Defined in [type/WithdrawReasons.ts:46](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/WithdrawReasons.ts#L46)*
-
-*__description__*: /// In order to pay some other (higher-level) fees.
-
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="isreserve"></a>
 
-##  isReserve
+###  isFee
 
-**get isReserve**(): `boolean`
+● **get isFee**(): *boolean*
 
-*Defined in [type/WithdrawReasons.ts:25](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/WithdrawReasons.ts#L25)*
+*Defined in [type/WithdrawReasons.ts:46](url)*
 
-*__description__*: In order to reserve some funds for a later return or repatriation
+**`description`** /// In order to pay some other (higher-level) fees.
 
-**Returns:** `boolean`
-
-___
-<a id="istransactionpayment"></a>
-
-##  isTransactionPayment
-
-**get isTransactionPayment**(): `boolean`
-
-*Defined in [type/WithdrawReasons.ts:32](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/WithdrawReasons.ts#L32)*
-
-*__description__*: In order to pay for (system) transaction costs
-
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="istransfer"></a>
 
-##  isTransfer
+###  isReserve
 
-**get isTransfer**(): `boolean`
+● **get isReserve**(): *boolean*
 
-*Defined in [type/WithdrawReasons.ts:39](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/WithdrawReasons.ts#L39)*
+*Defined in [type/WithdrawReasons.ts:25](url)*
 
-*__description__*: In order to transfer ownership
+**`description`** In order to reserve some funds for a later return or repatriation
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="strings"></a>
 
-##  strings
+###  isTransactionPayment
 
-**get strings**(): `Array`<`string`>
+● **get isTransactionPayment**(): *boolean*
+
+*Defined in [type/WithdrawReasons.ts:32](url)*
+
+**`description`** In order to pay for (system) transaction costs
+
+**Returns:** *boolean*
+
+___
+
+###  isTransfer
+
+● **get isTransfer**(): *boolean*
+
+*Defined in [type/WithdrawReasons.ts:39](url)*
+
+**`description`** In order to transfer ownership
+
+**Returns:** *boolean*
+
+___
+
+###  strings
+
+● **get strings**(): *`Array<string>`*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[strings](_codec_set_.codecset.md#strings)*
 
-*Defined in [codec/Set.ts:87](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L87)*
+*Defined in [codec/Set.ts:87](url)*
 
-*__description__*: The actual set values as a Array
+**`description`** The actual set values as a Array<string>
 
-**Returns:** `Array`<`string`>
+**Returns:** *`Array<string>`*
 
 ___
-<a id="valueencoded"></a>
 
-##  valueEncoded
+###  valueEncoded
 
-**get valueEncoded**(): `number`
+● **get valueEncoded**(): *number*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[valueEncoded](_codec_set_.codecset.md#valueencoded)*
 
-*Defined in [codec/Set.ts:94](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L94)*
+*Defined in [codec/Set.ts:94](url)*
 
-*__description__*: The encoded value for the set members
+**`description`** The encoded value for the set members
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
 
-# Methods
+## Methods
 
-<a id="___iterator"></a>
+###  __@iterator
 
-##  __@iterator
+▸ **__@iterator**(): *`IterableIterator<string>`*
 
-▸ **__@iterator**(): `IterableIterator`<`string`>
+*Inherited from void*
 
-*Inherited from Set.[Symbol.iterator]*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:163*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:163
 
 Iterates over values in the set.
 
-**Returns:** `IterableIterator`<`string`>
+**Returns:** *`IterableIterator<string>`*
 
 ___
-<a id="add"></a>
 
-##  add
+###  add
 
-▸ **add**(key: *`string`*): `this`
+▸ **add**(`key`: string): *this*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[add](_codec_set_.codecset.md#add)*
 
-*Overrides Set.add*
+*Overrides void*
 
-*Defined in [codec/Set.ts:101](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L101)*
+*Defined in [codec/Set.ts:101](url)*
 
-*__description__*: adds a value to the Set (extended to allow for validity checking)
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| key | `string` |
-
-**Returns:** `this`
-
-___
-<a id="clear"></a>
-
-##  clear
-
-▸ **clear**(): `void`
-
-*Inherited from Set.clear*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:60*
-
-**Returns:** `void`
-
-___
-<a id="delete"></a>
-
-##  delete
-
-▸ **delete**(value: *`string`*): `boolean`
-
-*Inherited from Set.delete*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:61*
+**`description`** adds a value to the Set (extended to allow for validity checking)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `string` |
+Name | Type |
+------ | ------ |
+`key` | string |
 
-**Returns:** `boolean`
-
-___
-<a id="entries"></a>
-
-##  entries
-
-▸ **entries**(): `IterableIterator`<[`string`, `string`]>
-
-*Inherited from Set.entries*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:167*
-
-Returns an iterable of \[v,v\] pairs for every value `v` in the set.
-
-**Returns:** `IterableIterator`<[`string`, `string`]>
+**Returns:** *this*
 
 ___
-<a id="eq"></a>
 
-##  eq
+###  clear
 
-▸ **eq**(other?: *`any`*): `boolean`
+▸ **clear**(): *void*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:60
+
+**Returns:** *void*
+
+___
+
+###  delete
+
+▸ **delete**(`value`: string): *boolean*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:61
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | string |
+
+**Returns:** *boolean*
+
+___
+
+###  entries
+
+▸ **entries**(): *`IterableIterator<[string, string]>`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:167
+
+Returns an iterable of [v,v] pairs for every value `v` in the set.
+
+**Returns:** *`IterableIterator<[string, string]>`*
+
+___
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[eq](_codec_set_.codecset.md#eq)*
 
-*Defined in [codec/Set.ts:114](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L114)*
+*Defined in [codec/Set.ts:114](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
-
-**Returns:** `boolean`
-
-___
-<a id="foreach"></a>
-
-##  forEach
-
-▸ **forEach**(callbackfn: *`function`*, thisArg?: *`any`*): `void`
-
-*Inherited from Set.forEach*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:62*
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| callbackfn | `function` |
-| `Optional` thisArg | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `void`
+**Returns:** *boolean*
 
 ___
-<a id="has"></a>
 
-##  has
+###  forEach
 
-▸ **has**(value: *`string`*): `boolean`
+▸ **forEach**(`callbackfn`: function, `thisArg?`: any): *void*
 
-*Inherited from Set.has*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:63*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:62
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `string` |
+■` callbackfn`: *function*
 
-**Returns:** `boolean`
+▸ (`value`: string, `value2`: string, `set`: `Set<string>`): *void*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | string |
+`value2` | string |
+`set` | `Set<string>` |
+
+■`Optional` ` thisArg`: *any*
+
+**Returns:** *void*
 
 ___
-<a id="keys"></a>
 
-##  keys
+###  has
 
-▸ **keys**(): `IterableIterator`<`string`>
+▸ **has**(`value`: string): *boolean*
 
-*Inherited from Set.keys*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:171*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:63
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | string |
+
+**Returns:** *boolean*
+
+___
+
+###  keys
+
+▸ **keys**(): *`IterableIterator<string>`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:171
 
 Despite its name, returns an iterable of the values in the set,
 
-**Returns:** `IterableIterator`<`string`>
+**Returns:** *`IterableIterator<string>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toHex](_codec_set_.codecset.md#tohex)*
 
-*Defined in [codec/Set.ts:130](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L130)*
+*Defined in [codec/Set.ts:130](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toJSON](_codec_set_.codecset.md#tojson)*
 
-*Defined in [codec/Set.ts:137](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L137)*
+*Defined in [codec/Set.ts:137](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="tonumber"></a>
 
-##  toNumber
+###  toNumber
 
-▸ **toNumber**(): `number`
+▸ **toNumber**(): *number*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toNumber](_codec_set_.codecset.md#tonumber)*
 
-*Defined in [codec/Set.ts:144](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L144)*
+*Defined in [codec/Set.ts:144](url)*
 
-*__description__*: The encoded value for the set members
+**`description`** The encoded value for the set members
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toRawType](_codec_set_.codecset.md#torawtype)*
 
-*Defined in [codec/Set.ts:151](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L151)*
+*Defined in [codec/Set.ts:151](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toString](_codec_set_.codecset.md#tostring)*
 
-*Defined in [codec/Set.ts:159](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L159)*
+*Defined in [codec/Set.ts:159](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toU8a](_codec_set_.codecset.md#tou8a)*
 
-*Defined in [codec/Set.ts:167](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L167)*
+*Defined in [codec/Set.ts:167](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="values"></a>
 
-##  values
+###  values
 
-▸ **values**(): `IterableIterator`<`string`>
+▸ **values**(): *`IterableIterator<string>`*
 
-*Inherited from Set.values*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:176*
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:176
 
 Returns an iterable of values in the set.
 
-**Returns:** `IterableIterator`<`string`>
+**Returns:** *`IterableIterator<string>`*
 
 ___
-<a id="decodeset"></a>
 
-## `<Static>` decodeSet
+### `Static` decodeSet
 
-▸ **decodeSet**(setValues: *`SetValues`*, value?: *`Array`<`string`> \| `Set`<`string`> \| `Uint8Array` \| `number`*): `Array`<`string`>
+▸ **decodeSet**(`setValues`: `SetValues`, `value`: `Array<string>` | `Set<string>` | `Uint8Array` | number): *`Array<string>`*
 
-*Inherited from [CodecSet](_codec_set_.codecset.md).[decodeSet](_codec_set_.codecset.md#decodeset)*
+*Inherited from [CodecSet](_codec_set_.codecset.md).[decodeSet](_codec_set_.codecset.md#static-decodeset)*
 
-*Defined in [codec/Set.ts:32](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L32)*
+*Defined in [codec/Set.ts:32](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| setValues | `SetValues` | - |
-| `Default value` value | `Array`<`string`> \| `Set`<`string`> \| `Uint8Array` \| `number` | 0 |
+Name | Type | Default |
+------ | ------ | ------ |
+`setValues` | `SetValues` | - |
+`value` | `Array<string>` \| `Set<string>` \| `Uint8Array` \| number | 0 |
 
-**Returns:** `Array`<`string`>
+**Returns:** *`Array<string>`*
 
 ___
-<a id="encodeset"></a>
 
-## `<Static>` encodeSet
+### `Static` encodeSet
 
-▸ **encodeSet**(setValues: *`SetValues`*, value: *`Array`<`string`>*): `number`
+▸ **encodeSet**(`setValues`: `SetValues`, `value`: `Array<string>`): *number*
 
-*Inherited from [CodecSet](_codec_set_.codecset.md).[encodeSet](_codec_set_.codecset.md#encodeset)*
+*Inherited from [CodecSet](_codec_set_.codecset.md).[encodeSet](_codec_set_.codecset.md#static-encodeset)*
 
-*Defined in [codec/Set.ts:64](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Set.ts#L64)*
+*Defined in [codec/Set.ts:64](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| setValues | `SetValues` |
-| value | `Array`<`string`> |
+Name | Type |
+------ | ------ |
+`setValues` | `SetValues` |
+`value` | `Array<string>` |
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-

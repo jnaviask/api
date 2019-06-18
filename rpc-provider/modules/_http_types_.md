@@ -1,16 +1,19 @@
+> # External module: "http/types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="httpstate"></a>
+* [HttpState](_http_types_.md#httpstate)
 
-##  HttpState
+## Type aliases
 
-**Ƭ HttpState**: *`object`*
+###  HttpState
 
-*Defined in [http/types.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-provider/src/http/types.ts#L9)*
+Ƭ **HttpState**: *object*
 
-#### Type declaration
+*Defined in [http/types.ts:9](url)*
+
+#### Type declaration:
 
 ___
-

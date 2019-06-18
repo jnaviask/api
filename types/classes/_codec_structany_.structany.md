@@ -1,184 +1,196 @@
+> # Class: StructAny
 
+**`name`** Json
 
-*__name__*: Json
+**`description`** 
+Wraps the a JSON structure retrieve via RPC. It extends the standard JS Map with. While it
+implements a Codec, it is limited in that it can only be used with input objects via RPC,
+i.e. no hex decoding. Unlike a struct, this waps a JSON object with unknown keys
 
-*__description__*: Wraps the a JSON structure retrieve via RPC. It extends the standard JS Map with. While it implements a Codec, it is limited in that it can only be used with input objects via RPC, i.e. no hex decoding. Unlike a struct, this waps a JSON object with unknown keys
+## Hierarchy
 
-# Hierarchy
+* `Map<string, any>`
 
- `Map`<`string`, `any`>
+  * **StructAny**
 
-**↳ StructAny**
+  * [ChainProperties](_rpc_chainproperties_.chainproperties.md)
 
-↳  [ChainProperties](_rpc_chainproperties_.chainproperties.md)
+  * [NetworkState](_rpc_networkstate_.networkstate.md)
 
-↳  [NetworkState](_rpc_networkstate_.networkstate.md)
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_codec_structany_.structany.md#constructor)
 
-⊕ **new StructAny**(value?: *`object` \| `null`*): [StructAny](_codec_structany_.structany.md)
+#### Properties
 
-*Defined in [codec/StructAny.ts:19](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L19)*
+* [Map](_codec_structany_.structany.md#static-map)
 
-**Parameters:**
+#### Accessors
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `object` \| `null` |
+* [encodedLength](_codec_structany_.structany.md#encodedlength)
+* [isEmpty](_codec_structany_.structany.md#isempty)
 
-**Returns:** [StructAny](_codec_structany_.structany.md)
+#### Methods
 
-___
+* [eq](_codec_structany_.structany.md#eq)
+* [toHex](_codec_structany_.structany.md#tohex)
+* [toJSON](_codec_structany_.structany.md#tojson)
+* [toRawType](_codec_structany_.structany.md#torawtype)
+* [toString](_codec_structany_.structany.md#tostring)
+* [toU8a](_codec_structany_.structany.md#tou8a)
 
-# Properties
+## Constructors
 
-<a id="map"></a>
+###  constructor
 
-## `<Static>` Map
+\+ **new StructAny**(`value?`: object | null): *[StructAny](_codec_structany_.structany.md)*
 
-**● Map**: *`MapConstructor`*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:36*
-
-___
-
-# Accessors
-
-<a id="encodedlength"></a>
-
-##  encodedLength
-
-**get encodedLength**(): `number`
-
-*Defined in [codec/StructAny.ts:46](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L46)*
-
-*__description__*: Always 0, never encodes as a Uint8Array
-
-**Returns:** `number`
-
-___
-<a id="isempty"></a>
-
-##  isEmpty
-
-**get isEmpty**(): `boolean`
-
-*Defined in [codec/StructAny.ts:53](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L53)*
-
-*__description__*: Checks if the value is an empty value
-
-**Returns:** `boolean`
-
-___
-
-# Methods
-
-<a id="eq"></a>
-
-##  eq
-
-▸ **eq**(other?: *`any`*): `boolean`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
-
-*Defined in [codec/StructAny.ts:60](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L60)*
-
-*__description__*: Compares the value of the input to see if there is a match
+*Defined in [codec/StructAny.ts:19](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`value?` | object \| null |
 
-**Returns:** `boolean`
-
-___
-<a id="tohex"></a>
-
-##  toHex
-
-▸ **toHex**(): `string`
-
-*Defined in [codec/StructAny.ts:67](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L67)*
-
-*__description__*: Unimplemented, will throw
-
-**Returns:** `string`
+**Returns:** *[StructAny](_codec_structany_.structany.md)*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+## Properties
 
-▸ **toJSON**(): `any`
+### `Static` Map
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+■ **Map**: *`MapConstructor`*
 
-*Defined in [codec/StructAny.ts:74](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L74)*
-
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
-
-**Returns:** `any`
+Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:36
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+## Accessors
 
-▸ **toRawType**(): `string`
+###  encodedLength
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+● **get encodedLength**(): *number*
 
-*Defined in [codec/StructAny.ts:85](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L85)*
+*Defined in [codec/StructAny.ts:46](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Always 0, never encodes as a Uint8Array
 
-**Returns:** `string`
-
-___
-<a id="tostring"></a>
-
-##  toString
-
-▸ **toString**(): `string`
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
-
-*Defined in [codec/StructAny.ts:92](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L92)*
-
-*__description__*: Returns the string representation of the value
-
-**Returns:** `string`
+**Returns:** *number*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  isEmpty
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+● **get isEmpty**(): *boolean*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Defined in [codec/StructAny.ts:53](url)*
 
-*Defined in [codec/StructAny.ts:99](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/StructAny.ts#L99)*
+**`description`** Checks if the value is an empty value
 
-*__description__*: Unimplemented, will throw
+**Returns:** *boolean*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/StructAny.ts:60](url)*
+
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `Uint8Array`
+**Returns:** *boolean*
 
 ___
 
+###  toHex
+
+▸ **toHex**(): *string*
+
+*Defined in [codec/StructAny.ts:67](url)*
+
+**`description`** Unimplemented, will throw
+
+**Returns:** *string*
+
+___
+
+###  toJSON
+
+▸ **toJSON**(): *any*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/StructAny.ts:74](url)*
+
+**`description`** Converts the Object to JSON, typically used for RPC transfers
+
+**Returns:** *any*
+
+___
+
+###  toRawType
+
+▸ **toRawType**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/StructAny.ts:85](url)*
+
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/StructAny.ts:92](url)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
+
+*Defined in [codec/StructAny.ts:99](url)*
+
+**`description`** Unimplemented, will throw
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`isBare?` | undefined \| false \| true |
+
+**Returns:** *`Uint8Array`*
+
+___

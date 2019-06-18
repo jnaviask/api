@@ -1,833 +1,850 @@
+> # Interface: Global
 
+## Hierarchy
 
-# Hierarchy
+* `Global`
 
- `Global`
+  * **Global**
 
-**↳ Global**
+### Index
 
-# Properties
+#### Properties
 
-<a id="array"></a>
+* [Array](_mock_types_.global.md#array)
+* [ArrayBuffer](_mock_types_.global.md#arraybuffer)
+* [Boolean](_mock_types_.global.md#boolean)
+* [Buffer](_mock_types_.global.md#buffer)
+* [DataView](_mock_types_.global.md#dataview)
+* [Date](_mock_types_.global.md#date)
+* [Error](_mock_types_.global.md#error)
+* [EvalError](_mock_types_.global.md#evalerror)
+* [Float32Array](_mock_types_.global.md#float32array)
+* [Float64Array](_mock_types_.global.md#float64array)
+* [Function](_mock_types_.global.md#function)
+* [GLOBAL](_mock_types_.global.md#global)
+* [Infinity](_mock_types_.global.md#infinity)
+* [Int16Array](_mock_types_.global.md#int16array)
+* [Int32Array](_mock_types_.global.md#int32array)
+* [Int8Array](_mock_types_.global.md#int8array)
+* [Intl](_mock_types_.global.md#intl)
+* [JSON](_mock_types_.global.md#json)
+* [Map](_mock_types_.global.md#map)
+* [Math](_mock_types_.global.md#math)
+* [NaN](_mock_types_.global.md#nan)
+* [Number](_mock_types_.global.md#number)
+* [Object](_mock_types_.global.md#object)
+* [Promise](_mock_types_.global.md#promise)
+* [RangeError](_mock_types_.global.md#rangeerror)
+* [ReferenceError](_mock_types_.global.md#referenceerror)
+* [RegExp](_mock_types_.global.md#regexp)
+* [Set](_mock_types_.global.md#set)
+* [String](_mock_types_.global.md#string)
+* [Symbol](_mock_types_.global.md#symbol)
+* [SyntaxError](_mock_types_.global.md#syntaxerror)
+* [TypeError](_mock_types_.global.md#typeerror)
+* [URIError](_mock_types_.global.md#urierror)
+* [Uint16Array](_mock_types_.global.md#uint16array)
+* [Uint32Array](_mock_types_.global.md#uint32array)
+* [Uint8Array](_mock_types_.global.md#uint8array)
+* [Uint8ClampedArray](_mock_types_.global.md#uint8clampedarray)
+* [WeakMap](_mock_types_.global.md#weakmap)
+* [WeakSet](_mock_types_.global.md#weakset)
+* [WebSocket](_mock_types_.global.md#websocket)
+* [clearImmediate](_mock_types_.global.md#clearimmediate)
+* [clearInterval](_mock_types_.global.md#clearinterval)
+* [clearTimeout](_mock_types_.global.md#cleartimeout)
+* [console](_mock_types_.global.md#console)
+* [decodeURI](_mock_types_.global.md#decodeuri)
+* [decodeURIComponent](_mock_types_.global.md#decodeuricomponent)
+* [encodeURI](_mock_types_.global.md#encodeuri)
+* [encodeURIComponent](_mock_types_.global.md#encodeuricomponent)
+* [escape](_mock_types_.global.md#escape)
+* [eval](_mock_types_.global.md#eval)
+* [fetch](_mock_types_.global.md#fetch)
+* [gc](_mock_types_.global.md#gc)
+* [global](_mock_types_.global.md#global)
+* [isFinite](_mock_types_.global.md#isfinite)
+* [isNaN](_mock_types_.global.md#isnan)
+* [parseFloat](_mock_types_.global.md#parsefloat)
+* [parseInt](_mock_types_.global.md#parseint)
+* [process](_mock_types_.global.md#process)
+* [queueMicrotask](_mock_types_.global.md#queuemicrotask)
+* [root](_mock_types_.global.md#root)
+* [setImmediate](_mock_types_.global.md#setimmediate)
+* [setInterval](_mock_types_.global.md#setinterval)
+* [setTimeout](_mock_types_.global.md#settimeout)
+* [undefined](_mock_types_.global.md#undefined)
+* [unescape](_mock_types_.global.md#unescape)
+* [v8debug](_mock_types_.global.md#optional-v8debug)
 
-##  Array
+## Properties
 
-**● Array**: *`ArrayConstructor`*
+###  Array
 
-*Inherited from Global.Array*
+● **Array**: *`ArrayConstructor`*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1033*
+*Inherited from void*
 
-___
-<a id="arraybuffer"></a>
-
-##  ArrayBuffer
-
-**● ArrayBuffer**: *`ArrayBufferConstructor`*
-
-*Inherited from Global.ArrayBuffer*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1034*
-
-___
-<a id="boolean"></a>
-
-##  Boolean
-
-**● Boolean**: *`BooleanConstructor`*
-
-*Inherited from Global.Boolean*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1035*
-
-___
-<a id="buffer"></a>
-
-##  Buffer
-
-**● Buffer**: *`object`*
-
-*Inherited from Global.Buffer*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1036*
-
-#### Type declaration
-
-___
-<a id="dataview"></a>
-
-##  DataView
-
-**● DataView**: *`DataViewConstructor`*
-
-*Inherited from Global.DataView*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1037*
-
-___
-<a id="date"></a>
-
-##  Date
-
-**● Date**: *`DateConstructor`*
-
-*Inherited from Global.Date*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1038*
-
-___
-<a id="error"></a>
-
-##  Error
-
-**● Error**: *`ErrorConstructor`*
-
-*Inherited from Global.Error*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1039*
-
-___
-<a id="evalerror"></a>
-
-##  EvalError
-
-**● EvalError**: *`EvalErrorConstructor`*
-
-*Inherited from Global.EvalError*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1040*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1033
 
 ___
-<a id="float32array"></a>
 
-##  Float32Array
+###  ArrayBuffer
 
-**● Float32Array**: *`Float32ArrayConstructor`*
+● **ArrayBuffer**: *`ArrayBufferConstructor`*
 
-*Inherited from Global.Float32Array*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1041*
-
-___
-<a id="float64array"></a>
-
-##  Float64Array
-
-**● Float64Array**: *`Float64ArrayConstructor`*
-
-*Inherited from Global.Float64Array*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1042*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1034
 
 ___
-<a id="function"></a>
 
-##  Function
+###  Boolean
 
-**● Function**: *`FunctionConstructor`*
+● **Boolean**: *`BooleanConstructor`*
 
-*Inherited from Global.Function*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1043*
-
-___
-<a id="global"></a>
-
-##  GLOBAL
-
-**● GLOBAL**: *`Global`*
-
-*Inherited from Global.GLOBAL*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1044*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1035
 
 ___
-<a id="infinity"></a>
 
-##  Infinity
+###  Buffer
 
-**● Infinity**: *`number`*
+● **Buffer**: *object*
 
-*Inherited from Global.Infinity*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1045*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1036
 
-___
-<a id="int16array"></a>
-
-##  Int16Array
-
-**● Int16Array**: *`Int16ArrayConstructor`*
-
-*Inherited from Global.Int16Array*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1046*
+#### Type declaration:
 
 ___
-<a id="int32array"></a>
 
-##  Int32Array
+###  DataView
 
-**● Int32Array**: *`Int32ArrayConstructor`*
+● **DataView**: *`DataViewConstructor`*
 
-*Inherited from Global.Int32Array*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1047*
-
-___
-<a id="int8array"></a>
-
-##  Int8Array
-
-**● Int8Array**: *`Int8ArrayConstructor`*
-
-*Inherited from Global.Int8Array*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1048*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1037
 
 ___
-<a id="intl"></a>
 
-##  Intl
+###  Date
 
-**● Intl**: *`Intl`*
+● **Date**: *`DateConstructor`*
 
-*Inherited from Global.Intl*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1049*
-
-___
-<a id="json"></a>
-
-##  JSON
-
-**● JSON**: *`JSON`*
-
-*Inherited from Global.JSON*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1050*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1038
 
 ___
-<a id="map"></a>
 
-##  Map
+###  Error
 
-**● Map**: *`MapConstructor`*
+● **Error**: *`ErrorConstructor`*
 
-*Inherited from Global.Map*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1051*
-
-___
-<a id="math"></a>
-
-##  Math
-
-**● Math**: *`Math`*
-
-*Inherited from Global.Math*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1052*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1039
 
 ___
-<a id="nan"></a>
 
-##  NaN
+###  EvalError
 
-**● NaN**: *`number`*
+● **EvalError**: *`EvalErrorConstructor`*
 
-*Inherited from Global.NaN*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1053*
-
-___
-<a id="number"></a>
-
-##  Number
-
-**● Number**: *`NumberConstructor`*
-
-*Inherited from Global.Number*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1054*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1040
 
 ___
-<a id="object"></a>
 
-##  Object
+###  Float32Array
 
-**● Object**: *`ObjectConstructor`*
+● **Float32Array**: *`Float32ArrayConstructor`*
 
-*Inherited from Global.Object*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1055*
-
-___
-<a id="promise"></a>
-
-##  Promise
-
-**● Promise**: *`Function`*
-
-*Inherited from Global.Promise*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1056*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1041
 
 ___
-<a id="rangeerror"></a>
 
-##  RangeError
+###  Float64Array
 
-**● RangeError**: *`RangeErrorConstructor`*
+● **Float64Array**: *`Float64ArrayConstructor`*
 
-*Inherited from Global.RangeError*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1057*
-
-___
-<a id="referenceerror"></a>
-
-##  ReferenceError
-
-**● ReferenceError**: *`ReferenceErrorConstructor`*
-
-*Inherited from Global.ReferenceError*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1058*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1042
 
 ___
-<a id="regexp"></a>
 
-##  RegExp
+###  Function
 
-**● RegExp**: *`RegExpConstructor`*
+● **Function**: *`FunctionConstructor`*
 
-*Inherited from Global.RegExp*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1059*
-
-___
-<a id="set"></a>
-
-##  Set
-
-**● Set**: *`SetConstructor`*
-
-*Inherited from Global.Set*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1060*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1043
 
 ___
-<a id="string"></a>
 
-##  String
+###  GLOBAL
 
-**● String**: *`StringConstructor`*
+● **GLOBAL**: *`Global`*
 
-*Inherited from Global.String*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1061*
-
-___
-<a id="symbol"></a>
-
-##  Symbol
-
-**● Symbol**: *`Function`*
-
-*Inherited from Global.Symbol*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1062*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1044
 
 ___
-<a id="syntaxerror"></a>
 
-##  SyntaxError
+###  Infinity
 
-**● SyntaxError**: *`SyntaxErrorConstructor`*
+● **Infinity**: *number*
 
-*Inherited from Global.SyntaxError*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1063*
-
-___
-<a id="typeerror"></a>
-
-##  TypeError
-
-**● TypeError**: *`TypeErrorConstructor`*
-
-*Inherited from Global.TypeError*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1064*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1045
 
 ___
-<a id="urierror"></a>
 
-##  URIError
+###  Int16Array
 
-**● URIError**: *`URIErrorConstructor`*
+● **Int16Array**: *`Int16ArrayConstructor`*
 
-*Inherited from Global.URIError*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1065*
-
-___
-<a id="uint16array"></a>
-
-##  Uint16Array
-
-**● Uint16Array**: *`Uint16ArrayConstructor`*
-
-*Inherited from Global.Uint16Array*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1066*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1046
 
 ___
-<a id="uint32array"></a>
 
-##  Uint32Array
+###  Int32Array
 
-**● Uint32Array**: *`Uint32ArrayConstructor`*
+● **Int32Array**: *`Int32ArrayConstructor`*
 
-*Inherited from Global.Uint32Array*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1067*
-
-___
-<a id="uint8array"></a>
-
-##  Uint8Array
-
-**● Uint8Array**: *`Uint8ArrayConstructor`*
-
-*Inherited from Global.Uint8Array*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1068*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1047
 
 ___
-<a id="uint8clampedarray"></a>
 
-##  Uint8ClampedArray
+###  Int8Array
 
-**● Uint8ClampedArray**: *`Function`*
+● **Int8Array**: *`Int8ArrayConstructor`*
 
-*Inherited from Global.Uint8ClampedArray*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1069*
-
-___
-<a id="weakmap"></a>
-
-##  WeakMap
-
-**● WeakMap**: *`WeakMapConstructor`*
-
-*Inherited from Global.WeakMap*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1070*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1048
 
 ___
-<a id="weakset"></a>
 
-##  WeakSet
+###  Intl
 
-**● WeakSet**: *`WeakSetConstructor`*
+● **Intl**: *`Intl`*
 
-*Inherited from Global.WeakSet*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1071*
-
-___
-<a id="websocket"></a>
-
-##  WebSocket
-
-**● WebSocket**: *`Constructor`<`WebSocket`>*
-
-*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-provider/src/mock/types.ts#L9)*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1049
 
 ___
-<a id="clearimmediate"></a>
 
-##  clearImmediate
+###  JSON
 
-**● clearImmediate**: *`function`*
+● **JSON**: *`JSON`*
 
-*Inherited from Global.clearImmediate*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1072*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1050
 
-#### Type declaration
-▸(immediateId: *`Immediate`*): `void`
+___
+
+###  Map
+
+● **Map**: *`MapConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1051
+
+___
+
+###  Math
+
+● **Math**: *`Math`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1052
+
+___
+
+###  NaN
+
+● **NaN**: *number*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1053
+
+___
+
+###  Number
+
+● **Number**: *`NumberConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1054
+
+___
+
+###  Object
+
+● **Object**: *`ObjectConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1055
+
+___
+
+###  Promise
+
+● **Promise**: *`Function`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1056
+
+___
+
+###  RangeError
+
+● **RangeError**: *`RangeErrorConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1057
+
+___
+
+###  ReferenceError
+
+● **ReferenceError**: *`ReferenceErrorConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1058
+
+___
+
+###  RegExp
+
+● **RegExp**: *`RegExpConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1059
+
+___
+
+###  Set
+
+● **Set**: *`SetConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1060
+
+___
+
+###  String
+
+● **String**: *`StringConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1061
+
+___
+
+###  Symbol
+
+● **Symbol**: *`Function`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1062
+
+___
+
+###  SyntaxError
+
+● **SyntaxError**: *`SyntaxErrorConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1063
+
+___
+
+###  TypeError
+
+● **TypeError**: *`TypeErrorConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1064
+
+___
+
+###  URIError
+
+● **URIError**: *`URIErrorConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1065
+
+___
+
+###  Uint16Array
+
+● **Uint16Array**: *`Uint16ArrayConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1066
+
+___
+
+###  Uint32Array
+
+● **Uint32Array**: *`Uint32ArrayConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1067
+
+___
+
+###  Uint8Array
+
+● **Uint8Array**: *`Uint8ArrayConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1068
+
+___
+
+###  Uint8ClampedArray
+
+● **Uint8ClampedArray**: *`Function`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1069
+
+___
+
+###  WeakMap
+
+● **WeakMap**: *`WeakMapConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1070
+
+___
+
+###  WeakSet
+
+● **WeakSet**: *`WeakSetConstructor`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1071
+
+___
+
+###  WebSocket
+
+● **WebSocket**: *`Constructor<WebSocket>`*
+
+*Defined in [mock/types.ts:9](url)*
+
+___
+
+###  clearImmediate
+
+● **clearImmediate**: *function*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1072
+
+#### Type declaration:
+
+▸ (`immediateId`: `Immediate`): *void*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| immediateId | `Immediate` |
-
-**Returns:** `void`
+Name | Type |
+------ | ------ |
+`immediateId` | `Immediate` |
 
 ___
-<a id="clearinterval"></a>
 
-##  clearInterval
+###  clearInterval
 
-**● clearInterval**: *`function`*
+● **clearInterval**: *function*
 
-*Inherited from Global.clearInterval*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1073*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1073
 
-#### Type declaration
-▸(intervalId: *`Timeout`*): `void`
+#### Type declaration:
+
+▸ (`intervalId`: `Timeout`): *void*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| intervalId | `Timeout` |
-
-**Returns:** `void`
+Name | Type |
+------ | ------ |
+`intervalId` | `Timeout` |
 
 ___
-<a id="cleartimeout"></a>
 
-##  clearTimeout
+###  clearTimeout
 
-**● clearTimeout**: *`function`*
+● **clearTimeout**: *function*
 
-*Inherited from Global.clearTimeout*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1074*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1074
 
-#### Type declaration
-▸(timeoutId: *`Timeout`*): `void`
+#### Type declaration:
+
+▸ (`timeoutId`: `Timeout`): *void*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| timeoutId | `Timeout` |
-
-**Returns:** `void`
+Name | Type |
+------ | ------ |
+`timeoutId` | `Timeout` |
 
 ___
-<a id="console"></a>
 
-##  console
+###  console
 
-**● console**: *`Console`*
+● **console**: *`Console`*
 
-*Inherited from Global.console*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1075*
-
-___
-<a id="decodeuri"></a>
-
-##  decodeURI
-
-**● decodeURI**: *`decodeURI`*
-
-*Inherited from Global.decodeURI*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1076*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1075
 
 ___
-<a id="decodeuricomponent"></a>
 
-##  decodeURIComponent
+###  decodeURI
 
-**● decodeURIComponent**: *`decodeURIComponent`*
+● **decodeURI**: *`decodeURI`*
 
-*Inherited from Global.decodeURIComponent*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1077*
-
-___
-<a id="encodeuri"></a>
-
-##  encodeURI
-
-**● encodeURI**: *`encodeURI`*
-
-*Inherited from Global.encodeURI*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1078*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1076
 
 ___
-<a id="encodeuricomponent"></a>
 
-##  encodeURIComponent
+###  decodeURIComponent
 
-**● encodeURIComponent**: *`encodeURIComponent`*
+● **decodeURIComponent**: *`decodeURIComponent`*
 
-*Inherited from Global.encodeURIComponent*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1079*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1077
 
 ___
-<a id="escape"></a>
 
-##  escape
+###  encodeURI
 
-**● escape**: *`function`*
+● **encodeURI**: *`encodeURI`*
 
-*Inherited from Global.escape*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1080*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1078
 
-#### Type declaration
-▸(str: *`string`*): `string`
+___
+
+###  encodeURIComponent
+
+● **encodeURIComponent**: *`encodeURIComponent`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1079
+
+___
+
+###  escape
+
+● **escape**: *function*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1080
+
+#### Type declaration:
+
+▸ (`str`: string): *string*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| str | `string` |
-
-**Returns:** `string`
+Name | Type |
+------ | ------ |
+`str` | string |
 
 ___
-<a id="eval"></a>
 
-##  eval
+###  eval
 
-**● eval**: *`eval`*
+● **eval**: *`eval`*
 
-*Inherited from Global.eval*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1081*
-
-___
-<a id="fetch"></a>
-
-##  fetch
-
-**● fetch**: *`GlobalFetch`*
-
-*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-provider/src/mock/types.ts#L10)*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1081
 
 ___
-<a id="gc"></a>
 
-##  gc
+###  fetch
 
-**● gc**: *`function`*
+● **fetch**: *`GlobalFetch`*
 
-*Inherited from Global.gc*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1095*
-
-#### Type declaration
-▸(): `void`
-
-**Returns:** `void`
+*Defined in [mock/types.ts:10](url)*
 
 ___
-<a id="global-1"></a>
 
-##  global
+###  gc
 
-**● global**: *`Global`*
+● **gc**: *function*
 
-*Inherited from Global.global*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1082*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1095
 
-___
-<a id="isfinite"></a>
+#### Type declaration:
 
-##  isFinite
-
-**● isFinite**: *`isFinite`*
-
-*Inherited from Global.isFinite*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1083*
+▸ (): *void*
 
 ___
-<a id="isnan"></a>
 
-##  isNaN
+###  global
 
-**● isNaN**: *`isNaN`*
+● **global**: *`Global`*
 
-*Inherited from Global.isNaN*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1084*
-
-___
-<a id="parsefloat"></a>
-
-##  parseFloat
-
-**● parseFloat**: *`parseFloat`*
-
-*Inherited from Global.parseFloat*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1085*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1082
 
 ___
-<a id="parseint"></a>
 
-##  parseInt
+###  isFinite
 
-**● parseInt**: *`parseInt`*
+● **isFinite**: *`isFinite`*
 
-*Inherited from Global.parseInt*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1086*
-
-___
-<a id="process"></a>
-
-##  process
-
-**● process**: *`Process`*
-
-*Inherited from Global.process*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1087*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1083
 
 ___
-<a id="queuemicrotask"></a>
 
-##  queueMicrotask
+###  isNaN
 
-**● queueMicrotask**: *`queueMicrotask`*
+● **isNaN**: *`isNaN`*
 
-*Inherited from Global.queueMicrotask*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1092*
-
-___
-<a id="root"></a>
-
-##  root
-
-**● root**: *`Global`*
-
-*Inherited from Global.root*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1088*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1084
 
 ___
-<a id="setimmediate"></a>
 
-##  setImmediate
+###  parseFloat
 
-**● setImmediate**: *`function`*
+● **parseFloat**: *`parseFloat`*
 
-*Inherited from Global.setImmediate*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1089*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1085
 
-#### Type declaration
-▸(callback: *`function`*, ...args: *`any`[]*): `Immediate`
+___
+
+###  parseInt
+
+● **parseInt**: *`parseInt`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1086
+
+___
+
+###  process
+
+● **process**: *`Process`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1087
+
+___
+
+###  queueMicrotask
+
+● **queueMicrotask**: *`queueMicrotask`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1092
+
+___
+
+###  root
+
+● **root**: *`Global`*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1088
+
+___
+
+###  setImmediate
+
+● **setImmediate**: *function*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1089
+
+#### Type declaration:
+
+▸ (`callback`: function, ...`args`: any[]): *`Immediate`*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| callback | `function` |
-| `Rest` args | `any`[] |
+■` callback`: *function*
 
-**Returns:** `Immediate`
-
-___
-<a id="setinterval"></a>
-
-##  setInterval
-
-**● setInterval**: *`function`*
-
-*Inherited from Global.setInterval*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1090*
-
-#### Type declaration
-▸(callback: *`function`*, ms: *`number`*, ...args: *`any`[]*): `Timeout`
+▸ (...`args`: any[]): *void*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| callback | `function` |
-| ms | `number` |
-| `Rest` args | `any`[] |
+Name | Type |
+------ | ------ |
+`...args` | any[] |
 
-**Returns:** `Timeout`
+■`... args`: *any[]*
 
 ___
-<a id="settimeout"></a>
 
-##  setTimeout
+###  setInterval
 
-**● setTimeout**: *`function`*
+● **setInterval**: *function*
 
-*Inherited from Global.setTimeout*
+*Inherited from void*
 
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1091*
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1090
 
-#### Type declaration
-▸(callback: *`function`*, ms: *`number`*, ...args: *`any`[]*): `Timeout`
+#### Type declaration:
+
+▸ (`callback`: function, `ms`: number, ...`args`: any[]): *`Timeout`*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| callback | `function` |
-| ms | `number` |
-| `Rest` args | `any`[] |
+■` callback`: *function*
 
-**Returns:** `Timeout`
-
-___
-<a id="undefined"></a>
-
-##  undefined
-
-**● undefined**: *`undefined`*
-
-*Inherited from Global.undefined*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1093*
-
-___
-<a id="unescape"></a>
-
-##  unescape
-
-**● unescape**: *`function`*
-
-*Inherited from Global.unescape*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1094*
-
-#### Type declaration
-▸(str: *`string`*): `string`
+▸ (...`args`: any[]): *void*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| str | `string` |
+Name | Type |
+------ | ------ |
+`...args` | any[] |
 
-**Returns:** `string`
+■` ms`: *number*
 
-___
-<a id="v8debug"></a>
-
-## `<Optional>` v8debug
-
-**● v8debug**: *`any`*
-
-*Inherited from Global.v8debug*
-
-*Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1096*
+■`... args`: *any[]*
 
 ___
 
+###  setTimeout
+
+● **setTimeout**: *function*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1091
+
+#### Type declaration:
+
+▸ (`callback`: function, `ms`: number, ...`args`: any[]): *`Timeout`*
+
+**Parameters:**
+
+■` callback`: *function*
+
+▸ (...`args`: any[]): *void*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`...args` | any[] |
+
+■` ms`: *number*
+
+■`... args`: *any[]*
+
+___
+
+###  undefined
+
+● **undefined**: *undefined*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1093
+
+___
+
+###  unescape
+
+● **unescape**: *function*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1094
+
+#### Type declaration:
+
+▸ (`str`: string): *string*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`str` | string |
+
+___
+
+### `Optional` v8debug
+
+● **v8debug**? : *any*
+
+*Inherited from void*
+
+Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1096
+
+___

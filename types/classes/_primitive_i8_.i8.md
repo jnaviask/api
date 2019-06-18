@@ -1,112 +1,118 @@
+> # Class: I8
 
+**`name`** I8
 
-*__name__*: I8
+**`description`** 
+An 8-bit signed integer
 
-*__description__*: An 8-bit signed integer
+## Hierarchy
 
-# Hierarchy
+  * [Int](_codec_int_.int.md)
 
-↳  [Int](_codec_int_.int.md)
+  * **I8**
 
-**↳ I8**
+  * [LockPeriods](_type_lockperiods_.lockperiods.md)
 
-↳  [LockPeriods](_type_lockperiods_.lockperiods.md)
+  * [Vote](_type_vote_.vote.md)
 
-↳  [Vote](_type_vote_.vote.md)
-
-# Implements
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_primitive_i8_.i8.md#constructor)
 
-⊕ **new I8**(value?: *[AnyNumber](../modules/_types_.md#anynumber)*): [I8](_primitive_i8_.i8.md)
+#### Methods
+
+* [toHex](_primitive_i8_.i8.md#tohex)
+* [toRawType](_primitive_i8_.i8.md#torawtype)
+* [toU8a](_primitive_i8_.i8.md#tou8a)
+
+## Constructors
+
+###  constructor
+
+\+ **new I8**(`value?`: [AnyNumber](../modules/_types_.md#anynumber)): *[I8](_primitive_i8_.i8.md)*
 
 *Overrides [Int](_codec_int_.int.md).[constructor](_codec_int_.int.md#constructor)*
 
-*Defined in [primitive/I8.ts:14](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/I8.ts#L14)*
+*Defined in [primitive/I8.ts:14](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | [AnyNumber](../modules/_types_.md#anynumber) |
+Name | Type |
+------ | ------ |
+`value?` | [AnyNumber](../modules/_types_.md#anynumber) |
 
-**Returns:** [I8](_primitive_i8_.i8.md)
+**Returns:** *[I8](_primitive_i8_.i8.md)*
 
 ___
 
-# Methods
+## Methods
 
-<a id="tohex"></a>
+###  toHex
 
-##  toHex
-
-▸ **toHex**(isLe?: *`boolean`*): `string`
+▸ **toHex**(`isLe`: boolean): *string*
 
 *Inherited from [Int](_codec_int_.int.md).[toHex](_codec_int_.int.md#tohex)*
 
-*Overrides AbstractInt.toHex*
+*Overrides void*
 
-*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Int.ts#L36)*
+*Defined in [codec/Int.ts:36](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` isLe | `boolean` | false |
+Name | Type | Default |
+------ | ------ | ------ |
+`isLe` | boolean | false |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Int](_codec_int_.int.md).[toRawType](_codec_int_.int.md#torawtype)*
 
-*Overrides AbstractInt.toRawType*
+*Overrides void*
 
-*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Int.ts#L47)*
+*Defined in [codec/Int.ts:47](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Int](_codec_int_.int.md).[toU8a](_codec_int_.int.md#tou8a)*
 
-*Overrides AbstractInt.toU8a*
+*Overrides void*
 
-*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Int.ts#L55)*
+*Defined in [codec/Int.ts:55](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

@@ -1,11 +1,7 @@
-
-@polkadot/rpc-rx
-================
+# @polkadot/rpc-rx
 
 An RxJs wrapper around the [@polkadot/rpc-core](../rpc-core).
 
-Classes
--------
+## Classes
 
 [Classes](SUMMARY.md)
-

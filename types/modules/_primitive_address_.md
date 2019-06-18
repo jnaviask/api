@@ -1,26 +1,21 @@
+> # External module: "primitive/Address"
 
+### Index
 
-# Index
-
-### Classes
+#### Classes
 
 * [Address](../classes/_primitive_address_.address.md)
 
-### Variables
+#### Variables
 
-* [ACCOUNT_ID_PREFIX](_primitive_address_.md#account_id_prefix)
+* [ACCOUNT_ID_PREFIX](_primitive_address_.md#const-account_id_prefix)
 
----
+## Variables
 
-# Variables
+### `Const` ACCOUNT_ID_PREFIX
 
-<a id="account_id_prefix"></a>
+● **ACCOUNT_ID_PREFIX**: *`Uint8Array`* =  new Uint8Array([0xff])
 
-## `<Const>` ACCOUNT_ID_PREFIX
-
-**● ACCOUNT_ID_PREFIX**: *`Uint8Array`* =  new Uint8Array([0xff])
-
-*Defined in [primitive/Address.ts:16](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/primitive/Address.ts#L16)*
+*Defined in [primitive/Address.ts:16](url)*
 
 ___
-

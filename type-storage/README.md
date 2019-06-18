@@ -1,11 +1,7 @@
-
-@polkadot/storage
-=================
+# @polkadot/storage
 
 An base interface to the storage layer
 
-Classes
--------
+## Classes
 
 [Classes](SUMMARY.md)
-

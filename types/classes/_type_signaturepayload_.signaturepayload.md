@@ -1,387 +1,405 @@
+> # Class: SignaturePayload <**S, T, V, E**>
 
+**`name`** SignaturePayload
 
-*__name__*: SignaturePayload
+**`description`** 
+A signing payload for an [Extrinsic](_type_extrinsic_.extrinsic.md). For the final encoding, it is variable length based
+on the contents included
 
-*__description__*: A signing payload for an [Extrinsic](_type_extrinsic_.extrinsic.md). For the final encoding, it is variable length based on the contents included
+8 bytes: The Transaction Index/Nonce as provided in the transaction itself.
+2+ bytes: The Function Descriptor as provided in the transaction itself.
+2 bytes: The Transaction Era as provided in the transaction itself.
+32 bytes: The hash of the authoring block implied by the Transaction Era and the current block.
 
-8 bytes: The Transaction Index/Nonce as provided in the transaction itself. 2+ bytes: The Function Descriptor as provided in the transaction itself. 2 bytes: The Transaction Era as provided in the transaction itself. 32 bytes: The hash of the authoring block implied by the Transaction Era and the current block.
+## Type parameters
 
-# Type parameters
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
-#### T :  `object`
-#### V :  `object`
-#### E :  `object`
-# Hierarchy
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
-↳  [Struct](_codec_struct_.struct.md)
+■` T`: *object*
 
-**↳ SignaturePayload**
+■` V`: *object*
 
-# Implements
+■` E`: *object*
+
+## Hierarchy
+
+  * [Struct](_codec_struct_.struct.md)
+
+  * **SignaturePayload**
+
+## Implements
 
 * [Codec](../interfaces/_types_.codec.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_type_signaturepayload_.signaturepayload.md#constructor)
 
-⊕ **new SignaturePayload**(value?: *`SignaturePayloadValue` \| `Uint8Array`*): [SignaturePayload](_type_signaturepayload_.signaturepayload.md)
+#### Accessors
+
+* [Type](_type_signaturepayload_.signaturepayload.md#type)
+* [blockHash](_type_signaturepayload_.signaturepayload.md#blockhash)
+* [encodedLength](_type_signaturepayload_.signaturepayload.md#encodedlength)
+* [era](_type_signaturepayload_.signaturepayload.md#era)
+* [isEmpty](_type_signaturepayload_.signaturepayload.md#isempty)
+* [isSigned](_type_signaturepayload_.signaturepayload.md#issigned)
+* [method](_type_signaturepayload_.signaturepayload.md#method)
+* [nonce](_type_signaturepayload_.signaturepayload.md#nonce)
+* [signature](_type_signaturepayload_.signaturepayload.md#signature)
+
+#### Methods
+
+* [eq](_type_signaturepayload_.signaturepayload.md#eq)
+* [get](_type_signaturepayload_.signaturepayload.md#get)
+* [getAtIndex](_type_signaturepayload_.signaturepayload.md#getatindex)
+* [sign](_type_signaturepayload_.signaturepayload.md#sign)
+* [toArray](_type_signaturepayload_.signaturepayload.md#toarray)
+* [toHex](_type_signaturepayload_.signaturepayload.md#tohex)
+* [toJSON](_type_signaturepayload_.signaturepayload.md#tojson)
+* [toRawType](_type_signaturepayload_.signaturepayload.md#torawtype)
+* [toString](_type_signaturepayload_.signaturepayload.md#tostring)
+* [toU8a](_type_signaturepayload_.signaturepayload.md#tou8a)
+* [with](_type_signaturepayload_.signaturepayload.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new SignaturePayload**(`value?`: `SignaturePayloadValue` | `Uint8Array`): *[SignaturePayload](_type_signaturepayload_.signaturepayload.md)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/SignaturePayload.ts:45](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/SignaturePayload.ts#L45)*
+*Defined in [type/SignaturePayload.ts:45](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `SignaturePayloadValue` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`value?` | `SignaturePayloadValue` \| `Uint8Array` |
 
-**Returns:** [SignaturePayload](_type_signaturepayload_.signaturepayload.md)
+**Returns:** *[SignaturePayload](_type_signaturepayload_.signaturepayload.md)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="type"></a>
+###  Type
 
-##  Type
-
-**get Type**(): `E`
+● **get Type**(): *`E`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Struct.ts:163](url)*
 
-*__description__*: Returns the Type description to sthe structure
+**`description`** Returns the Type description to sthe structure
 
-**Returns:** `E`
-
-___
-<a id="blockhash"></a>
-
-##  blockHash
-
-**get blockHash**(): [Hash](_primitive_hash_.hash.md)
-
-*Defined in [type/SignaturePayload.ts:66](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/SignaturePayload.ts#L66)*
-
-*__description__*: The block [Hash](_primitive_hash_.hash.md) the signature applies to (mortal/immortal)
-
-**Returns:** [Hash](_primitive_hash_.hash.md)
+**Returns:** *`E`*
 
 ___
-<a id="encodedlength"></a>
 
-##  encodedLength
+###  blockHash
 
-**get encodedLength**(): `number`
+● **get blockHash**(): *[Hash](_primitive_hash_.hash.md)*
+
+*Defined in [type/SignaturePayload.ts:66](url)*
+
+**`description`** The block [Hash](_primitive_hash_.hash.md) the signature applies to (mortal/immortal)
+
+**Returns:** *[Hash](_primitive_hash_.hash.md)*
+
+___
+
+###  encodedLength
+
+● **get encodedLength**(): *number*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L176)*
+*Defined in [codec/Struct.ts:176](url)*
 
-*__description__*: The length of the value when encoded as a Uint8Array
+**`description`** The length of the value when encoded as a Uint8Array
 
-**Returns:** `number`
-
-___
-<a id="era"></a>
-
-##  era
-
-**get era**(): [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
-
-*Defined in [type/SignaturePayload.ts:80](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/SignaturePayload.ts#L80)*
-
-*__description__*: The [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
-
-**Returns:** [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
+**Returns:** *number*
 
 ___
-<a id="isempty"></a>
 
-##  isEmpty
+###  era
 
-**get isEmpty**(): `boolean`
+● **get era**(): *[ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)*
+
+*Defined in [type/SignaturePayload.ts:80](url)*
+
+**`description`** The [ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)
+
+**Returns:** *[ExtrinsicEra](_type_extrinsicera_.extrinsicera.md)*
+
+___
+
+###  isEmpty
+
+● **get isEmpty**(): *boolean*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/Struct.ts:148](url)*
 
-*__description__*: Checks if the value is an empty value
+**`description`** Checks if the value is an empty value
 
-**Returns:** `boolean`
-
-___
-<a id="issigned"></a>
-
-##  isSigned
-
-**get isSigned**(): `boolean`
-
-*Defined in [type/SignaturePayload.ts:59](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/SignaturePayload.ts#L59)*
-
-*__description__*: `true` if the payload refers to a valid signature
-
-**Returns:** `boolean`
-
-___
-<a id="method"></a>
-
-##  method
-
-**get method**(): [Method](_primitive_method_.method.md)
-
-*Defined in [type/SignaturePayload.ts:73](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/SignaturePayload.ts#L73)*
-
-*__description__*: The [Method](_primitive_method_.method.md) contained in the payload
-
-**Returns:** [Method](_primitive_method_.method.md)
-
-___
-<a id="nonce"></a>
-
-##  nonce
-
-**get nonce**(): [Nonce](_type_nonce_.nonce.md)
-
-*Defined in [type/SignaturePayload.ts:87](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/SignaturePayload.ts#L87)*
-
-*__description__*: The [Nonce](_type_nonce_.nonce.md)
-
-**Returns:** [Nonce](_type_nonce_.nonce.md)
-
-___
-<a id="signature"></a>
-
-##  signature
-
-**get signature**(): `Uint8Array`
-
-*Defined in [type/SignaturePayload.ts:94](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/SignaturePayload.ts#L94)*
-
-*__description__*: The raw signature as a `Uint8Array`
-
-**Returns:** `Uint8Array`
+**Returns:** *boolean*
 
 ___
 
-# Methods
+###  isSigned
 
-<a id="eq"></a>
+● **get isSigned**(): *boolean*
 
-##  eq
+*Defined in [type/SignaturePayload.ts:59](url)*
 
-▸ **eq**(other?: *`any`*): `boolean`
+**`description`** `true` if the payload refers to a valid signature
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[eq](../interfaces/_types_.codec.md#eq)*
+**Returns:** *boolean*
+
+___
+
+###  method
+
+● **get method**(): *[Method](_primitive_method_.method.md)*
+
+*Defined in [type/SignaturePayload.ts:73](url)*
+
+**`description`** The [Method](_primitive_method_.method.md) contained in the payload
+
+**Returns:** *[Method](_primitive_method_.method.md)*
+
+___
+
+###  nonce
+
+● **get nonce**(): *[Nonce](_type_nonce_.nonce.md)*
+
+*Defined in [type/SignaturePayload.ts:87](url)*
+
+**`description`** The [Nonce](_type_nonce_.nonce.md)
+
+**Returns:** *[Nonce](_type_nonce_.nonce.md)*
+
+___
+
+###  signature
+
+● **get signature**(): *`Uint8Array`*
+
+*Defined in [type/SignaturePayload.ts:94](url)*
+
+**`description`** The raw signature as a `Uint8Array`
+
+**Returns:** *`Uint8Array`*
+
+___
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/Struct.ts:185](url)*
 
-*__description__*: Compares the value of the input to see if there is a match
+**`description`** Compares the value of the input to see if there is a match
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` other | `any` |
+Name | Type |
+------ | ------ |
+`other?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="get"></a>
 
-##  get
+###  get
 
-▸ **get**(name: *`keyof S`*): [Codec](../interfaces/_types_.codec.md) \| `undefined`
+▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
 
-*Overrides Map.get*
+*Overrides void*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/Struct.ts:193](url)*
 
-*__description__*: Returns a specific names entry in the structure
+**`description`** Returns a specific names entry in the structure
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| name | `keyof S` |  The name of the entry to retrieve |
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** [Codec](../interfaces/_types_.codec.md) \| `undefined`
+**Returns:** *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 ___
-<a id="getatindex"></a>
 
-##  getAtIndex
+###  getAtIndex
 
-▸ **getAtIndex**(index: *`number`*): [Codec](../interfaces/_types_.codec.md)
+▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [codec/Struct.ts:200](url)*
 
-*__description__*: Returns the values of a member at a specific index (Rather use get(name) for performance)
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| index | `number` |
-
-**Returns:** [Codec](../interfaces/_types_.codec.md)
-
-___
-<a id="sign"></a>
-
-##  sign
-
-▸ **sign**(signerPair: *[IKeyringPair](../modules/_types_.md#ikeyringpair)*, version?: *[RuntimeVersion](_rpc_runtimeversion_.runtimeversion.md)*): `Uint8Array`
-
-*Defined in [type/SignaturePayload.ts:105](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/type/SignaturePayload.ts#L105)*
-
-*__description__*: Sign the payload with the keypair
+**`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| signerPair | [IKeyringPair](../modules/_types_.md#ikeyringpair) |
-| `Optional` version | [RuntimeVersion](_rpc_runtimeversion_.runtimeversion.md) |
+Name | Type |
+------ | ------ |
+`index` | number |
 
-**Returns:** `Uint8Array`
+**Returns:** *[Codec](../interfaces/_types_.codec.md)*
 
 ___
-<a id="toarray"></a>
 
-##  toArray
+###  sign
 
-▸ **toArray**(): `Array`<[Codec](../interfaces/_types_.codec.md)>
+▸ **sign**(`signerPair`: [IKeyringPair](../modules/_types_.md#ikeyringpair), `version?`: [RuntimeVersion](_rpc_runtimeversion_.runtimeversion.md)): *`Uint8Array`*
+
+*Defined in [type/SignaturePayload.ts:105](url)*
+
+**`description`** Sign the payload with the keypair
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`signerPair` | [IKeyringPair](../modules/_types_.md#ikeyringpair) |
+`version?` | [RuntimeVersion](_rpc_runtimeversion_.runtimeversion.md) |
+
+**Returns:** *`Uint8Array`*
+
+___
+
+###  toArray
+
+▸ **toArray**(): *`Array<Codec>`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/Struct.ts:207](url)*
 
-*__description__*: Converts the Object to an standard JavaScript Array
+**`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** `Array`<[Codec](../interfaces/_types_.codec.md)>
+**Returns:** *`Array<Codec>`*
 
 ___
-<a id="tohex"></a>
 
-##  toHex
+###  toHex
 
-▸ **toHex**(): `string`
+▸ **toHex**(): *string*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:214](url)*
 
-*__description__*: Returns a hex string representation of the value
+**`description`** Returns a hex string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tojson"></a>
 
-##  toJSON
+###  toJSON
 
-▸ **toJSON**(): `any`
+▸ **toJSON**(): *any*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toJSON](../interfaces/_types_.codec.md#tojson)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/Struct.ts:221](url)*
 
-*__description__*: Converts the Object to JSON, typically used for RPC transfers
+**`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="torawtype"></a>
 
-##  toRawType
+###  toRawType
 
-▸ **toRawType**(): `string`
+▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toRawType](../interfaces/_types_.codec.md#torawtype)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L235)*
+*Defined in [codec/Struct.ts:235](url)*
 
-*__description__*: Returns the base runtime type name for this instance
+**`description`** Returns the base runtime type name for this instance
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tostring"></a>
 
-##  toString
+###  toString
 
-▸ **toString**(): `string`
+▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toString](../interfaces/_types_.codec.md#tostring)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L248)*
+*Defined in [codec/Struct.ts:248](url)*
 
-*__description__*: Returns the string representation of the value
+**`description`** Returns the string representation of the value
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-<a id="tou8a"></a>
 
-##  toU8a
+###  toU8a
 
-▸ **toU8a**(isBare?: *`undefined` \| `false` \| `true`*): `Uint8Array`
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[toU8a](../interfaces/_types_.codec.md#tou8a)*
+*Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:256](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L256)*
+*Defined in [codec/Struct.ts:256](url)*
 
-*__description__*: Encodes the value as a Uint8Array as per the SCALE specifications
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
 **Parameters:**
 
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| `Optional` isBare | `undefined` \| `false` \| `true` |  true when the value has none of the type-specific prefixes (internal) |
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-<a id="with"></a>
 
-## `<Static>` with
+### `Static` with
 
-▸ **with**<`S`>(Types: *`S`*): [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
-*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#with)*
+*Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#static-with)*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Struct.ts:123](url)*
 
 **Type parameters:**
 
-#### S :  [ConstructorDef](../modules/_types_.md#constructordef)
+■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| Types | `S` |
+Name | Type |
+------ | ------ |
+`Types` | `S` |
 
-**Returns:** [Constructor](../interfaces/_types_.constructor.md)<[Struct](_codec_struct_.struct.md)<`S`>>
+**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
 ___
-

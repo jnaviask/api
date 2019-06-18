@@ -1,45 +1,48 @@
+> # Interface: RpcInterface
 
+## Hierarchy
 
-# Hierarchy
+* **RpcInterface**
 
-**RpcInterface**
+### Index
 
-# Properties
+#### Properties
 
-<a id="author"></a>
+* [author](_types_.rpcinterface.md#author)
+* [chain](_types_.rpcinterface.md#chain)
+* [state](_types_.rpcinterface.md#state)
+* [system](_types_.rpcinterface.md#system)
 
-##  author
+## Properties
 
-**● author**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface_section)*
+###  author
 
-*Defined in [types.ts:17](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-core/src/types.ts#L17)*
+● **author**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface$section)*
 
-___
-<a id="chain"></a>
-
-##  chain
-
-**● chain**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface_section)*
-
-*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-core/src/types.ts#L18)*
-
-___
-<a id="state"></a>
-
-##  state
-
-**● state**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface_section)*
-
-*Defined in [types.ts:19](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-core/src/types.ts#L19)*
-
-___
-<a id="system"></a>
-
-##  system
-
-**● system**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface_section)*
-
-*Defined in [types.ts:20](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-core/src/types.ts#L20)*
+*Defined in [types.ts:17](url)*
 
 ___
 
+###  chain
+
+● **chain**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface$section)*
+
+*Defined in [types.ts:18](url)*
+
+___
+
+###  state
+
+● **state**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface$section)*
+
+*Defined in [types.ts:19](url)*
+
+___
+
+###  system
+
+● **system**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface$section)*
+
+*Defined in [types.ts:20](url)*
+
+___

@@ -1,54 +1,57 @@
+> # Interface: DerivedFees
 
+## Hierarchy
 
-# Hierarchy
+* **DerivedFees**
 
-**DerivedFees**
+### Index
 
-# Properties
+#### Properties
 
-<a id="creationfee"></a>
+* [creationFee](_types_.derivedfees.md#creationfee)
+* [existentialDeposit](_types_.derivedfees.md#existentialdeposit)
+* [transactionBaseFee](_types_.derivedfees.md#transactionbasefee)
+* [transactionByteFee](_types_.derivedfees.md#transactionbytefee)
+* [transferFee](_types_.derivedfees.md#transferfee)
 
-##  creationFee
+## Properties
 
-**● creationFee**: *`BN`*
+###  creationFee
 
-*Defined in [types.ts:37](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L37)*
+● **creationFee**: *`BN`*
 
-___
-<a id="existentialdeposit"></a>
-
-##  existentialDeposit
-
-**● existentialDeposit**: *`BN`*
-
-*Defined in [types.ts:38](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L38)*
-
-___
-<a id="transactionbasefee"></a>
-
-##  transactionBaseFee
-
-**● transactionBaseFee**: *`BN`*
-
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L39)*
-
-___
-<a id="transactionbytefee"></a>
-
-##  transactionByteFee
-
-**● transactionByteFee**: *`BN`*
-
-*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L40)*
-
-___
-<a id="transferfee"></a>
-
-##  transferFee
-
-**● transferFee**: *`BN`*
-
-*Defined in [types.ts:41](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/types.ts#L41)*
+*Defined in [types.ts:37](url)*
 
 ___
 
+###  existentialDeposit
+
+● **existentialDeposit**: *`BN`*
+
+*Defined in [types.ts:38](url)*
+
+___
+
+###  transactionBaseFee
+
+● **transactionBaseFee**: *`BN`*
+
+*Defined in [types.ts:39](url)*
+
+___
+
+###  transactionByteFee
+
+● **transactionByteFee**: *`BN`*
+
+*Defined in [types.ts:40](url)*
+
+___
+
+###  transferFee
+
+● **transferFee**: *`BN`*
+
+*Defined in [types.ts:41](url)*
+
+___

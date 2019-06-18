@@ -1,47 +1,54 @@
+> # External module: "chain/subscribeNewHead"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="headerandvalidators"></a>
+* [HeaderAndValidators](_chain_subscribenewhead_.md#headerandvalidators)
 
-##  HeaderAndValidators
+#### Functions
 
-**Ƭ HeaderAndValidators**: *[`Header`, `Array`<`AccountId`>]*
+* [subscribeNewHead](_chain_subscribenewhead_.md#subscribenewhead)
 
-*Defined in [chain/subscribeNewHead.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/chain/subscribeNewHead.ts#L13)*
+## Type aliases
+
+###  HeaderAndValidators
+
+Ƭ **HeaderAndValidators**: *[`Header`, `Array<AccountId>`]*
+
+*Defined in [chain/subscribeNewHead.ts:13](url)*
 
 ___
 
-# Functions
+## Functions
 
-<a id="subscribenewhead"></a>
+###  subscribeNewHead
 
-##  subscribeNewHead
+▸ **subscribeNewHead**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-▸ **subscribeNewHead**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+*Defined in [chain/subscribeNewHead.ts:28](url)*
 
-*Defined in [chain/subscribeNewHead.ts:28](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/chain/subscribeNewHead.ts#L28)*
+**`name`** subscribeNewHead
 
-*__name__*: subscribeNewHead
+**`description`** An observable of the current block header and it's author
 
-*__description__*: An observable of the current block header and it's author
-
-*__example__*:   
+**`example`** 
+<BR>
 
 ```javascript
 api.derive.chain.subscribeNewHead(({ author, blockNumber }) => {
-  console.log(`block #${blockNumber} was authored by ${author}`);
+console.log(`block #${blockNumber} was authored by ${author}`);
 });
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
+
 An array containing the block header and the block author
 
 ___
-

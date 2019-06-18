@@ -1,58 +1,60 @@
+> # External module: "types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="rpcrxinterface"></a>
+* [RpcRxInterface](_types_.md#rpcrxinterface)
+* [RpcRxInterface$Events](_types_.md#rpcrxinterface$events)
+* [RpcRxInterface$Method](_types_.md#rpcrxinterface$method)
+* [RpcRxInterface$Section](_types_.md#rpcrxinterface$section)
 
-##  RpcRxInterface
+## Type aliases
 
-**Ƭ RpcRxInterface**: *`object`*
+###  RpcRxInterface
 
-*Defined in [types.ts:16](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-rx/src/types.ts#L16)*
+Ƭ **RpcRxInterface**: *object*
 
-#### Type declaration
+*Defined in [types.ts:16](url)*
 
-___
-<a id="rpcrxinterface_events"></a>
-
-##  RpcRxInterface$Events
-
-**Ƭ RpcRxInterface$Events**: *`ProviderInterface$Emitted`*
-
-*Defined in [types.ts:14](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-rx/src/types.ts#L14)*
+#### Type declaration:
 
 ___
-<a id="rpcrxinterface_method"></a>
 
-##  RpcRxInterface$Method
+###  RpcRxInterface$Events
 
-**Ƭ RpcRxInterface$Method**: *`function`*
+Ƭ **RpcRxInterface$Events**: *`ProviderInterface$Emitted`*
 
-*Defined in [types.ts:8](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-rx/src/types.ts#L8)*
+*Defined in [types.ts:14](url)*
 
-#### Type declaration
-▸(...params: *`Array`<`any`>*): `Observable`<`any`>
+___
+
+###  RpcRxInterface$Method
+
+Ƭ **RpcRxInterface$Method**: *function*
+
+*Defined in [types.ts:8](url)*
+
+#### Type declaration:
+
+▸ (...`params`: `Array<any>`): *`Observable<any>`*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` params | `Array`<`any`> |
-
-**Returns:** `Observable`<`any`>
-
-___
-<a id="rpcrxinterface_section"></a>
-
-##  RpcRxInterface$Section
-
-**Ƭ RpcRxInterface$Section**: *`object`*
-
-*Defined in [types.ts:10](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-rx/src/types.ts#L10)*
-
-#### Type declaration
-
-[index: `string`]: [RpcRxInterface$Method](_types_.md#rpcrxinterface_method)
+Name | Type |
+------ | ------ |
+`...params` | `Array<any>` |
 
 ___
 
+###  RpcRxInterface$Section
+
+Ƭ **RpcRxInterface$Section**: *object*
+
+*Defined in [types.ts:10](url)*
+
+#### Type declaration:
+
+● \[■&#x60; index&#x60;: *string*\]: [RpcRxInterface$Method](_types_.md#rpcrxinterface$method)
+
+___

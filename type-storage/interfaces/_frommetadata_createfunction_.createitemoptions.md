@@ -1,27 +1,30 @@
+> # Interface: CreateItemOptions
 
+## Hierarchy
 
-# Hierarchy
+* **CreateItemOptions**
 
-**CreateItemOptions**
+### Index
 
-# Properties
+#### Properties
 
-<a id="key"></a>
+* [key](_frommetadata_createfunction_.createitemoptions.md#optional-key)
+* [skipHashing](_frommetadata_createfunction_.createitemoptions.md#optional-skiphashing)
 
-## `<Optional>` key
+## Properties
 
-**● key**: *`undefined` \| `string`*
+### `Optional` key
 
-*Defined in [fromMetadata/createFunction.ts:13](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/type-storage/src/fromMetadata/createFunction.ts#L13)*
+● **key**? : *undefined | string*
 
-___
-<a id="skiphashing"></a>
-
-## `<Optional>` skipHashing
-
-**● skipHashing**: *`undefined` \| `false` \| `true`*
-
-*Defined in [fromMetadata/createFunction.ts:14](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/type-storage/src/fromMetadata/createFunction.ts#L14)*
+*Defined in [fromMetadata/createFunction.ts:13](url)*
 
 ___
 
+### `Optional` skipHashing
+
+● **skipHashing**? : *undefined | false | true*
+
+*Defined in [fromMetadata/createFunction.ts:14](url)*
+
+___

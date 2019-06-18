@@ -1,51 +1,54 @@
+> # Interface: RpcInterface$Method
 
+## Hierarchy
 
-# Hierarchy
+* **RpcInterface$Method**
 
-**RpcInterface$Method**
+## Callable
 
-# Callable
-▸ **__call**(...params: *`Array`<`any`>*): `Promise`<`any`>
+▸ (...`params`: `Array<any>`): *`Promise<any>`*
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-core/src/types.ts#L5)*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| `Rest` params | `Array`<`any`> |
-
-**Returns:** `Promise`<`any`>
-
-# Properties
-
-<a id="subscription"></a>
-
-##  subscription
-
-**● subscription**: *`string`*
-
-*Defined in [types.ts:8](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-core/src/types.ts#L8)*
-
-___
-<a id="unsubscribe"></a>
-
-##  unsubscribe
-
-**● unsubscribe**: *`function`*
-
-*Defined in [types.ts:9](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/rpc-core/src/types.ts#L9)*
-
-#### Type declaration
-▸(id: *`number`*): `Promise`<`any`>
+*Defined in [types.ts:5](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| id | `number` |
+Name | Type |
+------ | ------ |
+`...params` | `Array<any>` |
 
-**Returns:** `Promise`<`any`>
+**Returns:** *`Promise<any>`*
+
+### Index
+
+#### Properties
+
+* [subscription](_types_.rpcinterface_method.md#subscription)
+* [unsubscribe](_types_.rpcinterface_method.md#unsubscribe)
+
+## Properties
+
+###  subscription
+
+● **subscription**: *string*
+
+*Defined in [types.ts:8](url)*
 
 ___
 
+###  unsubscribe
+
+● **unsubscribe**: *function*
+
+*Defined in [types.ts:9](url)*
+
+#### Type declaration:
+
+▸ (`id`: number): *`Promise<any>`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`id` | number |
+
+___

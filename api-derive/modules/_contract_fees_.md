@@ -1,24 +1,27 @@
+> # External module: "contract/fees"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="fees"></a>
+* [fees](_contract_fees_.md#fees)
 
-##  fees
+## Functions
 
-▸ **fees**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  fees
 
-*Defined in [contract/fees.ts:17](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/contract/fees.ts#L17)*
+▸ **fees**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+
+*Defined in [contract/fees.ts:17](url)*
 
 Retrieves all the contract fees
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
 
 ___
-

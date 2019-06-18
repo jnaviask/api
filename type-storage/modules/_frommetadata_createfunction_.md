@@ -1,39 +1,35 @@
+> # External module: "fromMetadata/createFunction"
 
+### Index
 
-# Index
-
-### Interfaces
+#### Interfaces
 
 * [CreateItemOptions](../interfaces/_frommetadata_createfunction_.createitemoptions.md)
 
-### Functions
+#### Functions
 
 * [createFunction](_frommetadata_createfunction_.md#createfunction)
 
----
+## Functions
 
-# Functions
+###  createFunction
 
-<a id="createfunction"></a>
+▸ **createFunction**(`section`: `Text` | string, `method`: `Text` | string, `meta`: `StorageFunctionMetadata`, `options`: [CreateItemOptions](../interfaces/_frommetadata_createfunction_.createitemoptions.md)): *`StorageFunction`*
 
-##  createFunction
+*Defined in [fromMetadata/createFunction.ts:27](url)*
 
-▸ **createFunction**(section: *`Text` \| `string`*, method: *`Text` \| `string`*, meta: *`StorageFunctionMetadata`*, options?: *[CreateItemOptions](../interfaces/_frommetadata_createfunction_.createitemoptions.md)*): `StorageFunction`
-
-*Defined in [fromMetadata/createFunction.ts:27](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/type-storage/src/fromMetadata/createFunction.ts#L27)*
-
-From the schema of a function in the module's storage, generate the function that will return the correct storage key.
+From the schema of a function in the module's storage, generate the function
+that will return the correct storage key.
 
 **Parameters:**
 
-| Name | Type | Default value | Description |
-| ------ | ------ | ------ | ------ |
-| section | `Text` \| `string` | - |
-| method | `Text` \| `string` | - |
-| meta | `StorageFunctionMetadata` | - |
-| `Default value` options | [CreateItemOptions](../interfaces/_frommetadata_createfunction_.createitemoptions.md) |  {} |  Additional options when creating the function. These options are not known at runtime (from state\_getMetadata), they need to be supplied by us manually at compile time. |
+Name | Type | Default | Description |
+------ | ------ | ------ | ------ |
+`section` | `Text` \| string | - | - |
+`method` | `Text` \| string | - | - |
+`meta` | `StorageFunctionMetadata` | - | - |
+`options` | [CreateItemOptions](../interfaces/_frommetadata_createfunction_.createitemoptions.md) |  {} | Additional options when creating the function. These options are not known at runtime (from state_getMetadata), they need to be supplied by us manually at compile time.  |
 
-**Returns:** `StorageFunction`
+**Returns:** *`StorageFunction`*
 
 ___
-

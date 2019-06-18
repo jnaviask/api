@@ -1,22 +1,25 @@
+> # External module: "democracy/referendumVotesFor"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="referendumvotesfor"></a>
+* [referendumVotesFor](_democracy_referendumvotesfor_.md#referendumvotesfor)
 
-##  referendumVotesFor
+## Functions
 
-▸ **referendumVotesFor**(api: *`ApiInterface$Rx`*): `(Anonymous function)`
+###  referendumVotesFor
 
-*Defined in [democracy/referendumVotesFor.ts:16](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/api-derive/src/democracy/referendumVotesFor.ts#L16)*
+▸ **referendumVotesFor**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+
+*Defined in [democracy/referendumVotesFor.ts:16](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| api | `ApiInterface$Rx` |
+Name | Type |
+------ | ------ |
+`api` | `ApiInterface$Rx` |
 
-**Returns:** `(Anonymous function)`
+**Returns:** *`(Anonymous function)`*
 
 ___
-

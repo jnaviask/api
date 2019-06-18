@@ -1,31 +1,34 @@
+> # Interface: IExtrinsicEra
 
+## Hierarchy
 
-# Hierarchy
+* **IExtrinsicEra**
 
-**IExtrinsicEra**
-
-# Implemented by
+## Implemented by
 
 * [ExtrinsicEra](../classes/_type_extrinsicera_.extrinsicera.md)
 
-# Properties
+### Index
 
-<a id="asimmortalera"></a>
+#### Properties
 
-##  asImmortalEra
+* [asImmortalEra](_types_.iextrinsicera.md#asimmortalera)
+* [asMortalEra](_types_.iextrinsicera.md#asmortalera)
 
-**● asImmortalEra**: *[Codec](_types_.codec.md)*
+## Properties
 
-*Defined in [types.ts:139](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L139)*
+###  asImmortalEra
 
-___
-<a id="asmortalera"></a>
+● **asImmortalEra**: *[Codec](_types_.codec.md)*
 
-##  asMortalEra
-
-**● asMortalEra**: *[Codec](_types_.codec.md)*
-
-*Defined in [types.ts:140](https://github.com/polkadot-js/api/blob/6f3c8f7/packages/types/src/types.ts#L140)*
+*Defined in [types.ts:139](url)*
 
 ___
 
+###  asMortalEra
+
+● **asMortalEra**: *[Codec](_types_.codec.md)*
+
+*Defined in [types.ts:140](url)*
+
+___
