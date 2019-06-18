@@ -7,6 +7,7 @@
 * [authorityCount](_frommetadata_substrate_.md#const-authoritycount)
 * [authorityPrefix](_frommetadata_substrate_.md#const-authorityprefix)
 * [changesTrieConfig](_frommetadata_substrate_.md#const-changestrieconfig)
+* [childStorageKeyPrefix](_frommetadata_substrate_.md#const-childstoragekeyprefix)
 * [code](_frommetadata_substrate_.md#const-code)
 * [extrinsicIndex](_frommetadata_substrate_.md#const-extrinsicindex)
 * [heapPages](_frommetadata_substrate_.md#const-heappages)
@@ -43,6 +44,17 @@ type: 'u32'
 })
 
 *Defined in [fromMetadata/substrate.ts:60](url)*
+
+___
+
+### `Const` childStorageKeyPrefix
+
+● **childStorageKeyPrefix**: *`StorageFunction`* =  createRuntimeFunction('childStorageKeyPrefix', ':child_storage:', {
+documentation: 'Prefix of child storage keys.',
+type: 'u32'
+})
+
+*Defined in [fromMetadata/substrate.ts:65](url)*
 
 ___
 
