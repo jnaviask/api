@@ -77,7 +77,7 @@ A [[ReferendumInfo]] with an additional `index` field
 
 *Overrides void*
 
-*Defined in [type/ReferendumInfoExtended.ts:14](url)*
+*Defined in [type/ReferendumInfoExtended.ts:15](url)*
 
 **Parameters:**
 
@@ -174,7 +174,7 @@ ___
 
 ● **get index**(): *`ReferendumIndex`*
 
-*Defined in [type/ReferendumInfoExtended.ts:27](url)*
+*Defined in [type/ReferendumInfoExtended.ts:28](url)*
 
 **`description`** Convenience getter, returns the referendumIndex
 
@@ -455,15 +455,15 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *`AnyJsonObject`*
 
 *Overrides void*
 
-*Defined in [type/ReferendumInfoExtended.ts:34](url)*
+*Defined in [type/ReferendumInfoExtended.ts:35](url)*
 
 **`description`** Creates the JSON representation
 
-**Returns:** *any*
+**Returns:** *`AnyJsonObject`*
 
 ___
 
@@ -473,7 +473,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:235](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:237](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -487,7 +487,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:248](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:250](url)*
 
 **`description`** Returns the string representation of the value
 
@@ -501,7 +501,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:256](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:258](url)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

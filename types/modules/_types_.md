@@ -4,6 +4,7 @@
 
 #### Interfaces
 
+* [AnyJsonArray](../interfaces/_types_.anyjsonarray.md)
 * [ArgsDef](../interfaces/_types_.argsdef.md)
 * [Codec](../interfaces/_types_.codec.md)
 * [Constructor](../interfaces/_types_.constructor.md)
@@ -17,6 +18,8 @@
 #### Type aliases
 
 * [AnyFunction](_types_.md#anyfunction)
+* [AnyJson](_types_.md#anyjson)
+* [AnyJsonObject](_types_.md#anyjsonobject)
 * [AnyNumber](_types_.md#anynumber)
 * [AnyString](_types_.md#anystring)
 * [AnyU8a](_types_.md#anyu8a)
@@ -35,7 +38,7 @@
 
 Ƭ **AnyFunction**: *function*
 
-*Defined in [types.ts:28](url)*
+*Defined in [types.ts:27](url)*
 
 #### Type declaration:
 
@@ -49,11 +52,31 @@ Name | Type |
 
 ___
 
+###  AnyJson
+
+Ƭ **AnyJson**: *string | number | boolean | null | undefined | [AnyJsonObject](_types_.md#anyjsonobject) | [AnyJsonArray](../interfaces/_types_.anyjsonarray.md)*
+
+*Defined in [types.ts:37](url)*
+
+___
+
+###  AnyJsonObject
+
+Ƭ **AnyJsonObject**: *object*
+
+*Defined in [types.ts:35](url)*
+
+#### Type declaration:
+
+● \[■&#x60; key&#x60;: *string*\]: [AnyJson](_types_.md#anyjson)
+
+___
+
 ###  AnyNumber
 
 Ƭ **AnyNumber**: *`BN` | `Uint8Array` | number | string*
 
-*Defined in [types.ts:30](url)*
+*Defined in [types.ts:29](url)*
 
 ___
 
@@ -61,7 +84,7 @@ ___
 
 Ƭ **AnyString**: *string | `String`*
 
-*Defined in [types.ts:32](url)*
+*Defined in [types.ts:31](url)*
 
 ___
 
@@ -69,7 +92,7 @@ ___
 
 Ƭ **AnyU8a**: *`Uint8Array` | `Array<number>` | string*
 
-*Defined in [types.ts:34](url)*
+*Defined in [types.ts:33](url)*
 
 ___
 
@@ -77,7 +100,7 @@ ___
 
 Ƭ **Callback**: *function*
 
-*Defined in [types.ts:20](url)*
+*Defined in [types.ts:21](url)*
 
 #### Type declaration:
 
@@ -95,7 +118,7 @@ ___
 
 Ƭ **CodecArg**: *[Codec](../interfaces/_types_.codec.md) | `BN` | `Boolean` | `String` | `Uint8Array` | boolean | number | string | undefined | `CodecArgArray` | `CodecArgObject`*
 
-*Defined in [types.ts:18](url)*
+*Defined in [types.ts:19](url)*
 
 ___
 
@@ -103,7 +126,7 @@ ___
 
 Ƭ **CodecTo**: *"toHex" | "toJSON" | "toString" | "toU8a"*
 
-*Defined in [types.ts:86](url)*
+*Defined in [types.ts:89](url)*
 
 ___
 
@@ -111,7 +134,7 @@ ___
 
 Ƭ **ConstructorDef**: *object*
 
-*Defined in [types.ts:94](url)*
+*Defined in [types.ts:97](url)*
 
 #### Type declaration:
 
@@ -133,7 +156,7 @@ ___
 
 Ƭ **RegistryTypes**: *object*
 
-*Defined in [types.ts:98](url)*
+*Defined in [types.ts:101](url)*
 
 #### Type declaration:
 
@@ -145,7 +168,7 @@ ___
 
 Ƭ **SignatureOptions**: *object*
 
-*Defined in [types.ts:111](url)*
+*Defined in [types.ts:114](url)*
 
 #### Type declaration:
 
@@ -155,7 +178,7 @@ ___
 
 Ƭ **TypeDef**: *object*
 
-*Defined in [types.ts:96](url)*
+*Defined in [types.ts:99](url)*
 
 #### Type declaration:
 

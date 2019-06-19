@@ -384,7 +384,7 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *string*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -394,7 +394,7 @@ ___
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers. For logs, we overrides to produce the hex version (sligning with substrate gives in actual JSON responses)
 
-**Returns:** *any*
+**Returns:** *string*
 
 ___
 

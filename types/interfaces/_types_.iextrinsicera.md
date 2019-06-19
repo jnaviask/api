@@ -21,7 +21,7 @@
 
 ● **asImmortalEra**: *[Codec](_types_.codec.md)*
 
-*Defined in [types.ts:139](url)*
+*Defined in [types.ts:142](url)*
 
 ___
 
@@ -29,6 +29,6 @@ ___
 
 ● **asMortalEra**: *[Codec](_types_.codec.md)*
 
-*Defined in [types.ts:140](url)*
+*Defined in [types.ts:143](url)*
 
 ___

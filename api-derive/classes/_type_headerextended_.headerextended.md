@@ -80,7 +80,7 @@ A [[Block]] header with an additional `author` field that indicates the block au
 
 *Overrides void*
 
-*Defined in [type/HeaderExtended.ts:13](url)*
+*Defined in [type/HeaderExtended.ts:14](url)*
 
 **Parameters:**
 
@@ -135,7 +135,7 @@ ___
 
 ● **get author**(): *`AccountId` | undefined*
 
-*Defined in [type/HeaderExtended.ts:61](url)*
+*Defined in [type/HeaderExtended.ts:62](url)*
 
 **`description`** Convenience method, returns the author for the block
 
@@ -500,15 +500,15 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *`AnyJsonObject`*
 
 *Overrides void*
 
-*Defined in [type/HeaderExtended.ts:68](url)*
+*Defined in [type/HeaderExtended.ts:69](url)*
 
 **`description`** Creates the JSON representation
 
-**Returns:** *any*
+**Returns:** *`AnyJsonObject`*
 
 ___
 
@@ -518,7 +518,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:235](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:237](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -532,7 +532,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:248](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:250](url)*
 
 **`description`** Returns the string representation of the value
 
@@ -546,7 +546,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:256](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:258](url)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

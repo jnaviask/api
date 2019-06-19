@@ -262,7 +262,7 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *string*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -270,7 +270,7 @@ ___
 
 *Defined in [primitive/StorageHasher.ts:53](url)*
 
-**Returns:** *any*
+**Returns:** *string*
 
 ___
 

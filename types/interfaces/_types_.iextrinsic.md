@@ -46,7 +46,7 @@
 
 *Inherited from [IMethod](_types_.imethod.md).[args](_types_.imethod.md#args)*
 
-*Defined in [types.ts:125](url)*
+*Defined in [types.ts:128](url)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 *Inherited from [IMethod](_types_.imethod.md).[argsDef](_types_.imethod.md#argsdef)*
 
-*Defined in [types.ts:126](url)*
+*Defined in [types.ts:129](url)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from [IMethod](_types_.imethod.md).[callIndex](_types_.imethod.md#callindex)*
 
-*Defined in [types.ts:127](url)*
+*Defined in [types.ts:130](url)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 *Inherited from [IMethod](_types_.imethod.md).[data](_types_.imethod.md#data)*
 
-*Defined in [types.ts:128](url)*
+*Defined in [types.ts:131](url)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[encodedLength](_types_.codec.md#encodedlength)*
 
-*Defined in [types.ts:47](url)*
+*Defined in [types.ts:50](url)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -98,7 +98,7 @@ ___
 
 *Inherited from [IMethod](_types_.imethod.md).[hasOrigin](_types_.imethod.md#hasorigin)*
 
-*Defined in [types.ts:129](url)*
+*Defined in [types.ts:132](url)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 ● **hash**: *[IHash](_types_.ihash.md)*
 
-*Defined in [types.ts:144](url)*
+*Defined in [types.ts:147](url)*
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[isEmpty](_types_.codec.md#isempty)*
 
-*Defined in [types.ts:52](url)*
+*Defined in [types.ts:55](url)*
 
 **`description`** Checks if the value is an empty value
 
@@ -126,7 +126,7 @@ ___
 
 ● **isSigned**: *boolean*
 
-*Defined in [types.ts:145](url)*
+*Defined in [types.ts:148](url)*
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 *Inherited from [IMethod](_types_.imethod.md).[meta](_types_.imethod.md#meta)*
 
-*Defined in [types.ts:130](url)*
+*Defined in [types.ts:133](url)*
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 ● **method**: *[Method](../classes/_primitive_method_.method.md)*
 
-*Defined in [types.ts:146](url)*
+*Defined in [types.ts:149](url)*
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 ● **signature**: *[IExtrinsicSignature](_types_.iextrinsicsignature.md)*
 
-*Defined in [types.ts:147](url)*
+*Defined in [types.ts:150](url)*
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **addSignature**(`signer`: [Address](../classes/_primitive_address_.address.md) | `Uint8Array` | string, `signature`: `Uint8Array` | string, `nonce`: [AnyNumber](../modules/_types_.md#anynumber), `era?`: [Uint8Array](../classes/_codec_u8a_.u8a.md#static-uint8array)): *[IExtrinsic](_types_.iextrinsic.md)*
 
-*Defined in [types.ts:148](url)*
+*Defined in [types.ts:151](url)*
 
 **Parameters:**
 
@@ -183,7 +183,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[eq](_types_.codec.md#eq)*
 
-*Defined in [types.ts:57](url)*
+*Defined in [types.ts:60](url)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -201,7 +201,7 @@ ___
 
 ▸ **sign**(`account`: [IKeyringPair](../modules/_types_.md#ikeyringpair), `options`: [SignatureOptions](../modules/_types_.md#signatureoptions)): *[IExtrinsic](_types_.iextrinsic.md)*
 
-*Defined in [types.ts:149](url)*
+*Defined in [types.ts:152](url)*
 
 **Parameters:**
 
@@ -220,7 +220,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toHex](_types_.codec.md#tohex)*
 
-*Defined in [types.ts:62](url)*
+*Defined in [types.ts:65](url)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
@@ -236,15 +236,15 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
 *Inherited from [Codec](_types_.codec.md).[toJSON](_types_.codec.md#tojson)*
 
-*Defined in [types.ts:67](url)*
+*Defined in [types.ts:70](url)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *[AnyJson](../modules/_types_.md#anyjson)*
 
 ___
 
@@ -254,7 +254,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toRawType](_types_.codec.md#torawtype)*
 
-*Defined in [types.ts:72](url)*
+*Defined in [types.ts:75](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -268,7 +268,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toString](_types_.codec.md#tostring)*
 
-*Defined in [types.ts:77](url)*
+*Defined in [types.ts:80](url)*
 
 **`description`** Returns the string representation of the value
 
@@ -282,7 +282,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toU8a](_types_.codec.md#tou8a)*
 
-*Defined in [types.ts:83](url)*
+*Defined in [types.ts:86](url)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

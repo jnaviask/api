@@ -261,7 +261,7 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *[AnyJsonObject](../modules/_types_.md#anyjsonobject) | string*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -271,7 +271,7 @@ ___
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *[AnyJsonObject](../modules/_types_.md#anyjsonobject) | string*
 
 ___
 
@@ -283,7 +283,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](url)*
+*Defined in [codec/Struct.ts:237](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -299,7 +299,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](url)*
+*Defined in [codec/Struct.ts:250](url)*
 
 **`description`** Returns the string representation of the value
 
@@ -315,7 +315,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:256](url)*
+*Defined in [codec/Struct.ts:258](url)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

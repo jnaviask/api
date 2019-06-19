@@ -408,7 +408,7 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *string*
 
 *Implementation of [IExtrinsic](../interfaces/_types_.iextrinsic.md)*
 
@@ -418,7 +418,7 @@ ___
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *string*
 
 ___
 
@@ -446,7 +446,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](url)*
+*Defined in [codec/Struct.ts:250](url)*
 
 **`description`** Returns the string representation of the value
 

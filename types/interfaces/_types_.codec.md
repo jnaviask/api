@@ -276,7 +276,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
 ● **encodedLength**: *number*
 
-*Defined in [types.ts:47](url)*
+*Defined in [types.ts:50](url)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -286,7 +286,7 @@ ___
 
 ● **isEmpty**: *boolean*
 
-*Defined in [types.ts:52](url)*
+*Defined in [types.ts:55](url)*
 
 **`description`** Checks if the value is an empty value
 
@@ -298,7 +298,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [types.ts:57](url)*
+*Defined in [types.ts:60](url)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -316,7 +316,7 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [types.ts:62](url)*
+*Defined in [types.ts:65](url)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
@@ -332,13 +332,13 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
-*Defined in [types.ts:67](url)*
+*Defined in [types.ts:70](url)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *[AnyJson](../modules/_types_.md#anyjson)*
 
 ___
 
@@ -346,7 +346,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [types.ts:72](url)*
+*Defined in [types.ts:75](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -358,7 +358,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [types.ts:77](url)*
+*Defined in [types.ts:80](url)*
 
 **`description`** Returns the string representation of the value
 
@@ -370,7 +370,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
-*Defined in [types.ts:83](url)*
+*Defined in [types.ts:86](url)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

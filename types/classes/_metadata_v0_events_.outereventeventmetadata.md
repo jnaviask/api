@@ -278,7 +278,7 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *[AnyJsonArray](../interfaces/_types_.anyjsonarray.md)*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -288,7 +288,7 @@ ___
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *[AnyJsonArray](../interfaces/_types_.anyjsonarray.md)*
 
 ___
 

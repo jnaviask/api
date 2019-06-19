@@ -347,7 +347,7 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *[AnyJsonObject](../modules/_types_.md#anyjsonobject) | string*
 
 *Implementation of [IExtrinsicSignature](../interfaces/_types_.iextrinsicsignature.md)*
 
@@ -357,7 +357,7 @@ ___
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *[AnyJsonObject](../modules/_types_.md#anyjsonobject) | string*
 
 ___
 
@@ -369,7 +369,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:235](url)*
+*Defined in [codec/Struct.ts:237](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -385,7 +385,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:248](url)*
+*Defined in [codec/Struct.ts:250](url)*
 
 **`description`** Returns the string representation of the value
 

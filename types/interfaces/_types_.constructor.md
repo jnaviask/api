@@ -24,7 +24,7 @@
 
 \+ **new Constructor**(...`value`: `Array<any>`): *`T`*
 
-*Defined in [types.ts:89](url)*
+*Defined in [types.ts:92](url)*
 
 **Parameters:**
 
@@ -42,6 +42,6 @@ ___
 
 ● **Fallback**? : *[Constructor](_types_.constructor.md)‹*`T`*›*
 
-*Defined in [types.ts:89](url)*
+*Defined in [types.ts:92](url)*
 
 ___

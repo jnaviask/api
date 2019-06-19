@@ -151,7 +151,7 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *[AnyJsonObject](../modules/_types_.md#anyjsonobject)*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -161,7 +161,7 @@ ___
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *[AnyJsonObject](../modules/_types_.md#anyjsonobject)*
 
 ___
 

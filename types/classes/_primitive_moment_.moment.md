@@ -187,7 +187,7 @@ ___
 
 ▸ **toNumber**(): *number*
 
-*Defined in [primitive/Moment.ts:104](url)*
+*Defined in [primitive/Moment.ts:106](url)*
 
 **`description`** Returns the number representation for the timestamp
 
@@ -201,7 +201,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Moment.ts:111](url)*
+*Defined in [primitive/Moment.ts:113](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -217,7 +217,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Moment.ts:118](url)*
+*Defined in [primitive/Moment.ts:120](url)*
 
 **`description`** Returns the string representation of the value
 
@@ -231,7 +231,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Moment.ts:127](url)*
+*Defined in [primitive/Moment.ts:129](url)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

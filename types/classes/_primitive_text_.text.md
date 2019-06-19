@@ -54,7 +54,7 @@ object, inheriting all methods exposed from `String`.
 
 \+ **new Text**(`value`: [Text](_primitive_text_.text.md) | string | [AnyU8a](../modules/_types_.md#anyu8a) | object): *[Text](_primitive_text_.text.md)*
 
-*Defined in [primitive/Text.ts:23](url)*
+*Defined in [primitive/Text.ts:20](url)*
 
 **Parameters:**
 
@@ -84,7 +84,7 @@ ___
 
 ● **get encodedLength**(): *number*
 
-*Defined in [primitive/Text.ts:52](url)*
+*Defined in [primitive/Text.ts:49](url)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -96,7 +96,7 @@ ___
 
 ● **get isEmpty**(): *boolean*
 
-*Defined in [primitive/Text.ts:59](url)*
+*Defined in [primitive/Text.ts:56](url)*
 
 **`description`** Checks if the value is an empty value
 
@@ -110,7 +110,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:66](url)*
+*Defined in [primitive/Text.ts:63](url)*
 
 **`description`** The length of the value
 
@@ -126,7 +126,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:74](url)*
+*Defined in [primitive/Text.ts:71](url)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [primitive/Text.ts:83](url)*
+*Defined in [primitive/Text.ts:80](url)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -154,15 +154,15 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *string*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:92](url)*
+*Defined in [primitive/Text.ts:89](url)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *string*
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:99](url)*
+*Defined in [primitive/Text.ts:96](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -188,7 +188,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:106](url)*
+*Defined in [primitive/Text.ts:103](url)*
 
 **`description`** Returns the string representation of the value
 
@@ -202,7 +202,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:115](url)*
+*Defined in [primitive/Text.ts:112](url)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

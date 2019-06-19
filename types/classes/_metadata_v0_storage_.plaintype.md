@@ -81,7 +81,7 @@ ___
 
 *Inherited from [Text](_primitive_text_.text.md).[isEmpty](_primitive_text_.text.md#isempty)*
 
-*Defined in [primitive/Text.ts:59](url)*
+*Defined in [primitive/Text.ts:56](url)*
 
 **`description`** Checks if the value is an empty value
 
@@ -97,7 +97,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:66](url)*
+*Defined in [primitive/Text.ts:63](url)*
 
 **`description`** The length of the value
 
@@ -115,7 +115,7 @@ ___
 
 *Inherited from [Text](_primitive_text_.text.md).[eq](_primitive_text_.text.md#eq)*
 
-*Defined in [primitive/Text.ts:74](url)*
+*Defined in [primitive/Text.ts:71](url)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -135,7 +135,7 @@ ___
 
 *Inherited from [Text](_primitive_text_.text.md).[toHex](_primitive_text_.text.md#tohex)*
 
-*Defined in [primitive/Text.ts:83](url)*
+*Defined in [primitive/Text.ts:80](url)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -145,17 +145,17 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *string*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Text](_primitive_text_.text.md).[toJSON](_primitive_text_.text.md#tojson)*
 
-*Defined in [primitive/Text.ts:92](url)*
+*Defined in [primitive/Text.ts:89](url)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *string*
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:106](url)*
+*Defined in [primitive/Text.ts:103](url)*
 
 **`description`** Returns the string representation of the value
 

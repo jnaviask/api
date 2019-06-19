@@ -206,7 +206,7 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *string*
 
 *Implementation of [IHash](../interfaces/_types_.ihash.md)*
 
@@ -216,7 +216,7 @@ ___
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *string*
 
 ___
 

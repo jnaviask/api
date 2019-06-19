@@ -41,7 +41,7 @@
 
 ● **args**: *`Array<Codec>`*
 
-*Defined in [types.ts:125](url)*
+*Defined in [types.ts:128](url)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 ● **argsDef**: *[ArgsDef](_types_.argsdef.md)*
 
-*Defined in [types.ts:126](url)*
+*Defined in [types.ts:129](url)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 ● **callIndex**: *`Uint8Array`*
 
-*Defined in [types.ts:127](url)*
+*Defined in [types.ts:130](url)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 ● **data**: *`Uint8Array`*
 
-*Defined in [types.ts:128](url)*
+*Defined in [types.ts:131](url)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[encodedLength](_types_.codec.md#encodedlength)*
 
-*Defined in [types.ts:47](url)*
+*Defined in [types.ts:50](url)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -85,7 +85,7 @@ ___
 
 ● **hasOrigin**: *boolean*
 
-*Defined in [types.ts:129](url)*
+*Defined in [types.ts:132](url)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[isEmpty](_types_.codec.md#isempty)*
 
-*Defined in [types.ts:52](url)*
+*Defined in [types.ts:55](url)*
 
 **`description`** Checks if the value is an empty value
 
@@ -105,7 +105,7 @@ ___
 
 ● **meta**: *[FunctionMetadata](../classes/_metadata_v1_calls_.functionmetadata.md)*
 
-*Defined in [types.ts:130](url)*
+*Defined in [types.ts:133](url)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[eq](_types_.codec.md#eq)*
 
-*Defined in [types.ts:57](url)*
+*Defined in [types.ts:60](url)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -137,7 +137,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toHex](_types_.codec.md#tohex)*
 
-*Defined in [types.ts:62](url)*
+*Defined in [types.ts:65](url)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
@@ -153,15 +153,15 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
 *Inherited from [Codec](_types_.codec.md).[toJSON](_types_.codec.md#tojson)*
 
-*Defined in [types.ts:67](url)*
+*Defined in [types.ts:70](url)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *[AnyJson](../modules/_types_.md#anyjson)*
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toRawType](_types_.codec.md#torawtype)*
 
-*Defined in [types.ts:72](url)*
+*Defined in [types.ts:75](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -185,7 +185,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toString](_types_.codec.md#tostring)*
 
-*Defined in [types.ts:77](url)*
+*Defined in [types.ts:80](url)*
 
 **`description`** Returns the string representation of the value
 
@@ -199,7 +199,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toU8a](_types_.codec.md#tou8a)*
 
-*Defined in [types.ts:83](url)*
+*Defined in [types.ts:86](url)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

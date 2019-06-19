@@ -48,7 +48,7 @@
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:125](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:128](url)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:126](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:129](url)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:127](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:130](url)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:128](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:131](url)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:47](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:50](url)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -100,7 +100,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:129](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:132](url)*
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:144](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:147](url)*
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:52](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:55](url)*
 
 **`description`** Checks if the value is an empty value
 
@@ -132,7 +132,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:145](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:148](url)*
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:130](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:133](url)*
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:146](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:149](url)*
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:147](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:150](url)*
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:148](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:151](url)*
 
 **Parameters:**
 
@@ -195,7 +195,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:57](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:60](url)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -286,7 +286,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:62](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:65](url)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) repersentation
 
@@ -302,15 +302,15 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *any*
+▸ **toJSON**(): *`AnyJson`*
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:67](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:70](url)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *any*
+**Returns:** *`AnyJson`*
 
 ___
 
@@ -320,7 +320,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:72](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:75](url)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -334,7 +334,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:77](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:80](url)*
 
 **`description`** Returns the string representation of the value
 
@@ -348,7 +348,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:83](url)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/types.ts:86](url)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

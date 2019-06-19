@@ -25,7 +25,7 @@
 
 ● **apis**: *`Array<any>`*
 
-*Defined in [types.ts:103](url)*
+*Defined in [types.ts:106](url)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 ● **authoringVersion**: *`BN`*
 
-*Defined in [types.ts:104](url)*
+*Defined in [types.ts:107](url)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 ● **implName**: *`String`*
 
-*Defined in [types.ts:105](url)*
+*Defined in [types.ts:108](url)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 ● **implVersion**: *`BN`*
 
-*Defined in [types.ts:106](url)*
+*Defined in [types.ts:109](url)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 ● **specName**: *`String`*
 
-*Defined in [types.ts:107](url)*
+*Defined in [types.ts:110](url)*
 
 ___
 
@@ -65,6 +65,6 @@ ___
 
 ● **specVersion**: *`BN`*
 
-*Defined in [types.ts:108](url)*
+*Defined in [types.ts:111](url)*
 
 ___
