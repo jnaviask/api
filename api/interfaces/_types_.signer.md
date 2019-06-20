@@ -20,7 +20,7 @@
 
 ● **update**? : *undefined | function*
 
-*Defined in [types.ts:226](url)*
+*Defined in [types.ts:225](url)*
 
 **`description`** Receives an update for the extrinsic signed by a `signer.sign`
 
@@ -32,7 +32,7 @@ ___
 
 ▸ **sign**(`extrinsic`: `IExtrinsic`, `address`: string, `options`: [SignerOptions](../modules/_types_.md#signeroptions)): *`Promise<number>`*
 
-*Defined in [types.ts:221](url)*
+*Defined in [types.ts:220](url)*
 
 **`description`** Signs an extrinsic, returning an id (>0) that can be used to retrieve updates
 

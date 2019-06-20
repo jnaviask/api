@@ -19,7 +19,7 @@
 
 ● **author**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface$section)*
 
-*Defined in [types.ts:17](url)*
+*Defined in [types.ts:16](url)*
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 ● **chain**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface$section)*
 
-*Defined in [types.ts:18](url)*
+*Defined in [types.ts:17](url)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 ● **state**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface$section)*
 
-*Defined in [types.ts:19](url)*
+*Defined in [types.ts:18](url)*
 
 ___
 
@@ -43,6 +43,6 @@ ___
 
 ● **system**: *[RpcInterface$Section](../modules/_types_.md#rpcinterface$section)*
 
-*Defined in [types.ts:20](url)*
+*Defined in [types.ts:19](url)*
 
 ___

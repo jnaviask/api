@@ -10,7 +10,7 @@
 
 ▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<Codec>`*
 
-*Defined in [types.ts:102](url)*
+*Defined in [types.ts:101](url)*
 
 **Parameters:**
 
@@ -23,7 +23,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<T>`*
 
-*Defined in [types.ts:103](url)*
+*Defined in [types.ts:102](url)*
 
 **Type parameters:**
 
@@ -40,7 +40,7 @@ Name | Type |
 
 ▸ <**T**>(`callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:104](url)*
+*Defined in [types.ts:103](url)*
 
 **Type parameters:**
 
@@ -56,7 +56,7 @@ Name | Type |
 
 ▸ <**T**>(`arg`: `CodecArg`, `callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:105](url)*
+*Defined in [types.ts:104](url)*
 
 **Type parameters:**
 
@@ -73,7 +73,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1`: `CodecArg`, `arg2`: `CodecArg`, `callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:106](url)*
+*Defined in [types.ts:105](url)*
 
 **Type parameters:**
 

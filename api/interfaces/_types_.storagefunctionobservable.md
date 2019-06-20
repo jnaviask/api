@@ -8,7 +8,7 @@
 
 ▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<Codec>`*
 
-*Defined in [types.ts:91](url)*
+*Defined in [types.ts:90](url)*
 
 **Parameters:**
 
@@ -21,7 +21,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<T>`*
 
-*Defined in [types.ts:92](url)*
+*Defined in [types.ts:91](url)*
 
 **Type parameters:**
 
@@ -53,7 +53,7 @@ Name | Type |
 
 ● **at**: *function*
 
-*Defined in [types.ts:94](url)*
+*Defined in [types.ts:93](url)*
 
 #### Type declaration:
 
@@ -73,7 +73,7 @@ ___
 
 ● **creator**: *`StorageFunction`*
 
-*Defined in [types.ts:95](url)*
+*Defined in [types.ts:94](url)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 ● **hash**: *function*
 
-*Defined in [types.ts:96](url)*
+*Defined in [types.ts:95](url)*
 
 #### Type declaration:
 
@@ -100,7 +100,7 @@ ___
 
 ● **key**: *function*
 
-*Defined in [types.ts:97](url)*
+*Defined in [types.ts:96](url)*
 
 #### Type declaration:
 
@@ -119,7 +119,7 @@ ___
 
 ● **multi**: *function*
 
-*Defined in [types.ts:98](url)*
+*Defined in [types.ts:97](url)*
 
 #### Type declaration:
 
@@ -137,7 +137,7 @@ ___
 
 ● **size**: *function*
 
-*Defined in [types.ts:99](url)*
+*Defined in [types.ts:98](url)*
 
 #### Type declaration:
 

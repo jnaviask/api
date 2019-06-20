@@ -17,7 +17,7 @@
 
 Ƭ **RpcInterface$Section**: *object*
 
-*Defined in [types.ts:12](url)*
+*Defined in [types.ts:11](url)*
 
 #### Type declaration:
 

@@ -23,7 +23,7 @@
 
 ● **author**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:85](url)*
+*Defined in [types.ts:84](url)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 ● **chain**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:86](url)*
+*Defined in [types.ts:85](url)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 ● **state**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:87](url)*
+*Defined in [types.ts:86](url)*
 
 ___
 
@@ -47,6 +47,6 @@ ___
 
 ● **system**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:88](url)*
+*Defined in [types.ts:87](url)*
 
 ___

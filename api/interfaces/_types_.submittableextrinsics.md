@@ -12,7 +12,7 @@
 
 ▸ (`extrinsic`: `Uint8Array` | string): *[SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:159](url)*
+*Defined in [types.ts:158](url)*
 
 **Parameters:**
 

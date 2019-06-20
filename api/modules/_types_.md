@@ -40,9 +40,9 @@
 
 ###  ApiInterface$Events
 
-Ƭ **ApiInterface$Events**: *`RpcRxInterface$Events` | "ready"*
+Ƭ **ApiInterface$Events**: *`ProviderInterface$Emitted` | "ready"*
 
-*Defined in [types.ts:209](url)*
+*Defined in [types.ts:208](url)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 Ƭ **ApiTypes**: *"promise" | "rxjs"*
 
-*Defined in [types.ts:211](url)*
+*Defined in [types.ts:210](url)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 Ƭ **DecorateMethodOptions**: *object*
 
-*Defined in [types.ts:39](url)*
+*Defined in [types.ts:38](url)*
 
 #### Type declaration:
 
@@ -68,7 +68,7 @@ ___
 
 Ƭ **MethodResult**: *`MethodResult<ApiType, F>`*
 
-*Defined in [types.ts:57](url)*
+*Defined in [types.ts:56](url)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 Ƭ **ObsInnerType**: *`ObsInnerType<O>`*
 
-*Defined in [types.ts:33](url)*
+*Defined in [types.ts:32](url)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 Ƭ **PromiseResult**: *function*
 
-*Defined in [types.ts:52](url)*
+*Defined in [types.ts:51](url)*
 
 #### Type declaration:
 
@@ -110,7 +110,7 @@ ___
 
 Ƭ **QueryableStorageFunction**: *`QueryableStorageFunction<ApiType>`*
 
-*Defined in [types.ts:119](url)*
+*Defined in [types.ts:118](url)*
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 Ƭ **QueryableStorageMulti**: *`QueryableStorageMulti<ApiType>`*
 
-*Defined in [types.ts:142](url)*
+*Defined in [types.ts:141](url)*
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 Ƭ **QueryableStorageMultiArg**: *[QueryableStorageFunction](_types_.md#queryablestoragefunction)‹*`ApiType`*› | [[QueryableStorageFunction](_types_.md#queryablestoragefunction)‹*`ApiType`*›, `Array`]*
 
-*Defined in [types.ts:128](url)*
+*Defined in [types.ts:127](url)*
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 Ƭ **QueryableStorageMultiArgs**: *`Array<QueryableStorageMultiArg<ApiType>>`*
 
-*Defined in [types.ts:132](url)*
+*Defined in [types.ts:131](url)*
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 Ƭ **RxResult**: *function*
 
-*Defined in [types.ts:51](url)*
+*Defined in [types.ts:50](url)*
 
 #### Type declaration:
 
@@ -160,7 +160,7 @@ ___
 
 Ƭ **SignerOptions**: *`SignatureOptions` & object*
 
-*Defined in [types.ts:213](url)*
+*Defined in [types.ts:212](url)*
 
 ___
 
@@ -168,6 +168,6 @@ ___
 
 Ƭ **UnsubscribePromise**: *`Promise<function>`*
 
-*Defined in [types.ts:35](url)*
+*Defined in [types.ts:34](url)*
 
 ___

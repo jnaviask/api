@@ -14,7 +14,7 @@
 
 ▸ (...`params`: `Array<CodecArg>`): *[SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:151](url)*
+*Defined in [types.ts:150](url)*
 
 **Parameters:**
 

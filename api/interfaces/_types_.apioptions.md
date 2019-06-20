@@ -21,7 +21,7 @@
 
 ● **derives**? : *`DeriveCustom`*
 
-*Defined in [types.ts:168](url)*
+*Defined in [types.ts:167](url)*
 
 **`description`** Add custom derives to be injected
 
@@ -31,7 +31,7 @@ ___
 
 ● **metadata**? : *undefined | object*
 
-*Defined in [types.ts:173](url)*
+*Defined in [types.ts:172](url)*
 
 **`description`** prebundles is a map of 'genesis hash and runtime spec version' as key to metadata's hex string
 if genesis hash and runtime spec version matches, then use metadata, else fetch it from chain
@@ -42,7 +42,7 @@ ___
 
 ● **provider**? : *`ProviderInterface`*
 
-*Defined in [types.ts:180](url)*
+*Defined in [types.ts:179](url)*
 
 **`description`** Transport Provider from rpc-provider. If not specified, it will default to
 connecting to a WsProvider connecting localhost with the default port, i.e. `ws://127.0.0.1:9944`
@@ -53,7 +53,7 @@ ___
 
 ● **signer**? : *[Signer](_types_.signer.md)*
 
-*Defined in [types.ts:184](url)*
+*Defined in [types.ts:183](url)*
 
 **`description`** An external signer which will be used to sign extrinsic when account passed in is not KeyringPair
 
@@ -63,7 +63,7 @@ ___
 
 ● **source**? : *[ApiBase](../classes/_base_.apibase.md)‹*any*›*
 
-*Defined in [types.ts:188](url)*
+*Defined in [types.ts:187](url)*
 
 **`description`** The source object to use for runtime information (only used when cloning)
 
@@ -73,7 +73,7 @@ ___
 
 ● **types**? : *`RegistryTypes`*
 
-*Defined in [types.ts:193](url)*
+*Defined in [types.ts:192](url)*
 
 **`description`** Additional types used by runtime modules. This is nessusary if the runtime modules
 uses types not available in the base Substrate runtime.

@@ -12,7 +12,7 @@
 
 ▸ (`calls`: [QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)‹*`ApiType`*›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:134](url)*
+*Defined in [types.ts:133](url)*
 
 **Parameters:**
 

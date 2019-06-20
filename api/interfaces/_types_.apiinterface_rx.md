@@ -24,7 +24,7 @@
 
 ● **genesisHash**: *`Hash`*
 
-*Defined in [types.ts:198](url)*
+*Defined in [types.ts:197](url)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 ● **hasSubscriptions**: *boolean*
 
-*Defined in [types.ts:199](url)*
+*Defined in [types.ts:198](url)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 ● **query**: *[QueryableStorage](_types_.queryablestorage.md)‹*"rxjs"*›*
 
-*Defined in [types.ts:202](url)*
+*Defined in [types.ts:201](url)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 ● **queryMulti**: *[QueryableStorageMulti](../modules/_types_.md#queryablestoragemulti)‹*"rxjs"*›*
 
-*Defined in [types.ts:203](url)*
+*Defined in [types.ts:202](url)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 ● **rpc**: *[DecoratedRpc](_types_.decoratedrpc.md)‹*"rxjs"*›*
 
-*Defined in [types.ts:204](url)*
+*Defined in [types.ts:203](url)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 ● **runtimeMetadata**: *`Metadata`*
 
-*Defined in [types.ts:200](url)*
+*Defined in [types.ts:199](url)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 ● **runtimeVersion**: *`RuntimeVersion`*
 
-*Defined in [types.ts:201](url)*
+*Defined in [types.ts:200](url)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 ● **signer**? : *[Signer](_types_.signer.md)*
 
-*Defined in [types.ts:206](url)*
+*Defined in [types.ts:205](url)*
 
 ___
 
@@ -88,6 +88,6 @@ ___
 
 ● **tx**: *[SubmittableExtrinsics](_types_.submittableextrinsics.md)‹*"rxjs"*›*
 
-*Defined in [types.ts:205](url)*
+*Defined in [types.ts:204](url)*
 
 ___
