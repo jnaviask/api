@@ -61,7 +61,7 @@ a number and making the compact representation thereof
 
 *Overrides [Base](_codec_base_.base.md).[constructor](_codec_base_.base.md#constructor)*
 
-*Defined in [codec/Compact.ts:23](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L23)*
+*Defined in [codec/Compact.ts:23](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L23)*
 
 **Parameters:**
 
@@ -80,7 +80,7 @@ ___
 
 ■ **addLengthPrefix**: *`compactAddLength`* =  compactAddLength
 
-*Defined in [codec/Compact.ts:41](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L41)*
+*Defined in [codec/Compact.ts:41](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L41)*
 
 Prepend a Uint8Array with its compact length.
 
@@ -92,7 +92,7 @@ ___
 
 ■ **decodeU8a**: *`compactFromU8a`* =  compactFromU8a
 
-*Defined in [codec/Compact.ts:42](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L42)*
+*Defined in [codec/Compact.ts:42](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L42)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 ■ **encodeU8a**: *`compactToU8a`* =  compactToU8a
 
-*Defined in [codec/Compact.ts:43](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L43)*
+*Defined in [codec/Compact.ts:43](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L43)*
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 ● **get encodedLength**(): *number*
 
-*Defined in [codec/Compact.ts:72](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L72)*
+*Defined in [codec/Compact.ts:72](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L72)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -122,7 +122,7 @@ ___
 
 ● **get isEmpty**(): *boolean*
 
-*Defined in [codec/Compact.ts:79](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L79)*
+*Defined in [codec/Compact.ts:79](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L79)*
 
 **`description`** Checks if the value is an empty value
 
@@ -136,7 +136,7 @@ ___
 
 ▸ **bitLength**(): *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*
 
-*Defined in [codec/Compact.ts:86](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L86)*
+*Defined in [codec/Compact.ts:86](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L86)*
 
 **`description`** Returns the number of bits in the value
 
@@ -150,7 +150,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Compact.ts:93](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L93)*
+*Defined in [codec/Compact.ts:93](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L93)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -168,7 +168,7 @@ ___
 
 ▸ **toBn**(): *`BN`*
 
-*Defined in [codec/Compact.ts:104](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L104)*
+*Defined in [codec/Compact.ts:104](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L104)*
 
 **`description`** Returns the BN representation of the number
 
@@ -182,7 +182,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Compact.ts:111](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L111)*
+*Defined in [codec/Compact.ts:111](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L111)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -202,7 +202,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Compact.ts:118](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L118)*
+*Defined in [codec/Compact.ts:118](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L118)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -214,7 +214,7 @@ ___
 
 ▸ **toNumber**(): *number*
 
-*Defined in [codec/Compact.ts:125](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L125)*
+*Defined in [codec/Compact.ts:125](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L125)*
 
 **`description`** Returns the number representation for the value
 
@@ -228,7 +228,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Compact.ts:132](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L132)*
+*Defined in [codec/Compact.ts:132](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L132)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -242,7 +242,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Compact.ts:139](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L139)*
+*Defined in [codec/Compact.ts:139](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L139)*
 
 **`description`** Returns the string representation of the value
 
@@ -256,7 +256,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Compact.ts:147](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L147)*
+*Defined in [codec/Compact.ts:147](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L147)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -274,7 +274,7 @@ ___
 
 ▸ **unwrap**(): *[UInt](_codec_uint_.uint.md) | [Moment](_primitive_moment_.moment.md)*
 
-*Defined in [codec/Compact.ts:154](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L154)*
+*Defined in [codec/Compact.ts:154](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L154)*
 
 **`description`** Returns the embedded [UInt](_codec_uint_.uint.md) or [Moment](_primitive_moment_.moment.md) value
 
@@ -286,7 +286,7 @@ ___
 
 ▸ **decodeCompact**(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*[UInt](_codec_uint_.uint.md) | [Moment](_primitive_moment_.moment.md)*›, `value`: [Compact](_codec_compact_.compact.md) | [AnyNumber](../modules/_types_.md#anynumber)): *[Moment](_primitive_moment_.moment.md) | [UInt](_codec_uint_.uint.md)*
 
-*Defined in [codec/Compact.ts:51](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L51)*
+*Defined in [codec/Compact.ts:51](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L51)*
 
 **Parameters:**
 
@@ -303,7 +303,7 @@ ___
 
 ▸ **stripLengthPrefix**(`u8a`: `Uint8Array`, `bitLength`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *`Uint8Array`*
 
-*Defined in [codec/Compact.ts:45](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L45)*
+*Defined in [codec/Compact.ts:45](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L45)*
 
 **Parameters:**
 
@@ -320,7 +320,7 @@ ___
 
 ▸ **with**(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*[UInt](_codec_uint_.uint.md) | [Moment](_primitive_moment_.moment.md)*›): *[Constructor](../interfaces/_types_.constructor.md)‹*[Compact](_codec_compact_.compact.md)*›*
 
-*Defined in [codec/Compact.ts:28](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/Compact.ts#L28)*
+*Defined in [codec/Compact.ts:28](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/Compact.ts#L28)*
 
 **Parameters:**
 

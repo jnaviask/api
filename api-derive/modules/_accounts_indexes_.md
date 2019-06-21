@@ -16,7 +16,7 @@
 
 Ƭ **AccountIndexes**: *object*
 
-*Defined in [accounts/indexes.ts:13](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-derive/src/accounts/indexes.ts#L13)*
+*Defined in [accounts/indexes.ts:13](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api-derive/src/accounts/indexes.ts#L13)*
 
 #### Type declaration:
 
@@ -30,7 +30,7 @@ ___
 
 ▸ **indexes**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*Defined in [accounts/indexes.ts:32](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-derive/src/accounts/indexes.ts#L32)*
+*Defined in [accounts/indexes.ts:32](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api-derive/src/accounts/indexes.ts#L32)*
 
 **`name`** indexes
 

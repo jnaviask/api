@@ -2,13 +2,15 @@
 
 ## Hierarchy
 
-* **ContractABIFn**
+* [ContractABIFn$Meta](_types_.contractabifn_meta.md)
+
+  * **ContractABIFn**
 
 ## Callable
 
 ▸ (...`args`: `Array<CodecArg>`): *`Uint8Array`*
 
-*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/types.ts#L53)*
+*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api-contract/src/types.ts#L67)*
 
 **Parameters:**
 
@@ -32,7 +34,9 @@ Name | Type |
 
 ● **args**: *`Array<ContractABIFn$Arg>`*
 
-*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/types.ts#L55)*
+*Inherited from [ContractABIFn$Meta](_types_.contractabifn_meta.md).[args](_types_.contractabifn_meta.md#args)*
+
+*Defined in [types.ts:62](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api-contract/src/types.ts#L62)*
 
 ___
 
@@ -40,7 +44,9 @@ ___
 
 ● **isConstant**: *boolean*
 
-*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/types.ts#L56)*
+*Inherited from [ContractABIFn$Meta](_types_.contractabifn_meta.md).[isConstant](_types_.contractabifn_meta.md#isconstant)*
+
+*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api-contract/src/types.ts#L63)*
 
 ___
 
@@ -48,6 +54,8 @@ ___
 
 ● **type**: *string | null*
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/types.ts#L57)*
+*Inherited from [ContractABIFn$Meta](_types_.contractabifn_meta.md).[type](_types_.contractabifn_meta.md#type)*
+
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api-contract/src/types.ts#L64)*
 
 ___
