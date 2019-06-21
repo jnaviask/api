@@ -8,7 +8,7 @@
 
 ▸ (...`args`: any[]): *[Method](../classes/_primitive_method_.method.md)*
 
-*Defined in [primitive/Method.ts:24](url)*
+*Defined in [primitive/Method.ts:24](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/primitive/Method.ts#L24)*
 
 **Parameters:**
 
@@ -34,7 +34,7 @@ Name | Type |
 
 ● **callIndex**: *`Uint8Array`*
 
-*Defined in [primitive/Method.ts:26](url)*
+*Defined in [primitive/Method.ts:26](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/primitive/Method.ts#L26)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 ● **meta**: *`FunctionMetadataV5`*
 
-*Defined in [primitive/Method.ts:27](url)*
+*Defined in [primitive/Method.ts:27](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/primitive/Method.ts#L27)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 ● **method**: *string*
 
-*Defined in [primitive/Method.ts:28](url)*
+*Defined in [primitive/Method.ts:28](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/primitive/Method.ts#L28)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 ● **section**: *string*
 
-*Defined in [primitive/Method.ts:29](url)*
+*Defined in [primitive/Method.ts:29](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/primitive/Method.ts#L29)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 ● **toJSON**: *function*
 
-*Defined in [primitive/Method.ts:30](url)*
+*Defined in [primitive/Method.ts:30](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/primitive/Method.ts#L30)*
 
 #### Type declaration:
 

@@ -31,7 +31,7 @@
 
 \+ **new SubmittableResult**(`__namedParameters`: object): *[SubmittableResult](_submittableextrinsic_.submittableresult.md)*
 
-*Defined in [SubmittableExtrinsic.ts:33](url)*
+*Defined in [SubmittableExtrinsic.ts:33](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/SubmittableExtrinsic.ts#L33)*
 
 **Parameters:**
 
@@ -49,7 +49,7 @@ ___
 
 ● **events**: *`Array<EventRecord>`*
 
-*Defined in [SubmittableExtrinsic.ts:32](url)*
+*Defined in [SubmittableExtrinsic.ts:32](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/SubmittableExtrinsic.ts#L32)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 ● **status**: *`ExtrinsicStatus`*
 
-*Defined in [SubmittableExtrinsic.ts:33](url)*
+*Defined in [SubmittableExtrinsic.ts:33](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/SubmittableExtrinsic.ts#L33)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 ● **get isCompleted**(): *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:40](url)*
+*Defined in [SubmittableExtrinsic.ts:40](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/SubmittableExtrinsic.ts#L40)*
 
 **Returns:** *boolean*
 
@@ -77,7 +77,7 @@ ___
 
 ● **get isError**(): *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:44](url)*
+*Defined in [SubmittableExtrinsic.ts:44](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/SubmittableExtrinsic.ts#L44)*
 
 **Returns:** *boolean*
 
@@ -87,7 +87,7 @@ ___
 
 ● **get isFinalized**(): *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:48](url)*
+*Defined in [SubmittableExtrinsic.ts:48](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/SubmittableExtrinsic.ts#L48)*
 
 **Returns:** *boolean*
 
@@ -99,7 +99,7 @@ ___
 
 ▸ **findRecord**(`section`: string, `method`: string): *`EventRecord` | undefined*
 
-*Defined in [SubmittableExtrinsic.ts:55](url)*
+*Defined in [SubmittableExtrinsic.ts:55](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/SubmittableExtrinsic.ts#L55)*
 
 **`description`** Finds an EventRecord for the specified method & section
 

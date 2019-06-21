@@ -16,7 +16,7 @@
 
 Ƭ **HeaderValue**: *object*
 
-*Defined in [rpc/Header.ts:15](url)*
+*Defined in [rpc/Header.ts:15](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/rpc/Header.ts#L15)*
 
 #### Type declaration:
 

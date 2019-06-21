@@ -22,7 +22,7 @@
 
 ● **Compact**:
 
-*Defined in [codec/createType.ts:22](url)*
+*Defined in [codec/createType.ts:22](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L22)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 ● **DoubleMap**:
 
-*Defined in [codec/createType.ts:23](url)*
+*Defined in [codec/createType.ts:23](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L23)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 ● **Enum**:
 
-*Defined in [codec/createType.ts:24](url)*
+*Defined in [codec/createType.ts:24](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L24)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 ● **Linkage**:
 
-*Defined in [codec/createType.ts:25](url)*
+*Defined in [codec/createType.ts:25](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L25)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 ● **Null**:
 
-*Defined in [codec/createType.ts:33](url)*
+*Defined in [codec/createType.ts:33](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L33)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 ● **Option**:
 
-*Defined in [codec/createType.ts:26](url)*
+*Defined in [codec/createType.ts:26](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L26)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 ● **Plain**:
 
-*Defined in [codec/createType.ts:27](url)*
+*Defined in [codec/createType.ts:27](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L27)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 ● **Struct**:
 
-*Defined in [codec/createType.ts:28](url)*
+*Defined in [codec/createType.ts:28](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L28)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 ● **Tuple**:
 
-*Defined in [codec/createType.ts:29](url)*
+*Defined in [codec/createType.ts:29](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L29)*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 ● **Vector**:
 
-*Defined in [codec/createType.ts:30](url)*
+*Defined in [codec/createType.ts:30](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L30)*
 
 ___
 
@@ -102,6 +102,6 @@ ___
 
 ● **VectorFixed**:
 
-*Defined in [codec/createType.ts:31](url)*
+*Defined in [codec/createType.ts:31](https://github.com/polkadot-js/api/blob/d027eb0/packages/types/src/codec/createType.ts#L31)*
 
 ___

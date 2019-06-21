@@ -21,7 +21,7 @@
 
 \+ **new Contract**(`address`: string | `AccountId`, `abi`: [ContractABI](../modules/_types_.md#contractabi)): *[Contract](_contract_.contract.md)*
 
-*Defined in [Contract.ts:13](url)*
+*Defined in [Contract.ts:13](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/Contract.ts#L13)*
 
 **Parameters:**
 
@@ -40,7 +40,7 @@ ___
 
 ● **abi**: *`Abi`*
 
-*Defined in [Contract.ts:12](url)*
+*Defined in [Contract.ts:12](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/Contract.ts#L12)*
 
 ___
 
@@ -48,6 +48,6 @@ ___
 
 ● **address**: *`AccountId`*
 
-*Defined in [Contract.ts:13](url)*
+*Defined in [Contract.ts:13](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/Contract.ts#L13)*
 
 ___

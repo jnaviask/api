@@ -8,7 +8,7 @@
 
 ▸ (...`args`: `Array<CodecArg>`): *`Uint8Array`*
 
-*Defined in [types.ts:53](url)*
+*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/types.ts#L53)*
 
 **Parameters:**
 
@@ -32,7 +32,7 @@ Name | Type |
 
 ● **args**: *`Array<ContractABIFn$Arg>`*
 
-*Defined in [types.ts:55](url)*
+*Defined in [types.ts:55](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/types.ts#L55)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 ● **isConstant**: *boolean*
 
-*Defined in [types.ts:56](url)*
+*Defined in [types.ts:56](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/types.ts#L56)*
 
 ___
 
@@ -48,6 +48,6 @@ ___
 
 ● **type**: *string | null*
 
-*Defined in [types.ts:57](url)*
+*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/d027eb0/packages/api-contract/src/types.ts#L57)*
 
 ___

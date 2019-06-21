@@ -17,7 +17,7 @@
 
 Ƭ **CombinatorCallback**: *`Callback<Array<any>>`*
 
-*Defined in [promise/Combinator.ts:10](url)*
+*Defined in [promise/Combinator.ts:10](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/promise/Combinator.ts#L10)*
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 Ƭ **CombinatorFunction**: *function*
 
-*Defined in [promise/Combinator.ts:11](url)*
+*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/promise/Combinator.ts#L11)*
 
 #### Type declaration:
 

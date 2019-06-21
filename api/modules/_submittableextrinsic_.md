@@ -20,7 +20,7 @@
 
 ▸ **createSubmittableExtrinsic**<**ApiType**>(`type`: [ApiTypes](_types_.md#apitypes), `api`: [ApiInterface$Rx](../interfaces/_types_.apiinterface_rx.md), `decorateMethod`: `decorateMethod`, `extrinsic`: `Method` | `Uint8Array` | string, `trackingCb?`: `Callback<SubmittableResult>`): *[SubmittableExtrinsic](../interfaces/_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
 
-*Defined in [SubmittableExtrinsic.ts:74](url)*
+*Defined in [SubmittableExtrinsic.ts:74](https://github.com/polkadot-js/api/blob/d027eb0/packages/api/src/SubmittableExtrinsic.ts#L74)*
 
 **Type parameters:**
 
