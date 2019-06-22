@@ -10,7 +10,7 @@
 
 ▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<Codec>`*
 
-*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L101)*
+*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L101)*
 
 **Parameters:**
 
@@ -23,7 +23,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<T>`*
 
-*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L102)*
+*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L102)*
 
 **Type parameters:**
 
@@ -40,7 +40,7 @@ Name | Type |
 
 ▸ <**T**>(`callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L103)*
+*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L103)*
 
 **Type parameters:**
 
@@ -56,7 +56,7 @@ Name | Type |
 
 ▸ <**T**>(`arg`: `CodecArg`, `callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L104)*
+*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L104)*
 
 **Type parameters:**
 
@@ -73,7 +73,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1`: `CodecArg`, `arg2`: `CodecArg`, `callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L105)*
+*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L105)*
 
 **Type parameters:**
 
@@ -106,7 +106,7 @@ Name | Type |
 
 ● **at**: *function*
 
-*Defined in [types.ts:110](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L110)*
+*Defined in [types.ts:110](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L110)*
 
 #### Type declaration:
 
@@ -126,7 +126,7 @@ ___
 
 ● **creator**: *`StorageFunction`*
 
-*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L111)*
+*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L111)*
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 ● **hash**: *function*
 
-*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L112)*
+*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L112)*
 
 #### Type declaration:
 
@@ -153,7 +153,7 @@ ___
 
 ● **key**: *function*
 
-*Defined in [types.ts:113](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L113)*
+*Defined in [types.ts:113](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L113)*
 
 #### Type declaration:
 
@@ -172,7 +172,7 @@ ___
 
 ● **multi**: *function*
 
-*Defined in [types.ts:114](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L114)*
+*Defined in [types.ts:114](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L114)*
 
 #### Type declaration:
 
@@ -195,7 +195,7 @@ ___
 
 ● **size**: *function*
 
-*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/3b8db2e/packages/api/src/types.ts#L115)*
+*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/ed19ba9/packages/api/src/types.ts#L115)*
 
 #### Type declaration:
 

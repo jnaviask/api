@@ -30,7 +30,7 @@
 
 *Overrides [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
-*Defined in [Metadata/MagicNumber.ts:11](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/Metadata/MagicNumber.ts#L11)*
+*Defined in [Metadata/MagicNumber.ts:11](https://github.com/polkadot-js/api/blob/ed19ba9/packages/types/src/Metadata/MagicNumber.ts#L11)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/ed19ba9/packages/types/src/codec/UInt.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -76,7 +76,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/UInt.ts#L48)*
+*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/ed19ba9/packages/types/src/codec/UInt.ts#L48)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -94,7 +94,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/3b8db2e/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/ed19ba9/packages/types/src/codec/UInt.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
