@@ -8,7 +8,7 @@
 
 ▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<Codec>`*
 
-*Defined in [types.ts:90](https://github.com/polkadot-js/api/blob/b517613/packages/api/src/types.ts#L90)*
+*Defined in [types.ts:90](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api/src/types.ts#L90)*
 
 **Parameters:**
 
@@ -21,7 +21,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<T>`*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/b517613/packages/api/src/types.ts#L91)*
+*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api/src/types.ts#L91)*
 
 **Type parameters:**
 
@@ -53,7 +53,7 @@ Name | Type |
 
 ● **at**: *function*
 
-*Defined in [types.ts:93](https://github.com/polkadot-js/api/blob/b517613/packages/api/src/types.ts#L93)*
+*Defined in [types.ts:93](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api/src/types.ts#L93)*
 
 #### Type declaration:
 
@@ -73,7 +73,7 @@ ___
 
 ● **creator**: *`StorageFunction`*
 
-*Defined in [types.ts:94](https://github.com/polkadot-js/api/blob/b517613/packages/api/src/types.ts#L94)*
+*Defined in [types.ts:94](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api/src/types.ts#L94)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 ● **hash**: *function*
 
-*Defined in [types.ts:95](https://github.com/polkadot-js/api/blob/b517613/packages/api/src/types.ts#L95)*
+*Defined in [types.ts:95](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api/src/types.ts#L95)*
 
 #### Type declaration:
 
@@ -100,7 +100,7 @@ ___
 
 ● **key**: *function*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/b517613/packages/api/src/types.ts#L96)*
+*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api/src/types.ts#L96)*
 
 #### Type declaration:
 
@@ -119,7 +119,7 @@ ___
 
 ● **multi**: *function*
 
-*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/b517613/packages/api/src/types.ts#L97)*
+*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api/src/types.ts#L97)*
 
 #### Type declaration:
 
@@ -137,7 +137,7 @@ ___
 
 ● **size**: *function*
 
-*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/b517613/packages/api/src/types.ts#L98)*
+*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api/src/types.ts#L98)*
 
 #### Type declaration:
 
