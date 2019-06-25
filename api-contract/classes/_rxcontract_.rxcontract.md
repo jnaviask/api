@@ -33,7 +33,7 @@
 
 *Overrides [RxBase](_rxbase_.rxbase.md).[constructor](_rxbase_.rxbase.md#constructor)*
 
-*Defined in [RxContract.ts:26](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api-contract/src/RxContract.ts#L26)*
+*Defined in [RxContract.ts:26](https://github.com/polkadot-js/api/blob/68b07eb/packages/api-contract/src/RxContract.ts#L26)*
 
 **Parameters:**
 
@@ -57,7 +57,7 @@ ___
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[abi](_rxbase_.rxbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/68b07eb/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 *Implementation of [IContract](../interfaces/_types_.icontract.md).[address](../interfaces/_types_.icontract.md#address)*
 
-*Defined in [RxContract.ts:25](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api-contract/src/RxContract.ts#L25)*
+*Defined in [RxContract.ts:25](https://github.com/polkadot-js/api/blob/68b07eb/packages/api-contract/src/RxContract.ts#L25)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[api](_rxbase_.rxbase.md#api)*
 
-*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api-contract/src/RxBase.ts#L15)*
+*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/68b07eb/packages/api-contract/src/RxBase.ts#L15)*
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[apiContracts](_rxbase_.rxbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/68b07eb/packages/api-contract/src/RxBase.ts#L16)*
 
 ___
 
@@ -101,6 +101,6 @@ ___
 
 *Implementation of [IContract](../interfaces/_types_.icontract.md).[calls](../interfaces/_types_.icontract.md#calls)*
 
-*Defined in [RxContract.ts:26](https://github.com/polkadot-js/api/blob/8f89b9d/packages/api-contract/src/RxContract.ts#L26)*
+*Defined in [RxContract.ts:26](https://github.com/polkadot-js/api/blob/68b07eb/packages/api-contract/src/RxContract.ts#L26)*
 
 ___

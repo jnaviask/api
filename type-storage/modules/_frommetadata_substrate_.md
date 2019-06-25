@@ -21,7 +21,7 @@ documentation: 'Number of authorities.',
 type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:35](https://github.com/polkadot-js/api/blob/8f89b9d/packages/type-storage/src/fromMetadata/substrate.ts#L35)*
+*Defined in [fromMetadata/substrate.ts:35](https://github.com/polkadot-js/api/blob/68b07eb/packages/type-storage/src/fromMetadata/substrate.ts#L35)*
 
 ___
 
@@ -32,7 +32,7 @@ documentation: 'Prefix under which authorities are stored.',
 type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:40](https://github.com/polkadot-js/api/blob/8f89b9d/packages/type-storage/src/fromMetadata/substrate.ts#L40)*
+*Defined in [fromMetadata/substrate.ts:40](https://github.com/polkadot-js/api/blob/68b07eb/packages/type-storage/src/fromMetadata/substrate.ts#L40)*
 
 ___
 
@@ -43,7 +43,7 @@ documentation: 'Changes trie configuration is stored under this key.',
 type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:60](https://github.com/polkadot-js/api/blob/8f89b9d/packages/type-storage/src/fromMetadata/substrate.ts#L60)*
+*Defined in [fromMetadata/substrate.ts:60](https://github.com/polkadot-js/api/blob/68b07eb/packages/type-storage/src/fromMetadata/substrate.ts#L60)*
 
 ___
 
@@ -54,7 +54,7 @@ documentation: 'Prefix of child storage keys.',
 type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:65](https://github.com/polkadot-js/api/blob/8f89b9d/packages/type-storage/src/fromMetadata/substrate.ts#L65)*
+*Defined in [fromMetadata/substrate.ts:65](https://github.com/polkadot-js/api/blob/68b07eb/packages/type-storage/src/fromMetadata/substrate.ts#L65)*
 
 ___
 
@@ -65,7 +65,7 @@ documentation: 'Wasm code of the runtime.',
 type: 'Bytes'
 })
 
-*Defined in [fromMetadata/substrate.ts:45](https://github.com/polkadot-js/api/blob/8f89b9d/packages/type-storage/src/fromMetadata/substrate.ts#L45)*
+*Defined in [fromMetadata/substrate.ts:45](https://github.com/polkadot-js/api/blob/68b07eb/packages/type-storage/src/fromMetadata/substrate.ts#L45)*
 
 ___
 
@@ -76,7 +76,7 @@ documentation: 'Current extrinsic index (u32) is stored under this key.',
 type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:55](https://github.com/polkadot-js/api/blob/8f89b9d/packages/type-storage/src/fromMetadata/substrate.ts#L55)*
+*Defined in [fromMetadata/substrate.ts:55](https://github.com/polkadot-js/api/blob/68b07eb/packages/type-storage/src/fromMetadata/substrate.ts#L55)*
 
 ___
 
@@ -87,6 +87,6 @@ documentation: 'Number of wasm linear memory pages required for execution of the
 type: 'u64'
 })
 
-*Defined in [fromMetadata/substrate.ts:50](https://github.com/polkadot-js/api/blob/8f89b9d/packages/type-storage/src/fromMetadata/substrate.ts#L50)*
+*Defined in [fromMetadata/substrate.ts:50](https://github.com/polkadot-js/api/blob/68b07eb/packages/type-storage/src/fromMetadata/substrate.ts#L50)*
 
 ___

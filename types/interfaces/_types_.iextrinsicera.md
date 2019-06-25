@@ -21,7 +21,7 @@
 
 ● **asImmortalEra**: *[Codec](_types_.codec.md)*
 
-*Defined in [types.ts:142](https://github.com/polkadot-js/api/blob/8f89b9d/packages/types/src/types.ts#L142)*
+*Defined in [types.ts:142](https://github.com/polkadot-js/api/blob/68b07eb/packages/types/src/types.ts#L142)*
 
 ___
 
@@ -29,6 +29,6 @@ ___
 
 ● **asMortalEra**: *[Codec](_types_.codec.md)*
 
-*Defined in [types.ts:143](https://github.com/polkadot-js/api/blob/8f89b9d/packages/types/src/types.ts#L143)*
+*Defined in [types.ts:143](https://github.com/polkadot-js/api/blob/68b07eb/packages/types/src/types.ts#L143)*
 
 ___
