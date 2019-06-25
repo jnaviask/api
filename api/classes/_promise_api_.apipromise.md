@@ -131,7 +131,7 @@ console.log(`submitted with hash ${hash}`);
 
 *Overrides [ApiBase](_base_.apibase.md).[constructor](_base_.apibase.md#constructor)*
 
-*Defined in [promise/Api.ts:125](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/promise/Api.ts#L125)*
+*Defined in [promise/Api.ts:125](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/promise/Api.ts#L125)*
 
 **`description`** Creates an instance of the ApiPromise class
 
@@ -166,7 +166,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[derive](_base_.apibase.md#derive)*
 
-*Defined in [Base.ts:196](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L196)*
+*Defined in [Base.ts:196](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L196)*
 
 **`description`** Derived results that are injected into the API, allowing for combinations of various query results.
 
@@ -189,7 +189,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[genesisHash](_base_.apibase.md#genesishash)*
 
-*Defined in [Base.ts:132](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L132)*
+*Defined in [Base.ts:132](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L132)*
 
 **`description`** Contains the genesis Hash of the attached chain. Apart from being useful to determine the actual chain, it can also be used to sign immortal transactions.
 
@@ -203,7 +203,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[hasSubscriptions](_base_.apibase.md#hassubscriptions)*
 
-*Defined in [Base.ts:141](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L141)*
+*Defined in [Base.ts:141](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L141)*
 
 **`description`** `true` when subscriptions are supported
 
@@ -215,7 +215,7 @@ ___
 
 ● **get isReady**(): *`Promise<ApiPromise>`*
 
-*Defined in [promise/Api.ts:159](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/promise/Api.ts#L159)*
+*Defined in [promise/Api.ts:159](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/promise/Api.ts#L159)*
 
 **`description`** Promise that returns the first time we are connected and loaded
 
@@ -229,7 +229,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[libraryInfo](_base_.apibase.md#libraryinfo)*
 
-*Defined in [Base.ts:148](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L148)*
+*Defined in [Base.ts:148](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L148)*
 
 **`description`** The library information name & version (from package.json)
 
@@ -243,7 +243,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[query](_base_.apibase.md#query)*
 
-*Defined in [Base.ts:216](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L216)*
+*Defined in [Base.ts:216](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L216)*
 
 **`description`** Contains all the chain state modules and their subsequent methods in the API. These are attached dynamically from the runtime metadata.
 
@@ -268,7 +268,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[queryMulti](_base_.apibase.md#querymulti)*
 
-*Defined in [Base.ts:242](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L242)*
+*Defined in [Base.ts:242](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L242)*
 
 **`description`** Allows for the querying of multiple storage entries and the combination thereof into a single result. This is a very optimal way to make multiple queries since it only makes a single connection to the node and retrieves the data over one subscription.
 
@@ -299,7 +299,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[rpc](_base_.apibase.md#rpc)*
 
-*Defined in [Base.ts:260](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L260)*
+*Defined in [Base.ts:260](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L260)*
 
 **`description`** Contains all the raw rpc sections and their subsequent methods in the API as defined by the jsonrpc interface definitions. Unlike the dynamic `api.query` and `api.tx` sections, these methods are fixed (although extensible with node upgrades) and not determined by the runtime.
 
@@ -324,7 +324,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[runtimeMetadata](_base_.apibase.md#runtimemetadata)*
 
-*Defined in [Base.ts:155](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L155)*
+*Defined in [Base.ts:155](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L155)*
 
 **`description`** Yields the current attached runtime metadata. Generally this is only used to construct extrinsics & storage, but is useful for current runtime inspection.
 
@@ -338,7 +338,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[runtimeVersion](_base_.apibase.md#runtimeversion)*
 
-*Defined in [Base.ts:164](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L164)*
+*Defined in [Base.ts:164](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L164)*
 
 **`description`** Contains the version information for the current runtime.
 
@@ -352,7 +352,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[tx](_base_.apibase.md#tx)*
 
-*Defined in [Base.ts:278](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L278)*
+*Defined in [Base.ts:278](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L278)*
 
 **`description`** Contains all the extrinsic modules and their subsequent methods in the API. It allows for the construction of transactions and the submission thereof. These are attached dynamically from the runtime metadata.
 
@@ -377,7 +377,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[type](_base_.apibase.md#type)*
 
-*Defined in [Base.ts:173](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L173)*
+*Defined in [Base.ts:173](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L173)*
 
 **`description`** The type of this API instance, either 'rxjs' or 'promise'
 
@@ -391,7 +391,7 @@ ___
 
 ▸ **clone**(): *[ApiPromise](_promise_api_.apipromise.md)*
 
-*Defined in [promise/Api.ts:166](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/promise/Api.ts#L166)*
+*Defined in [promise/Api.ts:166](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/promise/Api.ts#L166)*
 
 **`description`** Returns a clone of this ApiPromise instance (new underlying provider connection)
 
@@ -403,7 +403,7 @@ ___
 
 ▸ **combineLatest**(`fns`: `Array<CombinatorFunction | [CombinatorFunction, Array]>`, `callback`: [CombinatorCallback](../modules/_promise_combinator_.md#combinatorcallback)): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [promise/Api.ts:193](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/promise/Api.ts#L193)*
+*Defined in [promise/Api.ts:193](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/promise/Api.ts#L193)*
 
 **`description`** Creates a combinator that can be used to combine the latest results from multiple subscriptions
 
@@ -440,7 +440,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[disconnect](_base_.apibase.md#disconnect)*
 
-*Defined in [Base.ts:287](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L287)*
+*Defined in [Base.ts:287](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L287)*
 
 **`description`** Disconnect from the underlying provider, halting all comms
 
@@ -454,7 +454,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[off](_base_.apibase.md#off)*
 
-*Defined in [Base.ts:337](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L337)*
+*Defined in [Base.ts:337](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L337)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -501,7 +501,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[on](_base_.apibase.md#on)*
 
-*Defined in [Base.ts:310](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L310)*
+*Defined in [Base.ts:310](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L310)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -546,7 +546,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[once](_base_.apibase.md#once)*
 
-*Defined in [Base.ts:362](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L362)*
+*Defined in [Base.ts:362](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L362)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 
@@ -591,7 +591,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[registerTypes](_base_.apibase.md#registertypes)*
 
-*Defined in [Base.ts:371](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L371)*
+*Defined in [Base.ts:371](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L371)*
 
 **`description`** Register additional user-defined of chain-specific types in the type registry
 
@@ -611,7 +611,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[setSigner](_base_.apibase.md#setsigner)*
 
-*Defined in [Base.ts:180](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/Base.ts#L180)*
+*Defined in [Base.ts:180](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/Base.ts#L180)*
 
 **`description`** Set an external signer which will be used to sign extrinsic when account passed in is not KeyringPair
 
@@ -629,7 +629,7 @@ ___
 
 ▸ **create**(`options`: [ApiOptions](../interfaces/_types_.apioptions.md) | `ProviderInterface`): *`Promise<ApiPromise>`*
 
-*Defined in [promise/Api.ts:123](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/promise/Api.ts#L123)*
+*Defined in [promise/Api.ts:123](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/promise/Api.ts#L123)*
 
 **`description`** Creates an ApiPromise instance using the supplied provider. Returns an Promise containing the actual Api instance.
 

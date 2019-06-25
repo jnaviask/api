@@ -12,7 +12,7 @@
 
 ▸ **injectNodeCompat**(`__namedParameters`: object): *void*
 
-*Defined in [nodeCompat.ts:35](https://github.com/polkadot-js/api/blob/68b07eb/packages/api/src/nodeCompat.ts#L35)*
+*Defined in [nodeCompat.ts:35](https://github.com/polkadot-js/api/blob/66d96d3/packages/api/src/nodeCompat.ts#L35)*
 
 **Parameters:**
 
