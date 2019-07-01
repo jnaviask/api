@@ -21,7 +21,7 @@
 
 ● **address**: *`Address`*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/66d96d3/packages/api-contract/src/types.ts#L92)*
+*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/types.ts#L92)*
 
 ___
 
@@ -29,6 +29,6 @@ ___
 
 ● **calls**: *[IContract$Calls](_types_.icontract_calls.md)*
 
-*Defined in [types.ts:93](https://github.com/polkadot-js/api/blob/66d96d3/packages/api-contract/src/types.ts#L93)*
+*Defined in [types.ts:93](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/types.ts#L93)*
 
 ___

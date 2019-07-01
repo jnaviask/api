@@ -18,7 +18,7 @@
 
 Ƭ **NextAuthorityValue**: *object*
 
-*Defined in [type/StoredPendingChange.ts:14](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/type/StoredPendingChange.ts#L14)*
+*Defined in [type/StoredPendingChange.ts:14](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/StoredPendingChange.ts#L14)*
 
 #### Type declaration:
 
@@ -28,7 +28,7 @@ ___
 
 Ƭ **StoredPendingChangeValue**: *object*
 
-*Defined in [type/StoredPendingChange.ts:19](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/type/StoredPendingChange.ts#L19)*
+*Defined in [type/StoredPendingChange.ts:19](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/StoredPendingChange.ts#L19)*
 
 #### Type declaration:
 

@@ -48,7 +48,7 @@ is encoded as `[ <prefix-byte>, ...publicKey/...bytes ]` as per spec
 
 *Overrides [Base](_codec_base_.base.md).[constructor](_codec_base_.base.md#constructor)*
 
-*Defined in [primitive/Address.ts:26](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L26)*
+*Defined in [primitive/Address.ts:26](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L26)*
 
 **Parameters:**
 
@@ -66,7 +66,7 @@ ___
 
 ● **get encodedLength**(): *number*
 
-*Defined in [primitive/Address.ts:68](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L68)*
+*Defined in [primitive/Address.ts:68](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L68)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -78,7 +78,7 @@ ___
 
 ● **get isEmpty**(): *boolean*
 
-*Defined in [primitive/Address.ts:82](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L82)*
+*Defined in [primitive/Address.ts:82](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L82)*
 
 **`description`** Checks if the value is an empty value
 
@@ -90,7 +90,7 @@ ___
 
 ● **get rawLength**(): *number*
 
-*Defined in [primitive/Address.ts:89](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L89)*
+*Defined in [primitive/Address.ts:89](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L89)*
 
 **`description`** The length of the raw value, either AccountIndex or AccountId
 
@@ -106,7 +106,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Address.ts:98](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L98)*
+*Defined in [primitive/Address.ts:98](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L98)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -124,7 +124,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [primitive/Address.ts:105](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L105)*
+*Defined in [primitive/Address.ts:105](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L105)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -138,7 +138,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Address.ts:112](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L112)*
+*Defined in [primitive/Address.ts:112](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L112)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -152,7 +152,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Address.ts:126](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L126)*
+*Defined in [primitive/Address.ts:126](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L126)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -166,7 +166,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Address.ts:119](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L119)*
+*Defined in [primitive/Address.ts:119](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L119)*
 
 **`description`** Returns the string representation of the value
 
@@ -180,7 +180,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Address.ts:134](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L134)*
+*Defined in [primitive/Address.ts:134](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L134)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -198,7 +198,7 @@ ___
 
 ▸ **decodeAddress**(`value`: `AnyAddress`): *[AccountId](_primitive_accountid_.accountid.md) | [AccountIndex](_primitive_accountindex_.accountindex.md)*
 
-*Defined in [primitive/Address.ts:33](https://github.com/polkadot-js/api/blob/66d96d3/packages/types/src/primitive/Address.ts#L33)*
+*Defined in [primitive/Address.ts:33](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L33)*
 
 **Parameters:**
 
