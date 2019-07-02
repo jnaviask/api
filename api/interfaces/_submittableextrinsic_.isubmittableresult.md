@@ -26,51 +26,49 @@
 
 ###  events
 
-● **events**: *`Array<EventRecord>`*
+• **events**: *`Array<EventRecord>`*
 
-*Defined in [SubmittableExtrinsic.ts:17](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L17)*
+*Defined in [SubmittableExtrinsic.ts:17](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L17)*
 
 ___
 
 ###  isCompleted
 
-● **isCompleted**: *boolean*
+• **isCompleted**: *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:19](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L19)*
+*Defined in [SubmittableExtrinsic.ts:19](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L19)*
 
 ___
 
 ###  isError
 
-● **isError**: *boolean*
+• **isError**: *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:20](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L20)*
+*Defined in [SubmittableExtrinsic.ts:20](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L20)*
 
 ___
 
 ###  isFinalized
 
-● **isFinalized**: *boolean*
+• **isFinalized**: *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:21](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L21)*
+*Defined in [SubmittableExtrinsic.ts:21](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L21)*
 
 ___
 
 ###  status
 
-● **status**: *`ExtrinsicStatus`*
+• **status**: *`ExtrinsicStatus`*
 
-*Defined in [SubmittableExtrinsic.ts:18](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L18)*
-
-___
+*Defined in [SubmittableExtrinsic.ts:18](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L18)*
 
 ## Methods
 
 ###  findRecord
 
-▸ **findRecord**(`section`: string, `method`: string): *`EventRecord` | undefined*
+▸ **findRecord**(`section`: *string*, `method`: *string*): *`EventRecord` | undefined*
 
-*Defined in [SubmittableExtrinsic.ts:23](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L23)*
+*Defined in [SubmittableExtrinsic.ts:23](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L23)*
 
 **Parameters:**
 
@@ -80,5 +78,3 @@ Name | Type |
 `method` | string |
 
 **Returns:** *`EventRecord` | undefined*
-
-___

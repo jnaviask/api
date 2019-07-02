@@ -10,14 +10,12 @@
 
 ### `Const` storage
 
-### ■ **storage**: *object*
+### ▪ **storage**: *object*
 
-*Defined in [fromMetadata/storage.ts:8](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/storage.ts#L8)*
+*Defined in [fromMetadata/storage.ts:8](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/storage.ts#L8)*
 
 ###  substrate
 
-● **substrate**: *["fromMetadata/substrate"](_frommetadata_substrate_.md)*
+• **substrate**: *["fromMetadata/substrate"](_frommetadata_substrate_.md)*
 
-*Defined in [fromMetadata/storage.ts:9](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/storage.ts#L9)*
-
-___
+*Defined in [fromMetadata/storage.ts:9](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/storage.ts#L9)*

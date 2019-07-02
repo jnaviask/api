@@ -33,9 +33,9 @@
 
 ###  constructor
 
-\+ **new SubmittableResult**(`__namedParameters`: object): *[SubmittableResult](_submittableextrinsic_.submittableresult.md)*
+\+ **new SubmittableResult**(`__namedParameters`: *object*): *[SubmittableResult](_submittableextrinsic_.submittableresult.md)*
 
-*Defined in [SubmittableExtrinsic.ts:43](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L43)*
+*Defined in [SubmittableExtrinsic.ts:43](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L43)*
 
 **Parameters:**
 
@@ -45,37 +45,33 @@ Name | Type |
 
 **Returns:** *[SubmittableResult](_submittableextrinsic_.submittableresult.md)*
 
-___
-
 ## Properties
 
 ###  events
 
-● **events**: *`Array<EventRecord>`*
+• **events**: *`Array<EventRecord>`*
 
 *Implementation of [ISubmittableResult](../interfaces/_submittableextrinsic_.isubmittableresult.md).[events](../interfaces/_submittableextrinsic_.isubmittableresult.md#events)*
 
-*Defined in [SubmittableExtrinsic.ts:42](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L42)*
+*Defined in [SubmittableExtrinsic.ts:42](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L42)*
 
 ___
 
 ###  status
 
-● **status**: *`ExtrinsicStatus`*
+• **status**: *`ExtrinsicStatus`*
 
 *Implementation of [ISubmittableResult](../interfaces/_submittableextrinsic_.isubmittableresult.md).[status](../interfaces/_submittableextrinsic_.isubmittableresult.md#status)*
 
-*Defined in [SubmittableExtrinsic.ts:43](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L43)*
-
-___
+*Defined in [SubmittableExtrinsic.ts:43](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L43)*
 
 ## Accessors
 
 ###  isCompleted
 
-● **get isCompleted**(): *boolean*
+• **get isCompleted**(): *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:50](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L50)*
+*Defined in [SubmittableExtrinsic.ts:50](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L50)*
 
 **Returns:** *boolean*
 
@@ -83,9 +79,9 @@ ___
 
 ###  isError
 
-● **get isError**(): *boolean*
+• **get isError**(): *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:54](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L54)*
+*Defined in [SubmittableExtrinsic.ts:54](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L54)*
 
 **Returns:** *boolean*
 
@@ -93,23 +89,21 @@ ___
 
 ###  isFinalized
 
-● **get isFinalized**(): *boolean*
+• **get isFinalized**(): *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:58](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L58)*
+*Defined in [SubmittableExtrinsic.ts:58](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L58)*
 
 **Returns:** *boolean*
-
-___
 
 ## Methods
 
 ###  findRecord
 
-▸ **findRecord**(`section`: string, `method`: string): *`EventRecord` | undefined*
+▸ **findRecord**(`section`: *string*, `method`: *string*): *`EventRecord` | undefined*
 
 *Implementation of [ISubmittableResult](../interfaces/_submittableextrinsic_.isubmittableresult.md)*
 
-*Defined in [SubmittableExtrinsic.ts:65](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/SubmittableExtrinsic.ts#L65)*
+*Defined in [SubmittableExtrinsic.ts:65](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/SubmittableExtrinsic.ts#L65)*
 
 **`description`** Finds an EventRecord for the specified method & section
 
@@ -121,5 +115,3 @@ Name | Type |
 `method` | string |
 
 **Returns:** *`EventRecord` | undefined*
-
-___

@@ -10,9 +10,9 @@
 
 ###  fees
 
-▸ **fees**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **fees**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
 
-*Defined in [contracts/fees.ts:17](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/contracts/fees.ts#L17)*
+*Defined in [contracts/fees.ts:17](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/contracts/fees.ts#L17)*
 
 Retrieves all the contract fees
 
@@ -23,5 +23,3 @@ Name | Type |
 `api` | `ApiInterface$Rx` |
 
 **Returns:** *`(Anonymous function)`*
-
-___

@@ -16,77 +16,75 @@
 
 ### `Const` authorityCount
 
-● **authorityCount**: *`StorageFunction`* =  createRuntimeFunction('authorityCount', ':auth:len', {
-documentation: 'Number of authorities.',
-type: 'u32'
+• **authorityCount**: *`StorageEntry`* =  createRuntimeFunction('authorityCount', ':auth:len', {
+  documentation: 'Number of authorities.',
+  type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:35](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/substrate.ts#L35)*
+*Defined in [fromMetadata/substrate.ts:35](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/substrate.ts#L35)*
 
 ___
 
 ### `Const` authorityPrefix
 
-● **authorityPrefix**: *`StorageFunction`* =  createRuntimeFunction('authorityPrefix', ':auth:', {
-documentation: 'Prefix under which authorities are stored.',
-type: 'u32'
+• **authorityPrefix**: *`StorageEntry`* =  createRuntimeFunction('authorityPrefix', ':auth:', {
+  documentation: 'Prefix under which authorities are stored.',
+  type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:40](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/substrate.ts#L40)*
+*Defined in [fromMetadata/substrate.ts:40](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/substrate.ts#L40)*
 
 ___
 
 ### `Const` changesTrieConfig
 
-● **changesTrieConfig**: *`StorageFunction`* =  createRuntimeFunction('changesTrieConfig', ':changes_trie', {
-documentation: 'Changes trie configuration is stored under this key.',
-type: 'u32'
+• **changesTrieConfig**: *`StorageEntry`* =  createRuntimeFunction('changesTrieConfig', ':changes_trie', {
+  documentation: 'Changes trie configuration is stored under this key.',
+  type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:60](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/substrate.ts#L60)*
+*Defined in [fromMetadata/substrate.ts:60](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/substrate.ts#L60)*
 
 ___
 
 ### `Const` childStorageKeyPrefix
 
-● **childStorageKeyPrefix**: *`StorageFunction`* =  createRuntimeFunction('childStorageKeyPrefix', ':child_storage:', {
-documentation: 'Prefix of child storage keys.',
-type: 'u32'
+• **childStorageKeyPrefix**: *`StorageEntry`* =  createRuntimeFunction('childStorageKeyPrefix', ':child_storage:', {
+  documentation: 'Prefix of child storage keys.',
+  type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:65](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/substrate.ts#L65)*
+*Defined in [fromMetadata/substrate.ts:65](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/substrate.ts#L65)*
 
 ___
 
 ### `Const` code
 
-● **code**: *`StorageFunction`* =  createRuntimeFunction('code', ':code', {
-documentation: 'Wasm code of the runtime.',
-type: 'Bytes'
+• **code**: *`StorageEntry`* =  createRuntimeFunction('code', ':code', {
+  documentation: 'Wasm code of the runtime.',
+  type: 'Bytes'
 })
 
-*Defined in [fromMetadata/substrate.ts:45](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/substrate.ts#L45)*
+*Defined in [fromMetadata/substrate.ts:45](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/substrate.ts#L45)*
 
 ___
 
 ### `Const` extrinsicIndex
 
-● **extrinsicIndex**: *`StorageFunction`* =  createRuntimeFunction('extrinsicIndex', ':extrinsic_index', {
-documentation: 'Current extrinsic index (u32) is stored under this key.',
-type: 'u32'
+• **extrinsicIndex**: *`StorageEntry`* =  createRuntimeFunction('extrinsicIndex', ':extrinsic_index', {
+  documentation: 'Current extrinsic index (u32) is stored under this key.',
+  type: 'u32'
 })
 
-*Defined in [fromMetadata/substrate.ts:55](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/substrate.ts#L55)*
+*Defined in [fromMetadata/substrate.ts:55](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/substrate.ts#L55)*
 
 ___
 
 ### `Const` heapPages
 
-● **heapPages**: *`StorageFunction`* =  createRuntimeFunction('heapPages', ':heappages', {
-documentation: 'Number of wasm linear memory pages required for execution of the runtime.',
-type: 'u64'
+• **heapPages**: *`StorageEntry`* =  createRuntimeFunction('heapPages', ':heappages', {
+  documentation: 'Number of wasm linear memory pages required for execution of the runtime.',
+  type: 'u64'
 })
 
-*Defined in [fromMetadata/substrate.ts:50](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/substrate.ts#L50)*
-
-___
+*Defined in [fromMetadata/substrate.ts:50](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/substrate.ts#L50)*

@@ -14,8 +14,6 @@
 
 ### `Const` MAGIC_NUMBER
 
-● **MAGIC_NUMBER**: *[U32](../classes/_primitive_u32_.u32.md)* =  new U32(0x6174656d)
+• **MAGIC_NUMBER**: *[U32](../classes/_primitive_u32_.u32.md)* =  new U32(0x6174656d)
 
-*Defined in [Metadata/MagicNumber.ts:9](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/Metadata/MagicNumber.ts#L9)*
-
-___
+*Defined in [Metadata/MagicNumber.ts:9](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/Metadata/MagicNumber.ts#L9)*

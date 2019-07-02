@@ -6,4 +6,4 @@
 
 ## Indexable
 
-● \[■&#x60; index&#x60;: *string*\]: [ContractABIFn](_types_.contractabifn.md)
+● \[▪ **index**: *string*\]: [ContractABIFn](_types_.contractabifn.md)

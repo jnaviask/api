@@ -21,7 +21,7 @@ object, inheriting all methods exposed from `String`.
 
 ## Indexable
 
-● \[■&#x60; index&#x60;: *number*\]: string
+● \[▪ **index**: *number*\]: string
 
 ### Index
 
@@ -52,9 +52,9 @@ object, inheriting all methods exposed from `String`.
 
 ###  constructor
 
-\+ **new Text**(`value`: [Text](_primitive_text_.text.md) | string | [AnyU8a](../modules/_types_.md#anyu8a) | object): *[Text](_primitive_text_.text.md)*
+\+ **new Text**(`value`: *[Text](_primitive_text_.text.md) | string | [AnyU8a](../modules/_types_.md#anyu8a) | object*): *[Text](_primitive_text_.text.md)*
 
-*Defined in [primitive/Text.ts:20](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L20)*
+*Defined in [primitive/Text.ts:20](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L20)*
 
 **Parameters:**
 
@@ -64,27 +64,23 @@ Name | Type | Default |
 
 **Returns:** *[Text](_primitive_text_.text.md)*
 
-___
-
 ## Properties
 
 ### `Static` String
 
-■ **String**: *`StringConstructor`*
+▪ **String**: *`StringConstructor`*
 
 Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:527
 
 Allows manipulation and formatting of text strings and determination and location of substrings within strings.
 
-___
-
 ## Accessors
 
 ###  encodedLength
 
-● **get encodedLength**(): *number*
+• **get encodedLength**(): *number*
 
-*Defined in [primitive/Text.ts:49](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L49)*
+*Defined in [primitive/Text.ts:49](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L49)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -94,9 +90,9 @@ ___
 
 ###  isEmpty
 
-● **get isEmpty**(): *boolean*
+• **get isEmpty**(): *boolean*
 
-*Defined in [primitive/Text.ts:56](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L56)*
+*Defined in [primitive/Text.ts:56](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L56)*
 
 **`description`** Checks if the value is an empty value
 
@@ -106,27 +102,25 @@ ___
 
 ###  length
 
-● **get length**(): *number*
+• **get length**(): *number*
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:63](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L63)*
+*Defined in [primitive/Text.ts:63](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L63)*
 
 **`description`** The length of the value
 
 **Returns:** *number*
 
-___
-
 ## Methods
 
 ###  eq
 
-▸ **eq**(`other?`: any): *boolean*
+▸ **eq**(`other?`: *any*): *boolean*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:71](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L71)*
+*Defined in [primitive/Text.ts:71](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L71)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -144,7 +138,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [primitive/Text.ts:80](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L80)*
+*Defined in [primitive/Text.ts:80](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L80)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -158,7 +152,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:89](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L89)*
+*Defined in [primitive/Text.ts:89](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L89)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -172,7 +166,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:96](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L96)*
+*Defined in [primitive/Text.ts:96](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L96)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -188,7 +182,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:103](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L103)*
+*Defined in [primitive/Text.ts:103](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L103)*
 
 **`description`** Returns the string representation of the value
 
@@ -198,11 +192,11 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [primitive/Text.ts:112](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Text.ts#L112)*
+*Defined in [primitive/Text.ts:112](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Text.ts#L112)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -213,5 +207,3 @@ Name | Type | Description |
 `isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *`Uint8Array`*
-
-___

@@ -2,7 +2,7 @@
 
 ## Type parameters
 
-■` ApiType`
+▪ **ApiType**
 
 ## Hierarchy
 
@@ -21,32 +21,30 @@
 
 ###  author
 
-● **author**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
+• **author**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:84](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/types.ts#L84)*
+*Defined in [types.ts:84](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/types.ts#L84)*
 
 ___
 
 ###  chain
 
-● **chain**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
+• **chain**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:85](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/types.ts#L85)*
+*Defined in [types.ts:85](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/types.ts#L85)*
 
 ___
 
 ###  state
 
-● **state**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
+• **state**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/types.ts#L86)*
+*Defined in [types.ts:86](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/types.ts#L86)*
 
 ___
 
 ###  system
 
-● **system**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
+• **system**: *[DecoratedRpc$Section](_types_.decoratedrpc_section.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/types.ts#L87)*
-
-___
+*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/types.ts#L87)*

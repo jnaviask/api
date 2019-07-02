@@ -23,7 +23,7 @@
 
 ## Indexable
 
-● \[■&#x60; index&#x60;: *number*\]: number
+● \[▪ **index**: *number*\]: number
 
 ### Index
 
@@ -51,11 +51,11 @@
 
 ###  constructor
 
-\+ **new IHash**(`value?`: [AnyU8a](../modules/_types_.md#anyu8a)): *[IHash](_types_.ihash.md)*
+\+ **new IHash**(`value?`: *[AnyU8a](../modules/_types_.md#anyu8a)*): *[IHash](_types_.ihash.md)*
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[constructor](../classes/_codec_u8a_.u8a.md#constructor)*
 
-*Defined in [codec/U8a.ts:18](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L18)*
+*Defined in [codec/U8a.ts:18](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L18)*
 
 **Parameters:**
 
@@ -65,17 +65,15 @@ Name | Type |
 
 **Returns:** *[IHash](_types_.ihash.md)*
 
-___
-
 ## Accessors
 
 ###  encodedLength
 
-● **get encodedLength**(): *number*
+• **get encodedLength**(): *number*
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[encodedLength](../classes/_codec_u8a_.u8a.md#encodedlength)*
 
-*Defined in [codec/U8a.ts:36](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L36)*
+*Defined in [codec/U8a.ts:36](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L36)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -85,11 +83,11 @@ ___
 
 ###  isEmpty
 
-● **get isEmpty**(): *boolean*
+• **get isEmpty**(): *boolean*
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[isEmpty](../classes/_codec_u8a_.u8a.md#isempty)*
 
-*Defined in [codec/U8a.ts:43](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L43)*
+*Defined in [codec/U8a.ts:43](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L43)*
 
 **`description`** Returns true if the type wraps an empty/default all-0 value
 
@@ -99,29 +97,27 @@ ___
 
 ###  length
 
-● **get length**(): *number*
+• **get length**(): *number*
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[length](../classes/_codec_u8a_.u8a.md#length)*
 
 *Overrides void*
 
-*Defined in [codec/U8a.ts:50](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L50)*
+*Defined in [codec/U8a.ts:50](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L50)*
 
 **`description`** The length of the value
 
 **Returns:** *number*
 
-___
-
 ## Methods
 
 ###  eq
 
-▸ **eq**(`other?`: any): *boolean*
+▸ **eq**(`other?`: *any*): *boolean*
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[eq](../classes/_codec_u8a_.u8a.md#eq)*
 
-*Defined in [codec/U8a.ts:58](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L58)*
+*Defined in [codec/U8a.ts:58](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L58)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -137,13 +133,13 @@ ___
 
 ###  subarray
 
-▸ **subarray**(`begin`: number, `end?`: undefined | number): *`Uint8Array`*
+▸ **subarray**(`begin`: *number*, `end?`: *undefined | number*): *`Uint8Array`*
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[subarray](../classes/_codec_u8a_.u8a.md#subarray)*
 
 *Overrides void*
 
-*Defined in [codec/U8a.ts:73](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L73)*
+*Defined in [codec/U8a.ts:73](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L73)*
 
 **`description`** Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
 
@@ -164,7 +160,7 @@ ___
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[toHex](../classes/_codec_u8a_.u8a.md#tohex)*
 
-*Defined in [codec/U8a.ts:80](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L80)*
+*Defined in [codec/U8a.ts:80](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L80)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -178,7 +174,7 @@ ___
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[toJSON](../classes/_codec_u8a_.u8a.md#tojson)*
 
-*Defined in [codec/U8a.ts:87](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L87)*
+*Defined in [codec/U8a.ts:87](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L87)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -192,7 +188,7 @@ ___
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[toRawType](../classes/_codec_u8a_.u8a.md#torawtype)*
 
-*Defined in [codec/U8a.ts:94](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L94)*
+*Defined in [codec/U8a.ts:94](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L94)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -208,7 +204,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/U8a.ts:101](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L101)*
+*Defined in [codec/U8a.ts:101](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L101)*
 
 **`description`** Returns the string representation of the value
 
@@ -218,11 +214,11 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
 
 *Inherited from [U8a](../classes/_codec_u8a_.u8a.md).[toU8a](../classes/_codec_u8a_.u8a.md#tou8a)*
 
-*Defined in [codec/U8a.ts:109](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/U8a.ts#L109)*
+*Defined in [codec/U8a.ts:109](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/U8a.ts#L109)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -233,5 +229,3 @@ Name | Type | Description |
 `isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *`Uint8Array`*
-
-___

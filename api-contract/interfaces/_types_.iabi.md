@@ -20,24 +20,22 @@
 
 ###  abi
 
-● **abi**: *[ContractABI](../modules/_types_.md#contractabi)*
+• **abi**: *[ContractABI](../modules/_types_.md#contractabi)*
 
-*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/types.ts#L76)*
+*Defined in [types.ts:76](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/types.ts#L76)*
 
 ___
 
 ###  deploy
 
-● **deploy**: *[ContractABIFn](_types_.contractabifn.md)*
+• **deploy**: *[ContractABIFn](_types_.contractabifn.md)*
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/types.ts#L77)*
+*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/types.ts#L77)*
 
 ___
 
 ###  messages
 
-● **messages**: *[IAbi$Messages](_types_.iabi_messages.md)*
+• **messages**: *[IAbi$Messages](_types_.iabi_messages.md)*
 
-*Defined in [types.ts:78](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/types.ts#L78)*
-
-___
+*Defined in [types.ts:78](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/types.ts#L78)*

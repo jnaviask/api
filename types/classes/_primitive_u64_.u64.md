@@ -39,11 +39,11 @@ A 64-bit unsigned integer
 
 ###  constructor
 
-\+ **new U64**(`value?`: [AnyNumber](../modules/_types_.md#anynumber)): *[U64](_primitive_u64_.u64.md)*
+\+ **new U64**(`value?`: *[AnyNumber](../modules/_types_.md#anynumber)*): *[U64](_primitive_u64_.u64.md)*
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/U64.ts#L14)*
+*Defined in [primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/U64.ts#L14)*
 
 **Parameters:**
 
@@ -53,19 +53,17 @@ Name | Type |
 
 **Returns:** *[U64](_primitive_u64_.u64.md)*
 
-___
-
 ## Methods
 
 ###  toHex
 
-▸ **toHex**(`isLe`: boolean): *string*
+▸ **toHex**(`isLe`: *boolean*): *string*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/UInt.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -89,7 +87,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/UInt.ts#L48)*
+*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/UInt.ts#L48)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -99,7 +97,7 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -107,7 +105,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/UInt.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -118,5 +116,3 @@ Name | Type | Description |
 `isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *`Uint8Array`*
-
-___

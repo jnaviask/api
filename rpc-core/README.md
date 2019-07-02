@@ -24,35 +24,35 @@ Retrieving the block header object for a given block header hash (a 0x-prefixed 
 
 ```js
 rpc.chain
-.getHeader('0x1234567890')
-.subscribe(
-(header) => console.log(header),
-(error) => console.error('error:', error)
-);
+  .getHeader('0x1234567890')
+  .subscribe(
+    (header) => console.log(header),
+    (error) => console.error('error:', error)
+  );
 ```
 
 Retrieving the best block number, parent hash, state root hash, extrinsics root hash, and digest (once-off) -
 
 ```js
 rpc.chain
-.getHead()
-.pipe(
-switchMap((headerHash) => {
-return rpc.chain.getHeader(headerHash);
-})
-)
-.subscribe(
-(header) => {
-console.log(`best #${header.blockNumber.toString()}`);
-console.log(`parentHash: ${header.parentHash.toString()}`);
-console.log(`stateRoot: ${header.stateRoot.toString()}`);
-console.log(`extrinsicsRoot: ${header.extrinsicsRoot.toString()}`);
-console.log(`digest: ${header.digest.toString()}`);
-},
-(error) => {
-console.error('error:', error);
-}
-);
+  .getHead()
+  .pipe(
+    switchMap((headerHash) => {
+      return rpc.chain.getHeader(headerHash);
+    })
+  )
+  .subscribe(
+    (header) => {
+      console.log(`best #${header.blockNumber.toString()}`);
+      console.log(`parentHash: ${header.parentHash.toString()}`);
+      console.log(`stateRoot: ${header.stateRoot.toString()}`);
+      console.log(`extrinsicsRoot: ${header.extrinsicsRoot.toString()}`);
+      console.log(`digest: ${header.digest.toString()}`);
+    },
+    (error) => {
+      console.error('error:', error);
+    }
+  );
 ```
 
 Retrieving best header via subscription -
@@ -60,15 +60,15 @@ Retrieving best header via subscription -
 ```js
 api.chain
 rpc
-.subscribeNewHead()
-.subscribe(
-(header) => {
-console.log(`best #${header.blockNumber}`);
-},
-(error) => {
-console.error('error subscribing:', error);
-}
-);
+  .subscribeNewHead()
+  .subscribe(
+    (header) => {
+      console.log(`best #${header.blockNumber}`);
+    },
+    (error) => {
+      console.error('error subscribing:', error);
+    }
+  );
 ```
 
 ## Classes

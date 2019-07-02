@@ -24,11 +24,9 @@
 
 ###  hasSubscriptions
 
-● **hasSubscriptions**: *boolean*
+• **hasSubscriptions**: *boolean*
 
-*Defined in [types.ts:46](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/types.ts#L46)*
-
-___
+*Defined in [types.ts:46](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/types.ts#L46)*
 
 ## Methods
 
@@ -36,7 +34,7 @@ ___
 
 ▸ **clone**(): *[ProviderInterface](_types_.providerinterface.md)*
 
-*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/types.ts#L47)*
+*Defined in [types.ts:47](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/types.ts#L47)*
 
 **Returns:** *[ProviderInterface](_types_.providerinterface.md)*
 
@@ -46,7 +44,7 @@ ___
 
 ▸ **disconnect**(): *void*
 
-*Defined in [types.ts:48](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/types.ts#L48)*
+*Defined in [types.ts:48](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/types.ts#L48)*
 
 **Returns:** *void*
 
@@ -56,7 +54,7 @@ ___
 
 ▸ **isConnected**(): *boolean*
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/types.ts#L49)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/types.ts#L49)*
 
 **Returns:** *boolean*
 
@@ -64,9 +62,9 @@ ___
 
 ###  on
 
-▸ **on**(`type`: [ProviderInterface$Emitted](../modules/_types_.md#providerinterface$emitted), `sub`: [ProviderInterface$EmitCb](../modules/_types_.md#providerinterface$emitcb)): *void*
+▸ **on**(`type`: *[ProviderInterface$Emitted](../modules/_types_.md#providerinterface$emitted)*, `sub`: *[ProviderInterface$EmitCb](../modules/_types_.md#providerinterface$emitcb)*): *void*
 
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/types.ts#L50)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/types.ts#L50)*
 
 **Parameters:**
 
@@ -81,9 +79,9 @@ ___
 
 ###  send
 
-▸ **send**(`method`: string, `params`: `Array<any>`): *`Promise<any>`*
+▸ **send**(`method`: *string*, `params`: *`Array<any>`*): *`Promise<any>`*
 
-*Defined in [types.ts:51](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/types.ts#L51)*
+*Defined in [types.ts:51](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/types.ts#L51)*
 
 **Parameters:**
 
@@ -98,9 +96,9 @@ ___
 
 ###  subscribe
 
-▸ **subscribe**(`type`: string, `method`: string, `params`: `Array<any>`, `cb`: [ProviderInterface$Callback](../modules/_types_.md#providerinterface$callback)): *`Promise<number>`*
+▸ **subscribe**(`type`: *string*, `method`: *string*, `params`: *`Array<any>`*, `cb`: *[ProviderInterface$Callback](../modules/_types_.md#providerinterface$callback)*): *`Promise<number>`*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/types.ts#L52)*
 
 **Parameters:**
 
@@ -117,9 +115,9 @@ ___
 
 ###  unsubscribe
 
-▸ **unsubscribe**(`type`: string, `method`: string, `id`: number): *`Promise<boolean>`*
+▸ **unsubscribe**(`type`: *string*, `method`: *string*, `id`: *number*): *`Promise<boolean>`*
 
-*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/types.ts#L53)*
+*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/types.ts#L53)*
 
 **Parameters:**
 
@@ -130,5 +128,3 @@ Name | Type |
 `id` | number |
 
 **Returns:** *`Promise<boolean>`*
-
-___

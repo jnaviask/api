@@ -17,10 +17,8 @@
 
 Ƭ **RpcInterface$Section**: *object*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-core/src/types.ts#L11)*
+*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-core/src/types.ts#L11)*
 
 #### Type declaration:
 
-● \[■&#x60; index&#x60;: *string*\]: [RpcInterface$Method](../interfaces/_types_.rpcinterface_method.md)
-
-___
+● \[▪ **index**: *string*\]: [RpcInterface$Method](../interfaces/_types_.rpcinterface_method.md)

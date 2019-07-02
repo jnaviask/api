@@ -2,7 +2,7 @@
 
 ## Type parameters
 
-■` ApiType`
+▪ **ApiType**
 
 ## Hierarchy
 
@@ -27,24 +27,22 @@
 
 ###  abi
 
-● **abi**: *[IAbi](_types_.iabi.md)*
+• **abi**: *[IAbi](_types_.iabi.md)*
 
-*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/types.ts#L82)*
+*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/types.ts#L82)*
 
 ___
 
 ###  api
 
-● **api**: *[ApiObject](../modules/_types_.md#apiobject)‹*`ApiType`*›*
+• **api**: *[ApiObject](../modules/_types_.md#apiobject)‹*`ApiType`*›*
 
-*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/types.ts#L83)*
+*Defined in [types.ts:83](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/types.ts#L83)*
 
 ___
 
 ###  apiContracts
 
-● **apiContracts**: *`SubmittableModuleExtrinsics<ApiType>`*
+• **apiContracts**: *`SubmittableModuleExtrinsics<ApiType>`*
 
-*Defined in [types.ts:84](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/types.ts#L84)*
-
-___
+*Defined in [types.ts:84](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/types.ts#L84)*

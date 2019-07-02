@@ -10,9 +10,9 @@
 
 ###  toV1
 
-▸ **toV1**(`metadataV0`: [MetadataV0](../classes/_metadata_v0_metadata_.metadatav0.md)): *[MetadataV1](../classes/_metadata_v1_metadata_.metadatav1.md)*
+▸ **toV1**(`metadataV0`: *[MetadataV0](../classes/_metadata_v0_metadata_.metadatav0.md)*): *[MetadataV1](../classes/_metadata_v1_metadata_.metadatav1.md)*
 
-*Defined in [Metadata/v0/toV1.ts:43](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/Metadata/v0/toV1.ts#L43)*
+*Defined in [Metadata/v0/toV1.ts:43](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/Metadata/v0/toV1.ts#L43)*
 
 Function that converts MetadataV0 to MetadataV1
 
@@ -23,5 +23,3 @@ Name | Type |
 `metadataV0` | [MetadataV0](../classes/_metadata_v0_metadata_.metadatav0.md) |
 
 **Returns:** *[MetadataV1](../classes/_metadata_v1_metadata_.metadatav1.md)*
-
-___

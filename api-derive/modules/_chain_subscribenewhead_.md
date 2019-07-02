@@ -16,17 +16,15 @@
 
 Ƭ **HeaderAndValidators**: *[`Header`, `Array<AccountId>`]*
 
-*Defined in [chain/subscribeNewHead.ts:13](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/chain/subscribeNewHead.ts#L13)*
-
-___
+*Defined in [chain/subscribeNewHead.ts:13](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/chain/subscribeNewHead.ts#L13)*
 
 ## Functions
 
 ###  subscribeNewHead
 
-▸ **subscribeNewHead**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **subscribeNewHead**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
 
-*Defined in [chain/subscribeNewHead.ts:28](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/chain/subscribeNewHead.ts#L28)*
+*Defined in [chain/subscribeNewHead.ts:28](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/chain/subscribeNewHead.ts#L28)*
 
 **`name`** subscribeNewHead
 
@@ -37,7 +35,7 @@ ___
 
 ```javascript
 api.derive.chain.subscribeNewHead(({ author, blockNumber }) => {
-console.log(`block #${blockNumber} was authored by ${author}`);
+  console.log(`block #${blockNumber} was authored by ${author}`);
 });
 ```
 
@@ -50,5 +48,3 @@ Name | Type |
 **Returns:** *`(Anonymous function)`*
 
 An array containing the block header and the block author
-
-___

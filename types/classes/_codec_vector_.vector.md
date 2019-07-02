@@ -9,7 +9,7 @@ specific encoding/decoding on top of the base type.
 
 ## Type parameters
 
-■` T`: *[Codec](../interfaces/_types_.codec.md)*
+▪ **T**: *[Codec](../interfaces/_types_.codec.md)*
 
 ## Hierarchy
 
@@ -29,7 +29,7 @@ specific encoding/decoding on top of the base type.
 
 ## Indexable
 
-● \[■&#x60; n&#x60;: *number*\]: `T`
+● \[▪ **n**: *number*\]: `T`
 
 ### Index
 
@@ -63,9 +63,9 @@ specific encoding/decoding on top of the base type.
 
 ###  constructor
 
-\+ **new Vector**(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*`T`*›, `value`: [Vector](_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | `Array<any>`): *[Vector](_codec_vector_.vector.md)*
+\+ **new Vector**(`Type`: *[Constructor](../interfaces/_types_.constructor.md)‹*`T`*›*, `value`: *[Vector](_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | `Array<any>`*): *[Vector](_codec_vector_.vector.md)*
 
-*Defined in [codec/Vector.ts:22](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Vector.ts#L22)*
+*Defined in [codec/Vector.ts:22](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Vector.ts#L22)*
 
 **Parameters:**
 
@@ -76,15 +76,13 @@ Name | Type | Default |
 
 **Returns:** *[Vector](_codec_vector_.vector.md)*
 
-___
-
 ## Accessors
 
 ###  Type
 
-● **get Type**(): *string*
+• **get Type**(): *string*
 
-*Defined in [codec/Vector.ts:70](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Vector.ts#L70)*
+*Defined in [codec/Vector.ts:70](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Vector.ts#L70)*
 
 **`description`** The type for the items
 
@@ -94,11 +92,11 @@ ___
 
 ###  encodedLength
 
-● **get encodedLength**(): *number*
+• **get encodedLength**(): *number*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[encodedLength](_codec_abstractarray_.abstractarray.md#encodedlength)*
 
-*Defined in [codec/AbstractArray.ts:29](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L29)*
+*Defined in [codec/AbstractArray.ts:29](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L29)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -108,11 +106,11 @@ ___
 
 ###  isEmpty
 
-● **get isEmpty**(): *boolean*
+• **get isEmpty**(): *boolean*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[isEmpty](_codec_abstractarray_.abstractarray.md#isempty)*
 
-*Defined in [codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L22)*
+*Defined in [codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L22)*
 
 **`description`** Checks if the value is an empty value
 
@@ -122,31 +120,29 @@ ___
 
 ###  length
 
-● **get length**(): *number*
+• **get length**(): *number*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[length](_codec_abstractarray_.abstractarray.md#length)*
 
 *Overrides void*
 
-*Defined in [codec/AbstractArray.ts:38](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L38)*
+*Defined in [codec/AbstractArray.ts:38](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L38)*
 
 **`description`** The length of the value
 
 **Returns:** *number*
 
-___
-
 ## Methods
 
 ###  eq
 
-▸ **eq**(`other?`: any): *boolean*
+▸ **eq**(`other?`: *any*): *boolean*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[eq](_codec_abstractarray_.abstractarray.md#eq)*
 
-*Defined in [codec/AbstractArray.ts:46](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L46)*
+*Defined in [codec/AbstractArray.ts:46](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L46)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -162,23 +158,23 @@ ___
 
 ###  filter
 
-▸ **filter**(`callbackfn`: function, `thisArg?`: any): *`Array<T>`*
+▸ **filter**(`callbackfn`: *function*, `thisArg?`: *any*): *`Array<T>`*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[filter](_codec_abstractarray_.abstractarray.md#filter)*
 
 *Overrides void*
 
-*Defined in [codec/AbstractArray.ts:116](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L116)*
+*Defined in [codec/AbstractArray.ts:116](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L116)*
 
 **`description`** Filters the array with the callback
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 The filter function
 
-▸ (`value`: `T`, `index`: number, `array`: `Array<T>`): *any*
+▸ (`value`: *`T`*, `index`: *number*, `array`: *`Array<T>`*): *any*
 
 **Parameters:**
 
@@ -188,7 +184,7 @@ Name | Type |
 `index` | number |
 `array` | `Array<T>` |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 The `this` object to apply the result to
 
@@ -198,11 +194,11 @@ ___
 
 ###  indexOf
 
-▸ **indexOf**(`_other?`: any): *number*
+▸ **indexOf**(`_other?`: *any*): *number*
 
 *Overrides void*
 
-*Defined in [codec/Vector.ts:77](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Vector.ts#L77)*
+*Defined in [codec/Vector.ts:77](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Vector.ts#L77)*
 
 **`description`** Finds the index of the value in the array
 
@@ -218,27 +214,27 @@ ___
 
 ###  map
 
-▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *`Array<U>`*
+▸ **map**<**U**>(`callbackfn`: *function*, `thisArg?`: *any*): *`Array<U>`*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[map](_codec_abstractarray_.abstractarray.md#map)*
 
 *Overrides void*
 
-*Defined in [codec/AbstractArray.ts:125](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L125)*
+*Defined in [codec/AbstractArray.ts:125](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L125)*
 
 **`description`** Maps the array with the callback
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 The mapping function
 
-▸ (`value`: `T`, `index`: number, `array`: `Array<T>`): *`U`*
+▸ (`value`: *`T`*, `index`: *number*, `array`: *`Array<T>`*): *`U`*
 
 **Parameters:**
 
@@ -248,7 +244,7 @@ Name | Type |
 `index` | number |
 `array` | `Array<T>` |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 The `this` onject to apply the result to
 
@@ -262,7 +258,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toArray](_codec_abstractarray_.abstractarray.md#toarray)*
 
-*Defined in [codec/AbstractArray.ts:53](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L53)*
+*Defined in [codec/AbstractArray.ts:53](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L53)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -276,7 +272,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toHex](_codec_abstractarray_.abstractarray.md#tohex)*
 
-*Defined in [codec/AbstractArray.ts:60](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L60)*
+*Defined in [codec/AbstractArray.ts:60](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L60)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -292,7 +288,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toJSON](_codec_abstractarray_.abstractarray.md#tojson)*
 
-*Defined in [codec/AbstractArray.ts:67](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L67)*
+*Defined in [codec/AbstractArray.ts:67](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L67)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -308,7 +304,7 @@ ___
 
 *Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toRawType](_codec_abstractarray_.abstractarray.md#abstract-torawtype)*
 
-*Defined in [codec/Vector.ts:95](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Vector.ts#L95)*
+*Defined in [codec/Vector.ts:95](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Vector.ts#L95)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -326,7 +322,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/AbstractArray.ts:81](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L81)*
+*Defined in [codec/AbstractArray.ts:81](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L81)*
 
 **`description`** Returns the string representation of the value
 
@@ -336,13 +332,13 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toU8a](_codec_abstractarray_.abstractarray.md#tou8a)*
 
-*Defined in [codec/AbstractArray.ts:94](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/AbstractArray.ts#L94)*
+*Defined in [codec/AbstractArray.ts:94](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/AbstractArray.ts#L94)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -358,13 +354,13 @@ ___
 
 ### `Static` decodeVector
 
-▸ **decodeVector**<**T**>(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*`T`*›, `value`: [Vector](_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | `Array<any>`): *`Array<T>`*
+▸ **decodeVector**<**T**>(`Type`: *[Constructor](../interfaces/_types_.constructor.md)‹*`T`*›*, `value`: *[Vector](_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | `Array<any>`*): *`Array<T>`*
 
-*Defined in [codec/Vector.ts:32](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Vector.ts#L32)*
+*Defined in [codec/Vector.ts:32](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Vector.ts#L32)*
 
 **Type parameters:**
 
-■` T`: *[Codec](../interfaces/_types_.codec.md)*
+▪ **T**: *[Codec](../interfaces/_types_.codec.md)*
 
 **Parameters:**
 
@@ -379,13 +375,13 @@ ___
 
 ### `Static` with
 
-▸ **with**<**O**>(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹*`O`*›): *[Constructor](../interfaces/_types_.constructor.md)‹*[Vector](_codec_vector_.vector.md)‹*`O`*›*›*
+▸ **with**<**O**>(`Type`: *[Constructor](../interfaces/_types_.constructor.md)‹*`O`*›*): *[Constructor](../interfaces/_types_.constructor.md)‹*[Vector](_codec_vector_.vector.md)‹*`O`*›*›*
 
-*Defined in [codec/Vector.ts:55](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Vector.ts#L55)*
+*Defined in [codec/Vector.ts:55](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Vector.ts#L55)*
 
 **Type parameters:**
 
-■` O`: *[Codec](../interfaces/_types_.codec.md)*
+▪ **O**: *[Codec](../interfaces/_types_.codec.md)*
 
 **Parameters:**
 
@@ -394,5 +390,3 @@ Name | Type |
 `Type` | [Constructor](../interfaces/_types_.constructor.md)‹*`O`*› |
 
 **Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Vector](_codec_vector_.vector.md)‹*`O`*›*›*
-
-___

@@ -2,7 +2,7 @@
 
 ## Type parameters
 
-■` ApiType`
+▪ **ApiType**
 
 ## Hierarchy
 
@@ -10,4 +10,4 @@
 
 ## Indexable
 
-● \[■&#x60; index&#x60;: *string*\]: `DecoratedRpc$Method<ApiType>`
+● \[▪ **index**: *string*\]: `DecoratedRpc$Method<ApiType>`

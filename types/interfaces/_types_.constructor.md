@@ -2,7 +2,7 @@
 
 ## Type parameters
 
-■` T`
+▪ **T**
 
 ## Hierarchy
 
@@ -22,9 +22,9 @@
 
 ###  constructor
 
-\+ **new Constructor**(...`value`: `Array<any>`): *`T`*
+\+ **new Constructor**(...`value`: *`Array<any>`*): *`T`*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/types.ts#L92)*
+*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/types.ts#L92)*
 
 **Parameters:**
 
@@ -34,14 +34,10 @@ Name | Type |
 
 **Returns:** *`T`*
 
-___
-
 ## Properties
 
 ### `Optional` Fallback
 
-● **Fallback**? : *[Constructor](_types_.constructor.md)‹*`T`*›*
+• **Fallback**? : *[Constructor](_types_.constructor.md)‹*`T`*›*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/types.ts#L92)*
-
-___
+*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/types.ts#L92)*

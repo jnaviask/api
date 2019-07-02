@@ -7,13 +7,13 @@ The Substrate BalanceLock for staking
 
 ## Type parameters
 
-■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+▪ **S**: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
-■` T`: *object*
+▪ **T**: *object*
 
-■` V`: *object*
+▪ **V**: *object*
 
-■` E`: *object*
+▪ **E**: *object*
 
 ## Hierarchy
 
@@ -58,11 +58,11 @@ The Substrate BalanceLock for staking
 
 ###  constructor
 
-\+ **new BalanceLock**(`value?`: any): *[BalanceLock](_type_balancelock_.balancelock.md)*
+\+ **new BalanceLock**(`value?`: *any*): *[BalanceLock](_type_balancelock_.balancelock.md)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [type/BalanceLock.ts:16](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/BalanceLock.ts#L16)*
+*Defined in [type/BalanceLock.ts:16](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/type/BalanceLock.ts#L16)*
 
 **Parameters:**
 
@@ -72,17 +72,15 @@ Name | Type |
 
 **Returns:** *[BalanceLock](_type_balancelock_.balancelock.md)*
 
-___
-
 ## Accessors
 
 ###  Type
 
-● **get Type**(): *`E`*
+• **get Type**(): *`E`*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L163)*
 
 **`description`** Returns the Type description to sthe structure
 
@@ -92,9 +90,9 @@ ___
 
 ###  amount
 
-● **get amount**(): *[Balance](_type_balance_.balance.md)*
+• **get amount**(): *[Balance](_type_balance_.balance.md)*
 
-*Defined in [type/BalanceLock.ts:29](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/BalanceLock.ts#L29)*
+*Defined in [type/BalanceLock.ts:29](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/type/BalanceLock.ts#L29)*
 
 **`description`** The amount
 
@@ -104,11 +102,11 @@ ___
 
 ###  encodedLength
 
-● **get encodedLength**(): *number*
+• **get encodedLength**(): *number*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L176)*
+*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L176)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -118,9 +116,9 @@ ___
 
 ###  id
 
-● **get id**(): *[LockIdentifier](_type_lockidentifier_.lockidentifier.md)*
+• **get id**(): *[LockIdentifier](_type_lockidentifier_.lockidentifier.md)*
 
-*Defined in [type/BalanceLock.ts:36](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/BalanceLock.ts#L36)*
+*Defined in [type/BalanceLock.ts:36](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/type/BalanceLock.ts#L36)*
 
 **`description`** The lock id
 
@@ -130,11 +128,11 @@ ___
 
 ###  isEmpty
 
-● **get isEmpty**(): *boolean*
+• **get isEmpty**(): *boolean*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L148)*
 
 **`description`** Checks if the value is an empty value
 
@@ -144,9 +142,9 @@ ___
 
 ###  reasons
 
-● **get reasons**(): *[WithdrawReasons](_type_withdrawreasons_.withdrawreasons.md)*
+• **get reasons**(): *[WithdrawReasons](_type_withdrawreasons_.withdrawreasons.md)*
 
-*Defined in [type/BalanceLock.ts:43](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/BalanceLock.ts#L43)*
+*Defined in [type/BalanceLock.ts:43](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/type/BalanceLock.ts#L43)*
 
 **`description`** The reasons
 
@@ -156,27 +154,25 @@ ___
 
 ###  until
 
-● **get until**(): *[BlockNumber](_type_blocknumber_.blocknumber.md)*
+• **get until**(): *[BlockNumber](_type_blocknumber_.blocknumber.md)*
 
-*Defined in [type/BalanceLock.ts:50](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/BalanceLock.ts#L50)*
+*Defined in [type/BalanceLock.ts:50](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/type/BalanceLock.ts#L50)*
 
 **`description`** Until when this is available
 
 **Returns:** *[BlockNumber](_type_blocknumber_.blocknumber.md)*
 
-___
-
 ## Methods
 
 ###  eq
 
-▸ **eq**(`other?`: any): *boolean*
+▸ **eq**(`other?`: *any*): *boolean*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L185)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -192,13 +188,13 @@ ___
 
 ###  get
 
-▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
+▸ **get**(`name`: *keyof S*): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
 
 *Overrides void*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L193)*
 
 **`description`** Returns a specific names entry in the structure
 
@@ -214,11 +210,11 @@ ___
 
 ###  getAtIndex
 
-▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
+▸ **getAtIndex**(`index`: *number*): *[Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L200)*
 
 **`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -238,7 +234,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L207)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -252,7 +248,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L214)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -268,7 +264,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L221)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -284,7 +280,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [codec/Struct.ts:237](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L237)*
+*Defined in [codec/Struct.ts:237](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L237)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -300,7 +296,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [codec/Struct.ts:250](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L250)*
+*Defined in [codec/Struct.ts:250](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L250)*
 
 **`description`** Returns the string representation of the value
 
@@ -310,13 +306,13 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L258)*
+*Defined in [codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L258)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -332,15 +328,15 @@ ___
 
 ### `Static` with
 
-▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
+▸ **with**<**S**>(`Types`: *`S`*): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#static-with)*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L123)*
 
 **Type parameters:**
 
-■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+▪ **S**: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
 **Parameters:**
 
@@ -349,5 +345,3 @@ Name | Type |
 `Types` | `S` |
 
 **Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
-
-___

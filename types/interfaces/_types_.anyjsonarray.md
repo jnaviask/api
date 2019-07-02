@@ -8,7 +8,7 @@
 
 ## Indexable
 
-● \[■&#x60; n&#x60;: *number*\]: [AnyJson](../modules/_types_.md#anyjson)
+● \[▪ **n**: *number*\]: [AnyJson](../modules/_types_.md#anyjson)
 
 ### Index
 
@@ -57,7 +57,7 @@
 
 ###  Array
 
-● **Array**: *`ArrayConstructor`*
+• **Array**: *`ArrayConstructor`*
 
 Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1368
 
@@ -65,15 +65,13 @@ ___
 
 ###  length
 
-● **length**: *number*
+• **length**: *number*
 
 *Inherited from void*
 
 Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es5.d.ts:1209
 
 Gets or sets the length of the array. This is a number one higher than the highest element defined in an array.
-
-___
 
 ## Methods
 
@@ -108,7 +106,7 @@ ___
 
 ###  concat
 
-▸ **concat**(...`items`: `ConcatArray<AnyJson>`[]): *[AnyJson](../modules/_types_.md#anyjson)[]*
+▸ **concat**(...`items`: *`ConcatArray<AnyJson>`[]*): *[AnyJson](../modules/_types_.md#anyjson)[]*
 
 *Inherited from void*
 
@@ -124,7 +122,7 @@ Name | Type | Description |
 
 **Returns:** *[AnyJson](../modules/_types_.md#anyjson)[]*
 
-▸ **concat**(...`items`: `T` | `ConcatArray<T>`[]): *[AnyJson](../modules/_types_.md#anyjson)[]*
+▸ **concat**(...`items`: *`T` | `ConcatArray<T>`[]*): *[AnyJson](../modules/_types_.md#anyjson)[]*
 
 *Inherited from void*
 
@@ -144,7 +142,7 @@ ___
 
 ###  copyWithin
 
-▸ **copyWithin**(`target`: number, `start`: number, `end?`: undefined | number): *this*
+▸ **copyWithin**(`target`: *number*, `start`: *number*, `end?`: *undefined | number*): *this*
 
 *Inherited from void*
 
@@ -181,7 +179,7 @@ ___
 
 ###  every
 
-▸ **every**(`callbackfn`: function, `thisArg?`: any): *boolean*
+▸ **every**(`callbackfn`: *function*, `thisArg?`: *any*): *boolean*
 
 *Inherited from void*
 
@@ -191,11 +189,11 @@ Determines whether all the members of an array satisfy the specified test.
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to three arguments. The every method calls the callbackfn function for each element in array1 until the callbackfn returns false, or until the end of the array.
 
-▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *unknown*
+▸ (`value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *unknown*
 
 **Parameters:**
 
@@ -205,7 +203,7 @@ Name | Type |
 `index` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
@@ -215,7 +213,7 @@ ___
 
 ###  fill
 
-▸ **fill**(`value`: [AnyJson](../modules/_types_.md#anyjson), `start?`: undefined | number, `end?`: undefined | number): *this*
+▸ **fill**(`value`: *[AnyJson](../modules/_types_.md#anyjson)*, `start?`: *undefined | number*, `end?`: *undefined | number*): *this*
 
 *Inherited from void*
 
@@ -237,7 +235,7 @@ ___
 
 ###  filter
 
-▸ **filter**<**S**>(`callbackfn`: function, `thisArg?`: any): *`S`[]*
+▸ **filter**<**S**>(`callbackfn`: *function*, `thisArg?`: *any*): *`S`[]*
 
 *Inherited from void*
 
@@ -247,15 +245,15 @@ Returns the elements of an array that meet the condition specified in a callback
 
 **Type parameters:**
 
-■` S`: *[AnyJson](../modules/_types_.md#anyjson)*
+▪ **S**: *[AnyJson](../modules/_types_.md#anyjson)*
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array.
 
-▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *boolean*
+▸ (`value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *boolean*
 
 **Parameters:**
 
@@ -265,13 +263,13 @@ Name | Type |
 `index` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
 **Returns:** *`S`[]*
 
-▸ **filter**(`callbackfn`: function, `thisArg?`: any): *[AnyJson](../modules/_types_.md#anyjson)[]*
+▸ **filter**(`callbackfn`: *function*, `thisArg?`: *any*): *[AnyJson](../modules/_types_.md#anyjson)[]*
 
 *Inherited from void*
 
@@ -281,11 +279,11 @@ Returns the elements of an array that meet the condition specified in a callback
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array.
 
-▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *unknown*
+▸ (`value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *unknown*
 
 **Parameters:**
 
@@ -295,7 +293,7 @@ Name | Type |
 `index` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
@@ -305,7 +303,7 @@ ___
 
 ###  find
 
-▸ **find**<**S**>(`predicate`: function, `thisArg?`: any): *`S` | undefined*
+▸ **find**<**S**>(`predicate`: *function*, `thisArg?`: *any*): *`S` | undefined*
 
 *Inherited from void*
 
@@ -316,17 +314,17 @@ otherwise.
 
 **Type parameters:**
 
-■` S`: *[AnyJson](../modules/_types_.md#anyjson)*
+▪ **S**: *[AnyJson](../modules/_types_.md#anyjson)*
 
 **Parameters:**
 
-■` predicate`: *function*
+▪ **predicate**: *function*
 
 find calls predicate once for each element of the array, in ascending
 order, until it finds one where predicate returns true. If such an element is found, find
 immediately returns that element value. Otherwise, find returns undefined.
 
-▸ (`this`: void, `value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `obj`: [AnyJson](../modules/_types_.md#anyjson)[]): *boolean*
+▸ (`this`: *void*, `value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `obj`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *boolean*
 
 **Parameters:**
 
@@ -337,14 +335,14 @@ Name | Type |
 `index` | number |
 `obj` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 If provided, it will be used as the this value for each invocation of
 predicate. If it is not provided, undefined is used instead.
 
 **Returns:** *`S` | undefined*
 
-▸ **find**(`predicate`: function, `thisArg?`: any): *[AnyJson](../modules/_types_.md#anyjson) | undefined*
+▸ **find**(`predicate`: *function*, `thisArg?`: *any*): *[AnyJson](../modules/_types_.md#anyjson) | undefined*
 
 *Inherited from void*
 
@@ -352,9 +350,9 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es
 
 **Parameters:**
 
-■` predicate`: *function*
+▪ **predicate**: *function*
 
-▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `obj`: [AnyJson](../modules/_types_.md#anyjson)[]): *unknown*
+▸ (`value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `obj`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *unknown*
 
 **Parameters:**
 
@@ -364,7 +362,7 @@ Name | Type |
 `index` | number |
 `obj` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 **Returns:** *[AnyJson](../modules/_types_.md#anyjson) | undefined*
 
@@ -372,7 +370,7 @@ ___
 
 ###  findIndex
 
-▸ **findIndex**(`predicate`: function, `thisArg?`: any): *number*
+▸ **findIndex**(`predicate`: *function*, `thisArg?`: *any*): *number*
 
 *Inherited from void*
 
@@ -383,13 +381,13 @@ otherwise.
 
 **Parameters:**
 
-■` predicate`: *function*
+▪ **predicate**: *function*
 
 find calls predicate once for each element of the array, in ascending
 order, until it finds one where predicate returns true. If such an element is found,
 findIndex immediately returns that element index. Otherwise, findIndex returns -1.
 
-▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `obj`: [AnyJson](../modules/_types_.md#anyjson)[]): *unknown*
+▸ (`value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `obj`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *unknown*
 
 **Parameters:**
 
@@ -399,7 +397,7 @@ Name | Type |
 `index` | number |
 `obj` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 If provided, it will be used as the this value for each invocation of
 predicate. If it is not provided, undefined is used instead.
@@ -410,7 +408,7 @@ ___
 
 ###  flat
 
-▸ **flat**<**U**>(`this`: `U`[][][][][][][][], `depth`: `7`): *`U`[]*
+▸ **flat**<**U**>(`this`: *`U`[][][][][][][][]*, `depth`: *`7`*): *`U`[]*
 
 *Inherited from void*
 
@@ -421,7 +419,7 @@ specified depth.
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
@@ -432,7 +430,7 @@ Name | Type | Description |
 
 **Returns:** *`U`[]*
 
-▸ **flat**<**U**>(`this`: `U`[][][][][][][], `depth`: `6`): *`U`[]*
+▸ **flat**<**U**>(`this`: *`U`[][][][][][][]*, `depth`: *`6`*): *`U`[]*
 
 *Inherited from void*
 
@@ -443,7 +441,7 @@ specified depth.
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
@@ -454,7 +452,7 @@ Name | Type | Description |
 
 **Returns:** *`U`[]*
 
-▸ **flat**<**U**>(`this`: `U`[][][][][][], `depth`: `5`): *`U`[]*
+▸ **flat**<**U**>(`this`: *`U`[][][][][][]*, `depth`: *`5`*): *`U`[]*
 
 *Inherited from void*
 
@@ -465,7 +463,7 @@ specified depth.
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
@@ -476,7 +474,7 @@ Name | Type | Description |
 
 **Returns:** *`U`[]*
 
-▸ **flat**<**U**>(`this`: `U`[][][][][], `depth`: `4`): *`U`[]*
+▸ **flat**<**U**>(`this`: *`U`[][][][][]*, `depth`: *`4`*): *`U`[]*
 
 *Inherited from void*
 
@@ -487,7 +485,7 @@ specified depth.
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
@@ -498,7 +496,7 @@ Name | Type | Description |
 
 **Returns:** *`U`[]*
 
-▸ **flat**<**U**>(`this`: `U`[][][][], `depth`: `3`): *`U`[]*
+▸ **flat**<**U**>(`this`: *`U`[][][][]*, `depth`: *`3`*): *`U`[]*
 
 *Inherited from void*
 
@@ -509,7 +507,7 @@ specified depth.
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
@@ -520,7 +518,7 @@ Name | Type | Description |
 
 **Returns:** *`U`[]*
 
-▸ **flat**<**U**>(`this`: `U`[][][], `depth`: `2`): *`U`[]*
+▸ **flat**<**U**>(`this`: *`U`[][][]*, `depth`: *`2`*): *`U`[]*
 
 *Inherited from void*
 
@@ -531,7 +529,7 @@ specified depth.
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
@@ -542,7 +540,7 @@ Name | Type | Description |
 
 **Returns:** *`U`[]*
 
-▸ **flat**<**U**>(`this`: `U`[][], `depth?`: undefined | `1`): *`U`[]*
+▸ **flat**<**U**>(`this`: *`U`[][]*, `depth?`: *undefined | `1`*): *`U`[]*
 
 *Inherited from void*
 
@@ -553,7 +551,7 @@ specified depth.
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
@@ -564,7 +562,7 @@ Name | Type | Description |
 
 **Returns:** *`U`[]*
 
-▸ **flat**<**U**>(`this`: `U`[], `depth`: `0`): *`U`[]*
+▸ **flat**<**U**>(`this`: *`U`[]*, `depth`: *`0`*): *`U`[]*
 
 *Inherited from void*
 
@@ -575,7 +573,7 @@ specified depth.
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
@@ -586,7 +584,7 @@ Name | Type | Description |
 
 **Returns:** *`U`[]*
 
-▸ **flat**<**U**>(`depth?`: undefined | number): *any[]*
+▸ **flat**<**U**>(`depth?`: *undefined | number*): *any[]*
 
 *Inherited from void*
 
@@ -597,7 +595,7 @@ specified depth. If no depth is provided, flat method defaults to the depth of 1
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
@@ -611,7 +609,7 @@ ___
 
 ###  flatMap
 
-▸ **flatMap**<**U**, **This**>(`callback`: function, `thisArg?`: [This]()): *`U`[]*
+▸ **flatMap**<**U**, **This**>(`callback`: *function*, `thisArg?`: *[This]()*): *`U`[]*
 
 *Inherited from void*
 
@@ -623,18 +621,18 @@ This is identical to a map followed by flat with depth 1.
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
-■` This`
+▪ **This**
 
 **Parameters:**
 
-■` callback`: *function*
+▪ **callback**: *function*
 
 A function that accepts up to three arguments. The flatMap method calls the
 callback function one time for each element in the array.
 
-▸ (`this`: `This`, `value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *`U` | `ReadonlyArray<U>`*
+▸ (`this`: *`This`*, `value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *`U` | `ReadonlyArray<U>`*
 
 **Parameters:**
 
@@ -645,7 +643,7 @@ Name | Type |
 `index` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *[This]()*
+▪`Optional`  **thisArg**: *[This]()*
 
 An object to which the this keyword can refer in the callback function. If
 thisArg is omitted, undefined is used as the this value.
@@ -656,7 +654,7 @@ ___
 
 ###  forEach
 
-▸ **forEach**(`callbackfn`: function, `thisArg?`: any): *void*
+▸ **forEach**(`callbackfn`: *function*, `thisArg?`: *any*): *void*
 
 *Inherited from void*
 
@@ -666,11 +664,11 @@ Performs the specified action for each element in an array.
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array.
 
-▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *void*
+▸ (`value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *void*
 
 **Parameters:**
 
@@ -680,7 +678,7 @@ Name | Type |
 `index` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
@@ -690,7 +688,7 @@ ___
 
 ###  includes
 
-▸ **includes**(`searchElement`: [AnyJson](../modules/_types_.md#anyjson), `fromIndex?`: undefined | number): *boolean*
+▸ **includes**(`searchElement`: *[AnyJson](../modules/_types_.md#anyjson)*, `fromIndex?`: *undefined | number*): *boolean*
 
 *Inherited from void*
 
@@ -711,7 +709,7 @@ ___
 
 ###  indexOf
 
-▸ **indexOf**(`searchElement`: [AnyJson](../modules/_types_.md#anyjson), `fromIndex?`: undefined | number): *number*
+▸ **indexOf**(`searchElement`: *[AnyJson](../modules/_types_.md#anyjson)*, `fromIndex?`: *undefined | number*): *number*
 
 *Inherited from void*
 
@@ -732,7 +730,7 @@ ___
 
 ###  join
 
-▸ **join**(`separator?`: undefined | string): *string*
+▸ **join**(`separator?`: *undefined | string*): *string*
 
 *Inherited from void*
 
@@ -766,7 +764,7 @@ ___
 
 ###  lastIndexOf
 
-▸ **lastIndexOf**(`searchElement`: [AnyJson](../modules/_types_.md#anyjson), `fromIndex?`: undefined | number): *number*
+▸ **lastIndexOf**(`searchElement`: *[AnyJson](../modules/_types_.md#anyjson)*, `fromIndex?`: *undefined | number*): *number*
 
 *Inherited from void*
 
@@ -787,7 +785,7 @@ ___
 
 ###  map
 
-▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *`U`[]*
+▸ **map**<**U**>(`callbackfn`: *function*, `thisArg?`: *any*): *`U`[]*
 
 *Inherited from void*
 
@@ -797,15 +795,15 @@ Calls a defined callback function on each element of an array, and returns an ar
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array.
 
-▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *`U`*
+▸ (`value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *`U`*
 
 **Parameters:**
 
@@ -815,7 +813,7 @@ Name | Type |
 `index` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
@@ -839,7 +837,7 @@ ___
 
 ###  push
 
-▸ **push**(...`items`: [AnyJson](../modules/_types_.md#anyjson)[]): *number*
+▸ **push**(...`items`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *number*
 
 *Inherited from void*
 
@@ -859,7 +857,7 @@ ___
 
 ###  reduce
 
-▸ **reduce**(`callbackfn`: function): *[AnyJson](../modules/_types_.md#anyjson)*
+▸ **reduce**(`callbackfn`: *function*): *[AnyJson](../modules/_types_.md#anyjson)*
 
 *Inherited from void*
 
@@ -869,11 +867,11 @@ Calls the specified callback function for all the elements in an array. The retu
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.
 
-▸ (`previousValue`: [AnyJson](../modules/_types_.md#anyjson), `currentValue`: [AnyJson](../modules/_types_.md#anyjson), `currentIndex`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *[AnyJson](../modules/_types_.md#anyjson)*
+▸ (`previousValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentIndex`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *[AnyJson](../modules/_types_.md#anyjson)*
 
 **Parameters:**
 
@@ -886,7 +884,7 @@ Name | Type |
 
 **Returns:** *[AnyJson](../modules/_types_.md#anyjson)*
 
-▸ **reduce**(`callbackfn`: function, `initialValue`: [AnyJson](../modules/_types_.md#anyjson)): *[AnyJson](../modules/_types_.md#anyjson)*
+▸ **reduce**(`callbackfn`: *function*, `initialValue`: *[AnyJson](../modules/_types_.md#anyjson)*): *[AnyJson](../modules/_types_.md#anyjson)*
 
 *Inherited from void*
 
@@ -894,9 +892,9 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
-▸ (`previousValue`: [AnyJson](../modules/_types_.md#anyjson), `currentValue`: [AnyJson](../modules/_types_.md#anyjson), `currentIndex`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *[AnyJson](../modules/_types_.md#anyjson)*
+▸ (`previousValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentIndex`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *[AnyJson](../modules/_types_.md#anyjson)*
 
 **Parameters:**
 
@@ -907,11 +905,11 @@ Name | Type |
 `currentIndex` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■` initialValue`: *[AnyJson](../modules/_types_.md#anyjson)*
+▪ **initialValue**: *[AnyJson](../modules/_types_.md#anyjson)*
 
 **Returns:** *[AnyJson](../modules/_types_.md#anyjson)*
 
-▸ **reduce**<**U**>(`callbackfn`: function, `initialValue`: `U`): *`U`*
+▸ **reduce**<**U**>(`callbackfn`: *function*, `initialValue`: *`U`*): *`U`*
 
 *Inherited from void*
 
@@ -921,15 +919,15 @@ Calls the specified callback function for all the elements in an array. The retu
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.
 
-▸ (`previousValue`: `U`, `currentValue`: [AnyJson](../modules/_types_.md#anyjson), `currentIndex`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *`U`*
+▸ (`previousValue`: *`U`*, `currentValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentIndex`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *`U`*
 
 **Parameters:**
 
@@ -940,7 +938,7 @@ Name | Type |
 `currentIndex` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■` initialValue`: *`U`*
+▪ **initialValue**: *`U`*
 
 If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.
 
@@ -950,7 +948,7 @@ ___
 
 ###  reduceRight
 
-▸ **reduceRight**(`callbackfn`: function): *[AnyJson](../modules/_types_.md#anyjson)*
+▸ **reduceRight**(`callbackfn`: *function*): *[AnyJson](../modules/_types_.md#anyjson)*
 
 *Inherited from void*
 
@@ -960,11 +958,11 @@ Calls the specified callback function for all the elements in an array, in desce
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.
 
-▸ (`previousValue`: [AnyJson](../modules/_types_.md#anyjson), `currentValue`: [AnyJson](../modules/_types_.md#anyjson), `currentIndex`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *[AnyJson](../modules/_types_.md#anyjson)*
+▸ (`previousValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentIndex`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *[AnyJson](../modules/_types_.md#anyjson)*
 
 **Parameters:**
 
@@ -977,7 +975,7 @@ Name | Type |
 
 **Returns:** *[AnyJson](../modules/_types_.md#anyjson)*
 
-▸ **reduceRight**(`callbackfn`: function, `initialValue`: [AnyJson](../modules/_types_.md#anyjson)): *[AnyJson](../modules/_types_.md#anyjson)*
+▸ **reduceRight**(`callbackfn`: *function*, `initialValue`: *[AnyJson](../modules/_types_.md#anyjson)*): *[AnyJson](../modules/_types_.md#anyjson)*
 
 *Inherited from void*
 
@@ -985,9 +983,9 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
-▸ (`previousValue`: [AnyJson](../modules/_types_.md#anyjson), `currentValue`: [AnyJson](../modules/_types_.md#anyjson), `currentIndex`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *[AnyJson](../modules/_types_.md#anyjson)*
+▸ (`previousValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentIndex`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *[AnyJson](../modules/_types_.md#anyjson)*
 
 **Parameters:**
 
@@ -998,11 +996,11 @@ Name | Type |
 `currentIndex` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■` initialValue`: *[AnyJson](../modules/_types_.md#anyjson)*
+▪ **initialValue**: *[AnyJson](../modules/_types_.md#anyjson)*
 
 **Returns:** *[AnyJson](../modules/_types_.md#anyjson)*
 
-▸ **reduceRight**<**U**>(`callbackfn`: function, `initialValue`: `U`): *`U`*
+▸ **reduceRight**<**U**>(`callbackfn`: *function*, `initialValue`: *`U`*): *`U`*
 
 *Inherited from void*
 
@@ -1012,15 +1010,15 @@ Calls the specified callback function for all the elements in an array, in desce
 
 **Type parameters:**
 
-■` U`
+▪ **U**
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.
 
-▸ (`previousValue`: `U`, `currentValue`: [AnyJson](../modules/_types_.md#anyjson), `currentIndex`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *`U`*
+▸ (`previousValue`: *`U`*, `currentValue`: *[AnyJson](../modules/_types_.md#anyjson)*, `currentIndex`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *`U`*
 
 **Parameters:**
 
@@ -1031,7 +1029,7 @@ Name | Type |
 `currentIndex` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■` initialValue`: *`U`*
+▪ **initialValue**: *`U`*
 
 If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.
 
@@ -1069,7 +1067,7 @@ ___
 
 ###  slice
 
-▸ **slice**(`start?`: undefined | number, `end?`: undefined | number): *[AnyJson](../modules/_types_.md#anyjson)[]*
+▸ **slice**(`start?`: *undefined | number*, `end?`: *undefined | number*): *[AnyJson](../modules/_types_.md#anyjson)[]*
 
 *Inherited from void*
 
@@ -1090,7 +1088,7 @@ ___
 
 ###  some
 
-▸ **some**(`callbackfn`: function, `thisArg?`: any): *boolean*
+▸ **some**(`callbackfn`: *function*, `thisArg?`: *any*): *boolean*
 
 *Inherited from void*
 
@@ -1100,11 +1098,11 @@ Determines whether the specified callback function returns true for any element 
 
 **Parameters:**
 
-■` callbackfn`: *function*
+▪ **callbackfn**: *function*
 
 A function that accepts up to three arguments. The some method calls the callbackfn function for each element in array1 until the callbackfn returns true, or until the end of the array.
 
-▸ (`value`: [AnyJson](../modules/_types_.md#anyjson), `index`: number, `array`: [AnyJson](../modules/_types_.md#anyjson)[]): *unknown*
+▸ (`value`: *[AnyJson](../modules/_types_.md#anyjson)*, `index`: *number*, `array`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *unknown*
 
 **Parameters:**
 
@@ -1114,7 +1112,7 @@ Name | Type |
 `index` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-■`Optional` ` thisArg`: *any*
+▪`Optional`  **thisArg**: *any*
 
 An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
@@ -1124,7 +1122,7 @@ ___
 
 ###  sort
 
-▸ **sort**(`compareFn?`: undefined | function): *this*
+▸ **sort**(`compareFn?`: *undefined | function*): *this*
 
 *Inherited from void*
 
@@ -1144,7 +1142,7 @@ ___
 
 ###  splice
 
-▸ **splice**(`start`: number, `deleteCount?`: undefined | number): *[AnyJson](../modules/_types_.md#anyjson)[]*
+▸ **splice**(`start`: *number*, `deleteCount?`: *undefined | number*): *[AnyJson](../modules/_types_.md#anyjson)[]*
 
 *Inherited from void*
 
@@ -1161,7 +1159,7 @@ Name | Type | Description |
 
 **Returns:** *[AnyJson](../modules/_types_.md#anyjson)[]*
 
-▸ **splice**(`start`: number, `deleteCount`: number, ...`items`: [AnyJson](../modules/_types_.md#anyjson)[]): *[AnyJson](../modules/_types_.md#anyjson)[]*
+▸ **splice**(`start`: *number*, `deleteCount`: *number*, ...`items`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *[AnyJson](../modules/_types_.md#anyjson)[]*
 
 *Inherited from void*
 
@@ -1211,7 +1209,7 @@ ___
 
 ###  unshift
 
-▸ **unshift**(...`items`: [AnyJson](../modules/_types_.md#anyjson)[]): *number*
+▸ **unshift**(...`items`: *[AnyJson](../modules/_types_.md#anyjson)[]*): *number*
 
 *Inherited from void*
 
@@ -1240,5 +1238,3 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es
 Returns an iterable of values in the array
 
 **Returns:** *`IterableIterator<AnyJson>`*
-
-___

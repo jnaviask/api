@@ -11,13 +11,13 @@ it needs to decoded in the specific defined order.
 
 ## Type parameters
 
-■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+▪ **S**: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
-■` T`: *object*
+▪ **T**: *object*
 
-■` V`: *object*
+▪ **V**: *object*
 
-■` E`: *object*
+▪ **E**: *object*
 
 ## Hierarchy
 
@@ -96,6 +96,12 @@ it needs to decoded in the specific defined order.
   * [ModuleMetadata](_metadata_v5_metadata_.modulemetadata.md)
 
   * [MetadataV5](_metadata_v5_metadata_.metadatav5.md)
+
+  * [ModuleConstantMetadata](_metadata_v6_constants_.moduleconstantmetadata.md)
+
+  * [ModuleMetadata](_metadata_v6_metadata_.modulemetadata.md)
+
+  * [MetadataV6](_metadata_v6_metadata_.metadatav6.md)
 
   * [AccountInfo](_primitive_accountinfo_.accountinfo.md)
 
@@ -216,9 +222,9 @@ it needs to decoded in the specific defined order.
 
 ###  constructor
 
-\+ **new Struct**(`Types`: `S`, `value`: `V` | `Map<any, any>` | `Array<any>`, `jsonMap`: `Map<keyof S, string>`): *[Struct](_codec_struct_.struct.md)*
+\+ **new Struct**(`Types`: *`S`*, `value`: *`V` | `Map<any, any>` | `Array<any>`*, `jsonMap`: *`Map<keyof S, string>`*): *[Struct](_codec_struct_.struct.md)*
 
-*Defined in [codec/Struct.ts:31](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L31)*
+*Defined in [codec/Struct.ts:31](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L31)*
 
 **Parameters:**
 
@@ -230,25 +236,21 @@ Name | Type | Default |
 
 **Returns:** *[Struct](_codec_struct_.struct.md)*
 
-___
-
 ## Properties
 
 ### `Static` Map
 
-■ **Map**: *`MapConstructor`*
+▪ **Map**: *`MapConstructor`*
 
 Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:36
-
-___
 
 ## Accessors
 
 ###  Type
 
-● **get Type**(): *`E`*
+• **get Type**(): *`E`*
 
-*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L163)*
 
 **`description`** Returns the Type description to sthe structure
 
@@ -258,9 +260,9 @@ ___
 
 ###  encodedLength
 
-● **get encodedLength**(): *number*
+• **get encodedLength**(): *number*
 
-*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L176)*
+*Defined in [codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L176)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -270,25 +272,23 @@ ___
 
 ###  isEmpty
 
-● **get isEmpty**(): *boolean*
+• **get isEmpty**(): *boolean*
 
-*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L148)*
 
 **`description`** Checks if the value is an empty value
 
 **Returns:** *boolean*
 
-___
-
 ## Methods
 
 ###  eq
 
-▸ **eq**(`other?`: any): *boolean*
+▸ **eq**(`other?`: *any*): *boolean*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L185)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -304,11 +304,11 @@ ___
 
 ###  get
 
-▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_.codec.md) | undefined*
+▸ **get**(`name`: *keyof S*): *[Codec](../interfaces/_types_.codec.md) | undefined*
 
 *Overrides void*
 
-*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L193)*
 
 **`description`** Returns a specific names entry in the structure
 
@@ -324,9 +324,9 @@ ___
 
 ###  getAtIndex
 
-▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_.codec.md)*
+▸ **getAtIndex**(`index`: *number*): *[Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L200)*
 
 **`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -344,7 +344,7 @@ ___
 
 ▸ **toArray**(): *`Array<Codec>`*
 
-*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L207)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -356,7 +356,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L214)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -370,7 +370,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L221)*
+*Defined in [codec/Struct.ts:221](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L221)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -384,7 +384,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Struct.ts:237](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L237)*
+*Defined in [codec/Struct.ts:237](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L237)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -398,7 +398,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Struct.ts:250](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L250)*
+*Defined in [codec/Struct.ts:250](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L250)*
 
 **`description`** Returns the string representation of the value
 
@@ -408,11 +408,11 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L258)*
+*Defined in [codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L258)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -428,13 +428,13 @@ ___
 
 ### `Static` with
 
-▸ **with**<**S**>(`Types`: `S`): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
+▸ **with**<**S**>(`Types`: *`S`*): *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
 
-*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Struct.ts#L123)*
 
 **Type parameters:**
 
-■` S`: *[ConstructorDef](../modules/_types_.md#constructordef)*
+▪ **S**: *[ConstructorDef](../modules/_types_.md#constructordef)*
 
 **Parameters:**
 
@@ -443,5 +443,3 @@ Name | Type |
 `Types` | `S` |
 
 **Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹*[Struct](_codec_struct_.struct.md)‹*`S`*›*›*
-
-___

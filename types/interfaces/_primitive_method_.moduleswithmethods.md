@@ -6,4 +6,4 @@
 
 ## Indexable
 
-● \[■&#x60; key&#x60;: *string*\]: [Methods](_primitive_method_.methods.md)
+● \[▪ **key**: *string*\]: [Methods](_primitive_method_.methods.md)

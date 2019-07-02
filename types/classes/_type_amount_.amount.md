@@ -31,13 +31,13 @@ The Substrate Amount representation as a [Balance](_type_balance_.balance.md).
 
 ###  constructor
 
-\+ **new Amount**(`value?`: [AnyNumber](../modules/_types_.md#anynumber)): *[Amount](_type_amount_.amount.md)*
+\+ **new Amount**(`value?`: *[AnyNumber](../modules/_types_.md#anynumber)*): *[Amount](_type_amount_.amount.md)*
 
 *Inherited from [U128](_primitive_u128_.u128.md).[constructor](_primitive_u128_.u128.md#constructor)*
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/U128.ts#L14)*
+*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/U128.ts#L14)*
 
 **Parameters:**
 
@@ -47,19 +47,17 @@ Name | Type |
 
 **Returns:** *[Amount](_type_amount_.amount.md)*
 
-___
-
 ## Methods
 
 ###  toHex
 
-▸ **toHex**(`isLe`: boolean): *string*
+▸ **toHex**(`isLe`: *boolean*): *string*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/UInt.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -83,7 +81,7 @@ ___
 
 *Overrides [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Defined in [type/Balance.ts:16](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/Balance.ts#L16)*
+*Defined in [type/Balance.ts:16](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/type/Balance.ts#L16)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -93,7 +91,7 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -101,7 +99,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/UInt.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -112,5 +110,3 @@ Name | Type | Description |
 `isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *`Uint8Array`*
-
-___

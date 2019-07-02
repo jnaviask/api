@@ -10,9 +10,9 @@
 
 ###  all
 
-▸ **all**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **all**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
 
-*Defined in [balances/all.ts:75](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/balances/all.ts#L75)*
+*Defined in [balances/all.ts:75](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/balances/all.ts#L75)*
 
 **`name`** all
 
@@ -23,7 +23,7 @@
 const ALICE = 'F7Hs';
 
 api.derive.balances.all(ALICE, ([accountId, lockedBalance]) => {
-console.log(`The account ${accountId} has a locked balance ${lockedBalance} units.`);
+  console.log(`The account ${accountId} has a locked balance ${lockedBalance} units.`);
 });
 ```
 
@@ -37,5 +37,3 @@ Name | Type |
 
 An object containing the combined results of the storage queries for
 all relevant fees as declared in the substrate chain spec.
-
-___

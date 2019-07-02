@@ -10,9 +10,9 @@
 
 ###  fees
 
-▸ **fees**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **fees**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
 
-*Defined in [balances/fees.ts:27](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/balances/fees.ts#L27)*
+*Defined in [balances/fees.ts:27](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/balances/fees.ts#L27)*
 
 **`name`** fees
 
@@ -21,7 +21,7 @@
 
 ```javascript
 api.derive.balances.fees(([creationFee, transferFee]) => {
-console.log(`The fee for creating a new account on this chain is ${creationFee} units. The fee required for making a transfer is ${transferFee} units.`);
+  console.log(`The fee for creating a new account on this chain is ${creationFee} units. The fee required for making a transfer is ${transferFee} units.`);
 });
 ```
 
@@ -35,5 +35,3 @@ Name | Type |
 
 An object containing the combined results of the storage queries for
 all relevant fees as declared in the substrate chain spec.
-
-___

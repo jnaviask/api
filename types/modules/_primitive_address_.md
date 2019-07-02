@@ -14,8 +14,6 @@
 
 ### `Const` ACCOUNT_ID_PREFIX
 
-● **ACCOUNT_ID_PREFIX**: *`Uint8Array`* =  new Uint8Array([0xff])
+• **ACCOUNT_ID_PREFIX**: *`Uint8Array`* =  new Uint8Array([0xff])
 
-*Defined in [primitive/Address.ts:16](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/primitive/Address.ts#L16)*
-
-___
+*Defined in [primitive/Address.ts:16](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/primitive/Address.ts#L16)*

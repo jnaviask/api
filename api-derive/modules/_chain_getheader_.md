@@ -10,9 +10,9 @@
 
 ###  getHeader
 
-▸ **getHeader**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **getHeader**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
 
-*Defined in [chain/getHeader.ts:28](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/chain/getHeader.ts#L28)*
+*Defined in [chain/getHeader.ts:28](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/chain/getHeader.ts#L28)*
 
 **`name`** bestNumberFinalized
 
@@ -36,5 +36,3 @@ Name | Type |
 **Returns:** *`(Anonymous function)`*
 
 An array containing the block header and the block author
-
-___

@@ -10,9 +10,9 @@
 
 ###  validateTypes
 
-▸ **validateTypes**(`types`: `Array<string>`, `throwError`: boolean): *void*
+▸ **validateTypes**(`types`: *`Array<string>`*, `throwError`: *boolean*): *void*
 
-*Defined in [Metadata/util/validateTypes.ts:11](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/Metadata/util/validateTypes.ts#L11)*
+*Defined in [Metadata/util/validateTypes.ts:11](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/Metadata/util/validateTypes.ts#L11)*
 
 **Parameters:**
 
@@ -22,5 +22,3 @@ Name | Type |
 `throwError` | boolean |
 
 **Returns:** *void*
-
-___

@@ -30,9 +30,9 @@
 
 ###  constructor
 
-\+ **new RxBase**(`api`: [ApiObject](../modules/_types_.md#apiobject)‹*"rxjs"*›, `abi`: [ContractABI](../modules/_types_.md#contractabi) | `Abi`): *[RxBase](_rxbase_.rxbase.md)*
+\+ **new RxBase**(`api`: *[ApiObject](../modules/_types_.md#apiobject)‹*"rxjs"*›*, `abi`: *[ContractABI](../modules/_types_.md#contractabi) | `Abi`*): *[RxBase](_rxbase_.rxbase.md)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBase.ts#L16)*
 
 **Parameters:**
 
@@ -43,36 +43,32 @@ Name | Type |
 
 **Returns:** *[RxBase](_rxbase_.rxbase.md)*
 
-___
-
 ## Properties
 
 ###  abi
 
-● **abi**: *`Abi`*
+• **abi**: *`Abi`*
 
 *Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[abi](../interfaces/_types_.icontractbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
 ###  api
 
-● **api**: *[ApiObject](../modules/_types_.md#apiobject)‹*"rxjs"*›*
+• **api**: *[ApiObject](../modules/_types_.md#apiobject)‹*"rxjs"*›*
 
 *Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[api](../interfaces/_types_.icontractbase.md#api)*
 
-*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBase.ts#L15)*
+*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBase.ts#L15)*
 
 ___
 
 ###  apiContracts
 
-● **apiContracts**: *`SubmittableModuleExtrinsics<"rxjs">`*
+• **apiContracts**: *`SubmittableModuleExtrinsics<"rxjs">`*
 
 *Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[apiContracts](../interfaces/_types_.icontractbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBase.ts#L16)*
-
-___
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBase.ts#L16)*

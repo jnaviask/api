@@ -8,4 +8,4 @@
 
 #### Interfaces
 
-* [StorageFunction](../interfaces/_primitive_storagekey_.storagefunction.md)
+* [StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md)

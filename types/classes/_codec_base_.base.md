@@ -6,7 +6,7 @@
 
 ## Type parameters
 
-■` T`
+▪ **T**
 
 ## Hierarchy
 
@@ -30,9 +30,9 @@
 
 ###  constructor
 
-\+ **new Base**(`value?`: any): *[Base](_codec_base_.base.md)*
+\+ **new Base**(`value?`: *any*): *[Base](_codec_base_.base.md)*
 
-*Defined in [codec/Base.ts:10](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Base.ts#L10)*
+*Defined in [codec/Base.ts:10](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Base.ts#L10)*
 
 **Parameters:**
 
@@ -41,5 +41,3 @@ Name | Type |
 `value?` | any |
 
 **Returns:** *[Base](_codec_base_.base.md)*
-
-___

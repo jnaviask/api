@@ -10,9 +10,9 @@
 
 ###  idToIndex
 
-▸ **idToIndex**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **idToIndex**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
 
-*Defined in [accounts/idToIndex.ts:27](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/accounts/idToIndex.ts#L27)*
+*Defined in [accounts/idToIndex.ts:27](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/accounts/idToIndex.ts#L27)*
 
 **`name`** idToIndex
 
@@ -22,7 +22,7 @@
 ```javascript
 const ALICE = '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY';
 api.derive.accounts.idToIndex(ALICE, (accountIndex) => {
-console.log(`The AccountIndex of ${ALICE} is ${accountIndex}`);
+  console.log(`The AccountIndex of ${ALICE} is ${accountIndex}`);
 });
 ```
 
@@ -35,5 +35,3 @@ Name | Type |
 **Returns:** *`(Anonymous function)`*
 
 Returns the corresponding AccountIndex.
-
-___

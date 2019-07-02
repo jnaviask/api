@@ -15,16 +15,14 @@
 
 ### `Optional` key
 
-● **key**? : *undefined | string*
+• **key**? : *undefined | string*
 
-*Defined in [fromMetadata/createFunction.ts:13](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/createFunction.ts#L13)*
+*Defined in [fromMetadata/createFunction.ts:13](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/createFunction.ts#L13)*
 
 ___
 
 ### `Optional` skipHashing
 
-● **skipHashing**? : *undefined | false | true*
+• **skipHashing**? : *undefined | false | true*
 
-*Defined in [fromMetadata/createFunction.ts:14](https://github.com/polkadot-js/api/blob/ffe1c71/packages/type-storage/src/fromMetadata/createFunction.ts#L14)*
-
-___
+*Defined in [fromMetadata/createFunction.ts:14](https://github.com/polkadot-js/api/blob/7229a5f/packages/type-storage/src/fromMetadata/createFunction.ts#L14)*

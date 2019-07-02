@@ -16,21 +16,19 @@
 
 Ƭ **AccountIndexes**: *object*
 
-*Defined in [accounts/indexes.ts:13](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/accounts/indexes.ts#L13)*
+*Defined in [accounts/indexes.ts:13](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/accounts/indexes.ts#L13)*
 
 #### Type declaration:
 
-● \[■&#x60; index&#x60;: *string*\]: `AccountIndex`
-
-___
+● \[▪ **index**: *string*\]: `AccountIndex`
 
 ## Functions
 
 ###  indexes
 
-▸ **indexes**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **indexes**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
 
-*Defined in [accounts/indexes.ts:32](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/accounts/indexes.ts#L32)*
+*Defined in [accounts/indexes.ts:32](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/accounts/indexes.ts#L32)*
 
 **`name`** indexes
 
@@ -43,7 +41,7 @@ on the number of active accounts in the system
 
 ```javascript
 api.derive.accounts.indexes((indexes) => {
-console.log('All existing AccountIndexes', indexes);
+  console.log('All existing AccountIndexes', indexes);
 });
 ```
 
@@ -56,5 +54,3 @@ Name | Type |
 **Returns:** *`(Anonymous function)`*
 
 Returns all the indexes on the system.
-
-___

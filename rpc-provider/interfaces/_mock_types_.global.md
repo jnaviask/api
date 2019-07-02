@@ -81,7 +81,7 @@
 
 ###  Array
 
-● **Array**: *`ArrayConstructor`*
+• **Array**: *`ArrayConstructor`*
 
 *Inherited from void*
 
@@ -91,7 +91,7 @@ ___
 
 ###  ArrayBuffer
 
-● **ArrayBuffer**: *`ArrayBufferConstructor`*
+• **ArrayBuffer**: *`ArrayBufferConstructor`*
 
 *Inherited from void*
 
@@ -101,7 +101,7 @@ ___
 
 ###  Boolean
 
-● **Boolean**: *`BooleanConstructor`*
+• **Boolean**: *`BooleanConstructor`*
 
 *Inherited from void*
 
@@ -111,7 +111,7 @@ ___
 
 ###  Buffer
 
-● **Buffer**: *object*
+• **Buffer**: *object*
 
 *Inherited from void*
 
@@ -123,7 +123,7 @@ ___
 
 ###  DataView
 
-● **DataView**: *`DataViewConstructor`*
+• **DataView**: *`DataViewConstructor`*
 
 *Inherited from void*
 
@@ -133,7 +133,7 @@ ___
 
 ###  Date
 
-● **Date**: *`DateConstructor`*
+• **Date**: *`DateConstructor`*
 
 *Inherited from void*
 
@@ -143,7 +143,7 @@ ___
 
 ###  Error
 
-● **Error**: *`ErrorConstructor`*
+• **Error**: *`ErrorConstructor`*
 
 *Inherited from void*
 
@@ -153,7 +153,7 @@ ___
 
 ###  EvalError
 
-● **EvalError**: *`EvalErrorConstructor`*
+• **EvalError**: *`EvalErrorConstructor`*
 
 *Inherited from void*
 
@@ -163,7 +163,7 @@ ___
 
 ###  Float32Array
 
-● **Float32Array**: *`Float32ArrayConstructor`*
+• **Float32Array**: *`Float32ArrayConstructor`*
 
 *Inherited from void*
 
@@ -173,7 +173,7 @@ ___
 
 ###  Float64Array
 
-● **Float64Array**: *`Float64ArrayConstructor`*
+• **Float64Array**: *`Float64ArrayConstructor`*
 
 *Inherited from void*
 
@@ -183,7 +183,7 @@ ___
 
 ###  Function
 
-● **Function**: *`FunctionConstructor`*
+• **Function**: *`FunctionConstructor`*
 
 *Inherited from void*
 
@@ -193,7 +193,7 @@ ___
 
 ###  GLOBAL
 
-● **GLOBAL**: *`Global`*
+• **GLOBAL**: *`Global`*
 
 *Inherited from void*
 
@@ -203,7 +203,7 @@ ___
 
 ###  Infinity
 
-● **Infinity**: *number*
+• **Infinity**: *number*
 
 *Inherited from void*
 
@@ -213,7 +213,7 @@ ___
 
 ###  Int16Array
 
-● **Int16Array**: *`Int16ArrayConstructor`*
+• **Int16Array**: *`Int16ArrayConstructor`*
 
 *Inherited from void*
 
@@ -223,7 +223,7 @@ ___
 
 ###  Int32Array
 
-● **Int32Array**: *`Int32ArrayConstructor`*
+• **Int32Array**: *`Int32ArrayConstructor`*
 
 *Inherited from void*
 
@@ -233,7 +233,7 @@ ___
 
 ###  Int8Array
 
-● **Int8Array**: *`Int8ArrayConstructor`*
+• **Int8Array**: *`Int8ArrayConstructor`*
 
 *Inherited from void*
 
@@ -243,7 +243,7 @@ ___
 
 ###  Intl
 
-● **Intl**: *`Intl`*
+• **Intl**: *`Intl`*
 
 *Inherited from void*
 
@@ -253,7 +253,7 @@ ___
 
 ###  JSON
 
-● **JSON**: *`JSON`*
+• **JSON**: *`JSON`*
 
 *Inherited from void*
 
@@ -263,7 +263,7 @@ ___
 
 ###  Map
 
-● **Map**: *`MapConstructor`*
+• **Map**: *`MapConstructor`*
 
 *Inherited from void*
 
@@ -273,7 +273,7 @@ ___
 
 ###  Math
 
-● **Math**: *`Math`*
+• **Math**: *`Math`*
 
 *Inherited from void*
 
@@ -283,7 +283,7 @@ ___
 
 ###  NaN
 
-● **NaN**: *number*
+• **NaN**: *number*
 
 *Inherited from void*
 
@@ -293,7 +293,7 @@ ___
 
 ###  Number
 
-● **Number**: *`NumberConstructor`*
+• **Number**: *`NumberConstructor`*
 
 *Inherited from void*
 
@@ -303,7 +303,7 @@ ___
 
 ###  Object
 
-● **Object**: *`ObjectConstructor`*
+• **Object**: *`ObjectConstructor`*
 
 *Inherited from void*
 
@@ -313,7 +313,7 @@ ___
 
 ###  Promise
 
-● **Promise**: *`Function`*
+• **Promise**: *`Function`*
 
 *Inherited from void*
 
@@ -323,7 +323,7 @@ ___
 
 ###  RangeError
 
-● **RangeError**: *`RangeErrorConstructor`*
+• **RangeError**: *`RangeErrorConstructor`*
 
 *Inherited from void*
 
@@ -333,7 +333,7 @@ ___
 
 ###  ReferenceError
 
-● **ReferenceError**: *`ReferenceErrorConstructor`*
+• **ReferenceError**: *`ReferenceErrorConstructor`*
 
 *Inherited from void*
 
@@ -343,7 +343,7 @@ ___
 
 ###  RegExp
 
-● **RegExp**: *`RegExpConstructor`*
+• **RegExp**: *`RegExpConstructor`*
 
 *Inherited from void*
 
@@ -353,7 +353,7 @@ ___
 
 ###  Set
 
-● **Set**: *`SetConstructor`*
+• **Set**: *`SetConstructor`*
 
 *Inherited from void*
 
@@ -363,7 +363,7 @@ ___
 
 ###  String
 
-● **String**: *`StringConstructor`*
+• **String**: *`StringConstructor`*
 
 *Inherited from void*
 
@@ -373,7 +373,7 @@ ___
 
 ###  Symbol
 
-● **Symbol**: *`Function`*
+• **Symbol**: *`Function`*
 
 *Inherited from void*
 
@@ -383,7 +383,7 @@ ___
 
 ###  SyntaxError
 
-● **SyntaxError**: *`SyntaxErrorConstructor`*
+• **SyntaxError**: *`SyntaxErrorConstructor`*
 
 *Inherited from void*
 
@@ -393,7 +393,7 @@ ___
 
 ###  TypeError
 
-● **TypeError**: *`TypeErrorConstructor`*
+• **TypeError**: *`TypeErrorConstructor`*
 
 *Inherited from void*
 
@@ -403,7 +403,7 @@ ___
 
 ###  URIError
 
-● **URIError**: *`URIErrorConstructor`*
+• **URIError**: *`URIErrorConstructor`*
 
 *Inherited from void*
 
@@ -413,7 +413,7 @@ ___
 
 ###  Uint16Array
 
-● **Uint16Array**: *`Uint16ArrayConstructor`*
+• **Uint16Array**: *`Uint16ArrayConstructor`*
 
 *Inherited from void*
 
@@ -423,7 +423,7 @@ ___
 
 ###  Uint32Array
 
-● **Uint32Array**: *`Uint32ArrayConstructor`*
+• **Uint32Array**: *`Uint32ArrayConstructor`*
 
 *Inherited from void*
 
@@ -433,7 +433,7 @@ ___
 
 ###  Uint8Array
 
-● **Uint8Array**: *`Uint8ArrayConstructor`*
+• **Uint8Array**: *`Uint8ArrayConstructor`*
 
 *Inherited from void*
 
@@ -443,7 +443,7 @@ ___
 
 ###  Uint8ClampedArray
 
-● **Uint8ClampedArray**: *`Function`*
+• **Uint8ClampedArray**: *`Function`*
 
 *Inherited from void*
 
@@ -453,7 +453,7 @@ ___
 
 ###  WeakMap
 
-● **WeakMap**: *`WeakMapConstructor`*
+• **WeakMap**: *`WeakMapConstructor`*
 
 *Inherited from void*
 
@@ -463,7 +463,7 @@ ___
 
 ###  WeakSet
 
-● **WeakSet**: *`WeakSetConstructor`*
+• **WeakSet**: *`WeakSetConstructor`*
 
 *Inherited from void*
 
@@ -473,15 +473,15 @@ ___
 
 ###  WebSocket
 
-● **WebSocket**: *`Constructor<WebSocket>`*
+• **WebSocket**: *`Constructor<WebSocket>`*
 
-*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/mock/types.ts#L9)*
+*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/mock/types.ts#L9)*
 
 ___
 
 ###  clearImmediate
 
-● **clearImmediate**: *function*
+• **clearImmediate**: *function*
 
 *Inherited from void*
 
@@ -489,7 +489,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`immediateId`: `Immediate`): *void*
+▸ (`immediateId`: *`Immediate`*): *void*
 
 **Parameters:**
 
@@ -501,7 +501,7 @@ ___
 
 ###  clearInterval
 
-● **clearInterval**: *function*
+• **clearInterval**: *function*
 
 *Inherited from void*
 
@@ -509,7 +509,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`intervalId`: `Timeout`): *void*
+▸ (`intervalId`: *`Timeout`*): *void*
 
 **Parameters:**
 
@@ -521,7 +521,7 @@ ___
 
 ###  clearTimeout
 
-● **clearTimeout**: *function*
+• **clearTimeout**: *function*
 
 *Inherited from void*
 
@@ -529,7 +529,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`timeoutId`: `Timeout`): *void*
+▸ (`timeoutId`: *`Timeout`*): *void*
 
 **Parameters:**
 
@@ -541,7 +541,7 @@ ___
 
 ###  console
 
-● **console**: *`Console`*
+• **console**: *`Console`*
 
 *Inherited from void*
 
@@ -551,7 +551,7 @@ ___
 
 ###  decodeURI
 
-● **decodeURI**: *`decodeURI`*
+• **decodeURI**: *`decodeURI`*
 
 *Inherited from void*
 
@@ -561,7 +561,7 @@ ___
 
 ###  decodeURIComponent
 
-● **decodeURIComponent**: *`decodeURIComponent`*
+• **decodeURIComponent**: *`decodeURIComponent`*
 
 *Inherited from void*
 
@@ -571,7 +571,7 @@ ___
 
 ###  encodeURI
 
-● **encodeURI**: *`encodeURI`*
+• **encodeURI**: *`encodeURI`*
 
 *Inherited from void*
 
@@ -581,7 +581,7 @@ ___
 
 ###  encodeURIComponent
 
-● **encodeURIComponent**: *`encodeURIComponent`*
+• **encodeURIComponent**: *`encodeURIComponent`*
 
 *Inherited from void*
 
@@ -591,7 +591,7 @@ ___
 
 ###  escape
 
-● **escape**: *function*
+• **escape**: *function*
 
 *Inherited from void*
 
@@ -599,7 +599,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`str`: string): *string*
+▸ (`str`: *string*): *string*
 
 **Parameters:**
 
@@ -611,7 +611,7 @@ ___
 
 ###  eval
 
-● **eval**: *`eval`*
+• **eval**: *`eval`*
 
 *Inherited from void*
 
@@ -621,15 +621,15 @@ ___
 
 ###  fetch
 
-● **fetch**: *`GlobalFetch`*
+• **fetch**: *`GlobalFetch`*
 
-*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/ffe1c71/packages/rpc-provider/src/mock/types.ts#L10)*
+*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/7229a5f/packages/rpc-provider/src/mock/types.ts#L10)*
 
 ___
 
 ###  gc
 
-● **gc**: *function*
+• **gc**: *function*
 
 *Inherited from void*
 
@@ -643,7 +643,7 @@ ___
 
 ###  global
 
-● **global**: *`Global`*
+• **global**: *`Global`*
 
 *Inherited from void*
 
@@ -653,7 +653,7 @@ ___
 
 ###  isFinite
 
-● **isFinite**: *`isFinite`*
+• **isFinite**: *`isFinite`*
 
 *Inherited from void*
 
@@ -663,7 +663,7 @@ ___
 
 ###  isNaN
 
-● **isNaN**: *`isNaN`*
+• **isNaN**: *`isNaN`*
 
 *Inherited from void*
 
@@ -673,7 +673,7 @@ ___
 
 ###  parseFloat
 
-● **parseFloat**: *`parseFloat`*
+• **parseFloat**: *`parseFloat`*
 
 *Inherited from void*
 
@@ -683,7 +683,7 @@ ___
 
 ###  parseInt
 
-● **parseInt**: *`parseInt`*
+• **parseInt**: *`parseInt`*
 
 *Inherited from void*
 
@@ -693,7 +693,7 @@ ___
 
 ###  process
 
-● **process**: *`Process`*
+• **process**: *`Process`*
 
 *Inherited from void*
 
@@ -703,7 +703,7 @@ ___
 
 ###  queueMicrotask
 
-● **queueMicrotask**: *`queueMicrotask`*
+• **queueMicrotask**: *`queueMicrotask`*
 
 *Inherited from void*
 
@@ -713,7 +713,7 @@ ___
 
 ###  root
 
-● **root**: *`Global`*
+• **root**: *`Global`*
 
 *Inherited from void*
 
@@ -723,7 +723,7 @@ ___
 
 ###  setImmediate
 
-● **setImmediate**: *function*
+• **setImmediate**: *function*
 
 *Inherited from void*
 
@@ -731,13 +731,13 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`callback`: function, ...`args`: any[]): *`Immediate`*
+▸ (`callback`: *function*, ...`args`: *any[]*): *`Immediate`*
 
 **Parameters:**
 
-■` callback`: *function*
+▪ **callback**: *function*
 
-▸ (...`args`: any[]): *void*
+▸ (...`args`: *any[]*): *void*
 
 **Parameters:**
 
@@ -745,13 +745,13 @@ Name | Type |
 ------ | ------ |
 `...args` | any[] |
 
-■`... args`: *any[]*
+▪... **args**: *any[]*
 
 ___
 
 ###  setInterval
 
-● **setInterval**: *function*
+• **setInterval**: *function*
 
 *Inherited from void*
 
@@ -759,13 +759,13 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`callback`: function, `ms`: number, ...`args`: any[]): *`Timeout`*
+▸ (`callback`: *function*, `ms`: *number*, ...`args`: *any[]*): *`Timeout`*
 
 **Parameters:**
 
-■` callback`: *function*
+▪ **callback**: *function*
 
-▸ (...`args`: any[]): *void*
+▸ (...`args`: *any[]*): *void*
 
 **Parameters:**
 
@@ -773,15 +773,15 @@ Name | Type |
 ------ | ------ |
 `...args` | any[] |
 
-■` ms`: *number*
+▪ **ms**: *number*
 
-■`... args`: *any[]*
+▪... **args**: *any[]*
 
 ___
 
 ###  setTimeout
 
-● **setTimeout**: *function*
+• **setTimeout**: *function*
 
 *Inherited from void*
 
@@ -789,13 +789,13 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`callback`: function, `ms`: number, ...`args`: any[]): *`Timeout`*
+▸ (`callback`: *function*, `ms`: *number*, ...`args`: *any[]*): *`Timeout`*
 
 **Parameters:**
 
-■` callback`: *function*
+▪ **callback**: *function*
 
-▸ (...`args`: any[]): *void*
+▸ (...`args`: *any[]*): *void*
 
 **Parameters:**
 
@@ -803,15 +803,15 @@ Name | Type |
 ------ | ------ |
 `...args` | any[] |
 
-■` ms`: *number*
+▪ **ms**: *number*
 
-■`... args`: *any[]*
+▪... **args**: *any[]*
 
 ___
 
 ###  undefined
 
-● **undefined**: *undefined*
+• **undefined**: *undefined*
 
 *Inherited from void*
 
@@ -821,7 +821,7 @@ ___
 
 ###  unescape
 
-● **unescape**: *function*
+• **unescape**: *function*
 
 *Inherited from void*
 
@@ -829,7 +829,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`str`: string): *string*
+▸ (`str`: *string*): *string*
 
 **Parameters:**
 
@@ -841,10 +841,8 @@ ___
 
 ### `Optional` v8debug
 
-● **v8debug**? : *any*
+• **v8debug**? : *any*
 
 *Inherited from void*
 
 Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d.ts:1096
-
-___

@@ -16,17 +16,15 @@
 
 Ƭ **AccountIdAndIndex**: *[undefined | `AccountId`, undefined | `AccountIndex`]*
 
-*Defined in [accounts/idAndIndex.ts:16](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/accounts/idAndIndex.ts#L16)*
-
-___
+*Defined in [accounts/idAndIndex.ts:16](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/accounts/idAndIndex.ts#L16)*
 
 ## Functions
 
 ###  idAndIndex
 
-▸ **idAndIndex**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **idAndIndex**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
 
-*Defined in [accounts/idAndIndex.ts:31](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-derive/src/accounts/idAndIndex.ts#L31)*
+*Defined in [accounts/idAndIndex.ts:31](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-derive/src/accounts/idAndIndex.ts#L31)*
 
 **`name`** idAndIndex
 
@@ -37,7 +35,7 @@ ___
 
 ```javascript
 api.derive.accounts.idAndIndex('F7Hs', ([id, ix]) => {
-console.log(`AccountId #${id} with corresponding AccountIndex ${ix}`);
+  console.log(`AccountId #${id} with corresponding AccountIndex ${ix}`);
 });
 ```
 
@@ -48,5 +46,3 @@ Name | Type |
 `api` | `ApiInterface$Rx` |
 
 **Returns:** *`(Anonymous function)`*
-
-___

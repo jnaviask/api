@@ -10,29 +10,29 @@
 
 ###  decorateSections
 
-▸ **decorateSections**<**ApiType**, **AllSections**>(`allSections`: `AllSections`, `decorateMethod`: function): *object*
+▸ **decorateSections**<**ApiType**, **AllSections**>(`allSections`: *`AllSections`*, `decorateMethod`: *function*): *object*
 
-*Defined in [util/decorate.ts:36](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api/src/util/decorate.ts#L36)*
+*Defined in [util/decorate.ts:36](https://github.com/polkadot-js/api/blob/7229a5f/packages/api/src/util/decorate.ts#L36)*
 
 This is a section decorator which keeps all type information.
 
 **Type parameters:**
 
-■` ApiType`
+▪ **ApiType**
 
-■` AllSections`: *object*
+▪ **AllSections**: *object*
 
 **Parameters:**
 
-■` allSections`: *`AllSections`*
+▪ **allSections**: *`AllSections`*
 
-■` decorateMethod`: *function*
+▪ **decorateMethod**: *function*
 
-▸ <**Method**>(`method`: `Method`): *[MethodResult](_types_.md#methodresult)‹*`ApiType`*, *`Method`*›*
+▸ <**Method**>(`method`: *`Method`*): *[MethodResult](_types_.md#methodresult)‹*`ApiType`*, *`Method`*›*
 
 **Type parameters:**
 
-■` Method`: *`AnyFunction`*
+▪ **Method**: *`AnyFunction`*
 
 **Parameters:**
 
@@ -41,5 +41,3 @@ Name | Type |
 `method` | `Method` |
 
 **Returns:** *object*
-
-___

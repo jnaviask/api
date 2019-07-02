@@ -31,11 +31,11 @@
 
 ###  constructor
 
-\+ **new Blueprint**(`api`: `ApiRx`, `abi`: [ContractABI](../modules/_types_.md#contractabi) | `Abi`, `codeHash`: string | `Hash`): *[Blueprint](_rxblueprint_.blueprint.md)*
+\+ **new Blueprint**(`api`: *`ApiRx`*, `abi`: *[ContractABI](../modules/_types_.md#contractabi) | `Abi`*, `codeHash`: *string | `Hash`*): *[Blueprint](_rxblueprint_.blueprint.md)*
 
 *Overrides [RxBase](_rxbase_.rxbase.md).[constructor](_rxbase_.rxbase.md#constructor)*
 
-*Defined in [RxBlueprint.ts:37](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBlueprint.ts#L37)*
+*Defined in [RxBlueprint.ts:37](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBlueprint.ts#L37)*
 
 **Parameters:**
 
@@ -47,61 +47,57 @@ Name | Type |
 
 **Returns:** *[Blueprint](_rxblueprint_.blueprint.md)*
 
-___
-
 ## Properties
 
 ###  abi
 
-● **abi**: *`Abi`*
+• **abi**: *`Abi`*
 
 *Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[abi](../interfaces/_types_.icontractbase.md#abi)*
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[abi](_rxbase_.rxbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
 ###  api
 
-● **api**: *[ApiObject](../modules/_types_.md#apiobject)‹*"rxjs"*›*
+• **api**: *[ApiObject](../modules/_types_.md#apiobject)‹*"rxjs"*›*
 
 *Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[api](../interfaces/_types_.icontractbase.md#api)*
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[api](_rxbase_.rxbase.md#api)*
 
-*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBase.ts#L15)*
+*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBase.ts#L15)*
 
 ___
 
 ###  apiContracts
 
-● **apiContracts**: *`SubmittableModuleExtrinsics<"rxjs">`*
+• **apiContracts**: *`SubmittableModuleExtrinsics<"rxjs">`*
 
 *Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[apiContracts](../interfaces/_types_.icontractbase.md#apicontracts)*
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[apiContracts](_rxbase_.rxbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBase.ts#L16)*
 
 ___
 
 ###  codeHash
 
-● **codeHash**: *`Hash`*
+• **codeHash**: *`Hash`*
 
-*Defined in [RxBlueprint.ts:37](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBlueprint.ts#L37)*
-
-___
+*Defined in [RxBlueprint.ts:37](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBlueprint.ts#L37)*
 
 ## Methods
 
 ###  deployContract
 
-▸ **deployContract**(`endowment`: number | `BN`, `maxGas`: number | `BN`, ...`params`: `Array<any>`): *[IBlueprintCreate](../interfaces/_rxblueprint_.iblueprintcreate.md)*
+▸ **deployContract**(`endowment`: *number | `BN`*, `maxGas`: *number | `BN`*, ...`params`: *`Array<any>`*): *[IBlueprintCreate](../interfaces/_rxblueprint_.iblueprintcreate.md)*
 
-*Defined in [RxBlueprint.ts:45](https://github.com/polkadot-js/api/blob/ffe1c71/packages/api-contract/src/RxBlueprint.ts#L45)*
+*Defined in [RxBlueprint.ts:45](https://github.com/polkadot-js/api/blob/7229a5f/packages/api-contract/src/RxBlueprint.ts#L45)*
 
 **Parameters:**
 
@@ -112,5 +108,3 @@ Name | Type |
 `...params` | `Array<any>` |
 
 **Returns:** *[IBlueprintCreate](../interfaces/_rxblueprint_.iblueprintcreate.md)*
-
-___

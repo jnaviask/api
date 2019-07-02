@@ -36,11 +36,11 @@ A number of lock periods, plus a vote, one way or the other.
 
 ###  constructor
 
-\+ **new Vote**(`value?`: any): *[Vote](_type_vote_.vote.md)*
+\+ **new Vote**(`value?`: *any*): *[Vote](_type_vote_.vote.md)*
 
 *Overrides [I8](_primitive_i8_.i8.md).[constructor](_primitive_i8_.i8.md#constructor)*
 
-*Defined in [type/Vote.ts:14](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/Vote.ts#L14)*
+*Defined in [type/Vote.ts:14](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/type/Vote.ts#L14)*
 
 **Parameters:**
 
@@ -50,15 +50,13 @@ Name | Type |
 
 **Returns:** *[Vote](_type_vote_.vote.md)*
 
-___
-
 ## Accessors
 
 ###  isAye
 
-● **get isAye**(): *boolean*
+• **get isAye**(): *boolean*
 
-*Defined in [type/Vote.ts:32](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/Vote.ts#L32)*
+*Defined in [type/Vote.ts:32](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/type/Vote.ts#L32)*
 
 **`description`** true is the wrapped value is a positive vote
 
@@ -68,27 +66,25 @@ ___
 
 ###  isNay
 
-● **get isNay**(): *boolean*
+• **get isNay**(): *boolean*
 
-*Defined in [type/Vote.ts:39](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/type/Vote.ts#L39)*
+*Defined in [type/Vote.ts:39](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/type/Vote.ts#L39)*
 
 **`description`** true is the wrapped value is a negative vote
 
 **Returns:** *boolean*
 
-___
-
 ## Methods
 
 ###  toHex
 
-▸ **toHex**(`isLe`: boolean): *string*
+▸ **toHex**(`isLe`: *boolean*): *string*
 
 *Inherited from [Int](_codec_int_.int.md).[toHex](_codec_int_.int.md#tohex)*
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Int.ts#L36)*
+*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Int.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -112,7 +108,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Int.ts#L47)*
+*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Int.ts#L47)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -122,7 +118,7 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -130,7 +126,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/ffe1c71/packages/types/src/codec/Int.ts#L55)*
+*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/7229a5f/packages/types/src/codec/Int.ts#L55)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -141,5 +137,3 @@ Name | Type | Description |
 `isBare?` | undefined \| false \| true | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *`Uint8Array`*
-
-___
