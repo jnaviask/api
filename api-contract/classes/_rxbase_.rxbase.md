@@ -32,7 +32,7 @@
 
 \+ **new RxBase**(`api`: *[ApiObject](../modules/_types_.md#apiobject)‹*"rxjs"*›*, `abi`: *[ContractABI](../modules/_types_.md#contractabi) | `Abi`*): *[RxBase](_rxbase_.rxbase.md)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/8c4320c/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/c47ed58/packages/api-contract/src/RxBase.ts#L16)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ Name | Type |
 
 *Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[abi](../interfaces/_types_.icontractbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/8c4320c/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/c47ed58/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 *Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[api](../interfaces/_types_.icontractbase.md#api)*
 
-*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/8c4320c/packages/api-contract/src/RxBase.ts#L15)*
+*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/c47ed58/packages/api-contract/src/RxBase.ts#L15)*
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 *Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[apiContracts](../interfaces/_types_.icontractbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/8c4320c/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/c47ed58/packages/api-contract/src/RxBase.ts#L16)*
