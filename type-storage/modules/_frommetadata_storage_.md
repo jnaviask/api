@@ -12,10 +12,10 @@
 
 ### ▪ **storage**: *object*
 
-*Defined in [fromMetadata/storage.ts:8](https://github.com/polkadot-js/api/blob/c47ed58/packages/type-storage/src/fromMetadata/storage.ts#L8)*
+*Defined in [fromMetadata/storage.ts:8](https://github.com/polkadot-js/api/blob/5a1c79a/packages/type-storage/src/fromMetadata/storage.ts#L8)*
 
 ###  substrate
 
 • **substrate**: *["fromMetadata/substrate"](_frommetadata_substrate_.md)*
 
-*Defined in [fromMetadata/storage.ts:9](https://github.com/polkadot-js/api/blob/c47ed58/packages/type-storage/src/fromMetadata/storage.ts#L9)*
+*Defined in [fromMetadata/storage.ts:9](https://github.com/polkadot-js/api/blob/5a1c79a/packages/type-storage/src/fromMetadata/storage.ts#L9)*
