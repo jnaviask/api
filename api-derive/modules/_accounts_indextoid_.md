@@ -12,7 +12,7 @@
 
 ▸ **indexToId**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*Defined in [accounts/indexToId.ts:26](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/accounts/indexToId.ts#L26)*
+*Defined in [accounts/indexToId.ts:26](https://github.com/polkadot-js/api/blob/9c48e40/packages/api-derive/src/accounts/indexToId.ts#L26)*
 
 **`name`** indexToId
 
