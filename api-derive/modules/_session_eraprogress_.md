@@ -10,9 +10,9 @@
 
 ###  eraProgress
 
-▸ **eraProgress**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
+▸ **eraProgress**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*Defined in [session/eraProgress.ts:13](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-derive/src/session/eraProgress.ts#L13)*
+*Defined in [session/eraProgress.ts:13](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/session/eraProgress.ts#L13)*
 
 **Parameters:**
 

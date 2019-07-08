@@ -11,9 +11,9 @@
 
 ###  constructInfo
 
-▸ **constructInfo**(`index`: *`BN` | number*, `optionInfo?`: *`Option<ReferendumInfo>`*): *`Option<ReferendumInfoExtended>`*
+▸ **constructInfo**(`index`: `BN` | number, `optionInfo?`: `Option<ReferendumInfo>`): *`Option<ReferendumInfoExtended>`*
 
-*Defined in [democracy/referendumInfo.ts:15](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-derive/src/democracy/referendumInfo.ts#L15)*
+*Defined in [democracy/referendumInfo.ts:15](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/democracy/referendumInfo.ts#L15)*
 
 **Parameters:**
 
@@ -28,9 +28,9 @@ ___
 
 ###  referendumInfo
 
-▸ **referendumInfo**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
+▸ **referendumInfo**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*Defined in [democracy/referendumInfo.ts:28](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-derive/src/democracy/referendumInfo.ts#L28)*
+*Defined in [democracy/referendumInfo.ts:28](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/democracy/referendumInfo.ts#L28)*
 
 **Parameters:**
 

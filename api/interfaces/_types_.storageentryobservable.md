@@ -6,9 +6,9 @@
 
 ## Callable
 
-▸ (`arg1?`: *`CodecArg`*, `arg2?`: *`CodecArg`*): *`Observable<Codec>`*
+▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<Codec>`*
 
-*Defined in [types.ts:90](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L90)*
+*Defined in [types.ts:90](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L90)*
 
 **Parameters:**
 
@@ -19,9 +19,9 @@ Name | Type |
 
 **Returns:** *`Observable<Codec>`*
 
-▸ <**T**>(`arg1?`: *`CodecArg`*, `arg2?`: *`CodecArg`*): *`Observable<T>`*
+▸ <**T**>(`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<T>`*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L91)*
+*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L91)*
 
 **Type parameters:**
 
@@ -53,11 +53,11 @@ Name | Type |
 
 • **at**: *function*
 
-*Defined in [types.ts:93](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L93)*
+*Defined in [types.ts:93](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L93)*
 
 #### Type declaration:
 
-▸ (`hash`: *`Hash` | `Uint8Array` | string*, `arg1?`: *`CodecArg`*, `arg2?`: *`CodecArg`*): *`Observable<Codec>`*
+▸ (`hash`: `Hash` | `Uint8Array` | string, `arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<Codec>`*
 
 **Parameters:**
 
@@ -73,7 +73,7 @@ ___
 
 • **creator**: *`StorageEntry`*
 
-*Defined in [types.ts:94](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L94)*
+*Defined in [types.ts:94](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L94)*
 
 ___
 
@@ -81,11 +81,11 @@ ___
 
 • **hash**: *function*
 
-*Defined in [types.ts:95](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L95)*
+*Defined in [types.ts:95](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L95)*
 
 #### Type declaration:
 
-▸ (`arg1?`: *`CodecArg`*, `arg2?`: *`CodecArg`*): *`Observable<Hash>`*
+▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<Hash>`*
 
 **Parameters:**
 
@@ -100,11 +100,11 @@ ___
 
 • **key**: *function*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L96)*
+*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L96)*
 
 #### Type declaration:
 
-▸ (`arg1?`: *`CodecArg`*, `arg2?`: *`CodecArg`*): *string*
+▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *string*
 
 **Parameters:**
 
@@ -119,11 +119,11 @@ ___
 
 • **multi**: *function*
 
-*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L97)*
+*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L97)*
 
 #### Type declaration:
 
-▸ (`args`: *`Array<CodecArg[] | CodecArg>`*): *`Observable<Codec>`*
+▸ (`args`: `Array<CodecArg[] | CodecArg>`): *`Observable<Codec>`*
 
 **Parameters:**
 
@@ -137,11 +137,11 @@ ___
 
 • **size**: *function*
 
-*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L98)*
+*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L98)*
 
 #### Type declaration:
 
-▸ (`arg1?`: *`CodecArg`*, `arg2?`: *`CodecArg`*): *`Observable<U64>`*
+▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<U64>`*
 
 **Parameters:**
 

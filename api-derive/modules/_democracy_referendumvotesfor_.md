@@ -10,9 +10,9 @@
 
 ###  referendumVotesFor
 
-▸ **referendumVotesFor**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
+▸ **referendumVotesFor**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*Defined in [democracy/referendumVotesFor.ts:16](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-derive/src/democracy/referendumVotesFor.ts#L16)*
+*Defined in [democracy/referendumVotesFor.ts:16](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/democracy/referendumVotesFor.ts#L16)*
 
 **Parameters:**
 

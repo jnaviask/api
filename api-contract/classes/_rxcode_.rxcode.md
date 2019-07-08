@@ -31,11 +31,11 @@
 
 ###  constructor
 
-\+ **new RxCode**(`api`: *`ApiRx`*, `abi`: *[ContractABI](../modules/_types_.md#contractabi) | `Abi`*, `wasm`: *string | `Uint8Array`*): *[RxCode](_rxcode_.rxcode.md)*
+\+ **new RxCode**(`api`: `ApiRx`, `abi`: [ContractABI](../modules/_types_.md#contractabi) | `Abi`, `wasm`: string | `Uint8Array`): *[RxCode](_rxcode_.rxcode.md)*
 
 *Overrides [RxBase](_rxbase_.rxbase.md).[constructor](_rxbase_.rxbase.md#constructor)*
 
-*Defined in [RxCode.ts:50](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/RxCode.ts#L50)*
+*Defined in [RxCode.ts:50](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/RxCode.ts#L50)*
 
 **Parameters:**
 
@@ -57,7 +57,7 @@ Name | Type |
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[abi](_rxbase_.rxbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[api](_rxbase_.rxbase.md#api)*
 
-*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/RxBase.ts#L15)*
+*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/RxBase.ts#L15)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[apiContracts](_rxbase_.rxbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/RxBase.ts#L16)*
 
 ___
 
@@ -89,15 +89,15 @@ ___
 
 • **code**: *`Uint8Array`*
 
-*Defined in [RxCode.ts:50](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/RxCode.ts#L50)*
+*Defined in [RxCode.ts:50](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/RxCode.ts#L50)*
 
 ## Methods
 
 ###  createBlueprint
 
-▸ **createBlueprint**(`maxGas`: *number | `BN`*): *[ICodePutCode](../interfaces/_rxcode_.icodeputcode.md)*
+▸ **createBlueprint**(`maxGas`: number | `BN`): *[ICodePutCode](../interfaces/_rxcode_.icodeputcode.md)*
 
-*Defined in [RxCode.ts:58](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/RxCode.ts#L58)*
+*Defined in [RxCode.ts:58](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/RxCode.ts#L58)*
 
 **Parameters:**
 

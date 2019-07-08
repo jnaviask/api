@@ -8,9 +8,9 @@
 
 ## Callable
 
-▸ (`arg1?`: *`CodecArg`*, `arg2?`: *`CodecArg`*): *`Promise<Codec>`*
+▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<Codec>`*
 
-*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L101)*
+*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L101)*
 
 **Parameters:**
 
@@ -21,9 +21,9 @@ Name | Type |
 
 **Returns:** *`Promise<Codec>`*
 
-▸ <**T**>(`arg1?`: *`CodecArg`*, `arg2?`: *`CodecArg`*): *`Promise<T>`*
+▸ <**T**>(`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Promise<T>`*
 
-*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L102)*
+*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L102)*
 
 **Type parameters:**
 
@@ -38,9 +38,9 @@ Name | Type |
 
 **Returns:** *`Promise<T>`*
 
-▸ <**T**>(`callback`: *`Callback<T>`*): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+▸ <**T**>(`callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L103)*
+*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L103)*
 
 **Type parameters:**
 
@@ -54,9 +54,9 @@ Name | Type |
 
 **Returns:** *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-▸ <**T**>(`arg`: *`CodecArg`*, `callback`: *`Callback<T>`*): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+▸ <**T**>(`arg`: `CodecArg`, `callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L104)*
+*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L104)*
 
 **Type parameters:**
 
@@ -71,9 +71,9 @@ Name | Type |
 
 **Returns:** *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-▸ <**T**>(`arg1`: *`CodecArg`*, `arg2`: *`CodecArg`*, `callback`: *`Callback<T>`*): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+▸ <**T**>(`arg1`: `CodecArg`, `arg2`: `CodecArg`, `callback`: `Callback<T>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L105)*
+*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L105)*
 
 **Type parameters:**
 

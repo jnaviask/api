@@ -475,7 +475,7 @@ ___
 
 • **WebSocket**: *`Constructor<WebSocket>`*
 
-*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/5a1c79a/packages/rpc-provider/src/mock/types.ts#L9)*
+*Defined in [mock/types.ts:9](https://github.com/polkadot-js/api/blob/ca00dbd/packages/rpc-provider/src/mock/types.ts#L9)*
 
 ___
 
@@ -489,7 +489,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`immediateId`: *`Immediate`*): *void*
+▸ (`immediateId`: `Immediate`): *void*
 
 **Parameters:**
 
@@ -509,7 +509,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`intervalId`: *`Timeout`*): *void*
+▸ (`intervalId`: `Timeout`): *void*
 
 **Parameters:**
 
@@ -529,7 +529,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`timeoutId`: *`Timeout`*): *void*
+▸ (`timeoutId`: `Timeout`): *void*
 
 **Parameters:**
 
@@ -599,7 +599,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`str`: *string*): *string*
+▸ (`str`: string): *string*
 
 **Parameters:**
 
@@ -623,7 +623,7 @@ ___
 
 • **fetch**: *`GlobalFetch`*
 
-*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/5a1c79a/packages/rpc-provider/src/mock/types.ts#L10)*
+*Defined in [mock/types.ts:10](https://github.com/polkadot-js/api/blob/ca00dbd/packages/rpc-provider/src/mock/types.ts#L10)*
 
 ___
 
@@ -731,13 +731,13 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`callback`: *function*, ...`args`: *any[]*): *`Immediate`*
+▸ (`callback`: function, ...`args`: any[]): *`Immediate`*
 
 **Parameters:**
 
 ▪ **callback**: *function*
 
-▸ (...`args`: *any[]*): *void*
+▸ (...`args`: any[]): *void*
 
 **Parameters:**
 
@@ -759,13 +759,13 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`callback`: *function*, `ms`: *number*, ...`args`: *any[]*): *`Timeout`*
+▸ (`callback`: function, `ms`: number, ...`args`: any[]): *`Timeout`*
 
 **Parameters:**
 
 ▪ **callback**: *function*
 
-▸ (...`args`: *any[]*): *void*
+▸ (...`args`: any[]): *void*
 
 **Parameters:**
 
@@ -789,13 +789,13 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`callback`: *function*, `ms`: *number*, ...`args`: *any[]*): *`Timeout`*
+▸ (`callback`: function, `ms`: number, ...`args`: any[]): *`Timeout`*
 
 **Parameters:**
 
 ▪ **callback**: *function*
 
-▸ (...`args`: *any[]*): *void*
+▸ (...`args`: any[]): *void*
 
 **Parameters:**
 
@@ -829,7 +829,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/@types/node/globals.d
 
 #### Type declaration:
 
-▸ (`str`: *string*): *string*
+▸ (`str`: string): *string*
 
 **Parameters:**
 

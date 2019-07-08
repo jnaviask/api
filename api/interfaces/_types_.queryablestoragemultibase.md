@@ -10,9 +10,9 @@
 
 ## Callable
 
-▸ (`calls`: *[QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)‹*`ApiType`*›*): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+▸ (`calls`: [QueryableStorageMultiArgs](../modules/_types_.md#queryablestoragemultiargs)‹*`ApiType`*›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [types.ts:133](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api/src/types.ts#L133)*
+*Defined in [types.ts:133](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api/src/types.ts#L133)*
 
 **Parameters:**
 

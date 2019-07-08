@@ -33,11 +33,11 @@ It is not to be used, since it created consensus mismatches.
 
 ###  constructor
 
-\+ **new USize**(`value?`: *any*): *[USize](_primitive_usize_.usize.md)*
+\+ **new USize**(`value?`: any): *[USize](_primitive_usize_.usize.md)*
 
 *Overrides [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
-*Defined in [primitive/USize.ts:14](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/primitive/USize.ts#L14)*
+*Defined in [primitive/USize.ts:14](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/primitive/USize.ts#L14)*
 
 **Parameters:**
 
@@ -51,13 +51,13 @@ Name | Type |
 
 ###  toHex
 
-▸ **toHex**(`isLe`: *boolean*): *string*
+▸ **toHex**(`isLe`: boolean): *string*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/UInt.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -79,7 +79,7 @@ ___
 
 *Overrides [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Defined in [primitive/USize.ts:24](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/primitive/USize.ts#L24)*
+*Defined in [primitive/USize.ts:24](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/primitive/USize.ts#L24)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -89,7 +89,7 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -97,7 +97,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/UInt.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

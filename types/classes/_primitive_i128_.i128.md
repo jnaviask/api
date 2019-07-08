@@ -31,11 +31,11 @@ A 128-bit signed integer
 
 ###  constructor
 
-\+ **new I128**(`value?`: *[AnyNumber](../modules/_types_.md#anynumber)*): *[I128](_primitive_i128_.i128.md)*
+\+ **new I128**(`value?`: [AnyNumber](../modules/_types_.md#anynumber)): *[I128](_primitive_i128_.i128.md)*
 
 *Overrides [Int](_codec_int_.int.md).[constructor](_codec_int_.int.md#constructor)*
 
-*Defined in [primitive/I128.ts:14](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/primitive/I128.ts#L14)*
+*Defined in [primitive/I128.ts:14](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/primitive/I128.ts#L14)*
 
 **Parameters:**
 
@@ -49,13 +49,13 @@ Name | Type |
 
 ###  toHex
 
-▸ **toHex**(`isLe`: *boolean*): *string*
+▸ **toHex**(`isLe`: boolean): *string*
 
 *Inherited from [Int](_codec_int_.int.md).[toHex](_codec_int_.int.md#tohex)*
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Int.ts#L36)*
+*Defined in [codec/Int.ts:36](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Int.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -79,7 +79,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Int.ts#L47)*
+*Defined in [codec/Int.ts:47](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Int.ts#L47)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -89,7 +89,7 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -97,7 +97,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Int.ts#L55)*
+*Defined in [codec/Int.ts:55](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Int.ts#L55)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

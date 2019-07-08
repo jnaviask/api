@@ -41,13 +41,13 @@ A 4-byte identifier (actually a [u8; 4]) identifying the engine, e.g. for Aura i
 
 ###  constructor
 
-\+ **new ConsensusEngineId**(`value?`: *[AnyNumber](../modules/_types_.md#anynumber)*): *[ConsensusEngineId](_rpc_digest_.consensusengineid.md)*
+\+ **new ConsensusEngineId**(`value?`: [AnyNumber](../modules/_types_.md#anynumber)): *[ConsensusEngineId](_rpc_digest_.consensusengineid.md)*
 
 *Inherited from [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/primitive/U32.ts#L14)*
+*Defined in [primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/primitive/U32.ts#L14)*
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ Name | Type |
 
 • **get isAura**(): *boolean*
 
-*Defined in [rpc/Digest.ts:64](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Digest.ts#L64)*
+*Defined in [rpc/Digest.ts:64](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Digest.ts#L64)*
 
 **`description`** `true` if the engine matches aura
 
@@ -75,7 +75,7 @@ ___
 
 • **get isBabe**(): *boolean*
 
-*Defined in [rpc/Digest.ts:71](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Digest.ts#L71)*
+*Defined in [rpc/Digest.ts:71](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Digest.ts#L71)*
 
 **`description`** `true` is the engine matches babe
 
@@ -87,7 +87,7 @@ ___
 
 • **get isGrandpa**(): *boolean*
 
-*Defined in [rpc/Digest.ts:78](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Digest.ts#L78)*
+*Defined in [rpc/Digest.ts:78](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Digest.ts#L78)*
 
 **`description`** `true` is the engine matches grandpa
 
@@ -97,9 +97,9 @@ ___
 
 ###  extractSlot
 
-▸ **extractSlot**(`bytes`: *[Bytes](_primitive_bytes_.bytes.md)*): *[U64](_primitive_u64_.u64.md)*
+▸ **extractSlot**(`bytes`: [Bytes](_primitive_bytes_.bytes.md)): *[U64](_primitive_u64_.u64.md)*
 
-*Defined in [rpc/Digest.ts:85](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Digest.ts#L85)*
+*Defined in [rpc/Digest.ts:85](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Digest.ts#L85)*
 
 **`description`** From the input bytes, decode into an aura-tuple
 
@@ -115,13 +115,13 @@ ___
 
 ###  toHex
 
-▸ **toHex**(`isLe`: *boolean*): *string*
+▸ **toHex**(`isLe`: boolean): *string*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/UInt.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -145,7 +145,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/UInt.ts#L48)*
+*Defined in [codec/UInt.ts:48](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/UInt.ts#L48)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -161,7 +161,7 @@ ___
 
 *Overrides void*
 
-*Defined in [rpc/Digest.ts:97](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Digest.ts#L97)*
+*Defined in [rpc/Digest.ts:97](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Digest.ts#L97)*
 
 **`description`** Override the default toString to return a 4-byte string
 
@@ -171,7 +171,7 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
@@ -179,7 +179,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/UInt.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -195,9 +195,9 @@ ___
 
 ### `Static` idToString
 
-▸ **idToString**(`input`: *number | `BN`*): *string*
+▸ **idToString**(`input`: number | `BN`): *string*
 
-*Defined in [rpc/Digest.ts:47](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Digest.ts#L47)*
+*Defined in [rpc/Digest.ts:47](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Digest.ts#L47)*
 
 **Parameters:**
 
@@ -211,9 +211,9 @@ ___
 
 ### `Static` stringToId
 
-▸ **stringToId**(`input`: *string*): *number*
+▸ **stringToId**(`input`: string): *number*
 
-*Defined in [rpc/Digest.ts:54](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Digest.ts#L54)*
+*Defined in [rpc/Digest.ts:54](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Digest.ts#L54)*
 
 **Parameters:**
 

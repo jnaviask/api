@@ -10,9 +10,9 @@
 
 ###  bestNumberFinalized
 
-▸ **bestNumberFinalized**(`api`: *`ApiInterface$Rx`*): *`(Anonymous function)`*
+▸ **bestNumberFinalized**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*Defined in [chain/bestNumberFinalized.ts:25](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-derive/src/chain/bestNumberFinalized.ts#L25)*
+*Defined in [chain/bestNumberFinalized.ts:25](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/chain/bestNumberFinalized.ts#L25)*
 
 **`name`** bestNumberFinalized
 

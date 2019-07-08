@@ -29,7 +29,7 @@
 
 Ƭ **ApiObject**: *`ApiObject<ApiType>`*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/types.ts#L11)*
+*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/types.ts#L11)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 Ƭ **ContractABI**: *object*
 
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/types.ts#L50)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/types.ts#L50)*
 
 #### Type declaration:
 
@@ -47,7 +47,7 @@ ___
 
 Ƭ **ContractABIArg**: *object*
 
-*Defined in [types.ts:34](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/types.ts#L34)*
+*Defined in [types.ts:34](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/types.ts#L34)*
 
 #### Type declaration:
 
@@ -57,7 +57,7 @@ ___
 
 Ƭ **ContractABIMethod**: *[ContractABIMethodBase](_types_.md#contractabimethodbase) & object*
 
-*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/types.ts#L43)*
+*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/types.ts#L43)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 Ƭ **ContractABIMethodBase**: *object*
 
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/types.ts#L39)*
+*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/types.ts#L39)*
 
 #### Type declaration:
 
@@ -75,7 +75,7 @@ ___
 
 Ƭ **ContractABITypes**: *string | [ContractABITypes$Struct](_types_.md#contractabitypes$struct) | `Array<string | ContractABITypes$Struct>`*
 
-*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/types.ts#L32)*
+*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/types.ts#L32)*
 
 ___
 
@@ -83,6 +83,6 @@ ___
 
 Ƭ **ContractABITypes$Struct**: *object*
 
-*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-contract/src/types.ts#L15)*
+*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-contract/src/types.ts#L15)*
 
 #### Type declaration:

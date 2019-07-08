@@ -6,9 +6,9 @@
 
 ## Callable
 
-▸ (...`params`: *`Array<any>`*): *`Observable<any>`*
+▸ (...`params`: `Array<any>`): *`Observable<any>`*
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/5a1c79a/packages/rpc-core/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/polkadot-js/api/blob/ca00dbd/packages/rpc-core/src/types.ts#L7)*
 
 **Parameters:**
 

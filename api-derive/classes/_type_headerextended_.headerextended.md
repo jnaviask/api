@@ -76,11 +76,11 @@ A [[Block]] header with an additional `author` field that indicates the block au
 
 ###  constructor
 
-\+ **new HeaderExtended**(`header`: *`Header` | null*, `sessionValidators`: *`Array<AccountId>`*): *[HeaderExtended](_type_headerextended_.headerextended.md)*
+\+ **new HeaderExtended**(`header`: `Header` | null, `sessionValidators`: `Array<AccountId>`): *[HeaderExtended](_type_headerextended_.headerextended.md)*
 
 *Overrides void*
 
-*Defined in [type/HeaderExtended.ts:14](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-derive/src/type/HeaderExtended.ts#L14)*
+*Defined in [type/HeaderExtended.ts:14](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/type/HeaderExtended.ts#L14)*
 
 **Parameters:**
 
@@ -119,7 +119,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L163)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:163](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L163)*
 
 **`description`** Returns the Type description to sthe structure
 
@@ -131,7 +131,7 @@ ___
 
 • **get author**(): *`AccountId` | undefined*
 
-*Defined in [type/HeaderExtended.ts:62](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-derive/src/type/HeaderExtended.ts#L62)*
+*Defined in [type/HeaderExtended.ts:62](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/type/HeaderExtended.ts#L62)*
 
 **`description`** Convenience method, returns the author for the block
 
@@ -145,7 +145,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:42](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Header.ts#L42)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:42](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Header.ts#L42)*
 
 **`description`** The wrapped [[BlockNumber]]
 
@@ -159,7 +159,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:49](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Header.ts#L49)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:49](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Header.ts#L49)*
 
 **`description`** The wrapped [[Digest]]
 
@@ -173,7 +173,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L176)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:176](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L176)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -187,7 +187,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:56](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Header.ts#L56)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:56](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Header.ts#L56)*
 
 **`description`** The wrapped extrisics root as a [[Hash]]
 
@@ -201,7 +201,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:63](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Header.ts#L63)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:63](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Header.ts#L63)*
 
 **`description`** Convenience method, encodes the header and calculates the [[Hash]]
 
@@ -215,7 +215,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L148)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:148](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L148)*
 
 **`description`** Checks if the value is an empty value
 
@@ -229,7 +229,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:72](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Header.ts#L72)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:72](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Header.ts#L72)*
 
 **`description`** Alias for `blockNumber` (this is displayed in JSON)
 
@@ -243,7 +243,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:79](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Header.ts#L79)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:79](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Header.ts#L79)*
 
 **`description`** The wrapped parent as a [[Hash]]
 
@@ -257,7 +257,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:86](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/rpc/Header.ts#L86)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/rpc/Header.ts:86](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/rpc/Header.ts#L86)*
 
 **`description`** The wrapped state root as a [[Hash]]
 
@@ -293,7 +293,7 @@ ___
 
 ###  delete
 
-▸ **delete**(`key`: *keyof S*): *boolean*
+▸ **delete**(`key`: keyof S): *boolean*
 
 *Inherited from void*
 
@@ -325,11 +325,11 @@ ___
 
 ###  eq
 
-▸ **eq**(`other?`: *any*): *boolean*
+▸ **eq**(`other?`: any): *boolean*
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L185)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:185](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L185)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -345,7 +345,7 @@ ___
 
 ###  forEach
 
-▸ **forEach**(`callbackfn`: *function*, `thisArg?`: *any*): *void*
+▸ **forEach**(`callbackfn`: function, `thisArg?`: any): *void*
 
 *Inherited from void*
 
@@ -355,7 +355,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es
 
 ▪ **callbackfn**: *function*
 
-▸ (`value`: *`Codec`*, `key`: *keyof S*, `map`: *`Map<keyof S, Codec>`*): *void*
+▸ (`value`: `Codec`, `key`: keyof S, `map`: `Map<keyof S, Codec>`): *void*
 
 **Parameters:**
 
@@ -373,13 +373,13 @@ ___
 
 ###  get
 
-▸ **get**(`name`: *keyof S*): *`Codec` | undefined*
+▸ **get**(`name`: keyof S): *`Codec` | undefined*
 
 *Inherited from void*
 
 *Overrides void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L193)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:193](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L193)*
 
 **`description`** Returns a specific names entry in the structure
 
@@ -395,11 +395,11 @@ ___
 
 ###  getAtIndex
 
-▸ **getAtIndex**(`index`: *number*): *`Codec`*
+▸ **getAtIndex**(`index`: number): *`Codec`*
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L200)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:200](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L200)*
 
 **`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -415,7 +415,7 @@ ___
 
 ###  has
 
-▸ **has**(`key`: *keyof S*): *boolean*
+▸ **has**(`key`: keyof S): *boolean*
 
 *Inherited from void*
 
@@ -447,7 +447,7 @@ ___
 
 ###  set
 
-▸ **set**(`key`: *keyof S*, `value`: *`Codec`*): *this*
+▸ **set**(`key`: keyof S, `value`: `Codec`): *this*
 
 *Inherited from void*
 
@@ -470,7 +470,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L207)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:207](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L207)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -484,7 +484,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L214)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:214](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L214)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -498,7 +498,7 @@ ___
 
 *Overrides void*
 
-*Defined in [type/HeaderExtended.ts:69](https://github.com/polkadot-js/api/blob/5a1c79a/packages/api-derive/src/type/HeaderExtended.ts#L69)*
+*Defined in [type/HeaderExtended.ts:69](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/type/HeaderExtended.ts#L69)*
 
 **`description`** Creates the JSON representation
 
@@ -512,7 +512,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:237](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L237)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:237](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L237)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -526,7 +526,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:250](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L250)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:250](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L250)*
 
 **`description`** Returns the string representation of the value
 
@@ -536,11 +536,11 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: *undefined | false | true*): *`Uint8Array`*
+▸ **toU8a**(`isBare?`: undefined | false | true): *`Uint8Array`*
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L258)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L258)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -570,11 +570,11 @@ ___
 
 ### `Static` with
 
-▸ **with**<**S**>(`Types`: *`S`*): *`Constructor<Struct<S>>`*
+▸ **with**<**S**>(`Types`: `S`): *`Constructor<Struct<S>>`*
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/codec/Struct.ts#L123)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/codec/Struct.ts:123](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/codec/Struct.ts#L123)*
 
 **Type parameters:**
 

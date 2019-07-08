@@ -10,9 +10,9 @@
 
 ###  flattenUniq
 
-▸ **flattenUniq**(`list`: *`Array<any>`*): *`Array<any>`*
+▸ **flattenUniq**(`list`: `Array<any>`): *`Array<any>`*
 
-*Defined in [Metadata/util/flattenUniq.ts:6](https://github.com/polkadot-js/api/blob/5a1c79a/packages/types/src/Metadata/util/flattenUniq.ts#L6)*
+*Defined in [Metadata/util/flattenUniq.ts:6](https://github.com/polkadot-js/api/blob/ca00dbd/packages/types/src/Metadata/util/flattenUniq.ts#L6)*
 
 **Parameters:**
 
