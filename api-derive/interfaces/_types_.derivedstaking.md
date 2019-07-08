@@ -26,7 +26,7 @@
 
 • **accountId**: *`AccountId`*
 
-*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L63)*
+*Defined in [types.ts:63](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L63)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **controllerId**? : *`AccountId`*
 
-*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L64)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **nextSessionId**? : *`AccountId`*
 
-*Defined in [types.ts:65](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L65)*
+*Defined in [types.ts:65](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L65)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **nominators**? : *`Array<AccountId>`*
 
-*Defined in [types.ts:66](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L66)*
+*Defined in [types.ts:66](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L66)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **redeemable**? : *`BN`*
 
-*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L67)*
+*Defined in [types.ts:67](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L67)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **rewardDestination**? : *`RewardDestination`*
 
-*Defined in [types.ts:68](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L68)*
+*Defined in [types.ts:68](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L68)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 • **stakers**? : *`Exposure`*
 
-*Defined in [types.ts:69](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L69)*
+*Defined in [types.ts:69](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L69)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 • **stakingLedger**? : *`StakingLedger`*
 
-*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L70)*
+*Defined in [types.ts:70](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L70)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 • **stashId**? : *`AccountId`*
 
-*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L71)*
+*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L71)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 • **unlocking**? : *[DerivedUnlocking](../modules/_types_.md#derivedunlocking)*
 
-*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L72)*
+*Defined in [types.ts:72](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L72)*
 
 ___
 
@@ -106,4 +106,4 @@ ___
 
 • **validatorPrefs**? : *`ValidatorPrefs`*
 
-*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/ca00dbd/packages/api-derive/src/types.ts#L73)*
+*Defined in [types.ts:73](https://github.com/polkadot-js/api/blob/2cacae1/packages/api-derive/src/types.ts#L73)*
