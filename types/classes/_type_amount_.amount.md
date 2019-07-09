@@ -37,7 +37,7 @@ The Substrate Amount representation as a [Balance](_type_balance_.balance.md).
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/9abbaab/packages/types/src/primitive/U128.ts#L14)*
+*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/01eaef2/packages/types/src/primitive/U128.ts#L14)*
 
 **Parameters:**
 
@@ -57,7 +57,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/9abbaab/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/01eaef2/packages/types/src/codec/UInt.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -81,7 +81,7 @@ ___
 
 *Overrides [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Defined in [type/Balance.ts:16](https://github.com/polkadot-js/api/blob/9abbaab/packages/types/src/type/Balance.ts#L16)*
+*Defined in [type/Balance.ts:16](https://github.com/polkadot-js/api/blob/01eaef2/packages/types/src/type/Balance.ts#L16)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -99,7 +99,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/9abbaab/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/01eaef2/packages/types/src/codec/UInt.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
