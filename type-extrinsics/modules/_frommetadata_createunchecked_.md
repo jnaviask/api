@@ -12,7 +12,7 @@
 
 ▸ **createDescriptor**(`section`: string, `sectionIndex`: number, `methodIndex`: number, `callMetadata`: `FunctionMetadata`): *`MethodFunction`*
 
-*Defined in [fromMetadata/createUnchecked.ts:19](https://github.com/polkadot-js/api/blob/9c48e40/packages/type-extrinsics/src/fromMetadata/createUnchecked.ts#L19)*
+*Defined in [fromMetadata/createUnchecked.ts:19](https://github.com/polkadot-js/api/blob/e7eeeae/packages/type-extrinsics/src/fromMetadata/createUnchecked.ts#L19)*
 
 From the metadata of a function in the module's storage, generate the function
 that will return the an [[MethodFunction]].

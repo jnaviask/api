@@ -193,6 +193,7 @@
 * ["type/StoredPendingChange"](modules/_type_storedpendingchange_.md)
 * ["type/SubId"](modules/_type_subid_.md)
 * ["type/TreasuryProposal"](modules/_type_treasuryproposal_.md)
+* ["type/UncleEntryItem"](modules/_type_uncleentryitem_.md)
 * ["type/UnlockChunk"](modules/_type_unlockchunk_.md)
 * ["type/UpwardMessage"](modules/_type_upwardmessage_.md)
 * ["type/ValidatorPrefs"](modules/_type_validatorprefs_.md)
