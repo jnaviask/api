@@ -196,6 +196,7 @@
 * ["type/UncleEntryItem"](modules/_type_uncleentryitem_.md)
 * ["type/UnlockChunk"](modules/_type_unlockchunk_.md)
 * ["type/UpwardMessage"](modules/_type_upwardmessage_.md)
+* ["type/ValidatorId"](modules/_type_validatorid_.md)
 * ["type/ValidatorPrefs"](modules/_type_validatorprefs_.md)
 * ["type/VestingSchedule"](modules/_type_vestingschedule_.md)
 * ["type/Vote"](modules/_type_vote_.md)
