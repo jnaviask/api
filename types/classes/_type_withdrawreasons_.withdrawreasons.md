@@ -66,7 +66,7 @@ The Substrate WithdrawReasons for staking
 
 *Overrides [CodecSet](_codec_set_.codecset.md).[constructor](_codec_set_.codecset.md#constructor)*
 
-*Defined in [type/WithdrawReasons.ts:12](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/type/WithdrawReasons.ts#L12)*
+*Defined in [type/WithdrawReasons.ts:12](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/type/WithdrawReasons.ts#L12)*
 
 **Parameters:**
 
@@ -104,7 +104,7 @@ Defined in /home/travis/build/polkadot-js/api/node_modules/typescript/lib/lib.es
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[encodedLength](_codec_set_.codecset.md#encodedlength)*
 
-*Defined in [codec/Set.ts:73](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L73)*
+*Defined in [codec/Set.ts:73](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L73)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -118,7 +118,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[isEmpty](_codec_set_.codecset.md#isempty)*
 
-*Defined in [codec/Set.ts:80](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L80)*
+*Defined in [codec/Set.ts:80](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L80)*
 
 **`description`** true is the Set contains no values
 
@@ -130,7 +130,7 @@ ___
 
 • **get isFee**(): *boolean*
 
-*Defined in [type/WithdrawReasons.ts:46](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/type/WithdrawReasons.ts#L46)*
+*Defined in [type/WithdrawReasons.ts:46](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/type/WithdrawReasons.ts#L46)*
 
 **`description`** /// In order to pay some other (higher-level) fees.
 
@@ -142,7 +142,7 @@ ___
 
 • **get isReserve**(): *boolean*
 
-*Defined in [type/WithdrawReasons.ts:25](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/type/WithdrawReasons.ts#L25)*
+*Defined in [type/WithdrawReasons.ts:25](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/type/WithdrawReasons.ts#L25)*
 
 **`description`** In order to reserve some funds for a later return or repatriation
 
@@ -154,7 +154,7 @@ ___
 
 • **get isTransactionPayment**(): *boolean*
 
-*Defined in [type/WithdrawReasons.ts:32](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/type/WithdrawReasons.ts#L32)*
+*Defined in [type/WithdrawReasons.ts:32](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/type/WithdrawReasons.ts#L32)*
 
 **`description`** In order to pay for (system) transaction costs
 
@@ -166,7 +166,7 @@ ___
 
 • **get isTransfer**(): *boolean*
 
-*Defined in [type/WithdrawReasons.ts:39](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/type/WithdrawReasons.ts#L39)*
+*Defined in [type/WithdrawReasons.ts:39](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/type/WithdrawReasons.ts#L39)*
 
 **`description`** In order to transfer ownership
 
@@ -180,7 +180,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[strings](_codec_set_.codecset.md#strings)*
 
-*Defined in [codec/Set.ts:87](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L87)*
+*Defined in [codec/Set.ts:87](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L87)*
 
 **`description`** The actual set values as a Array<string>
 
@@ -194,7 +194,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[valueEncoded](_codec_set_.codecset.md#valueencoded)*
 
-*Defined in [codec/Set.ts:94](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L94)*
+*Defined in [codec/Set.ts:94](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L94)*
 
 **`description`** The encoded value for the set members
 
@@ -224,7 +224,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Set.ts:101](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L101)*
+*Defined in [codec/Set.ts:101](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L101)*
 
 **`description`** adds a value to the Set (extended to allow for validity checking)
 
@@ -290,7 +290,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[eq](_codec_set_.codecset.md#eq)*
 
-*Defined in [codec/Set.ts:114](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L114)*
+*Defined in [codec/Set.ts:114](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L114)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -370,7 +370,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toHex](_codec_set_.codecset.md#tohex)*
 
-*Defined in [codec/Set.ts:130](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L130)*
+*Defined in [codec/Set.ts:130](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L130)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -386,7 +386,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toJSON](_codec_set_.codecset.md#tojson)*
 
-*Defined in [codec/Set.ts:137](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L137)*
+*Defined in [codec/Set.ts:137](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L137)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -400,7 +400,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toNumber](_codec_set_.codecset.md#tonumber)*
 
-*Defined in [codec/Set.ts:144](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L144)*
+*Defined in [codec/Set.ts:144](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L144)*
 
 **`description`** The encoded value for the set members
 
@@ -416,7 +416,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toRawType](_codec_set_.codecset.md#torawtype)*
 
-*Defined in [codec/Set.ts:151](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L151)*
+*Defined in [codec/Set.ts:151](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L151)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -432,7 +432,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toString](_codec_set_.codecset.md#tostring)*
 
-*Defined in [codec/Set.ts:159](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L159)*
+*Defined in [codec/Set.ts:159](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L159)*
 
 **`description`** Returns the string representation of the value
 
@@ -448,7 +448,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toU8a](_codec_set_.codecset.md#tou8a)*
 
-*Defined in [codec/Set.ts:167](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L167)*
+*Defined in [codec/Set.ts:167](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L167)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -482,7 +482,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[decodeSet](_codec_set_.codecset.md#static-decodeset)*
 
-*Defined in [codec/Set.ts:32](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L32)*
+*Defined in [codec/Set.ts:32](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L32)*
 
 **Parameters:**
 
@@ -501,7 +501,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[encodeSet](_codec_set_.codecset.md#static-encodeset)*
 
-*Defined in [codec/Set.ts:64](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/codec/Set.ts#L64)*
+*Defined in [codec/Set.ts:64](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/Set.ts#L64)*
 
 **Parameters:**
 

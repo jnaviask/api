@@ -152,6 +152,7 @@
 * ["type/Extrinsic"](modules/_type_extrinsic_.md)
 * ["type/ExtrinsicEra"](modules/_type_extrinsicera_.md)
 * ["type/ExtrinsicSignature"](modules/_type_extrinsicsignature_.md)
+* ["type/ExtrinsicV1"](modules/_type_extrinsicv1_.md)
 * ["type/Extrinsics"](modules/_type_extrinsics_.md)
 * ["type/Gas"](modules/_type_gas_.md)
 * ["type/IncomingParachain"](modules/_type_incomingparachain_.md)

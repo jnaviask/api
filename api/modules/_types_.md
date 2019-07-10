@@ -43,7 +43,7 @@
 
 Ƭ **ApiInterface$Events**: *`ProviderInterface$Emitted` | "ready"*
 
-*Defined in [types.ts:215](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L215)*
+*Defined in [types.ts:215](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L215)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 Ƭ **ApiTypes**: *"promise" | "rxjs"*
 
-*Defined in [types.ts:217](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L217)*
+*Defined in [types.ts:217](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L217)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 Ƭ **DecorateMethodOptions**: *object*
 
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L39)*
+*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L39)*
 
 #### Type declaration:
 
@@ -69,7 +69,7 @@ ___
 
 Ƭ **MethodResult**: *`MethodResult<ApiType, F>`*
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L57)*
+*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L57)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 Ƭ **ObsInnerType**: *`ObsInnerType<O>`*
 
-*Defined in [types.ts:33](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L33)*
+*Defined in [types.ts:33](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L33)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 Ƭ **PromiseResult**: *function*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L52)*
 
 #### Type declaration:
 
@@ -111,7 +111,7 @@ ___
 
 Ƭ **QueryableStorageEntry**: *`QueryableStorageEntry<ApiType>`*
 
-*Defined in [types.ts:124](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L124)*
+*Defined in [types.ts:124](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L124)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 Ƭ **QueryableStorageMulti**: *`QueryableStorageMulti<ApiType>`*
 
-*Defined in [types.ts:147](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L147)*
+*Defined in [types.ts:147](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L147)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 Ƭ **QueryableStorageMultiArg**: *[QueryableStorageEntry](_types_.md#queryablestorageentry)‹*`ApiType`*› | [[QueryableStorageEntry](_types_.md#queryablestorageentry)‹*`ApiType`*›, `Array`]*
 
-*Defined in [types.ts:133](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L133)*
+*Defined in [types.ts:133](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L133)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 Ƭ **QueryableStorageMultiArgs**: *`Array<QueryableStorageMultiArg<ApiType>>`*
 
-*Defined in [types.ts:137](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L137)*
+*Defined in [types.ts:137](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L137)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 Ƭ **RxResult**: *function*
 
-*Defined in [types.ts:51](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L51)*
+*Defined in [types.ts:51](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L51)*
 
 #### Type declaration:
 
@@ -161,7 +161,7 @@ ___
 
 Ƭ **SignerOptions**: *`SignatureOptions` & object*
 
-*Defined in [types.ts:219](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L219)*
+*Defined in [types.ts:219](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L219)*
 
 ___
 
@@ -169,4 +169,4 @@ ___
 
 Ƭ **UnsubscribePromise**: *`Promise<function>`*
 
-*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/1a80bde/packages/api/src/types.ts#L35)*
+*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/2f157cf/packages/api/src/types.ts#L35)*

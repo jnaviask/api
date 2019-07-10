@@ -12,7 +12,7 @@
 
 ▸ **validateTypes**(`types`: `Array<string>`, `throwError`: boolean): *void*
 
-*Defined in [Metadata/util/validateTypes.ts:11](https://github.com/polkadot-js/api/blob/1a80bde/packages/types/src/Metadata/util/validateTypes.ts#L11)*
+*Defined in [Metadata/util/validateTypes.ts:11](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/Metadata/util/validateTypes.ts#L11)*
 
 **Parameters:**
 
