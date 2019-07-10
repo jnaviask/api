@@ -3,11 +3,11 @@
 **`name`** Amount
 
 **`description`** 
-The Substrate Amount representation as a [Balance](_type_balance_.balance.md).
+The Substrate Amount representation as a [Balance](_primitive_balance_.balance.md).
 
 ## Hierarchy
 
-  * [Balance](_type_balance_.balance.md)
+  * [Balance](_primitive_balance_.balance.md)
 
   * **Amount**
 
@@ -37,7 +37,7 @@ The Substrate Amount representation as a [Balance](_type_balance_.balance.md).
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/primitive/U128.ts#L14)*
+*Defined in [primitive/U128.ts:14](https://github.com/polkadot-js/api/blob/1393c8c/packages/types/src/primitive/U128.ts#L14)*
 
 **Parameters:**
 
@@ -57,7 +57,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/UInt.ts#L36)*
+*Defined in [codec/UInt.ts:36](https://github.com/polkadot-js/api/blob/1393c8c/packages/types/src/codec/UInt.ts#L36)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -77,11 +77,11 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Inherited from [Balance](_type_balance_.balance.md).[toRawType](_type_balance_.balance.md#torawtype)*
+*Inherited from [Balance](_primitive_balance_.balance.md).[toRawType](_primitive_balance_.balance.md#torawtype)*
 
 *Overrides [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Defined in [type/Balance.ts:16](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/type/Balance.ts#L16)*
+*Defined in [primitive/Balance.ts:16](https://github.com/polkadot-js/api/blob/1393c8c/packages/types/src/primitive/Balance.ts#L16)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -99,7 +99,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/2f157cf/packages/types/src/codec/UInt.ts#L56)*
+*Defined in [codec/UInt.ts:56](https://github.com/polkadot-js/api/blob/1393c8c/packages/types/src/codec/UInt.ts#L56)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
