@@ -16,6 +16,6 @@
 
 Ƭ **ExtrinsicValueV1**: *object*
 
-*Defined in [type/ExtrinsicV1.ts:18](https://github.com/polkadot-js/api/blob/eec4ca7/packages/types/src/type/ExtrinsicV1.ts#L18)*
+*Defined in [type/ExtrinsicV1.ts:18](https://github.com/polkadot-js/api/blob/6b0ad95/packages/types/src/type/ExtrinsicV1.ts#L18)*
 
 #### Type declaration:
