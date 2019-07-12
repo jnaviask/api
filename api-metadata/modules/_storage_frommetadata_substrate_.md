@@ -21,7 +21,7 @@
   type: 'u32'
 })
 
-*Defined in [storage/fromMetadata/substrate.ts:35](https://github.com/polkadot-js/api/blob/6b0ad95/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L35)*
+*Defined in [storage/fromMetadata/substrate.ts:38](https://github.com/polkadot-js/api/blob/edea20d/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L38)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
   type: 'u32'
 })
 
-*Defined in [storage/fromMetadata/substrate.ts:40](https://github.com/polkadot-js/api/blob/6b0ad95/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L40)*
+*Defined in [storage/fromMetadata/substrate.ts:43](https://github.com/polkadot-js/api/blob/edea20d/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L43)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
   type: 'u32'
 })
 
-*Defined in [storage/fromMetadata/substrate.ts:60](https://github.com/polkadot-js/api/blob/6b0ad95/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L60)*
+*Defined in [storage/fromMetadata/substrate.ts:63](https://github.com/polkadot-js/api/blob/edea20d/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L63)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
   type: 'u32'
 })
 
-*Defined in [storage/fromMetadata/substrate.ts:65](https://github.com/polkadot-js/api/blob/6b0ad95/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L65)*
+*Defined in [storage/fromMetadata/substrate.ts:68](https://github.com/polkadot-js/api/blob/edea20d/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L68)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
   type: 'Bytes'
 })
 
-*Defined in [storage/fromMetadata/substrate.ts:45](https://github.com/polkadot-js/api/blob/6b0ad95/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L45)*
+*Defined in [storage/fromMetadata/substrate.ts:48](https://github.com/polkadot-js/api/blob/edea20d/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L48)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
   type: 'u32'
 })
 
-*Defined in [storage/fromMetadata/substrate.ts:55](https://github.com/polkadot-js/api/blob/6b0ad95/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L55)*
+*Defined in [storage/fromMetadata/substrate.ts:58](https://github.com/polkadot-js/api/blob/edea20d/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L58)*
 
 ___
 
@@ -87,4 +87,4 @@ ___
   type: 'u64'
 })
 
-*Defined in [storage/fromMetadata/substrate.ts:50](https://github.com/polkadot-js/api/blob/6b0ad95/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L50)*
+*Defined in [storage/fromMetadata/substrate.ts:53](https://github.com/polkadot-js/api/blob/edea20d/packages/api-metadata/src/storage/fromMetadata/substrate.ts#L53)*
