@@ -17,4 +17,4 @@
 
 Ƭ **KeyValueOptionValue**: *[[AnyU8a](_types_.md#anyu8a), undefined | string | `Uint8Array` | number[]]*
 
-*Defined in [type/KeyValue.ts:45](https://github.com/polkadot-js/api/blob/7772caa/packages/types/src/type/KeyValue.ts#L45)*
+*Defined in [type/KeyValue.ts:45](https://github.com/polkadot-js/api/blob/6e42db3/packages/types/src/type/KeyValue.ts#L45)*

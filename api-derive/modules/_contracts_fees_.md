@@ -12,7 +12,7 @@
 
 ▸ **fees**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
 
-*Defined in [contracts/fees.ts:29](https://github.com/polkadot-js/api/blob/7772caa/packages/api-derive/src/contracts/fees.ts#L29)*
+*Defined in [contracts/fees.ts:29](https://github.com/polkadot-js/api/blob/6e42db3/packages/api-derive/src/contracts/fees.ts#L29)*
 
 **`name`** fees
 
