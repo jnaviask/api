@@ -17,7 +17,7 @@
 
 Ƭ **CombinatorCallback**: *`Callback<Array<any>>`*
 
-*Defined in [promise/Combinator.ts:10](https://github.com/polkadot-js/api/blob/edea20d/packages/api/src/promise/Combinator.ts#L10)*
+*Defined in [promise/Combinator.ts:10](https://github.com/polkadot-js/api/blob/7772caa/packages/api/src/promise/Combinator.ts#L10)*
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 Ƭ **CombinatorFunction**: *function*
 
-*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/edea20d/packages/api/src/promise/Combinator.ts#L11)*
+*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/7772caa/packages/api/src/promise/Combinator.ts#L11)*
 
 #### Type declaration:
 

@@ -15,7 +15,7 @@
 
 Ƭ **RpcMethod**: *object*
 
-*Defined in [types.ts:26](https://github.com/polkadot-js/api/blob/edea20d/packages/type-jsonrpc/src/types.ts#L26)*
+*Defined in [types.ts:26](https://github.com/polkadot-js/api/blob/7772caa/packages/type-jsonrpc/src/types.ts#L26)*
 
 #### Type declaration:
 
@@ -25,7 +25,7 @@ ___
 
 Ƭ **RpcMethodOpt**: *object*
 
-*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/edea20d/packages/type-jsonrpc/src/types.ts#L15)*
+*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/7772caa/packages/type-jsonrpc/src/types.ts#L15)*
 
 #### Type declaration:
 
@@ -35,7 +35,7 @@ ___
 
 Ƭ **RpcParam**: *object*
 
-*Defined in [types.ts:9](https://github.com/polkadot-js/api/blob/edea20d/packages/type-jsonrpc/src/types.ts#L9)*
+*Defined in [types.ts:9](https://github.com/polkadot-js/api/blob/7772caa/packages/type-jsonrpc/src/types.ts#L9)*
 
 #### Type declaration:
 
@@ -45,6 +45,6 @@ ___
 
 Ƭ **RpcSection**: *object*
 
-*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/edea20d/packages/type-jsonrpc/src/types.ts#L40)*
+*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/7772caa/packages/type-jsonrpc/src/types.ts#L40)*
 
 #### Type declaration:
