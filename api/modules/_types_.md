@@ -13,6 +13,7 @@
 * [QueryableStorageMultiBase](../interfaces/_types_.queryablestoragemultibase.md)
 * [QueryableStorageMultiPromise](../interfaces/_types_.queryablestoragemultipromise.md)
 * [Signer](../interfaces/_types_.signer.md)
+* [SignerOptions](../interfaces/_types_.signeroptions.md)
 * [StorageEntryObservable](../interfaces/_types_.storageentryobservable.md)
 * [StorageEntryPromise](../interfaces/_types_.storageentrypromise.md)
 * [StorageEntryPromiseMulti](../interfaces/_types_.storageentrypromisemulti.md)
@@ -34,7 +35,6 @@
 * [QueryableStorageMultiArg](_types_.md#queryablestoragemultiarg)
 * [QueryableStorageMultiArgs](_types_.md#queryablestoragemultiargs)
 * [RxResult](_types_.md#rxresult)
-* [SignerOptions](_types_.md#signeroptions)
 * [UnsubscribePromise](_types_.md#unsubscribepromise)
 
 ## Type aliases
@@ -43,7 +43,7 @@
 
 Ƭ **ApiInterface$Events**: *`ProviderInterface$Emitted` | "ready"*
 
-*Defined in [types.ts:215](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L215)*
+*Defined in [types.ts:216](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L216)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 Ƭ **ApiTypes**: *"promise" | "rxjs"*
 
-*Defined in [types.ts:217](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L217)*
+*Defined in [types.ts:218](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L218)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 Ƭ **DecorateMethodOptions**: *object*
 
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L39)*
+*Defined in [types.ts:40](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L40)*
 
 #### Type declaration:
 
@@ -69,7 +69,7 @@ ___
 
 Ƭ **MethodResult**: *`MethodResult<ApiType, F>`*
 
-*Defined in [types.ts:57](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L57)*
+*Defined in [types.ts:58](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L58)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 Ƭ **ObsInnerType**: *`ObsInnerType<O>`*
 
-*Defined in [types.ts:33](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L33)*
+*Defined in [types.ts:34](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L34)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 Ƭ **PromiseResult**: *function*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L52)*
+*Defined in [types.ts:53](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L53)*
 
 #### Type declaration:
 
@@ -111,7 +111,7 @@ ___
 
 Ƭ **QueryableStorageEntry**: *`QueryableStorageEntry<ApiType>`*
 
-*Defined in [types.ts:124](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L124)*
+*Defined in [types.ts:125](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L125)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 Ƭ **QueryableStorageMulti**: *`QueryableStorageMulti<ApiType>`*
 
-*Defined in [types.ts:147](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L147)*
+*Defined in [types.ts:148](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L148)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 Ƭ **QueryableStorageMultiArg**: *[QueryableStorageEntry](_types_.md#queryablestorageentry)‹*`ApiType`*› | [[QueryableStorageEntry](_types_.md#queryablestorageentry)‹*`ApiType`*›, `Array`]*
 
-*Defined in [types.ts:133](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L133)*
+*Defined in [types.ts:134](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L134)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 Ƭ **QueryableStorageMultiArgs**: *`Array<QueryableStorageMultiArg<ApiType>>`*
 
-*Defined in [types.ts:137](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L137)*
+*Defined in [types.ts:138](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L138)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 Ƭ **RxResult**: *function*
 
-*Defined in [types.ts:51](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L51)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L52)*
 
 #### Type declaration:
 
@@ -157,16 +157,8 @@ Name | Type |
 
 ___
 
-###  SignerOptions
-
-Ƭ **SignerOptions**: *`SignatureOptions` & object*
-
-*Defined in [types.ts:219](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L219)*
-
-___
-
 ###  UnsubscribePromise
 
 Ƭ **UnsubscribePromise**: *`Promise<function>`*
 
-*Defined in [types.ts:35](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L35)*
+*Defined in [types.ts:36](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L36)*

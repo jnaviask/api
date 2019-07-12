@@ -20,7 +20,7 @@
 
 • **update**? : *undefined | function*
 
-*Defined in [types.ts:232](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L232)*
+*Defined in [types.ts:234](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L234)*
 
 **`description`** Receives an update for the extrinsic signed by a `signer.sign`
 
@@ -28,9 +28,9 @@
 
 ###  sign
 
-▸ **sign**(`extrinsic`: `IExtrinsic`, `address`: string, `options`: [SignerOptions](../modules/_types_.md#signeroptions)): *`Promise<number>`*
+▸ **sign**(`extrinsic`: `IExtrinsic`, `address`: string, `options`: [SignerOptions](_types_.signeroptions.md)): *`Promise<number>`*
 
-*Defined in [types.ts:227](https://github.com/polkadot-js/api/blob/271691a/packages/api/src/types.ts#L227)*
+*Defined in [types.ts:229](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L229)*
 
 **`description`** Signs an extrinsic, returning an id (>0) that can be used to retrieve updates
 
@@ -40,6 +40,6 @@ Name | Type |
 ------ | ------ |
 `extrinsic` | `IExtrinsic` |
 `address` | string |
-`options` | [SignerOptions](../modules/_types_.md#signeroptions) |
+`options` | [SignerOptions](_types_.signeroptions.md) |
 
 **Returns:** *`Promise<number>`*

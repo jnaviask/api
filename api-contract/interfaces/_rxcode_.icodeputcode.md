@@ -16,7 +16,7 @@
 
 ▸ **signAndSend**(`account`: `IKeyringPair` | string | `AccountId` | `Address`): *`ICodePutCodeResultSubscription`*
 
-*Defined in [RxCode.ts:35](https://github.com/polkadot-js/api/blob/271691a/packages/api-contract/src/RxCode.ts#L35)*
+*Defined in [RxCode.ts:35](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxCode.ts#L35)*
 
 **Parameters:**
 
