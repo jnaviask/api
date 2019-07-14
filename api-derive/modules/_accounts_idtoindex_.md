@@ -10,9 +10,9 @@
 
 ###  idToIndex
 
-▸ **idToIndex**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **idToIndex**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [accounts/idToIndex.ts:27](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/accounts/idToIndex.ts#L27)*
+*Defined in [accounts/idToIndex.ts:27](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/accounts/idToIndex.ts#L27)*
 
 **`name`** idToIndex
 
@@ -30,8 +30,16 @@ api.derive.accounts.idToIndex(ALICE, (accountIndex) => {
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
 
 Returns the corresponding AccountIndex.
+
+▸ (`accountId`: `AccountId` | string): *`Observable<AccountIndex | undefined>`*
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`accountId` | `AccountId` \| string | An accounts Id in different formats. |

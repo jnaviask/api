@@ -10,9 +10,9 @@
 
 ###  controllers
 
-▸ **controllers**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **controllers**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [staking/controllers.ts:15](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/staking/controllers.ts#L15)*
+*Defined in [staking/controllers.ts:15](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/staking/controllers.ts#L15)*
 
 **`description`** From the list of stash accounts, retrieve the list of controllers
 
@@ -20,6 +20,8 @@
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
+
+▸ (): *`Observable<[AccountId[], Option<AccountId>[]]>`*

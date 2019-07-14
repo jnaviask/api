@@ -7,16 +7,6 @@
 * [Justification](../classes/_type_justification_.justification.md)
 * [RhdJustification](../classes/_type_justification_.rhdjustification.md)
 
-#### Type aliases
+#### Interfaces
 
-* [RhdJustificationValue](_type_justification_.md#rhdjustificationvalue)
-
-## Type aliases
-
-###  RhdJustificationValue
-
-Ƭ **RhdJustificationValue**: *object*
-
-*Defined in [type/Justification.ts:14](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/type/Justification.ts#L14)*
-
-#### Type declaration:
+* [RhdJustificationValue](../interfaces/_type_justification_.rhdjustificationvalue.md)

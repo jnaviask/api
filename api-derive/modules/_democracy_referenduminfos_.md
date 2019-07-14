@@ -10,14 +10,22 @@
 
 ###  referendumInfos
 
-▸ **referendumInfos**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **referendumInfos**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [democracy/referendumInfos.ts:15](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/democracy/referendumInfos.ts#L15)*
+*Defined in [democracy/referendumInfos.ts:15](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/democracy/referendumInfos.ts#L15)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
+
+▸ (`ids?`: number | `BN`[]): *`Observable<Option<ReferendumInfoExtended>[]>`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`ids?` | number \| `BN`[] |

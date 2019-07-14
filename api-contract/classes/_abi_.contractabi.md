@@ -6,7 +6,7 @@
 
 ## Implements
 
-* [IAbi](../interfaces/_types_.iabi.md)
+* [InterfaceAbi](../interfaces/_types_.interfaceabi.md)
 
 ### Index
 
@@ -24,15 +24,15 @@
 
 ###  constructor
 
-\+ **new ContractAbi**(`abi`: [ContractABI](../modules/_types_.md#contractabi)): *[ContractAbi](_abi_.contractabi.md)*
+\+ **new ContractAbi**(`abi`: [ContractABI](../interfaces/_types_.contractabi.md)): *[ContractAbi](_abi_.contractabi.md)*
 
-*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/Abi.ts#L15)*
+*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/Abi.ts#L17)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`abi` | [ContractABI](../modules/_types_.md#contractabi) |
+`abi` | [ContractABI](../interfaces/_types_.contractabi.md) |
 
 **Returns:** *[ContractAbi](_abi_.contractabi.md)*
 
@@ -40,11 +40,11 @@ Name | Type |
 
 ###  abi
 
-• **abi**: *[ContractABI](../modules/_types_.md#contractabi)*
+• **abi**: *[ContractABI](../interfaces/_types_.contractabi.md)*
 
-*Implementation of [IAbi](../interfaces/_types_.iabi.md).[abi](../interfaces/_types_.iabi.md#abi)*
+*Implementation of [InterfaceAbi](../interfaces/_types_.interfaceabi.md).[abi](../interfaces/_types_.interfaceabi.md#abi)*
 
-*Defined in [Abi.ts:13](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/Abi.ts#L13)*
+*Defined in [Abi.ts:13](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/Abi.ts#L13)*
 
 ___
 
@@ -52,16 +52,16 @@ ___
 
 • **deploy**: *[ContractABIFn](../interfaces/_types_.contractabifn.md)*
 
-*Implementation of [IAbi](../interfaces/_types_.iabi.md).[deploy](../interfaces/_types_.iabi.md#deploy)*
+*Implementation of [InterfaceAbi](../interfaces/_types_.interfaceabi.md).[deploy](../interfaces/_types_.interfaceabi.md#deploy)*
 
-*Defined in [Abi.ts:14](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/Abi.ts#L14)*
+*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/Abi.ts#L15)*
 
 ___
 
 ###  messages
 
-• **messages**: *[IAbi$Messages](../interfaces/_types_.iabi_messages.md)*
+• **messages**: *[AbiMessages](../modules/_types_.md#abimessages)*
 
-*Implementation of [IAbi](../interfaces/_types_.iabi.md).[messages](../interfaces/_types_.iabi.md#messages)*
+*Implementation of [InterfaceAbi](../interfaces/_types_.interfaceabi.md).[messages](../interfaces/_types_.interfaceabi.md#messages)*
 
-*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/Abi.ts#L15)*
+*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/Abi.ts#L17)*

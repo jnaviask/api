@@ -11,16 +11,6 @@
 * [StorageFunctionType](../classes/_metadata_v0_storage_.storagefunctiontype.md)
 * [StorageMetadata](../classes/_metadata_v0_storage_.storagemetadata.md)
 
-#### Type aliases
+#### Interfaces
 
-* [StorageFunctionMetadataValue](_metadata_v0_storage_.md#storagefunctionmetadatavalue)
-
-## Type aliases
-
-###  StorageFunctionMetadataValue
-
-Ƭ **StorageFunctionMetadataValue**: *object*
-
-*Defined in [Metadata/v0/Storage.ts:129](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/Metadata/v0/Storage.ts#L129)*
-
-#### Type declaration:
+* [StorageFunctionMetadataValue](../interfaces/_metadata_v0_storage_.storagefunctionmetadatavalue.md)

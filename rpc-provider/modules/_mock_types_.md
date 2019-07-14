@@ -5,65 +5,38 @@
 #### Interfaces
 
 * [Global](../interfaces/_mock_types_.global.md)
+* [Mock](../interfaces/_mock_types_.mock.md)
 
 #### Type aliases
 
-* [Mock](_mock_types_.md#mock)
-* [MockState$Db](_mock_types_.md#mockstate$db)
-* [MockState$Requests](_mock_types_.md#mockstate$requests)
-* [MockState$Subscription$Callback](_mock_types_.md#mockstate$subscription$callback)
-* [MockState$Subscriptions](_mock_types_.md#mockstate$subscriptions)
+* [MockStateDb](_mock_types_.md#mockstatedb)
+* [MockStateRequests](_mock_types_.md#mockstaterequests)
+* [MockStateSubscriptionCallback](_mock_types_.md#mockstatesubscriptioncallback)
+* [MockStateSubscriptions](_mock_types_.md#mockstatesubscriptions)
 
 ## Type aliases
 
-###  Mock
+###  MockStateDb
 
-Ƭ **Mock**: *object*
+Ƭ **MockStateDb**: *`Record<string, Uint8Array>`*
 
-*Defined in [mock/types.ts:13](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/rpc-provider/src/mock/types.ts#L13)*
-
-#### Type declaration:
+*Defined in [mock/types.ts:27](https://github.com/polkadot-js/api/blob/71c5920/packages/rpc-provider/src/mock/types.ts#L27)*
 
 ___
 
-###  MockState$Db
+###  MockStateRequests
 
-Ƭ **MockState$Db**: *object*
+Ƭ **MockStateRequests**: *`Record<string, function>`*
 
-*Defined in [mock/types.ts:31](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/rpc-provider/src/mock/types.ts#L31)*
-
-#### Type declaration:
-
-● \[▪ **index**: *string*\]: `Uint8Array`
+*Defined in [mock/types.ts:29](https://github.com/polkadot-js/api/blob/71c5920/packages/rpc-provider/src/mock/types.ts#L29)*
 
 ___
 
-###  MockState$Requests
+###  MockStateSubscriptionCallback
 
-Ƭ **MockState$Requests**: *object*
+Ƭ **MockStateSubscriptionCallback**: *function*
 
-*Defined in [mock/types.ts:35](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/rpc-provider/src/mock/types.ts#L35)*
-
-#### Type declaration:
-
-● \[▪ **index**: *string*\]: function
-
-▸ (`db`: [MockState$Db](_mock_types_.md#mockstate$db), `params`: `Array<any>`): *string*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`db` | [MockState$Db](_mock_types_.md#mockstate$db) |
-`params` | `Array<any>` |
-
-___
-
-###  MockState$Subscription$Callback
-
-Ƭ **MockState$Subscription$Callback**: *function*
-
-*Defined in [mock/types.ts:20](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/rpc-provider/src/mock/types.ts#L20)*
+*Defined in [mock/types.ts:20](https://github.com/polkadot-js/api/blob/71c5920/packages/rpc-provider/src/mock/types.ts#L20)*
 
 #### Type declaration:
 
@@ -78,12 +51,8 @@ Name | Type |
 
 ___
 
-###  MockState$Subscriptions
+###  MockStateSubscriptions
 
-Ƭ **MockState$Subscriptions**: *object*
+Ƭ **MockStateSubscriptions**: *`Record<string, object>`*
 
-*Defined in [mock/types.ts:22](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/rpc-provider/src/mock/types.ts#L22)*
-
-#### Type declaration:
-
-● \[▪ **index**: *string*\]: object
+*Defined in [mock/types.ts:22](https://github.com/polkadot-js/api/blob/71c5920/packages/rpc-provider/src/mock/types.ts#L22)*

@@ -6,25 +6,9 @@
 
 ## Callable
 
-▸ <**T**>(`args`: `Array<CodecArg[] | CodecArg>`): *`Promise<Array<T>>`*
+▸ <**T**>(`args`: undefined | string | number | false | true | `Codec` | `Uint8Array` | `BN` | `CodecArgArray` | `CodecArgObject` | undefined | string | number | false | true | `Codec` | `Uint8Array` | `BN` | `CodecArgArray` | `CodecArgObject`[][]): *`Promise<T[]>`*
 
-*Defined in [types.ts:111](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L111)*
-
-**Type parameters:**
-
-▪ **T**: *`Codec`*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`args` | `Array<CodecArg[] \| CodecArg>` |
-
-**Returns:** *`Promise<Array<T>>`*
-
-▸ <**T**>(`args`: `Array<CodecArg[] | CodecArg>`, `callback`: `Callback<Array<T>>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
-
-*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L112)*
+*Defined in [types.ts:119](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L119)*
 
 **Type parameters:**
 
@@ -34,7 +18,23 @@ Name | Type |
 
 Name | Type |
 ------ | ------ |
-`args` | `Array<CodecArg[] \| CodecArg>` |
-`callback` | `Callback<Array<T>>` |
+`args` | undefined \| string \| number \| false \| true \| `Codec` \| `Uint8Array` \| `BN` \| `CodecArgArray` \| `CodecArgObject` \| undefined \| string \| number \| false \| true \| `Codec` \| `Uint8Array` \| `BN` \| `CodecArgArray` \| `CodecArgObject`[][] |
+
+**Returns:** *`Promise<T[]>`*
+
+▸ <**T**>(`args`: undefined | string | number | false | true | `Codec` | `Uint8Array` | `BN` | `CodecArgArray` | `CodecArgObject` | undefined | string | number | false | true | `Codec` | `Uint8Array` | `BN` | `CodecArgArray` | `CodecArgObject`[][], `callback`: `Callback<T[]>`): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+
+*Defined in [types.ts:120](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L120)*
+
+**Type parameters:**
+
+▪ **T**: *`Codec`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`args` | undefined \| string \| number \| false \| true \| `Codec` \| `Uint8Array` \| `BN` \| `CodecArgArray` \| `CodecArgObject` \| undefined \| string \| number \| false \| true \| `Codec` \| `Uint8Array` \| `BN` \| `CodecArgArray` \| `CodecArgObject`[][] |
+`callback` | `Callback<T[]>` |
 
 **Returns:** *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*

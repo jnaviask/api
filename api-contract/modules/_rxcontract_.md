@@ -8,16 +8,16 @@
 
 #### Interfaces
 
-* [IContractCall](../interfaces/_rxcontract_.icontractcall.md)
+* [ContractCall](../interfaces/_rxcontract_.contractcall.md)
 
 #### Type aliases
 
-* [IContractCallResultSubscription](_rxcontract_.md#icontractcallresultsubscription)
+* [ContractCallResultSubscription](_rxcontract_.md#contractcallresultsubscription)
 
 ## Type aliases
 
-###  IContractCallResultSubscription
+###  ContractCallResultSubscription
 
-Ƭ **IContractCallResultSubscription**: *`Observable<SubmittableResult>`*
+Ƭ **ContractCallResultSubscription**: *`Observable<SubmittableResult>`*
 
-*Defined in [RxContract.ts:17](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxContract.ts#L17)*
+*Defined in [RxContract.ts:17](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxContract.ts#L17)*

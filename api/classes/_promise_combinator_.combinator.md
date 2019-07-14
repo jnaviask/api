@@ -18,15 +18,15 @@
 
 ###  constructor
 
-\+ **new Combinator**(`fns`: `Array<CombinatorFunction | [CombinatorFunction, Array]>`, `callback`: [CombinatorCallback](../modules/_promise_combinator_.md#combinatorcallback)): *[Combinator](_promise_combinator_.combinator.md)*
+\+ **new Combinator**(`fns`: [CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md) | [[CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md), any][], `callback`: [CombinatorCallback](../modules/_promise_combinator_.md#combinatorcallback)): *[Combinator](_promise_combinator_.combinator.md)*
 
-*Defined in [promise/Combinator.ts:22](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/promise/Combinator.ts#L22)*
+*Defined in [promise/Combinator.ts:28](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/promise/Combinator.ts#L28)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`fns` | `Array<CombinatorFunction \| [CombinatorFunction, Array]>` |
+`fns` | [CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md) \| [[CombinatorFunction](../interfaces/_promise_combinator_.combinatorfunction.md), any][] |
 `callback` | [CombinatorCallback](../modules/_promise_combinator_.md#combinatorcallback) |
 
 **Returns:** *[Combinator](_promise_combinator_.combinator.md)*
@@ -37,6 +37,6 @@ Name | Type |
 
 ▸ **unsubscribe**(): *void*
 
-*Defined in [promise/Combinator.ts:68](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/promise/Combinator.ts#L68)*
+*Defined in [promise/Combinator.ts:74](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/promise/Combinator.ts#L74)*
 
 **Returns:** *void*

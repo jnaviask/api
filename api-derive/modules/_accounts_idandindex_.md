@@ -16,15 +16,15 @@
 
 Ƭ **AccountIdAndIndex**: *[undefined | `AccountId`, undefined | `AccountIndex`]*
 
-*Defined in [accounts/idAndIndex.ts:16](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/accounts/idAndIndex.ts#L16)*
+*Defined in [accounts/idAndIndex.ts:16](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/accounts/idAndIndex.ts#L16)*
 
 ## Functions
 
 ###  idAndIndex
 
-▸ **idAndIndex**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **idAndIndex**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [accounts/idAndIndex.ts:31](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/accounts/idAndIndex.ts#L31)*
+*Defined in [accounts/idAndIndex.ts:31](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/accounts/idAndIndex.ts#L31)*
 
 **`name`** idAndIndex
 
@@ -43,6 +43,14 @@ api.derive.accounts.idAndIndex('F7Hs', ([id, ix]) => {
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
+
+▸ (`address?`: `Address` | `AccountId` | `AccountIndex` | string | null): *`Observable<AccountIdAndIndex>`*
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`address?` | `Address` \| `AccountId` \| `AccountIndex` \| string \| null | An accounts address in various formats. |

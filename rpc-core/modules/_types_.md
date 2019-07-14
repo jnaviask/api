@@ -5,20 +5,16 @@
 #### Interfaces
 
 * [RpcInterface](../interfaces/_types_.rpcinterface.md)
-* [RpcInterface$Method](../interfaces/_types_.rpcinterface_method.md)
+* [RpcInterfaceMethod](../interfaces/_types_.rpcinterfacemethod.md)
 
 #### Type aliases
 
-* [RpcInterface$Section](_types_.md#rpcinterface$section)
+* [RpcInterfaceSection](_types_.md#rpcinterfacesection)
 
 ## Type aliases
 
-###  RpcInterface$Section
+###  RpcInterfaceSection
 
-Ƭ **RpcInterface$Section**: *object*
+Ƭ **RpcInterfaceSection**: *`Record<string, RpcInterfaceMethod>`*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/rpc-core/src/types.ts#L11)*
-
-#### Type declaration:
-
-● \[▪ **index**: *string*\]: [RpcInterface$Method](../interfaces/_types_.rpcinterface_method.md)
+*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/71c5920/packages/rpc-core/src/types.ts#L11)*

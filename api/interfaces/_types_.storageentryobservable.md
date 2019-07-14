@@ -8,7 +8,7 @@
 
 ▸ (`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<Codec>`*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L92)*
+*Defined in [types.ts:100](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L100)*
 
 **Parameters:**
 
@@ -21,7 +21,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1?`: `CodecArg`, `arg2?`: `CodecArg`): *`Observable<T>`*
 
-*Defined in [types.ts:93](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L93)*
+*Defined in [types.ts:101](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L101)*
 
 **Type parameters:**
 
@@ -53,7 +53,7 @@ Name | Type |
 
 • **at**: *function*
 
-*Defined in [types.ts:95](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L95)*
+*Defined in [types.ts:103](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L103)*
 
 #### Type declaration:
 
@@ -73,7 +73,7 @@ ___
 
 • **creator**: *`StorageEntry`*
 
-*Defined in [types.ts:96](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L96)*
+*Defined in [types.ts:104](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L104)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 • **hash**: *function*
 
-*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L97)*
+*Defined in [types.ts:105](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L105)*
 
 #### Type declaration:
 
@@ -100,7 +100,7 @@ ___
 
 • **key**: *function*
 
-*Defined in [types.ts:98](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L98)*
+*Defined in [types.ts:106](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L106)*
 
 #### Type declaration:
 
@@ -119,11 +119,11 @@ ___
 
 • **multi**: *function*
 
-*Defined in [types.ts:99](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L99)*
+*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L107)*
 
 #### Type declaration:
 
-▸ <**T**>(`args`: `Array<CodecArg[] | CodecArg>`): *`Observable<Array<T>>`*
+▸ <**T**>(`args`: undefined | string | number | false | true | `Codec` | `Uint8Array` | `BN` | `CodecArgArray` | `CodecArgObject` | undefined | string | number | false | true | `Codec` | `Uint8Array` | `BN` | `CodecArgArray` | `CodecArgObject`[][]): *`Observable<T[]>`*
 
 **Type parameters:**
 
@@ -133,7 +133,7 @@ ___
 
 Name | Type |
 ------ | ------ |
-`args` | `Array<CodecArg[] \| CodecArg>` |
+`args` | undefined \| string \| number \| false \| true \| `Codec` \| `Uint8Array` \| `BN` \| `CodecArgArray` \| `CodecArgObject` \| undefined \| string \| number \| false \| true \| `Codec` \| `Uint8Array` \| `BN` \| `CodecArgArray` \| `CodecArgObject`[][] |
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 • **size**: *function*
 
-*Defined in [types.ts:100](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L100)*
+*Defined in [types.ts:108](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L108)*
 
 #### Type declaration:
 

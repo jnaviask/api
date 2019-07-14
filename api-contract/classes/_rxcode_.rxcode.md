@@ -8,7 +8,7 @@
 
 ## Implements
 
-* [IContractBase](../interfaces/_types_.icontractbase.md)‹*"rxjs"*›
+* [ContractBase](../interfaces/_types_.contractbase.md)‹*"rxjs"*›
 
 ### Index
 
@@ -31,18 +31,18 @@
 
 ###  constructor
 
-\+ **new RxCode**(`api`: `ApiRx`, `abi`: [ContractABI](../modules/_types_.md#contractabi) | `Abi`, `wasm`: string | `Uint8Array`): *[RxCode](_rxcode_.rxcode.md)*
+\+ **new RxCode**(`api`: `ApiRx`, `abi`: [ContractABI](../interfaces/_types_.contractabi.md) | `Abi`, `wasm`: string | `Uint8Array`): *[RxCode](_rxcode_.rxcode.md)*
 
 *Overrides [RxBase](_rxbase_.rxbase.md).[constructor](_rxbase_.rxbase.md#constructor)*
 
-*Defined in [RxCode.ts:50](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxCode.ts#L50)*
+*Defined in [RxCode.ts:51](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxCode.ts#L51)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `api` | `ApiRx` |
-`abi` | [ContractABI](../modules/_types_.md#contractabi) \| `Abi` |
+`abi` | [ContractABI](../interfaces/_types_.contractabi.md) \| `Abi` |
 `wasm` | string \| `Uint8Array` |
 
 **Returns:** *[RxCode](_rxcode_.rxcode.md)*
@@ -53,11 +53,11 @@ Name | Type |
 
 • **abi**: *`Abi`*
 
-*Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[abi](../interfaces/_types_.icontractbase.md#abi)*
+*Implementation of [ContractBase](../interfaces/_types_.contractbase.md).[abi](../interfaces/_types_.contractbase.md#abi)*
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[abi](_rxbase_.rxbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
@@ -65,11 +65,11 @@ ___
 
 • **api**: *[ApiObject](../modules/_types_.md#apiobject)‹*"rxjs"*›*
 
-*Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[api](../interfaces/_types_.icontractbase.md#api)*
+*Implementation of [ContractBase](../interfaces/_types_.contractbase.md).[api](../interfaces/_types_.contractbase.md#api)*
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[api](_rxbase_.rxbase.md#api)*
 
-*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxBase.ts#L15)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxBase.ts#L16)*
 
 ___
 
@@ -77,11 +77,11 @@ ___
 
 • **apiContracts**: *`SubmittableModuleExtrinsics<"rxjs">`*
 
-*Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[apiContracts](../interfaces/_types_.icontractbase.md#apicontracts)*
+*Implementation of [ContractBase](../interfaces/_types_.contractbase.md).[apiContracts](../interfaces/_types_.contractbase.md#apicontracts)*
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[apiContracts](_rxbase_.rxbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxBase.ts#L18)*
 
 ___
 
@@ -89,15 +89,15 @@ ___
 
 • **code**: *`Uint8Array`*
 
-*Defined in [RxCode.ts:50](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxCode.ts#L50)*
+*Defined in [RxCode.ts:51](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxCode.ts#L51)*
 
 ## Methods
 
 ###  createBlueprint
 
-▸ **createBlueprint**(`maxGas`: number | `BN`): *[ICodePutCode](../interfaces/_rxcode_.icodeputcode.md)*
+▸ **createBlueprint**(`maxGas`: number | `BN`): *[CodePutCode](../interfaces/_rxcode_.codeputcode.md)*
 
-*Defined in [RxCode.ts:58](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxCode.ts#L58)*
+*Defined in [RxCode.ts:59](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxCode.ts#L59)*
 
 **Parameters:**
 
@@ -105,4 +105,4 @@ Name | Type |
 ------ | ------ |
 `maxGas` | number \| `BN` |
 
-**Returns:** *[ICodePutCode](../interfaces/_rxcode_.icodeputcode.md)*
+**Returns:** *[CodePutCode](../interfaces/_rxcode_.codeputcode.md)*

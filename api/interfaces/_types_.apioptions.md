@@ -21,7 +21,7 @@
 
 • **derives**? : *`DeriveCustom`*
 
-*Defined in [types.ts:174](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L174)*
+*Defined in [types.ts:182](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L182)*
 
 **`description`** Add custom derives to be injected
 
@@ -29,9 +29,9 @@ ___
 
 ### `Optional` metadata
 
-• **metadata**? : *undefined | object*
+• **metadata**? : *`Record<string, string>`*
 
-*Defined in [types.ts:179](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L179)*
+*Defined in [types.ts:187](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L187)*
 
 **`description`** prebundles is a map of 'genesis hash and runtime spec version' as key to metadata's hex string
 if genesis hash and runtime spec version matches, then use metadata, else fetch it from chain
@@ -42,7 +42,7 @@ ___
 
 • **provider**? : *`ProviderInterface`*
 
-*Defined in [types.ts:186](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L186)*
+*Defined in [types.ts:192](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L192)*
 
 **`description`** Transport Provider from rpc-provider. If not specified, it will default to
 connecting to a WsProvider connecting localhost with the default port, i.e. `ws://127.0.0.1:9944`
@@ -53,7 +53,7 @@ ___
 
 • **signer**? : *[Signer](_types_.signer.md)*
 
-*Defined in [types.ts:190](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L190)*
+*Defined in [types.ts:196](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L196)*
 
 **`description`** An external signer which will be used to sign extrinsic when account passed in is not KeyringPair
 
@@ -63,7 +63,7 @@ ___
 
 • **source**? : *[ApiBase](../classes/_base_.apibase.md)‹*any*›*
 
-*Defined in [types.ts:194](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L194)*
+*Defined in [types.ts:200](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L200)*
 
 **`description`** The source object to use for runtime information (only used when cloning)
 
@@ -73,7 +73,7 @@ ___
 
 • **types**? : *`RegistryTypes`*
 
-*Defined in [types.ts:199](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L199)*
+*Defined in [types.ts:205](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L205)*
 
 **`description`** Additional types used by runtime modules. This is nessusary if the runtime modules
 uses types not available in the base Substrate runtime.

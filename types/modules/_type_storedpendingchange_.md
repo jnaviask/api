@@ -7,27 +7,7 @@
 * [NextAuthority](../classes/_type_storedpendingchange_.nextauthority.md)
 * [StoredPendingChange](../classes/_type_storedpendingchange_.storedpendingchange.md)
 
-#### Type aliases
+#### Interfaces
 
-* [NextAuthorityValue](_type_storedpendingchange_.md#nextauthorityvalue)
-* [StoredPendingChangeValue](_type_storedpendingchange_.md#storedpendingchangevalue)
-
-## Type aliases
-
-###  NextAuthorityValue
-
-Ƭ **NextAuthorityValue**: *object*
-
-*Defined in [type/StoredPendingChange.ts:14](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/type/StoredPendingChange.ts#L14)*
-
-#### Type declaration:
-
-___
-
-###  StoredPendingChangeValue
-
-Ƭ **StoredPendingChangeValue**: *object*
-
-*Defined in [type/StoredPendingChange.ts:19](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/type/StoredPendingChange.ts#L19)*
-
-#### Type declaration:
+* [NextAuthorityValue](../interfaces/_type_storedpendingchange_.nextauthorityvalue.md)
+* [StoredPendingChangeValue](../interfaces/_type_storedpendingchange_.storedpendingchangevalue.md)

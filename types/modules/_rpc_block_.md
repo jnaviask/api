@@ -6,16 +6,6 @@
 
 * [Block](../classes/_rpc_block_.block.md)
 
-#### Type aliases
+#### Interfaces
 
-* [BlockValue](_rpc_block_.md#blockvalue)
-
-## Type aliases
-
-###  BlockValue
-
-Ƭ **BlockValue**: *object*
-
-*Defined in [rpc/Block.ts:14](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/rpc/Block.ts#L14)*
-
-#### Type declaration:
+* [BlockValue](../interfaces/_rpc_block_.blockvalue.md)

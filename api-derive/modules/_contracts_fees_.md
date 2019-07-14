@@ -10,9 +10,9 @@
 
 ###  fees
 
-▸ **fees**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **fees**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [contracts/fees.ts:29](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/contracts/fees.ts#L29)*
+*Defined in [contracts/fees.ts:29](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/contracts/fees.ts#L29)*
 
 **`name`** fees
 
@@ -29,9 +29,11 @@ api.derive.contracts.fees(([creationFee, transferFee]) => {
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
 
 An object containing the combined results of the queries for
 all relevant contract fees as declared in the substrate chain spec.
+
+▸ (): *`Observable<DerivedContractFees>`*

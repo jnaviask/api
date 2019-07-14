@@ -12,21 +12,21 @@
 
 ## Callable
 
-▸ (...`params`: `Array<CodecArg>`): *[SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
+▸ (...`params`: `CodecArg`[]): *[SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
 
-*Defined in [types.ts:157](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/types.ts#L157)*
+*Defined in [types.ts:165](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/types.ts#L165)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`...params` | `Array<CodecArg>` |
+`...params` | `CodecArg`[] |
 
 **Returns:** *[SubmittableExtrinsic](_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
 
 ▸ (...`args`: any[]): *`Method`*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:24](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/primitive/Method.ts#L24)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:24](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/primitive/Method.ts#L24)*
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:26](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/primitive/Method.ts#L26)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:26](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/primitive/Method.ts#L26)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:27](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/primitive/Method.ts#L27)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:27](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/primitive/Method.ts#L27)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:28](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/primitive/Method.ts#L28)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:28](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/primitive/Method.ts#L28)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:29](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/primitive/Method.ts#L29)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:29](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/primitive/Method.ts#L29)*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:30](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/primitive/Method.ts#L30)*
+*Defined in [/home/travis/build/polkadot-js/api/packages/types/src/primitive/Method.ts:30](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/primitive/Method.ts#L30)*
 
 #### Type declaration:
 

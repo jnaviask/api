@@ -8,8 +8,8 @@
 
 ## Implements
 
-* [IContractBase](../interfaces/_types_.icontractbase.md)‹*"rxjs"*›
-* [IContract](../interfaces/_types_.icontract.md)
+* [ContractBase](../interfaces/_types_.contractbase.md)‹*"rxjs"*›
+* [InterfaceContract](../interfaces/_types_.interfacecontract.md)
 
 ### Index
 
@@ -29,18 +29,18 @@
 
 ###  constructor
 
-\+ **new RxContract**(`api`: `ApiRx`, `abi`: [ContractABI](../modules/_types_.md#contractabi) | `Abi`, `address`: string | `AccountId` | `Address`): *[RxContract](_rxcontract_.rxcontract.md)*
+\+ **new RxContract**(`api`: `ApiRx`, `abi`: [ContractABI](../interfaces/_types_.contractabi.md) | `Abi`, `address`: string | `AccountId` | `Address`): *[RxContract](_rxcontract_.rxcontract.md)*
 
 *Overrides [RxBase](_rxbase_.rxbase.md).[constructor](_rxbase_.rxbase.md#constructor)*
 
-*Defined in [RxContract.ts:26](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxContract.ts#L26)*
+*Defined in [RxContract.ts:29](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxContract.ts#L29)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `api` | `ApiRx` |
-`abi` | [ContractABI](../modules/_types_.md#contractabi) \| `Abi` |
+`abi` | [ContractABI](../interfaces/_types_.contractabi.md) \| `Abi` |
 `address` | string \| `AccountId` \| `Address` |
 
 **Returns:** *[RxContract](_rxcontract_.rxcontract.md)*
@@ -51,11 +51,11 @@ Name | Type |
 
 • **abi**: *`Abi`*
 
-*Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[abi](../interfaces/_types_.icontractbase.md#abi)*
+*Implementation of [ContractBase](../interfaces/_types_.contractbase.md).[abi](../interfaces/_types_.contractbase.md#abi)*
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[abi](_rxbase_.rxbase.md#abi)*
 
-*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxBase.ts#L14)*
+*Defined in [RxBase.ts:14](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxBase.ts#L14)*
 
 ___
 
@@ -63,9 +63,9 @@ ___
 
 • **address**: *`Address`*
 
-*Implementation of [IContract](../interfaces/_types_.icontract.md).[address](../interfaces/_types_.icontract.md#address)*
+*Implementation of [InterfaceContract](../interfaces/_types_.interfacecontract.md).[address](../interfaces/_types_.interfacecontract.md#address)*
 
-*Defined in [RxContract.ts:25](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxContract.ts#L25)*
+*Defined in [RxContract.ts:27](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxContract.ts#L27)*
 
 ___
 
@@ -73,11 +73,11 @@ ___
 
 • **api**: *[ApiObject](../modules/_types_.md#apiobject)‹*"rxjs"*›*
 
-*Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[api](../interfaces/_types_.icontractbase.md#api)*
+*Implementation of [ContractBase](../interfaces/_types_.contractbase.md).[api](../interfaces/_types_.contractbase.md#api)*
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[api](_rxbase_.rxbase.md#api)*
 
-*Defined in [RxBase.ts:15](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxBase.ts#L15)*
+*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxBase.ts#L16)*
 
 ___
 
@@ -85,18 +85,18 @@ ___
 
 • **apiContracts**: *`SubmittableModuleExtrinsics<"rxjs">`*
 
-*Implementation of [IContractBase](../interfaces/_types_.icontractbase.md).[apiContracts](../interfaces/_types_.icontractbase.md#apicontracts)*
+*Implementation of [ContractBase](../interfaces/_types_.contractbase.md).[apiContracts](../interfaces/_types_.contractbase.md#apicontracts)*
 
 *Inherited from [RxBase](_rxbase_.rxbase.md).[apiContracts](_rxbase_.rxbase.md#apicontracts)*
 
-*Defined in [RxBase.ts:16](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxBase.ts#L16)*
+*Defined in [RxBase.ts:18](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxBase.ts#L18)*
 
 ___
 
 ###  calls
 
-• **calls**: *[IContract$Calls](../interfaces/_types_.icontract_calls.md)*
+• **calls**: *[InterfaceContractCalls](../interfaces/_types_.interfacecontractcalls.md)*
 
-*Implementation of [IContract](../interfaces/_types_.icontract.md).[calls](../interfaces/_types_.icontract.md#calls)*
+*Implementation of [InterfaceContract](../interfaces/_types_.interfacecontract.md).[calls](../interfaces/_types_.interfacecontract.md#calls)*
 
-*Defined in [RxContract.ts:26](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/RxContract.ts#L26)*
+*Defined in [RxContract.ts:29](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/RxContract.ts#L29)*

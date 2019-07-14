@@ -8,4 +8,4 @@
 
 #### Interfaces
 
-* [ICodePutCode](../interfaces/_rxcode_.icodeputcode.md)
+* [CodePutCode](../interfaces/_rxcode_.codeputcode.md)

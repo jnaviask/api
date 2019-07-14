@@ -8,4 +8,4 @@
 
 #### Interfaces
 
-* [IBlueprintCreate](../interfaces/_rxblueprint_.iblueprintcreate.md)
+* [BlueprintCreate](../interfaces/_rxblueprint_.blueprintcreate.md)

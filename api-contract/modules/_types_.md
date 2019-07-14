@@ -4,85 +4,45 @@
 
 #### Interfaces
 
+* [ContractABI](../interfaces/_types_.contractabi.md)
+* [ContractABIArg](../interfaces/_types_.contractabiarg.md)
 * [ContractABIFn](../interfaces/_types_.contractabifn.md)
-* [ContractABIFn$Arg](../interfaces/_types_.contractabifn_arg.md)
-* [ContractABIFn$Meta](../interfaces/_types_.contractabifn_meta.md)
-* [IAbi](../interfaces/_types_.iabi.md)
-* [IAbi$Messages](../interfaces/_types_.iabi_messages.md)
-* [IContract](../interfaces/_types_.icontract.md)
-* [IContract$Calls](../interfaces/_types_.icontract_calls.md)
-* [IContractBase](../interfaces/_types_.icontractbase.md)
+* [ContractABIMeta](../interfaces/_types_.contractabimeta.md)
+* [ContractABIMetaArg](../interfaces/_types_.contractabimetaarg.md)
+* [ContractABIMethod](../interfaces/_types_.contractabimethod.md)
+* [ContractABIMethodBase](../interfaces/_types_.contractabimethodbase.md)
+* [ContractABITypesStruct](../interfaces/_types_.contractabitypesstruct.md)
+* [ContractBase](../interfaces/_types_.contractbase.md)
+* [InterfaceAbi](../interfaces/_types_.interfaceabi.md)
+* [InterfaceContract](../interfaces/_types_.interfacecontract.md)
+* [InterfaceContractCalls](../interfaces/_types_.interfacecontractcalls.md)
 
 #### Type aliases
 
+* [AbiMessages](_types_.md#abimessages)
 * [ApiObject](_types_.md#apiobject)
-* [ContractABI](_types_.md#contractabi)
-* [ContractABIArg](_types_.md#contractabiarg)
-* [ContractABIMethod](_types_.md#contractabimethod)
-* [ContractABIMethodBase](_types_.md#contractabimethodbase)
 * [ContractABITypes](_types_.md#contractabitypes)
-* [ContractABITypes$Struct](_types_.md#contractabitypes$struct)
 
 ## Type aliases
+
+###  AbiMessages
+
+Ƭ **AbiMessages**: *`Record<string, ContractABIFn>`*
+
+*Defined in [types.ts:71](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/types.ts#L71)*
+
+___
 
 ###  ApiObject
 
 Ƭ **ApiObject**: *`ApiObject<ApiType>`*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/types.ts#L11)*
-
-___
-
-###  ContractABI
-
-Ƭ **ContractABI**: *object*
-
-*Defined in [types.ts:50](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/types.ts#L50)*
-
-#### Type declaration:
-
-___
-
-###  ContractABIArg
-
-Ƭ **ContractABIArg**: *object*
-
-*Defined in [types.ts:34](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/types.ts#L34)*
-
-#### Type declaration:
-
-___
-
-###  ContractABIMethod
-
-Ƭ **ContractABIMethod**: *[ContractABIMethodBase](_types_.md#contractabimethodbase) & object*
-
-*Defined in [types.ts:43](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/types.ts#L43)*
-
-___
-
-###  ContractABIMethodBase
-
-Ƭ **ContractABIMethodBase**: *object*
-
-*Defined in [types.ts:39](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/types.ts#L39)*
-
-#### Type declaration:
+*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/types.ts#L11)*
 
 ___
 
 ###  ContractABITypes
 
-Ƭ **ContractABITypes**: *string | [ContractABITypes$Struct](_types_.md#contractabitypes$struct) | `Array<string | ContractABITypes$Struct>`*
+Ƭ **ContractABITypes**: *string | [ContractABITypesStruct](../interfaces/_types_.contractabitypesstruct.md) | string | [ContractABITypesStruct](../interfaces/_types_.contractabitypesstruct.md)[]*
 
-*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/types.ts#L32)*
-
-___
-
-###  ContractABITypes$Struct
-
-Ƭ **ContractABITypes$Struct**: *object*
-
-*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/types.ts#L15)*
-
-#### Type declaration:
+*Defined in [types.ts:32](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/types.ts#L32)*

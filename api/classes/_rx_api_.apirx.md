@@ -146,7 +146,7 @@ api.query.system
 
 *Overrides [ApiBase](_base_.apibase.md).[constructor](_base_.apibase.md#constructor)*
 
-*Defined in [rx/Api.ts:140](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/rx/Api.ts#L140)*
+*Defined in [rx/Api.ts:140](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/rx/Api.ts#L140)*
 
 **`description`** Create an instance of the ApiRx class
 
@@ -183,7 +183,7 @@ Name | Type |
 
 *Inherited from [ApiBase](_base_.apibase.md).[consts](_base_.apibase.md#consts)*
 
-*Defined in [Base.ts:224](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L224)*
+*Defined in [Base.ts:239](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L239)*
 
 **`description`** Contains the parameter types (constants) of all modules.
 
@@ -206,7 +206,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[derive](_base_.apibase.md#derive)*
 
-*Defined in [Base.ts:206](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L206)*
+*Defined in [Base.ts:221](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L221)*
 
 **`description`** Derived results that are injected into the API, allowing for combinations of various query results.
 
@@ -229,7 +229,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[genesisHash](_base_.apibase.md#genesishash)*
 
-*Defined in [Base.ts:142](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L142)*
+*Defined in [Base.ts:157](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L157)*
 
 **`description`** Contains the genesis Hash of the attached chain. Apart from being useful to determine the actual chain, it can also be used to sign immortal transactions.
 
@@ -243,7 +243,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[hasSubscriptions](_base_.apibase.md#hassubscriptions)*
 
-*Defined in [Base.ts:151](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L151)*
+*Defined in [Base.ts:166](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L166)*
 
 **`description`** `true` when subscriptions are supported
 
@@ -255,7 +255,7 @@ ___
 
 • **get isConnected**(): *`Observable<boolean>`*
 
-*Defined in [rx/Api.ts:180](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/rx/Api.ts#L180)*
+*Defined in [rx/Api.ts:180](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/rx/Api.ts#L180)*
 
 **`description`** Observable that carries the connected state for the provider. Results in a boolean flag that is true/false based on the connectivity.
 
@@ -267,7 +267,7 @@ ___
 
 • **get isReady**(): *`Observable<ApiRx>`*
 
-*Defined in [rx/Api.ts:187](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/rx/Api.ts#L187)*
+*Defined in [rx/Api.ts:187](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/rx/Api.ts#L187)*
 
 **`description`** Observable that returns the first time we are connected and loaded
 
@@ -281,7 +281,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[libraryInfo](_base_.apibase.md#libraryinfo)*
 
-*Defined in [Base.ts:158](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L158)*
+*Defined in [Base.ts:173](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L173)*
 
 **`description`** The library information name & version (from package.json)
 
@@ -295,7 +295,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[query](_base_.apibase.md#query)*
 
-*Defined in [Base.ts:244](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L244)*
+*Defined in [Base.ts:259](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L259)*
 
 **`description`** Contains all the chain state modules and their subsequent methods in the API. These are attached dynamically from the runtime metadata.
 
@@ -320,7 +320,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[queryMulti](_base_.apibase.md#querymulti)*
 
-*Defined in [Base.ts:272](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L272)*
+*Defined in [Base.ts:287](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L287)*
 
 **`description`** Allows for the querying of multiple storage entries and the combination thereof into a single result. This is a very optimal way to make multiple queries since it only makes a single connection to the node and retrieves the data over one subscription.
 
@@ -353,7 +353,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[rpc](_base_.apibase.md#rpc)*
 
-*Defined in [Base.ts:290](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L290)*
+*Defined in [Base.ts:305](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L305)*
 
 **`description`** Contains all the raw rpc sections and their subsequent methods in the API as defined by the jsonrpc interface definitions. Unlike the dynamic `api.query` and `api.tx` sections, these methods are fixed (although extensible with node upgrades) and not determined by the runtime.
 
@@ -378,7 +378,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[runtimeMetadata](_base_.apibase.md#runtimemetadata)*
 
-*Defined in [Base.ts:165](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L165)*
+*Defined in [Base.ts:180](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L180)*
 
 **`description`** Yields the current attached runtime metadata. Generally this is only used to construct extrinsics & storage, but is useful for current runtime inspection.
 
@@ -392,7 +392,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[runtimeVersion](_base_.apibase.md#runtimeversion)*
 
-*Defined in [Base.ts:174](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L174)*
+*Defined in [Base.ts:189](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L189)*
 
 **`description`** Contains the version information for the current runtime.
 
@@ -406,7 +406,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[tx](_base_.apibase.md#tx)*
 
-*Defined in [Base.ts:308](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L308)*
+*Defined in [Base.ts:323](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L323)*
 
 **`description`** Contains all the extrinsic modules and their subsequent methods in the API. It allows for the construction of transactions and the submission thereof. These are attached dynamically from the runtime metadata.
 
@@ -431,7 +431,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[type](_base_.apibase.md#type)*
 
-*Defined in [Base.ts:183](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L183)*
+*Defined in [Base.ts:198](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L198)*
 
 **`description`** The type of this API instance, either 'rxjs' or 'promise'
 
@@ -443,7 +443,7 @@ ___
 
 ▸ **clone**(): *[ApiRx](_rx_api_.apirx.md)*
 
-*Defined in [rx/Api.ts:194](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/rx/Api.ts#L194)*
+*Defined in [rx/Api.ts:194](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/rx/Api.ts#L194)*
 
 **`description`** Returns a clone of this ApiRx instance (new underlying provider connection)
 
@@ -457,7 +457,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[disconnect](_base_.apibase.md#disconnect)*
 
-*Defined in [Base.ts:317](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L317)*
+*Defined in [Base.ts:332](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L332)*
 
 **`description`** Disconnect from the underlying provider, halting all comms
 
@@ -467,11 +467,11 @@ ___
 
 ###  off
 
-▸ **off**(`type`: [ApiInterface$Events](../modules/_types_.md#apiinterface$events), `handler`: function): *this*
+▸ **off**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
 
 *Inherited from [ApiBase](_base_.apibase.md).[off](_base_.apibase.md#off)*
 
-*Defined in [Base.ts:367](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L367)*
+*Defined in [Base.ts:382](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L382)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -479,7 +479,7 @@ ___
 <BR>
 
 ```javascript
-const handler = () => {
+const handler = (): void => {
  console.log('Connected !);
 };
 
@@ -492,7 +492,7 @@ api.off('connected', handler);
 
 **Parameters:**
 
-▪ **type**: *[ApiInterface$Events](../modules/_types_.md#apiinterface$events)*
+▪ **type**: *[ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents)*
 
 The type of event the callback was attached to. Available events are `connected`, `disconnected`, `ready` and `error`
 
@@ -500,13 +500,13 @@ The type of event the callback was attached to. Available events are `connected`
 
 The callback to unregister.
 
-▸ (...`args`: `Array<any>`): *any*
+▸ (...`args`: any[]): *any*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`...args` | `Array<any>` |
+`...args` | any[] |
 
 **Returns:** *this*
 
@@ -514,11 +514,11 @@ ___
 
 ###  on
 
-▸ **on**(`type`: [ApiInterface$Events](../modules/_types_.md#apiinterface$events), `handler`: function): *this*
+▸ **on**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
 
 *Inherited from [ApiBase](_base_.apibase.md).[on](_base_.apibase.md#on)*
 
-*Defined in [Base.ts:340](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L340)*
+*Defined in [Base.ts:355](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L355)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -526,18 +526,18 @@ ___
 <BR>
 
 ```javascript
-api.on('connected', () => {
+api.on('connected', (): void => {
   console.log('API has been connected to the endpoint');
 });
 
-api.on('disconnected', () => {
+api.on('disconnected', (): void => {
   console.log('API has been disconnected from the endpoint');
 });
 ```
 
 **Parameters:**
 
-▪ **type**: *[ApiInterface$Events](../modules/_types_.md#apiinterface$events)*
+▪ **type**: *[ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents)*
 
 The type of event to listen to. Available events are `connected`, `disconnected`, `ready` and `error`
 
@@ -545,13 +545,13 @@ The type of event to listen to. Available events are `connected`, `disconnected`
 
 The callback to be called when the event fires. Depending on the event type, it could fire with additional arguments.
 
-▸ (...`args`: `Array<any>`): *any*
+▸ (...`args`: any[]): *any*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`...args` | `Array<any>` |
+`...args` | any[] |
 
 **Returns:** *this*
 
@@ -559,11 +559,11 @@ ___
 
 ###  once
 
-▸ **once**(`type`: [ApiInterface$Events](../modules/_types_.md#apiinterface$events), `handler`: function): *this*
+▸ **once**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
 
 *Inherited from [ApiBase](_base_.apibase.md).[once](_base_.apibase.md#once)*
 
-*Defined in [Base.ts:392](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L392)*
+*Defined in [Base.ts:407](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L407)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 
@@ -571,18 +571,18 @@ ___
 <BR>
 
 ```javascript
-api.once('connected', () => {
+api.once('connected', (): void => {
   console.log('API has been connected to the endpoint');
 });
 
-api.once('disconnected', () => {
+api.once('disconnected', (): void => {
   console.log('API has been disconnected from the endpoint');
 });
 ```
 
 **Parameters:**
 
-▪ **type**: *[ApiInterface$Events](../modules/_types_.md#apiinterface$events)*
+▪ **type**: *[ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents)*
 
 The type of event to listen to. Available events are `connected`, `disconnected`, `ready` and `error`
 
@@ -590,13 +590,13 @@ The type of event to listen to. Available events are `connected`, `disconnected`
 
 The callback to be called when the event fires. Depending on the event type, it could fire with additional arguments.
 
-▸ (...`args`: `Array<any>`): *any*
+▸ (...`args`: any[]): *any*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`...args` | `Array<any>` |
+`...args` | any[] |
 
 **Returns:** *this*
 
@@ -608,7 +608,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[registerTypes](_base_.apibase.md#registertypes)*
 
-*Defined in [Base.ts:401](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L401)*
+*Defined in [Base.ts:416](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L416)*
 
 **`description`** Register additional user-defined of chain-specific types in the type registry
 
@@ -628,7 +628,7 @@ ___
 
 *Inherited from [ApiBase](_base_.apibase.md).[setSigner](_base_.apibase.md#setsigner)*
 
-*Defined in [Base.ts:190](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/Base.ts#L190)*
+*Defined in [Base.ts:205](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/Base.ts#L205)*
 
 **`description`** Set an external signer which will be used to sign extrinsic when account passed in is not KeyringPair
 
@@ -646,7 +646,7 @@ ___
 
 ▸ **create**(`options?`: [ApiOptions](../interfaces/_types_.apioptions.md) | `ProviderInterface`): *`Observable<ApiRx>`*
 
-*Defined in [rx/Api.ts:138](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/rx/Api.ts#L138)*
+*Defined in [rx/Api.ts:138](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/rx/Api.ts#L138)*
 
 **`description`** Creates an ApiRx instance using the supplied provider. Returns an Observable containing the actual Api instance.
 

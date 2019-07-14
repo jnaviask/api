@@ -14,21 +14,17 @@
 
 ###  AccountIndexes
 
-Ƭ **AccountIndexes**: *object*
+Ƭ **AccountIndexes**: *`Record<string, AccountIndex>`*
 
-*Defined in [accounts/indexes.ts:13](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/accounts/indexes.ts#L13)*
-
-#### Type declaration:
-
-● \[▪ **index**: *string*\]: `AccountIndex`
+*Defined in [accounts/indexes.ts:13](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/accounts/indexes.ts#L13)*
 
 ## Functions
 
 ###  indexes
 
-▸ **indexes**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **indexes**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [accounts/indexes.ts:32](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/accounts/indexes.ts#L32)*
+*Defined in [accounts/indexes.ts:32](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/accounts/indexes.ts#L32)*
 
 **`name`** indexes
 
@@ -49,8 +45,10 @@ api.derive.accounts.indexes((indexes) => {
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
 
 Returns all the indexes on the system.
+
+▸ (): *`Observable<AccountIndexes>`*

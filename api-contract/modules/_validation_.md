@@ -13,15 +13,15 @@
 
 ###  validateAbi
 
-▸ **validateAbi**(`abi`: [ContractABI](_types_.md#contractabi)): *void*
+▸ **validateAbi**(`abi`: [ContractABI](../interfaces/_types_.contractabi.md)): *void*
 
-*Defined in [validation.ts:42](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/validation.ts#L42)*
+*Defined in [validation.ts:42](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/validation.ts#L42)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`abi` | [ContractABI](_types_.md#contractabi) |
+`abi` | [ContractABI](../interfaces/_types_.contractabi.md) |
 
 **Returns:** *void*
 
@@ -29,16 +29,16 @@ ___
 
 ###  validateArgs
 
-▸ **validateArgs**(`name`: string, `args`: `Array<ContractABIArg>`): *void*
+▸ **validateArgs**(`name`: string, `args`: [ContractABIArg](../interfaces/_types_.contractabiarg.md)[]): *void*
 
-*Defined in [validation.ts:9](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/validation.ts#L9)*
+*Defined in [validation.ts:9](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/validation.ts#L9)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `name` | string |
-`args` | `Array<ContractABIArg>` |
+`args` | [ContractABIArg](../interfaces/_types_.contractabiarg.md)[] |
 
 **Returns:** *void*
 
@@ -48,7 +48,7 @@ ___
 
 ▸ **validateDeploy**(`__namedParameters`: object): *void*
 
-*Defined in [validation.ts:21](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/validation.ts#L21)*
+*Defined in [validation.ts:21](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/validation.ts#L21)*
 
 **Parameters:**
 
@@ -64,7 +64,7 @@ ___
 
 ▸ **validateMethods**(`__namedParameters`: object): *void*
 
-*Defined in [validation.ts:29](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-contract/src/validation.ts#L29)*
+*Defined in [validation.ts:29](https://github.com/polkadot-js/api/blob/71c5920/packages/api-contract/src/validation.ts#L29)*
 
 **Parameters:**
 

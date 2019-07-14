@@ -45,18 +45,18 @@
 
 ###  constructor
 
-\+ **new WinningData**(`Type`: [Constructor](_types_.constructor.md)‹*[WinningDataEntry](_srml_parachains_types_.winningdataentry.md)*›, `value`: [Vector](../classes/_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | `Array<any>`): *[WinningData](_srml_parachains_types_.winningdata.md)*
+\+ **new WinningData**(`Type`: [Constructor](_types_.constructor.md)‹*[WinningDataEntry](_srml_parachains_types_.winningdataentry.md)*›, `value`: [Vector](../classes/_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | any[]): *[WinningData](_srml_parachains_types_.winningdata.md)*
 
 *Inherited from [Vector](../classes/_codec_vector_.vector.md).[constructor](../classes/_codec_vector_.vector.md#constructor)*
 
-*Defined in [codec/Vector.ts:22](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/Vector.ts#L22)*
+*Defined in [codec/Vector.ts:22](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/Vector.ts#L22)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
 `Type` | [Constructor](_types_.constructor.md)‹*[WinningDataEntry](_srml_parachains_types_.winningdataentry.md)*› | - |
-`value` | [Vector](../classes/_codec_vector_.vector.md)‹*any*› \| `Uint8Array` \| string \| `Array<any>` |  [] as Array<any> |
+`value` | [Vector](../classes/_codec_vector_.vector.md)‹*any*› \| `Uint8Array` \| string \| any[] |  [] as any[] |
 
 **Returns:** *[WinningData](_srml_parachains_types_.winningdata.md)*
 
@@ -68,7 +68,7 @@ Name | Type | Default |
 
 *Inherited from [Vector](../classes/_codec_vector_.vector.md).[Type](../classes/_codec_vector_.vector.md#type)*
 
-*Defined in [codec/Vector.ts:70](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/Vector.ts#L70)*
+*Defined in [codec/Vector.ts:70](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/Vector.ts#L70)*
 
 **`description`** The type for the items
 
@@ -82,7 +82,7 @@ ___
 
 *Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[encodedLength](../classes/_codec_abstractarray_.abstractarray.md#encodedlength)*
 
-*Defined in [codec/AbstractArray.ts:29](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L29)*
+*Defined in [codec/AbstractArray.ts:29](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L29)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[isEmpty](../classes/_codec_abstractarray_.abstractarray.md#isempty)*
 
-*Defined in [codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L22)*
+*Defined in [codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L22)*
 
 **`description`** Checks if the value is an empty value
 
@@ -112,7 +112,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/AbstractArray.ts:38](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L38)*
+*Defined in [codec/AbstractArray.ts:38](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L38)*
 
 **`description`** The length of the value
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[eq](../classes/_codec_abstractarray_.abstractarray.md#eq)*
 
-*Defined in [codec/AbstractArray.ts:46](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L46)*
+*Defined in [codec/AbstractArray.ts:46](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L46)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -142,13 +142,13 @@ ___
 
 ###  filter
 
-▸ **filter**(`callbackfn`: function, `thisArg?`: any): *`Array<WinningDataEntry>`*
+▸ **filter**(`callbackfn`: function, `thisArg?`: any): *[WinningDataEntry](_srml_parachains_types_.winningdataentry.md)[]*
 
 *Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[filter](../classes/_codec_abstractarray_.abstractarray.md#filter)*
 
 *Overrides void*
 
-*Defined in [codec/AbstractArray.ts:116](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L116)*
+*Defined in [codec/AbstractArray.ts:116](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L116)*
 
 **`description`** Filters the array with the callback
 
@@ -158,7 +158,7 @@ ___
 
 The filter function
 
-▸ (`value`: [WinningDataEntry](_srml_parachains_types_.winningdataentry.md), `index`: number, `array`: `Array<WinningDataEntry>`): *any*
+▸ (`value`: [WinningDataEntry](_srml_parachains_types_.winningdataentry.md), `index`: number, `array`: [WinningDataEntry](_srml_parachains_types_.winningdataentry.md)[]): *any*
 
 **Parameters:**
 
@@ -166,25 +166,25 @@ Name | Type |
 ------ | ------ |
 `value` | [WinningDataEntry](_srml_parachains_types_.winningdataentry.md) |
 `index` | number |
-`array` | `Array<WinningDataEntry>` |
+`array` | [WinningDataEntry](_srml_parachains_types_.winningdataentry.md)[] |
 
 ▪`Optional`  **thisArg**: *any*
 
 The `this` object to apply the result to
 
-**Returns:** *`Array<WinningDataEntry>`*
+**Returns:** *[WinningDataEntry](_srml_parachains_types_.winningdataentry.md)[]*
 
 ___
 
 ###  map
 
-▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *`Array<U>`*
+▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *`U`[]*
 
 *Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[map](../classes/_codec_abstractarray_.abstractarray.md#map)*
 
 *Overrides void*
 
-*Defined in [codec/AbstractArray.ts:125](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L125)*
+*Defined in [codec/AbstractArray.ts:125](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L125)*
 
 **`description`** Maps the array with the callback
 
@@ -198,7 +198,7 @@ ___
 
 The mapping function
 
-▸ (`value`: [WinningDataEntry](_srml_parachains_types_.winningdataentry.md), `index`: number, `array`: `Array<WinningDataEntry>`): *`U`*
+▸ (`value`: [WinningDataEntry](_srml_parachains_types_.winningdataentry.md), `index`: number, `array`: [WinningDataEntry](_srml_parachains_types_.winningdataentry.md)[]): *`U`*
 
 **Parameters:**
 
@@ -206,27 +206,27 @@ Name | Type |
 ------ | ------ |
 `value` | [WinningDataEntry](_srml_parachains_types_.winningdataentry.md) |
 `index` | number |
-`array` | `Array<WinningDataEntry>` |
+`array` | [WinningDataEntry](_srml_parachains_types_.winningdataentry.md)[] |
 
 ▪`Optional`  **thisArg**: *any*
 
 The `this` onject to apply the result to
 
-**Returns:** *`Array<U>`*
+**Returns:** *`U`[]*
 
 ___
 
 ###  toArray
 
-▸ **toArray**(): *`Array<WinningDataEntry>`*
+▸ **toArray**(): *[WinningDataEntry](_srml_parachains_types_.winningdataentry.md)[]*
 
 *Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toArray](../classes/_codec_abstractarray_.abstractarray.md#toarray)*
 
-*Defined in [codec/AbstractArray.ts:53](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L53)*
+*Defined in [codec/AbstractArray.ts:53](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L53)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** *`Array<WinningDataEntry>`*
+**Returns:** *[WinningDataEntry](_srml_parachains_types_.winningdataentry.md)[]*
 
 ___
 
@@ -236,7 +236,7 @@ ___
 
 *Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toHex](../classes/_codec_abstractarray_.abstractarray.md#tohex)*
 
-*Defined in [codec/AbstractArray.ts:60](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L60)*
+*Defined in [codec/AbstractArray.ts:60](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L60)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -250,7 +250,7 @@ ___
 
 *Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toJSON](../classes/_codec_abstractarray_.abstractarray.md#tojson)*
 
-*Defined in [codec/AbstractArray.ts:67](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L67)*
+*Defined in [codec/AbstractArray.ts:67](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L67)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -266,7 +266,7 @@ ___
 
 *Overrides [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toRawType](../classes/_codec_abstractarray_.abstractarray.md#abstract-torawtype)*
 
-*Defined in [codec/Vector.ts:95](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/Vector.ts#L95)*
+*Defined in [codec/Vector.ts:95](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/Vector.ts#L95)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -282,7 +282,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/AbstractArray.ts:81](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L81)*
+*Defined in [codec/AbstractArray.ts:81](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L81)*
 
 **`description`** Returns the string representation of the value
 
@@ -296,7 +296,7 @@ ___
 
 *Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toU8a](../classes/_codec_abstractarray_.abstractarray.md#tou8a)*
 
-*Defined in [codec/AbstractArray.ts:94](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/AbstractArray.ts#L94)*
+*Defined in [codec/AbstractArray.ts:94](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/AbstractArray.ts#L94)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -312,11 +312,11 @@ ___
 
 ### `Static` decodeVector
 
-▸ **decodeVector**<**T**>(`Type`: [Constructor](_types_.constructor.md)‹*`T`*›, `value`: [Vector](../classes/_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | `Array<any>`): *`Array<T>`*
+▸ **decodeVector**<**T**>(`Type`: [Constructor](_types_.constructor.md)‹*`T`*›, `value`: [Vector](../classes/_codec_vector_.vector.md)‹*any*› | `Uint8Array` | string | any[]): *`T`[]*
 
 *Inherited from [Vector](../classes/_codec_vector_.vector.md).[decodeVector](../classes/_codec_vector_.vector.md#static-decodevector)*
 
-*Defined in [codec/Vector.ts:32](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/Vector.ts#L32)*
+*Defined in [codec/Vector.ts:32](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/Vector.ts#L32)*
 
 **Type parameters:**
 
@@ -327,9 +327,9 @@ ___
 Name | Type |
 ------ | ------ |
 `Type` | [Constructor](_types_.constructor.md)‹*`T`*› |
-`value` | [Vector](../classes/_codec_vector_.vector.md)‹*any*› \| `Uint8Array` \| string \| `Array<any>` |
+`value` | [Vector](../classes/_codec_vector_.vector.md)‹*any*› \| `Uint8Array` \| string \| any[] |
 
-**Returns:** *`Array<T>`*
+**Returns:** *`T`[]*
 
 ___
 
@@ -339,7 +339,7 @@ ___
 
 *Inherited from [Vector](../classes/_codec_vector_.vector.md).[with](../classes/_codec_vector_.vector.md#static-with)*
 
-*Defined in [codec/Vector.ts:55](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/types/src/codec/Vector.ts#L55)*
+*Defined in [codec/Vector.ts:55](https://github.com/polkadot-js/api/blob/71c5920/packages/types/src/codec/Vector.ts#L55)*
 
 **Type parameters:**
 

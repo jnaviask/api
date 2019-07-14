@@ -10,9 +10,9 @@
 
 ###  filterEvents
 
-▸ **filterEvents**(`extHash`: `U8a`, `__namedParameters`: object, `allEvents`: `Array<EventRecord>`): *`Array<EventRecord>` | undefined*
+▸ **filterEvents**(`extHash`: `U8a`, `__namedParameters`: object, `allEvents`: `EventRecord`[]): *`EventRecord`[] | undefined*
 
-*Defined in [util/filterEvents.ts:9](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/util/filterEvents.ts#L9)*
+*Defined in [util/filterEvents.ts:9](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/util/filterEvents.ts#L9)*
 
 **Parameters:**
 
@@ -20,6 +20,6 @@ Name | Type |
 ------ | ------ |
 `extHash` | `U8a` |
 `__namedParameters` | object |
-`allEvents` | `Array<EventRecord>` |
+`allEvents` | `EventRecord`[] |
 
-**Returns:** *`Array<EventRecord>` | undefined*
+**Returns:** *`EventRecord`[] | undefined*

@@ -10,14 +10,16 @@
 
 ###  eraLength
 
-▸ **eraLength**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **eraLength**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [session/eraLength.ts:13](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/session/eraLength.ts#L13)*
+*Defined in [session/eraLength.ts:13](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/session/eraLength.ts#L13)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
+
+▸ (): *`Observable<BN>`*

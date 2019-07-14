@@ -26,9 +26,9 @@
 
 ###  events
 
-• **events**: *`Array<EventRecord>`*
+• **events**: *`EventRecord`[]*
 
-*Defined in [SubmittableExtrinsic.ts:18](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/SubmittableExtrinsic.ts#L18)*
+*Defined in [SubmittableExtrinsic.ts:19](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/SubmittableExtrinsic.ts#L19)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **isCompleted**: *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:20](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/SubmittableExtrinsic.ts#L20)*
+*Defined in [SubmittableExtrinsic.ts:21](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/SubmittableExtrinsic.ts#L21)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **isError**: *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:21](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/SubmittableExtrinsic.ts#L21)*
+*Defined in [SubmittableExtrinsic.ts:22](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/SubmittableExtrinsic.ts#L22)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **isFinalized**: *boolean*
 
-*Defined in [SubmittableExtrinsic.ts:22](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/SubmittableExtrinsic.ts#L22)*
+*Defined in [SubmittableExtrinsic.ts:23](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/SubmittableExtrinsic.ts#L23)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **status**: *`ExtrinsicStatus`*
 
-*Defined in [SubmittableExtrinsic.ts:19](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/SubmittableExtrinsic.ts#L19)*
+*Defined in [SubmittableExtrinsic.ts:20](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/SubmittableExtrinsic.ts#L20)*
 
 ## Methods
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **findRecord**(`section`: string, `method`: string): *`EventRecord` | undefined*
 
-*Defined in [SubmittableExtrinsic.ts:24](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/SubmittableExtrinsic.ts#L24)*
+*Defined in [SubmittableExtrinsic.ts:25](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/SubmittableExtrinsic.ts#L25)*
 
 **Parameters:**
 

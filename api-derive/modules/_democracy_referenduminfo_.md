@@ -13,7 +13,7 @@
 
 ▸ **constructInfo**(`index`: `BN` | number, `optionInfo?`: `Option<ReferendumInfo>`): *`Option<ReferendumInfoExtended>`*
 
-*Defined in [democracy/referendumInfo.ts:15](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/democracy/referendumInfo.ts#L15)*
+*Defined in [democracy/referendumInfo.ts:15](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/democracy/referendumInfo.ts#L15)*
 
 **Parameters:**
 
@@ -28,14 +28,22 @@ ___
 
 ###  referendumInfo
 
-▸ **referendumInfo**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **referendumInfo**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [democracy/referendumInfo.ts:28](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/democracy/referendumInfo.ts#L28)*
+*Defined in [democracy/referendumInfo.ts:28](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/democracy/referendumInfo.ts#L28)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
+
+▸ (`index`: `BN` | number): *`Observable<Option<ReferendumInfoExtended>>`*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`index` | `BN` \| number |

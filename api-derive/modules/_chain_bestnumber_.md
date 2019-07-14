@@ -10,9 +10,9 @@
 
 ###  bestNumber
 
-▸ **bestNumber**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **bestNumber**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [chain/bestNumber.ts:24](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/chain/bestNumber.ts#L24)*
+*Defined in [chain/bestNumber.ts:24](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/chain/bestNumber.ts#L24)*
 
 **`name`** bestNumber
 
@@ -29,8 +29,10 @@ api.derive.chain.bestNumber((blockNumber) => {
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
 
 The latest block number.
+
+▸ (): *`Observable<BlockNumber>`*

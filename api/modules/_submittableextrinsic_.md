@@ -26,7 +26,7 @@
 
 Ƭ **SumbitableResultResult**: *`SumbitableResultResult<ApiType>`*
 
-*Defined in [SubmittableExtrinsic.ts:27](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/SubmittableExtrinsic.ts#L27)*
+*Defined in [SubmittableExtrinsic.ts:28](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/SubmittableExtrinsic.ts#L28)*
 
 ___
 
@@ -34,15 +34,15 @@ ___
 
 Ƭ **SumbitableResultSubscription**: *`SumbitableResultSubscription<ApiType>`*
 
-*Defined in [SubmittableExtrinsic.ts:32](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/SubmittableExtrinsic.ts#L32)*
+*Defined in [SubmittableExtrinsic.ts:33](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/SubmittableExtrinsic.ts#L33)*
 
 ## Functions
 
 ###  createSubmittableExtrinsic
 
-▸ **createSubmittableExtrinsic**<**ApiType**>(`type`: [ApiTypes](_types_.md#apitypes), `api`: [ApiInterface$Rx](../interfaces/_types_.apiinterface_rx.md), `decorateMethod`: `decorateMethod`, `extrinsic`: `Method` | `Uint8Array` | string, `trackingCb?`: `Callback<ISubmittableResult>`): *[SubmittableExtrinsic](../interfaces/_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
+▸ **createSubmittableExtrinsic**<**ApiType**>(`type`: [ApiTypes](_types_.md#apitypes), `api`: [ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md), `decorateMethod`: `decorateMethod`, `extrinsic`: `Method` | `Uint8Array` | string, `trackingCb?`: `Callback<ISubmittableResult>`): *[SubmittableExtrinsic](../interfaces/_submittableextrinsic_.submittableextrinsic.md)‹*`ApiType`*›*
 
-*Defined in [SubmittableExtrinsic.ts:97](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api/src/SubmittableExtrinsic.ts#L97)*
+*Defined in [SubmittableExtrinsic.ts:99](https://github.com/polkadot-js/api/blob/71c5920/packages/api/src/SubmittableExtrinsic.ts#L99)*
 
 **Type parameters:**
 
@@ -53,7 +53,7 @@ ___
 Name | Type |
 ------ | ------ |
 `type` | [ApiTypes](_types_.md#apitypes) |
-`api` | [ApiInterface$Rx](../interfaces/_types_.apiinterface_rx.md) |
+`api` | [ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md) |
 `decorateMethod` | `decorateMethod` |
 `extrinsic` | `Method` \| `Uint8Array` \| string |
 `trackingCb?` | `Callback<ISubmittableResult>` |

@@ -10,9 +10,9 @@
 
 ###  bestNumberLag
 
-▸ **bestNumberLag**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **bestNumberLag**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [chain/bestNumberLag.ts:27](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/chain/bestNumberLag.ts#L27)*
+*Defined in [chain/bestNumberLag.ts:27](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/chain/bestNumberLag.ts#L27)*
 
 **`name`** bestNumberLag
 
@@ -31,8 +31,10 @@ api.derive.chain.bestNumberLag((lag) => {
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
 
 A number of blocks
+
+▸ (): *`Observable<BlockNumber>`*

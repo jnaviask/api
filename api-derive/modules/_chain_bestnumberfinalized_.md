@@ -10,9 +10,9 @@
 
 ###  bestNumberFinalized
 
-▸ **bestNumberFinalized**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **bestNumberFinalized**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [chain/bestNumberFinalized.ts:25](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/chain/bestNumberFinalized.ts#L25)*
+*Defined in [chain/bestNumberFinalized.ts:25](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/chain/bestNumberFinalized.ts#L25)*
 
 **`name`** bestNumberFinalized
 
@@ -31,8 +31,10 @@ api.derive.chain.bestNumberFinalized((blockNumber) => {
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
 
 A BlockNumber
+
+▸ (): *`Observable<BlockNumber>`*

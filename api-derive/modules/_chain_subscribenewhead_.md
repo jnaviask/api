@@ -14,17 +14,17 @@
 
 ###  HeaderAndValidators
 
-Ƭ **HeaderAndValidators**: *[`Header`, `Array<AccountId>`]*
+Ƭ **HeaderAndValidators**: *[`Header`, `AccountId`[]]*
 
-*Defined in [chain/subscribeNewHead.ts:13](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/chain/subscribeNewHead.ts#L13)*
+*Defined in [chain/subscribeNewHead.ts:13](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/chain/subscribeNewHead.ts#L13)*
 
 ## Functions
 
 ###  subscribeNewHead
 
-▸ **subscribeNewHead**(`api`: `ApiInterface$Rx`): *`(Anonymous function)`*
+▸ **subscribeNewHead**(`api`: `ApiInterfaceRx`): *function*
 
-*Defined in [chain/subscribeNewHead.ts:28](https://github.com/polkadot-js/api/blob/cc4e0c8/packages/api-derive/src/chain/subscribeNewHead.ts#L28)*
+*Defined in [chain/subscribeNewHead.ts:28](https://github.com/polkadot-js/api/blob/71c5920/packages/api-derive/src/chain/subscribeNewHead.ts#L28)*
 
 **`name`** subscribeNewHead
 
@@ -43,8 +43,10 @@ api.derive.chain.subscribeNewHead(({ author, blockNumber }) => {
 
 Name | Type |
 ------ | ------ |
-`api` | `ApiInterface$Rx` |
+`api` | `ApiInterfaceRx` |
 
-**Returns:** *`(Anonymous function)`*
+**Returns:** *function*
 
 An array containing the block header and the block author
+
+▸ (): *`Observable<HeaderExtended>`*
