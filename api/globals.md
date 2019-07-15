@@ -7,7 +7,6 @@
 * ["Base"](modules/_base_.md)
 * ["SubmittableExtrinsic"](modules/_submittableextrinsic_.md)
 * ["checkTypes.manual"](modules/_checktypes_manual_.md)
-* ["nodeCompat"](modules/_nodecompat_.md)
 * ["promise/Api"](modules/_promise_api_.md)
 * ["promise/Combinator"](modules/_promise_combinator_.md)
 * ["promise/types"](modules/_promise_types_.md)

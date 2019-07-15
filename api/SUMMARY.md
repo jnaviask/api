@@ -7,7 +7,6 @@
   * [SubmittableExtrinsic.ISubmittableResult](interfaces/_submittableextrinsic_.isubmittableresult.md)
   * [SubmittableExtrinsic.SubmittableExtrinsic](interfaces/_submittableextrinsic_.submittableextrinsic.md)
   * [checkTypes.manual](modules/_checktypes_manual_.md)
-  * [nodeCompat](modules/_nodecompat_.md)
   * [promise/Api](modules/_promise_api_.md)
   * [promise/Api.ApiPromise](classes/_promise_api_.apipromise.md)
   * [promise/Combinator](modules/_promise_combinator_.md)
