@@ -118,9 +118,9 @@ There are cases where a single API object can be used to connect to different ty
 As a real-world example, the [polkadot-js/apps UI](https://github.com/polkadot-js/apps) can connect to a variety of chains. To support [Edgeware](https://edgewa.re/) by default, the following node-type (`specName` as per the runtime version) overrides are made -
 
 ```js
-import { IdentityTypes } from 'edgeware-node-types/dist/identity';
-import { SignalingTypes } from 'edgeware-node-types/dist/signaling';
-import { VotingTypes } from 'edgeware-node-types/dist/voting';
+import { IdentityTypes } from '@edgeware/node-types/dist/identity';
+import { SignalingTypes } from '@edgeware/node-types/dist/signaling';
+import { VotingTypes } from '@edgeware/node-types/dist/voting';
 
 ...
 const api = await ApiPromise.create({
